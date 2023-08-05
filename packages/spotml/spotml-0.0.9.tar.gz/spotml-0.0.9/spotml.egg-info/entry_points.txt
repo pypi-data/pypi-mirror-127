@@ -1,0 +1,3 @@
+[console_scripts]
+spotml = spotml.cli:main
+
