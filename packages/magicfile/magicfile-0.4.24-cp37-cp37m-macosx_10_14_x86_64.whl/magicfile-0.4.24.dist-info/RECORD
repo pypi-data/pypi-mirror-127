@@ -1,0 +1,11 @@
+magicfile/_libmagic.abi3.so,sha256=m3QsU2z05ckx6m3leBGog1Rg2yI0yzwS9zfFG7a-WtQ,56608
+magicfile/__init__.py,sha256=MWiNE_GUgvrDcnI1TGsamHuY1d4zoBxkFUokU4tqjrU,5990
+magicfile/magic.mgc,sha256=4XbrbGdFV5iyTiRryig1Be49g_GABXck-STl5pePuIQ,5818072
+magicfile/_libmagic_build.py,sha256=R3o-26lPHQACrPYi3Wo6-AmXZz2kItr6W7YSAYuymdA,841
+magicfile/.dylibs/libmagic.1.dylib,sha256=6Wudip2nIzsj6bw82v7s_BBVlGAvVHDCwHbv6yAF5pI,215248
+magicfile/.dylibs/liblzma.5.dylib,sha256=O-BI1ElkOZhvWSXYbq3ZxeJ79tKmEg4BBMzmHZFd-dM,157792
+magicfile-0.4.24.dist-info/RECORD,,
+magicfile-0.4.24.dist-info/LICENSE,sha256=Pzdzev545xdhLafvaLGJ-iXM0uvOeyNCrZKvGb3g4S4,1081
+magicfile-0.4.24.dist-info/WHEEL,sha256=09ilctnU90ztFuksfSRiG_Vbal2GkMIuPJ3QrdP4HAo,111
+magicfile-0.4.24.dist-info/top_level.txt,sha256=3brWKQcgC_IzIHWJ5mbt605y6i3SHAh2ZgUVusbkfgA,10
+magicfile-0.4.24.dist-info/METADATA,sha256=2QMlueA74iRRkqxjDHnd6aPpuNbCRVvOI4Xpv5kGTJo,4213
