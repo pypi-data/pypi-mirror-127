@@ -1,0 +1,13 @@
+setuptools
+eea.zotero
+eea.api.layout
+eea.schema.slate
+eea.geolocation
+eea.sentry
+collective.taxonomy
+eea.api.taxonomy
+plone.volto
+plone.restapi
+
+[test]
+plone.app.testing
