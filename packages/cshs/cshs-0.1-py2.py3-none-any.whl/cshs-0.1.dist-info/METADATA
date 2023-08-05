@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cshs
+Version: 0.1
+Summary: namespace reservation for internal tooling
+Author-email: EIS Data Science Team <GroupEISDataScience@cshs.org>
+Maintainer-email: EIS Data Science Team <GroupEISDataScience@cshs.org>
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Build Tools
+Project-URL: Homepage, https://www.cedars-sinai.org
+
+cshs
+====
+
+Namespace reservation for internal project tooling, in compliance with [PEP 518](https://www.python.org/dev/peps/pep-0518/#tool-table).
+
