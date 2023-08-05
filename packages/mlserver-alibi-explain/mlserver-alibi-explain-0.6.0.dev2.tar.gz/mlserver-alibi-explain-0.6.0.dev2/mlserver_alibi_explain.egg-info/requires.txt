@@ -1,0 +1,3 @@
+mlserver
+alibi
+tensorflow==2.6.2
