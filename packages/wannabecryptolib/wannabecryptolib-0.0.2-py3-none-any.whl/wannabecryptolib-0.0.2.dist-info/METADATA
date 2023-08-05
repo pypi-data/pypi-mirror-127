@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wannabecryptolib
+Version: 0.0.2
+Summary: Encrypting strings.
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+Not safe at all. Just for educational purposes
+
