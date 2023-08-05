@@ -1,0 +1,10 @@
+anopool/__init__.py,sha256=iwhVcA9NyOSW1tlkOIlQVlnP-rskNM9v_md87CUkww0,561
+anopool/_common.py,sha256=JYzM2UEz7rwVSEbW-mWxrKb3iH61sow2G3lW_14MIjw,176
+anopool/async_pool.py,sha256=G-lMv-HQqelWlV_wpJXwZaBlKNVVIYk9IVYHl31b62I,7436
+anopool/exceptions.py,sha256=sxmAArS0WDSV3i5ni9b6vxLib3e9KfetcOZZCd-r-6g,360
+anopool/pool.py,sha256=6aGtlNbwUIuMqWFQz8HaVTP2kOVcUe5__ZKioFM4Jz0,5892
+anopool/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anopool-0.1.0b0.dist-info/LICENSE,sha256=vOcRZPhor52ToIIGHmsoC2VjlPgkP2czQ7O0jB4KKWc,1058
+anopool-0.1.0b0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+anopool-0.1.0b0.dist-info/METADATA,sha256=_RypWti8SRMStR5b8wQ1dJYMOt-9qDqT0V_lRIR1Sfk,1256
+anopool-0.1.0b0.dist-info/RECORD,,
