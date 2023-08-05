@@ -1,0 +1,14 @@
+cwl-utils
+flask
+pyyaml
+requests
+
+[testing]
+flake8
+isort
+jsonschema
+mypy
+pytest
+types-PyYAML
+types-requests
+types-setuptools
