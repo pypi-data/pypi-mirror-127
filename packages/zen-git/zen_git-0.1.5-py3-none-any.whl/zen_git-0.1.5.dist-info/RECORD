@@ -1,0 +1,8 @@
+zen/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zen/commands/prs.py,sha256=Q3rn8xLg8mL--MUIrkp3vdRsPReoGgJnsrGKtkNlcZ8,2416
+zen/commands/repos.py,sha256=GJTDOjlu8adr3f0WBds6yUXQR6GTZifdrPKKBqvkUac,1568
+zen/main/zen.py,sha256=pVo7QKg0l64UDq4CuyWRN4Dpg4GnW6Kstrvft-CeIHk,2161
+zen_git-0.1.5.dist-info/entry_points.txt,sha256=oDjkcW7F0V_s_5lqG7HgrsLaYOXDIbwPpGR-d-hgSN4,41
+zen_git-0.1.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+zen_git-0.1.5.dist-info/METADATA,sha256=J2XFC2oxwkKYAxoEsTeJN0lyxQg8CmsZLsevjoXCt1A,721
+zen_git-0.1.5.dist-info/RECORD,,
