@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: PySender
+Version: 2.4.0
+Summary: PyQt app to send REST API requests
+Home-page: https://github.com/fast-geek/PySender
+Author: lavender
+Author-email: support@lavender.ml
+License: MIT
+Project-URL: Homepage, https://github.com/fast-geek/PySender
+Project-URL: Donate, https://lavtg.ml/donat
+Keywords: python pyqt rest api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt5
+Requires-Dist: requests
+
+# PySender
+![](https://img.shields.io/pypi/pyversions/PySender)
+![](https://img.shields.io/pypi/l/PySender)
+
+## What is it?
+### PyQt app to send REST API requests
+### PyPi - [PySender](https://pypi.org/project/PySender/)
+![screenshot](https://github.com/fast-geek/PySender/raw/master/screenshot.png)
+
+## Main features:
+* #### GET, POST, PUT and other requests types
+* #### Basic and Digest authentication
+* #### Custom headers
+* #### JSON response with status code
+* #### And not only 😉
+
+## The latest version and updates
+
+##### You can find the latest binaries on [Github repository releases](https://github.com/fast-geek/PySender/releases)
+
+## Installation
+
+### First method (Recommended)
+* #### Download program executable from [Github repository releases](https://github.com/fast-geek/PySender/releases)
+* #### Open it (unzip if needed first)
+
+### Second method
+* #### Open your terminal/CMD
+* #### Install PySender via ```pip3 install PySender```
+
+## Requirements
+
+* ##### OS Independent
+* ##### Python >= 3.6.1
+
