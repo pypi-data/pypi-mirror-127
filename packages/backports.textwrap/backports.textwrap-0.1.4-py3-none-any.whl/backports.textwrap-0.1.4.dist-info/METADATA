@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: backports.textwrap
+Version: 0.1.4
+Summary: A backport of upcoming python/cpython#28136
+Author: Tip ten Brink
+Author-email: 75669206+tiptenbrink@users.noreply.github.com
+Requires-Python: >=3.5,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Source Code, https://github.com/tiptenbrink/textwrap
+Description-Content-Type: text/markdown
+
+# textwrap
+
+[![PyPI version](https://badge.fury.io/py/backports.textwrap.svg)](https://badge.fury.io/py/backports.textwrap)
+
+A backport of upcoming python/cpython#28136 with some additional fixes.
+
+Motivated due to jquast/blessed using textwrap, but this fails for zero-width characters. This allows setting text_len
+to, for example, wcswidth for more accuracy when word wrapping in the terminal.
+
+This uses the backports package style, see https://pypi.python.org/pypi/backports.
+
