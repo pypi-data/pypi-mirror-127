@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: apist-framework
+Version: 0.0.1
+Summary: API testing framework
+Home-page: https://github.com/Muratoi/apist
+Author: Murat Issayev
+Author-email: murat.isaev.214@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# apist
+API testing framework Python
+
+
