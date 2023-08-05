@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: simplebot-stickers
+Version: 2.1.0
+Summary: Sticker packs for all your Delta Chat needs (SimpleBot plugin)
+Home-page: https://github.com/adbenitez/simplebot_stickers
+Author: adbenitez
+Author-email: adbenitez@nauta.cu
+License: MPL
+Keywords: simplebot plugin deltachat stickers
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: simplebot (>=2.3.0)
+Requires-Dist: signalstickers-client (>=3.1.0)
+Requires-Dist: emoji (>=1.6.1)
+Requires-Dist: cachelib (>=0.4.1)
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: appdirs (>=1.4.4)
+Requires-Dist: lottie (>=0.6.10)
+Requires-Dist: CairoSVG (>=2.5.2)
+Requires-Dist: Pillow (>=8.4.0)
+Provides-Extra: dev
+Requires-Dist: simplebot (>=2.3.0) ; extra == 'dev'
+Requires-Dist: signalstickers-client (>=3.1.0) ; extra == 'dev'
+Requires-Dist: emoji (>=1.6.1) ; extra == 'dev'
+Requires-Dist: cachelib (>=0.4.1) ; extra == 'dev'
+Requires-Dist: requests (>=2.26.0) ; extra == 'dev'
+Requires-Dist: appdirs (>=1.4.4) ; extra == 'dev'
+Requires-Dist: lottie (>=0.6.10) ; extra == 'dev'
+Requires-Dist: CairoSVG (>=2.5.2) ; extra == 'dev'
+Requires-Dist: Pillow (>=8.4.0) ; extra == 'dev'
+Requires-Dist: pytest (>=6.2.5) ; extra == 'dev'
+Requires-Dist: black (>=21.10b0) ; extra == 'dev'
+Requires-Dist: mypy (>=0.910) ; extra == 'dev'
+Requires-Dist: isort (>=5.10.1) ; extra == 'dev'
+Requires-Dist: pylint (>=2.11.1) ; extra == 'dev'
+Requires-Dist: pylama (>=7.7.1) ; extra == 'dev'
+Requires-Dist: types-emoji (>=1.2.6) ; extra == 'dev'
+Requires-Dist: types-requests (>=2.25.9) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (>=6.2.5) ; extra == 'test'
+
+"Stickers" SimpleBot plugin
+===========================
+
+.. image:: https://img.shields.io/pypi/v/simplebot_stickers.svg
+   :target: https://pypi.org/project/simplebot_stickers
+
+.. image:: https://img.shields.io/pypi/pyversions/simplebot_stickers.svg
+   :target: https://pypi.org/project/simplebot_stickers
+
+.. image:: https://pepy.tech/badge/simplebot_stickers
+   :target: https://pepy.tech/project/simplebot_stickers
+
+.. image:: https://img.shields.io/pypi/l/simplebot_stickers.svg
+   :target: https://pypi.org/project/simplebot_stickers
+
+.. image:: https://github.com/adbenitez/simplebot_stickers/actions/workflows/python-ci.yml/badge.svg
+   :target: https://github.com/adbenitez/simplebot_stickers/actions/workflows/python-ci.yml
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+
+`SimpleBot`_ plugin that allows users to get stickers packs and convert normal images to stickers.
+
+To get sticker packs, browse https://signalstickers.com/ and copy the URL of the pack you want (the link in the "+ Add to Signal" button, an URL starting with ``https://signal.art/addstickers``) and send the pack URL to the bot in private, the bot will send you a zip with the sticker pack.
+
+To create an sticker from a normal image send the image to the bot and it will send you back the image as sticker.
+
+Send any text to the bot to search packs matching the given text.
+
+Send an emoji to the bot to get a random sticker associated with that emoji.
+
+By default the bot will upload packs that are too big to https://0x0.st/, you can change the cloud server with::
+
+    simplebot -a bot@example.com db -s simplebot_stickers/cloud "https://example.com"
+
+Install
+-------
+
+To install run::
+
+  pip install simplebot-stickers
+
+
+.. _SimpleBot: https://github.com/simplebot-org/simplebot
+
+
