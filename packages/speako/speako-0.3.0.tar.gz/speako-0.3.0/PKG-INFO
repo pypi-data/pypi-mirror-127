@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: speako
+Version: 0.3.0
+Summary: package for language prediction used by OTTAA apps
+Home-page: https://ottaa-project.github.io/PictogramsPredictionsLibrary/
+Author: OTTAA Dev Team
+Author-email: info@ottaaproject.com
+License: UNKNOWN
+Description: package for language prediction used by OTTAA apps
+        
+        For full documentation, see:
+        
+        https://ottaa-project.github.io/PictogramsPredictionsLibrary/
+Platform: UNKNOWN
