@@ -1,0 +1,4 @@
+[console_scripts]
+clipy = coding_assistant.cli:cli
+coding-assistant = coding_assistant.cli:cli
+

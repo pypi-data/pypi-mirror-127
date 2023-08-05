@@ -1,0 +1,14 @@
+LICENSE
+README.md
+publish.sh
+setup.py
+coding_assistant/__init__.py
+coding_assistant/__main__.py
+coding_assistant/assistant.py
+coding_assistant/cli.py
+coding_assistant/clipy.py
+coding_assistant.egg-info/PKG-INFO
+coding_assistant.egg-info/SOURCES.txt
+coding_assistant.egg-info/dependency_links.txt
+coding_assistant.egg-info/entry_points.txt
+coding_assistant.egg-info/top_level.txt
