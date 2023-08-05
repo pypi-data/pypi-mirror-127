@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/messagebox/__init__.py
+src/messagebox/_dummy.py
+src/messagebox/_linux.py
+src/messagebox/_win32.py
+src/messagebox.egg-info/PKG-INFO
+src/messagebox.egg-info/SOURCES.txt
+src/messagebox.egg-info/dependency_links.txt
+src/messagebox.egg-info/top_level.txt
