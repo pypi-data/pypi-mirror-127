@@ -1,0 +1,4 @@
+pandas
+numpy
+rich
+scipy==1.7.2
