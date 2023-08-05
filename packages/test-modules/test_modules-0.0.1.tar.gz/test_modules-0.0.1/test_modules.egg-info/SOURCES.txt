@@ -1,0 +1,9 @@
+setup.py
+test_moduels/__init__.py
+test_moduels/file1.py
+test_moduels/extras/__init__.py
+test_moduels/extras/empty.py
+test_modules.egg-info/PKG-INFO
+test_modules.egg-info/SOURCES.txt
+test_modules.egg-info/dependency_links.txt
+test_modules.egg-info/top_level.txt
