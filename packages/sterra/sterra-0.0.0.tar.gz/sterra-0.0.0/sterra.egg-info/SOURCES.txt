@@ -1,0 +1,5 @@
+setup.py
+sterra.egg-info/PKG-INFO
+sterra.egg-info/SOURCES.txt
+sterra.egg-info/dependency_links.txt
+sterra.egg-info/top_level.txt
