@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/formally/__init__.py
+src/formally/example.py
+src/formally.egg-info/PKG-INFO
+src/formally.egg-info/SOURCES.txt
+src/formally.egg-info/dependency_links.txt
+src/formally.egg-info/top_level.txt
