@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "botco"
+version = "0.1.3"
+description = ""
+authors = ["Suhrob <oopanndaa@gmail.com>"]
+repository  = "https://github.com/malikovss/botc"
+readme = "README.md"
+keywords = [
+    "telegram",
+    "bot",
+    "api",
+    "framework",
+    "wrapper",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"]
+
+[tool.poetry.dependencies]
+python = ">=3.6.1,<4.0"
+requests = "^2.26.0"
+redis = "^3.5.3"
+pydantic = "^1.8.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
