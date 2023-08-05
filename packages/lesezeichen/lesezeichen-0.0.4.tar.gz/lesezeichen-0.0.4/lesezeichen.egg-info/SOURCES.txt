@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+lesezeichen/__init__.py
+lesezeichen/cli.py
+lesezeichen/lesezeichen.py
+lesezeichen.egg-info/PKG-INFO
+lesezeichen.egg-info/SOURCES.txt
+lesezeichen.egg-info/dependency_links.txt
+lesezeichen.egg-info/entry_points.txt
+lesezeichen.egg-info/requires.txt
+lesezeichen.egg-info/top_level.txt
