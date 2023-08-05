@@ -1,0 +1,8 @@
+southpaw/__init__.py,sha256=_rRx-mqsAayrEAv2yzbhit0FWgONP12AtbHShX0d6gE,23
+southpaw/fanduel.py,sha256=hzrmaJ3TPE2tsO3Q2QThlCyeOxJcBqHMPeK4WlU0VFw,18966
+southpaw/tests/__init__.py,sha256=qG23c0lbJWT3D9peZMAXKduiBjd0RXZE7G8gwMb8eAM,177
+southpaw/tests/test_fanduel.py,sha256=kyQcWBbQIMKhn8wWhPXBPA3KzHHjK5kMXybhjijMzOs,2069
+southpaw-1.2.0.dist-info/METADATA,sha256=XqTNtgLWvthZ-CQ92_T8WXj65i1u_4tUsX3XfagAsyU,366
+southpaw-1.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+southpaw-1.2.0.dist-info/top_level.txt,sha256=D1wW-YLzPjxB4BrH347ZmynXw9xnzbITXC0ZutJVGas,9
+southpaw-1.2.0.dist-info/RECORD,,
