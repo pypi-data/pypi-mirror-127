@@ -1,0 +1,13 @@
+ewccommons/__init__.py,sha256=lrQtyc4rnngbOpAogNeNBUPEK1KkQj637qZX_3PRNxY,234
+ewccommons/__main__.py,sha256=FPOzJONzdIcNEIvr4n9ekfDcYsmosCk4WH2lZ5y_5CE,3254
+ewccommons/__version__.py,sha256=i0eP6hkY6ymuggNsezPqpTPG4TkA93CC3JuvDWTeDO0,25
+ewccommons/carddeck.py,sha256=Mspmwjrq8-uKP8DQBMSMsnLRTNOGwx5geaFelxvhf7A,2923
+ewccommons/dice.py,sha256=uwYBuMcSE-P8Tl2xwPd5C2mCGg6ENq6LhxJKsYccU-k,10478
+ewccommons/dicerolls.py,sha256=Mo6BPunl9T2BsTspI5lxuLPaYF7qnGXtJs_MpOxa9ZI,3074
+ewccommons/sophie.py,sha256=h23cLbHvm6AM2qSVbTnAxYD8glQJmWFrINfGh2pXWx4,10936
+ewc_commons-0.0.1.7a0.dist-info/LICENSE,sha256=izAgfWN9mX-yHuvCXAoUx2wUT4o6t9ITeOrgz4-gQ2Y,1077
+ewc_commons-0.0.1.7a0.dist-info/METADATA,sha256=WKP0a2GqXCy-DY5N6k2-oKQqaT-1Bfuc-J-T8l4bL4U,9088
+ewc_commons-0.0.1.7a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ewc_commons-0.0.1.7a0.dist-info/entry_points.txt,sha256=6aIrhkrVjOY4Q03z1FtdMJ_nkon8VtXeXVEZl1ja464,135
+ewc_commons-0.0.1.7a0.dist-info/top_level.txt,sha256=EkuyM_HBdNOoldkUttqZuw1aRWO5dutiyb41Ri6kync,11
+ewc_commons-0.0.1.7a0.dist-info/RECORD,,
