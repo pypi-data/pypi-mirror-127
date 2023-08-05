@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rule34api.egg-info/PKG-INFO
+rule34api.egg-info/SOURCES.txt
+rule34api.egg-info/dependency_links.txt
+rule34api.egg-info/requires.txt
+rule34api.egg-info/top_level.txt
