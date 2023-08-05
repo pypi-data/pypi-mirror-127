@@ -1,0 +1,9 @@
+jupancon/__init__.py,sha256=rJfPFqPJ9tW7oZZ7YntvHp1FDTqSywMSH0b0bM98LiE,714
+jupancon/config.py,sha256=1QhnANIIjg-NEQ024ZUmK9i1ILZxjkvJlqaQz4CJgiA,4339
+jupancon/core.py,sha256=CSMqneBCUUFqJ_v06m9V03nMAwxEeWqKxhB3W2vROLM,2854
+jupancon/defaults.py,sha256=3diHZt7PYtIJJbDKdVODGj8aRrRUYPiO10Hdg-m-O-U,109
+jupancon/magic.py,sha256=_WZU7wXvIiY5Y5XWg334dQtS4UltRL7vQvfhEwMF1l8,1358
+jupancon-0.1.1.dist-info/LICENSE,sha256=7b7_VtVHaWBP1Le-tg3Ae120OaiLWBIAP7gAKCDmtR0,1070
+jupancon-0.1.1.dist-info/WHEEL,sha256=3tm2ZG-oRLlcavA1Wig9g4cIO0hV_ajg2xEhQivkwx4,99
+jupancon-0.1.1.dist-info/METADATA,sha256=BpTO54ZVQvRLkHoxXNrcIV6ISiYMMzDDTgW3C9_E8b8,1496
+jupancon-0.1.1.dist-info/RECORD,,
