@@ -1,0 +1,3 @@
+pymodaq
+pandas
+units_converter
