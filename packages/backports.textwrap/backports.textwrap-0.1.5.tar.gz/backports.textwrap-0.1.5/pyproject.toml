@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "backports.textwrap"
+version = "0.1.5"
+description = "A backport of upcoming python/cpython#28136"
+authors = ["Tip ten Brink <75669206+tiptenbrink@users.noreply.github.com>"]
+packages = [
+    { include = "backports", from = "src" },
+]
+readme = "README.md"
+
+[tool.poetry.urls]
+"Source Code" = "https://github.com/tiptenbrink/textwrap"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+[tool.poetry.dev-dependencies]
+pytest = [
+    {version = "^6.2.5", python = ">=3.6"},
+    {version = "^6.1.2", python = "~3.5"}
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
