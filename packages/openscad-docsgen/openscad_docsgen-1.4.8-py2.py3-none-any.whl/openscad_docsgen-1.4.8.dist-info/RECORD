@@ -1,0 +1,10 @@
+openscad_docsgen/__init__.py,sha256=hQQ1jROVb2tzaeuPZvsGKXHxA2ygcOZEi2OulUGkWbQ,5339
+openscad_docsgen/blocks.py,sha256=fsNo1st0f8K40Zn8-ZkkQiUQH9HgZ1jSV_ApoS954nM,60914
+openscad_docsgen/imagemanager.py,sha256=c6pBPJpeEMqLSxGgF49nZf4L6yFlw85OCt68T75MYK0,8870
+openscad_docsgen/markdown.py,sha256=T0IWKc_hhTTCAayfnVKFTN6cb2-ZETSfyo844aKGGAw,3054
+openscad_docsgen-1.4.8.dist-info/LICENSE,sha256=Kpd8exhkGr8Mb2-aJCA3DZsMP1skw3U0YM0pmwDFUa4,1070
+openscad_docsgen-1.4.8.dist-info/METADATA,sha256=s0QZGCvLbJpyttX-xT6WOAxOVZghqXw10oZZ_Mi4Ij0,8417
+openscad_docsgen-1.4.8.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+openscad_docsgen-1.4.8.dist-info/entry_points.txt,sha256=HnSOLDr420Gg4CX4ORNnLPS4q83I6ZhcBj7M18iWqSY,60
+openscad_docsgen-1.4.8.dist-info/top_level.txt,sha256=Ek1A_Y8Pb7oXosDSeQkKEWknK_WcvJplKjBf_QfjEik,17
+openscad_docsgen-1.4.8.dist-info/RECORD,,
