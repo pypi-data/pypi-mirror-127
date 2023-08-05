@@ -1,0 +1,11 @@
+Cargo.toml
+MANIFEST.in
+pyproject.toml
+setup.py
+pyvtracer/__init__.py
+pyvtracer.egg-info/PKG-INFO
+pyvtracer.egg-info/SOURCES.txt
+pyvtracer.egg-info/dependency_links.txt
+pyvtracer.egg-info/not-zip-safe
+pyvtracer.egg-info/top_level.txt
+src/lib.rs
