@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+Ngoto.egg-info/PKG-INFO
+Ngoto.egg-info/SOURCES.txt
+Ngoto.egg-info/dependency_links.txt
+Ngoto.egg-info/requires.txt
+Ngoto.egg-info/top_level.txt
+ngoto/__init__.py
+ngoto/main.py
+ngoto/utilities/__init__.py
+ngoto/utilities/interface.py
+ngoto/utilities/node.py
+ngoto/utilities/plugin.py
+ngoto/utilities/tables.py
+ngoto/utilities/workplace.py
+test/test_ngoto.py
