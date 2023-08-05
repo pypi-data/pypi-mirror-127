@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gadwall
+Version: 0.1.0
+Summary: A command line client to duckdb
+Home-page: https://github.com/tebeka/gadwall
+Author: Miki Tebeka
+Author-email: miki.tebeka@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gadwall - Command Line Client to duckdb
+
+[gadwall](https://en.wikipedia.org/wiki/Gadwall) is a Python based command line to [duckdb](https://duckdb.org/)
+
+
