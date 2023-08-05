@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+randomvariates/__init__.py
+randomvariates/random.py
+randvars.egg-info/PKG-INFO
+randvars.egg-info/SOURCES.txt
+randvars.egg-info/dependency_links.txt
+randvars.egg-info/requires.txt
+randvars.egg-info/top_level.txt
