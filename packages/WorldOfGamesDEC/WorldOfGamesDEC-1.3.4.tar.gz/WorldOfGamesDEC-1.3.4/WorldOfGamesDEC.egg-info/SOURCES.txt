@@ -1,0 +1,14 @@
+README.md
+setup.py
+WorldOfGamesDEC/CurrencyRouletteGame.py
+WorldOfGamesDEC/GuessGame.py
+WorldOfGamesDEC/Live.py
+WorldOfGamesDEC/MainGame.py
+WorldOfGamesDEC/MemoryGame.py
+WorldOfGamesDEC/__init__.py
+WorldOfGamesDEC.egg-info/PKG-INFO
+WorldOfGamesDEC.egg-info/SOURCES.txt
+WorldOfGamesDEC.egg-info/dependency_links.txt
+WorldOfGamesDEC.egg-info/requires.txt
+WorldOfGamesDEC.egg-info/top_level.txt
+bin/startWOG.py
