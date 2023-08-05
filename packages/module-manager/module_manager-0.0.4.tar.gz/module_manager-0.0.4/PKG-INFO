@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: module_manager
+Version: 0.0.4
+Summary: A Module for managing modules
+Home-page: UNKNOWN
+Author: darkboi3301(Eeshwar Sivasankar)
+Author-email: <elite.gfx.yt@gmail.com>
+License: UNKNOWN
+Project-URL: github, https://github.com/darkbi3301
+Project-URL: instagram, https://instagram.com/darkboi3301
+Keywords: python,module,management
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+
+A module to install,uninstall,reimport,get status of modules
+Use example:
+To install module:
+
+module_manager.install("numpy")
+
+
+
+To unistall module:
+
+module_manager.install("numpy")
+
+
+
+
+To update pip:
+
+module_manager.updatepip()
+
+
+
+
+To check if module is installed without raising error:
+
+module_manager.checkmoduleinstalled("numpy")
+
+
+
