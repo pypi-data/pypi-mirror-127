@@ -1,0 +1,308 @@
+Metadata-Version: 2.1
+Name: pzwin
+Version: 0.0.5
+Summary: A simple window framework based on pgzero and pygame
+Home-page: https://github.com/SeaOceanLiu/pzwin
+Author: SeaOceanLiu
+Author-email: seaocean.liu@163.com
+Maintainer: SeaOceanLiu
+Maintainer-email: seaocean.liu@163.com
+License: GNU General Public License v3.0
+Keywords: pygame,pgzero,win,frame
+Platform: Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame (>=2.0.2)
+Requires-Dist: pgzero (>=1.2.1)
+Requires-Dist: pynput
+
+# pzwin Package Documentation
+pzwin provides basic form component capabilities for programs based on pgzero / pyGame, so that developers can quickly create their own forms
+pzwin为基于pgzero/pygame的程序提供基本窗体组件能力，使各位开发者能快速为自己的窗体。
+
+## 1. Installations
+
+pzwin is published on PyPI, it can be installed through ***pip*** command. Use the following command to install the latest release version.
+
+pzwin发布到了PyPI，所以可以通过PIP进行安装。使用下面的命令可以安装最新的Release版本。
+
+```shell
+pip install pzwin
+```
+
+## 2. Quick Start
+
+### 2.1 Empty Window
+
+Let's create the simplest pzwin form. Create a file named ***emptyWindow.py*** and add the following two lines of code.
+
+我们先来创建一个最简单的pzwin窗体。创建一个名为emptyWindow.py的文件，然后添加下面两行代码。
+
+```python
+import pzwin.pgzeroEntry
+
+# Entry of pgzero event loop
+pzwin.pgzeroEntry.entryLoop()
+```
+
+Run this Python script file, a default blank form with a default icon, a blank title bar, and a default close button will appear, but it doesn't make any sense. If the desktop background is white, we can't even see its boundary.
+
+运行这个Python脚本文件，一个缺省的带有缺省图标、空白标题栏和缺省关闭按钮的空白窗体将会呈现出来，但是它并没有什么意义。如果桌面背景是白色的话，我们甚至看不出来它的边界。
+
+<img src="./README.assets/emptyWindow.png" alt="Empty Window" style="zoom: 67%;" />
+
+
+
+### 2.2 First Window
+
+The following code creates a standard form called ***firstWindow***, and the first form is also called desktop form. The name of the title bar of the form is set to "my first pzwin window", the edge of the form is drawn, and the mouse of the operating system is hidden. Finally, the code enters the event loop of pgzero, so that the form event and pgzero event can cooperate, and the message loop of pgzero is actually the message loop of pygame.
+
+下面的代码创建一个叫firstWindow的标准窗体，而第一个窗体也被称为desktop窗体。窗体的标题栏被设置为“My first pzwin window”，并将窗体边缘画了出来，同时隐藏了操作系统的鼠标。最后，代码进入了pgzero的事件循环，使得窗体事件和pgzero事件能协同起来，而pgzero的消息循环实际上就是pygame的消息循环。
+
+
+```python
+from pygame.rect import Rect
+from pzwin.Window import Window
+import pzwin.pgzeroEntry
+
+
+firstWindow: Window = Window(None, Rect(200, 100, 800, 600))\
+    .setCaption('My first pzwin window') \
+    .setBorderVisible(True) \
+    .setSystemMouseVisibility(False)
+
+# Entry of pgzero event loop
+pzwin.pgzeroEntry.entryLoop()
+```
+
+***Window*** is the basic form of pzwin. There is an icon on the top left of the form, a title bar in the middle, and a closed window.
+
+Window是pzwin的基本窗体，窗体最上方左侧有一个图标，中间部分是一个标题栏，还有一个关闭窗口。
+
+<img src="./README.assets/firstWindow.png" alt="First Window" style="zoom: 67%;" />
+
+
+
+Base on above knowledge, we can add more forms or components. Let's create a normal form.
+
+在此基础上我们可以添加更多的窗体或组件，下面我们创建一个比较正常的窗体。
+
+### 2.3 Window Construction
+
+Now we modify the code of ***firstWindow*** and add a button on the bottom-right corner of the form to close the  ***firstWindow*** form through our own code. Refer to the note below to add a new code.
+
+现在我们修改firstWindow的代码，在这个窗体的右下角，增加一个按钮，用来通过我们自己的代码关闭firstWindow窗体。参考下面的注释新增代码。
+
+```python
+import sys  # Add for exit
+from pygame.rect import Rect
+from pzwin.Window import Window
+from pzwin.Button import Button  # Add for Button Component
+import pzwin.pgzeroEntry
+
+
+# Add a callback function for closing the window
+def closeFun():
+    sys.exit(0)
+
+
+firstWindow = Window(None, Rect(200, 100, 800, 600))\
+    .setCaption('My first pzwin window') \
+    .setBorderVisible(True) \
+    .setSystemMouseVisibility(False)
+
+
+# Add a Button component to the bottom right corner of the firstWindow
+# then set the text display on the button to 'Close'
+# then set the button's click callback function to previous defined function named closeFun()
+closeBtn: Button = firstWindow.addButton(Rect(690, 530, 100, 30))\
+    .setText('Close')\
+    .setClickCallBack(closeFun)
+
+# Entry of pgzero event loop
+pzwin.pgzeroEntry.entryLoop()
+```
+
+Run this Python script, you can see that a "Close" button is indeed added on the bottom-right corner of the ***firstWindow*** form. Clicking it may also close the ***firstWindow***. This example shows how to build a form according to your own needs (add form components to the form, for example, call the ***addButton()*** function to add a button; set some properties of the button, for example, call the ***setText()*** function to set the name of the button), and respond accordingly (respond to the user's behavior by setting the button click callback function ***setClickCallBack()***) 。
+
+ 运行这个Python脚本，可以看到在firstWindow窗体右下角确实增加了一个“Close”按钮，点击它也可能关闭掉firstWindow。这个例子展示了如何根据自己的需要来构建窗体（向添加窗体组件，例如调用addButton函数来增加按钮；并设置按钮的一些属性，例如调用setText函数来设置按钮呈现的名字），并作出相应的响应（通过设置按钮的点击回调函数setClickCallBack，对用户的行为作出响应）。
+
+<img src="./README.assets/winConstruction.png" alt="Window Construction" style="zoom: 67%;" />
+
+
+
+### 2.4 Painting and Updating
+
+pzwin is based on pgzero / pygame, so it essentially serves for game interface drawing. Let's take a more complex example to show how to implement it on pzwin.
+
+pzwin是以pgzero/pygame作为基础的，所以它本质上还是要为游戏界面绘制服务。下面我们以一个比较复杂的例子来展示在pzwin上如何实现。
+
+```python
+import pygame
+from pygame.rect import Rect
+from pygame.color import Color
+from pzwin.Window import Window
+from pzwin.Panel import Panel
+from pzwin.Label import Label
+from pzwin.Edit import Edit
+from pzwin.Button import Button
+from pzwin.Dialog import Dialog
+
+import pzwin.pgzeroEntry
+
+
+# Add components variables for forward referencing.
+confirmDialog: Dialog
+hintInfo: Label
+inputEdit: Edit
+
+# Add global variables for painting control.
+g_intervalCount: int = 10
+g_currentLineCount = 10
+g_currentDelayCount = 10
+
+
+# Add a callback function for painting the window, same function as the draw() function in pgzero.
+# This function draw lines on the surface of Panel component.
+def drawPic(surface: pygame.Surface):
+    global g_currentLineCount
+
+    stepX = 600 / g_currentLineCount
+    stepY = 360 / g_currentLineCount
+
+    for i in range(g_currentLineCount + 1):
+        pygame.draw.line(surface, Color('black'), (10, 10 +
+                         i * stepY), (10 + i * stepX, 370))
+
+
+# Add a callback function for updating the painting parameters, same function as the update() function in pgzero
+def updateInterval():
+    global g_intervalCount
+    global g_currentLineCount
+    global g_currentDelayCount
+
+    g_intervalCount -= 1
+    if g_intervalCount > 0:
+        return
+
+    g_intervalCount = g_currentDelayCount
+
+    g_currentLineCount += 1
+    if g_currentLineCount > 370:
+        g_currentLineCount = 1
+
+
+# Add a callback function for updating the painting parameters, same function as the update() function in pgzero
+def changeDelayCount():
+    global hintInfo
+    global confirmDialog
+
+    hintInfo.setText('确认把刷新时延时长变更为：' + str(inputEdit.text) + ' ？')
+    confirmDialog.show()
+
+
+# Add a callback function for user confirmation of changing variables of painting control
+def confirmChange():
+    global g_currentDelayCount
+    try:
+        g_currentDelayCount = int(inputEdit.text)
+        if g_currentDelayCount <= 0:
+            g_currentDelayCount = 1
+    except ValueError:
+        pass
+
+
+firstWindow: Window = Window(None, Rect(0, 0, 640, 480))\
+    .setCaption('My first pzwin window') \
+    .setBorderVisible(True) \
+    .setSystemMouseVisibility(False)
+
+# Place a Panel on the top of the client area of the main form, specify its background color, and draw the border
+playGround: Panel = firstWindow.addPanel(Rect(10, 10, 620, 380))\
+    .setBorderColor(Color('red'))\
+    .setBorderVisible(True)\
+    .setPaintCallBack(drawPic)\
+    .setUpdateCallBack(updateInterval)
+
+# Place a Label on the top of the client area of the main form and set its text content
+inputHint: Label = firstWindow.addLabel(Rect(120, 400, 300, 40))\
+    .setText('请输入刷新时延新时长（>0）：')
+
+# Place an Edit after inputHint
+inputEdit: Edit = firstWindow.addEdit(Rect(420, 400, 100, 40))\
+    .setText('10')
+
+# Place a Button after inputEdit
+changeBtn: Button = firstWindow.addButton(Rect(530, 400, 100, 40))\
+    .setText('Change')\
+    .setBorderColor(Color('black'))\
+    .setTextHorizontalCenter(True)\
+    .setBorderVisible(True)\
+    .setClickCallBack(changeDelayCount)
+
+# Add a Dialog to confirm the change in the main window
+confirmDialog: Dialog = firstWindow.addDialog(Rect(145, 100, 350, 200))\
+    .setCaption('请确认')\
+    .setBorderVisible(True) \
+    .setConfirmCallback(confirmChange)\
+    .hide()
+
+# Add a Label to prompt the change in the Dialog to confirm the change
+hintInfo: Label = confirmDialog.addLabel(Rect(10, 30, 330, 30))\
+    .setText('确认把刷新时延时长变更为：')\
+    .setTextUpColor(Color('black'))\
+    .setTextOverColor(Color('black'))\
+    .setTextDownColor(Color('black'))\
+
+# Entry of pgzero event loop
+pzwin.pgzeroEntry.entryLoop()
+```
+
+Save the above Python script as ***paintingUpdating.py***, and then run the Python script. You can see that the program continues to draw a surface with many straight lines in a gray area on the upper part of the form. At first, the interval of  these  straight lines is relatively large, and then the interval slowly decreases, and then repeat.
+
+将上述Python脚本保存为paintingUpdating.py，然后运行这个Python脚本，可以看到程序在窗体上部的一块灰色区域不断地用直线描绘出一个曲面，开始时直线间隔比较大，然后间隔慢慢地变小，再重复。
+
+<img src="./README.assets/paintingUpdating.png" alt="Painting and Updating" style="zoom:67%;" /> 
+
+You can refresh the delay parameter instead, by clicking the "Change" button. At this time, a confirmation window will pop up.
+
+可以改为刷新时延参数，并点击“Change”按钮，这时会有一个确认窗体弹出来。
+
+<img src="./README.assets/changConfirmation.png" alt="Change Confirmation" style="zoom:67%;" />
+
+After clicking the Confirm button, the delay parameter will actually take effect, and the change of line drawing speed can be seen.
+
+点击确认Confirm按钮后，这个时延参数就实际生效了，可以看到线条绘制速度的变化。
+
+## 3. Basic Frame
+
+At present, pzwin provides two common basic form frames.
+
+目前pzwin提供了两种常见的基本窗体框架。
+
+### 3.1 Window
+
+***Window*** frame is the main form, which only has the basic properties of the form. Firstly, it is divided into two parts: the upper part is the form control area, and the lower part is the form main content display area, which is called ***clientRect***.
+
+Window框架即主窗体，它只具备了窗体的基本属性。首先它被分为上下两大块：上部是窗体控制区，下部是窗体主体内容显示区，叫clientRect。
+
+### 3.2 Dialog
+## 4. Basic Component
+At present, pzwin provides four common basic form components.
+
+目前pzwin提供了四种常见的基本窗体组件。
+
+### 4.1 Panel
+
+### 4.2 Label
+### 4.3 Button
+### 4.4 Edit
+
+## Change the Default Icon and Mouse Cursor
+
+
+
