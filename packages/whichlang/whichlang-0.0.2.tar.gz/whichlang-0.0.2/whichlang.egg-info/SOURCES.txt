@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+whichlang/__init__.py
+whichlang/train_lang_models.py
+whichlang/whichlang.py
+whichlang.egg-info/PKG-INFO
+whichlang.egg-info/SOURCES.txt
+whichlang.egg-info/dependency_links.txt
+whichlang.egg-info/top_level.txt
