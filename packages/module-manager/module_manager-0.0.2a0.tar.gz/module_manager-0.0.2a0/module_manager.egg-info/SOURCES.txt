@@ -1,0 +1,8 @@
+setup.py
+module_manager/__init__.py
+module_manager/main.py
+module_manager.egg-info/PKG-INFO
+module_manager.egg-info/SOURCES.txt
+module_manager.egg-info/dependency_links.txt
+module_manager.egg-info/requires.txt
+module_manager.egg-info/top_level.txt
