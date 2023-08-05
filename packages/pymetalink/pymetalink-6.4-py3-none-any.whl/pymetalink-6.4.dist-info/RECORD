@@ -1,0 +1,11 @@
+metalink/GPG.py,sha256=28g9zb3-M2hcf-5ENPt7h3OifEJeubk3jfHgb_sa-2Q,24226
+metalink/__init__.py,sha256=7zONAvr2vpEGe73c584RSK4BKrq1i649c_sDJmiWMEQ,24
+metalink/console.py,sha256=6Ja-uyLhGSPj4sHM6y3lYRx_5hzziFaWP2VQQRImMAI,4614
+metalink/download.py,sha256=tEwMYrJxaDbTE9j5z-NFeAr7wAHftcm1CjTTbONTPLA,74883
+metalink/metalink.py,sha256=TqPk7Spb3HxJJCIBDV4PeGKSzndbA1bVky01NrC-lAI,69115
+metalink/proxy.py,sha256=ClL4QtHBohkyzyct-3TQIqDO4LGe2mxXwxAvUeal8ds,18851
+pymetalink-6.4.dist-info/entry_points.txt,sha256=EiLR8Kfs9dPPeraRXVdfMjC9lz78QIkowIwmJFchtak,52
+pymetalink-6.4.dist-info/LICENSE.txt,sha256=YER4EMnYuahXmsjJ25nu1YPI_h-r3ec_9hFxAlkztPU,1104
+pymetalink-6.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pymetalink-6.4.dist-info/METADATA,sha256=zLRVkVbkev7CCn8HeBhCQuW7wVwlyQ1ARntVP2HDIx0,556
+pymetalink-6.4.dist-info/RECORD,,
