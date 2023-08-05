@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyalp
+Version: 0.0.1
+Summary: Automatic parallelisation of loops of C code
+Home-page: UNKNOWN
+Author: Clément Aubert, Thomas Rubiano, Neea Rusch, Thomas Seiller
+Author-email: nrusch@augusta.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+Automatic parallelisation of loops of C code
+
