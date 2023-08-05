@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: msn-scraper
+Version: 1.0.0
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Title
+
+msn Scraper
+
+### Descrption
+
+* With msn Scraper you can scrape search results and extract the contents produced by the search result.
+* In msn scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_your": [
+        {
+            "column_0": [
+                {
+                    "text": "Opens in a new window"
+                },
+                {
+                    "text": "Opens an external site"
+                },
+                {
+                    "text": "Opens an external site in a new window"
+                }
+            ]
+        }
+    ],
+    "Scraper_detail_data": {
+        "Choose_language": "en",
+        "Food": "Food",
+        "MicrosoftCopyright": "\u00a9 2021 Microsoft",
+        "News_MSN_India": "Health News, Diet, Fitness & Workouts | MSN India",
+        "column_0": "Healthshots",
+        "column_1": "Pinkvilla",
+        "column_10": "Zika Outbreak: 16 More Test Positive In Kanpur, Tally Crosses 100-Mark In Uttar Pradesh",
+        "column_11": "Sidharth Shukla at 40, Puneeth Rajkumar at 46, Cricketer Avi Barot at 29, Irrfan Khan at 53. And the list goes on. While these were all celebrities whose untimely demise made headlines, we all must have seen at least one young close one or a person whom we knew leaving the world all of a sudden. All these young deaths in recent years leave a very pertinent question. Why are many Indians dying young? And does this mean that the life expectancy of...",
+        "column_13": "Want to opt for liposuction? Worried about the myths related to it? Fret not. Here we separate facts from fiction. If you have been wanting to know what the procedure is about, and how it works, here are all the details. Many people opt for various procedures to get rid of fat, and get back in shape. Liposuction, a cosmetic procedure is widely done to remove unwanted body fat. Here are the facts about the procedure. Dispelling myths about...",
+        "column_19": "Change language and content:",
+        "column_2": "The Daily Digest",
+        "column_24": "Quick Picks",
+        "column_28": "Send MSN Feedback",
+        "column_29": "We appreciate your input!",
+        "column_3": "India.com",
+        "column_5": "Photos",
+        "column_6": "Zika is a mosquito-borne virus that spreads through the bite of an infected Aedes species of mosquito, which bites during the day. Symptoms of this disease are mild fever, rashes, conjunctivitis, muscle, and joint pain, and headache.",
+        "column_7": "EXCLUSIVE: Expert explains liposuction and busts common myths about the procedure",
+        "column_8": "Legumes such as beans, lentils, chickpeas, and soybeans, are a good source of protein, folate, magnesium, and potassium. These nutrients promote good heart health, regulate blood sugar levels and boost energy. In addition, legumes also contain antioxidants that are known to reduce inflammation, and in turn, help maintain physical fitness. \u201cMost importantly, the consumption of \u2026 Continue reading \"Lap up these 5 legumes for a host of health...",
+        "column_9": "EXCLUSIVE: Has the life expectancy of Indians reduced? Experts REVEAL",
+        "feedback": "How can we improve?",
+        "feedbackLink": "Feedback",
+        "for": "Lap up these 5 legumes for a host of health benefits",
+        "get": "web search",
+        "hero_title_hide": "Live Coverage",
+        "in": "Sign in",
+        "side_topic_title": "Health",
+        "stars": "Please give an overall site rating:",
+        "title_media_photo": "Parents are relieved yet nervous as children 5-11 receive Covid vaccine",
+        "topic_title": "Health",
+        "vertical": "lifestyle"
+    }
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_LGG7D2TGHOXZKL5_json.json)
+
+### Run Scraper
+```sh
+from msn_scraper import *
+link="https://www.msn.com/en-in/lifestyle"
+data=run_msn_scraper(link)
+```
+
+### How it works?
+* It takes URL of msn page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the msn search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://www.msn.com/en-in/health)
+
+* [Example2](https://www.msn.com/en-in/lifestyle)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+
