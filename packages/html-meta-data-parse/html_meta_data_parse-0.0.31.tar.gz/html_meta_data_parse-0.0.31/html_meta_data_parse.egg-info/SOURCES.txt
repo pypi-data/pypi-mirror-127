@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+html_meta_data_parse/__init__.py
+html_meta_data_parse/util.py
+html_meta_data_parse.egg-info/PKG-INFO
+html_meta_data_parse.egg-info/SOURCES.txt
+html_meta_data_parse.egg-info/dependency_links.txt
+html_meta_data_parse.egg-info/requires.txt
+html_meta_data_parse.egg-info/top_level.txt
