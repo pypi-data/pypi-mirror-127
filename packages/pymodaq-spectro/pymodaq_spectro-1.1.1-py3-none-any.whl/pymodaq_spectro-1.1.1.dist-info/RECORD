@@ -1,0 +1,11 @@
+pymodaq_spectro/__init__.py,sha256=pA2rD7xC5uadikMCZRjDskaW4O1q9VFIAVqIRW9Cnw0,302
+pymodaq_spectro/spectrometer.py,sha256=PsDA50LhGatYD_cYvjNodb6MozqmJanRsbZccUTGe5w,40893
+pymodaq_spectro/version.py,sha256=pvSLLghsVKD-eKYIKlyQWCf2zl92qsPxzQRdq5QNj4k,3094
+pymodaq_spectro/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymodaq_spectro/utils/calibration.py,sha256=RTd04T6-shqV9rvFxCpgL6yLjyAdqGTsRkJepUU_Ufs,13699
+pymodaq_spectro/utils/utils_classes.py,sha256=xwnpII7zGH6pPXwsUvENcmDRSfNTuC_6DKUdQLxQGDg,3117
+pymodaq_spectro-1.1.1.dist-info/LICENSE,sha256=dv9KNV5XFuGGHJlgQQKEKSf3ey78T0a9tXf-ZPtGarE,1128
+pymodaq_spectro-1.1.1.dist-info/METADATA,sha256=UvFnFNiTQToPf04v-mHgPvirX9JrTzbc844H388jig4,1086
+pymodaq_spectro-1.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pymodaq_spectro-1.1.1.dist-info/top_level.txt,sha256=v8reoqjT1KR_CpuDTATdHUzCZw_lhIWP-EUOzrGQ2LE,16
+pymodaq_spectro-1.1.1.dist-info/RECORD,,
