@@ -1,0 +1,12 @@
+socpy/__init__.py,sha256=hvvNNielTwK5qgwp73RZyx_l5CHHZ7FpG7BcllpXiBY,307
+socpy/jobdesc.py,sha256=XFV4cM5tpnOpEQxmayO3BwtLgEe1OO_H7aV9DzmVaUw,452
+socpy/request.py,sha256=3JUlZkpxhfnmyYz2zeWeX-BMAtl0qBx7VA2FNR_excc,947
+socpy/response.py,sha256=8WmezbuGfAqFobuTNblPZ3ArenqeSrh6ljdBwDxi7yg,1154
+socpy/soccer.py,sha256=8tD8nC52K5zl1JKH3uYB_Pbo1V5o3mmp29C8APNVJck,1303
+socpy/utils.py,sha256=t2bkSXpuee0mBDXdgMrGTNjfEDp_Mbc7uMdedDm4Teo,1062
+socpy/data/job_desc.csv,sha256=usVnXhrP6Wt6gQrN7pgL9jzIpGvhbOrtp1ABwq-6lQQ,28364
+socpy-0.0.6.dist-info/LICENSE,sha256=LQbF4F1lfqOUb7_RrZfBEJnO1aAPiuLCX3fTWQ3evVQ,1086
+socpy-0.0.6.dist-info/METADATA,sha256=uTDyO0-_lVNZ23dKc8kDwNmIoOgp_d9nmvqi_6gOLSI,645
+socpy-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+socpy-0.0.6.dist-info/top_level.txt,sha256=hXxeSvVkwY78pOI9U9-Qkb_uDRkrlUSqJRWfP0NbpXM,6
+socpy-0.0.6.dist-info/RECORD,,
