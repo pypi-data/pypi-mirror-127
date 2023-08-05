@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyspectrum/__init__.py
+src/pyspectrum/color_examples.py
+src/pyspectrum.egg-info/PKG-INFO
+src/pyspectrum.egg-info/SOURCES.txt
+src/pyspectrum.egg-info/dependency_links.txt
+src/pyspectrum.egg-info/top_level.txt
