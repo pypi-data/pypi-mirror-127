@@ -1,0 +1,17 @@
+fastapi
+python-ioc>=1.7.0
+marshmallow
+unimatrix
+unimatrix.ext.crypto>=0.13.0
+unimatrix.ext.jose>=1.2.0
+unimatrix.ext.model
+
+[all]
+uvicorn[standard]
+cryptography
+
+[test]
+cryptography
+
+[uvicorn]
+uvicorn[standard]
