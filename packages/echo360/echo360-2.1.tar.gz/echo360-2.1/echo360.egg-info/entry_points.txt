@@ -1,0 +1,3 @@
+[console_scripts]
+echo360-downloader = echo360.main:main
+
