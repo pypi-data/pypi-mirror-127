@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: provides
+Version: 0.0.1
+Summary: map provided modules to packages
+Keywords: packaging,imports,modules
+Author-email: Jeremiah Paige <ucodery@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: packaging
+Requires-Dist: pytest >= 2.7.3 ; extra == "test"
+Project-URL: Home, https://github.com/ucodery/provides
+Provides-Extra: test
+
+# Provides
+
+Find out what python package provides that import.
+
+Map python packages to modules and the other way around.
+
