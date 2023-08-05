@@ -1,0 +1,8 @@
+pint
+numpy
+pandas
+networkx
+sympy
+matplotlib
+scipy
+tqdm
