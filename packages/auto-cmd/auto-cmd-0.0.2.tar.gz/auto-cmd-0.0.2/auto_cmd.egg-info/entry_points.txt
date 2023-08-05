@@ -1,0 +1,4 @@
+[console_scripts]
+auto-cmd = auto_cmd.cli:main
+auto-cmd-http = auto_cmd.http_server:main
+

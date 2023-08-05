@@ -1,0 +1,10 @@
+fire
+fastapi
+pynput
+UISoup
+uvicorn
+pytesseract
+Pillow
+pyvirtualcam
+numpy
+pyobjc-framework-Quartz
