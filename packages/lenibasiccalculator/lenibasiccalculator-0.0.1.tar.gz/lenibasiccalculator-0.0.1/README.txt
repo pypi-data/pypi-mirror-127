@@ -1,0 +1,1 @@
+This is a very simple calculator that takes two numbers and eithers adds, subtracts, multiply or divide them.

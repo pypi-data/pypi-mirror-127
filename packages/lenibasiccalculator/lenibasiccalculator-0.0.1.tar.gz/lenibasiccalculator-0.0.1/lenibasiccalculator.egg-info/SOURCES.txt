@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+lenibasiccalculator/_init_.py
+lenibasiccalculator.egg-info/PKG-INFO
+lenibasiccalculator.egg-info/SOURCES.txt
+lenibasiccalculator.egg-info/dependency_links.txt
+lenibasiccalculator.egg-info/top_level.txt
