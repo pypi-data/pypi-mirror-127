@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: newyorktimes-scraper
+Version: 1.0.0
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Title
+
+NewYork Times Scraper
+
+### Descrption
+
+* With nytimes Scraper you can scrape search results and extract the contents produced by the search result.
+* In nytimes scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_repeat_data_1": [
+        {
+            "cardName": "Farro and Cauliflower Parmesan",
+            "column_1": "Sarah DiGregorio",
+            "cookingTime": "1 hour and 5 minutes",
+            "recipes_link": "https://cooking.nytimes.com/recipes/1022682-farro-and-cauliflower-parmesan?surface=cooking-carousel&fellback=false&req_id=303701114&algo=cooking_doc2vec_weight_1&variant=0_cooking_doc2vec_weight_1&imp_id=741586743&action=click&module=RecirculationRibbon&pgType=recipedetails&rank=1"
+        }
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_9XMUAPOUPIUO770_json.json)
+
+### Run Scraper
+```sh
+from newyorktimes_scraper import *
+link="https://cooking.nytimes.com/recipes/1021529-banana-granola-with-cinnamon-nutmeg-and-walnut"
+data=run_newyorktimes_scraper(link)
+```
+
+### How it works?
+* It takes URL of nytimes page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the nytimes search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://cooking.nytimes.com/recipes/1022604-cheesy-bread-with-marinara)
+
+* [Example2](https://cooking.nytimes.com/recipes/1021529-banana-granola-with-cinnamon-nutmeg-and-walnuts)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+
