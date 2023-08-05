@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+fusion_review.egg-info/PKG-INFO
+fusion_review.egg-info/SOURCES.txt
+fusion_review.egg-info/dependency_links.txt
+fusion_review.egg-info/top_level.txt
