@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: panoply
+Version: 0.1.13
+Summary: 
+License: LICENCE
+Author: Jeremy Naccache
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
