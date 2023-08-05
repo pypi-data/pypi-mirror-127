@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: cosmoglobe
+Version: 0.9.43
+Summary: A Python package for interfacing the Cosmoglobe Sky Model with commander3 outputs for the purpose of producing astrophysical sky maps.
+Home-page: https://github.com/Cosmoglobe/Cosmoglobe
+License: GNU GPLv3
+Author: Metin San
+Author-email: metinisan@gmail.com
+Maintainer: Metin San
+Maintainer-email: metinisan@gmail.com
+Requires-Python: >=3.8,<3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.3.2)
+Requires-Dist: astropy (>=4.3.1,<5.0.0)
+Requires-Dist: click (>=8.0.1)
+Requires-Dist: cmasher (>=1.6.2,<2.0.0)
+Requires-Dist: h5py (>=3.0.0)
+Requires-Dist: healpy (>=1.15.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: numba (>=0.54.0,<0.55.0)
+Requires-Dist: numpy (>=1.17.0,<1.21.0)
+Requires-Dist: rich (>=10.9.0,<11.0.0)
+Requires-Dist: scipy (>=1.6.0)
+Requires-Dist: tqdm (>=4.62.2,<5.0.0)
+Project-URL: Documentation, https://cosmoglobe.readthedocs.io
+Project-URL: Repository, https://github.com/Cosmoglobe/Cosmoglobe
+Description-Content-Type: text/markdown
+
+
+
+# Cosmoglobe Sky Model
+[![Documentation Status](https://readthedocs.org/projects/cosmoglobe/badge/?version=latest)](https://cosmoglobe.readthedocs.io/en/latest/?badge=latest)
+[![astropy](http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat)](http://www.astropy.org/)
+
+## Description
+cosmoglobe is a python package that interfaces the Cosmoglobe Sky Model with the commander3 outputs for the purpose of producing astrophyiscal sky maps.
+
+The documentation can be found at [https://cosmoglobe.readthedocs.io](https://cosmoglobe.readthedocs.io/en/latest/).
+## Funding
+
+This work has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreements No 776282 (COMPET-4; BeyondPlanck), 772253 (ERC; bits2cosmology) and 819478 (ERC; Cosmoglobe).
+
+<p align="center">
+    <img src="./logo/LOGO_ERC-FLAG_EU_.jpg" height="200">
+    <img src="./logo/horizon2020_logo.jpg" height="200">
+</p>
+
+---
+
+## License
+
+[GNU GPLv3](https://github.com/Cosmoglobe/Commander/blob/master/COPYING)
+
