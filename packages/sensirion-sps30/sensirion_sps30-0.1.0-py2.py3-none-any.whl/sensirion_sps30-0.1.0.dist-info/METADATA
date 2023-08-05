@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: sensirion-sps30
+Version: 0.1.0
+Summary: Sensirion SPS30 Python library
+Home-page: https://mmartin09.github.io/pm-dashboard
+License: MIT
+Author: MMartin09
+Author-email: mmartin09@outlook.at
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Terminals :: Serial
+Requires-Dist: pyserial (>=3.5,<4.0)
+Project-URL: Repository, https://github.com/MMartin09/sensirion-sps30
+Description-Content-Type: text/markdown
+
+# Sensirion SPS30 PM Sensor
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/MMartin09/sensirion-sps30/lint?style=flat-square)
+![GitHub](https://img.shields.io/github/license/MMartin09/sensirion-sps30)
+[![style black](https://img.shields.io/badge/Style-Black-black.svg?style=flat-square)](https://github.com/ambv/black)
+
+## Usage
+
+Example Python script to read and print a single measurement.
+
+```python
+from time import sleep
+
+from sensirion_sps30 import SPS30
+
+port: str = "COM3"
+sps30 = SPS30(port)
+
+sps30.start_measurement()
+sleep(5)
+
+data = sps30.read_values()
+print(data)
+
+sps30.stop_measurement()
+```
