@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fee
+Version: 0.1.0
+Summary: Execute ELF files without dropping them on disk
+License: GPLv3
+Author: Rasmus Moorats
+Author-email: xx@nns.ee
+Requires-Python: >=3.6.2,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
