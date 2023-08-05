@@ -1,0 +1,10 @@
+pl_hub_sparse_ml_callback/__about__.py,sha256=QR4Bjy4GU0lRf4awRgIG1a8vJICBeYH5MQFee1WqNig,480
+pl_hub_sparse_ml_callback/__init__.py,sha256=t_kZg-E7wIklv8A8k-W2CVocJ0F3Y52Gk_4wtsJveBs,293
+pl_hub_sparse_ml_callback/boring_model.py,sha256=j2Os3TJ0Wlfn5fX1w7Tn2BZHUX87hZSPXJJ-o0sQ8hU,5788
+pl_hub_sparse_ml_callback/callback.py,sha256=6gDfOgLbbEtOZE9CDoByUjFkRzwywiTmJxpsoml8Jj0,4750
+pl_hub_sparse_ml_callback/setup_tools.py,sha256=C9jZPRsXyJto3L2P94OMvWUHqPakoCxU09P32KkBNaM,3383
+pl_hub_sparse_ml_callback-0.0.2.dist-info/LICENSE,sha256=Vro2JJ6oIWrVE7E9895sDkkLohSJdnTTAzHxx-ftvvM,5
+pl_hub_sparse_ml_callback-0.0.2.dist-info/METADATA,sha256=x_jPN2ukCzy4lWOv4YBcA1i2ZfwWXpHNQ1NEMTvNiVM,3795
+pl_hub_sparse_ml_callback-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pl_hub_sparse_ml_callback-0.0.2.dist-info/top_level.txt,sha256=wUYO6ciXj3uAHOtyt-jelV2tM9AkdmhZ8eUKh6qe4h4,26
+pl_hub_sparse_ml_callback-0.0.2.dist-info/RECORD,,
