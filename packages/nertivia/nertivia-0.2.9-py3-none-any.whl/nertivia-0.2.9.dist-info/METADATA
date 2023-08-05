@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: nertivia
+Version: 0.2.9
+Summary: A mirror package for nertivia.py. Please install that instead.
+Home-page: https://github.com/Nertivia-PY/Nertivia.py/
+Author: FluxedScript
+License: apache-2.0
+Keywords: API Wrapper,SIMPLE,PYTHON,nertivia
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: requests
+Requires-Dist: nest-asyncio
+Requires-Dist: six (>=1.9.0)
+Requires-Dist: websocket-client (>=0.54.0)
+Requires-Dist: websockets (>=7.0)
+Requires-Dist: aiohttp (>=3.4)
+Requires-Dist: bidict
+Provides-Extra: asyncio_client
+Requires-Dist: aiohttp (>=3.4) ; extra == 'asyncio_client'
+Requires-Dist: websockets (>=7.0) ; extra == 'asyncio_client'
+Provides-Extra: client
+Requires-Dist: requests (>=2.21.0) ; extra == 'client'
+Requires-Dist: websocket-client (>=0.54.0) ; extra == 'client'
+
+## This is a mirror package for nertivia.py. Please install that instead.
+
+Please install `nertivia.py` instead. This can be done by using `pip install nertivia.py`.
+
