@@ -1,0 +1,4 @@
+{
+  "START_COMMAND_BOT_ALREADY_STARTED_MESSAGE": "This is a default action for the start command when the bot is already started. Please, set up your own start command.",
+  "START_COMMAND_MESSAGE": "This is a default action for the start command. Please, set up your own start command."
+}
