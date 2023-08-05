@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+conversica_helpers.egg-info/PKG-INFO
+conversica_helpers.egg-info/SOURCES.txt
+conversica_helpers.egg-info/dependency_links.txt
+conversica_helpers.egg-info/requires.txt
+conversica_helpers.egg-info/top_level.txt
+cvsc_helpers/__init__.py
+cvsc_helpers/cvsc_helpers_bbox.py
+cvsc_helpers/cvsc_helpers_bbox_metrics.py
+cvsc_helpers/cvsc_helpers_csv_download.py
+cvsc_helpers/cvsc_helpers_csv_download2.py
+cvsc_helpers/cvsc_helpers_magic.py
+cvsc_helpers/helpers.py

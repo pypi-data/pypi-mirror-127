@@ -1,0 +1,7 @@
+pymongo
+chardet
+cchardet
+detect_delimiter
+requests
+pysftp
+pyyaml
