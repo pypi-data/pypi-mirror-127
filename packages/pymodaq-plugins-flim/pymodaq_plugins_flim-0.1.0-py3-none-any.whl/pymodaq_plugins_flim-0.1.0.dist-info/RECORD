@@ -1,0 +1,16 @@
+pymodaq_plugins_flim/VERSION,sha256=atlhOkVXmNbZLl9fOQq0uqcFlryGntaxf1zdKyhjXwY,5
+pymodaq_plugins_flim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymodaq_plugins_flim/daq_move_plugins/__init__.py,sha256=3gcm0_ff5vZa8-zXW8AXj-yXkqtowefk1EdFiDY1jZc,483
+pymodaq_plugins_flim/daq_viewer_plugins/__init__.py,sha256=ajz1GSNU9xYVrFEDSz6Xwg7amWQ_yvW75tQa1ZvRIWc,3
+pymodaq_plugins_flim/daq_viewer_plugins/plugins_0D/__init__.py,sha256=zWncrdNxbgpb2RG5xVjEkITM13bBnKelS2Izt8eqDGU,487
+pymodaq_plugins_flim/daq_viewer_plugins/plugins_1D/__init__.py,sha256=oREg_nYD8kxfERPujPRc4KAMFnhN7UIpnPAizJd0-Kk,487
+pymodaq_plugins_flim/daq_viewer_plugins/plugins_2D/__init__.py,sha256=ImKMNjX1EKXh-lhcgALosH6kEKZ3byU3-r5aoHJL03o,488
+pymodaq_plugins_flim/daq_viewer_plugins/plugins_ND/__init__.py,sha256=HEtV8mDAlcGtKEVmHTLAvEsOCok4lazunGiJtnbrQIs,487
+pymodaq_plugins_flim/daq_viewer_plugins/plugins_ND/daq_NDviewer_FLIM_TH260_PiezoConcept.py,sha256=otsvKVyfU3sWVGWfnTT9v7AibFlD_9UL-R6-KMp2k2Y,20468
+pymodaq_plugins_flim/hardware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymodaq_plugins_flim-0.1.0.dist-info/LICENSE,sha256=VKOejxexXAe3XwfhAhcFGqeXQ12irxVHdeAojZwFEI8,1108
+pymodaq_plugins_flim-0.1.0.dist-info/METADATA,sha256=0erZ_15LkAIDL4wB5ckQasQ2iV663uja9Wu9fYsG9B4,2075
+pymodaq_plugins_flim-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pymodaq_plugins_flim-0.1.0.dist-info/entry_points.txt,sha256=3NGK-FXeEd0lGhQVnLwnvrnSA-mQAsYmkB0pze_5PFI,47
+pymodaq_plugins_flim-0.1.0.dist-info/top_level.txt,sha256=Coay96_w2AeuDdo7UXkF-aBiA2379Vdv9EWKsfhEZ-A,21
+pymodaq_plugins_flim-0.1.0.dist-info/RECORD,,
