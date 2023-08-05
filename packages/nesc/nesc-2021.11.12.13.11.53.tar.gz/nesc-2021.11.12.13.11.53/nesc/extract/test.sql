@@ -1,0 +1,30 @@
+create table AA
+(
+  a   VARCHAR2(100),
+  b   VARCHAR2(100),
+  c   VARCHAR2(100),
+  d   VARCHAR2(100),
+  e   VARCHAR2(100),
+  f   VARCHAR2(100),
+  h   VARCHAR2(100),
+  i   VARCHAR2(100),
+  j   VARCHAR2(100),m
+  k   VARCHAR2(100),
+  o   VARCHAR2(100),
+  p   VARCHAR2(100),
+  q   VARCHAR2(100),
+  r   VARCHAR2(100),
+  s   VARCHAR2(100),
+  t   VARCHAR2(100),
+  u1  VARCHAR2(100),
+  u2  VARCHAR2(100),
+  u3  VARCHAR2(100),
+  u4  VARCHAR2(100),
+  u5  VARCHAR2(100),
+  u6  VARCHAR2(100),
+  u7  VARCHAR2(100),
+  u8  VARCHAR2(100),
+  u9  VARCHAR2(100),
+  u10 VARCHAR2(100)
+)
+;

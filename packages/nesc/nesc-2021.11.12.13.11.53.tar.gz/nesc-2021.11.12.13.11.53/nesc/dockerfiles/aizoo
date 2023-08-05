@@ -1,0 +1,17 @@
+FROM 10.210.10.97:30002/library/tensorflow-cpu-v2.2.0:v1.2.3
+USER root
+RUN rm /etc/pip.conf
+
+RUN echo "[global]" >> /etc/pip.conf
+RUN echo "index-url = http://192.18.26.222:8081/repository/pypiproxy/simple" >> /etc/pip.conf
+RUN echo "[install]" >> /etc/pip.conf
+RUN echo "trusted-host = 192.18.26.222" >> /etc/pip.conf
+
+RUN pip install -U --no-cache-dir aizoo appzoo
+
+
+# 节省空间
+RUN rm -rf ~/.cache/pip/*
+
+
+

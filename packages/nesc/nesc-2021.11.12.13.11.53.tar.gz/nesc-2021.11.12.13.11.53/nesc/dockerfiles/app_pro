@@ -1,0 +1,15 @@
+# FROM 10.210.10.97:30002/library/deeplearning/docker-serving:v19
+FROM 10.211.10.26:30002/library/deeplearning/docker-serving:v19
+
+USER root
+##################################################################
+# RUN pip config set global.index-url http://192.18.26.222:8081/repository/pypiproxy-baidu/simple
+# RUN pip config set install.trusted-host 192.18.26.222
+
+RUN pip config set global.index-url http://10.211.96.56:8081/repository/pypiproxy/simple
+RUN pip config set install.trusted-host 10.211.96.56
+RUN pip install -U --no-cache-dir appzoo
+##################################################################
+
+RUN rm -rf ~/.cache/pip/*
+RUN rm -rf /tmp/pip*
