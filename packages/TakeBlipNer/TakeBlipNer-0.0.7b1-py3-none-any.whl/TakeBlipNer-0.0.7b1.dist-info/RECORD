@@ -1,0 +1,17 @@
+TakeBlipNer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TakeBlipNer/data.py,sha256=1B3xnOImD536WUOJw7nDzG8fq-y6TeGP4fiiQxlVJl8,6463
+TakeBlipNer/nermodel.py,sha256=JtqfDeRY0DyXR1HKu-iYo9o-EIFetw0u0ZXdDypMkVQ,12088
+TakeBlipNer/process_option.py,sha256=zlRa_ksncphEo2kSCS0E6Lhlttafuanvbdedua3NqmM,54
+TakeBlipNer/utils.py,sha256=gQrtr49dN45ClMFB8qH43oh69LlnExNNPLCppCrIHko,3572
+TakeBlipNer/vocab.py,sha256=qr-9T8EfABw5TNS4oxLO-jOy0xigRykduig7XshAoeY,2701
+TakeBlipNer/logger/AzuremlLogger.py,sha256=0_piXMtIICu1_Dnsj9xo5kWD9n9xDz6pnoLdPbtT9po,3414
+TakeBlipNer/logger/__init__.py,sha256=Q8yHMn-osQ9Dk2RHjhkrCZM_rt_ZPHhDiBCEJWLoZw4,42
+TakeBlipNer/predict/NerPredict.py,sha256=rIOoBEmH0JxatfnjhPNV6NbbfsHubmOXv7zx-DM2dGo,6908
+TakeBlipNer/predict/__init__.py,sha256=b-ovn9G4nc1lHhvTMPD-uytJKlvCHpveh1rlf4mTTHU,36
+TakeBlipNer/train/LSTMCRFTrainer.py,sha256=R1873eWw4CPVOnFVBhCYo88iV09NvbdSixJfRHBXvls,12071
+TakeBlipNer/train/__init__.py,sha256=FzzMJ4yT4Blm70eRACXBvRXnPJ4BfrLNaG4RoGkYeYA,44
+TakeBlipNer-0.0.7b1.dist-info/LICENSE,sha256=9yajx_4_mfr8qLukpPcZEvr4DdVYbJu5rHFJEpp0co0,1090
+TakeBlipNer-0.0.7b1.dist-info/METADATA,sha256=8bEzkTkeqoohH_fBUWRM0x5BQ2y-ms4r-vKRZfRSEz4,12222
+TakeBlipNer-0.0.7b1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+TakeBlipNer-0.0.7b1.dist-info/top_level.txt,sha256=RPxP7bdEscS_5HOqKYCmHVnEmG7whZk4LJGj8OpRh8M,12
+TakeBlipNer-0.0.7b1.dist-info/RECORD,,
