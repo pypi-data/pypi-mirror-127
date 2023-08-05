@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: libinfoblox
+Version: 2.2
+Summary: Access infoblox API
+Home-page: https://github.com/steverweber/libinfoblox
+Author: Steve Weber
+Author-email: steverweber@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/steverweber/libinfoblox/archive/2.2.tar.gz
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: netaddr
+
+UNKNOWN
+
