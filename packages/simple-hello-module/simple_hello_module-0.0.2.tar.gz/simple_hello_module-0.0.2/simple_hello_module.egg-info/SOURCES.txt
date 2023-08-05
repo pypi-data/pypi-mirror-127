@@ -1,0 +1,11 @@
+README.md
+setup.py
+simple_hello_module/__init__.py
+simple_hello_module/simple_hello.py
+simple_hello_module.egg-info/PKG-INFO
+simple_hello_module.egg-info/SOURCES.txt
+simple_hello_module.egg-info/dependency_links.txt
+simple_hello_module.egg-info/top_level.txt
+simple_hello_module/extras/__init__.py
+simple_hello_module/extras/extra_dash.py
+simple_hello_module/extras/extra_text.py
