@@ -1,0 +1,3 @@
+[console_scripts]
+shino = shino.cmdline:execute
+
