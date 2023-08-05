@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pynamite/__init__.py
+src/pynamite/example.py
+src/pynamite.egg-info/PKG-INFO
+src/pynamite.egg-info/SOURCES.txt
+src/pynamite.egg-info/dependency_links.txt
+src/pynamite.egg-info/top_level.txt
