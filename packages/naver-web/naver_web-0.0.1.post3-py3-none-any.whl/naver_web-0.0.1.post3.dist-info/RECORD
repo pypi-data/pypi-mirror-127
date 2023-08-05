@@ -1,0 +1,16 @@
+naver_web/__init__.py,sha256=aRJ1AyZ9_ZIt_UsUWmC1mQxDV5ItcHm5YZCli7ahaqI,160
+naver_web/middleware.py,sha256=u-IYXZwK3F4dubAv4e6Mxn76vosC5mZdiEI2kb6l9NA,2136
+naver_web/proxy.py,sha256=biXA7LDhXPCfln_J9SWE00YEIe1Rfegl_kLVOK1MVbw,914
+naver_web/utils.py,sha256=z94vYiLCfL6s94UEktGtGaQa5Q9XPCg_ffVls3xTZrw,1071
+test/__init__.py,sha256=BoJ6tRen1klIIhwc16qgxuhXWCjNtlHsKiclRdijALg,198
+test/naver_getprops.py,sha256=_CNhWMU6AEDFMVCGz1p2QT9d90sMNRKOmww7vDj0qe0,129
+test/naver_netval.py,sha256=XbehRjtYosRifw2JariYPQFkU9GGtq_P41LhDhkWspY,237
+test/naver_param.py,sha256=2DSmaMrYq-WzO3V-FcRTzYfu8ZDF0EXceJQ7BtjQ1W0,128
+test/naver_query.py,sha256=_ynScLZjQiNRhgNz6__8t6J6G8qdfSMWZTp0CWou6NY,202
+test/naver_userpermission.py,sha256=UROz2oazZRYrgRN0drPzPHf7rT2OQtxkdwN_4BdMimM,135
+test/naver_write.py,sha256=qNrEDIvvaMB_qoKMmeYaxMkSvi4QHlQf0rZZ_2pcAH0,450
+test/naver_writelog.py,sha256=blDh-AMR2nd_WCqrv6-wyHCkqL9lYRa8ZHbZBbVvjYU,376
+naver_web-0.0.1.post3.dist-info/METADATA,sha256=gkzSuO8MgqhAhGxc5iudWBlo2zzE55Dt451TpH4S6ag,491
+naver_web-0.0.1.post3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+naver_web-0.0.1.post3.dist-info/top_level.txt,sha256=3ijtlVo3Pp-qm_uXhYSPPMtRAz2VAuarDFEdap5lzXE,15
+naver_web-0.0.1.post3.dist-info/RECORD,,
