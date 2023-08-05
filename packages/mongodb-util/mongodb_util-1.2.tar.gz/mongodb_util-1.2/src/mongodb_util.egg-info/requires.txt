@@ -1,0 +1,5 @@
+pymongo>=3.1
+packaging>=20.4
+
+[dev]
+mock==4.0.2

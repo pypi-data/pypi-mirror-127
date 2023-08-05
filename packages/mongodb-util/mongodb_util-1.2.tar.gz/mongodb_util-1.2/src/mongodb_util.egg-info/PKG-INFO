@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: mongodb-util
+Version: 1.2
+Summary: This module provides an easy mechanism to connect to MongoDbalong with various monitoring options that help debug issues at database level
+Home-page: UNKNOWN
+Author: Aman Mishra
+Author-email: aman@switchon.io
+License: UNKNOWN
+Description: # README
+        
+        ## This module provides an easy mechanism to connect to MongoDb.
+        
+        ## Currently implemented features -
+        1. Provide MongoClient handle
+        2. Monitor the MongoClient instance
+        3. Log the interactions with Mongodb server
+        4. Methods to retrieve details such as username, password, database name, port number and host name for scripts that access database without a database handle.
+        
+        ## How to get a mongodb connection?  
+        1. Import the module into the script
+        2. Create an object of the Database class - This will return a class object.
+        
+        ## Database Class -   
+        **Parameters -**
+        
+        1. uri = Mongodb URI
+                
+        ```python
+        mongodb://username:password@host_name:port_number/database_name
+        ```
+        
+        2. logger = Pass a logger handle
+        3. log = 
+        
+                |Option                 |Value                        |
+                |-----------------------|-----------------------------|
+                |commandlogger          |True | False (Default: True) |
+                |serverlogger           |True | False (Default: False)|
+                |heartbeatlogger        |True | False (Default: False)|
+                |topologylogger         |True | False (Default: False)|
+                |connectionpoollogger   |True | False (Default: False)|
+        
+        Get the client handle by calling connect() of the Database class.
+        
+        ## Example code -  
+        ```python
+        import mongodb_util
+        
+        obj = mongodb_util.Database("test_URI")
+        database_client = obj.connect()
+        database = database_client.<database name>
+        ```
+        
+        **Read from a collection**
+        
+        `database.<collection_name>.find()`
+        
+        **Write into a collection**
+        
+        `database.<collection_name>.insert({‘a’:1})`
+        
+        
+        ## Developing mongodb_util -
+        
+        To install mongodb_util, along with the tools you need to develop and run tests, run the following in your virtualenv:
+        
+        ```bash
+        $ pip install -e .[dev]
+        ```
+        
+        ## Changelog
+        1. **Version 1.0 -**
+        - Provide a mechanism to obtain a mongodb handle 
+        - Monitoring various transactions with the database
+        - Supports custom configuration file.
+        
+        2. **Version 1.1 -**
+        - Support for passing logger handle
+        
+        3. **Version 1.2 -**
+        - Remove config support 
+        - Modify the way database credentials are picked, user input expected.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Provides-Extra: dev
