@@ -1,0 +1,10 @@
+metalcompute.cpython-310-darwin.so,sha256=CJzwj5jMV9rjLzH6fyGABBlPA8JBIhIu0MZHpPlXiKY,92368
+metalcompute-0.1.0.data/scripts/metalcompute-mandelbrot,sha256=cCGmi_q8eFRZAvnKeQNsHdaPEGUKBzThdDG67keIZ-s,2471
+metalcompute-0.1.0.data/scripts/metalcompute-measure-flops,sha256=HozLGPOGdgFd9KWTyk2FE3fjAxuZdgEv66P2Mx4z1sQ,1356
+metalcompute-0.1.0.data/scripts/metalcompute-pipe,sha256=kc7k_YLHIrxEXsVaR5RmYloDXwSHMgpWMPnt_5oGg_c,650
+metalcompute-0.1.0.data/scripts/metalcompute-raymarch,sha256=QoLwOvuHRR60djHl-WaII84LuB-remdc3Ey6ER5yaJA,2516
+metalcompute-0.1.0.dist-info/LICENSE,sha256=SxAPJWAgWsPxUymqp9V5cDe6v5a5ieY6n0dOaC1xLNk,1071
+metalcompute-0.1.0.dist-info/METADATA,sha256=5HO3Y3Zrsj_8AS9G4BWNpFpwj8AzLuEMVKgAfIT96ps,2683
+metalcompute-0.1.0.dist-info/WHEEL,sha256=wolDZ9ufHSncjvD8GYaSAc5HLIVzZf9wBT1Zhc4Fu5I,111
+metalcompute-0.1.0.dist-info/top_level.txt,sha256=BfD2-autZwolJOt7AdS3C1wXWCFTR-uo2Utr0P5f2IA,13
+metalcompute-0.1.0.dist-info/RECORD,,
