@@ -1,0 +1,5 @@
+Descriptor
+==========
+
+.. automodule:: stem.descriptor
+
