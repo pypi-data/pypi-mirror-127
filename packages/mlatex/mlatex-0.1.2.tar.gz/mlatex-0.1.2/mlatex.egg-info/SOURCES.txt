@@ -1,0 +1,7 @@
+setup.py
+mlatex/__init__.py
+mlatex.egg-info/PKG-INFO
+mlatex.egg-info/SOURCES.txt
+mlatex.egg-info/dependency_links.txt
+mlatex.egg-info/not-zip-safe
+mlatex.egg-info/top_level.txt
