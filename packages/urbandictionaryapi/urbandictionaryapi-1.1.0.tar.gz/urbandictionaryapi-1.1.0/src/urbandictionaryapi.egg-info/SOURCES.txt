@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/urbandictionaryapi/UrbanDictionary.py
+src/urbandictionaryapi/__init__.py
+src/urbandictionaryapi.egg-info/PKG-INFO
+src/urbandictionaryapi.egg-info/SOURCES.txt
+src/urbandictionaryapi.egg-info/dependency_links.txt
+src/urbandictionaryapi.egg-info/top_level.txt

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: urbandictionaryapi
+Version: 1.1.0
+Summary: This is an unofficial UrbanDictionary API.
+Home-page: https://github.com/onurtvb/UrbanDictionary-API
+Author: onurtvb
+Author-email: onurjk.dev@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/onurtvb/UrbanDictionary-API/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# UrbanDictionary-API
+
+ This is an unofficial UrbanDictionary API.<br>
+
+Code Example:<br>
+```py
+from urbandictionaryapi import UrbanDictionary
+
+UrbanDictionary.search('word')
+UrbanDictionary.author()
+```
+
