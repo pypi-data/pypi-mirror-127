@@ -1,0 +1,76 @@
+### Title
+
+Youtube Scraper 
+
+### Descrption
+
+* With Youtube Scraper you can scrape search results and extract the contents produced by the search result.
+* In youtube scraper if we provide URL for searching MsExcel in google search then it will give us the json data which contains the video title ,video link ,youtbe channel ,video length ,etc.
+* Below you can see the sample JSON data which have been created through scraping using this scraper. 
+
+### JSON sample data
+```sh
+{
+    "Scraper_People_also_watched": [
+        {
+            "auto": "Technology for Teachers and Students",
+            "simple_endpoint_block_style_scope_thumbnail_link": "/watch?v=rwbho0CgEAE",
+            "simple_endpoint_style_scope_video": "The Beginner's Guide to Excel - Excel Basics Tutorial",
+            "snippet_container_one_line_style_scope_video": [
+                {
+                    "link": "/watch?v=rwbho0CgEAE",
+                    "text": "\n\n\n\n\n\n\nThe Beginner's Guide to Excel - Excel Basics Tutorial\n\n\n\n\n\n\n\n\n\n\n\n\n\nTechnology for Teachers and Students\n\n\n  \n    Technology for Teachers and Students\n  \n\n\n\n\n\n\n\u2022\n\n\n13M views\n4 years ago\n\n\n\n\n\n\n\n"
+                },
+                {
+                    "link": "/user/robobent",
+                    "text": "\n\n\n\n\n\nTechnology for Teachers and Students\n\n\n  \n    Technology for Teachers and Students\n  \n\n\n\n\n\n\n"
+                },
+                {
+                    "text": "\n\n\nIf you like this video, here's my entire playlist of Excel tutorials: http://bit.ly/tech4excel Learn the basics of using Microsoft Excel,\u00a0...\n\nIf you like this video, here's my entire playlist of Excel tutorials: http://bit.ly/tech4excel Learn the basics of using Microsoft Excel,\u00a0...\n\n  From the video description\n\n\n"
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                }
+            ],
+            "style_scope_thumbnail": "21:47",
+            "style_scope_video": "CC",
+            "style_scope_video_block": [
+                {
+                    "text": "13M views"
+                },
+                {
+                    "text": "4 years ago"
+                }
+            ]
+        }
+```
+[Download full sample data](https://datakund-scraper.s3.amazonaws.com/fors2d22ace_X1S07DYCXAKFQPR_json.json)
+
+### Run Scraper
+```sh
+from youtube_search_result_scraper import *
+link="https://www.youtube.com/results?search_query=ms+excel"
+data=run_youtube_search_result_scraper(link)
+```
+
+### How it works?
+* It takes URL of youtube page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the youtube search result.
+* It gives the title, link , a small description of video ,video length etc in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://www.youtube.com/results?search_query=ms+excel)
+
+* [Example2](https://www.youtube.com/results?search_query=ms+word)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
