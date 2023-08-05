@@ -1,0 +1,13 @@
+ngoto/__init__.py,sha256=KCaBU_3gAPVhiCwiYCT6vnCUOJqhhV33nK8_ltr_t2o,100
+ngoto/main.py,sha256=TuVnIDvNrY7LinMaO_881MgikfNHuNZGkaAHTyMG8-A,13815
+ngoto/utilities/__init__.py,sha256=iEJR-3dGXO2Mx1xOgrFlerS17PBjxOQbC7CmKFy8Qc4,217
+ngoto/utilities/interface.py,sha256=jTDrVHcku-iKcur0bQvq4MaUFdCPeXECpUPwruSYmSY,2660
+ngoto/utilities/node.py,sha256=3DukvXFClNZHioZkC0w64F9u9Z6CCyTD5GoQiEaiusE,1335
+ngoto/utilities/plugin.py,sha256=G1oIV69vK7XYlHBB1Be804b74LDKFi1GSMc56vS3bvk,870
+ngoto/utilities/tables.py,sha256=4Wj8eAxDx9KBt-VwildhAV4eaYSiY2plxy06oq5t-eo,2991
+ngoto/utilities/workplace.py,sha256=JqGXCfdF1i3hxzC1aalT_mpOratS6wMMN5izf-2ZFas,4851
+Ngoto-0.0.20.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+Ngoto-0.0.20.dist-info/METADATA,sha256=235LRGwOjqlN9RbjsN8f3GrX3itNsvkO-GYGl0trygg,599
+Ngoto-0.0.20.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Ngoto-0.0.20.dist-info/top_level.txt,sha256=zjdhZEsWmE0ZcEXoI2WSWMn3VXkIGVODEXfvzAKOBDU,6
+Ngoto-0.0.20.dist-info/RECORD,,
