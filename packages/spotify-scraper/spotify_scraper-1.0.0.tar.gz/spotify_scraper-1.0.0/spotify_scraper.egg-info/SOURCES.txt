@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pypi_scraper/__init__.py
+spotify_scraper.egg-info/PKG-INFO
+spotify_scraper.egg-info/SOURCES.txt
+spotify_scraper.egg-info/dependency_links.txt
+spotify_scraper.egg-info/requires.txt
+spotify_scraper.egg-info/top_level.txt

@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: spotify_scraper
+Version: 1.0.0
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Title
+
+spotify Scraper
+
+### Descrption
+
+* With spotify Scraper you can scrape search results and extract the contents produced by the search result.
+* In spotify scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_Ads_the_an": {
+        "Ads_the_an": "Ads that match the moment make an impact.",
+        "Content": "Audio advertising allows businesses to create a personal connection with customers in moments when other digital media can\u2019t. Plus, with Spotify your message will be heard: we deliver your ads in the moment listeners are most receptive in a no swipe, no scroll environment.",
+        "CountryName": "Nederland",
+        "Eyebrow_Hero_StyledEyebrow_eyebrow": "Audio Ads",
+        "FeatureCardstyled": "VIEW SPECS",
+        "FeatureCardstyled_Title": "Audio Ads",
+        "LogoWrapper": "Spotify Advertising\nSpotify Advertising Logo",
+        "MarkdownWrapper": "Reach active listeners on any device, in any environment, during all moments of the day. Audio ads are served between songs while there are no distractions, and the listener is focused on what you have to say. Complement your audio ad with a clickable link so listeners can tap to visit your website, app, or online destination.",
+        "Paragraph": "With digital audio, reaching people with personalized messaging doesn\u2019t have to be such a challenge. That\u2019s because our deep understanding of our listeners and connection with them throughout their day means we can help advertisers craft and deliver messages that enhance rather than interrupt the moment. And our research shows ads that match the moment make a bigger impact: 75% of Spotify listeners say they remember ads more when the ads recognize their moment or setting.",
+        "Title": "See how other brands reached their goals with our Audio Ads",
+        "Title_title": "Reach your audience when they\u2019re listening",
+        "column_12": "Audio Advertising on Spotify | Spotify Advertising",
+        "country": "Netherlands"
+    }
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_3213Z7RIH1EI1JP_json.json)
+
+### Run Scraper
+```sh
+from spotify_scraper import *
+link="https://ads.spotify.com/en-US/ad-experiences/video-ads/"
+data=run_spotify_scraper(link)
+```
+
+### How it works?
+* It takes URL of spotify page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the spotify search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://ads.spotify.com/en-US/ad-experiences/audio-ads/)
+
+* [Example2](https://ads.spotify.com/en-US/ad-experiences/video-ads/)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+
