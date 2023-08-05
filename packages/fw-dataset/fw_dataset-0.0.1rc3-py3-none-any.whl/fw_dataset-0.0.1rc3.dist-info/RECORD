@@ -1,0 +1,7 @@
+fw_dataset/__init__.py,sha256=BKkjcU_Srf2v-jdrmHQ5YVv4GmenQW88qRaQkcHzX58,357
+fw_dataset/dataset.py,sha256=cx0YyTPPUcYoa0sY_QIS91a-E67E-86qqih9a8KLLmw,17100
+fw_dataset/utils.py,sha256=vZ1Pwh-kQM_YCFryeleyezM70QzwIV1F7snDkYCzoAo,4337
+fw_dataset-0.0.1rc3.dist-info/LICENSE,sha256=3QLwoJgDkLWRKwcyYzPn3vLqTHhbdltfjFYeBOZSlDY,1078
+fw_dataset-0.0.1rc3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fw_dataset-0.0.1rc3.dist-info/METADATA,sha256=oI4EaKnib7RP6uXQbIdqAJAavxOQvs9W7aJPNjP-6R4,914
+fw_dataset-0.0.1rc3.dist-info/RECORD,,
