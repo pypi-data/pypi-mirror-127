@@ -1,0 +1,56 @@
+[build-system]
+requires = ["wheel", "setuptools>=30.3.0", "attrs>=17.1", "setuptools_scm[toml]>=3.4"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/simplify/_version.py"
+local_scheme = "no-local-version"
+
+[tool.check-manifest]
+ignore = [
+    'tests*',
+    '.*',
+    'pyproject.toml',
+    'pytest.ini',
+    'codecov.yml',
+    'CONTRIBUTING.md',
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--ignore=setup.py --ignore=examples/ --cov=simplify --cov-report=term-missing --cov-config=.coveragerc --cov-report xml"
+testpaths = [
+    "src",
+    "tests",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py37', 'py38']
+skip-string-normalization = true
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | .eggs
+  | build
+)/
+'''
+
+[tool.mypy]
+files = "src/simplify"
+pretty = true
+show_error_context = true
+show_error_codes = true
+# strict = true
+# disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = false
+warn_redundant_casts = true
+warn_return_any = false
+warn_unreachable = true
+strict_equality = true
+no_implicit_optional = true
+ignore_missing_imports = true
