@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ymir-proto
+Version: 0.1.5
+Summary: YMIR Protobuf Specs
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+make sure you've got grpcio and protobuf installed
+```
+pip install grpcio
+```
+
+
