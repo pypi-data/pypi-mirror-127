@@ -1,0 +1,7 @@
+setup.py
+wannabecryptolib/__init__.py
+wannabecryptolib/encryptlikeapro.py
+wannabecryptolib.egg-info/PKG-INFO
+wannabecryptolib.egg-info/SOURCES.txt
+wannabecryptolib.egg-info/dependency_links.txt
+wannabecryptolib.egg-info/top_level.txt
