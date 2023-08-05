@@ -1,0 +1,7 @@
+<VirtualHost $ports>
+    DocumentRoot $root_doc
+    ServerName $server_name
+    Alias $url $target_dir
+    ServerAdmin $admin_email
+</VirtualHost>
+
