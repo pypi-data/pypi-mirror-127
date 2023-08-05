@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+SmartParams.egg-info/PKG-INFO
+SmartParams.egg-info/SOURCES.txt
+SmartParams.egg-info/dependency_links.txt
+SmartParams.egg-info/requires.txt
+SmartParams.egg-info/top_level.txt
+smartparams/__init__.py
+smartparams/params.py
