@@ -1,0 +1,25 @@
+{% extends 'timeline.html' %}
+
+{% block title %}
+{{ community.name }} community - Luna
+{% endblock %}
+
+{% block create_post %}
+<a href="{% url 'new_post' community.id %}">Create post</a>
+{% endblock %}
+
+{% block heading %}
+<div id="community-info">
+  <h1>{{ community.name }}</h1>
+  @{{ community.name }}@{{ community.host }}
+  <p>
+    {{ community.description }}
+  </p>
+</div>
+{% endblock %}
+
+{% block pagination %}
+{% if next_page %}
+<a href="{% url 'community_old' community.id next_page %}">Next page</a>
+{% endif %}
+{% endblock %}
