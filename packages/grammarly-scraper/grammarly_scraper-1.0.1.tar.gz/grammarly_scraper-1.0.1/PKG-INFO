@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: grammarly_scraper
+Version: 1.0.1
+Summary: Grammarly scraper
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Title
+
+Grammarly Scraper
+
+### Descrption
+
+* With grammarly Scraper you can scrape search results and extract the contents produced by the search result.
+* In grammarly scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+* It gives the every detail present inside website such as title, text, description, grammar check etc. from the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_Grammarly": [
+        {
+            "column_0": [
+                {
+                    "text": "Whether you\u2019re a native English speaker or just beginning to learn, English grammar can be confusing. But proper grammar isn\u2019t the only thing you need to think about. Have you ever sent off an important email only to realize moments later that you forgot to run spell check and missed a mistake in the very first line? Do you struggle with apostrophes or spend way too long trying to identify the correct place to use a comma? Even if you\u2019re confident in your grasp of English grammatical rules, it\u2019s easy to mistype when you\u2019re writing fast and concentrating on your ideas."
+                },
+                {
+                    "text": "Grammarly is more than a grammar check, more than a spell check, and more than a punctuation corrector. It\u2019s a comprehensive writing tool that helps you write clear, flawless text that will impress your readers. With Grammarly, you\u2019ll build writing skills while you\u2019re correcting grammar, spelling, and punctuation mistakes as well as sentence structure problems, misused words, typos, and more."
+                }
+            ],
+            "title": "More Than a Grammar Checker"
+        }
+```
+
+[Download full sample data](https://datakund-scraper.s3.amazonaws.com/datakund_H9ASG0CZY30D6QR_json.json)
+
+### Run Scraper
+```sh
+from grammarly_scraper import *
+link="https://www.grammarly.com/grammar-check"
+data=run_grammarly_scraper(link)
+```
+
+### How it works?
+* It takes URL of grammarly page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the grammarly search result.
+
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://www.grammarly.com/grammar-check)
+
+* [Example2](https://www.grammarly.com/plagiarism-checker)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+
