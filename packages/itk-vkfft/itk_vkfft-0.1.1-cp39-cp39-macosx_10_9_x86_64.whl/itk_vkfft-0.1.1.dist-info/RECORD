@@ -1,0 +1,15 @@
+itk_vkfft-0.1.1.dist-info/RECORD,,
+itk_vkfft-0.1.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_vkfft-0.1.1.dist-info/WHEEL,sha256=5lHVdPuBGmG9UawPT0-AMISMkMm-RwSJPUmYxiUjh6s,102
+itk_vkfft-0.1.1.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_vkfft-0.1.1.dist-info/METADATA,sha256=Kmz42rrslob2gl95HMvSMcCq8FmVv3sOxbY8fO6yoWo,1511
+itk/itkVkHalfHermitianToRealInverseFFTImageFilterPython.py,sha256=WCgJz3p3pt8gmxCSXIq0rob8Bu9YzNuV07MFklqODVA,19326
+itk/itkVkRealToHalfHermitianForwardFFTImageFilterPython.py,sha256=3ksu8l7G7Y1ID6_oJZaNxVL-oupCFRfwYzSQPwseOA4,17633
+itk/itkVkComplexToComplexFFTImageFilterPython.py,sha256=BFn3URzPu0c_gxbZhdL3CZUDMba_8Nhi3nfyQ7_ig0w,16896
+itk/itkVkInverseFFTImageFilterPython.py,sha256=pfHd2c3tcsi6p_m9pcyrDxGFUhUce_6PXTsC1YkoZPw,14821
+itk/_VkFFTBackendPython.so,sha256=eTpoUjUC-TLqgIfFE1NMHnQRKvWyYpJfeTd8yYh2YiU,5532720
+itk/VkFFTBackendPython.py,sha256=vmPmD-KDH1ZEE8N5MYEZal6o56VS7l5MAj_Ndt2pDvI,2700
+itk/itkVkForwardFFTImageFilterPython.py,sha256=cvv1Kmqxa88hcgsnpG0McIoRYWgdxIJJ1Y4NTJ22_6Y,14733
+itk/Configuration/VkFFTBackend_snake_case.py,sha256=eb_ALnrC_Ha2wDXazc4DO6jVeKwFrq_8v8PVop7sFuI,238
+itk/Configuration/VkFFTBackendConfig.py,sha256=7sP8IRCHUMfYxpXD7oXYoaSp6RXdBDQgTnuBflewwtk,3418
+itk/.dylibs/libtbb.12.3.dylib,sha256=USh6UWexjiYZLXyuCRSxEekTfKIqvbbmPYPhONdhD1s,387664
