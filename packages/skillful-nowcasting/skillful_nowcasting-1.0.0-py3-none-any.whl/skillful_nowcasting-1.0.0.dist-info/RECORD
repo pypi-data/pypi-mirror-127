@@ -1,0 +1,16 @@
+nowcasting_gan/__init__.py,sha256=lStBqY4bmtFF_C-WOIXPnPqi9qrnUciHr5_xqtOggVQ,223
+nowcasting_gan/common.py,sha256=9a-jdsLR7eq2rgCVhw-EM8aFGyVQ3LHwM_dMxIz4FE0,16411
+nowcasting_gan/dgmr.py,sha256=qJuXTxilpeCFVT4WRp08H11bSNevKqvAPE-OkkBIJss,7622
+nowcasting_gan/discriminators.py,sha256=dKVXfep3jK_rdwOnYXXwGQSvZWSDVA5uQo-EIOcgQTA,8086
+nowcasting_gan/generators.py,sha256=4E-Flthc2eq7dIDwcFFXIlJotnlk5lsoQTH2sVJT7Z8,7230
+nowcasting_gan/losses.py,sha256=X_x4M6oMbmPxmEEEdp-s_gcC3SeA4ZfJ7pa6RkUNUS4,11121
+nowcasting_gan/layers/Attention.py,sha256=fL7FCYmfrD9h6VY90VCMxNiwqoWnzDhbK-WlgjO0ZY4,2763
+nowcasting_gan/layers/ConvGRU.py,sha256=trrCAcWVqbgO4s8jRht5DI1HgDlAxmn70wKAgoIjNkc,3040
+nowcasting_gan/layers/CoordConv.py,sha256=k99DrQbxWeGI9J2msX1bey5UQoF4f9hZeqMNiZx6YxM,1692
+nowcasting_gan/layers/__init__.py,sha256=9r75k7FDSgOdf4zYC_mBKMbdYtn4mRtjK5H_Mog6pyA,100
+nowcasting_gan/layers/utils.py,sha256=g8SE1gVrDh39__TE2RuyDSk4kuLP4sJlQUtzLRovedM,428
+skillful_nowcasting-1.0.0.dist-info/LICENSE,sha256=apuQBDvX5oNtuaWBJcgRQaTuS4pTiqvjP23FGA7P8J8,1073
+skillful_nowcasting-1.0.0.dist-info/METADATA,sha256=SI2CkxhcGDupuKnGnIGSxwLmvlgCh8ZvKzUXur5jpoY,1284
+skillful_nowcasting-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+skillful_nowcasting-1.0.0.dist-info/top_level.txt,sha256=y4yZyQ8qyHyRQmCKwjdQs2w66kY9ke8UYYxVxsOT0Y8,15
+skillful_nowcasting-1.0.0.dist-info/RECORD,,
