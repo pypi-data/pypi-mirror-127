@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: django-bloggy
+Version: 1.0
+Summary: A Django blog app with features of a standard blogging platform.
+Home-page: https://blo2gy.herokuapp.com/blog
+Author: yusufadell
+Author-email: youseefadel777@gmail.com
+License: GNUv3
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+bloggy
+======
+
+bloggy is A Django blog app with features of a standard blogging platform, Comment system and tagging functionality, System to share your site's content by email and a custom sitemap and feed for blog posts.
+
+Detailed documentation is in the docs directory.
+
+Quick start
+===========
+
+1.  Add bloggy to your INSTALLED\_APPS setting like this:
+
+        INSTALLED_APPS = [
+            ...
+            'blog',
+        ]
+
+2.  Include the blog URLconf in your project urls.py like this:
+
+        path('blog/', include('blog.urls')),
+        
+
+3.  Run python manage.py migrate to create the polls models.
+
+4.  Start the development server and visit <http://127.0.0.1:8000/admin/> to create a blog (you'll need the Admin app enabled).
+
+5.  Visit <http://127.0.0.1:8000/blog/> to participate in the poll.
+
+
+
