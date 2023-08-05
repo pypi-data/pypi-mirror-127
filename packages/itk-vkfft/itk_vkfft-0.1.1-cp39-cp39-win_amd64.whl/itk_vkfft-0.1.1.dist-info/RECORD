@@ -1,0 +1,14 @@
+itk/VkFFTBackendPython.py,sha256=NtZ_x-15LE-WtJn6ezXfzIo7hfk6ZF86GslCWDxh03M,2782
+itk/_VkFFTBackendPython.pyd,sha256=e_PpSkgih5ZZBt-R4DcVAPcAKUgPMHw8ghd0ED8kdek,2560512
+itk/itkVkComplexToComplexFFTImageFilterPython.py,sha256=TmDqvKc7j5LaujehlD_vkXAyLR16FXquk1DpkPjRmpg,17248
+itk/itkVkForwardFFTImageFilterPython.py,sha256=9sS-CeMXyiMnkXJf2oYQ8eTJD0D5A6P8BLRgZUv2zss,15081
+itk/itkVkHalfHermitianToRealInverseFFTImageFilterPython.py,sha256=MpuaQFXwg4BPYsQMmBTJ7bhAYh2dL1AeiuZXGLgYW34,19684
+itk/itkVkInverseFFTImageFilterPython.py,sha256=0lpd4bH-xhEhv8LVVrcxra7w9K4tHQVzy9lcPWpfJ68,15169
+itk/itkVkRealToHalfHermitianForwardFFTImageFilterPython.py,sha256=jEy3aATf-qaX6J-mI0Z74oBjrl1zu72Gus0I1Jesca8,17983
+itk/Configuration/VkFFTBackendConfig.py,sha256=HoQ5j9iB4HIrwZl2kpWAz-X_689YQc6rOrK0vOFe69s,3440
+itk/Configuration/VkFFTBackend_snake_case.py,sha256=s7d_XCXifWKm9Sih33kLswhFTuKqb8v3spw9UbREW_4,239
+itk_vkfft-0.1.1.dist-info/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+itk_vkfft-0.1.1.dist-info/METADATA,sha256=Kmz42rrslob2gl95HMvSMcCq8FmVv3sOxbY8fO6yoWo,1511
+itk_vkfft-0.1.1.dist-info/WHEEL,sha256=agPHDgQgdU8NSWIKgA1v7gpVJM51Mj4k7QPUWbVb89Y,93
+itk_vkfft-0.1.1.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_vkfft-0.1.1.dist-info/RECORD,,
