@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: cadtoolkit
+Version: 1.0.0
+Summary: Coronary Artery Disease Toolkit
+Home-page: https://github.com/coronary-atlas/cadtoolkit
+Author: Ramtin Gharleghi
+Author-email: ramtin@ramt.in
+License: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
