@@ -1,0 +1,15 @@
+aiomisc
+mock
+pytest
+pytest-cov
+coverage
+pytest-timeout
+pytest-benchmark[histogram]
+pytest-localserver
+flake8
+flake8-quotes
+flake8-typing-imports
+codecov
+opentracing_instrumentation>=3,<4
+types-setuptools
+mypy
