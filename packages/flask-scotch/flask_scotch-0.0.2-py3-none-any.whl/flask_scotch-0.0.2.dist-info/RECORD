@@ -1,0 +1,11 @@
+flask_scotch/LocalModel.py,sha256=18PW_k1KO2sLHNKKxL85FsfTLLIjGGhwUXEZ6e2FnpQ,761
+flask_scotch/LocalRelationship.py,sha256=LRaYnrl65F3Y13Xfkb2aI4tdf7fNDBk_MuWqAVlEZAw,1734
+flask_scotch/RemoteModel.py,sha256=nh9i6mTOsA6Y_MJbScFAytO7DmxQwGlEx_XGLaLifWM,3987
+flask_scotch/RemoteRelationship.py,sha256=mMplfdGNDdQM7dLDC-DXcMY9cnS_Ap3GxmusGRHm-Xk,904
+flask_scotch/__init__.py,sha256=b63uia31BHx9v9jGJBGSWHGP5yrHrakFyJgJ6KjlgOw,918
+flask_scotch/utils.py,sha256=zVIWgs3dg2H1SNOr-VKZFYuspPmQK_izGsGxE6ifEO4,878
+flask_scotch-0.0.2.dist-info/LICENSE,sha256=0PGiIrek73kAARFWO0-ZPuTOECNgcigy-UCcYRwRKFU,1067
+flask_scotch-0.0.2.dist-info/METADATA,sha256=o7AOgqQCFmdsirS2KfIOyhtfAE1g6b9jp253TMgYdwk,3780
+flask_scotch-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+flask_scotch-0.0.2.dist-info/top_level.txt,sha256=A7LvsY440bAfPqKniDZTxCbO6gmw3YPhEZxCvqccQho,13
+flask_scotch-0.0.2.dist-info/RECORD,,
