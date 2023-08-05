@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/container/__init__.py
+src/container/container.py
+src/container/errors.py
+src/container/main.py
+src/magic_container.egg-info/PKG-INFO
+src/magic_container.egg-info/SOURCES.txt
+src/magic_container.egg-info/dependency_links.txt
+src/magic_container.egg-info/requires.txt
+src/magic_container.egg-info/top_level.txt
