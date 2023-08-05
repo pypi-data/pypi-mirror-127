@@ -1,0 +1,69 @@
+### Title
+
+Imgur website Scraper
+
+### Descrption
+
+* With imgur Scraper you can scrape search results and extract the contents produced by the search result.
+* In imgur scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+* It gives the every detail present inside website in the form of json data which contains the link of the post, text related to it, comments, views, likes etc.
+
+### JSON sample data
+
+```sh
+{
+    "Scraper_repeat_data_0": [
+        {
+            "column_20": [
+                {
+                    "link": "/t/blues_clues/1j2ytAN",
+                    "text": "Select ...Options MenuiconLinkCopy LinkDownloadDownloadThank you, Steve!Upvote1,446Comments47Post views98K"
+                }
+            ]
+        },
+        {
+            "column_20": [
+                {
+                    "link": "/t/blues_clues/mmYMVVp",
+                    "text": "Select ...Options MenuiconLinkCopy LinkDownloadDownloadI'm not crying...You're crying!Upvote83Comments6Post views3K"
+                }
+            ]
+        }
+    ],
+```
+[Download full sample data](https://datakund-scraper.s3.amazonaws.com/3rys0efb8ib_JWTSHCU5NLSPXXK_json.json)
+
+
+### Run Scraper
+```sh
+from imgur_wesbite_scraper import *
+link="https://imgur.com/t/blues_clues?source=featured_tag_module"
+data=run_imgur_wesbite_scraper(link)
+```
+
+### How it works?
+* It takes URL of imgur page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the imgur search result.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://imgur.com/t/blues_clues?source=featured_tag_module)
+
+* [Example2](https://imgur.com/t/extra_life?source=featured_tag_module)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
