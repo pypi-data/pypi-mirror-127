@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: imgur-wesbite-scraper
+Version: 1.0.0
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Title
+
+imgur website Scraper
+
+### Descrption
+
+* With imgur Scraper you can scrape search results and extract the contents produced by the search result.
+* In imgur scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_detail_data": {
+        "Posts_tagged_Imgur": "Posts tagged  - Imgur",
+        "We_re_some_or_back_in_few": "Sorry! We're encountering some technical difficulties. Refresh or check back in a few!"
+    }
+}
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_FTFJ4IQA0Y15BBC_json.json)
+
+### Run Scraper
+```sh
+from imgur_wesbite_scraper import *
+link="https://imgur.com/t/blues_clues?source=featured_tag_module"
+data=run_imgur_wesbite_scraper(link)
+```
+
+### How it works?
+* It takes URL of imgur page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the imgur search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://imgur.com/t/blues_clues?source=featured_tag_module)
+
+* [Example2](https://imgur.com/t/extra_life?source=featured_tag_module)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+
