@@ -1,0 +1,10 @@
+settings_doc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+settings_doc/main.py,sha256=XDx14MJw4mthYVuplCYnvI0GEWW4BckbYvbm72BiRqA,5817
+settings_doc/templates/debug.jinja,sha256=gcBOJhY4kfeQjmNUeGVs_FQfwZ9HicTD2GXFgOsMWv4,754
+settings_doc/templates/dotenv.jinja,sha256=m8rf7HRjrD-x3PtpZoldWazX8y0y1UFk36ahV3RWwdY,1699
+settings_doc/templates/markdown.jinja,sha256=LzHfFE417WJuWcABDNC_2lU6pjx9T80g1BKtOHrhe4w,2120
+settings_doc-0.4.0.dist-info/entry_points.txt,sha256=DdXn-1CqY6XFEvT6DMiDqnav-QQWSnnAEVFYTGvqgFI,54
+settings_doc-0.4.0.dist-info/LICENSE,sha256=31nzlThsGPz-WZlpJfUbH2SH5s8veARQzJSuj0fmtxE,1067
+settings_doc-0.4.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+settings_doc-0.4.0.dist-info/METADATA,sha256=NxEA-UthrhlIHerOWmmxzmwI_C1GI64Ug4rKLufhYgE,2873
+settings_doc-0.4.0.dist-info/RECORD,,
