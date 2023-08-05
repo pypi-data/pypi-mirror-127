@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+yman/__init__.py
+yman/cli.py
+yman/procfs.py
+yman/yakuake.py
+yman.egg-info/PKG-INFO
+yman.egg-info/SOURCES.txt
+yman.egg-info/dependency_links.txt
+yman.egg-info/entry_points.txt
+yman.egg-info/requires.txt
+yman.egg-info/top_level.txt
