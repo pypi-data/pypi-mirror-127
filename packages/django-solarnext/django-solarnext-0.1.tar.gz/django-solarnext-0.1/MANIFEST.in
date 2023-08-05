@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include solar/static *
+recursive-include solar/templates *

@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+core/__init__.py
+core/admin.py
+core/apps.py
+core/models.py
+core/tests.py
+core/validation.py
+core/migrations/0001_initial.py
+core/migrations/__init__.py
+django_solarnext.egg-info/PKG-INFO
+django_solarnext.egg-info/SOURCES.txt
+django_solarnext.egg-info/dependency_links.txt
+django_solarnext.egg-info/requires.txt
+django_solarnext.egg-info/top_level.txt
