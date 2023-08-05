@@ -1,0 +1,278 @@
+Metadata-Version: 2.1
+Name: ewc-commons
+Version: 0.0.1.7a0
+Summary: Collection of common use stuff
+Home-page: https://bitbucket.org/ewc-learning/ewc-commons/
+Author: Evil Wizard Creations
+Author-email: evil.wizard95@googlemail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://bitbucket.org/ewc-learning/ewc-commons/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://bitbucket.org/ewc-learning/ewc-commons/
+Description: # EWC Commons Library #
+        
+        [![PyPI](https://img.shields.io/pypi/v/ewc-commons)](https://img.shields.io/pypi/v/ewc-commons)
+        
+        [![Documentation Status](https://readthedocs.org/projects/ewc-commons/badge/?version=latest)](https://ewc-commons.readthedocs.io/en/latest/?badge=latest)
+        
+        [![PyPI - Downloads](https://img.shields.io/pypi/dm/ewc-commons)](https://img.shields.io/pypi/dm/ewc-commons)
+        
+        [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ewc-commons)](https://img.shields.io/pypi/pyversions/ewc-commons)
+        
+        
+        A collection of common & useful things to make other things easier.
+        
+        ### Installing ###
+        Use pip to install the *EWC Commons Library*, which can also be used from the command line to trigger certain inbuilt functionality.
+        
+        ```bash
+        $ pip install ewc-commons[dev]
+        ```
+        
+        Veryfy the library installed and check the version or help.
+        
+        ```bash
+        $ ewccommons -v
+        ...
+        $ ewccommons -h
+        ```
+        
+        ### Getting Started ###
+        
+        * Sophie Module
+        * Dice Module
+        * Dice Rolls Module
+        * Card Deck Module
+        
+        ### How do I get set up? ###
+        
+        * Summary of set up
+        * Configuration
+        * Dependencies
+        * Database configuration
+        * How to run tests
+        * Deployment instructions
+        
+        ### Sophie Module ###
+        
+        The *sophie* module is used to provide convenient CLI script launcher framework
+        
+        ```python
+        # Import the typing library so variables can be type cast
+        from typing import List
+        
+        # Import the sys for args
+        import sys
+        
+        # Import the Sophie launcher system needed
+        from ewccommons import sophie
+        
+        def cli_argument_handler(
+            opts: List,
+            args: List,
+            show_usage_help: sophie._TNGN_,
+            show_version: sophie._TNGN_,
+        ) -> sophie._CLI_Arg_Handled_:
+            """Define a function handle the processing of cli arguments"""
+            my_arg: str = None
+            opt: str
+            arg: str
+            for opt, arg in opts:
+                if opt in ("-h", "--help"):
+                    # Just show the usage help & halt
+                    show_version()
+                    show_usage_help()
+                    sys.exit()
+                elif opt in ("-v", "--version"):
+                    # Just show the version & halt
+                    show_version()
+                    sys.exit()
+                elif opt == "--my_arg":
+                    # Assign the my_arg value
+                    my_arg = arg
+            return my_arg, args
+        
+        def help_text() -> str:
+            """Define a function to generate the help text to display"""
+            return "\n".join(
+                [
+                    "Dynamically invoked help from show_usage_help() call",
+                    "  -h --help (Show this help)",
+                    "  -v --version (Show version)",
+                    "  --my_arg <my-arg-value>",
+                ])
+        
+        # With most of the setup done above, let's start creating the launcher
+        # Define the returned object variables for use
+        my_app: sophie.SophieLauncher = None
+        usage: sophie.CLIUsageHandler = None
+        # Create a new launcher based on the settings provided
+        my_app, usage = launcher(
+            # This doesn't need to be an instance of the usage handler
+            # Just a reference to a variable that matches the CLIUsageHandler
+            # The handler is created internally based of the settings provided
+            _usage=sophie.CLIUsageHandler,
+            # Name the script
+            app_name="My New Script",
+            # Set the script version, defaults to the version of the sophie launcher 
+            version="0.0.1",
+            # Set any short CLI argument option names.
+            # These are a string of single character values for the option names
+            # Characters immediately followed with a : (colon) will expect a value
+            # E.G. f: would expect -f=<value> or -f <value>
+            # Let's just use the inbuilt functionality to show help & version
+            short_options="hv:",
+            # Set any long CLI argument option names
+            # Options with immediately followed with a = (equals) will expect a value
+            # E.G. my_arg= would expect -my_arg=<value> or -my_arg <value>
+            # Let's include the inbuilt functionality to show help & version
+            # Let's also add a option of our own that expects user supplied value
+            long_options=["help", "version", "my_arg="],
+            # This is the script help text 
+            # Displayed when show_usage_help() is invoked from sophie._CLI_Arg_Handler_
+            # Acessible as a string through the returned CLIUsageHandler usage object
+            # Also accessible a string via SophieLauncher with app name & version included
+            # N.B.
+            # This doesn't have to be a callback as long as it can be converted to string
+            help_text=help_text,
+        )
+        # Example of the help_text option in use
+        # my_app.show_usage_help()
+        # usage.help()
+        
+        # Let's have a look at what we got
+        print(
+            "Let's have a look:",
+            "#############",
+            "my_app",
+            my_app,
+            "usage",
+            usage,
+            "#############",
+            sep="\n",
+        )
+        # Define the usage & types of variables returned from the launch
+        my_arg: str
+        # Launch the script using the cli_argument_handler function to process the CLI options
+        my_arg, args = my_app.launch(cli_argument_handler)
+        # Lets have a look at what came back
+        print(my_arg, args, sep="\n")
+        
+        ```
+        
+        ### Dice Module ###
+        
+        The *dice* module provides an OOP solution for creating various sided die simulators and a conveniant way of rolling multiple (varying) Dice objects
+        
+        ```python
+        from ewccommons.dice import Dice, DiceShaker
+        
+        # Set a number of sides for the dice
+        number_of_die_sides: int = 4
+        # Create a n sided, named Dice object
+        dice: Dice = Dice(number_of_die_sides, name="My New Die", val=None)
+        # Have a look at what is created
+        print(
+            f"Dice({number_of_die_sides})",
+            dice,
+            dice < number_of_die_sides,
+            d > 0,
+            sep="\n",
+        )
+        # Roll the dice and get the rolled value
+        dice_roll: int = dice.roll()
+        # Get the last rolled value
+        dice_rolled: int = dice.rolled
+        # The dice object can be compared like an int, using the rolled value
+        if dice == number_of_die_sides:
+            # The dice object can be converted to string 
+            # This gives a readable version of the last rolled value
+            print("Highest Roll", dice, sep="\n")
+        # The dice object also supports new object copy
+        # The copy will have the same number of sides/faces and dice name
+        # The copy will also have the starting value of the last rolled
+        dice2: Dice = dice.copy()
+        # Roll both dice to hopefully get 2 different numbers 
+        # It is possible for both objects to independantly choose the same random value
+        dice.roll()
+        dice2.roll()
+        # Verify the 2 dice could be different in value 
+        print(dice, dice2, dice.rolled, dice2.rolled, sep="\n")
+        
+        # TODO Add the DiceShaker example code
+        ```
+        
+        ### Dice Rolls Module ###
+        
+        The *dicerolls* module can be used in multiple ways, firstly it can be used in the standard way of being imported into python scripts. *dicerolls* can also be invoked as a module script and will output the dice rolls for the dice specified. The same dice rolling functionality can also be invoked via the main *ewccommons* package executable.
+        
+        ```bash
+        $ python -m ewccommons.dicerolls d3 d4 d6 D8 D10 d12 d20 D100
+        ...
+        $ ewccommons --dicerolls "d3 d4 d6 D8 D10 d12 d20 D100"
+        ...
+        ```
+        
+        ```python
+        from ewccommons.dicerolls import roll_d6, D6
+        
+        # Impliment the functional approach to rolling a standard Dn sided die
+        roll:int = roll_d6()
+        # Returns a new D6 die roll
+        # Impliment the OOP approach to rolling a standard Dn sided die
+        dice_roll:int = D6.roll()
+        # Returns the last rolled value of OOP Dn Dice instance
+        dice_rolled:int = D6.rolled()
+        ```
+        
+        ### Card Deck Module ###
+        
+        The *carddeck* module provides a convenient means of creating card deck list which can be used as a basis for card based games.
+        
+        ```python
+        from ewccommons.carddeck import (
+            _Deck_,
+            _Hand_,
+            shuffle_deck,
+            draw_card,
+            new_deck,
+            new_shuffled_deck,
+        )
+                
+        deck: _Deck_ = new_deck()
+        shuffled_deck: _Deck_ = shuffle_deck(deck)
+        # alternitively create a new shuffled deck
+        shuffled_deck_alt: _Deck_ = new_shuffled_deck()
+        
+        hand_size:int = 5
+        drawn: _Hand_
+        deck_remaining:_Deck_
+        drawn, deck_remaining = draw_card(deck=shuffled_deck, cards=hand_size)
+        
+        ```
+        ### Contribution guidelines ###
+        
+        * Writing tests
+        * Code review
+        * Other guidelines
+        
+        ### Who do I talk to? ###
+        
+        * Repo owner or admin
+        * Other community or team contact
+Keywords: ewc,commons,library,sophie,cli,launcher,dice dice rolls,card deck
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
