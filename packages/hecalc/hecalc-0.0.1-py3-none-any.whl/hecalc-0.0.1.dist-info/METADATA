@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hecalc
+Version: 0.0.1
+Summary: A tool for performing (U-Th)/He data reduction and uncertainty propagation
+Author: Peter E. Martin
+Author-email: peter.martin-2@colorado.edu
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyQt5 (>=5.15.6)
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: openpyxl (>=3.0.3)
+Requires-Dist: pandas (>=1.0.3)
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: setuptools (>=41.2.0)
+Requires-Dist: tabulate (>=0.8.9)
+Requires-Dist: xlrd (>=1.2.0)
