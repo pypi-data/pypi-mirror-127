@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: garpix-cart
+Version: 2.2.0
+Summary: UNKNOWN
+Home-page: https://github.com/garpixcms/garpix_cart
+Author: Garpix LTD
+Author-email: info@garpix.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3.8
+
+
+Garpix Cart
+===========
+
+Quickstart
+----------
+
+Install with pip 
+
+.. code-block::
+
+   $ pip install garpix_cart
+
+
+Add the ``garpix_cart`` to your INSTALLED_APPS:
+
+.. code-block:: python
+
+   # settings.py
+
+   INSTALLED_APPS = [
+       # ...
+       'garpix_cart',
+   ]
+
+Make migrations and migrate database:
+
+.. code-block::
+
+   $ ./manage.py makemigrations
+   $ ./manage.py migrate
+
+
+Add to ``urls.py``\ :
+
+.. code-block::
+
+   urlpatterns = [
+       # ...
+       path('', include('garpix_cart.urls'))
+   ]
+
+В интернет магазине обычно посетитель начинает искать интересные товары, надеясь добавить несколько из них в свою корзину. 
+Затем по пути к оформлению заказа они решают, создать ли учетную запись пользователя, использовать существующую или продолжить работу в качестве гостя. 
+Здесь все усложняется.
+
+Во-первых, для неаутентифицированных посетителей сайта корзина никому не принадлежит. Но каждая корзина должна быть 
+связана с ее текущим посетителем сайта.
+
+Во-вторых, когда корзина преобразована в заказ, но посетитель хочет продолжить работу в качестве гостя, этот объект заказа 
+должен ссылаться на объект пользователя в базе данных. 
+Такие пользователи будут рассматриваться как фальшивые: не могут войти в систему, сбросить пароль и т.д. 
+Единственная информация, которую необходимо сохранить для такого фальшивого пользователя это их адрес электронной почты, 
+иначе они не смогут быть проинформированы, когда бы ни состояние их порядок меняется.
+
+Django явно не разрешает использование таких пользовательских объектов в своих моделях баз данных. 
+Но, используя логический флаг is_active, мы можем обмануть приложение, чтобы оно интерпретировало такого гостя как 
+фальшивого анонимного пользователя.
+
+Такой подход неприменим для всех приложений на основе Django, добавляется новая модель - **Customer**
+
+Получить Customer
+-----------------
+
+Для создания Customer нужно сделать ``POST`` запрос на ``/api/v1/cart/create_customer/``
+
+Запрос вернет объект ``Customer`` с полем ``number``.
+
+Далее нужно этот номер отправлять в каждый запрос с заголовок ``Cart-Token``.
+
+setting.py
+----------
+
+``GARPIX_CART_SERIALIZER_MIXIN`` - можно задать миксин для сериалайзера элемента корзины
+
+``GARPIX_CART_MIXIN`` - можно задать миксин для модели элемента корзины
+
+
