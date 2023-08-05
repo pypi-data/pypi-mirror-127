@@ -1,0 +1,3 @@
+[console_scripts]
+canalyse = canalyse.cli:cli
+
