@@ -1,0 +1,4 @@
+templates:
+    - django: django.template
+    - flask: flask.template
+    - cancel: null
