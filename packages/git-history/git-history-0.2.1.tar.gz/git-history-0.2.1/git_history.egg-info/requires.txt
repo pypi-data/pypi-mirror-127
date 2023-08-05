@@ -1,0 +1,6 @@
+click
+GitPython
+sqlite-utils>=3.17.1
+
+[test]
+pytest
