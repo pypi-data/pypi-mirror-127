@@ -1,0 +1,6 @@
+templates:
+ - mqtt_node/publisher.template
+ - mqtt_node/subscriber.template
+modules:
+ - publisher.js
+ - subscriber.js
