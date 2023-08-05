@@ -1,0 +1,27 @@
+[tool]
+[tool.poetry]
+name = "netdevsnmp"
+version = "1.0.0"
+description = "A wrapper module for pysnmp to get device information"
+authors = ["Rob Woodward <rob@emailplus.org>"]
+license = "BSD-2-Clause"
+readme = "README.md"
+repository = "https://github.com/robwdwd/netdevsnmp"
+include = ["README.md", "LICENSE", "LICENSE.original"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pysnmp = ">=4.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pydocstyle = "^6.1.1"
+flake8 = "^4.0.1"
+pylint = "^2.9.5"
+black = "^21.5b1"
+PyYAML = "^6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
