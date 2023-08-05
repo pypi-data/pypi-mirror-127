@@ -1,0 +1,138 @@
+/*
+ * Copyright 2020-2021 Exactpro (Exactpro Systems Limited)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+syntax = "proto3";
+
+import "th2_grpc_common/common.proto";
+
+option java_multiple_files = true;
+option java_package = "com.exactpro.th2.act.grpc";
+
+service ActTyped {
+  /* This action executes next steps:
+      1) Registers checkpoint in Verifier microservice
+      2) Sends passed message as is to Connectivity microservice
+      3) Waits Execution Report or Business Message Reject with the same ClOrdID as in passed message
+          from Connectivity microservice
+      4) Returns the message repose and the Checkpoint */
+  rpc placeOrderFIX (PlaceMessageRequestTyped) returns (PlaceMessageResponseTyped) {
+  }
+
+  /*Send fix message without response awaiting */
+  rpc sendMessage (PlaceMessageRequestTyped) returns (SendMessageResponseTyped) {
+  }
+
+  rpc placeQuoteRequestFIX (PlaceMessageRequestTyped) returns (PlaceMessageResponseTyped) {
+  }
+
+  rpc placeQuoteFIX (PlaceMessageRequestTyped) returns (PlaceMessageResponseTyped) {
+  }
+
+  rpc placeOrderMassCancelRequestFIX (PlaceMessageRequestTyped) returns (PlaceMessageResponseTyped) {
+  }
+
+  rpc placeQuoteCancelFIX (PlaceMessageRequestTyped) returns (PlaceMessageResponseTyped) {
+  }
+
+  rpc placeQuoteResponseFIX (PlaceMessageRequestTyped) returns (PlaceMessageResponseTyped) {
+  }
+}
+
+message NoPartyIDs {
+    string MessageType = 1;
+    string PartyID = 2;
+    string PartyIDSource = 3;
+    int64 PartyRole = 4;
+}
+
+message TradingParty {
+  repeated NoPartyIDs NoPartyIDs = 1;
+}
+
+message NewOrderSingle {
+  string SecurityID = 1;
+  int64 SecurityIDSource = 2;
+  int64 OrdType = 3;
+  int64 AccountType = 4;
+  string OrderCapacity = 5;
+  int64 OrderQty = 6;
+  int64 DisplayQty = 7;
+  int64 Price = 8;
+  int64 ClOrdID = 9;
+  int64 SecondaryClOrdID = 10;
+  int64 Side = 11;
+  int64 TimeInForce = 12;
+  string TransactTime = 13;
+  TradingParty TradingParty = 14;
+}
+
+message Header {
+  string BeginString = 1;
+  int64 BodyLength = 2;
+  int64 MsgSeqNum = 3;
+  int64 MsgType = 4;
+  string SenderCompID = 5;
+  string SendingTime = 6;
+  string TargetCompID = 7;
+}
+
+message ExecutionReport {
+  string SecurityID = 1;
+  int64 SecurityIDSource = 2;
+  int64 OrdType = 3;
+  int64 AccountType = 4;
+  string OrderCapacity = 5;
+  int64 ClOrdID = 6;
+  int64 OrderQty = 7;
+  int64 LeavesQty = 8;
+  int64 Side = 9;
+  int64 CumQty = 10;
+  int64 ExecType = 11;
+  int64 OrdStatus = 12;
+  TradingParty TradingParty = 13;
+  int64 ExecID = 14;
+  int64 Price = 15;
+  int64 OrderID = 16;
+  string Text = 17;
+  int64 TimeInForce = 18;
+  Header header = 19;
+}
+
+message MessageTyped {
+  EventID parent_event_id = 3; // It maybe used to store event related to message life cycle
+  MessageMetadata metadata = 1;
+  oneof kind {
+    NewOrderSingle new_order_single = 2;
+    ExecutionReport execution_report = 4;
+  }
+}
+
+message SendMessageResponseTyped {
+  RequestStatus status = 1;
+  Checkpoint checkpoint_id = 2;
+}
+
+message PlaceMessageRequestTyped {
+  MessageTyped message_typed = 1;
+  EventID parent_event_id = 4;
+  string description = 5;
+}
+
+message PlaceMessageResponseTyped {
+  Message response_message = 1;
+  RequestStatus status = 2;
+  Checkpoint checkpoint_id = 3;
+}
