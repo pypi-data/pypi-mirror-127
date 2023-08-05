@@ -1,0 +1,70 @@
+### Title
+
+pikiran-rakyat Scraper
+
+### Descrption
+
+* With pikiran-rakyat Scraper you can scrape search results and extract the contents produced by the search result.
+* In pikiran-rakyat scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_repeat_data_0": [
+        {
+            "column_1": "Editor: Puput Akad Ningtyas Pratiwi"
+        },
+        {
+            "column_1": "Sumber: YouTube Najwa Shihab"
+        }
+    ],
+    "Scraper_detail_data": {
+        "name": "Jadi Bulan-bulanan Mahasiswa saat Hadir di Mata Najwa, Fadjroel Rachman: Ampun deh Ini! - Pikiran-Rakyat.com",
+        "photo_caption": "Staf Khusus Presiden bidang Komunikasi, Fadjroel Rachman /Antara Foto/Wahyu Putro A",
+        "read_info_author": "Eka Alisa Putri",
+        "read_title": "Jadi Bulan-bulanan Mahasiswa saat Hadir di Mata Najwa, Fadjroel Rachman: Ampun deh Ini!",
+        "time": "- 2 Oktober 2021, 08:53 WIB"
+    },
+    "Scraper_repeat_data_1": [
+        {
+            "column_4": ""
+        }
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_TC5S3CB7G84OJUC_json.json)
+
+### Run Scraper
+```sh
+from pikiran_rakyat_scraper import *
+link="https://www.pikiran-rakyat.com/nasional/pr-012715353/tokoh-nu-sebut-mensos-risma-seperti-kesurupan-kerjanya-cuma-marah-marah-ganti-saja"
+data=run_pikiran_rakyat_scraper(link)
+```
+
+### How it works?
+* It takes URL of pikiran-rakyat page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the pikiran-rakyat search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://www.pikiran-rakyat.com/nasional/pr-012715353/tokoh-nu-sebut-mensos-risma-seperti-kesurupan-kerjanya-cuma-marah-marah-ganti-saja
+)
+
+* [Example2](https://www.pikiran-rakyat.com/nasional/pr-012715499/jadi-bulan-bulanan-mahasiswa-saat-hadir-di-mata-najwa-fadjroel-rachman-ampun-deh-ini)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+

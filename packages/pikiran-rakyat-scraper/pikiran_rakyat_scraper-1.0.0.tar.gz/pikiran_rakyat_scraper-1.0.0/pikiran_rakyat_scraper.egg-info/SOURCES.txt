@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pikiran_rakyat_scraper.egg-info/PKG-INFO
+pikiran_rakyat_scraper.egg-info/SOURCES.txt
+pikiran_rakyat_scraper.egg-info/dependency_links.txt
+pikiran_rakyat_scraper.egg-info/requires.txt
+pikiran_rakyat_scraper.egg-info/top_level.txt
+pypi_scraper/__init__.py
