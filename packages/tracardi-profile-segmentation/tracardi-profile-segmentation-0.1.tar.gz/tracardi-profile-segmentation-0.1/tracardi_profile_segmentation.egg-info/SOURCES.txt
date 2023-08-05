@@ -1,0 +1,17 @@
+LICENSE.md
+MANIFEST.in
+README.md
+build.sh
+requirements.txt
+setup.py
+tracardi_profile_segmentation/plugin.py
+tracardi_profile_segmentation.egg-info/PKG-INFO
+tracardi_profile_segmentation.egg-info/SOURCES.txt
+tracardi_profile_segmentation.egg-info/dependency_links.txt
+tracardi_profile_segmentation.egg-info/requires.txt
+tracardi_profile_segmentation.egg-info/top_level.txt
+tracardi_profile_segmentation/model/__init__.py
+tracardi_profile_segmentation/model/configuration.py
+tracardi_profile_segmentation/model/__pycache__/__init__.cpython-38.pyc
+tracardi_profile_segmentation/model/__pycache__/configuration.cpython-38.pyc
+tracardi_profile_segmentation/test/manual_test.py
