@@ -1,0 +1,33 @@
+#
+# cshs - pyproject.toml
+#   Copyright (c) 2021 Cedars-Sinai
+#   All Rights Reserved
+#
+
+[project]
+name = "cshs"
+readme = "readme.md"
+classifiers = [
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Build Tools",
+]
+requires-python = "~=3.6"
+dynamic = ["version", "description"]
+
+[project.urls]
+Homepage = "https://www.cedars-sinai.org"
+
+[[project.authors]]
+name = "EIS Data Science Team"
+email = "GroupEISDataScience@cshs.org"
+
+[[project.maintainers]]
+name = "EIS Data Science Team"
+email = "GroupEISDataScience@cshs.org"
+
+[tool.flit.module]
+name = "org_cshs"
+
+[build-system]
+requires = ["flit_core ~= 3.4"]
+build-backend = "flit_core.buildapi"
