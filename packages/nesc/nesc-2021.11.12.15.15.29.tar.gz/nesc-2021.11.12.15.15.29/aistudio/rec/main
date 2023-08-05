@@ -1,0 +1,7 @@
+#! /bin/bash
+ROOT_DIR=$(cd "$(dirname `realpath $0`)"; pwd) # /app/x
+
+pip install -U -r ${ROOT_DIR}/requirements.txt
+
+python -u ${ROOT_DIR}/main.py
+
