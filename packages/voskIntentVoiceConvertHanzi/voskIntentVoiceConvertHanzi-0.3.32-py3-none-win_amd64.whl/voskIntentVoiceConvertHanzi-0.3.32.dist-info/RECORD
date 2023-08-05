@@ -1,0 +1,8 @@
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/voiceInterface.py,sha256=ejUKsmOZOfo-FMEAqx-IquAg51eMmatz-VAzui-k8W8,9061
+vosk/__init__.py,sha256=EvqGuueitzNZOEAZYWQfL08JXGJx71ifVQ1w5B6S-SY,3283
+vosk/vosk_cffi.py,sha256=s5bIrxcxp91woLCWZgTQRGxVQyQqZT1rKGe8iywFT1Q,136
+voskIntentVoiceConvertHanzi-0.3.32.dist-info/METADATA,sha256=geT-JRBgNaa7Zi6aLONF8IeyOXEOxBYChrUOQwFAEfA,1862
+voskIntentVoiceConvertHanzi-0.3.32.dist-info/WHEEL,sha256=Lf_t7VrkMTIv2j48WbUe2aAVihhYZzVUTWP6w77FKqw,103
+voskIntentVoiceConvertHanzi-0.3.32.dist-info/top_level.txt,sha256=ioakbzyZ5NxJfY-znqheT0cDkOTjLetkYzTR9QtmPlM,13
+voskIntentVoiceConvertHanzi-0.3.32.dist-info/RECORD,,
