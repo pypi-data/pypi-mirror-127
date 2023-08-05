@@ -1,0 +1,10 @@
+
+[:python_version < "3.9"]
+typing-extensions>=3.10
+
+[dev]
+beartype!=0.9.0,>=0.8
+numpy
+pre-commit
+sympy>=1.9
+tox
