@@ -1,0 +1,4 @@
+common
+logs
+prj_logs
+unit_tests
