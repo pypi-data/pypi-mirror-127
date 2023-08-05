@@ -1,0 +1,96 @@
+Metadata-Version: 1.2
+Name: DRF-commands
+Version: 0.1.1
+Summary: Create DRF endpoints as fast as possible.
+Home-page: https://github.com/raiden70/DRF_commands
+Author: MOKRANI Yacine
+Author-email: tsunsui@gmail.com
+License: BSD-3-Clause  # Example license
+Description: ============
+        DRF_commands
+        ============
+        
+        DRF\_commands is a Django package that helps you to create django rest
+        framework endpoints faster using **manage.py**.
+        
+        You can visit **Django rest framework** website for more information
+        about generic views:https://www.django-rest-framework.org/
+        
+        Quick start
+        -----------
+        
+        1. Run ``pip install DRF_commands``
+        2. Add Both "rest_framework" and "DRF_commands" to your
+           **INSTALLED_APPS** of your **settings.py** like this::
+        
+                   INSTALLED_APPS = [
+                       ...
+                       'rest_framework',
+                       'DRF_commands',
+                   ]
+        
+        3. Create a Django application using DRF_commands:
+        
+        ``python manage.py createApp [yourAppName]``
+        
+        3. Run ``python manage.py`` using custom commands of DRF_commands to create generic views.
+        
+        Available commands:
+        -------------------
+        - createApp [yourAppName]
+        - createSerializer [appName][serializerName]
+        - APIView [appName][viewName]
+        - CreateAPIView [appName][viewName]
+        - DestroyAPIView [appName][viewName]
+        - ListAPIView [appName][viewName]
+        - ListCreateAPIView [appName][viewName]
+        - RetrieveAPIView [appName][viewName]
+        - RetrieveDestroyAPIView [appName][viewName]
+        - RetrieveUpdateAPIView [appName][viewName]
+        - RetrieveUpdateDestroyAPIView [appName][viewName]
+        - UpdateAPIView [appName][viewName]
+        
+        Generated application working tree:
+        -----------------------------------
+        
+        ::
+        
+            ├── admin.py
+            ├── apps.py
+            ├── __init__.py
+            ├── migrations
+            │   └── __init__.py
+            ├── models
+            │   └── __init__.py
+            ├── serializers
+            │   └── __init__.py
+            ├── static
+            │   └── myapp
+            ├── templates
+            │   └── myapp
+            ├── tests.py
+            ├── urls.py
+            └── views
+                └── __init__.py
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
