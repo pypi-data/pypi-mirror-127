@@ -1,0 +1,14 @@
+oarepo_s3_cli/__init__.py,sha256=iB16mCTGREJTawF7ccfjW19BLGr_VYdhkNC6iiI7KyQ,298
+oarepo_s3_cli/clickdef.py,sha256=l83y-Wp2H-FuEQ0Y6is3JXzKVJ5y6LxmXG8QTsMhRJQ,8266
+oarepo_s3_cli/constants.py,sha256=5KWpiXZXZZY2UJvE33cEtfojfK90SD_ETN4RrdZsTb4,932
+oarepo_s3_cli/lib.py,sha256=8npLtyg_wkbIV9EFv4JBIo4vhFvEKLEU0PPhxQwZSQM,17556
+oarepo_s3_cli/parallels.py,sha256=FTwC0AXAslb30cYRTe0oakq5QaQ611DcBBz4WKRupEk,8404
+oarepo_s3_cli/utils.py,sha256=PZwnbACFeKFL-KFk85MQ8pavX-vBuT-OjKOZ_i4DKWk,6568
+oarepo_s3_cli/version.py,sha256=0zUx6t2AxZRlVkP4HLgOvMI1XXNTlFoMnHBamys7sbk,358
+oarepo_s3_cli-0.1.10.dist-info/AUTHORS.rst,sha256=B-ZQ0zJKq8tJnKyifmtAMgRVyquQ9_LtkwffnAd9l88,256
+oarepo_s3_cli-0.1.10.dist-info/LICENSE,sha256=jcWgbeYDdJhjuZdmphaIrexHmYOrd1k_WksDG_09DPg,1079
+oarepo_s3_cli-0.1.10.dist-info/METADATA,sha256=uYoowsgpwqzMth7lebpz5CPpIXIV5V3yPdSnsrXwCwc,4403
+oarepo_s3_cli-0.1.10.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+oarepo_s3_cli-0.1.10.dist-info/entry_points.txt,sha256=WS2Hx8wOckxjpM0VXVH94SCF0GucI3sDxlwISCvnkAU,67
+oarepo_s3_cli-0.1.10.dist-info/top_level.txt,sha256=fXWB4MDPAuJfNwFQ8GN0MwmYVtzjJP8C8O7rfiJvXFo,14
+oarepo_s3_cli-0.1.10.dist-info/RECORD,,
