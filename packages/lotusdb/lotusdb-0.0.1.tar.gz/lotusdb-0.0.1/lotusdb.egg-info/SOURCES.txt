@@ -1,0 +1,7 @@
+setup.py
+lotusdb.egg-info/PKG-INFO
+lotusdb.egg-info/SOURCES.txt
+lotusdb.egg-info/dependency_links.txt
+lotusdb.egg-info/top_level.txt
+src/__init__.py
+src/database.py

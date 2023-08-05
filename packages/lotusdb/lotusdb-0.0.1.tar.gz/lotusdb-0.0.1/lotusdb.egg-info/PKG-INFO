@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lotusdb
+Version: 0.0.1
+Summary: Database line json
+Home-page: UNKNOWN
+Author: d3tu
+Author-email: jpafly@gmail.com
+License: MIT
+Keywords: database
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+
+Database with methods put, find and remove
+
