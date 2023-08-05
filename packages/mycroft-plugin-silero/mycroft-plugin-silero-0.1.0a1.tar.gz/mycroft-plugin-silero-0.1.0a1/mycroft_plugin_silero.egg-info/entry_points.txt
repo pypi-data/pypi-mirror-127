@@ -1,0 +1,6 @@
+[mycroft.plugin.stt]
+silero = mycroft_plugin_silero:SileroSTTPlugin
+
+[mycroft.plugin.tts]
+silero = mycroft_plugin_silero:SileroTTSPlugin
+

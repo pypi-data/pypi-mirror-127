@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mycroft-plugin-silero
+Version: 0.1.0a1
+Summary: Silero TTS/STT plugin for Mycroft
+Home-page: https://github.com/putnik/mycroft-plugin-silero
+Author: Sergey Leschina
+Author-email: mail@putnik.tech
+License: Apache-2.0
+Description: file: README.md
+Keywords: mycroft plugin tts stt silero
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
