@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+prettyparser.py
+requirements.txt
+setup.cfg
+setup.py
+prettyparser.egg-info/PKG-INFO
+prettyparser.egg-info/SOURCES.txt
+prettyparser.egg-info/dependency_links.txt
+prettyparser.egg-info/requires.txt
+prettyparser.egg-info/top_level.txt
