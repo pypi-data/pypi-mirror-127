@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+qetools/__init__.py
+qetools/qetools.py
+qetools.egg-info/PKG-INFO
+qetools.egg-info/SOURCES.txt
+qetools.egg-info/dependency_links.txt
+qetools.egg-info/entry_points.txt
+qetools.egg-info/not-zip-safe
+qetools.egg-info/requires.txt
+qetools.egg-info/top_level.txt
