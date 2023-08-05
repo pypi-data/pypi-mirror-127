@@ -1,0 +1,10 @@
+MANIFEST.in
+README.txt
+__init__.py
+license.txt
+setup.py
+xorsms.egg-info/PKG-INFO
+xorsms.egg-info/SOURCES.txt
+xorsms.egg-info/dependency_links.txt
+xorsms.egg-info/requires.txt
+xorsms.egg-info/top_level.txt
