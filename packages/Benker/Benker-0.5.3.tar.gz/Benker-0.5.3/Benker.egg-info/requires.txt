@@ -1,0 +1,21 @@
+lxml
+
+[dev]
+Tox
+isort
+check-manifest
+sphinx<2
+
+[dev:python_version < "3"]
+requests[security]
+
+[test]
+xmldiff
+
+[test:python_version < "3"]
+PyTest<5
+PyTest-Cov<2.6
+
+[test:python_version >= "3.6"]
+PyTest
+PyTest-Cov
