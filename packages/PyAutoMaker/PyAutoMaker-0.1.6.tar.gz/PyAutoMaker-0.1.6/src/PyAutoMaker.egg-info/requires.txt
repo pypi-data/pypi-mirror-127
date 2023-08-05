@@ -1,0 +1,6 @@
+psutil
+keyboard
+mouse
+pywin32
+opencv-contrib-python==4.5.4.58
+pySerial
