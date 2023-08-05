@@ -1,0 +1,9 @@
+pyelf/__init__.py,sha256=frK7vIM56LiNNfYBpFXk7KmD-DO8vE7JRqhOEIeQDgM,397
+pyelf/cli.py,sha256=1x3n0wSvEznc5tJlaFVTtmGRpellcieu5JuS0MtrkGI,884
+pyelf/pyelf.py,sha256=tRCI1h9zzmQwQE171TfA4D7sQ3gBPDAi_PgnDmix-5U,7122
+sauci_pyelf-0.1.1.dist-info/LICENSE,sha256=zHbEKGQXYPVI0Ts3gjL7H9SQ5evaKVHYDtIA2nuU6uQ,1072
+sauci_pyelf-0.1.1.dist-info/METADATA,sha256=UdDKXAKVu98Q39kErXNGhJ7D7uo6Ns92Yo4woUjbXqM,2019
+sauci_pyelf-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sauci_pyelf-0.1.1.dist-info/entry_points.txt,sha256=-VpJRhiDQgt1dn2WKWMZYzbI3Q78D4pxeVI3NRsfWEM,38
+sauci_pyelf-0.1.1.dist-info/top_level.txt,sha256=rW22P1YwYODUed5SEJGXYA5Nkba01ZEoTChwKe91mwo,6
+sauci_pyelf-0.1.1.dist-info/RECORD,,
