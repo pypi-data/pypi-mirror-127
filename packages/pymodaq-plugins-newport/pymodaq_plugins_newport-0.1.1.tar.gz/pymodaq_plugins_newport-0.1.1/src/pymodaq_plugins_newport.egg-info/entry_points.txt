@@ -1,0 +1,3 @@
+[pymodaq.plugins]
+newport = pymodaq_plugins_newport
+
