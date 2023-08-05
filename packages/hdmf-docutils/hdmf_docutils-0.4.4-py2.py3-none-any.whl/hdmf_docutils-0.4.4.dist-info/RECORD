@@ -1,0 +1,17 @@
+hdmf_docutils/__init__.py,sha256=PTTyNb8RTD15DW0UuZYL-gaGFBSj5f0f9WwCRreWENQ,205
+hdmf_docutils/_version.py,sha256=eWYYhomI-QH-5PSW95HaVwnkBg4c5OMGgePrMFPpUKM,518
+hdmf_docutils/compare-hdf5-files.ipynb,sha256=zxQ93oSq3FQNfIty1IfzLt4QN8KfiRZKxdKdrU2Xbeg,2072917
+hdmf_docutils/generate_format_docs.py,sha256=XdgxPbv8iRT3nnEgb9gXFZaQQIJz6lNaH2IHxG4TnpQ,29748
+hdmf_docutils/init_sphinx_extension_doc.py,sha256=hT4qNaFOjTe6UGVcIvwVi9iwWugYwvjGqVH3R54L49I,47795
+hdmf_docutils/sg_prototype.py,sha256=zyzID6I0GziyP6kcFVrV9ozVh91FTNKQy2HgaLn7dYs,4538
+hdmf_docutils/doctools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hdmf_docutils/doctools/output.py,sha256=Gw1eIyCIgL7eGvg_28rLMrXs2gG2fh9bjp-7LJccmX0,3641
+hdmf_docutils/doctools/render.py,sha256=YfbvmG06C5OyzcLCKOis_M4f-nHnF-ee_B2Si_DSfdw,35992
+hdmf_docutils/doctools/renderrst.py,sha256=BMgSksg819mN2IpVavOHlOajLGWq0-wE0ElYHnb5PKs,45490
+hdmf_docutils/doctools/rst.py,sha256=cOW-A_icP0npHZuj4kte6ouD5R1xkiUN5cYdETjZwUs,25328
+hdmf_docutils-0.4.4.dist-info/METADATA,sha256=GkIT4tR6tIaqxYkUK6o-wVnd8yjJZ0KCNsZi_JI7et0,6471
+hdmf_docutils-0.4.4.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+hdmf_docutils-0.4.4.dist-info/entry_points.txt,sha256=lhdHHDIyQqOTuZ3ZYxZFOb8HMYR6cSbBNxHHWJcZlk4,317
+hdmf_docutils-0.4.4.dist-info/license.txt,sha256=QYZGZWUCErSvS6UdCccsmXl-ep2ZQPiD_0BDn7q_YUI,2429
+hdmf_docutils-0.4.4.dist-info/top_level.txt,sha256=snDNreJYIBQYEKbZUVndU8zFLyP6bkwTvW32PFvF2Fs,14
+hdmf_docutils-0.4.4.dist-info/RECORD,,
