@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pynamite
+Version: 0.0.1
+Summary: DynomoDB wrapper - makes AWS dynamoDB simple to use
+Home-page: https://github.com/xzava/pynamite
+Author: Mike Hall
+Author-email: micheal.hall+pynamite@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/xzava/pynamite/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pynamite - TEST VERSION
+
+DynomoDB wrapper - AWS boto3 wrapper for using dynamoDB with minimal effort 
+
+### Give this project a star
+[Project Source Code](https://github.com/xzava/pynamite)
+
+
+## Installation
+
+```
+pip install pynamite
+```
+
+## Useage
+
+
+### Python
+
+```python
+
+
+
+```
+
+
+### Cli
+
+```python
+
+
+
+```
+
+
+## License
+
+
+## Author
+
+
+
+
+
