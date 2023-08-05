@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: telegram_scraper
+Version: 1.0.0
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Title
+
+telegram Scraper
+
+### Descrption
+
+* With telegram Scraper you can scrape search results and extract the contents produced by the search result.
+* In telegram scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_Telegram": {
+        "Telegram": "Telegram for Android",
+        "about_install": "This video shows how to install Telegram on your Android device. See this page for detailed steps on various versions of Android.",
+        "about_store": "More comfortable with installing appsfrom the Google Play Store?Download Telegram from Google\u00a0Play",
+        "blank": "Twitter",
+        "column_9": "telegram.org",
+        "download_wrap": "Download Telegram",
+        "toggle": "EN"
+    }
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_4RF4VGCWG6PGHB6_json.json)
+
+### Run Scraper
+```sh
+from telegram_scraper import *
+link="https://telegram.org/dl/ios"
+data=run_telegram_scraper(link)
+```
+
+### How it works?
+* It takes URL of telegram page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the telegram search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://telegram.org/android)
+
+* [Example2](https://telegram.org/dl/ios)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+
