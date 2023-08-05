@@ -1,0 +1,7 @@
+.gitignore
+README.md
+setup_pypi.py
+Emporia.egg-info/PKG-INFO
+Emporia.egg-info/SOURCES.txt
+Emporia.egg-info/dependency_links.txt
+Emporia.egg-info/top_level.txt
