@@ -1,0 +1,17 @@
+sudachipy/__init__.py,sha256=aoeX-C9tDYo6U6WGAzjD0c6vlTmWJsQkiCgpDerY_Cs,1256
+sudachipy/command_line.py,sha256=1Wwjyv7SME_TsFUgVl6C2qAXRxwvg42y0WtqCKtZtSY,10204
+sudachipy/sudachipy.cp37-win_amd64.pyd,sha256=otSawMTiS5VL2yqzELBfyGeHQd3KUNuiJAyY6IBPwJI,2563072
+sudachipy/sudachipy.pyi,sha256=3a9wQin-3tvNpNstNONTT9LlAm3l8u7pOAQ2JZgJqNo,4704
+sudachipy/dictionary/__init__.py,sha256=5A3LmuuAGF7xxISrDqTVbB9sak43CGrIWVSKS-3VhoQ,36
+sudachipy/morpheme/__init__.py,sha256=hEE3AjtmjkyHHHAWqvbM3piIQJE9QoLJAmYaYO3BbH0,34
+sudachipy/morphemelist/__init__.py,sha256=hYKjcszSZwj-V25LMdE9dBonPYq4GHd6S3Qei37t2C4,38
+sudachipy/resources/char.def,sha256=vlOMrWwMB7DzZvdSxfI3_m0fCcAAQRTtMzdWsdL_qHM,5016
+sudachipy/resources/rewrite.def,sha256=3tNY5idL5LkBBnrT88xGVuNo2O2H_4gyayTnf1rv56o,6448
+sudachipy/resources/sudachi.json,sha256=_IuY2xP2TSPd8fHK5vbCxl6lG5PGvoLn-anZBs9tqEo,1264
+sudachipy/resources/unk.def,sha256=FPD430R10NU2gCmTW3TC6fHZtQlBc1c23lsrL2QKrjI,2035
+sudachipy/tokenizer/__init__.py,sha256=X3ovQ64LY_xY02O6jYmME5z0_vyTIRXvg9K6--XjfWA,35
+SudachiPy-0.6.0.dist-info/METADATA,sha256=LpCQocPugLl6a8jwerWg-gQvuthsXh6xQqLd3X3_uuo,12646
+SudachiPy-0.6.0.dist-info/WHEEL,sha256=OmDKD3JmZjhMu_YdpkiJDfFL1rf8n9nexhWCGhSBGVE,101
+SudachiPy-0.6.0.dist-info/entry_points.txt,sha256=4jJJD3r4nR3MpZU4do_nH25nMXHAZDesjouyEWkKhco,59
+SudachiPy-0.6.0.dist-info/top_level.txt,sha256=DMerU6xrUfys9Q1vtDfj3foUdgsBBiCM7fagOqHDFx4,10
+SudachiPy-0.6.0.dist-info/RECORD,,
