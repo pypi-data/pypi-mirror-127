@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: jsp
+Version: 0.7
+Summary: JSONPath CLI tool
+Home-page: https://github.com/kjozsa/jsp
+License: MIT
+Keywords: jsonpath
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: loguru
+Requires-Dist: jsonpath-ng
+Requires-Dist: pygments
+
+UNKNOWN
+
