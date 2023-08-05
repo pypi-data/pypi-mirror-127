@@ -1,0 +1,3 @@
+[console_scripts]
+gsdl = gsdl.__main__:main
+
