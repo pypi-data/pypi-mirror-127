@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: endetail_whois
+Version: 1.7
+Summary: Simple WHOIS function in Python for getting any domain information.
+Home-page: UNKNOWN
+Author: Petr Zachrdla
+Author-email: petr@zachrdla.cz
+License: MIT
+Description: Simple WHOIS function in Python for getting any domain information.
+        
+        ========
+        Example:
+        ========
+        
+        ``import endetail_whois as wh``
+        
+        ``print(wh.get("google.com"))``
+        
+        or with specified whois server
+        
+        ``print(wh.get("google.com", "whois.internic.net"))``
+        
+        
+        
+Keywords: whois
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
