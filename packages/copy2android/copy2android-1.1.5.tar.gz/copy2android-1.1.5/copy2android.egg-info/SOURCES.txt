@@ -1,0 +1,8 @@
+LICENCE.txt
+setup.py
+copy2android/M2A.py
+copy2android/__init__.py
+copy2android.egg-info/PKG-INFO
+copy2android.egg-info/SOURCES.txt
+copy2android.egg-info/dependency_links.txt
+copy2android.egg-info/top_level.txt
