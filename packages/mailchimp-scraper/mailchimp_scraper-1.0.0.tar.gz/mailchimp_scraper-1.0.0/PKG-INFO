@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: mailchimp_scraper
+Version: 1.0.0
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Title
+
+mailchimp Scraper
+
+### Descrption
+
+* With mailchimp Scraper you can scrape search results and extract the contents produced by the search result.
+* In mailchimp scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_How_Mailchimp": {
+        "Header": "The Jump",
+        "Header_NextUpContentLarge_contentTitle": "Joe Talbot - 1049 Gotho",
+        "Header_PodcastDetails_subtitle": "S3:E1 David Byrne - Loco de Amor",
+        "Mailchimp_Presents": "David Byrne - Loco de Amor - The Jump \u2022 Mailchimp Presents",
+        "NextUpContentSmall_bottomText": "S3:E2 Joe Talbot - 1049 Gotho",
+        "PodcastDetails_description": "David Byrne, former Talking Heads frontman, found his voice by venturing outside his comfort zone. He shares how a love of Latin music led to his genre-breaking song, Loco de Amor, and his own personal musical liberation.",
+        "PodcastPlayer_title": "David Byrne - Loco de Amor",
+        "ProgressTimer_PodcastPlayer_timer": "Loading...",
+        "RightRailCard_duration": "1 minute",
+        "Season": "The Jump - Season 3",
+        "Text_NextUpContentLarge_description_hidden": "IDLES lead singer Joe Talbot discusses his song, 1049 Gotho.",
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_57HYFHR6SIQVFYW_json.json)
+
+### Run Scraper
+```sh
+from mailchimp_scraper import *
+link="https://mailchimp.com/presents/podcast/call-paul/"
+data=run_mailchimp_scraper(link)
+```
+
+### How it works?
+* It takes URL of mailchimp page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the mailchimp search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://mailchimp.com/presents/podcast/the-jump/)
+
+* [Example2](https://mailchimp.com/presents/podcast/call-paul/)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+
