@@ -1,0 +1,11 @@
+tracardi_profile_segmentation/plugin.py,sha256=yfcEoXzGYHZUNbx2mfMl445EXNbmi-tqH_pc74PH47U,3486
+tracardi_profile_segmentation/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_profile_segmentation/model/configuration.py,sha256=Y_dnQsr4duGEXVTaSMgQtUkSMdJ1XsYrCbopFo60tJc,126
+tracardi_profile_segmentation/model/__pycache__/__init__.cpython-38.pyc,sha256=6m5_YfsHxObLdY-lW5ftbYkLH1A6yVa2VhVieM_GTXs,188
+tracardi_profile_segmentation/model/__pycache__/configuration.cpython-38.pyc,sha256=u1hidEcVyjuFsLxcXZU7pMXI0_1Z-6VwfU5KYw9qWPQ,491
+tracardi_profile_segmentation/test/manual_test.py,sha256=VelFuL5hShnx17ZN9pg-g1Nk2lVmqo5Di1M1R_TLgvY,784
+tracardi_profile_segmentation-0.1.dist-info/LICENSE.md,sha256=zb4oZFMSjcWGxtkkv44KCWq6Rzbe877lv_UdTwG2ZAw,1071
+tracardi_profile_segmentation-0.1.dist-info/METADATA,sha256=Z0ML56xAPSuc6E4mBr1kxZmbzv4W5GzYFRgXIAO_mfY,641
+tracardi_profile_segmentation-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_profile_segmentation-0.1.dist-info/top_level.txt,sha256=-owHH7Izf_RsrhxUe3_DuPjnLH-HPdFNaRuZRYfE0lI,30
+tracardi_profile_segmentation-0.1.dist-info/RECORD,,
