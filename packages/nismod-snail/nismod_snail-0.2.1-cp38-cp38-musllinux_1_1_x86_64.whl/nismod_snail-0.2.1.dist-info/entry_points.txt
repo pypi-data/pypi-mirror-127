@@ -1,0 +1,4 @@
+[console_scripts]
+snail_raster2split = snail.cli:snail_raster2split
+snail_split = snail.cli:snail_split
+
