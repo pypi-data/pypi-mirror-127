@@ -1,0 +1,4 @@
+pygments
+psycopg2-binary
+six
+sqlalchemy
