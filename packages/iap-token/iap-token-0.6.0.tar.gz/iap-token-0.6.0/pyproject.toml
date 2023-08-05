@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "iap-token"
+version = "0.6.0"
+description = ""
+authors = ["Myung Kim <agilemlops@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+mlflow-skinny = "^1.21.0"
+google-auth = "^2.3.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["setuptools", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# [tool.poetry.plugins] # Optional super table
+
+[tool.poetry.plugins."mlflow.request_header_provider"]
+unused = "iap_token.iap:IdentityAwareProxyPluginRequestHeaderProvider"
