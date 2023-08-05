@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: microsoft-scraper
+Version: 1.0.0
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+###Title
+
+microsoft.com Scraper
+
+###Descrption
+
+* With microsoft.com Scraper you can scrape search results and extract the contents produced by the search result.
+* In microsoft.com scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_Surface": [
+        {
+            "content": "Protect your Surface",
+            "link_0": "https://www.microsoft.com/en-gb/store/b/microsoft-complete",
+            "See_new_link": "https://www.microsoft.com/windows/windows-11",
+            "call_action_glyph": "See what's new",
+            "heading": "Now with Windows 11, get closer to what you love",
+            "paragraph": "Family, friends, passions, music, creations\u2014Windows 11\u00a0is the one place for it all6. With a fresh new feel and tools that make it easier to be efficient, it has what you need for whatever\u2019s next."
+        }
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_CXQCO4TVNOX4PSR_json.json)
+
+### Run Scraper
+```sh
+from microsoft_scraper import *
+link="https://www.microsoft.com/en-gb/d/surface-pro-x/8XTMB6C575MD"
+data=run_microsoft_scraper(link)
+```
+
+### How it works?
+* It takes URL of microsoft page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the microsoft.com search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://www.microsoft.com/en-gb/d/surface-pro-x/8XTMB6C575MD)
+
+* [Example2](https://www.microsoft.com/en-gb/d/surface-go-3/904H27D0CBWN)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+
