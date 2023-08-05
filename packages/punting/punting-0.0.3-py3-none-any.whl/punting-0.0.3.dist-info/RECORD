@@ -1,0 +1,16 @@
+punting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+punting/onedim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+punting/onedim/onenormalization.py,sha256=Kq-P6C2Qxy_ra-FjO7CHRKAlC_pL7AHYMY9X3ZiTcpk,1497
+punting/onedim/onescratching.py,sha256=uA0vvwcf8X_e7dvzlJSXpLISJHE-P1S5qlWuvQwph5I,480
+punting/twodim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+punting/twodim/twodimensions.py,sha256=aqK70L6d9GSaAo5LVlXvCbeeFTURq4f9XCPh8bnWAUU,3758
+punting/twodim/twoharville.py,sha256=fPDgj0USLkWCz7ZT4BxiKNKNlKJr-a7A3HG4pgOSIZM,1269
+punting/twodim/twonormalization.py,sha256=jDdLre3EdKdR8TGpFgCxK7fdRlk72HEfnqYQo0Zeg2c,1293
+punting/twodim/twoscratching.py,sha256=m93bQBhM1rpwH2xnAbdl1_LQixAmHOO2rPKwcoGjfu0,566
+punting/twodim/twosynthetic.py,sha256=AR1dLxwjV6MxrrPUGTISIz7E2Jfh_224OLiBo8Oa_EI,2608
+punting-0.0.3.dist-info/LICENSE,sha256=3eJqexx4u0oFNdf10rr2s_eIP5BYnM0IKww-M3ZipNk,1069
+punting-0.0.3.dist-info/METADATA,sha256=Vxa-ChTcDTgy8z7e5mGQDejqBLWBsoR_0esUiPTX-zM,706
+punting-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+punting-0.0.3.dist-info/entry_points.txt,sha256=dNiupONUHJ9s6EJjQqQLX6PX_kWLcLVx8EBtU8Q5z3w,51
+punting-0.0.3.dist-info/top_level.txt,sha256=js2psf5gSyaZUJYsgAaMYRpgdxjjSsdeUP7XwCL0Cbw,8
+punting-0.0.3.dist-info/RECORD,,
