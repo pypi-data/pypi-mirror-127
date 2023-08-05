@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Atom-Toolkit
+Version: 0.1.1.dev3
+Summary: A package for handling and displaying data for atomic physics calculations
+Home-page: https://github.com/thomasdellaert/Atom-Toolkit
+Author: Thomas Dellaert
+Author-email: dellaert.thomas@gmail.com
+License: GNU GPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pint
+Requires-Dist: pandas
+Requires-Dist: pint-pandas
+Requires-Dist: numpy
+Requires-Dist: networkx
+Requires-Dist: sympy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: tqdm
+
+UNKNOWN
+
