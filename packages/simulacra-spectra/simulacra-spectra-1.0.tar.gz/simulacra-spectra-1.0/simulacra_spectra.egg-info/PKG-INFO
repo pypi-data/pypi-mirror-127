@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: simulacra-spectra
+Version: 1.0
+Summary: Spectrograph simulator
+Home-page: https://github.com/mdd423/WobbleSim.git
+Author: Matthew Daunt
+Author-email: mdd423@nyu.edu
+License: BSD 3-Clause License
+Platform: UNKNOWN
+Provides-Extra: docs
+License-File: LICENSE
+
+# WobbleSim
+simulates toy gas cell spectrograph data for modeling RVs
+
+
