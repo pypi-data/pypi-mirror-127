@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: pintrest-scraper
+Version: 1.0.0
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Title
+
+pintrest Scraper
+
+### Descrption
+
+* With pintrest Scraper you can scrape search results and extract the contents produced by the search result.
+* In pintrest scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_repeat_data_6": [
+        {
+            "column_1": "\u0647\u0645\u0632\u0629 \u0627\u0644\u0648\u0635\u0644 | Learn Arabic Online, Learning Arabic, Arabic",
+            "pin_link": "/pin/547680004664580648/",
+            "vase_tag": [
+                {
+                    "link": "/jawidakhtar/arabic-verbs/",
+                    "text": "Arabic Verbs"
+                }
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_JFWF9GW1B1FULQS_json.json)
+
+### Run Scraper
+```sh
+from pintrest_scraper import *
+link="https://in.pinterest.com/pin/858146904003365433/"
+data=run_pintrest_scraperr(link)
+```
+
+### How it works?
+* It takes URL of pintrest page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the pintrest search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://in.pinterest.com/pin/858146904003365433/)
+
+* [Example2](https://in.pinterest.com/pin/803962970985659045/)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+
