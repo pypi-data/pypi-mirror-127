@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: vitenv
+Version: 0.0.4
+Summary: Environments: minimap, navigation, firemen
+Home-page: UNKNOWN
+Author: Nhat Phan
+Author-email: <nhatsp@gmail.com
+License: UNKNOWN
+Keywords: Minimap,cooperative navigation,firemen
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+
+speedyibl: A Solution to the Curse of Exponential Growth in Instance-Based Learning Models of Decisions from Experience
+
+Installation
+
+Dependencies: numpy and tabulate
+
+User installation: 
+
+    pip install speedyibl
+
+
+
+ 
+
+
