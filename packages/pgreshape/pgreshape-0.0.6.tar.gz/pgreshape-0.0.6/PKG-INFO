@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pgreshape
+Version: 0.0.6
+Summary: Embed the new column according to the desired position in any table in the postgresql database., using on CLI.
+Home-page: https://github.com/rafaelsagastume/reshape.git
+License: BSD
+Author: Rafael Fernando Garcia Sagastume
+Requires-Python: >=3.6,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: typer (>=0.3.0,<0.4.0)
+Project-URL: Documentation, https://github.com/rafaelsagastume/reshape.git
+Project-URL: Repository, https://github.com/rafaelsagastume/reshape.git
+Description-Content-Type: text/markdown
+
+# reshape

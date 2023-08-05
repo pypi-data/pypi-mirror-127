@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "pgreshape"
+version = "0.0.6"
+description = "Embed the new column according to the desired position in any table in the postgresql database., using on CLI."
+authors = ["Rafael Fernando Garcia Sagastume"]
+readme = "README.md"
+license = "BSD"
+homepage = "https://github.com/rafaelsagastume/reshape.git"
+repository = "https://github.com/rafaelsagastume/reshape.git"
+documentation = "https://github.com/rafaelsagastume/reshape.git"
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Topic :: Terminals",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+typer = "^0.3.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.782"
+
+[tool.poetry.scripts]
+pgreshape = "pgreshape.main:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
