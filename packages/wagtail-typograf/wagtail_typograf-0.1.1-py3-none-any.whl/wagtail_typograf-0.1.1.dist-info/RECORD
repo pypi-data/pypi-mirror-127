@@ -1,0 +1,11 @@
+LICENSE,sha256=dgrkfe6zfsbDP1580kEGbALvwKjNcSblhG_PL0rDx_w,1054
+wagtail_typograf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_typograf/handlers.py,sha256=K4OiH7iPjZWMKAkE41nnQd7-3Or0UbGfDpk4ug1QZHw,537
+wagtail_typograf/static/wagtail_typograf/js/typograf.js,sha256=15wC6GZdvXDZzATTFJBrSUrgnvuD8BeAVycOwc5wvqc,1203
+wagtail_typograf/urls.py,sha256=psrz5Xihl0LnB32amj2twiHCE5pNjXzdqnc1IoGmFYE,170
+wagtail_typograf/views.py,sha256=HyymUspVL6vjHfvzN3UFnFWO7zxmf0DPB8EaB7qoTjQ,1338
+wagtail_typograf/wagtail_hooks.py,sha256=Tftnc0_QnRMg-y50kvKCLlWHXMY68GnrkjodN38nVZ0,612
+wagtail_typograf-0.1.1.dist-info/LICENSE,sha256=dgrkfe6zfsbDP1580kEGbALvwKjNcSblhG_PL0rDx_w,1054
+wagtail_typograf-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+wagtail_typograf-0.1.1.dist-info/METADATA,sha256=07x-UsEvU4QWbwWorQdvrYw7gRCYu28QQ2HH8aQ8lFg,1906
+wagtail_typograf-0.1.1.dist-info/RECORD,,
