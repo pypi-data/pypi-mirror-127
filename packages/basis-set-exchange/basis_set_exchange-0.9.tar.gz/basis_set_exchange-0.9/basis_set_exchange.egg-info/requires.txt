@@ -1,0 +1,26 @@
+jsonschema
+argcomplete
+regex
+
+[:python_version == "3.6"]
+importlib-metadata<3
+
+[:python_version == "3.7"]
+importlib-metadata<3
+
+[curate]
+graphviz
+
+[docs]
+sphinx
+sphinxcontrib-programoutput
+sphinx_rtd_theme
+graphviz
+
+[lint]
+yapf
+
+[tests]
+pytest-cov
+pytest>=4.6
+codecov
