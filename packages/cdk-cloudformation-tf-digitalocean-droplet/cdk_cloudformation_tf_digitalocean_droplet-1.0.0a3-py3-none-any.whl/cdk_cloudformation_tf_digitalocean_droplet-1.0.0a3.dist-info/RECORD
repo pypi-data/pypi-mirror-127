@@ -1,0 +1,9 @@
+cdk_cloudformation_tf_digitalocean_droplet/__init__.py,sha256=ts_husUYphlS4xyJwesnw5TzFbbJtCErMjoyqpMf9Wo,22505
+cdk_cloudformation_tf_digitalocean_droplet/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_cloudformation_tf_digitalocean_droplet/_jsii/__init__.py,sha256=hiotWSIPRadB35i7poDCMeNY_avh6QY7CDLkcsSOMpA,433
+cdk_cloudformation_tf_digitalocean_droplet/_jsii/tf-digitalocean-droplet@1.0.0-alpha.3.jsii.tgz,sha256=gJxwOtjpqySFLcZP6ZGk5n-5ljTP0kD3tH8_XRl3oxg,29313
+cdk_cloudformation_tf_digitalocean_droplet-1.0.0a3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_cloudformation_tf_digitalocean_droplet-1.0.0a3.dist-info/METADATA,sha256=VBv80uTRYclrqxWmhyMVn7SYV2v0oLEbVk072eGW_Hg,3472
+cdk_cloudformation_tf_digitalocean_droplet-1.0.0a3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cdk_cloudformation_tf_digitalocean_droplet-1.0.0a3.dist-info/top_level.txt,sha256=icGJ5um_NPOgkTr-PjW7a_Zw0Ld5g-XBSKmBv0vt3IM,43
+cdk_cloudformation_tf_digitalocean_droplet-1.0.0a3.dist-info/RECORD,,
