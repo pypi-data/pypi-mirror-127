@@ -1,0 +1,44 @@
+### Title
+
+rednet Scraper
+
+### Descrption
+
+* With rednet Scraper you can scrape search results and extract the contents produced by the search result.
+* In rednet scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+
+### Run Scraper
+```sh
+from rednet_scraper import *
+link="https://health.rednet.cn/channel/952.html"
+data=run_rednet_scraper(link)
+```
+
+### How it works?
+* It takes URL of rednet page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the rednet search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://health.rednet.cn/channel/971.html)
+
+* [Example2](https://health.rednet.cn/channel/952.html)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
