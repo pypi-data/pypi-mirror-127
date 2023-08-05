@@ -1,0 +1,28 @@
+modules:
+ - lkm_charachter_device:
+     - info: LKM Charachter Device
+     - templates:
+         - Makefile.template
+         - lkm.template
+         - test.template
+ - lkm_block_device:
+     - info: LKM Block Device
+     - templates:
+         - Makefile.template
+         - lkm.template
+         - test.template
+ - lkm_network_interfaces:
+     - info: LKM Network Interface
+     - templates:
+         - Makefile.template
+         - lkm.template
+         - test.template
+ - lkm_vma:
+     - info: LKM Virtual Memory Address
+     - templates:
+         - Makefile.template
+         - lkm.template
+         - test.template
+ - cancel:
+     - info: null
+     - templates: null
