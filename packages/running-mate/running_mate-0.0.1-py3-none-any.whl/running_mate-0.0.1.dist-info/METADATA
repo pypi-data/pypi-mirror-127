@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: running-mate
+Version: 0.0.1
+Summary: Lightweight MLOps framework.
+Home-page: https://github.com/mjhea0/running-mate
+Author: Michael Herman
+Author-email: michael@mherman.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: dacite (==1.6.0)
+Requires-Dist: numpy (==1.21.3)
+Requires-Dist: pandas (==1.3.4)
+Requires-Dist: requests (==2.26.0)
+
+UNKNOWN
+
+
