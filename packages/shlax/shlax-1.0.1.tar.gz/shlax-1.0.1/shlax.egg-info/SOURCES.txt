@@ -1,0 +1,10 @@
+README.rst
+setup.py
+shlax/__init__.py
+shlax/colors.py
+shlax/subprocess.py
+shlax.egg-info/PKG-INFO
+shlax.egg-info/SOURCES.txt
+shlax.egg-info/dependency_links.txt
+shlax.egg-info/requires.txt
+shlax.egg-info/top_level.txt
