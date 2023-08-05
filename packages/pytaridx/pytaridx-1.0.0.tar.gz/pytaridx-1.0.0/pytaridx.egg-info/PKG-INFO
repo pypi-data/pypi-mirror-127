@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pytaridx
+Version: 1.0.0
+Summary: A package for creating, reading from, and wrting to indexed tar archives.
+Home-page: https://github.com/LLNL/pytaridx
+Author: Tomas Oppelstrup
+Author-email: oppelstrup2@llnl.gov
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+License-File: NOTICE
+
+UNKNOWN
+
