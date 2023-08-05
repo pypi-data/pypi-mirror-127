@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: so_scraper
+Version: 1.0.1
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Title
+
+so Scraper
+
+### Descrption
+
+* With so Scraper you can scrape search results and extract the contents produced by the search result.
+* In so scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+
+### Run Scraper
+```sh
+from so_scraper import *
+link="https://www.so.com/s?q=qatar&src=srp&fr=so.com&psid=0beb236084ead238674bc21be9032bc8"
+data=run_so_scraper(link)
+```
+
+### How it works?
+* It takes URL of so page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the so search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://www.so.com/s?q=qatar&src=srp&fr=so.com&psid=0beb236084ead238674bc21be9032bc8)
+
+* [Example2](https://www.so.com/s?q=qatar&src=srp&fr=so.com&psid=0beb236084ead238674bc21be9032bc8)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+
