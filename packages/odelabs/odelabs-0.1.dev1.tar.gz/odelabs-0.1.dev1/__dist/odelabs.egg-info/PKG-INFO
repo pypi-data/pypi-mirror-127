@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: odelabs
+Version: 0.1.dev1
+Summary: Ordinary Differential Equations Labs
+Home-page: https://github.com/RafaelLuz/odelabs
+Author: Rafael R. L. Benevides
+Author-email: rafaeluz821@gmail.com
+License: MIT
+Description: 
+        
+        This package intends to provide some tools for analysing and solving ordinary differential equations.
+        
+        
+        Author: Rafael R. L. Benevides
+        Date: 10/11/2021
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
