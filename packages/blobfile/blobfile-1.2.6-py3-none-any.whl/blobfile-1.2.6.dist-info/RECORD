@@ -1,0 +1,14 @@
+blobfile/VERSION,sha256=PP3XZe61jmbow_ljgcG-wbwzB5i9ZhqLLvJeoEEgV60,5
+blobfile/__init__.py,sha256=4pgz4HHcfOmVnFzXZNouxg1_1byzIt5JTTQ3tunteig,1890
+blobfile/_azure.py,sha256=yHnrgUBFbqnjg89BMJMQdXDAekkOcDbRugoXxKniA4k,57771
+blobfile/_common.py,sha256=oPPXHYvUO2oIZBWojRP3Nh_gc239gFeMV20XzssbsU0,36541
+blobfile/_context.py,sha256=u5F3qCvFKy4YPwR99qpX7WRW0oH5q0NrRiCfqDTix7U,54767
+blobfile/_gcp.py,sha256=KIw2_4lLEc7HoX8D-BNghe05rfJSI4fJ9t7Fo69NpqM,27450
+blobfile/_ops.py,sha256=H86it7DFMZKsjlGYwMR2hQseRgap8GDIVCdIKQHcnXo,13481
+blobfile/_ops_test.py,sha256=MRI7tIF3UJRvWpljqwVzLqH6gUmyj8HDaILlPEE8FsM,52758
+blobfile/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blobfile-1.2.6.dist-info/LICENSE,sha256=FHo3YUVhJ7y4raLDRyijAdAazTFpRqrX1gXDqc435vI,1233
+blobfile-1.2.6.dist-info/METADATA,sha256=oQ2LR6DCx5C3OQJ6Xt4A1EfOAafODOILOYf_hX6QpME,14120
+blobfile-1.2.6.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+blobfile-1.2.6.dist-info/top_level.txt,sha256=BsixHWRC2Vk13oMQM4HUfWAfrjXllowAwpGFz0w6MrM,9
+blobfile-1.2.6.dist-info/RECORD,,
