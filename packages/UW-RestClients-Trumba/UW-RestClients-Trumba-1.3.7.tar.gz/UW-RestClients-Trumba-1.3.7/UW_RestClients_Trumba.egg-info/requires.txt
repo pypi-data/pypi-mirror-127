@@ -1,0 +1,4 @@
+UW-RestClients-Core
+commonconf
+lxml
+icalendar
