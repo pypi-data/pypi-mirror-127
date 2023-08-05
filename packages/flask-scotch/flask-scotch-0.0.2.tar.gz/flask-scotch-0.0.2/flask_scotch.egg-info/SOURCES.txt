@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+flask_scotch/LocalModel.py
+flask_scotch/LocalRelationship.py
+flask_scotch/RemoteModel.py
+flask_scotch/RemoteRelationship.py
+flask_scotch/__init__.py
+flask_scotch/utils.py
+flask_scotch.egg-info/PKG-INFO
+flask_scotch.egg-info/SOURCES.txt
+flask_scotch.egg-info/dependency_links.txt
+flask_scotch.egg-info/requires.txt
+flask_scotch.egg-info/top_level.txt
