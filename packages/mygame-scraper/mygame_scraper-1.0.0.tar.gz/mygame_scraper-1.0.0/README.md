@@ -1,0 +1,57 @@
+### Title
+
+my games Scraper
+
+### Descrption
+
+* With my games Scraper you can scrape search results and extract the contents produced by the search result.
+* In my games scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_detail_data": {
+        "Play": "Play",
+        "column_3": "Tacticool - hot isometric mobile shooter",
+        "copyright": "\u00a9 2021 Panzerdog. Published under MY.GAMES brand. All rights reserved. All trademarks are the property of their respective owners.",
+        "of_an_and": "One of the most intense shooters, featuring an unparalleled isometric view, realistic physics, cars, and destructible environment!"
+    }
+}
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_6V2P6T4J2AQEHLD_json.json)
+
+### Run Scraper
+```sh
+from mygame_scraper import *
+link="https://store.my.games/r1lmygames/adid/3234036_2016280_8/pid/105039/pof/1/f/1/"
+data=run_mygame_scraper(link)
+```
+
+### How it works?
+* It takes URL of my games page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the my games search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://store.my.games/r1lmygames/adid/3234036_2016280_8/pid/105039/pof/1/f/1/)
+
+* [Example2](https://store.my.games/r1lmygames/adid/3218899_2015512_8/pid/104682/pof/1/f/1/)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
