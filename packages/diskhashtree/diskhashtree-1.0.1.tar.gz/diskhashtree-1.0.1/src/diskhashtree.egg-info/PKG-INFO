@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: diskhashtree
+Version: 1.0.1
+Summary: A class for managing on-disk hash trees.
+Home-page: https://gitlab.com/delta1512/disk-hash-tree
+Author: Marcus Belcastro
+Author-email: markbel555@gmail.com
+License: GNU GPLv3
+Project-URL: Donate, https://gitlab.com/delta1512/donations
+Project-URL: Source Code, https://gitlab.com/delta1512/disk-hash-tree
+Project-URL: Twitter, https://twitter.com/delta_1512
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Disk Hash Tree Python Package
+
+An implementation for storing and searching through a large set of hashes.
+
+## What's this for?
+
+This project was originally being developed for [MLC@home](https://www.mlcathome.org/) as a solution to storing and testing membership for a large amounts of hashes in a memory-cheap, fast and persistent data structure. It uses the optimisations of the filesystem to do all the hard work of storing and checking membership of a hash in a set.
+
+## Why make this?
+
+Other than pickling and managing a `set()` object on-disk with a custom script, I couldn't find any other Python solution to implement a quick, persistent `set()`-like object that could support big data.
+
+At the time of making this, I am studying Advanced Computer Science at Western Sydney Univeristy and was tasked with this as an extra-cirricula activity, so why not turn this into something a little bit bigger?
+
+## Getting started
+
+This package can be run standalone or imported into any Python script.
+
+### Installing
+
+`pip install diskhashtree`
+
+### Importing and quickstart
+
+```
+from diskhashtree import DiskHashTree
+
+dht = DiskHashTree('./mydht/')
+
+dht.add('aaaaaa')
+dht.add('zzzzzz')
+
+print(dht.contains('aaaaaa'))
+
+print(dht.pop())
+
+dht.discard('aaaaaa')
+dht.discard('zzzzzz')
+
+print(dht.is_empty())
+```
+
+### Running standalone
+
+DiskHashTree can be run straight from the commandline with no additional overhead compared to running it natively in Python. All the information is in the help function:
+
+`diskhashtree -h`
+
+## The maths
+
+I had no idea until I finished this project and started showing it off that I realised this package is in fact an implementation of a radix tree on a file system and had no idea radix trees existed until this point. You can check out the operations and complexity on [Wikipedia](https://en.wikipedia.org/wiki/Radix_tree).
+
+What I am saying is that this structure is not exactly a radix tree but it is almost exactly the same.
+
+
