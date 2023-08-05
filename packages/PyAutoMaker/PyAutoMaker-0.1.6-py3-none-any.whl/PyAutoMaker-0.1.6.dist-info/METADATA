@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: PyAutoMaker
+Version: 0.1.6
+Summary: 자동화를 위한 패키지
+Home-page: https://github.com/boa9448/PyAutoMaker
+Author: WDW
+Author-email: boa9448@naver.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psutil
+Requires-Dist: keyboard
+Requires-Dist: mouse
+Requires-Dist: pywin32
+Requires-Dist: opencv-contrib-python (==4.5.4.58)
+Requires-Dist: pySerial
+
+# PyAutoMaker
+자동화를 위한 파이썬 패키지
+
+
