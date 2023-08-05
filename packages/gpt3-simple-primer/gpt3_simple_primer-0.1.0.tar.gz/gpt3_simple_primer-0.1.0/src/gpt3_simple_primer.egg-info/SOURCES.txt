@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/gpt3_simple_primer/__init__.py
+src/gpt3_simple_primer/examples.py
+src/gpt3_simple_primer/generator.py
+src/gpt3_simple_primer.egg-info/PKG-INFO
+src/gpt3_simple_primer.egg-info/SOURCES.txt
+src/gpt3_simple_primer.egg-info/dependency_links.txt
+src/gpt3_simple_primer.egg-info/requires.txt
+src/gpt3_simple_primer.egg-info/top_level.txt
