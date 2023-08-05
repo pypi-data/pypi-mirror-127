@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+jsp/__init__.py
+jsp/test_input.py
+jsp.egg-info/PKG-INFO
+jsp.egg-info/SOURCES.txt
+jsp.egg-info/dependency_links.txt
+jsp.egg-info/entry_points.txt
+jsp.egg-info/requires.txt
+jsp.egg-info/top_level.txt
