@@ -1,0 +1,3 @@
+[console_scripts]
+export-cli=librelingo_json_export.cli:main
+
