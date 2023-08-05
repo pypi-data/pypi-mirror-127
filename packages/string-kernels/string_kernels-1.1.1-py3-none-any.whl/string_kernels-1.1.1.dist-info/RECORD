@@ -1,0 +1,14 @@
+stringkernels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stringkernels/kernels.py,sha256=1bjnppX08ACaLB0Wv-zMG2F9ZbK60AlNs_VsEVk5QHM,5635
+stringkernels/utils.py,sha256=jC44NzL2e0MJLm_r5-2tXDDxshTM2Os3cLEsGNiWJVg,916
+stringkernels/data/ancestry_train.npy,sha256=0hupiNrZdyCpWo0yWT23y14Rvsm9kSlYoNwItPYU8Xk,20000
+stringkernels/data/ancestry_validation.npy,sha256=l_2fRLo8kaHd9dXpGGuE6eSWSfa0T_T9bBkSM85ECOY,4448
+stringkernels/data/populations.npy,sha256=0JxY3647Qx1a3GKlRHeOA3rRX-ZoU5W4YHrkxxnTSkA,344
+stringkernels/data/reference.npy,sha256=8hpesmSeMqEBHOyLzHUOfIvFqnSwToIEL_k_bfYx8Oc,4128
+stringkernels/data/samples_train.npy,sha256=elz2t698RjGQUOjSKz0iaagdSrw8Hbhwr4W5gbMbGHM,2208128
+stringkernels/data/samples_validation.npy,sha256=sGMdQIMejNAr4oq84iSBB6TTsUfKU9WUAYHeWot6Sxg,480128
+string_kernels-1.1.1.dist-info/LICENSE,sha256=lEyzlpb9MwXem2FFovSdrMIKJfv_hRDbGIdcu3OG2_s,702
+string_kernels-1.1.1.dist-info/METADATA,sha256=PpC7K9P9opS7nyVoeaUWsqunYCNgo0F4Zdti_4OrEXI,2185
+string_kernels-1.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+string_kernels-1.1.1.dist-info/top_level.txt,sha256=EBiwVZU9IzEKa1KgGFUTktRgKG5jqYJpuemgCMeVwb4,14
+string_kernels-1.1.1.dist-info/RECORD,,
