@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cipher_zm2383"
+version = "0.1.3"
+description = "hm07"
+authors = ["Zhenwei Ma"]
+license = "None"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.3.4"
+
+[tool.poetry.dev-dependencies]
+myst-nb = "^0.13.1"
+sphinx-autoapi = "^1.8.4"
+sphinx-rtd-theme = "^1.0.0"
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
