@@ -1,0 +1,4 @@
+[console_scripts]
+neon-cli = neon_cli.__main__:main
+neon_cli_client = neon_cli.__main__:main
+
