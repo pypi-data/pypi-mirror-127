@@ -1,0 +1,6 @@
+templates:
+ - mosquitto/publisher.template
+ - mosquitto/subscriber.template
+modules:
+ - publisher.c
+ - subscriber.c
