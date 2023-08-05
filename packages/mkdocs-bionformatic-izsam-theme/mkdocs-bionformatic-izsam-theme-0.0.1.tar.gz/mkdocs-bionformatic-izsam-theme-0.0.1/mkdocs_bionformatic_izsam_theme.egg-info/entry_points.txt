@@ -1,0 +1,3 @@
+[mkdocs.themes]
+bionformatic-izsam-theme = mkdocs_izsam_theme
+
