@@ -1,0 +1,3 @@
+[pytest11]
+phmdoctest = pytest_phmdoctest.plugin
+
