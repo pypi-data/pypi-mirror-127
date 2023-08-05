@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cloudflarepycli
+Version: 0.50.6
+Summary: Python CLI and python class for retrieving user's realtime performance statistics
+Home-page: https://github.com/tevslin/cloudflarepycli
+Author: Tom Evslin
+Author-email: tevslin@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/tevslin/cloudflarepycli/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# cloudflarepycli
+Python CLI and python class for retrieving user's realtime performance statistics
+
+
