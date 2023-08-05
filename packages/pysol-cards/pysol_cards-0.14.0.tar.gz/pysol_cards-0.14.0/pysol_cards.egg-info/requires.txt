@@ -1,0 +1,7 @@
+coverage
+pytest
+pytest-cov
+random2
+requests
+six
+twine
