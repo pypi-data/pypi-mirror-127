@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+instructure_scraper.egg-info/PKG-INFO
+instructure_scraper.egg-info/SOURCES.txt
+instructure_scraper.egg-info/dependency_links.txt
+instructure_scraper.egg-info/requires.txt
+instructure_scraper.egg-info/top_level.txt
+pypi_scraper/__init__.py
