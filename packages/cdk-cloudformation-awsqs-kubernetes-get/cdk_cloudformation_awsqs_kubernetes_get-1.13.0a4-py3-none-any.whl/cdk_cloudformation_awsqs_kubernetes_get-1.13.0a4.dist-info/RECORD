@@ -1,0 +1,9 @@
+cdk_cloudformation_awsqs_kubernetes_get/__init__.py,sha256=1AqZ53Lur0fmeeaxwuBoNNL0xLlmeUEAA_HrUt_WbYw,8783
+cdk_cloudformation_awsqs_kubernetes_get/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_cloudformation_awsqs_kubernetes_get/_jsii/__init__.py,sha256=C5fKMB5PC9yEoBhXl1sRpaxtWnkVhkbJ6gg_dkXNS38,429
+cdk_cloudformation_awsqs_kubernetes_get/_jsii/awsqs-kubernetes-get@1.13.0-alpha.4.jsii.tgz,sha256=l6_EfNYQhCYjLBuQJOZ5ZLx19jUi-Kvqqmc4Zk83quI,25467
+cdk_cloudformation_awsqs_kubernetes_get-1.13.0a4.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_cloudformation_awsqs_kubernetes_get-1.13.0a4.dist-info/METADATA,sha256=vSNM3c-9kd9__rLapKlYqCk9yanyzitGk8UdeABPYZ8,3233
+cdk_cloudformation_awsqs_kubernetes_get-1.13.0a4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cdk_cloudformation_awsqs_kubernetes_get-1.13.0a4.dist-info/top_level.txt,sha256=kGxnL1I1fgSwB07qph_x0xBs-5Da1kvPwXHE6ZIdp3I,40
+cdk_cloudformation_awsqs_kubernetes_get-1.13.0a4.dist-info/RECORD,,
