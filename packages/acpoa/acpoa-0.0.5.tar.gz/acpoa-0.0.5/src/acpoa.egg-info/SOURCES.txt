@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/acpoa/__init__.py
+src/acpoa/cli.py
+src/acpoa/configuration.py
+src/acpoa/core.py
+src/acpoa/hookshandler.py
+src/acpoa/plugin_base.py
+src/acpoa/plugin_manager.py
+src/acpoa/repository_manager.py
+src/acpoa/singleton.py
+src/acpoa.egg-info/PKG-INFO
+src/acpoa.egg-info/SOURCES.txt
+src/acpoa.egg-info/dependency_links.txt
+src/acpoa.egg-info/top_level.txt
