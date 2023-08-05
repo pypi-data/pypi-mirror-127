@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: huangiu-scraper
+Version: 1.0.0
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Title
+
+huangiu Scraper
+
+### Descrption
+
+* With huangiu Scraper you can scrape search results and extract the contents produced by the search result.
+* In huangiu scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_repeat_data_6": [
+        {
+            "blank_link": "/article/45WfRQrh70a",
+            "column_2": "\u7f8e\u56fd\u5b87\u822a\u5c40\u5ba3\u5e03\u767b\u6708\u63a8\u8fdf\u81f32025\u5e74",
+            "original": "\u73af\u7403\u7f51",
+            "time": "2021-11-10 03:50"
+        }
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_HCSXKL7ZLNHTYHR_json.json)
+
+### Run Scraper
+```sh
+from huangiu_scraper import *
+link="https://finance.huanqiu.com/"
+data=run_huangiu_scraper(link)
+```
+
+### How it works?
+* It takes URL of huangiu page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the huangiu search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://tech.huanqiu.com/)
+
+* [Example2](https://finance.huanqiu.com/)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+
