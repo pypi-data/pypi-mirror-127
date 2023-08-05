@@ -1,0 +1,16 @@
+skillful_nowcasting/__init__.py,sha256=lStBqY4bmtFF_C-WOIXPnPqi9qrnUciHr5_xqtOggVQ,223
+skillful_nowcasting/common.py,sha256=XWhma-1YJc99c-z2cbKsNmSOFP6o9UHIzXge33jRFlA,16421
+skillful_nowcasting/dgmr.py,sha256=OkrPSxPARen9c3Hy5jBAcjevOFOZLUfafDQpjDNeytQ,7642
+skillful_nowcasting/discriminators.py,sha256=DLUi62P4dvgjhJcd1aq6uJ_v_l_rQLadwqVEOGiaMY4,8091
+skillful_nowcasting/generators.py,sha256=FctlG9SHLHhc9cMk828DA7fvkAll6rorvkbPQRxp-f8,7240
+skillful_nowcasting/losses.py,sha256=X_x4M6oMbmPxmEEEdp-s_gcC3SeA4ZfJ7pa6RkUNUS4,11121
+skillful_nowcasting/layers/Attention.py,sha256=fL7FCYmfrD9h6VY90VCMxNiwqoWnzDhbK-WlgjO0ZY4,2763
+skillful_nowcasting/layers/ConvGRU.py,sha256=trrCAcWVqbgO4s8jRht5DI1HgDlAxmn70wKAgoIjNkc,3040
+skillful_nowcasting/layers/CoordConv.py,sha256=k99DrQbxWeGI9J2msX1bey5UQoF4f9hZeqMNiZx6YxM,1692
+skillful_nowcasting/layers/__init__.py,sha256=9r75k7FDSgOdf4zYC_mBKMbdYtn4mRtjK5H_Mog6pyA,100
+skillful_nowcasting/layers/utils.py,sha256=7tCYtTELJYliOk86aGR-j9dJ3w8dAyBA4M7iwELmbQo,433
+skillful_nowcasting-1.1.0.dist-info/LICENSE,sha256=apuQBDvX5oNtuaWBJcgRQaTuS4pTiqvjP23FGA7P8J8,1073
+skillful_nowcasting-1.1.0.dist-info/METADATA,sha256=NMZpLsM_lnCdbajlpOLvaTCnTYqoUIr6eo7AdYKCMkI,1284
+skillful_nowcasting-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+skillful_nowcasting-1.1.0.dist-info/top_level.txt,sha256=2c9hAvz5Qx414-KSGTHheGLqVucg6BBDQq6tsFp9zG4,20
+skillful_nowcasting-1.1.0.dist-info/RECORD,,
