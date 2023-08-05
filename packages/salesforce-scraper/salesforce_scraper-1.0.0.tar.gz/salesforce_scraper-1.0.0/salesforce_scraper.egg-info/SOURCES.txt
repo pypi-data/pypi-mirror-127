@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pypi_scraper/__init__.py
+salesforce_scraper.egg-info/PKG-INFO
+salesforce_scraper.egg-info/SOURCES.txt
+salesforce_scraper.egg-info/dependency_links.txt
+salesforce_scraper.egg-info/requires.txt
+salesforce_scraper.egg-info/top_level.txt

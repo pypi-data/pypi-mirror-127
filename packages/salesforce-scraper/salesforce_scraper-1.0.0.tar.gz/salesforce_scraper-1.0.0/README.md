@@ -1,0 +1,67 @@
+### Title
+
+salesforce Scraper
+
+### Descrption
+
+* With salesforce Scraper you can scrape search results and extract the contents produced by the search result.
+* In salesforce scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_Cloud": [
+        {
+            "buttonCTAComponent_section": "See the story",
+            "headingComponent_section": "BCCL is embracing digital innovation to enhance customer experience by offering the right products at the right price.",
+            "text_stratus_left_col_margin_top_bottom": "Achieve sales success from anywhere."
+        },
+        {
+            "text_stratus_left_col_margin_top_bottom": "Faster, predictable growth begins with a more productive sales team."
+        },
+        {
+            "bodyCopyComponent_section": "Sales Cloud is the perfect customer management solution for whatever phase of growth your company is in. Flexible enough for businesses of any size or industry and scalable for anything you need with the largest enterprise app ecosystem.",
+            "buttonCTAComponent_section": "Watch their story",
+            "headingComponent_section": "Powered by technology, WhiteHat Jr grew 30x in 10 months.",
+            "link_0": "/in/products/sales-cloud/features/contact-management-software/?d=cta-body-promo-96",
+            "link_1": "/in/products/sales-cloud/tools/sales-apps/?d=cta-body-promo-97",
+            "text_stratus_left_col_margin_top_bottom": "Flexible enough to grow with you. Adapt, iterate, grow, repeat."
+        }
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_AVP3W8HKEF67DN6_json.json)
+
+### Run Scraper
+```sh
+from salesforce_scraper import *
+link="https://www.salesforce.com/in/products/service-cloud/overview/"
+data=run_salesforce_scraper(link)
+```
+
+### How it works?
+* It takes URL of salesforce page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the salesforce search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://www.salesforce.com/in/products/service-cloud/overview/)
+
+* [Example2](https://www.salesforce.com/in/products/sales-cloud/overview/)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
