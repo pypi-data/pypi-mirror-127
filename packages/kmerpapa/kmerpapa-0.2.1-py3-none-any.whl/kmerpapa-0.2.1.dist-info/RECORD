@@ -1,0 +1,17 @@
+kmerpapa/CV_tools.py,sha256=KsHP9IvjVr_NEVuqiNRGK4L_RZRhLwj8A_xPpYbtc6I,5100
+kmerpapa/__init__.py,sha256=Asl5g4cj-argPDoNoqMUSqNkeazR5vyWCEBbIA7n7Xs,148
+kmerpapa/__main__.py,sha256=L-Yf5qw0ujG_wpGtLcZxBOef_z2WR9ptA-O_ml_RlTg,170
+kmerpapa/algorithms/all_kmers_CV.py,sha256=RxvI3iB9AeM1NyIiALTTvmnr7SU4mMusgVqaOStqM2I,2393
+kmerpapa/algorithms/bottum_up_array_penalty_plus_pseudo_CV.py,sha256=uJ1TKCmJ3jrjvnKAja5_Hxl7fgbZwY6a9O1yLhWZVqg,7423
+kmerpapa/algorithms/bottum_up_array_w_numba.py,sha256=1dCdX7iQsory-qlBOmVBkkSUyMX_DE7_hQmWSvIlv-E,4276
+kmerpapa/algorithms/greedy_penalty_plus_pseudo.py,sha256=6ti8tSUvWQY2bqXdxSU5X7sZaRhnwhEgIHju416SfjI,6065
+kmerpapa/cli.py,sha256=2-kVUtBj7LPhaw2-sHWEk9Pz2CamoDp1kB8jIyUR7q0,12533
+kmerpapa/io_utils.py,sha256=xj-EqapB3K_WMMkD8CH5cDVJPRJX5UJTWxqqz0Ybv_A,7225
+kmerpapa/papa.py,sha256=El9iF8dXg1m91XYSYbFUGDN3e0Y-YBbfhG14o3pBjmw,3756
+kmerpapa/pattern_utils.py,sha256=35bqKksD05aT96pHc96GdOrIPzl1m3-6z1ROERFQexU,12979
+kmerpapa/score_utils.py,sha256=Qr_NNSUq6fR4QuVUOPgO1bRVG3ToKdsX3t8ZzuUl_Jw,1002
+kmerpapa-0.2.1.dist-info/entry_points.txt,sha256=pE2i_pp6HUfAOinbLDGowemz0AIqO1rLTrUGvKhjhCI,46
+kmerpapa-0.2.1.dist-info/LICENSE,sha256=A7AjKKcxs-G833QoVaAvLJe0ZuabC8KHMCwLzG1wmRc,1075
+kmerpapa-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+kmerpapa-0.2.1.dist-info/METADATA,sha256=gnysf9ICTlcCo55vYNG0IEnJoCFfS9lgvEoersqhK3Y,2997
+kmerpapa-0.2.1.dist-info/RECORD,,
