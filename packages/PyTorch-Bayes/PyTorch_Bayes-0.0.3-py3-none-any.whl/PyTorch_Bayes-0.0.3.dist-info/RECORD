@@ -1,0 +1,15 @@
+pytorch_bayes/__init__.py,sha256=uEZWcmMSzE1-MnXDqeA0asqqgdUMP3s_YuTLLm-Ewok,197
+pytorch_bayes/distributions/__init__.py,sha256=jMPRWW1Pf60C9q1Mz7CrjYwF-ZN9zKbe7OCAHan_Qbk,319
+pytorch_bayes/distributions/distribution.py,sha256=ap1V26tDODkLJo2iZGsl17SFGP7-rS5ETRrgMFYLMGw,676
+pytorch_bayes/distributions/prior.py,sha256=x7hWFbTyt2Oj7yyJphY-IW6AU2euYuAJeeInGRx_Hyw,1653
+pytorch_bayes/distributions/variational_posterior.py,sha256=h9ZPYASIiEcODOG2ZwjJe9JyGkqnRZOH1O90r1s8M6s,924
+pytorch_bayes/nn/__init__.py,sha256=UElPxWZkgAgOgKELeW7DCdjwilqOWZkfs5bK335bIQs,234
+pytorch_bayes/nn/bayesian_module.py,sha256=jEYZiVLxg4K1fYeT1Dm-xBOGOiXWsGchhHeJVnLAFC8,724
+pytorch_bayes/nn/utils.py,sha256=IpLzrgjpCvuYgvcpq8pvGfA6PZvU3GHAUpkPuBKMMXY,1494
+pytorch_bayes/nn/bayes_by_backprop/__init__.py,sha256=_ZIqqV6g_a-TuisIeV_s_hbNYu_Wcfdck4uGUH9oRAY,174
+pytorch_bayes/nn/bayes_by_backprop/bayesian_linear.py,sha256=Mo3P8wdO__voQph4KKdQn8tNLBzCC8o-bt9rNRs_rDE,2397
+pytorch_bayes/nn/bayes_by_backprop/bayesian_mlp.py,sha256=eQ_KjDRvgRlJaSOe5hu6kVW848mJC-RrUbAlZGx4guU,1637
+PyTorch_Bayes-0.0.3.dist-info/METADATA,sha256=L6oGMt4Zid0b-SZYJCl04b2DVcTeNtXod70GZOcHsxM,958
+PyTorch_Bayes-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PyTorch_Bayes-0.0.3.dist-info/top_level.txt,sha256=Tb78QukN__YLXrKfowgL9ERfV9NhMUicI0GJ4OraX2c,14
+PyTorch_Bayes-0.0.3.dist-info/RECORD,,
