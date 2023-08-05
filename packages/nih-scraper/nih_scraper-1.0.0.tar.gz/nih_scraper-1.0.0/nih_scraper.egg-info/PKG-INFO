@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: nih-scraper
+Version: 1.0.0
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Title
+
+nih Scraper
+
+### Descrption
+
+* With nih Scraper you can scrape search results and extract the contents produced by the search result.
+* In nih scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+
+### JSON sample data
+```sh
+{
+    "Scraper_NIH": [
+        {
+            "blank_link": "https://www.pbs.org/wnet/amanpour-and-company/video/nih-director-our-culture-wars-are-killing-people/",
+            "element_invisible_link": "/collins/20211103-dc-amanpour.jpg",
+            "file_image": "20211103-dc-amanpour.jpg",
+            "teaser_title": "In conversation with Walter Isaacson, Dr. Collins discusses a variety of topics including his decision to step down as NIH director, COVID-19 vaccines, and the Human Genome Project(link is external)",
+            "time": "November 3, 2021"
+        }
+```
+
+[Click Here for more](https://datakund-scraper.s3.amazonaws.com/datakund_4WJ781ERVERFPYP_json.json)
+
+### Run Scraper
+```sh
+from nih_scraper import *
+link="https://www.nih.gov/about-nih/what-we-do/nih-almanac"
+data=run_nih_scraper(link)
+```
+
+### How it works?
+* It takes URL of nih page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the nih search result.
+* It gives the every detail present inside website in the form of json data.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://www.nih.gov/about-nih/what-we-do/nih-almanac)
+
+* [Example2](https://www.nih.gov/about-nih/who-we-are/nih-director)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+

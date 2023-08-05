@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+nih_scraper.egg-info/PKG-INFO
+nih_scraper.egg-info/SOURCES.txt
+nih_scraper.egg-info/dependency_links.txt
+nih_scraper.egg-info/requires.txt
+nih_scraper.egg-info/top_level.txt
+pypi_scraper/__init__.py
