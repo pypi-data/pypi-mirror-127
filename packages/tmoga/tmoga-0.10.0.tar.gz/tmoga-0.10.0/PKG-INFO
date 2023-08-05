@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tmoga
+Version: 0.10.0
+Summary: TMOGA(feature Transfer based Multi-Objective Genetic algorithm) is a multi-objective genetic algorithm to solve community detection problem on dynamic networks.
+Home-page: https://github.com/zjg540066169/TMOGA
+Author: Jungang Zou
+Author-email: jungang.zou@gmail.com
+License: UNKNOWN
+Project-URL: Code, https://github.com/zjg540066169/TMOGA
+Description: # TMOGA
+        
+        TMOGA(feature Transfer based Multi-Objective Genetic algorithm) is a multi-objective genetic algorithm to solve community detection problem on dynamic networks. The whole algorithm is written by Python, which takes a list of Graph class from Networkx as input and a list of final community partitions as output.
+        
+        Inspired by transfer learning mechanism, the algorithm uses feature transfer mechanism to improve the results. It can keep the useful information from last snapshot network, to help the optimization of current network community structures. This unique mechanism can significantly improve the stability and accuracy of algorithms. Although additional time is needed to run feature transfer, the additional running time can be ignored compared with genetic algorithm part in practice. 
+        
+        For more details on the algorithm and its applications, please consult the following paper:
+        "Transfer Learning Based Multi-Objective Genetic Algorithm for Dynamic Community Detection" (arxiv: https://arxiv.org/abs/2109.15136)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7.*
+Description-Content-Type: text/markdown
