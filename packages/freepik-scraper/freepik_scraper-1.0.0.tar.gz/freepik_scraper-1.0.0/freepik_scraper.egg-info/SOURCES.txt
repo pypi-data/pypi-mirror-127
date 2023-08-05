@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+freepik_scraper.egg-info/PKG-INFO
+freepik_scraper.egg-info/SOURCES.txt
+freepik_scraper.egg-info/dependency_links.txt
+freepik_scraper.egg-info/requires.txt
+freepik_scraper.egg-info/top_level.txt
+pypi_scraper/__init__.py
