@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: limioptic
+Version: 0.1.1
+Summary: 
+Author: Alexander M. Stolz
+Author-email: alexander.stolz@dvs.ag
+Requires-Python: >=3.7,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyQt5 (>=5.15.4,<6.0.0)
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: numpy (>=1.21.2,<2.0.0)
+Requires-Dist: pyqtgraph (>=0.12.3,<0.13.0)
+Requires-Dist: scipy (>=1.7.1,<2.0.0)
