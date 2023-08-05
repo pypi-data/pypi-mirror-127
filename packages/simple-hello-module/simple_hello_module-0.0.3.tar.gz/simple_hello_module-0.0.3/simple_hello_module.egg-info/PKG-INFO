@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: simple-hello-module
+Version: 0.0.3
+Summary: Simple hello app
+Home-page: UNKNOWN
+Author: Boris Nieto
+Author-email: borismnq@email.com
+License: UNKNOWN
+Description: My first Python package ~ a Simple hello python app
+Keywords: python,first package
+Platform: UNKNOWN
