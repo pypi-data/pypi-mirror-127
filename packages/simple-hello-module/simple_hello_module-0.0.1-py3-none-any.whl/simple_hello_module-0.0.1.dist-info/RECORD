@@ -1,0 +1,9 @@
+simple_hello_module/__init__.py,sha256=y4xXwOlR0eR9mRCPaO_KHfhbWQJfOThCN368bjbBGdQ,34
+simple_hello_module/simple_hello.py,sha256=tKz6_kXPWGnCTGDBRRR6Qb4GPKHkkiqTFbjjlAJ0ktM,35
+simple_hello_module/extras/__init__.py,sha256=9DeR5LgPzm483ZcI8re4TWhsSjXYpOC0zfl10sdMrLY,91
+simple_hello_module/extras/extra_dash.py,sha256=W0FOI9xeGMNj6KUkzylVVwnOBXi0itpI51KFaKgUNas,51
+simple_hello_module/extras/extra_text.py,sha256=rnXJQU_69kw_f0gqr02eu-PI3k7YLGxAoqqanueZpT8,66
+simple_hello_module-0.0.1.dist-info/METADATA,sha256=tXwqVW7XobHB8-vHhhJIUttbF2aQecEVf-yvmz1iTiQ,282
+simple_hello_module-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+simple_hello_module-0.0.1.dist-info/top_level.txt,sha256=zZviR5rCVU7DtWAGYJ8RClfeBWnHctvhvrUSINadbr4,20
+simple_hello_module-0.0.1.dist-info/RECORD,,
