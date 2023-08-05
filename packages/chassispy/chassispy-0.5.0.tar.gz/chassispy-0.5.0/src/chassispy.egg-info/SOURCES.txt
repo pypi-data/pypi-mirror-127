@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/chassispy/UGVConfigMsg.py
+src/chassispy/__init__.py
+src/chassispy/chassispy.py
+src/chassispy.egg-info/PKG-INFO
+src/chassispy.egg-info/SOURCES.txt
+src/chassispy.egg-info/dependency_links.txt
+src/chassispy.egg-info/requires.txt
+src/chassispy.egg-info/top_level.txt
