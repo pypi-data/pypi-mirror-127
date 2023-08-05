@@ -1,0 +1,10 @@
+naver_core/__init__.py,sha256=1Fm_Pw4-fnCngxxsFTAMxa05I0H4DEodO_4rH7xWHMI,280
+naver_core/core.py,sha256=PFnIpLgdyH6KkUTm7gYhytafSuIwqE3wKrq1DbYnxjc,755
+naver_core/datagroup.py,sha256=o1WUfKRxxI5tXDAtqBHbfUndV6wsrkVCmDvKLbVaUQU,682
+naver_core/errors.py,sha256=PQ6qf3xS7QU3nY3sn1UMZAS-4VmjPLMxSpUx8frTkbw,402
+naver_core/middleware.py,sha256=v-c7Vv3ShjGWP8UrxYF6FBlQnIpZ4C2bIUU1lC97TQ4,1303
+naver_core/utils.py,sha256=Wft9cN5fFKE5PMeVE9RSoMQNE_jjiJLIW2KI0b8zJUM,889
+naver_core-0.0.2.post10.dist-info/METADATA,sha256=bOif27eloqCL-J1zLfOJzDUCe0Eup3fXm7ocFYji3Pw,507
+naver_core-0.0.2.post10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+naver_core-0.0.2.post10.dist-info/top_level.txt,sha256=GwwmAsfCl4hze-TcNsd5rZKFsiyTWidNfYtXi3GDngg,11
+naver_core-0.0.2.post10.dist-info/RECORD,,
