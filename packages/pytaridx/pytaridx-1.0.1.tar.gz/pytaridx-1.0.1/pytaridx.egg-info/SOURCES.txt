@@ -1,0 +1,15 @@
+LICENSE
+NOTICE
+README.md
+setup.py
+pytaridx/__init__.py
+pytaridx/block.py
+pytaridx/blocktree.py
+pytaridx/main.py
+pytaridx/pytaridx.py
+pytaridx/reindex.py
+pytaridx.egg-info/PKG-INFO
+pytaridx.egg-info/SOURCES.txt
+pytaridx.egg-info/dependency_links.txt
+pytaridx.egg-info/entry_points.txt
+pytaridx.egg-info/top_level.txt
