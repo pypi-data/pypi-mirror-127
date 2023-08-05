@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nomad-broker-cli
+Version: 1.3.1
+Summary: Nomad Broker
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: manwei@samarkand.global
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,Nomad Broker
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+    Make payments, and customs declaration for orders.  # noqa: E501
+    
+
