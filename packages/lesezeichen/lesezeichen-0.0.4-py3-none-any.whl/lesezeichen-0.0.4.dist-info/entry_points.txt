@@ -1,0 +1,3 @@
+[console_scripts]
+lzn = lesezeichen.cli:cli
+
