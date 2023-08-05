@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: moonstreamapi
+Version: 0.1.0
+Summary: The Bugout blockchain inspector API.
+Home-page: https://github.com/bugout-dev/moonstream
+Author: Bugout.dev
+Author-email: engineering@bugout.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: appdirs
+Requires-Dist: boto3
+Requires-Dist: bugout
+Requires-Dist: fastapi
+Requires-Dist: moonstreamdb
+Requires-Dist: humbug
+Requires-Dist: pydantic
+Requires-Dist: pyevmasm
+Requires-Dist: python-dateutil
+Requires-Dist: python-multipart
+Requires-Dist: uvicorn
+Requires-Dist: web3
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: types-requests ; extra == 'dev'
+Requires-Dist: types-python-dateutil ; extra == 'dev'
+Provides-Extra: distribute
+Requires-Dist: setuptools ; extra == 'distribute'
+Requires-Dist: twine ; extra == 'distribute'
+Requires-Dist: wheel ; extra == 'distribute'
+
+# moonstream backend
+
+
