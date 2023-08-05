@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: eb-airflow-providers-siafi
+Version: 1.0.1
+Summary: Provider para interações com o SIAFI e seus derivados
+Home-page: UNKNOWN
+Author: Carlos Alberto Duarte Pinto
+Author-email: carlos.adpinto@gmail.com
+License: Exército Brasileiro
+Description: # sed-airflow-providers-tesouro-gerencial
+        
+        Provider para interações com o SIAFI e seus derivados
+        
+Keywords: airflow,siafi,administracao,governo
+Platform: UNKNOWN
