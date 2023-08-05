@@ -1,0 +1,20 @@
+# Python
+**/__pycache__/
+
+# Pytest
+/.pytest_cache/
+
+# Mypy
+/.mypy_cache/
+
+# Wheel and source dist
+/dist/
+
+# Generated cffi binding glue code
+/arrow_odbc/arrow_odbc/
+
+# Dynamic library genenarted for cffi on windows
+**/*.pyd
+
+# Cargo
+/target
