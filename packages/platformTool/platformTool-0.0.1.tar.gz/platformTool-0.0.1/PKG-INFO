@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: platformTool
+Version: 0.0.1
+Summary: 一个简单的工具集
+Home-page: https://gitee.com/zhsjch/platform_tool.git
+Author: JiChaoSong
+Author-email: jichaosong@outlook.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
