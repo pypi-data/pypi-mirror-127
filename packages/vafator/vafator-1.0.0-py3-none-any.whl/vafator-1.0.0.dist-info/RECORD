@@ -1,0 +1,16 @@
+vafator/__init__.py,sha256=UPk88EVuZ9BB_HO2gMZSxhdnd6KKeXfXl6vkj0wmqD4,15
+vafator/annotator.py,sha256=sXNBiV6zpD3QYQazQXyySuHYI0BxNlBBFeZjP2c3Qt4,9178
+vafator/command_line.py,sha256=uGjlh_uBd5YDJooM3I-gY0j7nvUQhto2V9-Lh40u2ZE,3635
+vafator/multiallelic_filter.py,sha256=su9ev6cqDeW_fADIHTdqy--RbA12E3OrnKrGtNcGRo0,3626
+vafator/pileups.py,sha256=j25F7xMqVLW1aS9Oqe4pQPPS4R9bWct4FtJ9SCkEJfE,4114
+vafator/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vafator/tests/test_annotator.py,sha256=KbH7MFURaKpoE_pLkGSnMnoEZoE-tDrORRGDF9Dnm-c,6269
+vafator/tests/test_multiallelic_filter.py,sha256=yXz1Uc8tVIJZBj7eV-AX96KKizxqmgB1tS0cRYx02y8,4926
+vafator/tests/test_pileups.py,sha256=Y6z8t3wJkTOUrBTMFoxovBkyMmvNMUAbNXexRt5bA88,5192
+vafator/tests/utils.py,sha256=lMovl4Qw4O1IMReht4sKvFD3JUkVy4VG1LaHidVtvks,352
+vafator-1.0.0.dist-info/LICENSE,sha256=L3fneZGpwXnQ0oSiDCKYvr6IOfd8lKMqjnlvAXW2ICg,1066
+vafator-1.0.0.dist-info/METADATA,sha256=StdtMDExEa6aiArHCcU6BSevym89Y9i4u8MLZZAGtww,6729
+vafator-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vafator-1.0.0.dist-info/entry_points.txt,sha256=1PNzI9vzxsWd2oPZevzXrKivoISfrYPik4pp2MT9qEw,125
+vafator-1.0.0.dist-info/top_level.txt,sha256=ZhFEDdWPUcjshxCDSWLeOc25SGE7_tPhgNpHEbZMS4M,8
+vafator-1.0.0.dist-info/RECORD,,
