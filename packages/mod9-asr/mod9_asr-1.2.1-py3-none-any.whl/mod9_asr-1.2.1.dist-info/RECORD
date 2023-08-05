@@ -1,0 +1,17 @@
+mod9/__init__.py,sha256=QUz64RAARY9LbAKuOjCnsxy9aMlvZB9197QjW-RYXKE,1193
+mod9/asr/__init__.py,sha256=LUTgJJgaB_rF1Wv3_XxtUes3TTM9HeVYQ-vt7keIeMU,1149
+mod9/asr/common.py,sha256=Md3mGYG_xR_KJl3YuXmb87yqNLez5qLr9S15fW1uKtw,5612
+mod9/asr/speech.py,sha256=C_a-BCHg9mtJJlYIqjeLJMJS6wqm7aypFusjqBiBd9Y,5077
+mod9/asr/speech_mod9.py,sha256=JPBHubtue2HkzxmB_hAv7feCPXF0mwfddX4xhhttjfY,26452
+mod9/reformat/config.py,sha256=Jfh5vWpB76w-XZEN8CWrIt66xrmQQs0mtkWdXusLMHI,2895
+mod9/reformat/google.py,sha256=xlpodbF-SbA4O9t5UultPXqO1zq39VM0FjJx55pCBrM,25153
+mod9/reformat/utils.py,sha256=G1rRa55aITCjfEYP9a9FsV-LHR-1uIF25pfgwAhzj0w,21710
+mod9/rest/server.py,sha256=28_HhHQUqQf_eauFBVhBhPZr7kxQqkV9XMf51SeuiX4,18058
+mod9/websocket/client.py,sha256=IWj8tikWkSeDSI04q9CUDDlHwTToLXJ1RlfB9zertLo,5585
+mod9/websocket/server.py,sha256=ftgq-TZlXcOcukbaiZwsAXKGqiwIXj5EDO42sxqPSxk,16735
+mod9_asr-1.2.1.dist-info/LICENSE,sha256=zBgDQfzE5rCXgBxWudBi1tQKphPRdkFoJay03Tn3p0o,1327
+mod9_asr-1.2.1.dist-info/METADATA,sha256=1Sfr51Gc2gmh0TE9xJNU44AsqCkzEgObPeXGaU_GjSQ,1682
+mod9_asr-1.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mod9_asr-1.2.1.dist-info/entry_points.txt,sha256=oQWs_G3pjIENkKRK645pTb5I-GXgdtdnnOiLbPBSUk4,171
+mod9_asr-1.2.1.dist-info/top_level.txt,sha256=Hi7S4QKuukfPwIdBrr-T5Fg7aul7DEQRCb4W3kFKp08,5
+mod9_asr-1.2.1.dist-info/RECORD,,
