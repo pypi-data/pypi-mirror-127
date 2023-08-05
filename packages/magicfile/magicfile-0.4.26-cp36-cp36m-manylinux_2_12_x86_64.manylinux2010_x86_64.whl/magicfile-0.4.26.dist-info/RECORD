@@ -1,0 +1,10 @@
+magicfile/__init__.py,sha256=MWiNE_GUgvrDcnI1TGsamHuY1d4zoBxkFUokU4tqjrU,5990
+magicfile/_libmagic_build.py,sha256=R3o-26lPHQACrPYi3Wo6-AmXZz2kItr6W7YSAYuymdA,841
+magicfile/magic.mgc,sha256=4XbrbGdFV5iyTiRryig1Be49g_GABXck-STl5pePuIQ,5818072
+magicfile/_libmagic.abi3.so,sha256=doiXOC9czUocjjbYHZEF6KGFSWC-XtYabT2k01nkUkY,70728
+magicfile-0.4.26.dist-info/METADATA,sha256=ubwXWK8GnidHPQmBdEzyLOjfhpRXIQpm7L7EVPKMaEM,4235
+magicfile-0.4.26.dist-info/RECORD,,
+magicfile-0.4.26.dist-info/LICENSE,sha256=Pzdzev545xdhLafvaLGJ-iXM0uvOeyNCrZKvGb3g4S4,1081
+magicfile-0.4.26.dist-info/WHEEL,sha256=jSYAETKun3X8yDp_zvBDSaL0sIuDwtk9aq685DhXmcU,150
+magicfile-0.4.26.dist-info/top_level.txt,sha256=3brWKQcgC_IzIHWJ5mbt605y6i3SHAh2ZgUVusbkfgA,10
+magicfile.libs/libmagic-5c4e6cea.so.1.0.0,sha256=PH95ALzrVy51vbOJdOlone4hMPJRuB5YWRqQB2bm4i4,738720
