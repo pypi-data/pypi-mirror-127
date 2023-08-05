@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: punting
+Version: 0.0.4
+Summary: Basic racing related utilities
+Home-page: https://github.com/microprediction/punting
+Author: microprediction
+Author-email: peter.cotton@microprediction.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# punting ![tests](https://github.com/microprediction/punting/workflows/tests_39/badge.svg)
+Basic utilities
+
+

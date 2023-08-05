@@ -1,0 +1,3 @@
+[console_scripts]
+punting = punting.__main__:main
+
