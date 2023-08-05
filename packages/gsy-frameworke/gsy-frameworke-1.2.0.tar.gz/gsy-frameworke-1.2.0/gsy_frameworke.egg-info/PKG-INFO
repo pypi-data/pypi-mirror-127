@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gsy-frameworke
+Version: 1.2.0
+Summary: GSy Framework
+Home-page: https://github.com/gridsingularity/gsy-framework
+Author: GridSingularity
+Author-email: d3a@gridsingularity.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+# GSy Framework
+
+[![codecov](https://codecov.io/gh/gridsingularity/gsy-framework/branch/master/graph/badge.svg?token=CAYP3OC8P4)](https://codecov.io/gh/gridsingularity/gsy-framework)
+
+Framework that contains utilities and libraries that are used in multiple GSy repos and services. 
+
+
