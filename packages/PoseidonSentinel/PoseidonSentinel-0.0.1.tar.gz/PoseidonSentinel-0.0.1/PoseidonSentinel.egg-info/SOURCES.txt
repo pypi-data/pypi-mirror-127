@@ -1,0 +1,6 @@
+README.md
+setup.py
+PoseidonSentinel.egg-info/PKG-INFO
+PoseidonSentinel.egg-info/SOURCES.txt
+PoseidonSentinel.egg-info/dependency_links.txt
+PoseidonSentinel.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: PoseidonSentinel
+Version: 0.0.1
+Summary: Network File Tracking System
+Home-page: UNKNOWN
+Author: Johnny Whitworth
+Author-email: jwhitworth@arizonapipeline.com
+License: UNKNOWN
+Description: Sentinel is a file tracking system allowing for the logging of any creation, modification, deletion, or movement of a particular file with a network system 
+Keywords: network tracking,file changes tracker
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows
