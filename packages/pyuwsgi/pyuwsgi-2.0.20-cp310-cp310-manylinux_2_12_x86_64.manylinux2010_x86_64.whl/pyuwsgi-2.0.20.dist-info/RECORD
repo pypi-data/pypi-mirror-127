@@ -1,0 +1,11 @@
+uwsgidecorators.py,sha256=_h8_gbFYC6qOy7x5zp6iJrtyxns9Rm_h1oHEOLX6eVI,10392
+pyuwsgi.cpython-310-x86_64-linux-gnu.so,sha256=c5s_3w_CCqHgeOoT0fxxqTdHPtGt6OxpmZ1MqxE97Eg,1539904
+pyuwsgi.libs/libjansson-83f3a66c.so.4.11.0,sha256=xsoV8HoIihpPS5Egn5EVGwyFidRVXwcXzxCGk1lZ_JQ,276712
+pyuwsgi.libs/libpcre-62b12b0e.so.1.2.6,sha256=APOaV_l1uk1rRQo8jGcOIAnoKEE0UIs64WI_wOXoLMY,582800
+pyuwsgi.libs/libcrypt-f58596c3.so.2.0.0,sha256=y9EuPWcLt7_K_k0tTZWwAjU7yJM8HMUMiJBvpWOzS7c,201360
+pyuwsgi-2.0.20.dist-info/METADATA,sha256=9DPCY9DrkNCIBqc-wNgRgbiDQgdB-j5A0ZiW4hsy9nI,3318
+pyuwsgi-2.0.20.dist-info/RECORD,,
+pyuwsgi-2.0.20.dist-info/LICENSE,sha256=yklTmfXaPOJyRkm0frEY91STRLpYwM81DZTDOQ5DWJc,18628
+pyuwsgi-2.0.20.dist-info/WHEEL,sha256=jPy-dqleMqHkyK9acYMEx0fp4u4-3a1IKs99O_G8qyY,152
+pyuwsgi-2.0.20.dist-info/entry_points.txt,sha256=Y5sa_aLm2nEHKDg115cLGWKbml-8_tUvNFse-Pq24nQ,61
+pyuwsgi-2.0.20.dist-info/top_level.txt,sha256=2hUbP7rqnIuGkFflVcnATIpi9ZVtMjLRsX3VG4ApvlE,24
