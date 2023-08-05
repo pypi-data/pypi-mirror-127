@@ -1,0 +1,13 @@
+avcv/__init__.py,sha256=WlMBNrzKywm5RAbqEVgEgcG7Opc4cf3-wpAnO8PdoEI,23
+avcv/_nbdev.py,sha256=azyJWwk8OgLLS8ocK6Qq5MVQ8tWHt4M9uW9Dp0V1YHQ,1562
+avcv/coco.py,sha256=zMHH3F2hwdvYno728eWHJuZZVup20NzLUkLJbAotz6c,10513
+avcv/debug.py,sha256=-rmU27PvmlVyaxgDKU465otnjI3A48zYTEzY2Qd_QIw,3011
+avcv/process.py,sha256=KhJ08UN86nToWHWhu9-2jxoN8SzvOlfSKmMHTgInPc4,1025
+avcv/utils.py,sha256=e6WQz5rb-_kJKrHg_XA6IRAlzPAT_2JU6dxVwl775mk,9206
+avcv/visualize.py,sha256=ZrVCXJgK1gZJHDG978j9fBCBKEmtVp4CQyyd3onnJ8o,6729
+avcv-0.0.17.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+avcv-0.0.17.dist-info/METADATA,sha256=uVr4q1HZK1972QPc8M7rGbrUjgMGtvWhDEtFFYqv_Ec,1068
+avcv-0.0.17.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+avcv-0.0.17.dist-info/entry_points.txt,sha256=NPws3AcqiXpBlMYnhca_Ziy_IdBqYJrKuLlSJNDJ-hY,233
+avcv-0.0.17.dist-info/top_level.txt,sha256=fmcgE05QEq80tDNMeR8NDNnLK5S_F0chbzAM80wQaHU,5
+avcv-0.0.17.dist-info/RECORD,,
