@@ -1,0 +1,10 @@
+django_file_upload/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_file_upload/admin.py,sha256=T8IPui462uVlPKLPDYWH2Nl3duDHKwkgSrVunXJgXig,64
+django_file_upload/models.py,sha256=TaLCYOWlUSkjDtWfcVkqC-OxbG4v7pdkeXNGNLWRZwQ,58
+django_file_upload/tests.py,sha256=DV4PwpYr1bPXjDWiJSGUXrgrPYO-OUbfxMeIqOfcC30,61
+django_file_upload/urls.py,sha256=qzp-SpDcD4W8utDSo2XCa4JcgyIkIMmNj3Lf4S3AY9s,229
+django_file_upload/views.py,sha256=X7Oi_8Se-ajzrM8e3t_ARDJvlhrLzDwrQ7bnsJ_wZfg,2588
+django_file_upload-1.1.3.dist-info/METADATA,sha256=9Vo3USEQy70eELKtlZHx4KmvWQ0lguZTq3pAIJmvEOo,1400
+django_file_upload-1.1.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_file_upload-1.1.3.dist-info/top_level.txt,sha256=ZWtRCRlnCnf1MJ6ggtU1RNqI2aYfd--tTHneZ6kHyWY,19
+django_file_upload-1.1.3.dist-info/RECORD,,
