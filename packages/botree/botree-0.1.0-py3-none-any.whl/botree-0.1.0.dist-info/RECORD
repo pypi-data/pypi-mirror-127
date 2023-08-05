@@ -1,0 +1,8 @@
+botree/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botree/botree.py,sha256=HBRRik9b4_qrhulRT6v-_1AxVJ-wCJyh4Bgd9ySRt4c,1185
+botree/s3.py,sha256=39X6UOk8ouHi57gsybrg7TS1P80NhwLgVZM78xP5JT0,2069
+botree/tui/tui.py,sha256=I46toCK2eJUfTFHJXSF7Dabajt9qG4tStk3RsADDf6w,770
+botree-0.1.0.dist-info/LICENSE,sha256=B0Oqn5ec6dU_K2sIQGEhWpBqnXS68rhFZgVWSF40MbY,1068
+botree-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+botree-0.1.0.dist-info/METADATA,sha256=_kEF9u2B2RM-Q73AE1vzbGzZRY7yeihC9dTlrQ41Ww4,462
+botree-0.1.0.dist-info/RECORD,,
