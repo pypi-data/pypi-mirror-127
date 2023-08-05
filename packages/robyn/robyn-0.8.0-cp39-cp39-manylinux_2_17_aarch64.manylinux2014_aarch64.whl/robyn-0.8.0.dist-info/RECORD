@@ -1,0 +1,12 @@
+robyn-0.8.0.dist-info/METADATA,sha256=Ll8AnG_urg85EAKDRFBO8G2XxBRtVk-HncNX6HC9ZU0,2666
+robyn-0.8.0.dist-info/WHEEL,sha256=7iK4hCYXiw7jZqXbDieQHKn1nc8e3GrcxQi7BegZ6o8,130
+robyn/dev_event_handler.py,sha256=EJrOLgWDMx6x0La1gujt3lFjrsoCnIVd6_HrUwLYb10,1137
+robyn/__init__.py,sha256=UJK1Gs-OpQMj3D_rKET6m17-C4kd9Tj86LwD22aCi4c,5868
+robyn/test-requirements.txt,sha256=Hz-rweq31kZaDgJ8RCeNwjIewTQFzljGhpk1ws8GoUc,87
+robyn/argument_parser.py,sha256=CVCBca7VoF3hQp8tNSqcU2Ysvl4189uuuBJtXfkP6Bw,885
+robyn/responses.py,sha256=KCjt-D3SMr6eadpyhZmARvUUrXTf57I4hOrLWLDiMCs,465
+robyn/test_robyn.py,sha256=e2x8-1lvZEBl1iy0cVR_MsmwGO0BnUe5mRVKgT1O7iU,223
+robyn/processpool.py,sha256=8r3uRkmTYo3d2bVAdxoKd1abzbdviHfaTx89fWG0tYI,2098
+robyn/log_colors.py,sha256=7gjhc4mBkIy--7PFs4nSZcSyb4ZEEWCf4lUr7qY1qGQ,226
+robyn/robyn.cpython-39-aarch64-linux-gnu.so,sha256=O5zTKLfr8gVMw1kzvf30Cb4cTFF38mR13B3Clre_pJE,10332696
+robyn-0.8.0.dist-info/RECORD,,
