@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tinted/__init__.py
+tinted/__main__.py
+tinted/core.py
+tinted/sequences.py
+tinted.egg-info/PKG-INFO
+tinted.egg-info/SOURCES.txt
+tinted.egg-info/dependency_links.txt
+tinted.egg-info/entry_points.txt
+tinted.egg-info/top_level.txt
