@@ -1,0 +1,13 @@
+cwl_inputs_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cwl_inputs_parser/main.py,sha256=cQZzexI9cCRS2Pb4fZdCci0OLOdhynSD_FduNFUddLM,2222
+cwl_inputs_parser/server.py,sha256=r_Rrm0LjidDwEwwxX9gLv9lQK0Vcqbusdqjis-8Hh4w,2797
+cwl_inputs_parser/utils.py,sha256=HCB4-GRqCaZ-IjlC9HqRtwODbuhe14-aNQQAfP55VfM,24467
+cwl_inputs_parser-1.0.1.data/data/LICENSE,sha256=DYaNJUDP3K4xPx-A7SLCOLI4OnWChb947Ur7-T-WNIs,10979
+cwl_inputs_parser-1.0.1.data/data/README.md,sha256=Blc3AUqTKLgZr2M8DJkYX5vDJs1Dw6_BRCTOlaWHZno,4783
+cwl_inputs_parser-1.0.1.data/data/cwl-inputs-parser-schema.json,sha256=fG_X4xPPJ9kPODQ86cvIe0WWbkUUexcx9Uz1iJdAsjQ,1271
+cwl_inputs_parser-1.0.1.dist-info/LICENSE,sha256=DYaNJUDP3K4xPx-A7SLCOLI4OnWChb947Ur7-T-WNIs,10979
+cwl_inputs_parser-1.0.1.dist-info/METADATA,sha256=RLQM73cZmh--gy6wN0ANOsmSJng3Sgkzsj0sg9aUvWk,6354
+cwl_inputs_parser-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cwl_inputs_parser-1.0.1.dist-info/entry_points.txt,sha256=cQtP0UKe4_-PhUVT8U1UULOEGuqCQrzCYofJQYrE-ao,67
+cwl_inputs_parser-1.0.1.dist-info/top_level.txt,sha256=pKu6Z9MSo0XewOwnWAX2LQ3DNvjCuGeP17TQ9EeteOM,18
+cwl_inputs_parser-1.0.1.dist-info/RECORD,,
