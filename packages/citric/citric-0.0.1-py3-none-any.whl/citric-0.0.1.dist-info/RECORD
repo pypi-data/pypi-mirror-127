@@ -1,0 +1,10 @@
+citric/__init__.py,sha256=sR7aWjHpVEzfKCH7b5GD3KZGvCT2-ueJug24pMHKHSI,411
+citric/client.py,sha256=roIu7dSA2aR0gnkCsuajjFfwnWU6n0kAKVwL22fwIjE,16740
+citric/enums.py,sha256=trFNHcA7b8N8CkvP6y8_0Nte5IeO_rLjOVdFtxGKFV8,766
+citric/exceptions.py,sha256=7VGzveRDI0olu2H8_gVcVMWPG3Dqj0Rig8SFFYaiNpU,647
+citric/method.py,sha256=aLmGTcrodqznq3kOJwc_HgNZBqzqsK2G5fzrPgp1C0Q,676
+citric/session.py,sha256=XFAMkdVXTN9hsT0N-g8jqsThNajqjqvUiQ7MoSgdb84,4745
+citric-0.0.1.dist-info/LICENSE,sha256=ctGrDqUJhejXQ85Z4S3VzXnE5u4BY9R3chIEnIVgpsU,1084
+citric-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+citric-0.0.1.dist-info/METADATA,sha256=TVrV5cSGpG7YMPqTc_yD8x6cHiZcE0_BLz3C91COFek,4026
+citric-0.0.1.dist-info/RECORD,,
