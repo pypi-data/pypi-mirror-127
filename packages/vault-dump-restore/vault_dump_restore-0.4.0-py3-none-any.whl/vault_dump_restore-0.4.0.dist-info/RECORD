@@ -1,0 +1,10 @@
+vault_dump_restore/__init__.py,sha256=uwVP-ZTl7oMNA2NfpCwMVI_CLoLFTtjX6Ni27YR9b7M,228
+vault_dump_restore/cli.py,sha256=QF1qfifOD70SIBG12efe_G_sT4SHjHgqOZUyUxEAdMQ,6979
+vault_dump_restore/dump.py,sha256=F0zQiE6OmKQZUUTmb4j-Kb8_geRd3bWpRS3yTJlyzcY,7284
+vault_dump_restore/restore.py,sha256=h0Zzucgrsu_cL02PD4NGjV5fRBdhb3D_J3JJmDw8FrU,1016
+vault_dump_restore-0.4.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+vault_dump_restore-0.4.0.dist-info/METADATA,sha256=5YeNhEbNLpD313WEyt9Dki2iVNJfkIcjuGf9xJ7MmHw,2906
+vault_dump_restore-0.4.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vault_dump_restore-0.4.0.dist-info/entry_points.txt,sha256=Xa-qQkyBrKHElJzgnYp8qKKjQ2kKhlNYYzU9tJnZh4c,107
+vault_dump_restore-0.4.0.dist-info/top_level.txt,sha256=ELvUrzFYuvRS70yCnrcKisFcrXtyOCineK6N9lfIPf4,19
+vault_dump_restore-0.4.0.dist-info/RECORD,,
