@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+autotrade/__init__.py
+autotrade.egg-info/PKG-INFO
+autotrade.egg-info/SOURCES.txt
+autotrade.egg-info/dependency_links.txt
+autotrade.egg-info/top_level.txt
