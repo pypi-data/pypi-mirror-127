@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/socpy/__init__.py
+src/socpy/jobdesc.py
+src/socpy/request.py
+src/socpy/response.py
+src/socpy/soccer.py
+src/socpy/utils.py
+src/socpy.egg-info/PKG-INFO
+src/socpy.egg-info/SOURCES.txt
+src/socpy.egg-info/dependency_links.txt
+src/socpy.egg-info/requires.txt
+src/socpy.egg-info/top_level.txt
+src/socpy/data/job_desc.csv

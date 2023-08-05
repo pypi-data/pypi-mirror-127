@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: socpy
+Version: 0.0.6
+Summary: Query the SOCcer API
+Home-page: https://github.com/dmolitor/socpy
+Author: Daniel Molitor
+Author-email: molitdj97@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+License-File: LICENSE
+
+Built-in functions, exceptions, and other objects.
+
+Noteworthy: None is the `nil' object; Ellipsis represents `...' in slices.
+
