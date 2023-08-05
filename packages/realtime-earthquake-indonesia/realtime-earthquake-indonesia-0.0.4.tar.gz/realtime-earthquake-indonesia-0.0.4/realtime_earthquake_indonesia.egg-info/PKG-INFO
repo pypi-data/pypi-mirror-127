@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: realtime-earthquake-indonesia
+Version: 0.0.4
+Summary: This package inform the latest earthquake in Indonesia from BMKG | Meteorological, Climatological, and Geophysical Agency.
+Home-page: https://github.com/pperdana/latest-earthquake-report-indonesia
+Author: Panji Perdana
+Author-email: panji9502@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# latest-earthquake-report-indonesia
+This package inform the latest earthquake in Indonesia from BMKG | Meteorological, Climatological, and Geophysical Agency.
+
+## How it work
+This package informs earthquake that just occurred in Indonesia, sourced from BMKG.
+
+## How to use
+```
+import gempaterkini
+
+if __name__ == '__main__':
+    print("Aplikasi Utama")
+    result = gempaterkini.ekstraksi_data()
+    gempaterkini.tampilkan_data(result)
+```
+
+# Author
+Panji Perdana
+
+
+
