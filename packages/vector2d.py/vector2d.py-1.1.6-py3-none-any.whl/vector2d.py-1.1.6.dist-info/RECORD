@@ -1,0 +1,9 @@
+vector2d.py,sha256=UJiyf6Qi4lPbu2ZO45WX2pGGRaEzfo7kx-ClcG1ZuLg,9602
+vector2d/__init__.py,sha256=p0rKysQYr05SH6UgfhhAS9054OAQz1lClENeQYrGsLA,38
+vector2d/vector2d.py,sha256=6QUrv9HU9XM4SxN7wqQUWzmOTRtNTQA3Omo31qWZSiw,7733
+vector2d/__pycache__/__init__.cpython-310.pyc,sha256=59Wow5aKRzheULo-pGjeCTBL_enTw87tPMiiI0r9Ef8,198
+vector2d.py-1.1.6.dist-info/LICENSE,sha256=wCtfdch4ERBXSZwY3uptydoYmQH9t0f8yz5tdD4ML-M,1085
+vector2d.py-1.1.6.dist-info/METADATA,sha256=h5fPMOcCdtZoav6qVl4ahKDmSOgDAQQM9zGF_an_4kA,694
+vector2d.py-1.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vector2d.py-1.1.6.dist-info/top_level.txt,sha256=Da0yHinfdJOOZ8-Af7kXw1g2OTRTzNQ-UN-Bi2D2jDE,9
+vector2d.py-1.1.6.dist-info/RECORD,,
