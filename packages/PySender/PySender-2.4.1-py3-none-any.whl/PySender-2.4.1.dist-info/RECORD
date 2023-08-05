@@ -1,0 +1,15 @@
+PySender/__init__.py,sha256=Cn2fFLGWLfCbbbnOhbTzAE8MjgS_ZHtrW_9mMYWW5BQ,80
+PySender/__main__.py,sha256=hutwtgpqtUL56T_cXMoJ5fhvWibrzhxiEdSOYukOtn4,5302
+PySender/__version__.py,sha256=EJ9q7d_E7DlaJrD8fT-3U6uuECGkuZXWtxKXyQQ3jdM,23
+PySender/dialogs.py,sha256=LPtpqcW-VVkp8u2KtBbQv6hNfI6A_dxfatKkuEz4-ws,588
+PySender/errors.py,sha256=VtgpL1OGEZ7s7QD5f-NFI1qWlLcWToQr8JrgELI1NTM,587
+PySender/request.py,sha256=oDPPnkd3SAylta2kuL5aTXVzCLEpUbvxsMYu81kO7xE,658
+PySender/res/icon.png,sha256=b1SKMsjHT2PmN_uSbYHL_mkYmfO2pA6gTFn78QHGXRU,10489
+PySender/ui/about.py,sha256=d3j05x10ltg8tATvQT-Y7ekuiwtBkRCZLeuhhGaAdho,7482
+PySender/ui/ui.py,sha256=RahXGqZVPwIV0ft12geBFmM7ZOXVAIg2gBaFvg0SLMc,16511
+PySender-2.4.1.dist-info/LICENSE,sha256=OzMc5IxEMx1loe5tKDNPONFyPCjPksMUOINhUd3e9Tw,1064
+PySender-2.4.1.dist-info/METADATA,sha256=lcgewdq8wjlQXz730HEqNMjspcy_j_Gk05enswe9u8g,1684
+PySender-2.4.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+PySender-2.4.1.dist-info/entry_points.txt,sha256=doKjs13hoMedq-A82gryNlmn9gwQ4I4L5lNX9qfWO7U,44
+PySender-2.4.1.dist-info/top_level.txt,sha256=rMNowrsyiW-BNBwvt4w8O3Gm8RS5zIJELC4JP-MNU8c,9
+PySender-2.4.1.dist-info/RECORD,,
