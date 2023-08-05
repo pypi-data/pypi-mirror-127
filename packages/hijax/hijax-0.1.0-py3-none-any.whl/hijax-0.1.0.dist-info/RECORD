@@ -1,0 +1,11 @@
+hijax/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hijax/abstract_worker.py,sha256=UQqVX6s45piFQTAEhf8VZaoKjsKhFUnbijmCFr1uMhY,9168
+hijax/setup/__init__.py,sha256=-tqk2nrm_DgvWMtqa6M6NwuS11M0CmdFy7uL-IZ9mLQ,119
+hijax/setup/setup_config.py,sha256=_8jPX09hPOai2GmfLXiwXOBKDZXr_Fj1-pzB7-XxjeQ,2610
+hijax/setup/setup_loaders.py,sha256=aC_B3uRXDLgq6yzykcEMAX6YTbM6EKgbLP3dGBytrb0,2600
+hijax/setup/setup_worker.py,sha256=pF0ZaTT7525GRw73FI8PRUL3Wl2NmrnAU7RhxCyQOgo,2635
+hijax/setup/utils.py,sha256=tiF5Sqq6h8Zcyx8pQ45hB2OJfcpTG5-_VbNPYZ9we7A,560
+hijax-0.1.0.dist-info/LICENSE,sha256=FtoDQK64TTUvb3iqk0AVN6hXq92bnV7cWlfCoICXTiQ,1069
+hijax-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+hijax-0.1.0.dist-info/METADATA,sha256=sV5-LcfjvK6CLrOXc8aUG_4ocjb0QLP7Wmhw5UkwOo8,843
+hijax-0.1.0.dist-info/RECORD,,
