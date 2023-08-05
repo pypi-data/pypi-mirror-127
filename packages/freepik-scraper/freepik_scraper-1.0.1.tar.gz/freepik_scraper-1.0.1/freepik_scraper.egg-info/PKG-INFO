@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: freepik-scraper
+Version: 1.0.1
+Summary: Freepik scraper
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Title
+
+Freepik Scraper
+
+### Descrption
+
+* With freepik Scraper you can scrape search results and extract the contents produced by the search result.
+* In freepik scraper it will scrape the data present of the website and give json data which contains the details of the contents on the website.
+* The freepik scraper will have the information such as title of image, image, download icon etc.
+ 
+### JSON sample data
+```sh
+{
+    "Scraper_You_may_also_like": [
+        {
+            "badge_download_icon": "57",
+            "photo": "5",
+            "title": "Breathtaking road surrounded by beautiful and colorful autumn trees"
+        }
+```
+
+[Download full sample data](https://datakund-scraper.s3.amazonaws.com/datakund_C55VFAB7YAYM7DK_json.json)
+
+### Run Scraper
+```sh
+from freepik_scraper import *
+link="https://www.freepik.com/premium-photo/aerial-view-cars-driving-asphalt-road-leafless-forest-cinematic-drone-shot-flying-straight-freeway-mountains_15954953.htm#page=1&position=3&from_view=collections"
+data=run_freepik_scraper(link)
+```
+
+### How it works?
+* It takes URL of freepik page with a search keyword to scrape the data.
+* It generates the json data which contains the information of the freepik search result.
+
+
+### Examples
+Below are some of the examples of URLs using which you can scrape:
+
+* [Example 1](https://www.freepik.com/free-photo/empty-road-tall-trees-forest-during-daylight-autumn_10809719.htm#page=1&position=2&from_view=collections)
+
+* [Example2](https://www.freepik.com/premium-photo/aerial-view-cars-driving-asphalt-road-leafless-forest-cinematic-drone-shot-flying-straight-freeway-mountains_15954953.htm#page=1&position=3&from_view=collections)
+
+
+### Queries/ Feedback
+If you have some queries or feedback please contact us at following    
+[Telegram](https://t.me/datakund)  
+[Email](abhishek@datakund.com)
+
+
+
+
+
+
+
+
+
+
+
