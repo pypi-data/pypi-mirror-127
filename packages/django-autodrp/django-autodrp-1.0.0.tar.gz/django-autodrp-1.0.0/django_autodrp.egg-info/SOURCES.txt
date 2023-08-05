@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+autodrp/__init__.py
+autodrp/apps.py
+autodrp/checks.py
+autodrp/filters.py
+autodrp/models.py
+autodrp/utils.py
+django_autodrp.egg-info/PKG-INFO
+django_autodrp.egg-info/SOURCES.txt
+django_autodrp.egg-info/dependency_links.txt
+django_autodrp.egg-info/requires.txt
+django_autodrp.egg-info/top_level.txt
