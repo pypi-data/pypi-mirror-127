@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: PoseidonSentinel
+Version: 0.0.3
+Summary: A network based file tracking system
+Home-page: UNKNOWN
+Author: Johnny Whitworth
+Author-email: jwhitworth@arizonapipeline.com
+License: UNKNOWN
+Project-URL: Sentinel, https://github.com/Poseidon-Dev/sentinel
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sentinel | APC File Tracking System
+
+Sentinel is a file tracking system allowing for the logging of any creation, modification, deletion, or movement of a particular file
+with a local system 
+
+Further, it allows for the tracking of network files
+
+## Authors
+
+**[Johnny Whitworth (@Poseidon-dev)](https://github.com/poseidon-dev)** 
+
+Update DELAY_INTERVAL for changes in fetch sensitivity
+
+The lower the number, the greater the amount of fetches within a minute but
+an increasd amount of potential issues. 
+
+The larger the number, the lower the amount of fetches within a minute but 
+a decreased amount of potential issues.
+
+Defaults to 1 minute
+```python
+DELAY_INTERVAL = 60
+```
+
+
+When creating a Put, it will check to see if the destination file already exists. If a file is already in the directory 
+then it will append the next subsequent letter to the file name.
+This will fail if there are more than 10 instances of a file in the same directory
+```python
+while os.path.exists(path):
+    if path[-1] in self.APPENDS:
+        path = path[:len(path)-1] + self.APPENDS[count]
+    else:
+        path = path + self.APPENDS[count]
+    count +=1
+return path
+```
+
+## How to use
+
+Sentinel runs multi-threaded as a background process. Launch run.bat or create a scheduled task pointing to run.bat
+
+## Support
+
+If you need some help for something, please reach out to me directly or submit an issue and I'll get to it as soon as I can
+
+## Site
+
+https://poseidon-dev.github.io/sentinel/
+
+
