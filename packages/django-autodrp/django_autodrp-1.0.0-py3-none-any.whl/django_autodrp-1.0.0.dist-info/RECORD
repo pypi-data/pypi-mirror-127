@@ -1,0 +1,11 @@
+autodrp/__init__.py,sha256=CRIyBz0BFuoNfqu4BjuOXvPJgz97A_mqPqz7Gu9AS50,49
+autodrp/apps.py,sha256=sTwllUBb_FanuZr1011NJ6SoP6SepM7kkXNTWInAkcQ,262
+autodrp/checks.py,sha256=maJI4bQlLiSIhOfQZ-Us2SgohVpCMNZKDf_0qrR6x1I,3770
+autodrp/filters.py,sha256=8xDSgAX8xXPZPSbA4nwUYZ_ly0V1XWCqvpZIc_Ex2b0,961
+autodrp/models.py,sha256=uIdnI-6ByjnHIALbA2aYRwRtlNofUA6v16yKmjObT1o,308
+autodrp/utils.py,sha256=Dw6LdexKee1CEbENgTsOw4AVNPzYfIDYxvvMYHT0q_8,3257
+django_autodrp-1.0.0.dist-info/LICENSE,sha256=E0tFbqIaRAhVK-N__q2xKwS3Pgwfsdg9q3QiQZQU0wU,1515
+django_autodrp-1.0.0.dist-info/METADATA,sha256=ZAhUfHnPPM-aM5tMCFfuEdehtRqnIripK32MaTjYi24,2432
+django_autodrp-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_autodrp-1.0.0.dist-info/top_level.txt,sha256=JKiLz31ryPCIDWtS36nNY7LX4gXoCY8NXsRUhiC9MzA,23
+django_autodrp-1.0.0.dist-info/RECORD,,
