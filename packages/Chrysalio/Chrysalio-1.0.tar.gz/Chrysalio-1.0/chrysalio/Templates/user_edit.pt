@@ -1,0 +1,58 @@
+<metal:main use-macro="load: ${layout}"
+            xmlns:tal="http://xml.zope.org/namespaces/tal"
+            xmlns:metal="http://xml.zope.org/namespaces/metal">
+
+  <link rel="stylesheet" metal:fill-slot="css" href="${theme}/css/jquery-ui.css"
+        type="text/css" media="screen"/>
+
+  <script metal:fill-slot="js" type="text/javascript" tal:omit-tag="">
+    <script src="${theme}/js/jquery-ui.js"></script>
+    <script src="${theme}/js/jquery-ui-datepicker-fr.js"></script>
+    <script src="${theme}/js/chrysalio-datepicker.js"></script>
+  </script>
+
+  <div metal:fill-slot="form_begin" tal:omit-tag="">
+    ${form.begin(class_=is_me and 'cioMe' or 'cioNotMe', multipart=True)}
+  </div>
+
+  <!-- .............................. Main Buttons ........................ -->
+  <div id="cioMainButtons" metal:fill-slot="main_buttons"
+       tal:switch="user_name is None">
+    <div tal:case="True" tal:omit-tag="">
+      ${form.submit('sav!.x', _('Create'))}
+      ${form.button(request.breadcrumbs.back_path(), _('Cancel'))}
+    </div>
+    <div tal:case="False" tal:omit-tag="">
+      ${form.submit('sav!.x', _('Save'))}
+      ${form.button(route('user_view', user_id=dbuser.user_id), _('Cancel'))}
+    </div>
+  </div>
+
+  <div id="cioContainer" metal:fill-slot="container">
+    <!-- ............................... Flash ............................ -->
+    <div tal:define="flash load: flash_snackbar.macro.pt"
+         metal:use-macro="flash"/>
+
+    <div id="cioContent">
+      <!-- .............................. Sheet ........................... -->
+      <section class="cioTabsetSheet">
+        <div>
+          <div tal:define="picture_edit load: picture_edit.macro.pt"
+               metal:use-macro="picture_edit" tal:condition="picture"/>
+          <h2>${user_name or _('New Account')}</h2>
+          <div tal:condition="picture" class="cioClear"> </div>
+        </div>
+        ${tabset.begin()}
+        <div tal:repeat="tab tabset.tabs" tal:omit-tag="">
+          ${tab.begin()}
+          ${dbuser.tab4edit(request, tab.index, form, profiles, groups,
+            user_name and dbuser or None)}
+          ${tab.end()}
+        </div>
+        ${tabset.end()}
+      </section>
+    </div>
+  </div>
+
+  <div metal:fill-slot="form_end" tal:omit-tag="">${form.end()}</div>
+</metal:main>

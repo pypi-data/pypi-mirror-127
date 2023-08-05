@@ -1,0 +1,1595 @@
+# Translations template for Chrysalio.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the Chrysalio project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Chrysalio 1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-07-24 11:42+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: chrysalio/Templates/backup.pt:20
+msgid "Use this option if you want to get all configuration as file."
+msgstr ""
+
+#: chrysalio/Templates/backup.pt:23
+msgid "Download a backup"
+msgstr ""
+
+#: chrysalio/Templates/backup.pt:28
+msgid "Restore"
+msgstr ""
+
+#: chrysalio/Templates/backup.pt:31
+msgid "Use this option to restore your configuration from a backup file."
+msgstr ""
+
+#: chrysalio/Templates/backup.pt:34
+msgid "Deleting the old configuration"
+msgstr ""
+
+#: chrysalio/Templates/backup.pt:40 chrysalio/Templates/backup.pt:47
+msgid "Restore a backup"
+msgstr ""
+
+#: chrysalio/Templates/email_invitation.pt:17
+#: chrysalio/Templates/email_invitation.txt:1
+#: chrysalio/Templates/email_reset_password.pt:17
+#: chrysalio/Templates/email_reset_password.txt:1
+#: chrysalio/tests/Templates/email_test.pt:9
+#: chrysalio/tests/Templates/email_test.txt:1 chrysalio/tests/test_lib_i18n.py:85
+#: chrysalio/tests/test_lib_i18n.py:88 chrysalio/tests/test_lib_i18n.py:90
+msgid "Hello ${n},"
+msgstr ""
+
+#: chrysalio/Templates/email_invitation.pt:21
+#: chrysalio/Templates/email_invitation.txt:3
+msgid "We invite you to join us on ${n}:"
+msgstr ""
+
+#: chrysalio/Templates/email_invitation.pt:25
+#: chrysalio/Templates/email_invitation.txt:4
+#: chrysalio/Templates/email_reset_password.pt:20
+#: chrysalio/Templates/email_reset_password.txt:3
+msgid "Your identifier is:"
+msgstr ""
+
+#: chrysalio/Templates/email_invitation.pt:28
+#: chrysalio/Templates/email_invitation.txt:6
+#: chrysalio/Templates/email_reset_password.pt:26
+#: chrysalio/Templates/email_reset_password.txt:7
+msgid "${n} Team"
+msgstr ""
+
+#: chrysalio/Templates/email_reset_password.pt:23
+#: chrysalio/Templates/email_reset_password.txt:4
+msgid "To reset your password, we invite you to use the following link:"
+msgstr ""
+
+#: chrysalio/Templates/error.pt:11 chrysalio/Templates/user_password_forgot.pt:25
+msgid "Back"
+msgstr ""
+
+#: chrysalio/Templates/group_edit.pt:11 chrysalio/Templates/group_index.pt:35
+#: chrysalio/Templates/profile_edit.pt:11 chrysalio/Templates/profile_index.pt:35
+#: chrysalio/Templates/user_edit.pt:22 chrysalio/Templates/user_index.pt:35
+msgid "Create"
+msgstr ""
+
+#: chrysalio/Templates/group_edit.pt:12 chrysalio/Templates/group_edit.pt:17
+#: chrysalio/Templates/group_index.pt:26 chrysalio/Templates/group_index.pt:65
+#: chrysalio/Templates/group_index.pt:122
+#: chrysalio/Templates/picture_edit.macro.pt:8
+#: chrysalio/Templates/profile_edit.pt:12 chrysalio/Templates/profile_edit.pt:17
+#: chrysalio/Templates/profile_index.pt:26 chrysalio/Templates/profile_index.pt:65
+#: chrysalio/Templates/profile_index.pt:122
+#: chrysalio/Templates/settings_edit.pt:10 chrysalio/Templates/settings_view.pt:15
+#: chrysalio/Templates/user_edit.pt:23 chrysalio/Templates/user_edit.pt:27
+#: chrysalio/Templates/user_index.pt:26 chrysalio/Templates/user_index.pt:68
+#: chrysalio/Templates/user_index.pt:72 chrysalio/Templates/user_index.pt:115
+#: chrysalio/Templates/user_index.pt:150 chrysalio/Templates/user_index.pt:154
+#: chrysalio/Templates/user_index.pt:203
+#: chrysalio/Templates/user_password_reset.pt:17
+#: chrysalio/includes/modules/Templates/modules_edit.pt:11
+#: chrysalio/modules/cioldap/Templates/cioldap_edit.pt:15
+#: chrysalio/modules/cioldap/Templates/cioldap_edit.pt:24
+#: chrysalio/modules/cioldap/Templates/cioldap_view.pt:15
+msgid "Cancel"
+msgstr ""
+
+#: chrysalio/Templates/group_edit.pt:15 chrysalio/Templates/profile_edit.pt:15
+#: chrysalio/Templates/settings_edit.pt:9 chrysalio/Templates/user_edit.pt:26
+#: chrysalio/includes/modules/Templates/modules_edit.pt:10
+#: chrysalio/modules/cioldap/Templates/cioldap_edit.pt:22
+msgid "Save"
+msgstr ""
+
+#: chrysalio/Templates/group_edit.pt:32
+msgid "New Group"
+msgstr ""
+
+#: chrysalio/Templates/group_index.pt:25 chrysalio/Templates/profile_index.pt:25
+#: chrysalio/Templates/settings_view.pt:14 chrysalio/Templates/user_index.pt:25
+#: chrysalio/modules/cioldap/Templates/cioldap_edit.pt:14
+#: chrysalio/modules/cioldap/Templates/cioldap_view.pt:14
+msgid "Import file"
+msgstr ""
+
+#: chrysalio/Templates/group_index.pt:34 chrysalio/Templates/profile_index.pt:34
+#: chrysalio/Templates/settings_view.pt:22 chrysalio/Templates/user_index.pt:34
+#: chrysalio/modules/cioldap/Templates/cioldap_edit.pt:20
+#: chrysalio/modules/cioldap/Templates/cioldap_view.pt:22
+msgid "Import"
+msgstr ""
+
+#: chrysalio/Templates/group_index.pt:57 chrysalio/Templates/group_index.pt:115
+#: chrysalio/Templates/login.pt:42 chrysalio/Templates/profile_index.pt:57
+#: chrysalio/Templates/profile_index.pt:115 chrysalio/views/group.py:68
+#: chrysalio/views/profile.py:63
+msgid "Identifier"
+msgstr ""
+
+#: chrysalio/Templates/group_index.pt:58 chrysalio/Templates/profile_index.pt:58
+#: chrysalio/models/dbgroup.py:311 chrysalio/models/dbgroup.py:500
+#: chrysalio/models/dbuser.py:768 chrysalio/models/dbuser.py:798
+#: chrysalio/models/dbuser.py:1139 chrysalio/models/dbuser.py:1180
+#: chrysalio/views/group.py:69 chrysalio/views/profile.py:64
+msgid "Label"
+msgstr ""
+
+#: chrysalio/Templates/group_index.pt:59 chrysalio/Templates/profile_index.pt:59
+#: chrysalio/models/dbgroup.py:312 chrysalio/models/dbgroup.py:501
+#: chrysalio/models/dbuser.py:769 chrysalio/models/dbuser.py:799
+#: chrysalio/models/dbuser.py:1140 chrysalio/models/dbuser.py:1181
+msgid "Description"
+msgstr ""
+
+#: chrysalio/Templates/group_index.pt:63 chrysalio/Templates/group_index.pt:120
+msgid "Confirm the deletion of ${n} group(s)"
+msgstr ""
+
+#: chrysalio/Templates/group_index.pt:68 chrysalio/Templates/group_index.pt:125
+msgid "Export selected groups"
+msgstr ""
+
+#: chrysalio/Templates/group_index.pt:71 chrysalio/Templates/group_index.pt:128
+msgid "Delete selected groups"
+msgstr ""
+
+#: chrysalio/Templates/group_index.pt:98 chrysalio/Templates/group_index.pt:155
+msgid "Export group"
+msgstr ""
+
+#: chrysalio/Templates/group_view.pt:10 chrysalio/Templates/profile_view.pt:10
+#: chrysalio/Templates/settings_view.pt:23 chrysalio/Templates/user_view.pt:14
+#: chrysalio/modules/cioldap/Templates/cioldap_view.pt:23
+msgid "Export"
+msgstr ""
+
+#: chrysalio/Templates/group_view.pt:13 chrysalio/Templates/profile_view.pt:13
+#: chrysalio/Templates/settings_view.pt:24 chrysalio/Templates/user_view.pt:17
+#: chrysalio/includes/modules/Templates/modules_view.pt:11
+#: chrysalio/modules/cioldap/Templates/cioldap_view.pt:24
+msgid "Edit"
+msgstr ""
+
+#: chrysalio/Templates/group_view.pt:27
+#: chrysalio/Templates/picture_edit.macro.pt:16
+#: chrysalio/Templates/user_view.pt:31
+msgid "Picture"
+msgstr ""
+
+#: chrysalio/Templates/home.pt:6 chrysalio/Templates/login.pt:34
+msgid "Welcome to ${t}"
+msgstr ""
+
+#: chrysalio/Templates/home.pt:14
+msgid "Warehouse Access"
+msgstr ""
+
+#: chrysalio/Templates/home.pt:23
+msgid "Dashboard Access"
+msgstr ""
+
+#: chrysalio/Templates/home.pt:32
+msgid "Job Access"
+msgstr ""
+
+#: chrysalio/Templates/home.pt:41
+msgid "Skeleton Access"
+msgstr ""
+
+#: chrysalio/Templates/home.pt:47
+msgid "User Group Management"
+msgstr ""
+
+#: chrysalio/Templates/home.pt:53
+msgid "User Management"
+msgstr ""
+
+#: chrysalio/Templates/home.pt:59
+msgid "Profile Management"
+msgstr ""
+
+#: chrysalio/Templates/home.pt:66
+msgid "Modules Management"
+msgstr ""
+
+#: chrysalio/Templates/home.pt:72
+msgid "General Settings Management"
+msgstr ""
+
+#: chrysalio/Templates/layout.pt:43 chrysalio/Templates/layout.pt:44
+#: chrysalio/Themes/Alternative/Templates/layout.pt:43
+#: chrysalio/Themes/Alternative/Templates/layout.pt:44
+msgid "Modes"
+msgstr ""
+
+#: chrysalio/Templates/layout.pt:51 chrysalio/Templates/layout.pt:52
+#: chrysalio/Themes/Alternative/Templates/layout.pt:51
+#: chrysalio/Themes/Alternative/Templates/layout.pt:52
+msgid "Menu"
+msgstr ""
+
+#: chrysalio/Templates/layout.pt:67
+#: chrysalio/Themes/Alternative/Templates/layout.pt:67
+#: chrysalio/Themes/Alternative/Templates/layout.pt:70
+#: chrysalio/modules/cioldap/models/dbldap.py:229
+#: chrysalio/modules/cioldap/models/dbldap.py:362
+msgid "User"
+msgstr ""
+
+#: chrysalio/Templates/layout.pt:69 chrysalio/Templates/layout.pt:70
+#: chrysalio/Themes/Alternative/Templates/layout.pt:69
+msgid "Logout"
+msgstr ""
+
+#: chrysalio/Templates/layout.pt:99 chrysalio/Templates/login.pt:61
+msgid "Chrysalio"
+msgstr ""
+
+#: chrysalio/Templates/layout.pt:103 chrysalio/Templates/login.pt:65
+#: chrysalio/Themes/Alternative/Templates/layout.pt:99
+msgid "Powered by Pyramid"
+msgstr ""
+
+#: chrysalio/Templates/login.pt:40 chrysalio/Templates/login.pt:49
+msgid "Log in"
+msgstr ""
+
+#: chrysalio/Templates/login.pt:42
+msgid "Your identifier"
+msgstr ""
+
+#: chrysalio/Templates/login.pt:43
+msgid "Password"
+msgstr ""
+
+#: chrysalio/Templates/login.pt:43
+msgid "Your password"
+msgstr ""
+
+#: chrysalio/Templates/login.pt:46
+msgid "Remember me"
+msgstr ""
+
+#: chrysalio/Templates/login.pt:52
+msgid "Forgot password?"
+msgstr ""
+
+#: chrysalio/Templates/paging_filter.macro.pt:6 chrysalio/models/dbuser.py:616
+msgid "Lines per page"
+msgstr ""
+
+#: chrysalio/Templates/paging_filter.macro.pt:15 chrysalio/models/dbuser.py:627
+msgid "Filter"
+msgstr ""
+
+#: chrysalio/Templates/paging_filter.macro.pt:18
+msgid "Show/hide full filter"
+msgstr ""
+
+#: chrysalio/Templates/panel.pt:8 chrysalio/Templates/panel_clipboard.pt:8
+msgid "Close panel"
+msgstr ""
+
+#: chrysalio/Templates/panel_clipboard.pt:14
+msgid "The clipboard is empty."
+msgstr ""
+
+#: chrysalio/Templates/picture_edit.macro.pt:7
+msgid "Import picture"
+msgstr ""
+
+#: chrysalio/Templates/picture_edit.macro.pt:13
+msgid "Update picture"
+msgstr ""
+
+#: chrysalio/Templates/profile_edit.pt:29
+msgid "New Profile"
+msgstr ""
+
+#: chrysalio/Templates/profile_index.pt:63
+#: chrysalio/Templates/profile_index.pt:120
+msgid "Confirm the deletion of ${n} profile(s)"
+msgstr ""
+
+#: chrysalio/Templates/profile_index.pt:68
+#: chrysalio/Templates/profile_index.pt:125
+msgid "Export selected profiles"
+msgstr ""
+
+#: chrysalio/Templates/profile_index.pt:71
+#: chrysalio/Templates/profile_index.pt:128
+msgid "Delete selected profiles"
+msgstr ""
+
+#: chrysalio/Templates/profile_index.pt:98
+#: chrysalio/Templates/profile_index.pt:151
+msgid "Export profile"
+msgstr ""
+
+#: chrysalio/Templates/user_edit.pt:42
+msgid "New Account"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:57 chrysalio/Templates/user_index.pt:138
+#: chrysalio/models/dbgroup.py:536 chrysalio/views/group.py:418
+#: chrysalio/views/user.py:88
+msgid "Login"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:58 chrysalio/Templates/user_index.pt:139
+#: chrysalio/models/dbgroup.py:538
+msgid "First name"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:59 chrysalio/Templates/user_index.pt:140
+#: chrysalio/models/dbgroup.py:540 chrysalio/views/group.py:419
+#: chrysalio/views/user.py:89
+msgid "Last name"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:60 chrysalio/Templates/user_index.pt:141
+#: chrysalio/views/group.py:420 chrysalio/views/user.py:90
+msgid "Email"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:61 chrysalio/Templates/user_index.pt:142
+#: chrysalio/views/group.py:421 chrysalio/views/user.py:92
+msgid "Status"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:62 chrysalio/Templates/user_index.pt:143
+msgid "Last connection"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:66 chrysalio/Templates/user_index.pt:148
+msgid "Confirm the deletion of ${n} user(s)"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:71 chrysalio/Templates/user_index.pt:113
+#: chrysalio/Templates/user_index.pt:153 chrysalio/Templates/user_index.pt:201
+msgid "Confirm sending"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:76 chrysalio/Templates/user_index.pt:118
+#: chrysalio/Templates/user_index.pt:158 chrysalio/Templates/user_index.pt:206
+#: chrysalio/Templates/user_view.pt:13
+msgid "Send an invitation"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:78 chrysalio/Templates/user_index.pt:160
+msgid "Export selected users"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:82 chrysalio/Templates/user_index.pt:164
+msgid "Delete selected users"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:120 chrysalio/Templates/user_index.pt:208
+msgid "Export user"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:191
+msgid "Email: ${e}"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:195
+msgid "Last connection: ${c}"
+msgstr ""
+
+#: chrysalio/Templates/user_password_forgot.pt:10
+msgid "Enter the email associated with your account to reset your password."
+msgstr ""
+
+#: chrysalio/Templates/user_password_forgot.pt:14
+msgid "email address"
+msgstr ""
+
+#: chrysalio/Templates/user_password_forgot.pt:15
+msgid "Reset password"
+msgstr ""
+
+#: chrysalio/Templates/user_password_reset.pt:9
+msgid "Enter your new password:"
+msgstr ""
+
+#: chrysalio/Templates/user_password_reset.pt:12 chrysalio/models/dbuser.py:703
+#: chrysalio/models/dbuser.py:1068
+msgid "Password:"
+msgstr ""
+
+#: chrysalio/Templates/user_password_reset.pt:13 chrysalio/models/dbuser.py:1071
+msgid "Confirmation:"
+msgstr ""
+
+#: chrysalio/Templates/user_password_reset.pt:16
+msgid "Change"
+msgstr ""
+
+#: chrysalio/includes/__init__.py:36 chrysalio/scripts/__init__.py:146
+msgid "*** Unable to load module \"${m}\" [${e}]"
+msgstr ""
+
+#: chrysalio/includes/clipboard.py:37
+msgid "Clipboard"
+msgstr ""
+
+#: chrysalio/includes/modules/__init__.py:17
+msgid "Module management"
+msgstr ""
+
+#: chrysalio/includes/modules/__init__.py:18
+msgid "View any module"
+msgstr ""
+
+#: chrysalio/includes/modules/__init__.py:19
+msgid "Edit or view any module"
+msgstr ""
+
+#: chrysalio/includes/modules/Templates/modules_edit.pt:22
+#: chrysalio/includes/modules/Templates/modules_view.pt:22
+#: chrysalio/includes/modules/__init__.py:24
+#: chrysalio/includes/modules/views.py:34
+msgid "Modules"
+msgstr ""
+
+#: chrysalio/includes/modules/models.py:43
+#: chrysalio/includes/modules/models.py:118
+msgid "No module."
+msgstr ""
+
+#: chrysalio/includes/modules/models.py:51
+#: chrysalio/includes/modules/models.py:125
+msgid "Active"
+msgstr ""
+
+#: chrysalio/includes/modules/models.py:51
+#: chrysalio/includes/modules/models.py:125
+msgid "Name"
+msgstr ""
+
+#: chrysalio/includes/modules/models.py:52
+#: chrysalio/includes/modules/models.py:126
+msgid "Version"
+msgstr ""
+
+#: chrysalio/includes/modules/models.py:53
+#: chrysalio/includes/modules/models.py:127
+msgid "Dependencies"
+msgstr ""
+
+#: chrysalio/includes/modules/models.py:54
+msgid "Actions"
+msgstr ""
+
+#: chrysalio/includes/modules/views.py:56
+msgid "Modules Edition"
+msgstr ""
+
+#: chrysalio/includes/themes.py:53
+msgid "*** Theme \"${t}\" must have a section [${s}]."
+msgstr ""
+
+#: chrysalio/includes/themes.py:58 chrysalio/includes/themes.py:64
+msgid "*** An option is missing for [${s}] of theme \"${t}\"."
+msgstr ""
+
+#: chrysalio/includes/themes.py:71
+msgid "*** Option \"${o}\" of theme \"${t}\" must be defined."
+msgstr ""
+
+#: chrysalio/includes/themes.py:76
+msgid "*** File \"${f}\" of theme \"${t}\" does not exist."
+msgstr ""
+
+#: chrysalio/includes/themes.py:95
+msgid "*** Must have an existing default theme."
+msgstr ""
+
+#: chrysalio/initialize.py:68
+msgid "*** You must define a Web site ID."
+msgstr ""
+
+#: chrysalio/initialize.py:73
+msgid "*** The administrator must have an email."
+msgstr ""
+
+#: chrysalio/initialize.py:80
+msgid "*** Run \"${s}\" script!"
+msgstr ""
+
+#: chrysalio/lib/filter.py:16
+msgid "AND"
+msgstr ""
+
+#: chrysalio/lib/filter.py:16
+msgid "OR"
+msgstr ""
+
+#: chrysalio/lib/filter.py:18
+msgid "≥"
+msgstr ""
+
+#: chrysalio/lib/filter.py:19
+msgid "≤"
+msgstr ""
+
+#: chrysalio/lib/filter.py:198
+msgid "EXCEPT"
+msgstr ""
+
+#: chrysalio/lib/filter.py:241 chrysalio/lib/filter.py:262
+msgid "Filter name"
+msgstr ""
+
+#: chrysalio/lib/filter.py:418
+msgid "Comparison"
+msgstr ""
+
+#: chrysalio/lib/filter.py:441
+msgid "Filter value"
+msgstr ""
+
+#: chrysalio/lib/filter.py:452 chrysalio/lib/filter.py:456
+msgid "filter here..."
+msgstr ""
+
+#: chrysalio/lib/form.py:53
+msgid "Select items!"
+msgstr ""
+
+#: chrysalio/lib/form.py:79
+msgid "The two fields are not identical."
+msgstr ""
+
+#: chrysalio/lib/ftp.py:42
+msgid "FTP error: bad arguments!"
+msgstr ""
+
+#: chrysalio/lib/ftp.py:255
+msgid "FTP error: ${e}"
+msgstr ""
+
+#: chrysalio/lib/i18n.py:158 chrysalio/lib/i18n.py:274
+msgid "Label (${l}):"
+msgstr ""
+
+#: chrysalio/lib/i18n.py:165 chrysalio/lib/i18n.py:284
+msgid "Description (${l}):"
+msgstr ""
+
+#: chrysalio/lib/mailing.py:129
+msgid "No available template."
+msgstr ""
+
+#: chrysalio/lib/modes.py:82
+msgid "Unknown mode ${m}."
+msgstr ""
+
+#: chrysalio/lib/paging.py:39
+msgid "Sort by ${l}"
+msgstr ""
+
+#: chrysalio/lib/paging.py:379 chrysalio/lib/paging.py:384
+msgid "Display as Cards"
+msgstr ""
+
+#: chrysalio/lib/paging.py:389 chrysalio/lib/paging.py:394
+msgid "Display as List"
+msgstr ""
+
+#: chrysalio/lib/restful.py:78
+msgid "Token is missing."
+msgstr ""
+
+#: chrysalio/lib/restful.py:81
+msgid "Token is invalid."
+msgstr ""
+
+#: chrysalio/lib/restful.py:85
+msgid "Token has expired."
+msgstr ""
+
+#: chrysalio/lib/restful.py:90
+msgid "Access denied."
+msgstr ""
+
+#: chrysalio/lib/utils.py:377 chrysalio/lib/utils.py:391
+#: chrysalio/lib/utils.py:394
+msgid "\"${c}\" failed: ${e}"
+msgstr ""
+
+#: chrysalio/lib/utils.py:386 chrysalio/lib/utils.py:389
+#: chrysalio/scripts/cioupdate.py:190 chrysalio/scripts/cioupdate.py:290
+msgid "\"${c}\" failed"
+msgstr ""
+
+#: chrysalio/lib/utils.py:466 chrysalio/lib/utils.py:515
+msgid "0 second"
+msgstr ""
+
+#: chrysalio/lib/utils.py:478 chrysalio/lib/utils.py:528
+msgid "1 day"
+msgstr ""
+
+#: chrysalio/lib/utils.py:479 chrysalio/lib/utils.py:529
+msgid "${d} days"
+msgstr ""
+
+#: chrysalio/lib/utils.py:483 chrysalio/lib/utils.py:525
+msgid "1 hour"
+msgstr ""
+
+#: chrysalio/lib/utils.py:484 chrysalio/lib/utils.py:526
+msgid "${h} hours"
+msgstr ""
+
+#: chrysalio/lib/utils.py:488 chrysalio/lib/utils.py:521
+msgid "1 minute"
+msgstr ""
+
+#: chrysalio/lib/utils.py:489 chrysalio/lib/utils.py:522
+msgid "${m} minutes"
+msgstr ""
+
+#: chrysalio/lib/utils.py:493 chrysalio/lib/utils.py:517
+msgid "1 second"
+msgstr ""
+
+#: chrysalio/lib/utils.py:494 chrysalio/lib/utils.py:518
+msgid "${s} seconds"
+msgstr ""
+
+#: chrysalio/lib/utils.py:532
+msgid "1 week"
+msgstr ""
+
+#: chrysalio/lib/utils.py:533
+msgid "${w} weeks"
+msgstr ""
+
+#: chrysalio/lib/utils.py:536
+msgid "1 month"
+msgstr ""
+
+#: chrysalio/lib/utils.py:537
+msgid "${m} months"
+msgstr ""
+
+#: chrysalio/lib/utils.py:554 chrysalio/tests/test_lib_utils.py:457
+msgid "${n} items"
+msgstr ""
+
+#: chrysalio/lib/utils.py:555 chrysalio/tests/test_lib_utils.py:452
+msgid "${n} item"
+msgstr ""
+
+#: chrysalio/lib/xml.py:58
+msgid "Unknown file \"${n}\""
+msgstr ""
+
+#: chrysalio/lib/xml.py:115
+msgid "${tag}: Relax NG not found"
+msgstr ""
+
+#: chrysalio/lib/xml.py:131
+msgid "Line ${l}: ${m}"
+msgstr ""
+
+#: chrysalio/lib/breadcrumbs.py:157 chrysalio/lib/breadcrumbs.py:196
+#: chrysalio/menu.py:12 chrysalio/modes.py:13 chrysalio/views/home.py:41
+msgid "Home"
+msgstr ""
+
+#: chrysalio/menu.py:14 chrysalio/modes.py:15
+msgid "Test"
+msgstr ""
+
+#: chrysalio/Templates/user_index.pt:53 chrysalio/menu.py:15 chrysalio/menu.py:24
+#: chrysalio/models/dbgroup.py:29 chrysalio/views/user.py:114
+msgid "Users"
+msgstr ""
+
+#: chrysalio/menu.py:16
+msgid "Administrator"
+msgstr ""
+
+#: chrysalio/menu.py:17
+msgid "User 1"
+msgstr ""
+
+#: chrysalio/Templates/profile_index.pt:53 chrysalio/menu.py:18
+#: chrysalio/menu.py:25 chrysalio/models/dbgroup.py:29
+#: chrysalio/models/dbuser.py:42 chrysalio/views/profile.py:84
+msgid "Profiles"
+msgstr ""
+
+#: chrysalio/menu.py:21 chrysalio/modes.py:18
+msgid "Administration"
+msgstr ""
+
+#: chrysalio/Templates/settings_edit.pt:21 chrysalio/Templates/settings_view.pt:36
+#: chrysalio/menu.py:22 chrysalio/views/settings.py:63
+msgid "General Settings"
+msgstr ""
+
+#: chrysalio/Templates/group_index.pt:53 chrysalio/menu.py:23
+#: chrysalio/models/dbuser.py:42 chrysalio/views/group.py:89
+msgid "Groups"
+msgstr ""
+
+#: chrysalio/Templates/backup.pt:17 chrysalio/menu.py:26
+msgid "Backup"
+msgstr ""
+
+#: chrysalio/models/__init__.py:54
+msgid "*** Database is not defined."
+msgstr ""
+
+#: chrysalio/models/dbgroup.py:29 chrysalio/models/dbprofile.py:26
+#: chrysalio/models/dbsettings.py:31 chrysalio/models/dbuser.py:42
+#: chrysalio/modules/cioskeleton/models/dbbone.py:20
+msgid "Information"
+msgstr ""
+
+#: chrysalio/models/dbgroup.py:69
+msgid "Group \"${g}\" already exists."
+msgstr ""
+
+#: chrysalio/models/dbgroup.py:162
+msgid "User group without ID."
+msgstr ""
+
+#: chrysalio/models/dbgroup.py:167
+msgid "User group without label."
+msgstr ""
+
+#: chrysalio/models/dbgroup.py:257 chrysalio/models/dbgroup.py:428
+#: chrysalio/models/dbgroup.py:432 chrysalio/models/dbprofile.py:185
+#: chrysalio/models/dbprofile.py:298 chrysalio/models/dbprofile.py:302
+#: chrysalio/models/dbsettings.py:251
+msgid "Identifier:"
+msgstr ""
+
+#: chrysalio/models/dbgroup.py:306 chrysalio/models/dbuser.py:763
+msgid "No attributed profile."
+msgstr ""
+
+#: chrysalio/models/dbgroup.py:491 chrysalio/models/dbuser.py:1130
+msgid "No available profile."
+msgstr ""
+
+#: chrysalio/models/dbgroup.py:495 chrysalio/models/dbuser.py:1134
+msgid "You do not have the rigths to edit profiles."
+msgstr ""
+
+#: chrysalio/models/dbprofile.py:26
+msgid "Permissions"
+msgstr ""
+
+#: chrysalio/models/dbprofile.py:63
+msgid "Profile \"${p}\" already exists."
+msgstr ""
+
+#: chrysalio/models/dbprofile.py:117
+msgid "Profile without ID."
+msgstr ""
+
+#: chrysalio/models/dbprofile.py:122
+msgid "Profile without label."
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:31
+msgid "Parameters"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:185 chrysalio/models/dbsettings.py:249
+#: chrysalio/models/dbsettings.py:372
+msgid "Site"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:187 chrysalio/models/dbsettings.py:374
+#: chrysalio/models/dbuser.py:676 chrysalio/models/dbuser.py:1022
+msgid "Title:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:190 chrysalio/models/dbsettings.py:377
+#: chrysalio/models/dbuser.py:685 chrysalio/models/dbuser.py:1031
+msgid "Email:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:193 chrysalio/models/dbsettings.py:380
+msgid "Default values"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:195 chrysalio/models/dbsettings.py:382
+#: chrysalio/models/dbuser.py:687 chrysalio/models/dbuser.py:1034
+msgid "Language:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:198 chrysalio/models/dbsettings.py:387
+msgid "Password length:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:201 chrysalio/models/dbsettings.py:390
+msgid "Remember me:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:207 chrysalio/models/dbsettings.py:393
+#: chrysalio/models/dbuser.py:747 chrysalio/models/dbuser.py:1108
+msgid "Lines per page:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:211 chrysalio/models/dbsettings.py:396
+msgid "Maximum size of download:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:215 chrysalio/models/dbsettings.py:399
+msgid "Clipboard size:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:219 chrysalio/models/dbsettings.py:406
+#: chrysalio/models/dbuser.py:744 chrysalio/models/dbuser.py:1105
+msgid "Theme:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:246
+msgid "You cannot modify these values."
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:254
+msgid "Application version:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:257
+msgid "Configuration version:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:260
+msgid "Database"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:262
+msgid "Name:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:265
+msgid "Type:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:267
+msgid "Last loading:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:270
+msgid "Resources"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:272
+msgid "Log:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:273 chrysalio/models/dbuser.py:28
+msgid "active"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:274 chrysalio/models/dbuser.py:29
+msgid "inactive"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:276
+msgid "Languages:"
+msgstr ""
+
+#: chrysalio/models/dbsettings.py:284
+msgid "Themes:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:28
+msgid "administrator"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:29
+msgid "locked"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:30
+msgid "Mr"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:30
+msgid "Mrs"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:42
+msgid "Preferences"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:135 chrysalio/models/dbuser.py:147
+#: chrysalio/models/dbuser.py:160 chrysalio/modules/cioldap/lib/ldap.py:181
+msgid "ID or password is incorrect."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:152
+msgid "Authority not available."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:162
+msgid "Your account is locked."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:164
+msgid "Your account is not active."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:167
+msgid "Your account has expired."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:272
+msgid "Login is missing."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:315
+msgid "User \"${l}\" already exists."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:424
+msgid "User without login."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:429
+msgid "User \"${l}\" without password."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:436
+msgid "User \"${l}\" without last name."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:443
+msgid "User \"${l}\" with unknown honorific title."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:448
+msgid "User \"${l}\" without email."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:451
+msgid "Invalid email address: ${e}"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:673 chrysalio/models/dbuser.py:1012
+msgid "Identity"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:674 chrysalio/models/dbuser.py:1015
+#: chrysalio/models/dbuser.py:1019
+msgid "Login:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:680 chrysalio/models/dbuser.py:1025
+msgid "First Name:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:682 chrysalio/models/dbuser.py:1028
+msgid "Last Name:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:689 chrysalio/models/dbuser.py:1038
+msgid "Time Zone:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:692 chrysalio/models/dbuser.py:1042
+msgid "Security"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:694 chrysalio/models/dbuser.py:1047
+#: chrysalio/models/dbuser.py:1052
+msgid "Authority:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:696 chrysalio/models/dbuser.py:1061
+#: chrysalio/models/dbuser.py:1064
+msgid "Status:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:699
+msgid "Creation:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:705
+msgid "changed during next connexion"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:708
+msgid "Update:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:713 chrysalio/models/dbuser.py:1078
+msgid "Expiration:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:717
+msgid "Last connection:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:739 chrysalio/models/dbuser.py:1099
+msgid "Hide e-mail:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:740 chrysalio/modules/cioldap/models/dbldap.py:219
+msgid "yes"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:750
+msgid "No preferences."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:793
+msgid "This user is in any group."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:890 chrysalio/models/dbuser.py:898
+msgid "The two passwords are not identical."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:1074
+msgid "Force change:"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:1079
+msgid "Format: YYYY-MM-DD"
+msgstr ""
+
+#: chrysalio/models/dbuser.py:1172
+msgid "No available group."
+msgstr ""
+
+#: chrysalio/models/dbuser.py:1175
+msgid "You do not have the rigths to edit groups."
+msgstr ""
+
+#: chrysalio/models/populate.py:263
+msgid "Format must be ZIP or XML!"
+msgstr ""
+
+#: chrysalio/models/populate.py:277
+msgid "It is not a ZIP file!"
+msgstr ""
+
+#: chrysalio/models/populate.py:358
+msgid "This file is too big!"
+msgstr ""
+
+#: chrysalio/modules/__init__.py:84
+msgid "*** Modules ${m1} and ${m2} implement the same functionality \"${f}\"."
+msgstr ""
+
+#: chrysalio/modules/__init__.py:103
+msgid "*** Dependency \"${d}\" is missing!"
+msgstr ""
+
+#: chrysalio/modules/__init__.py:291
+msgid "The module \"${i}\" is not activated."
+msgstr ""
+
+#: chrysalio/modules/cioldap/Templates/cioldap_edit.pt:37
+#: chrysalio/modules/cioldap/Templates/cioldap_view.pt:36
+#: chrysalio/modules/cioldap/views/cioldap.py:68
+msgid "CioLDAP Module Configuration"
+msgstr ""
+
+#: chrysalio/modules/cioldap/Templates/cioldap_view.pt:39
+msgid "This module is not configured."
+msgstr ""
+
+#: chrysalio/modules/cioldap/__init__.py:45
+msgid "LDAP"
+msgstr ""
+
+#: chrysalio/modules/cioldap/lib/ldap.py:72
+msgid "Password is mandatory."
+msgstr ""
+
+#: chrysalio/modules/cioldap/lib/ldap.py:75
+#: chrysalio/modules/cioldap/lib/ldap.py:132
+msgid "LDAP configuration is missing."
+msgstr ""
+
+#: chrysalio/modules/cioldap/lib/ldap.py:193
+msgid "LDAP: incorrect filter \"${f}\"."
+msgstr ""
+
+#: chrysalio/modules/cioldap/lib/ldap.py:196
+msgid "LDAP: unable to retrieve user information."
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:147
+msgid "No base for search."
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:150
+msgid "No DN for user."
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:152
+msgid "_UID_ not found in user DN."
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:216
+#: chrysalio/modules/cioldap/models/dbldap.py:343
+msgid "Host:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:217
+#: chrysalio/modules/cioldap/models/dbldap.py:346
+msgid "Port:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:219
+#: chrysalio/modules/cioldap/models/dbldap.py:349
+msgid "SSL:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:221
+#: chrysalio/modules/cioldap/models/dbldap.py:351
+msgid "Check interval:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:226
+#: chrysalio/modules/cioldap/models/dbldap.py:354
+msgid "Root DN:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:227
+#: chrysalio/modules/cioldap/models/dbldap.py:359
+msgid "Base:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:231
+#: chrysalio/modules/cioldap/models/dbldap.py:364
+msgid "User DN:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:233
+#: chrysalio/modules/cioldap/models/dbldap.py:367
+msgid "User filter:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:235
+#: chrysalio/modules/cioldap/models/dbldap.py:371
+msgid "First name field:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:238
+#: chrysalio/modules/cioldap/models/dbldap.py:374
+msgid "Last name field:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:240
+#: chrysalio/modules/cioldap/models/dbldap.py:377
+msgid "Email field:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:246
+#: chrysalio/modules/cioldap/models/dbldap.py:383
+msgid "Attributed Profiles:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:352
+msgid "In seconds."
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:356
+msgid "Root password:"
+msgstr ""
+
+#: chrysalio/modules/cioldap/models/dbldap.py:368
+msgid "Use _UID_ in place of user ID."
+msgstr ""
+
+#: chrysalio/modules/cioldap/security.py:8
+msgid "CioLDAP module management"
+msgstr ""
+
+#: chrysalio/modules/cioldap/security.py:9
+msgid "View CioLDAP configuration"
+msgstr ""
+
+#: chrysalio/modules/cioldap/security.py:10
+msgid "Edit or view CioLDAP configuration"
+msgstr ""
+
+#: chrysalio/modules/cioldap/views/cioldap.py:115 chrysalio/views/group.py:229
+#: chrysalio/views/profile.py:164 chrysalio/views/settings.py:90
+#: chrysalio/views/user.py:256
+msgid "Correct errors."
+msgstr ""
+
+#: chrysalio/modules/cioldap/views/cioldap.py:118
+msgid "CioLDAP Module Edition"
+msgstr ""
+
+#: chrysalio/modules/cioldap/views/cioldap.py:161
+msgid "This CioLDAP configuration already exists."
+msgstr ""
+
+#: chrysalio/modules/cioskeleton/Templates/bone_index.pt:11
+msgid "Bone Index"
+msgstr ""
+
+#: chrysalio/modules/cioskeleton/__init__.py:59
+#: chrysalio/modules/cioskeleton/menu.py:8
+#: chrysalio/modules/cioskeleton/modes.py:8
+msgid "Skeleton"
+msgstr ""
+
+#: chrysalio/modules/cioskeleton/models/dbbone.py:55
+msgid "Bone \"${s}\" already exists."
+msgstr ""
+
+#: chrysalio/modules/cioskeleton/models/dbbone.py:106
+msgid "Bone without ID."
+msgstr ""
+
+#: chrysalio/modules/cioskeleton/security.py:9
+msgid "Access to skeleton mode"
+msgstr ""
+
+#: chrysalio/modules/cioskeleton/security.py:11
+msgid "Bone management"
+msgstr ""
+
+#: chrysalio/modules/cioskeleton/security.py:12
+msgid "View bone"
+msgstr ""
+
+#: chrysalio/modules/cioskeleton/views/bone.py:27
+msgid "Bone Management"
+msgstr ""
+
+#: chrysalio/scripts/__init__.py:151
+msgid "*** Module \"${m}\" error: ${e}"
+msgstr ""
+
+#: chrysalio/scripts/__init__.py:186
+msgid "Database is not defined."
+msgstr ""
+
+#: chrysalio/scripts/__init__.py:196
+msgid "====== Dropping existing tables"
+msgstr ""
+
+#: chrysalio/scripts/__init__.py:202
+msgid "Unknown database!"
+msgstr ""
+
+#: chrysalio/scripts/ciobackup.py:97
+msgid "Database is empty!"
+msgstr ""
+
+#: chrysalio/scripts/ciobackup.py:124
+msgid "${f} is write protected."
+msgstr ""
+
+#: chrysalio/scripts/ciobackup.py:153
+msgid "${d} must be a directory."
+msgstr ""
+
+#: chrysalio/scripts/ciobackup.py:161
+msgid "${d} is write protected."
+msgstr ""
+
+#: chrysalio/scripts/ciopopulate.py:122
+msgid "====== Adding administrator"
+msgstr ""
+
+#: chrysalio/scripts/ciopopulate.py:128
+msgid "Incorrect administrator."
+msgstr ""
+
+#: chrysalio/scripts/ciopopulate.py:182
+msgid "====== Loading configurations"
+msgstr ""
+
+#: chrysalio/scripts/cioupdate.py:126
+msgid " Backup "
+msgstr ""
+
+#: chrysalio/scripts/cioupdate.py:133
+msgid " Update "
+msgstr ""
+
+#: chrysalio/scripts/cioupdate.py:141
+msgid " Populating "
+msgstr ""
+
+#: chrysalio/scripts/cioupdate.py:150
+msgid " Restarting server "
+msgstr ""
+
+#: chrysalio/scripts/cioupdate.py:309
+msgid "This directory is not a Git repository."
+msgstr ""
+
+#: chrysalio/scripts/cioupdate.py:316
+msgid "No remote repository"
+msgstr ""
+
+#: chrysalio/scripts/cioupdate.py:385
+msgid "${n} -> ${f}"
+msgstr ""
+
+#: chrysalio/modules/cioskeleton/security.py:8 chrysalio/security.py:13
+msgid "Mode management"
+msgstr ""
+
+#: chrysalio/security.py:14
+msgid "Access to administration mode"
+msgstr ""
+
+#: chrysalio/security.py:15
+msgid "Access to job mode"
+msgstr ""
+
+#: chrysalio/security.py:17
+msgid "Group management"
+msgstr ""
+
+#: chrysalio/security.py:18
+msgid "View all groups"
+msgstr ""
+
+#: chrysalio/security.py:20
+msgid "Edit or view any group"
+msgstr ""
+
+#: chrysalio/security.py:22
+msgid "Create a new one or edit or view any group"
+msgstr ""
+
+#: chrysalio/security.py:25
+msgid "User management"
+msgstr ""
+
+#: chrysalio/security.py:26
+msgid "View all users"
+msgstr ""
+
+#: chrysalio/security.py:28
+msgid "Edit or view any user"
+msgstr ""
+
+#: chrysalio/security.py:30
+msgid "Create a new one or edit or view any user"
+msgstr ""
+
+#: chrysalio/security.py:33
+msgid "Profile management"
+msgstr ""
+
+#: chrysalio/security.py:34
+msgid "View any profile"
+msgstr ""
+
+#: chrysalio/security.py:36
+msgid "Edit or view any profile"
+msgstr ""
+
+#: chrysalio/security.py:38
+msgid "Create a new one or edit or view any profile"
+msgstr ""
+
+#: chrysalio/security.py:41
+msgid "General settings management"
+msgstr ""
+
+#: chrysalio/security.py:42
+msgid "View general settings"
+msgstr ""
+
+#: chrysalio/security.py:44
+msgid "Edit or view general settings"
+msgstr ""
+
+#: chrysalio/security.py:47
+msgid "Backup management"
+msgstr ""
+
+#: chrysalio/security.py:48
+msgid "Backup and restore"
+msgstr ""
+
+#: chrysalio/tests/test_subscribers.py:73
+msgid "Foo"
+msgstr ""
+
+#: chrysalio/views/backup.py:66
+msgid "Configuration Backup"
+msgstr ""
+
+#: chrysalio/views/backup.py:127
+msgid "This configuration is too big!"
+msgstr ""
+
+#: chrysalio/views/backup.py:173
+msgid "Backup restored."
+msgstr ""
+
+#: chrysalio/views/error.py:41
+msgid ""
+"Access is denied: the server can not verify that your protection against "
+"cross-site request forgery (CSRF) is correct."
+msgstr ""
+
+#: chrysalio/views/error.py:48
+msgid "Error ${status}"
+msgstr ""
+
+#: chrysalio/views/error.py:51
+msgid ""
+"The server could not comply with the request since it is either malformed or"
+" otherwise incorrect."
+msgstr ""
+
+#: chrysalio/views/error.py:53
+msgid ""
+"This server could not verify that you are authorized to access the document "
+"you requested."
+msgstr ""
+
+#: chrysalio/views/error.py:55
+msgid "Access was denied to this resource."
+msgstr ""
+
+#: chrysalio/views/error.py:56
+msgid "The resource could not be found."
+msgstr ""
+
+#: chrysalio/views/error.py:57
+msgid "Internal Server Error."
+msgstr ""
+
+#: chrysalio/views/group.py:141
+msgid "Group \"${l}\""
+msgstr ""
+
+#: chrysalio/views/group.py:244
+msgid "Group Creation"
+msgstr ""
+
+#: chrysalio/views/group.py:247
+msgid "Group \"${l}\" Edition"
+msgstr ""
+
+#: chrysalio/views/group.py:361
+msgid "This group already exists."
+msgstr ""
+
+#: chrysalio/views/mode.py:25
+msgid "Modes are not activated."
+msgstr ""
+
+#: chrysalio/views/profile.py:118
+msgid "Profile \"${l}\""
+msgstr ""
+
+#: chrysalio/views/profile.py:169
+msgid "Profile Creation"
+msgstr ""
+
+#: chrysalio/views/profile.py:172
+msgid "Profile \"${l}\" Edition"
+msgstr ""
+
+#: chrysalio/views/profile.py:282
+msgid "This profile already exists."
+msgstr ""
+
+#: chrysalio/views/settings.py:94
+msgid "General Settings Edition"
+msgstr ""
+
+#: chrysalio/views/user.py:71 chrysalio/views/user.py:167
+msgid "The invitation has been sent."
+msgstr ""
+
+#: chrysalio/views/user.py:179
+msgid "My Account"
+msgstr ""
+
+#: chrysalio/views/user.py:179
+msgid "${n} Account"
+msgstr ""
+
+#: chrysalio/views/user.py:277
+msgid "User Creation"
+msgstr ""
+
+#: chrysalio/views/user.py:280
+msgid "My Account Edition"
+msgstr ""
+
+#: chrysalio/views/user.py:280
+msgid "${n} Edition"
+msgstr ""
+
+#: chrysalio/views/user.py:309
+msgid "Please use the email associated with your account."
+msgstr ""
+
+#: chrysalio/views/user.py:313
+msgid "A link to reset your password has been sent by mail."
+msgstr ""
+
+#: chrysalio/views/user.py:318
+msgid "Forgot Password"
+msgstr ""
+
+#: chrysalio/views/user.py:332
+msgid "This page does not exist anymore."
+msgstr ""
+
+#: chrysalio/views/user.py:348
+msgid "Your password has been changed. You can use it."
+msgstr ""
+
+#: chrysalio/views/user.py:352
+msgid "Password Reset"
+msgstr ""
+
+#: chrysalio/views/user.py:424
+msgid "You can't delete your own user."
+msgstr ""
+
+#: chrysalio/views/user.py:434
+msgid "You can't delete an administrator."
+msgstr ""
+
+#: chrysalio/views/user.py:483
+msgid "You cannot export the main administrator."
+msgstr ""
+
+#: chrysalio/views/user.py:507
+msgid "Invitation to join ${n}"
+msgstr ""
+
+#: chrysalio/views/user.py:540
+msgid "Password Reset on ${n}"
+msgstr ""
+
+#: chrysalio/views/user.py:607
+msgid "This user already exists."
+msgstr ""
+

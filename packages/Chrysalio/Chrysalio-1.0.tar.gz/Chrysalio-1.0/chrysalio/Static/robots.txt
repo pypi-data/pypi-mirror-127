@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Disallow: /custom/
+Disallow: /theme/*/css/
+Disallow: /theme/*/js/
+Disallow: /theme/*/images/
+Disallow: /theme/*/custom/
+
+# Bad robots
+user-agent: stress-agent
+Disallow: /

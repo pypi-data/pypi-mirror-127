@@ -1,0 +1,8 @@
+[console_scripts]
+ciobackup = chrysalio.scripts.ciobackup:main
+ciopopulate = chrysalio.scripts.ciopopulate:main
+cioupdate = chrysalio.scripts.cioupdate:main
+
+[paste.app_factory]
+main = chrysalio:main
+

@@ -1,0 +1,22 @@
+<div metal:define-macro="paging_filter" tal:omit-tag=""
+     xmlns:tal="http://xml.zope.org/namespaces/tal"
+     xmlns:metal="http://xml.zope.org/namespaces/metal">
+  <div class="cioPagingPagerFilter cioFlexRowContainer">
+    <div class="cioPagingPager cioFlexItem">
+      ${form.select('page_size', '', PAGE_SIZES, True, title=_('Lines per page'))}
+      ${paging.pager_top()} ${paging.display_modes()}
+    </div>
+    <div id="cioFilter-${pfilter.uid}" class="cioPagingFilter cioFilterFoldable">
+      <span class="cioFilterConditions" tal:condition="not pfilter.is_empty()">
+        ${pfilter.html_conditions()}
+      </span>
+      ${pfilter.html_inputs(form)}
+      <span class="cioFilterSubmit">
+        ${form.submit('filter', _('Filter'), class_='cioFilterButton')}
+        <img src="${theme+'/images/filter_toggle_minus.png'}"
+             alt="Toggle" class="cioFilterToggle cioHidden"
+             title="${_('Show/hide full filter')}"/>
+      </span>
+    </div>
+  </div>
+</div>

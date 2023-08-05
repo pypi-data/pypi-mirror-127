@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: Chrysalio
+Version: 1.0
+Summary: SDK to build Pyramid Web site with user management
+Home-page: https://docs.chrysal.io
+Author: Patrick PIERRE
+Author-email: patrick.pierre@lap2.fr
+License: UNKNOWN
+Keywords: web wsgi pylons pyramid Chrysalio
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Framework :: Pyramid
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Provides-Extra: modules
+Provides-Extra: testing
+Provides-Extra: documentation
+Provides-Extra: development
+
+Chrysalio README
+================
+
+Getting Started
+---------------
+
+.. code-block:: bash
+
+    $ cd <directory containing this file>
+    $ source $VENV/bin/activate
+    (virtualenv)$ pip install -e .
+    (virtualenv)$ ciopopulate development.ini
+    (virtualenv)$ pserve development.ini
+
+
+Testing the Application
+-----------------------
+
+.. code-block:: bash
+
+    (virtualenv)$ pip install -e ".[testing]"
+    (virtualenv)$ py.test --pep8 --last-failed -v --cov --cov-report=term-missing
+
+
+Developping the Application
+---------------------------
+
+.. code-block:: bash
+
+    (virtualenv)$ pip install -e ".[development]"
+
+..
+   Creating a new Chrysalio Project
+   --------------------------------
+
+   (virtualenv)$ pcreate -s chrysalio_project MyProject
+
+   Creating a new Chrysalio Theme
+   ------------------------------
+
+   (virtualenv)$ pcreate -s chrysalio_theme MyTheme
+
+
+Generating Localization Files
+-----------------------------
+
+.. code-block:: bash
+
+    (virtualenv)$ ./i18n.sh
+
+
+CHANGES
+=======
+
+1.0 (2017-10-02)
+----------------
+
+- Initial version
+
+

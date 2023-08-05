@@ -1,0 +1,1925 @@
+/* ========================== */
+/*          CHRYSALIO         */
+/* ========================== */
+/*
+ *  =========== Tags ===========
+ */
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  min-height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-size: 1.4rem;
+  font-family: Roboto, sans-serif;
+  color: #4f4f4f;
+  background-color: #f8fafc;
+}
+
+form {
+  -webkit-flex: 1 1 auto;
+  display: -webkit-flex;
+  flex: 1 1 auto;
+  display: flex;
+}
+
+/* ---------- Input --------- */
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+input[type=text],
+input[type=password],
+input[type=checkbox],
+input[type=file],
+select,
+textarea,
+label.cioCustomCheckbox {
+  color: #4f4f4f;
+  background-color: #fcfcfc;
+  border: 1px solid #cccccc;
+  outline: 0;
+}
+
+input[type=text],
+input[type=password],
+select {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding: 2px 0;
+}
+
+input[type=image] {
+  outline: 0;
+  cursor: pointer;
+}
+
+input.cioHiddenCheckbox {
+  display: none;
+}
+
+input.cioCustomCheckbox {
+  display: none;
+}
+
+label.cioCustomCheckbox {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  vertical-align: top;
+}
+
+input:checked.cioCustomCheckbox + label.cioCustomCheckbox {
+  background: #fcfcfc url("../images/checked.svg") no-repeat center center;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 0 16px 0 3px;
+  background: transparent url("../images/select.png") no-repeat right center;
+}
+
+/* ---------- Link ---------- */
+a {
+  color: #4f4f4f;
+  text-decoration: none;
+  outline: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+
+pre a {
+  text-decoration: underline;
+}
+pre a:hover {
+  text-decoration: underline;
+}
+
+/*
+ * ============ Menu ===========
+ */
+#cioMenu li,
+#cioMenu li a {
+  color: #505078;
+}
+
+#cioMenu li .cioCurrent,
+#cioMenu li .cioCurrent a {
+  color: #ffffff;
+}
+
+#cioMenu .cioMenuOpen {
+  display: none;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+}
+
+#cioMenuOpen {
+  display: none;
+}
+
+/* Depth 0 */
+#cioMenu ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: #aaaaff;
+  z-index: 2;
+}
+
+#cioMenu li {
+  display: inline-block;
+  list-style-type: none;
+  cursor: default;
+}
+
+#cioMenu li > span {
+  display: block;
+  padding: 5px 10px 5px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#cioMenu li > span:hover {
+  background-color: #9999e6;
+}
+
+/* Depth 1 */
+#cioMenu li ul {
+  display: none;
+  position: absolute;
+  padding-bottom: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  opacity: 0.95;
+  z-index: 2;
+}
+
+#cioMenu li:hover ul {
+  display: block;
+}
+
+#cioMenu li ul li {
+  display: list-item;
+  margin: 0;
+}
+
+#cioMenu li ul li > span {
+  padding: 4px 10px;
+  border-radius: 0;
+}
+
+/* Depth 2 */
+#cioMenu li ul li ul {
+  display: block;
+  position: relative;
+  margin-left: 20px;
+  padding-bottom: 0;
+  border-radius: 0;
+}
+
+/* ------- Responsive ------- */
+@media screen and (max-width: 1024px) {
+  #cioMenu .cioMenuOpen {
+    display: inline-block;
+  }
+
+  #cioMenu > ul {
+    display: none;
+    position: absolute;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 5px;
+    opacity: 0.95;
+  }
+
+  input#cioMenuOpen:checked + ul {
+    display: block;
+  }
+
+  #cioMenu li {
+    display: list-item;
+  }
+
+  #cioMenu li ul {
+    display: block;
+    position: relative;
+    margin-left: 20px;
+    border-radius: 0;
+  }
+
+  #cioMenu li > span {
+    border-radius: 0;
+  }
+}
+/*
+ * ============ Modes ===========
+ */
+#cioModes .cioModesOpen {
+  display: inline-block;
+  margin: 0 15px 4px 10px;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#cioModesOpen {
+  display: none;
+}
+
+#cioModes ul {
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 0 0 5px 0;
+  border-bottom-right-radius: 5px;
+  background-color: #aaaaff;
+  opacity: 0.95;
+  z-index: 2;
+}
+
+input#cioModesOpen:checked + ul {
+  display: block;
+}
+
+#cioModes li {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+#cioModes li > span {
+  display: block;
+  padding: 5px 10px;
+}
+
+#cioModes li span:hover {
+  background-color: #9999e6;
+}
+
+/*
+ * =========== Button ==========
+ */
+.cioButton {
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  color: #4f4f4f;
+  background-color: #ffba24;
+  font-size: 1.3rem;
+  line-height: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+a.cioButton:visited {
+  color: #4f4f4f;
+}
+
+.cioButton:hover {
+  background-color: #fecb65;
+  text-decoration: none;
+}
+
+.cioButton.cioButtonSmall {
+  font-weight: normal;
+  border-radius: 2px;
+  padding: 2px 4px;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.cioButton.cioButtonAlert {
+  color: #ffffff;
+  background-color: #993333;
+}
+
+.cioButton.cioButtonAlert:hover {
+  background-color: #ab3939;
+}
+
+.cioButton.cioMainButton {
+  font-weight: bold;
+}
+
+.cioButtonInput {
+  display: -webkit-flex;
+  display: flex;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.cioButtonInput input[type=text],
+.cioButtonInput input[type=password] {
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  margin-right: 8px;
+}
+
+.cioButtonInput .cioButton {
+  margin: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.cioDefaultButton {
+  display: block !important;
+  height: 0 !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  overflow: visible !important;
+}
+
+/* ------- Responsive ------- */
+@media screen and (max-width: 768px) {
+  .cioButtonInput {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .cioButtonInput input[type=text] {
+    margin: 5px 10px;
+  }
+
+  .cioButtonInput .cioButton {
+    margin: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 3px;
+  }
+}
+/*
+ * ========== Dropdown =========
+ */
+.cioDropdown {
+  position: relative;
+  display: inline-block;
+}
+.cioDropdown .cioButton {
+  background-image: url(../images/dropdown.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 24px;
+}
+.cioDropdown .cioDropdownMenu {
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 5px 0;
+  list-style-type: none;
+  font-size: 1.3rem;
+  color: #4f4f4f;
+  background-color: #fcfcfc;
+  box-shadow: 0 3px 6px -2px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+.cioDropdown .cioDropdownMenu.cioMenuRight {
+  right: 0;
+}
+.cioDropdown .cioDropdownMenu li {
+  text-align: left;
+  padding: 5px 12px;
+  white-space: nowrap;
+}
+.cioDropdown .cioDropdownMenu li:hover {
+  background-color: #eeeeee;
+}
+.cioDropdown .cioDropdownMenu img {
+  vertical-align: sub;
+  margin-right: 5px;
+}
+.cioDropdown .cioDropdownMenu input {
+  color: #4f4f4f;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.cioDropdown:hover .cioDropdownMenu {
+  display: block;
+}
+
+/*
+ * =========== Dialog ==========
+ */
+#cioDialog {
+  position: fixed;
+  z-index: 110;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#cioDialog > section {
+  position: relative;
+  width: 600px;
+  max-width: 90%;
+  background-color: #f8fafc;
+  margin: 50px auto;
+  padding: 15px;
+  border: 1px solid #505078;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.25);
+  -webkit-animation: cioDialogIn 0.5s;
+  animation: cioDialogIn 0.5s;
+}
+#cioDialog > section h2 {
+  margin-top: 0;
+  color: #505078;
+}
+#cioDialog > section .cioDialogInfo {
+  margin-bottom: 10px;
+  color: #4f4f4f;
+}
+#cioDialog > section .cioFormItem {
+  color: #4f4f4f;
+}
+#cioDialog > section .cioFormItem input[type=text],
+#cioDialog > section .cioFormItem input[type=password],
+#cioDialog > section .cioFormItem select,
+#cioDialog > section .cioFormItem textarea {
+  width: 100%;
+}
+#cioDialog > section .cioDialogButtons {
+  margin-top: 10px;
+  text-align: right;
+}
+
+@keyframes cioDialogIn {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+/*
+ * ============ Flash ==========
+ */
+#cioFlashPersistent,
+#cioFlash, #cioFlashSnackbar,
+#cioFlashAlert, #cioFlashAlertSnackbar {
+  color: #505078;
+  background: #fcfcfc url("../images/flash_info.png") no-repeat 8px 8px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 15px 15px 15px 55px;
+  margin: 10px;
+  max-height: 80%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#cioFlashPersistent > div,
+#cioFlash > div, #cioFlashSnackbar > div,
+#cioFlashAlert > div, #cioFlashAlertSnackbar > div {
+  word-wrap: break-word;
+}
+#cioFlashPersistent a,
+#cioFlash a, #cioFlashSnackbar a,
+#cioFlashAlert a, #cioFlashAlertSnackbar a {
+  text-decoration: underline;
+}
+
+#cioFlashAlert, #cioFlashAlertSnackbar {
+  color: #d7810a;
+  border: 1px solid;
+  background: #fcfcfc url("../images/flash_alert.png") no-repeat 8px 8px;
+}
+
+#cioFlashSnackbar,
+#cioFlashAlertSnackbar {
+  position: fixed;
+  width: 380px;
+  margin-left: -215px;
+  z-index: 10;
+  left: 50%;
+  top: 50px;
+  border: none;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  -webkit-animation: cioFlashIn 0.5s;
+  animation: cioFlashIn 0.5s;
+}
+
+#cioFlashSnackbar.hide,
+#cioFlashAlertSnackbar.hide {
+  opacity: 0;
+  -webkit-animation: cioFlashOut 0.8s;
+  animation: cioFlashOut 0.8s;
+}
+
+@keyframes cioFlashIn {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 50px;
+    opacity: 1;
+  }
+}
+@keyframes cioFlashOut {
+  from {
+    top: 50px;
+    opacity: 1;
+  }
+  to {
+    top: 0;
+    opacity: 0;
+  }
+}
+/*
+ * ======== Progress Bar =======
+ */
+.cioProgress {
+  position: relative;
+  display: inline-block;
+  width: 12em;
+  color: #4f4f4f;
+  border: 1px solid #ffba24;
+  border-radius: 3px;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+  vertical-align: middle;
+}
+.cioProgress .cioBar {
+  width: 0;
+  height: 24px;
+  border-radius: 3px;
+  background: transparent url("../images/progress_bar.gif") repeat-x left top;
+  transition: all 0.3s ease-in-out;
+}
+.cioProgress .cioPercent {
+  position: absolute;
+  top: 2px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+/*
+ * =========== Filter ==========
+ */
+/* -------- Condition ------- */
+.cioFilterConditions {
+  margin-right: 5px;
+}
+
+.cioFilterCondition {
+  display: inline-block;
+  margin-bottom: 5px;
+  background-color: #ededff;
+  border: 1px solid #cccccc;
+}
+.cioFilterCondition input {
+  padding: 2px 3px;
+  color: #000000;
+  background-color: #aaaaff;
+  border: none;
+  cursor: pointer;
+}
+.cioFilterCondition input:hover {
+  color: white;
+  background-color: #9999e6;
+}
+.cioFilterCondition span {
+  padding: 2px 5px;
+}
+
+/* ---------- Inputs -------- */
+.cioFilterInput {
+  display: inline-block;
+  margin: 0 5px 5px 0;
+}
+.cioFilterInput.cioFilterInputStatic {
+  display: block;
+}
+.cioFilterInput > span {
+  display: inline-block;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 1px;
+}
+.cioFilterInput .cioFilterOp {
+  margin-right: 5px;
+}
+.cioFilterInput select {
+  padding: 2px 16px 1px 0;
+  border: none;
+}
+.cioFilterInput .cioFilterComparison select {
+  padding-left: 5px;
+}
+.cioFilterInput input[type=text] {
+  padding: 2px 0 1px 5px;
+  border: none;
+}
+.cioFilterInput label.cioCustomCheckbox {
+  margin: 5px 0 0 5px;
+}
+
+.ui-autocomplete-loading {
+  background: #fcfcfc url("../images/Ui/ui-anim.gif") right center no-repeat;
+}
+
+/* --------- Submit --------- */
+.cioFilterSubmit {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.cioFilterSubmit .cioFilterButton {
+  color: #505078;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  padding: 2px 5px;
+}
+.cioFilterSubmit .cioFilterButton:hover {
+  color: white;
+  background-color: #9999e6;
+  cursor: pointer;
+}
+.cioFilterSubmit input[type=image], .cioFilterSubmit img {
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 0 0 2px 5px;
+}
+.cioFilterSubmit input[type=image]:hover, .cioFilterSubmit img:hover {
+  -webkit-filter: brightness(0.7);
+  filter: brightness(0.7);
+}
+
+/* -------- Foldable -------- */
+.cioFilterFoldable.cioFilterFold .cioFilterInput,
+.cioFilterFoldable.cioFilterFold .cioFilterSubmit input {
+  display: none;
+}
+.cioFilterFoldable.cioFilterFold .cioFilterInputStatic {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/*
+ * ========== Paging ===========
+ */
+/* --------- Actions -------- */
+.cioPagingActions {
+  text-align: right;
+  min-height: 2.7em;
+  margin-bottom: 15px;
+}
+.cioPagingActions input {
+  vertical-align: middle;
+}
+
+/* ---------- Pager --------- */
+.cioPagingPagerFilter {
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  padding: 3px 10px 3px 10px;
+  background-color: #f8fafc;
+  box-sizing: border-box;
+}
+
+.cioPagingPager {
+  white-space: nowrap;
+  margin: 0 10px 3px 0;
+}
+.cioPagingPager select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  padding-right: 16px;
+  background: transparent url("../images/select_size.png") no-repeat right center;
+  margin-right: 10px;
+}
+.cioPagingPager img {
+  cursor: default;
+  vertical-align: middle;
+}
+.cioPagingPager a img {
+  cursor: pointer;
+}
+
+/* ---------- Filter -------- */
+.cioPagingFilter {
+  font-size: 1.2rem;
+  text-align: right;
+}
+.cioPagingFilter .cioFilterCondition {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .cioPagingPagerFilter {
+    display: block;
+  }
+
+  .cioPagingFilter {
+    text-align: left;
+  }
+}
+a.cioSortAsc {
+  background: transparent url(../images/sort_asc.png) no-repeat right center;
+}
+
+a.cioSortDesc {
+  background: transparent url(../images/sort_desc.png) no-repeat right center;
+}
+
+/* ---------- List ---------- */
+.cioPagingList table {
+  width: 100%;
+  margin: 0;
+  border-bottom: 2px solid #505078;
+  border-collapse: collapse;
+}
+.cioPagingList table caption {
+  display: none;
+}
+.cioPagingList thead tr {
+  color: #505078;
+  background-color: #ededff;
+  border-bottom: 2px solid;
+}
+.cioPagingList thead a {
+  color: #505078;
+  padding-right: 16px;
+}
+.cioPagingList tbody tr {
+  vertical-align: top;
+  color: #4f4f4f;
+  background-color: #fcfcfc;
+}
+.cioPagingList tbody tr:nth-of-type(odd) {
+  background-color: #eeeeee;
+}
+.cioPagingList tbody tr:hover {
+  background-color: #dddddd;
+}
+.cioPagingList tbody tr a {
+  color: #4f4f4f;
+}
+.cioPagingList th, .cioPagingList td {
+  text-align: left;
+  border: none;
+  padding: 5px;
+}
+.cioPagingList th img, .cioPagingList td img {
+  vertical-align: sub;
+}
+.cioPagingList th.cioCheckbox img, .cioPagingList td.cioCheckbox img {
+  vertical-align: text-top;
+}
+.cioPagingList th:first-child,
+.cioPagingList td:first-child {
+  padding-left: 10px;
+}
+.cioPagingList th:last-child,
+.cioPagingList td:last-child {
+  padding-right: 10px;
+}
+.cioPagingList th.cioCheckbox,
+.cioPagingList td.cioCheckbox {
+  width: 1em;
+}
+.cioPagingList th.cioActions,
+.cioPagingList td.cioActions {
+  white-space: nowrap;
+  text-align: right;
+}
+.cioPagingList th.cioActions input[type=image],
+.cioPagingList td.cioActions input[type=image] {
+  vertical-align: bottom;
+}
+.cioPagingList th.cioActions input[type=image] {
+  margin-left: 2px;
+}
+.cioPagingList td.cioActions input[type=image] {
+  margin-left: 3px;
+}
+.cioPagingList td pre {
+  margin: 0;
+  font-size: 1.3rem;
+  white-space: pre-wrap;
+}
+.cioPagingList label.cioCustomCheckbox {
+  margin-top: 2px;
+}
+@media screen and (max-width: 768px) {
+  .cioPagingList .cioOptional {
+    display: none;
+  }
+}
+
+/* --------- Cards ---------- */
+.cioPagingCards .cioPagingBar {
+  border-top: 1px solid;
+  border-bottom: 2px solid;
+  padding: 5px 10px;
+  color: #505078;
+  background-color: #ededff;
+}
+.cioPagingCards .cioPagingBar .cioPagingSort a {
+  display: inline-block;
+  margin-left: 10px;
+  padding-right: 16px;
+  color: #505078;
+  font-weight: bold;
+}
+.cioPagingCards .cioPagingBar .cioActions {
+  white-space: nowrap;
+}
+.cioPagingCards .cioPagingBar .cioActions input[type=image] {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.cioPagingCards .cioPagingBar .cioActions input[type=image][name="ccl!"] {
+  margin-left: 2px;
+}
+.cioPagingCards .cioPagingCardsArea {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 5px;
+  color: #505078;
+}
+.cioPagingCards .cioPagingCardsArea.cioAttachments .cioPagingCardDescription {
+  border-left: none;
+  padding-left: 0;
+}
+.cioPagingCards .cioPagingCard {
+  list-style: none;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.cioPagingCards .cioPagingCard > div {
+  margin: 5px;
+  padding: 10px;
+  color: #4f4f4f;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+  overflow-x: hidden;
+}
+.cioPagingCards .cioPagingCard > div:hover {
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.25);
+}
+.cioPagingCards .cioPagingCard > div a {
+  color: #4f4f4f;
+}
+.cioPagingCards .cioPagingCard .cioPagingCardPicture {
+  float: left;
+  margin: 0 5px 0 0;
+}
+.cioPagingCards .cioPagingCard .cioPagingCardPicture img {
+  max-width: 64px;
+  max-height: 64px;
+  border-radius: 10px;
+}
+.cioPagingCards .cioPagingCard .cioPagingCardStatus {
+  float: right;
+}
+.cioPagingCards .cioPagingCard .cioPagingCardTitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.cioPagingCards .cioPagingCard .cioPagingCardSubtitle {
+  font-size: 1.1rem;
+  color: #7f7f7f;
+}
+.cioPagingCards .cioPagingCard .cioPagingCardDescription {
+  margin-top: 5px;
+  padding-left: 5px;
+  border-left: 2px solid #cccccc;
+  color: #5b5b5b;
+}
+.cioPagingCards .cioPagingCard .cioPagingCardInfo {
+  margin-top: 5px;
+  color: #7f7f7f;
+}
+.cioPagingCards .cioPagingCard .cioActions {
+  margin-top: 10px;
+}
+@media screen and (min-width: 30rem) {
+  .cioPagingCards .cioPagingCard {
+    width: 50%;
+  }
+  .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 45rem) {
+  .cioPagingCards .cioPagingCard {
+    width: 33.33%;
+  }
+  .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 60rem) {
+  .cioPagingCards .cioPagingCard {
+    width: 25%;
+  }
+  .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 33.33%;
+  }
+}
+@media screen and (min-width: 75rem) {
+  .cioPagingCards .cioPagingCard {
+    width: 20%;
+  }
+  .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 90rem) {
+  .cioPagingCards .cioPagingCard {
+    width: 16.6%;
+  }
+  .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 105rem) {
+  .cioPagingCards .cioPagingCard {
+    width: 14.28%;
+  }
+  .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 16.66%;
+  }
+}
+@media screen and (min-width: 120rem) {
+  .cioPagingCards .cioPagingCard {
+    width: 12.5%;
+  }
+  .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 14.28%;
+  }
+}
+@media screen and (min-width: 135rem) {
+  .cioPagingCards .cioPagingCard {
+    width: 11.1%;
+  }
+  .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 12.5%;
+  }
+}
+
+@media screen and (min-width: 30rem) {
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioPagingCard {
+    width: 100%;
+  }
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 45rem) {
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioPagingCard {
+    width: 50%;
+  }
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 60rem) {
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioPagingCard {
+    width: 33.33%;
+  }
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 75rem) {
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioPagingCard {
+    width: 25%;
+  }
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 33.33%;
+  }
+}
+@media screen and (min-width: 90rem) {
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioPagingCard {
+    width: 20%;
+  }
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 105rem) {
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioPagingCard {
+    width: 16.66%;
+  }
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 120rem) {
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioPagingCard {
+    width: 14.28%;
+  }
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 16.66%;
+  }
+}
+@media screen and (min-width: 135rem) {
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioPagingCard {
+    width: 12.5%;
+  }
+  .cioPanelContainer + #cioMainContainer .cioPagingCards .cioAttachments .cioPagingCard {
+    width: 14.28%;
+  }
+}
+
+/* -------- CardTools ------- */
+.cioCardToolsArea {
+  position: relative;
+}
+.cioCardToolsArea .cioHiddenCheckbox:checked + .cioCardTools {
+  opacity: 1;
+  background-color: transparent;
+}
+.cioCardToolsArea .cioHiddenCheckbox:checked + .cioCardTools > div {
+  visibility: hidden;
+}
+.cioCardToolsArea .cioHiddenCheckbox:checked + .cioCardTools > label {
+  border-color: #007fff;
+  background: #fcfcfc url("../images/selected.svg") no-repeat center center;
+}
+.cioCardToolsArea .cioCardTools {
+  position: absolute;
+  width: 100%;
+  padding: 5px 0 5px 5px;
+  text-align: left;
+  line-height: 16px;
+  background-color: rgba(221, 221, 221, 0.75);
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+.cioCardToolsArea .cioCardTools input {
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+.cioCardToolsArea .cioCardTools a {
+  margin-right: 5px;
+}
+.cioCardToolsArea .cioCardTools a img {
+  vertical-align: bottom;
+}
+.cioCardToolsArea .cioCardTools label {
+  margin: 0 10px 0 5px;
+}
+
+/* ------- Navigator -------- */
+.cioPagingNavigator img {
+  vertical-align: middle;
+}
+
+/*
+ * ========== Grid Form ========
+ */
+.cioFormItem {
+  margin-bottom: 8px;
+}
+
+/* --------- Label --------- */
+.cioFormItem > label {
+  float: left;
+  margin: 0;
+  padding-top: 2px;
+  width: 25%;
+}
+.cioFormItem > label.cioCustomCheckbox {
+  width: 1em;
+}
+.cioFormItem > label strong span {
+  color: #d7810a;
+}
+
+/* --------- Value --------- */
+.cioFormItem > div {
+  margin: 0 0 0 26%;
+  transition: all 0.3s ease-in-out;
+}
+.cioFormItem > div div {
+  margin: 0;
+}
+.cioFormItem > div > ul {
+  padding: 0;
+  list-style-type: none;
+}
+.cioFormItem > div > ul > li {
+  margin-bottom: 5px;
+}
+.cioFormItem > div ul.cioSublist > li {
+  margin-bottom: 0;
+}
+.cioFormItem > div > em {
+  display: block;
+  font-style: normal;
+  font-size: 1.1rem;
+  color: #7f7f7f;
+}
+.cioFormItem > div textarea {
+  box-sizing: border-box;
+}
+.cioFormItem > div input[type=color] {
+  padding: 0;
+  border-width: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.cioFormItem.cioError > div .input, .cioFormItem.cioError > div .select, .cioFormItem.cioError > div .textarea {
+  border: 1px solid #ff000a;
+}
+.cioFormItem.cioError > div strong {
+  display: block;
+  color: #ff000a;
+  font-size: 1.1rem;
+}
+
+input[type=image][name="ccl!"] {
+  vertical-align: middle;
+}
+
+/* ------- Responsive ------- */
+@media screen and (max-width: 40rem) {
+  .cioFormItem label {
+    float: none;
+    width: auto;
+  }
+  .cioFormItem .cioCustomCheckbox {
+    width: 1em;
+  }
+  .cioFormItem > div {
+    margin-left: 0;
+  }
+}
+/*
+ * =========== Tabset ==========
+ */
+/* ---------- Actions ------- */
+.cioTabsetActions {
+  text-align: center;
+}
+
+/* ---------- Sheet --------- */
+.cioTabsetSheet {
+  margin: 5px auto 20px auto;
+  max-width: 85rem;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.cioTabsetSheet.cioTabsetCards {
+  max-width: 98%;
+}
+.cioTabsetSheet h2 {
+  color: #505078;
+  font-size: 1.9rem;
+  font-variant: small-caps;
+  padding: 0 10px 10px 10px;
+}
+.cioTabsetSheet h3 {
+  color: #505078;
+  font-size: 1.6rem;
+  font-variant: small-caps;
+  border-bottom: 1px dotted;
+}
+.cioTabsetSheet .cioActions {
+  text-align: right;
+}
+
+/* ----------- Toc ---------- */
+.cioTabsetToc {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #505078;
+  box-sizing: border-box;
+  min-height: 1.9em;
+}
+
+.cioTabsetToc li {
+  float: left;
+  margin-right: 5px;
+  min-height: 1.9em;
+  box-sizing: border-box;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.cioTabsetToc li:first-child {
+  margin-left: 10px;
+}
+
+.cioTabsetToc li a {
+  display: inline-block;
+  padding: 3px 5px 0 5px;
+  min-height: 1.9em;
+  color: #505078;
+  border: 1px solid;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-sizing: border-box;
+}
+
+.cioTabsetToc li.cioCurrent a {
+  border-bottom: 1px solid #ffffff;
+}
+
+/* --------- Content -------- */
+.cioTabContent {
+  border: none;
+  padding: 10px 10px 0 10px;
+  margin: 0 0 10px 0;
+  color: #4f4f4f;
+}
+.cioTabContent > legend {
+  display: none;
+}
+.cioTabContent > div {
+  margin-bottom: 8px;
+}
+.cioTabContent > section {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.cioTabContent > section h3 {
+  border-bottom: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px;
+  background-color: #ededff;
+}
+.cioTabContent > section > div {
+  padding: 0 10px 10px 10px;
+}
+.cioTabContent > ul {
+  padding-left: 20px;
+}
+.cioTabContent > ul > li {
+  list-style-type: square;
+  margin-bottom: 10px;
+}
+.cioTabContent > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cioTabContent > table thead th {
+  padding: 5px 10px 2px 0;
+  text-align: left;
+  color: #505078;
+  border: none;
+  border-bottom: 1px dotted;
+}
+.cioTabContent > table thead th:last-child {
+  padding-right: 0;
+}
+.cioTabContent > table tbody tr:hover {
+  background-color: #dddddd;
+}
+.cioTabContent > table tbody th {
+  vertical-align: top;
+  padding: 5px 10px 5px 0;
+  text-align: left;
+}
+.cioTabContent > table tbody td {
+  vertical-align: top;
+  padding: 5px 10px 5px 0;
+  border: none;
+}
+.cioTabContent > table tbody td:last-child {
+  padding-right: 0;
+}
+.cioTabContent > table label.cioCustomCheckbox {
+  margin-top: 2px;
+}
+.cioTabContent > ul.cioTabCardsArea {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.cioTabContent > ul.cioTabCardsArea .cioTabCard {
+  list-style-type: none;
+  transition: all 0.3s ease-in-out;
+  margin: 0;
+  width: 100%;
+}
+.cioTabContent > ul.cioTabCardsArea .cioTabCard > div {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  background-color: #fcfcfc;
+  overflow-x: hidden;
+}
+.cioTabContent > ul.cioTabCardsArea .cioTabCard h3 {
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+  padding: 3px 10px;
+}
+.cioTabContent > ul.cioTabCardsArea .cioTabCard .cioFormItem label {
+  width: 40%;
+}
+.cioTabContent > ul.cioTabCardsArea .cioTabCard .cioFormItem div {
+  margin-left: 41%;
+}
+.cioTabContent a {
+  color: #4f4f4f;
+}
+.cioTabContent .cioFormItem:hover {
+  background-color: #dddddd;
+}
+.cioTabContent .cioFormItem input[type=text], .cioTabContent .cioFormItem input[type=password],
+.cioTabContent .cioFormItem select, .cioTabContent .cioFormItem textarea {
+  width: 100%;
+}
+.cioTabContent .cioAlert {
+  margin: 10px 0;
+  color: #d7810a;
+}
+@media screen and (max-width: 40rem) {
+  .cioTabContent > ul.cioTabCardsArea li.cioTabCard .cioFormItem label {
+    float: none;
+    width: auto;
+  }
+  .cioTabContent > ul.cioTabCardsArea li.cioTabCard .cioFormItem > div {
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 65rem) {
+  .cioTabContent > ul.cioTabCardsArea li.cioTabCard {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 95rem) {
+  .cioTabContent > ul.cioTabCardsArea li.cioTabCard {
+    width: 33.33%;
+  }
+}
+@media screen and (min-width: 125rem) {
+  .cioTabContent > ul.cioTabCardsArea li.cioTabCard {
+    width: 25%;
+  }
+}
+
+/*
+ *  ============ Flex ==========
+ */
+.cioFlexRowContainer {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.cioFlexColumnContainer {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.cioFlexItem {
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+/*
+ * ========= Picture ===========
+ */
+.cioPicture {
+  float: right;
+  margin: 0 10px 5px 10px;
+  position: relative;
+  max-height: 100px;
+}
+.cioPicture img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 10px;
+}
+.cioPicture img.cioIcon {
+  max-width: 32px;
+  max-height: 32px;
+  border-radius: initial;
+}
+.cioPicture span {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  padding: 0;
+}
+.cioPicture span input {
+  padding: 5px;
+  background-color: #dddddd;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  opacity: 0.9;
+  vertical-align: bottom;
+}
+
+/*
+ * ========= Exception =========
+ */
+.cioHttpException {
+  text-align: center;
+}
+
+.cioHttpException .status {
+  margin: 50px 0;
+  font-size: 2.2rem;
+}
+
+.cioHttpException .status h1 {
+  margin: 0 0 0.5em 0;
+}
+
+/*
+ * =========== Sticky ==========
+ */
+.cioSticky {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #505078;
+  z-index: 1;
+}
+
+/*
+ * ========== ui-widget ========
+ */
+aside .ui-widget {
+  font-family: Roboto, sans-serif;
+  font-size: 1.4rem;
+}
+
+/*
+ * ======== Miscellanous =======
+ */
+.cioClear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.cioHidden {
+  display: none;
+}
+
+/*
+ * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ */
+/*
+ * =========== Header ==========
+ */
+#cioHeader {
+  padding-bottom: 5px;
+  background: #aaaaff url("../custom/banner.png") no-repeat right top;
+}
+#cioHeader h1 {
+  margin: 0 120px 0 10px;
+  color: #ffffff;
+  text-shadow: 0 1px 0 #7f7f7f;
+}
+
+/* ------- Responsive ------- */
+@media screen and (max-width: 480px) {
+  #cioHeader {
+    background-image: none;
+  }
+  #cioHeader h1 {
+    margin-right: 10px;
+  }
+}
+/*
+ * ========== Top bar ==========
+ */
+/* -------- Navigation ------ */
+#cioNavigation {
+  -webkit-align-items: flex-end;
+  -webkit-justify-content: flex-end;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #aaaaff;
+  border-bottom: 1px solid #505078;
+}
+#cioNavigation a {
+  color: #ffffff;
+}
+
+/* --------- Systray -------- */
+#cioSystray {
+  margin: 0 10px 8px 0;
+}
+#cioSystray img {
+  vertical-align: middle;
+}
+
+/* ----------- User --------- */
+#cioUser {
+  margin: 0 10px 4px 0;
+}
+#cioUser img {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+#cioUser .cioIcon {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+}
+
+/*
+ * ========= Side panel ========
+ */
+body.cioHasOpenPanel > header,
+body.cioHasOpenPanel > form,
+body.cioHasOpenPanel > div,
+body.cioHasOpenPanel > footer {
+  margin-left: 25%;
+}
+
+.cioPanel {
+  flex: 1 0 25%;
+  max-width: 25%;
+  min-width: 25%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-right: 1px solid #cccccc;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  z-index: 2;
+}
+.cioPanel > div, .cioPanel > h2, .cioPanel > h3 {
+  padding: 5px;
+}
+.cioPanel > ul {
+  margin: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+.cioPanel > ul li {
+  margin-bottom: 10px;
+}
+.cioPanel .cioClose {
+  background-color: #f8fafc;
+}
+.cioPanel .cioClose h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #7f7f7f;
+}
+.cioPanel .cioClose img {
+  vertical-align: top;
+}
+
+/*
+ * ====== Main container =======
+ */
+#cioMainContainer #cioBreadcrumbs {
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  color: #505078;
+}
+#cioMainContainer #cioMainButtons {
+  padding: 8px 10px 15px 10px;
+  text-align: right;
+}
+#cioMainContainer #cioContainer {
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  color: #4f4f4f;
+}
+
+/* ------- Responsive ------- */
+@media screen and (max-width: 768px) {
+  #cioBreadcrumbs-MainButtons {
+    display: block;
+  }
+
+  #cioMainButtons {
+    padding: 5px 10px;
+  }
+}
+/*
+ * ========== Footer ===========
+ */
+#cioFooter {
+  padding: 5px 10px;
+  background-color: #505078;
+  color: #ffffff;
+  text-shadow: 0 1px 0 #7f7f7f;
+}
+#cioFooter img {
+  vertical-align: middle;
+}
+#cioFooter .cioVersion {
+  text-align: center;
+  padding-top: 3px;
+}
+#cioFooter .cioPyramid {
+  text-align: right;
+}
+
+/*
+ * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ */
+/*
+ * =========== Login ===========
+ */
+body#cioLogin {
+  background: #ffffff url("../custom/login_header.jpg") no-repeat center top;
+}
+
+/* -------- Container ------- */
+#cioLogin #cioContainer {
+  display: -webkit-flex;
+  -webkit-flex: 1 1 auto;
+  display: flex;
+  flex: 1 1 auto;
+  color: #4f4f4f;
+  margin: 100px auto 10px auto;
+  padding: 0 20px 0 20px;
+}
+
+/* ---------- Text ---------- */
+#cioLoginText {
+  margin: 0 20px 0 10px;
+  max-width: 30em;
+  font-size: 2.2rem;
+  color: #505078;
+  text-align: center;
+}
+
+#cioLoginText h1 {
+  font-weight: normal;
+}
+
+#cioLoginText img {
+  max-width: 100%;
+}
+
+/* ---------- Form ---------- */
+#cioLoginForm {
+  margin: 0 10px 20px 10px;
+}
+
+#cioLoginForm form {
+  display: block;
+  border-radius: 5px 5px 0 0;
+  background-color: #ffffff;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+#cioLoginForm form > div {
+  padding: 20px 30px 30px 30px;
+}
+
+#cioLoginForm h2 {
+  color: #4f4f4f;
+  font-weight: 400;
+  font-size: 2.2rem;
+  margin-top: 0;
+}
+
+#cioLoginForm .cioFormItem {
+  min-width: 28em;
+  margin-bottom: 25px;
+}
+
+#cioLoginForm .cioFormItem label {
+  float: none;
+  width: auto;
+  padding: 0;
+  color: #4f4f4f;
+}
+
+#cioLoginForm .cioFormItem > div {
+  margin: 0;
+  padding: 0;
+}
+
+#cioLoginForm .cioFormItem input[type=text],
+#cioLoginForm .cioFormItem input[type=password] {
+  display: block;
+  font-size: 1.5rem;
+  margin: 5px 0 3px 0;
+  padding: 6px 0;
+  width: 100%;
+}
+
+#cioLoginForm .cioFormItem.cioError input {
+  border-bottom: 1px solid #ff000a;
+}
+
+#cioLoginForm .cioFormItem.cioError > div strong {
+  color: #ff000a;
+  font-size: 1.1rem;
+}
+
+#cioLoginForm .cioSubmit input {
+  font-weight: bold;
+  margin-top: 25px;
+  width: 100%;
+}
+
+#cioLoginForm .cioExtra {
+  color: #7f7f7f;
+  background-color: #fcfcfc;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #eeeeee;
+}
+
+#cioLoginForm .cioExtra a {
+  color: #7f7f7f;
+}
+
+#cioLogin #cioFlash,
+#cioLogin #cioFlashAlert {
+  margin: 15px 0 0 0;
+}
+
+/* ------- Responsive ------- */
+@media screen and (max-width: 800px) {
+  #cioLogin #cioContainer {
+    display: block;
+    margin: 0;
+  }
+
+  #cioLoginText {
+    font-size: 1.4rem;
+    max-width: none;
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+  }
+  #cioLoginText h1 {
+    margin: 5px 0 5px 0;
+  }
+  #cioLoginText p {
+    display: none;
+  }
+  #cioLoginText img {
+    max-height: 64px;
+  }
+
+  #cioLoginForm .cioFormItem {
+    min-width: auto;
+    margin-bottom: 10px;
+  }
+}
+/*
+ * ========= Password ==========
+ */
+#cioPassword {
+  margin: 40px auto 20px auto;
+  padding: 50px;
+  max-width: 40em;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1.6rem;
+}
+#cioPassword .cioText {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#cioPassword .cioError {
+  color: #ff000a;
+  font-weight: normal;
+}
+#cioPassword .cioFormItem {
+  margin-bottom: 20px;
+}
+#cioPassword label strong {
+  font-weight: normal;
+}
+#cioPassword input[type=password] {
+  width: 100%;
+}
+#cioPassword input[type=submit] {
+  font-weight: bold;
+}
+#cioPassword a {
+  font-weight: normal;
+}
+#cioPassword .cioBack {
+  margin: 20px 0 0 0;
+}
+
+/*
+ * ============ Home ===========
+ */
+#cioHome section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#cioHome section > h2 {
+  font-size: 2.6rem;
+}
+
+#cioHome section .cioButton {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 12px 20px;
+  min-width: 20em;
+}
+
+/* ------- Responsive ------- */
+@media screen and (max-width: 768px) {
+  #cioHome section .cioButton {
+    font-size: 1.3rem;
+    min-width: 10em;
+  }
+}
+/*
+ * ========== Backup ===========
+ */
+#cioBackup #cioContent {
+  margin-top: 20px;
+}
+#cioBackup #cioContent.cioFlexRowContainer {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+#cioBackup .cioTabsetSheet {
+  text-align: center;
+  width: 30em;
+  min-height: 20em;
+  padding: 0 20px 20px 20px;
+}
+#cioBackup .cioTabsetSheet p {
+  margin-bottom: 2em;
+}
+#cioBackup .cioButton {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#cioBackup input#file {
+  margin-bottom: 10px;
+}
+#cioBackup .cioProgress {
+  width: auto;
+}
+
+/*
+ * ========= Clipboard =========
+ */
+#cioPanel-clipboard li {
+  margin: 0;
+  padding: 15px 0;
+  border-bottom: 3px dotted #dddddd;
+}
+#cioPanel-clipboard li label {
+  margin-right: 8px;
+}
+#cioPanel-clipboard li:first-child {
+  border-top: 3px dotted #dddddd;
+}
+#cioPanel-clipboard p, #cioPanel-clipboard a {
+  font-size: 1.4rem;
+  color: #505078;
+  margin: 0;
+}
+#cioPanel-clipboard .cioCut, #cioPanel-clipboard .cioCut a {
+  color: #7f7f7f;
+}
+#cioPanel-clipboard .cioIcon {
+  max-width: 48px;
+  max-height: 48px;
+}
+
+/*# sourceMappingURL=chrysalio.css.map */

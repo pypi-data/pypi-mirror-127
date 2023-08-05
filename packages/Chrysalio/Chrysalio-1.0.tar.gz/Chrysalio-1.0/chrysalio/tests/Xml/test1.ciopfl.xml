@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chrysalio version="1.0">
+  <profile id="user_viewer">
+    <label xml:lang="en">User account observer</label>
+    <label xml:lang="fr">Observateur des comptes utilisateurs</label>
+    <description xml:lang="en">
+      These users have the permission to view user accounts.
+    </description>
+    <description xml:lang="fr">
+      Ces utilisateurs ont le droit de voir les comptes des utilisateurs.
+    </description>
+    <principals>
+      <principal>user.viewer</principal>
+    </principals>
+  </profile>
+</chrysalio>

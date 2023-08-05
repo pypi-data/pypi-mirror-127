@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xml:lang="${request.locale_name}" lang="${request.locale_name}">
+<head>
+  <meta charset="utf-8"/>
+  <title>${title} – ${request.breadcrumbs.current_title()}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+
+  <link rel="stylesheet" href="${theme}/css/chrysalio.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" tal:repeat="item panel_css" href="#" tal:omit-tag="">
+    <link rel="stylesheet" href="${theme}${item}" type="text/css" media="screen"/>
+  </link>
+  <link rel="stylesheet" metal:define-slot="css" href="" tal:omit-tag=""/>
+  <link rel="stylesheet" href="${theme}/css+/theme.css" type="text/css" media="screen"
+        tal:condition="theme_has(request, 'css+')"/>
+
+  <script src="${theme}/js/js.cookie.js"></script>
+  <script src="${theme}/js/jquery.js"></script>
+  <script src="${theme}/js/chrysalio.js"></script>
+  <script tal:repeat="item panel_js" tal:omit-tag="">
+    <script src="${theme}${item}"></script>
+  </script>
+  <script metal:define-slot="js" tal:omit-tag=""></script>
+  <script src="${theme}/js+/theme.js"
+          tal:condition="theme_has(request, 'js+')"></script>
+</head>
+<body id="cio${page_id}"
+      tal:attributes="class request.registry.get('panels') and request.registry[
+                      'panels'][next(iter(request.registry['panels']))].has_open_panel(request)">
+  <!-- =============================== Header ============================= -->
+  <header id="cioHeader">
+    <h1>${request.breadcrumbs.current_title()}</h1>
+  </header>
+
+  <!-- ============================= Navigation =========================== -->
+  <div id="cioNavigation" class="cioFlexRowContainer">
+    <nav id="cioModes" tal:condition="exists: modes">
+      <label for="cioModesOpen" class="cioModesOpen" title="${_('Modes')}">
+        <img src="${theme}/images/modes.png" alt="${_('Modes')}"/>
+        ${modes.label()}
+      </label>
+      <input id="cioModesOpen" type="checkbox"/> ${modes.xhtml()}
+    </nav>
+    <nav id="cioMenu" class="cioFlexItem">
+      <div tal:condition="exists: menu" tal:omit-tag="">
+        <label for="cioMenuOpen" class="cioMenuOpen" title="${_('Menu')}">
+          <img src="${theme}/images/menu.png" alt="${_('Menu')}"/>
+        </label>
+        <input id="cioMenuOpen" type="checkbox"/> ${menu.xhtml()}
+      </div>
+    </nav>
+    <div id="cioSystray" tal:condition="'systray' in request.registry"
+         tal:repeat="panel request.registry['systray']">
+      <a href="${panel.route(request)}" title="${panel.label}">
+        <img src="${theme}${panel.icon}" alt="${panel.label}"/>
+      </a>
+    </div>
+    <div id="cioUser" tal:condition="'user' in request.session">
+      <a href="${route('user_account')}"
+         title="${request.session['user']['name']}">
+        <img src="${request.session['user']['picture'] or theme+'/images/user.png'}"
+             class="cioIcon" alt="${_('User')}"/>
+      </a>
+      <a href="${route('logout')}" title="${_('Logout')}">
+        <img src="${theme}/images/logout.png" alt="${_('User')}"/>
+      </a>
+    </div>
+  </div>
+
+  <!-- ================================ Wrapper =========================== -->
+  <div metal:define-slot="form_begin" tal:omit-tag=""/>
+  <div id="cioWrapper" class="cioFlexItem cioFlexRowContainer">
+    <aside tal:condition="'panels' in request.registry" tal:omit-tag=""
+           tal:repeat="panel request.registry['panels'].values()">
+      <div tal:condition="panel.is_open(request)" tal:omit-tag="">
+        ${panel.render(request)}
+      </div>
+    </aside>
+    <div id="cioMainContainer" class="cioFlexItem cioFlexColumnContainer">
+      <div id="cioBreadcrumbs-MainButtons" class="cioFlexRowContainer">
+        <nav id="cioBreadcrumbs" class="cioFlexItem">
+          ${request.breadcrumbs.trail()}
+        </nav>
+        <div id="cioMainButtons" metal:define-slot="main_buttons" tal:omit-tag=""/>
+      </div>
+      <div id="cioContainer" metal:define-slot="container"></div>
+    </div>
+  </div>
+  <div metal:define-slot="form_end" tal:omit-tag=""/>
+
+  <!-- ================================ Footer ============================ -->
+  <footer id="cioFooter" class="cioFlexRowContainer">
+    <div class="cioFlexItem">
+      <a href="https://trypyramid.com" title="${_('Powered by Pyramid')}"><img src="${theme}/images/pyramid.png" alt="Pyramid"/></a>
+    </div>
+    <div class="cioRight">Alternative ${request.registry.settings.get('site.version', request.registry['version'])}</div>
+  </footer>
+
+  <!-- ==================================================================== -->
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- missing base -->
+<cioldap xmlns="http://ns.chrysal.io/cioldap" version="1.0">
+  <ldap>
+    <host>localhost</host>
+    <port>389</port>
+    <ssl>false</ssl>
+    <check-interval>0</check-interval>
+    <dn>cn=admin,dc=iinov,dc=com</dn>
+    <password>sesame</password>
+    <user>
+      <dn>uid=_UID_,ou=people,dc=iinov,dc=com</dn>
+      <filter>(&amp;(objectclass=inetOrgPerson)(uid=_UID_))</filter>
+      <first-name>givenName</first-name>
+      <last-name>sn</last-name>
+      <email>mail</email>
+      <profiles>
+        <profile>profile_viewer</profile>
+        <profile>user_viewer</profile>
+      </profiles>
+    </user>
+  </ldap>
+</cioldap>

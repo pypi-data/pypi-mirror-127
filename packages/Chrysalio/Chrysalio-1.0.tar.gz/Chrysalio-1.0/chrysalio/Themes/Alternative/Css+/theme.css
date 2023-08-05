@@ -1,0 +1,134 @@
+/*
+ * Chrysalio Alternative Theme
+ */
+/*
+ * ========== Filter ===========
+ */
+.cioFilterCondition {
+  background-color: #edffe3;
+}
+.cioFilterCondition input {
+  color: #000000;
+  background-color: #41c541;
+}
+.cioFilterCondition input:hover {
+  background-color: #38ad38;
+}
+
+.cioFilterSubmit .cioFilterButton {
+  color: #005f00;
+}
+.cioFilterSubmit .cioFilterButton:hover {
+  background-color: #38ad38;
+}
+
+/*
+ * ========== Paging ===========
+ */
+.cioPagingList table {
+  border-bottom: 2px solid #005f00;
+}
+.cioPagingList thead tr {
+  color: #005f00;
+  background-color: #edffe3;
+}
+.cioPagingList thead a {
+  color: #005f00;
+}
+
+.cioPagingCards .cioPagingBar {
+  color: #005f00;
+  background-color: #edffe3;
+}
+.cioPagingCards .cioPagingBar .cioPagingSort a {
+  color: #005f00;
+}
+.cioPagingCards .cioPagingCardsArea {
+  color: #005f00;
+}
+
+/*
+ * =========== Tabset ==========
+ */
+.cioTabsetSheet h2 {
+  color: #005f00;
+}
+
+.cioTabsetSheet h3 {
+  color: #005f00;
+}
+
+.cioTabsetToc {
+  border-bottom: 1px solid #005f00;
+}
+
+.cioTabsetToc li a {
+  color: #005f00;
+}
+
+.cioTabContent > section h3 {
+  background-color: #edffe3;
+}
+.cioTabContent > table thead th {
+  color: #005f00;
+}
+
+/*
+ * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ */
+/*
+ * =========== Header ==========
+ */
+#cioHeader {
+  background-color: #41c541;
+}
+
+#cioHeader h1 {
+  color: #005f00;
+}
+
+/*
+ * ========== Top bar ===========
+ */
+#cioNavigation {
+  background-color: #41c541;
+  border-bottom: 1px solid #005f00;
+}
+
+#cioModes ul {
+  background-color: #41c541;
+}
+
+#cioModes li span:hover {
+  background-color: #38ad38;
+}
+
+#cioMenu,
+#cioMenu a {
+  color: #005f00;
+}
+
+#cioMenu ul {
+  background-color: #41c541;
+}
+
+#cioMenu li > span:hover {
+  background-color: #38ad38;
+}
+
+/*
+ * ====== Main Container =======
+ */
+/* ------- Breadcrumbs ------ */
+#cioBreadcrumbs {
+  color: #005f00;
+}
+
+/*
+ * ========== Footer ===========
+ */
+#cioFooter {
+  background-color: #005f00;
+}
+
+/*# sourceMappingURL=theme.css.map */

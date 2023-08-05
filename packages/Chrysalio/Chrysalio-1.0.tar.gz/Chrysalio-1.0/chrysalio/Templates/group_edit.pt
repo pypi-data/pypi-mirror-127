@@ -1,0 +1,48 @@
+<metal:main use-macro="load: ${layout}"
+            xmlns:tal="http://xml.zope.org/namespaces/tal"
+            xmlns:metal="http://xml.zope.org/namespaces/metal">
+
+  <div metal:fill-slot="form_begin" tal:omit-tag="">${form.begin()}</div>
+
+  <!-- .............................. Main Buttons ........................ -->
+  <div id="cioMainButtons" metal:fill-slot="main_buttons"
+       tal:switch="label is None">
+    <div tal:case="True" tal:omit-tag="">
+      ${form.submit('sav!.x', _('Create'))}
+      ${form.button(request.breadcrumbs.back_path(), _('Cancel'))}
+    </div>
+    <div tal:case="False" tal:omit-tag="">
+      ${form.submit('sav!.x', _('Save'))}
+      ${form.button(route('group_view', group_id=dbgroup.group_id),
+        _('Cancel'))}
+    </div>
+  </div>
+
+  <div id="cioContainer" metal:fill-slot="container">
+    <!-- ............................... Flash ............................ -->
+    <div tal:define="flash load: flash_snackbar.macro.pt"
+         metal:use-macro="flash"/>
+
+    <div id="cioContent">
+      <!-- .............................. Sheet ........................... -->
+      <section class="cioTabsetSheet">
+        <div>
+          <div tal:define="picture_edit load: chrysalio:Templates/picture_edit.macro.pt"
+               metal:use-macro="picture_edit" tal:condition="picture"/>
+          <h2>${label or _('New Group')}</h2>
+          <div tal:condition="picture" class="cioClear"> </div>
+        </div>
+        ${tabset.begin()}
+        <div tal:repeat="tab tabset.tabs" tal:omit-tag="">
+          ${tab.begin()}
+          ${dbgroup.tab4edit(request, tab.index, form, user_filter, user_paging,
+            profiles, label and dbgroup or None)}
+          ${tab.end()}
+        </div>
+        ${tabset.end()}
+      </section>
+    </div>
+  </div>
+
+  <div metal:fill-slot="form_end" tal:omit-tag="">${form.end()}</div>
+</metal:main>

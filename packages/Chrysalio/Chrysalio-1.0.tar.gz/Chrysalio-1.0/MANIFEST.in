@@ -1,0 +1,6 @@
+include *.txt *.ini *.cfg *.rst
+recursive-include chrysalio *.ico *.png *.css *.gif *.jpg *.svg *.jinja2 *.pt *.txt *.mak *.mako *.js *.html *.xml *.ini *.conf
+recursive-include chrysalio/Locale *
+recursive-include chrysalio/RelaxNG *
+recursive-include chrysalio/Scss *
+recursive-include chrysalio/Static *

@@ -1,0 +1,378 @@
+namespace nons = ""
+
+start = chrysalio
+
+
+chrysalio = element chrysalio { chrysalio.attributes, chrysalio.content }
+
+chrysalio.attributes =
+    version.attribute
+version.attribute = attribute version { "1.0" }
+
+chrysalio.content =
+    profile
+    | user
+    | group
+    | module
+    | (settings?, profiles?, users?, groups?, modules?)
+
+
+# =============================================================================
+#                                  SETTINGS
+# =============================================================================
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ settings ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+settings = element settings { settings.content }
+
+settings.content =
+    site.title
+  & site.email
+  & language?
+  & password_min_length?
+  & remember_me?
+  & page_size?
+  & download_max_size?
+  & clipboard_size?
+  & theme?
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ site.title ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+site.title = element title { site.title.content }
+
+site.title.content = xsd:token {minLength = "2"}
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ site.email ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+site.email = element email { email.content }
+
+email.content = xsd:token {
+   pattern = "[a-zA-Z0-9._%\-]+@[a-zA-Z0-9._%\-]+\.[a-zA-Z]{2,6}"}
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ language ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+language = element language { language.content }
+
+language.content = xsd:token {pattern = "[a-z]{2,4}(_[A-Z]{2,4})?"}
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~ password_min_length ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+password_min_length = element password-min-length {
+   password_min_length.content }
+
+password_min_length.content = xsd:positiveInteger
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ remember_me ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+remember_me = element remember-me { remember_me.content }
+
+remember_me.content = xsd:positiveInteger
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ page_size ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+page_size = element page-size { page_size.content }
+
+page_size.content = xsd:positiveInteger
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ download_max_size ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+download_max_size = element download-max-size { download_max_size.content }
+
+download_max_size.content = xsd:nonNegativeInteger
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ clipboard_size ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+clipboard_size = element clipboard-size { clipboard_size.content }
+
+clipboard_size.content =  xsd:nonNegativeInteger
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ theme ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+theme = element theme { theme.content }
+
+theme.content = xsd:NMTOKEN
+
+
+# =============================================================================
+#                                   PROFILE
+# =============================================================================
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ profiles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+profiles = element profiles { profiles.content }
+
+profiles.content =
+    profile+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ profile ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+profile = element profile { profile.attributes, profile.content }
+
+profile.attributes =
+    profile.id.attribute
+profile.id.attribute = attribute id { xsd:NMTOKEN }
+
+profile.content =
+    i18n.label+,
+    i18n.description*,
+    principals?
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ principals ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# ~~~~~~ principals
+principals = element principals { principals.content }
+
+principals.content =
+    principal+
+
+# ~~~~~~ principal
+principal = element principal { principal.content }
+
+principal.content = xsd:token {pattern = "[a-z0-9]+\.[a-z0-9]+"}
+
+
+# =============================================================================
+#                                    USER
+# =============================================================================
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ users ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+users = element users { users.content }
+
+users.content =
+    user+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ user ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+user = element user { user.attributes, user.content }
+
+user.attributes =
+    user.status.attribute?
+    & (created.attribute & updated.attribute? & last_login.attribute?)?
+user.status.attribute = attribute status {
+    "administrator" | "active" | "locked" | "inactive" }
+created.attribute = attribute created {
+    xsd:token {pattern = "\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}"}
+}
+updated.attribute = attribute updated {
+    xsd:token {pattern = "\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}"}
+}
+last_login.attribute = attribute last-login {
+    xsd:token {pattern = "\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}"}
+}
+
+user.content =
+    login,
+    password,
+    firstname?,
+    lastname,
+    honorific?,
+    email,
+    language?,
+    timezone?,
+    theme?,
+    user.attachments?,
+    page_size?,
+    expiration?,
+    authority?,
+    user.profiles?
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ login ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+login = element login { login.content }
+
+login.content = xsd:token {pattern = "[a-zA-Z0-9._%@\-]{2,}"}
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ password ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+password = element password { password.attributes, password.content }
+
+password.attributes =
+    must_change.attribute?
+  & updated.attribute?
+must_change.attribute = attribute must-change { "true" }
+
+password.content = xsd:token {pattern="[^$][^\s]{3,48}"}
+                   | xsd:token {pattern="$.{48,}"}
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ name ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+firstname = element firstname { name.content }
+lastname = element lastname { name.content }
+
+name.content = xsd:token {minLength = "2"}
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ honorific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+honorific = element honorific { honorific.content }
+
+honorific.content = "Mr" | "Mrs"
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ email ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+email = element email { email.attributes, email.content }
+
+email.attributes =
+   hidden.attribute?
+hidden.attribute = attribute hidden { "true" }
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ timezone ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+timezone = element timezone { timezone.content }
+
+timezone.content = xsd:token {pattern = "[a-zA-Z\-]+/[a-zA-Z\-]+"}
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ user.attachments ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# ~~~~~~ user.attachments
+user.attachments = element attachments {
+    attachments.attributes, user.attachments.content }
+
+attachments.attributes =
+    key.attribute
+key.attribute = attribute key { xsd:NMTOKEN }
+
+user.attachments.content =
+    picture?
+
+# ~~~~~ picture
+picture = element picture { picture.content }
+
+picture.content = xsd:anyURI
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ expiration ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+expiration = element expiration { xsd:date }
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ authority ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+authority = element authority { authority.attributes, authority.content }
+
+authority.attributes =
+    checked.attribute?
+checked.attribute = attribute checked {
+    xsd:token {pattern = "\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}"}
+}
+
+authority.content = xsd:token {pattern = "[a-z0-9\-]+"}
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ user.profile ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# ~~~~~~ user.profiles
+user.profiles = element profiles { user.profiles.content }
+
+user.profiles.content =
+   user.profile+
+
+# ~~~~~~ user.profile
+user.profile = element profile { user.profile.content }
+
+user.profile.content = xsd:token {pattern = "[a-z]+(_[a-z]+)*"}
+
+
+# =============================================================================
+#                                    GROUP
+# =============================================================================
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ groups ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+groups = element groups { groups.content }
+
+groups.content =
+    group+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ group ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+group = element group { group.attributes, group.content }
+
+group.attributes =
+    group.id.attribute
+group.id.attribute = attribute id { xsd:NMTOKEN }
+
+group.content =
+    i18n.label+,
+    i18n.description*,
+    group.attachments?,
+    group.users?,
+    user.profiles?
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ group.attachments ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# ~~~~~~ group.attachments
+group.attachments = element attachments {
+    attachments.attributes, group.attachments.content }
+
+group.attachments.content =
+    picture?
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ group.user ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# ~~~~~~  group.users
+ group.users = element users {  group.users.content }
+
+ group.users.content =
+    group.user+
+
+# ~~~~~~ user
+ group.user = element user { login.content }
+
+
+# =============================================================================
+#                                   MODULE
+# =============================================================================
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ modules ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+modules = element modules { modules.content }
+
+modules.content =
+    module+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+module = element module { module.attributes, module.content }
+
+module.attributes =
+    module.id.attribute
+    & inactive.attribute?
+module.id.attribute = attribute id {xsd:token {pattern = "[a-z][a-z0-9_\.\-]+"}}
+inactive.attribute = attribute inactive { xsd:boolean }
+
+module.content =
+    module.configuration?
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~ module.configuration ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+module.configuration = element * - nons:* { anything }
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ anything ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+anything = ( element * { anything } | attribute * { text } | text )*
+
+
+# =============================================================================
+#                                I18N ELEMENT
+# =============================================================================
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ label ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+label = element label { label.content }
+i18n.label = element label { i18n.label.attributes, label.content }
+
+i18n.label.attributes =
+    lang.attribute
+lang.attribute = attribute xml:lang {
+    xsd:token {pattern = "[a-z]{2,4}(_[A-Z]{2,4})?"} }
+
+label.content = text
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ description ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+description = element description { description.content }
+i18n.description = element description {
+   i18n.description.attributes, description.content }
+
+i18n.description.attributes =
+    lang.attribute
+
+description.content = text

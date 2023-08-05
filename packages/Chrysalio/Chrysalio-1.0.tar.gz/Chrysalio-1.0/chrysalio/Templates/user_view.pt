@@ -1,0 +1,48 @@
+<metal:main use-macro="load: ${layout}"
+            xmlns:tal="http://xml.zope.org/namespaces/tal"
+            xmlns:metal="http://xml.zope.org/namespaces/metal">
+
+  <div metal:fill-slot="form_begin" tal:omit-tag="">
+    ${form.begin(class_=is_me and 'cioMe' or 'cioNotMe')}
+  </div>
+
+  <!-- .............................. Main Buttons ........................ -->
+  <div id="cioMainButtons" metal:fill-slot="main_buttons">
+    ${navigator}
+    <div tal:condition="i_editor" tal:omit-tag="">
+      ${form.submit('mel!.x', _('Send an invitation'), class_='cioButton')}
+      ${form.submit('exp!.x', _('Export'), class_='cioButton')}
+    </div>
+    <div tal:condition="i_editor or is_me" tal:omit-tag="">
+      ${form.button(route('user_edit', user_id=dbuser.user_id), _('Edit'))}
+    </div>
+  </div>
+
+  <div id="cioContainer" metal:fill-slot="container">
+    <!-- ............................... Flash ............................ -->
+    <div tal:define="flash load: flash_snackbar.macro.pt"
+         metal:use-macro="flash"/>
+
+    <div id="cioContent">
+      <!-- .............................. Sheet ........................... -->
+      <section class="cioTabsetSheet">
+        <div>
+          <div class="cioPicture" tal:condition="picture">
+            <img src="${picture}" alt="${_('Picture')}"/>
+          </div>
+          <h2>${user_name}</h2>
+          <div tal:condition="picture" class="cioClear"> </div>
+        </div>
+        ${tabset.begin()}
+        <div tal:repeat="tab tabset.tabs" tal:omit-tag="">
+          ${tab.begin()}
+          ${dbuser.tab4view(request, tab.index, form)}
+          ${tab.end()}
+        </div>
+        ${tabset.end()}
+      </section>
+    </div>
+  </div>
+
+  <div metal:fill-slot="form_end" tal:omit-tag="">${form.end()}</div>
+</metal:main>

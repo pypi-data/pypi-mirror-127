@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <ref name="chrysalio"/>
+  </start>
+  <define name="chrysalio">
+    <element name="chrysalio">
+      <ref name="chrysalio.attributes"/>
+      <ref name="chrysalio.content"/>
+    </element>
+  </define>
+  <define name="chrysalio.attributes">
+    <ref name="version.attribute"/>
+  </define>
+  <define name="version.attribute">
+    <attribute name="version">
+      <value>1.0</value>
+    </attribute>
+  </define>
+  <define name="chrysalio.content">
+    <choice>
+      <ref name="profile"/>
+      <ref name="user"/>
+      <ref name="group"/>
+      <ref name="module"/>
+      <group>
+        <optional>
+          <ref name="settings"/>
+        </optional>
+        <optional>
+          <ref name="profiles"/>
+        </optional>
+        <optional>
+          <ref name="users"/>
+        </optional>
+        <optional>
+          <ref name="groups"/>
+        </optional>
+        <optional>
+          <ref name="modules"/>
+        </optional>
+      </group>
+    </choice>
+  </define>
+  <!--
+    =============================================================================
+                                     SETTINGS
+    =============================================================================
+  -->
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ settings ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="settings">
+    <element name="settings">
+      <ref name="settings.content"/>
+    </element>
+  </define>
+  <define name="settings.content">
+    <interleave>
+      <ref name="site.title"/>
+      <ref name="site.email"/>
+      <optional>
+        <ref name="language"/>
+      </optional>
+      <optional>
+        <ref name="password_min_length"/>
+      </optional>
+      <optional>
+        <ref name="remember_me"/>
+      </optional>
+      <optional>
+        <ref name="page_size"/>
+      </optional>
+      <optional>
+        <ref name="download_max_size"/>
+      </optional>
+      <optional>
+        <ref name="clipboard_size"/>
+      </optional>
+      <optional>
+        <ref name="theme"/>
+      </optional>
+    </interleave>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ site.title ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="site.title">
+    <element name="title">
+      <ref name="site.title.content"/>
+    </element>
+  </define>
+  <define name="site.title.content">
+    <data type="token">
+      <param name="minLength">2</param>
+    </data>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ site.email ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="site.email">
+    <element name="email">
+      <ref name="email.content"/>
+    </element>
+  </define>
+  <define name="email.content">
+    <data type="token">
+      <param name="pattern">[a-zA-Z0-9._%\-]+@[a-zA-Z0-9._%\-]+\.[a-zA-Z]{2,6}</param>
+    </data>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ language ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="language">
+    <element name="language">
+      <ref name="language.content"/>
+    </element>
+  </define>
+  <define name="language.content">
+    <data type="token">
+      <param name="pattern">[a-z]{2,4}(_[A-Z]{2,4})?</param>
+    </data>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~ password_min_length ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="password_min_length">
+    <element name="password-min-length">
+      <ref name="password_min_length.content"/>
+    </element>
+  </define>
+  <define name="password_min_length.content">
+    <data type="positiveInteger"/>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ remember_me ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="remember_me">
+    <element name="remember-me">
+      <ref name="remember_me.content"/>
+    </element>
+  </define>
+  <define name="remember_me.content">
+    <data type="positiveInteger"/>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ page_size ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="page_size">
+    <element name="page-size">
+      <ref name="page_size.content"/>
+    </element>
+  </define>
+  <define name="page_size.content">
+    <data type="positiveInteger"/>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ download_max_size ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="download_max_size">
+    <element name="download-max-size">
+      <ref name="download_max_size.content"/>
+    </element>
+  </define>
+  <define name="download_max_size.content">
+    <data type="nonNegativeInteger"/>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ clipboard_size ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="clipboard_size">
+    <element name="clipboard-size">
+      <ref name="clipboard_size.content"/>
+    </element>
+  </define>
+  <define name="clipboard_size.content">
+    <data type="nonNegativeInteger"/>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ theme ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="theme">
+    <element name="theme">
+      <ref name="theme.content"/>
+    </element>
+  </define>
+  <define name="theme.content">
+    <data type="NMTOKEN"/>
+  </define>
+  <!--
+    =============================================================================
+                                      PROFILE
+    =============================================================================
+  -->
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ profiles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="profiles">
+    <element name="profiles">
+      <ref name="profiles.content"/>
+    </element>
+  </define>
+  <define name="profiles.content">
+    <oneOrMore>
+      <ref name="profile"/>
+    </oneOrMore>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ profile ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="profile">
+    <element name="profile">
+      <ref name="profile.attributes"/>
+      <ref name="profile.content"/>
+    </element>
+  </define>
+  <define name="profile.attributes">
+    <ref name="profile.id.attribute"/>
+  </define>
+  <define name="profile.id.attribute">
+    <attribute name="id">
+      <data type="NMTOKEN"/>
+    </attribute>
+  </define>
+  <define name="profile.content">
+    <oneOrMore>
+      <ref name="i18n.label"/>
+    </oneOrMore>
+    <zeroOrMore>
+      <ref name="i18n.description"/>
+    </zeroOrMore>
+    <optional>
+      <ref name="principals"/>
+    </optional>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ principals ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <!-- ~~~~~~ principals -->
+  <define name="principals">
+    <element name="principals">
+      <ref name="principals.content"/>
+    </element>
+  </define>
+  <define name="principals.content">
+    <oneOrMore>
+      <ref name="principal"/>
+    </oneOrMore>
+  </define>
+  <!-- ~~~~~~ principal -->
+  <define name="principal">
+    <element name="principal">
+      <ref name="principal.content"/>
+    </element>
+  </define>
+  <define name="principal.content">
+    <data type="token">
+      <param name="pattern">[a-z0-9]+\.[a-z0-9]+</param>
+    </data>
+  </define>
+  <!--
+    =============================================================================
+                                       USER
+    =============================================================================
+  -->
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ users ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="users">
+    <element name="users">
+      <ref name="users.content"/>
+    </element>
+  </define>
+  <define name="users.content">
+    <oneOrMore>
+      <ref name="user"/>
+    </oneOrMore>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ user ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="user">
+    <element name="user">
+      <ref name="user.attributes"/>
+      <ref name="user.content"/>
+    </element>
+  </define>
+  <define name="user.attributes">
+    <interleave>
+      <optional>
+        <ref name="user.status.attribute"/>
+      </optional>
+      <optional>
+        <interleave>
+          <ref name="created.attribute"/>
+          <optional>
+            <ref name="updated.attribute"/>
+          </optional>
+          <optional>
+            <ref name="last_login.attribute"/>
+          </optional>
+        </interleave>
+      </optional>
+    </interleave>
+  </define>
+  <define name="user.status.attribute">
+    <attribute name="status">
+      <choice>
+        <value>administrator</value>
+        <value>active</value>
+        <value>locked</value>
+        <value>inactive</value>
+      </choice>
+    </attribute>
+  </define>
+  <define name="created.attribute">
+    <attribute name="created">
+      <data type="token">
+        <param name="pattern">\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}</param>
+      </data>
+    </attribute>
+  </define>
+  <define name="updated.attribute">
+    <attribute name="updated">
+      <data type="token">
+        <param name="pattern">\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}</param>
+      </data>
+    </attribute>
+  </define>
+  <define name="last_login.attribute">
+    <attribute name="last-login">
+      <data type="token">
+        <param name="pattern">\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}</param>
+      </data>
+    </attribute>
+  </define>
+  <define name="user.content">
+    <ref name="login"/>
+    <ref name="password"/>
+    <optional>
+      <ref name="firstname"/>
+    </optional>
+    <ref name="lastname"/>
+    <optional>
+      <ref name="honorific"/>
+    </optional>
+    <ref name="email"/>
+    <optional>
+      <ref name="language"/>
+    </optional>
+    <optional>
+      <ref name="timezone"/>
+    </optional>
+    <optional>
+      <ref name="theme"/>
+    </optional>
+    <optional>
+      <ref name="user.attachments"/>
+    </optional>
+    <optional>
+      <ref name="page_size"/>
+    </optional>
+    <optional>
+      <ref name="expiration"/>
+    </optional>
+    <optional>
+      <ref name="authority"/>
+    </optional>
+    <optional>
+      <ref name="user.profiles"/>
+    </optional>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ login ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="login">
+    <element name="login">
+      <ref name="login.content"/>
+    </element>
+  </define>
+  <define name="login.content">
+    <data type="token">
+      <param name="pattern">[a-zA-Z0-9._%@\-]{2,}</param>
+    </data>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ password ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="password">
+    <element name="password">
+      <ref name="password.attributes"/>
+      <ref name="password.content"/>
+    </element>
+  </define>
+  <define name="password.attributes">
+    <interleave>
+      <optional>
+        <ref name="must_change.attribute"/>
+      </optional>
+      <optional>
+        <ref name="updated.attribute"/>
+      </optional>
+    </interleave>
+  </define>
+  <define name="must_change.attribute">
+    <attribute name="must-change">
+      <value>true</value>
+    </attribute>
+  </define>
+  <define name="password.content">
+    <choice>
+      <data type="token">
+        <param name="pattern">[^$][^\s]{3,48}</param>
+      </data>
+      <data type="token">
+        <param name="pattern">$.{48,}</param>
+      </data>
+    </choice>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ name ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="firstname">
+    <element name="firstname">
+      <ref name="name.content"/>
+    </element>
+  </define>
+  <define name="lastname">
+    <element name="lastname">
+      <ref name="name.content"/>
+    </element>
+  </define>
+  <define name="name.content">
+    <data type="token">
+      <param name="minLength">2</param>
+    </data>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ honorific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="honorific">
+    <element name="honorific">
+      <ref name="honorific.content"/>
+    </element>
+  </define>
+  <define name="honorific.content">
+    <choice>
+      <value>Mr</value>
+      <value>Mrs</value>
+    </choice>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ email ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="email">
+    <element name="email">
+      <ref name="email.attributes"/>
+      <ref name="email.content"/>
+    </element>
+  </define>
+  <define name="email.attributes">
+    <optional>
+      <ref name="hidden.attribute"/>
+    </optional>
+  </define>
+  <define name="hidden.attribute">
+    <attribute name="hidden">
+      <value>true</value>
+    </attribute>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ timezone ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="timezone">
+    <element name="timezone">
+      <ref name="timezone.content"/>
+    </element>
+  </define>
+  <define name="timezone.content">
+    <data type="token">
+      <param name="pattern">[a-zA-Z\-]+/[a-zA-Z\-]+</param>
+    </data>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ user.attachments ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <!-- ~~~~~~ user.attachments -->
+  <define name="user.attachments">
+    <element name="attachments">
+      <ref name="attachments.attributes"/>
+      <ref name="user.attachments.content"/>
+    </element>
+  </define>
+  <define name="attachments.attributes">
+    <ref name="key.attribute"/>
+  </define>
+  <define name="key.attribute">
+    <attribute name="key">
+      <data type="NMTOKEN"/>
+    </attribute>
+  </define>
+  <define name="user.attachments.content">
+    <optional>
+      <ref name="picture"/>
+    </optional>
+  </define>
+  <!-- ~~~~~ picture -->
+  <define name="picture">
+    <element name="picture">
+      <ref name="picture.content"/>
+    </element>
+  </define>
+  <define name="picture.content">
+    <data type="anyURI"/>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ expiration ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="expiration">
+    <element name="expiration">
+      <data type="date"/>
+    </element>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ authority ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="authority">
+    <element name="authority">
+      <ref name="authority.attributes"/>
+      <ref name="authority.content"/>
+    </element>
+  </define>
+  <define name="authority.attributes">
+    <optional>
+      <ref name="checked.attribute"/>
+    </optional>
+  </define>
+  <define name="checked.attribute">
+    <attribute name="checked">
+      <data type="token">
+        <param name="pattern">\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}</param>
+      </data>
+    </attribute>
+  </define>
+  <define name="authority.content">
+    <data type="token">
+      <param name="pattern">[a-z0-9\-]+</param>
+    </data>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ user.profile ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <!-- ~~~~~~ user.profiles -->
+  <define name="user.profiles">
+    <element name="profiles">
+      <ref name="user.profiles.content"/>
+    </element>
+  </define>
+  <define name="user.profiles.content">
+    <oneOrMore>
+      <ref name="user.profile"/>
+    </oneOrMore>
+  </define>
+  <!-- ~~~~~~ user.profile -->
+  <define name="user.profile">
+    <element name="profile">
+      <ref name="user.profile.content"/>
+    </element>
+  </define>
+  <define name="user.profile.content">
+    <data type="token">
+      <param name="pattern">[a-z]+(_[a-z]+)*</param>
+    </data>
+  </define>
+  <!--
+    =============================================================================
+                                       GROUP
+    =============================================================================
+  -->
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ groups ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="groups">
+    <element name="groups">
+      <ref name="groups.content"/>
+    </element>
+  </define>
+  <define name="groups.content">
+    <oneOrMore>
+      <ref name="group"/>
+    </oneOrMore>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ group ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="group">
+    <element name="group">
+      <ref name="group.attributes"/>
+      <ref name="group.content"/>
+    </element>
+  </define>
+  <define name="group.attributes">
+    <ref name="group.id.attribute"/>
+  </define>
+  <define name="group.id.attribute">
+    <attribute name="id">
+      <data type="NMTOKEN"/>
+    </attribute>
+  </define>
+  <define name="group.content">
+    <oneOrMore>
+      <ref name="i18n.label"/>
+    </oneOrMore>
+    <zeroOrMore>
+      <ref name="i18n.description"/>
+    </zeroOrMore>
+    <optional>
+      <ref name="group.attachments"/>
+    </optional>
+    <optional>
+      <ref name="group.users"/>
+    </optional>
+    <optional>
+      <ref name="user.profiles"/>
+    </optional>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ group.attachments ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <!-- ~~~~~~ group.attachments -->
+  <define name="group.attachments">
+    <element name="attachments">
+      <ref name="attachments.attributes"/>
+      <ref name="group.attachments.content"/>
+    </element>
+  </define>
+  <define name="group.attachments.content">
+    <optional>
+      <ref name="picture"/>
+    </optional>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ group.user ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <!-- ~~~~~~  group.users -->
+  <define name="group.users">
+    <element name="users">
+      <ref name="group.users.content"/>
+    </element>
+  </define>
+  <define name="group.users.content">
+    <oneOrMore>
+      <ref name="group.user"/>
+    </oneOrMore>
+  </define>
+  <!-- ~~~~~~ user -->
+  <define name="group.user">
+    <element name="user">
+      <ref name="login.content"/>
+    </element>
+  </define>
+  <!--
+    =============================================================================
+                                      MODULE
+    =============================================================================
+  -->
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ modules ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="modules">
+    <element name="modules">
+      <ref name="modules.content"/>
+    </element>
+  </define>
+  <define name="modules.content">
+    <oneOrMore>
+      <ref name="module"/>
+    </oneOrMore>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="module">
+    <element name="module">
+      <ref name="module.attributes"/>
+      <ref name="module.content"/>
+    </element>
+  </define>
+  <define name="module.attributes">
+    <interleave>
+      <ref name="module.id.attribute"/>
+      <optional>
+        <ref name="inactive.attribute"/>
+      </optional>
+    </interleave>
+  </define>
+  <define name="module.id.attribute">
+    <attribute name="id">
+      <data type="token">
+        <param name="pattern">[a-z][a-z0-9_\.\-]+</param>
+      </data>
+    </attribute>
+  </define>
+  <define name="inactive.attribute">
+    <attribute name="inactive">
+      <data type="boolean"/>
+    </attribute>
+  </define>
+  <define name="module.content">
+    <optional>
+      <ref name="module.configuration"/>
+    </optional>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ module.configuration ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="module.configuration">
+    <element>
+      <anyName>
+        <except>
+          <nsName ns=""/>
+        </except>
+      </anyName>
+      <ref name="anything"/>
+    </element>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ anything ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="anything">
+    <zeroOrMore>
+      <choice>
+        <element>
+          <anyName/>
+          <ref name="anything"/>
+        </element>
+        <attribute>
+          <anyName/>
+        </attribute>
+        <text/>
+      </choice>
+    </zeroOrMore>
+  </define>
+  <!--
+    =============================================================================
+                                   I18N ELEMENT
+    =============================================================================
+  -->
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ label ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="label">
+    <element name="label">
+      <ref name="label.content"/>
+    </element>
+  </define>
+  <define name="i18n.label">
+    <element name="label">
+      <ref name="i18n.label.attributes"/>
+      <ref name="label.content"/>
+    </element>
+  </define>
+  <define name="i18n.label.attributes">
+    <ref name="lang.attribute"/>
+  </define>
+  <define name="lang.attribute">
+    <attribute name="xml:lang">
+      <data type="token">
+        <param name="pattern">[a-z]{2,4}(_[A-Z]{2,4})?</param>
+      </data>
+    </attribute>
+  </define>
+  <define name="label.content">
+    <text/>
+  </define>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ description ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <define name="description">
+    <element name="description">
+      <ref name="description.content"/>
+    </element>
+  </define>
+  <define name="i18n.description">
+    <element name="description">
+      <ref name="i18n.description.attributes"/>
+      <ref name="description.content"/>
+    </element>
+  </define>
+  <define name="i18n.description.attributes">
+    <ref name="lang.attribute"/>
+  </define>
+  <define name="description.content">
+    <text/>
+  </define>
+</grammar>

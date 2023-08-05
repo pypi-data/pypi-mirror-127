@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chrysalio version="1.0">
+  <groups>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <group id="team1">
+      <label xml:lang="en">Team 1</label>
+      <description xml:lang="en">Team of users n° 1.</description>
+      <users>
+        <user>user1</user>
+        <user>test1</user>
+      </users>
+    </group>
+
+  </groups>
+</chrysalio>

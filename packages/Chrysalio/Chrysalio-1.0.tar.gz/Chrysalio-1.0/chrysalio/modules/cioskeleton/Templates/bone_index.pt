@@ -1,0 +1,14 @@
+<metal:main use-macro="load: ${layout}"
+            xmlns:tal="http://xml.zope.org/namespaces/tal"
+            xmlns:metal="http://xml.zope.org/namespaces/metal">
+
+  <link metal:fill-slot="css"
+        rel="stylesheet" href="${theme}/cioskeleton/css/cioskeleton.css"
+        type="text/css" media="screen"/>
+
+  <div id="cioContainer" metal:fill-slot="container">
+    <section>
+      <h2>${_('Bone Index')}</h2>
+    </section>
+  </div>
+</metal:main>

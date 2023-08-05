@@ -1,0 +1,1 @@
+!function(){"use strict";jQuery(document).ready((function(e){e.datepicker.setDefaults(e.datepicker.regional[e("html").attr("lang")]),e(".cioDate input").datepicker({dateFormat:"yy-mm-dd",changeMonth:!0,changeYear:!0})}))}();

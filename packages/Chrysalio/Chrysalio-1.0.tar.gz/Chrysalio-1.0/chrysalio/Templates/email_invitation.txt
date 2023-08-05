@@ -1,0 +1,6 @@
+${_('Hello ${n},', {'n': first_name or last_name})}
+
+${_('We invite you to join us on ${n}:', {'n': site_title})} ${url}.
+${_('Your identifier is:')} ${login}
+
+${_('${n} Team', {'n': site_title})}

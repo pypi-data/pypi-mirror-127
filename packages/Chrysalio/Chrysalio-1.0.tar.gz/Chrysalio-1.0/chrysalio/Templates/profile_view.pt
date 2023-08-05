@@ -1,0 +1,38 @@
+<metal:main use-macro="load: ${layout}"
+            xmlns:tal="http://xml.zope.org/namespaces/tal"
+            xmlns:metal="http://xml.zope.org/namespaces/metal">
+
+  <div metal:fill-slot="form_begin" tal:omit-tag="">${form.begin()}</div>
+
+  <!-- .............................. Main Buttons ........................ -->
+  <div id="cioMainButtons" metal:fill-slot="main_buttons">
+    ${navigator}
+    ${form.submit('exp!.x', _('Export'), class_='cioButton')}
+    <span tal:condition="i_editor" tal:omit-tag="">
+      ${form.button(route('profile_edit', profile_id=dbprofile.profile_id),
+        _('Edit'))}
+    </span>
+  </div>
+
+  <div id="cioContainer" metal:fill-slot="container">
+    <!-- ................................ Flash ........................... -->
+    <div tal:define="flash load: flash_snackbar.macro.pt"
+         metal:use-macro="flash"/>
+
+    <div id="cioContent">
+      <!-- .............................. Sheet ........................... -->
+      <section class="cioTabsetSheet">
+        <h2>${label}</h2>
+        ${tabset.begin()}
+        <div tal:repeat="tab tabset.tabs" tal:omit-tag="">
+          ${tab.begin()}
+          ${dbprofile.tab4view(request, tab.index, form)}
+          ${tab.end()}
+        </div>
+        ${tabset.end()}
+      </section>
+    </div>
+  </div>
+
+  <div metal:fill-slot="form_end" tal:omit-tag="">${form.end()}</div>
+</metal:main>

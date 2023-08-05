@@ -1,0 +1,2730 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg179"
+   style="overflow:hidden!important;"
+   xlink="http://www.w3.org/1999/xlink"
+   height="600px"
+   width="600px"
+   version="1.1">
+  <metadata
+     id="metadata183">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     transform="scale(3)"
+     id="SvgjsRect1036"
+     width="200"
+     height="15"
+     x="0"
+     y="185"
+     style="display:none;opacity:0.5;fill:#ecf0f1;filter:url(#filter4674)" />
+  <text
+     transform="scale(3)"
+     id="SvgjsText1037"
+     style="font-weight:400;font-size:10.07999992px;font-family:Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;text-anchor:middle;display:none;fill:#000000;filter:url(#filter4674)"
+     font-size="0.84em"
+     font-weight="400"
+     x="100"
+     y="185">
+    <tspan
+       id="SvgjsTspan1038"
+       dy="1.2em"
+       x="100"
+       style="font-weight:400;font-size:8.46719933px;font-family:Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;text-anchor:middle">Created on AvatarMaker.com</tspan>
+  </text>
+  <defs
+     id="SvgjsDefs1001">
+    <radialGradient
+       class="svga-on-canvas-facehighlight-gradient-single-0"
+       gradientUnits="userSpaceOnUse"
+       r="41"
+       cy="114"
+       cx="100"
+       id="SvgjsRadialGradient2886">
+      <stop
+         offset="0"
+         stop-color="#ffe4d6"
+         stop-opacity="0.5"
+         id="SvgjsStop2887" />
+      <stop
+         offset="0.9"
+         stop-color="#f0c7b1"
+         stop-opacity="0"
+         id="SvgjsStop2888" />
+    </radialGradient>
+    <radialGradient
+       class="svga-on-canvas-facehighlight-gradient-single-1"
+       gradientUnits="userSpaceOnUse"
+       r="37"
+       cy="54"
+       cx="100"
+       id="SvgjsRadialGradient2890">
+      <stop
+         offset="0"
+         stop-color="#ffe4d6"
+         stop-opacity="0.5"
+         id="SvgjsStop2891" />
+      <stop
+         offset="0.9"
+         stop-color="#f0c7b1"
+         stop-opacity="0"
+         id="SvgjsStop2892" />
+    </radialGradient>
+    <radialGradient
+       class="svga-on-canvas-eyesback-gradient-left-0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.9945,0.1042,0.1042,0.9945,192.8281,-12.4633)"
+       r="15.117"
+       cy="83.945"
+       cx="129.041"
+       id="SvgjsRadialGradient2913">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2914" />
+      <stop
+         offset="0.315"
+         stop-color="#fcfdfd"
+         stop-opacity="1"
+         id="SvgjsStop2915" />
+      <stop
+         offset="0.504"
+         stop-color="#f4f7f8"
+         stop-opacity="1"
+         id="SvgjsStop2916" />
+      <stop
+         offset="0.66"
+         stop-color="#e5ecef"
+         stop-opacity="1"
+         id="SvgjsStop2917" />
+      <stop
+         offset="0.76"
+         stop-color="#d8e2e7"
+         stop-opacity="1"
+         id="SvgjsStop2918" />
+    </radialGradient>
+    <radialGradient
+       class="svga-on-canvas-eyesback-gradient-right-0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9945,0.1042,-0.1042,0.9945,7.1738,-12.4633)"
+       r="15.116"
+       cy="83.986"
+       cx="128.643"
+       id="SvgjsRadialGradient2920">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2921" />
+      <stop
+         offset="0.316"
+         stop-color="#fcfdfd"
+         stop-opacity="1"
+         id="SvgjsStop2922" />
+      <stop
+         offset="0.505"
+         stop-color="#f4f7f8"
+         stop-opacity="1"
+         id="SvgjsStop2923" />
+      <stop
+         offset="0.661"
+         stop-color="#e5ecef"
+         stop-opacity="1"
+         id="SvgjsStop2924" />
+      <stop
+         offset="0.76"
+         stop-color="#d8e2e7"
+         stop-opacity="1"
+         id="SvgjsStop2925" />
+    </radialGradient>
+    <radialGradient
+       class="svga-on-canvas-eyesiris-gradient-left-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.096,-0.0248,0.0245,0.0961,141.2814,119.9893)"
+       r="59.751"
+       cy="-521.042"
+       cx="-568.659"
+       id="SvgjsRadialGradient2928">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2929" />
+      <stop
+         offset="1"
+         stop-color="#ffffff"
+         stop-opacity="0"
+         id="SvgjsStop2930" />
+    </radialGradient>
+    <radialGradient
+       class="svga-on-canvas-eyesiris-gradient-left-2"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.0991,8.856319e-4,-0.0011,0.0991,131.1134,135.9855)"
+       r="59.745"
+       cy="-519.099"
+       cx="-582.838"
+       id="SvgjsRadialGradient2932">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2933" />
+      <stop
+         offset="1"
+         stop-color="#ffffff"
+         stop-opacity="0"
+         id="SvgjsStop2934" />
+    </radialGradient>
+    <linearGradient
+       class="svga-on-canvas-eyesiris-gradient-left-5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-52)"
+       y2="87.152"
+       x2="123.606"
+       y1="88.268"
+       x1="122.67"
+       id="SvgjsLinearGradient2938">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2939" />
+      <stop
+         offset="1"
+         stop-color="#ffffff"
+         stop-opacity="0"
+         id="SvgjsStop2940" />
+    </linearGradient>
+    <linearGradient
+       class="svga-on-canvas-eyesiris-gradient-left-6"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-52)"
+       y2="83.189"
+       x2="126.463"
+       y1="82.296"
+       x1="127.212"
+       id="SvgjsLinearGradient2942">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2943" />
+      <stop
+         offset="1"
+         stop-color="#ffffff"
+         stop-opacity="0"
+         id="SvgjsStop2944" />
+    </linearGradient>
+    <linearGradient
+       class="svga-on-canvas-eyesiris-gradient-left-7"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-52)"
+       y2="81.879"
+       x2="127.91"
+       y1="79.822"
+       x1="129.636"
+       id="SvgjsLinearGradient2946">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2947" />
+      <stop
+         offset="1"
+         stop-color="#ffffff"
+         stop-opacity="0"
+         id="SvgjsStop2948" />
+    </linearGradient>
+    <radialGradient
+       class="svga-on-canvas-eyesiris-gradient-right-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.096,-0.0248,0.0245,0.0961,193.2804,119.9894)"
+       r="59.752"
+       cy="-521.042"
+       cx="-568.654"
+       id="SvgjsRadialGradient2951">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2952" />
+      <stop
+         offset="1"
+         stop-color="#ffffff"
+         stop-opacity="0"
+         id="SvgjsStop2953" />
+    </radialGradient>
+    <radialGradient
+       class="svga-on-canvas-eyesiris-gradient-right-2"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.0991,8.856319e-4,-0.0011,0.0991,183.1126,135.9856)"
+       r="59.747"
+       cy="-519.102"
+       cx="-582.833"
+       id="SvgjsRadialGradient2955">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2956" />
+      <stop
+         offset="1"
+         stop-color="#ffffff"
+         stop-opacity="0"
+         id="SvgjsStop2957" />
+    </radialGradient>
+    <linearGradient
+       class="svga-on-canvas-eyesiris-gradient-right-5"
+       gradientUnits="userSpaceOnUse"
+       y2="87.152"
+       x2="123.606"
+       y1="88.268"
+       x1="122.67"
+       id="SvgjsLinearGradient2961">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2962" />
+      <stop
+         offset="1"
+         stop-color="#ffffff"
+         stop-opacity="0"
+         id="SvgjsStop2963" />
+    </linearGradient>
+    <linearGradient
+       class="svga-on-canvas-eyesiris-gradient-right-6"
+       gradientUnits="userSpaceOnUse"
+       y2="83.189"
+       x2="126.463"
+       y1="82.296"
+       x1="127.212"
+       id="SvgjsLinearGradient2965">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2966" />
+      <stop
+         offset="1"
+         stop-color="#ffffff"
+         stop-opacity="0"
+         id="SvgjsStop2967" />
+    </linearGradient>
+    <linearGradient
+       class="svga-on-canvas-eyesiris-gradient-right-7"
+       gradientUnits="userSpaceOnUse"
+       y2="81.879"
+       x2="127.91"
+       y1="79.822"
+       x1="129.636"
+       id="SvgjsLinearGradient2969">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2970" />
+      <stop
+         offset="1"
+         stop-color="#ffffff"
+         stop-opacity="0"
+         id="SvgjsStop2971" />
+    </linearGradient>
+    <radialGradient
+       class="svga-on-canvas-eyesfront-gradient-left-0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.9945 0.1042 0.1042 0.9945 192.8281 -12.4633)"
+       r="15.117"
+       cy="83.945"
+       cx="129.041"
+       id="SvgjsRadialGradient2973">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2974" />
+      <stop
+         offset="0.316"
+         stop-color="#fcfdfd"
+         stop-opacity="1"
+         id="SvgjsStop2975" />
+      <stop
+         offset="0.505"
+         stop-color="#f4f7f8"
+         stop-opacity="1"
+         id="SvgjsStop2976" />
+      <stop
+         offset="0.661"
+         stop-color="#e5ecef"
+         stop-opacity="1"
+         id="SvgjsStop2977" />
+      <stop
+         offset="0.76"
+         stop-color="#d8e2e7"
+         stop-opacity="1"
+         id="SvgjsStop2978" />
+    </radialGradient>
+    <radialGradient
+       class="svga-on-canvas-eyesfront-gradient-left-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9998,0.0208,0.0166,-0.7998,-45.3195,145.9395)"
+       r="16.003"
+       fy="82.527"
+       fx="133.239"
+       cy="82.496"
+       cx="121.986"
+       id="SvgjsRadialGradient2982">
+      <stop
+         offset="0"
+         stop-color="#e1ac8f"
+         stop-opacity="1"
+         id="SvgjsStop2983" />
+      <stop
+         offset="0.7"
+         stop-color="#e1ac8f"
+         stop-opacity="0.3"
+         id="SvgjsStop2984" />
+      <stop
+         offset="1"
+         stop-color="#f0c7b1"
+         stop-opacity="0"
+         id="SvgjsStop2985" />
+    </radialGradient>
+    <radialGradient
+       class="svga-on-canvas-eyesfront-gradient-left-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0336,0,0,1.0336,-1.6796,1.3127)"
+       r="29.524"
+       cy="105.995"
+       cx="68.931"
+       id="SvgjsRadialGradient2987">
+      <stop
+         offset="0.95"
+         stop-color="#000000"
+         stop-opacity="0"
+         id="SvgjsStop2988" />
+      <stop
+         offset="1"
+         stop-color="#000000"
+         stop-opacity="0.2"
+         id="SvgjsStop2989" />
+    </radialGradient>
+    <radialGradient
+       class="svga-on-canvas-eyesfront-gradient-right-0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9945 0.1042 -0.1042 0.9945 7.1738 -12.4633)"
+       r="15.116"
+       cy="83.986"
+       cx="128.643"
+       id="SvgjsRadialGradient2993">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         stop-opacity="1"
+         id="SvgjsStop2994" />
+      <stop
+         offset="0.316"
+         stop-color="#fcfdfd"
+         stop-opacity="1"
+         id="SvgjsStop2995" />
+      <stop
+         offset="0.505"
+         stop-color="#f4f7f8"
+         stop-opacity="1"
+         id="SvgjsStop2996" />
+      <stop
+         offset="0.661"
+         stop-color="#e5ecef"
+         stop-opacity="1"
+         id="SvgjsStop2997" />
+      <stop
+         offset="0.76"
+         stop-color="#d8e2e7"
+         stop-opacity="1"
+         id="SvgjsStop2998" />
+    </radialGradient>
+    <radialGradient
+       class="svga-on-canvas-eyesfront-gradient-right-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.9998,0.0208,-0.0166,-0.7998,244.5208,145.9478)"
+       r="16.003"
+       fy="82.527"
+       fx="132.839"
+       cy="82.496"
+       cx="121.587"
+       id="SvgjsRadialGradient3002">
+      <stop
+         offset="0"
+         stop-color="#e1ac8f"
+         stop-opacity="1"
+         id="SvgjsStop3003" />
+      <stop
+         offset="0.7"
+         stop-color="#e1ac8f"
+         stop-opacity="0.3"
+         id="SvgjsStop3004" />
+      <stop
+         offset="1"
+         stop-color="#f0c7b1"
+         stop-opacity="0"
+         id="SvgjsStop3005" />
+    </radialGradient>
+    <radialGradient
+       class="svga-on-canvas-eyesfront-gradient-right-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.0336,0,0,1.0336,201.6796,1.3127)"
+       r="29.524"
+       cy="105.995"
+       cx="69.316"
+       id="SvgjsRadialGradient3007">
+      <stop
+         offset="0.95"
+         stop-color="#000000"
+         stop-opacity="0"
+         id="SvgjsStop3008" />
+      <stop
+         offset="1"
+         stop-color="#000000"
+         stop-opacity="0.2"
+         id="SvgjsStop3009" />
+    </radialGradient>
+    <linearGradient
+       class="svga-on-canvas-mouth-gradient-single-0"
+       gradientUnits="userSpaceOnUse"
+       y2="139"
+       x2="100"
+       y1="142"
+       x1="100"
+       id="SvgjsLinearGradient3015">
+      <stop
+         offset="0.1"
+         stop-color="#e8b9a0"
+         stop-opacity="1"
+         id="SvgjsStop3016" />
+      <stop
+         offset="1"
+         stop-color="#e1ac8f"
+         stop-opacity="1"
+         id="SvgjsStop3017" />
+    </linearGradient>
+    <linearGradient
+       class="svga-on-canvas-chinshadow-gradient-single-0"
+       gradientUnits="userSpaceOnUse"
+       y2="131"
+       x2="100"
+       y1="171"
+       x1="100"
+       id="SvgjsLinearGradient3044">
+      <stop
+         offset="0"
+         stop-color="#e1ac8f"
+         stop-opacity="0.8"
+         id="SvgjsStop3045" />
+      <stop
+         offset="0.7"
+         stop-color="#c27b55"
+         stop-opacity="1"
+         id="SvgjsStop3046" />
+    </linearGradient>
+    <filter
+       id="filter4674"
+       style="color-interpolation-filters:sRGB;">
+      <feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix4672"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+      <feColorMatrix
+         id="feColorMatrix4680"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         result="fbSourceGraphic"
+         in="fbSourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"
+         id="feColorMatrix4682" />
+      <feColorMatrix
+         id="feColorMatrix4684"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix4686" />
+    </filter>
+    <radialGradient
+       id="SvgjsRadialGradient2754"
+       cx="100"
+       cy="113"
+       r="40"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-facehighlight-gradient-single-0">
+      <stop
+         id="SvgjsStop2755"
+         stop-opacity="0.5"
+         stop-color="#fff4f3"
+         offset="0" />
+      <stop
+         id="SvgjsStop2756"
+         stop-opacity="0"
+         stop-color="#f3d4cf"
+         offset="0.9" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2758"
+       cx="100"
+       cy="57"
+       r="36"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-facehighlight-gradient-single-1">
+      <stop
+         id="SvgjsStop2759"
+         stop-opacity="0.5"
+         stop-color="#fff4f3"
+         offset="0" />
+      <stop
+         id="SvgjsStop2760"
+         stop-opacity="0"
+         stop-color="#f3d4cf"
+         offset="0.9" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2781"
+       cx="129.05"
+       cy="85.956"
+       r="15.117"
+       gradientTransform="matrix(-0.9945,0.1042,0.1042,0.9945,192.8274,-12.4637)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesback-gradient-left-0">
+      <stop
+         id="SvgjsStop2782"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2783"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2784"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2785"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2786"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2788"
+       cx="129.049"
+       cy="85.956"
+       r="15.117"
+       gradientTransform="matrix(0.9945,0.1042,-0.1042,0.9945,7.1735,-12.4637)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesback-gradient-right-0">
+      <stop
+         id="SvgjsStop2789"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2790"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2791"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2792"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2793"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2796"
+       cx="-558.588"
+       cy="-490.918"
+       r="84.646"
+       gradientTransform="matrix(0.096,-0.0248,0.0245,0.0961,140.5478,120.3577)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-left-1">
+      <stop
+         id="SvgjsStop2797"
+         stop-opacity="0.8"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2798"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2800"
+       cx="-565.337"
+       cy="-492.691"
+       r="84.644"
+       gradientTransform="matrix(0.0991,8.856325e-4,-0.0011,0.0991,130.3774,136.3533)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-left-2">
+      <stop
+         id="SvgjsStop2801"
+         stop-opacity="0.8"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2802"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <linearGradient
+       id="SvgjsLinearGradient2806"
+       x1="122.283"
+       y1="93.047"
+       x2="123.61"
+       y2="91.466"
+       gradientTransform="translate(-52)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-left-5">
+      <stop
+         id="SvgjsStop2807"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2808"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="SvgjsLinearGradient2810"
+       x1="127"
+       y1="85"
+       x2="125"
+       y2="87"
+       gradientTransform="translate(-50)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-left-6">
+      <stop
+         id="SvgjsStop2811"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2812"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="SvgjsLinearGradient2814"
+       x1="130"
+       y1="81"
+       x2="126"
+       y2="85"
+       gradientTransform="translate(-50)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-left-7">
+      <stop
+         id="SvgjsStop2815"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2816"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2819"
+       cx="-578.76"
+       cy="-490.73"
+       r="84.646"
+       gradientTransform="matrix(0.096,-0.0248,0.0245,0.0961,192.4794,119.8404)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-right-1">
+      <stop
+         id="SvgjsStop2820"
+         stop-opacity="0.8"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2821"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2823"
+       cx="-584.778"
+       cy="-487.329"
+       r="84.644"
+       gradientTransform="matrix(0.0991,8.856325e-4,-0.0011,0.0991,182.3104,135.839)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-right-2">
+      <stop
+         id="SvgjsStop2824"
+         stop-opacity="0.8"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2825"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <linearGradient
+       id="SvgjsLinearGradient2829"
+       x1="120.284"
+       y1="93.047"
+       x2="121.611"
+       y2="91.467"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-right-5">
+      <stop
+         id="SvgjsStop2830"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2831"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="SvgjsLinearGradient2833"
+       x1="127"
+       y1="85"
+       x2="125"
+       y2="87"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-right-6">
+      <stop
+         id="SvgjsStop2834"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2835"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="SvgjsLinearGradient2837"
+       x1="130"
+       y1="81"
+       x2="126"
+       y2="85"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-right-7">
+      <stop
+         id="SvgjsStop2838"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2839"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2841"
+       cx="129.05"
+       cy="85.956"
+       r="15.117"
+       gradientTransform="matrix(-0.9945 0.1042 0.1042 0.9945 192.8274 -12.4637)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-left-0">
+      <stop
+         id="SvgjsStop2842"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2843"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2844"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2845"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2846"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2850"
+       cx="121.786"
+       cy="84.496"
+       fx="133.039"
+       fy="84.527"
+       r="16.003"
+       gradientTransform="matrix(0.9998,0.0208,0.0166,-0.7998,-44.9524,149.5433)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-left-3">
+      <stop
+         id="SvgjsStop2851"
+         stop-opacity="1"
+         stop-color="#e4b3ab"
+         offset="0" />
+      <stop
+         id="SvgjsStop2852"
+         stop-opacity="0.3"
+         stop-color="#e4b3ab"
+         offset="0.7" />
+      <stop
+         id="SvgjsStop2853"
+         stop-opacity="0"
+         stop-color="#f3d4cf"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2855"
+       cx="69.124"
+       cy="107.529"
+       r="29.525"
+       gradientTransform="matrix(1.0336,0,0,1.0336,-1.6792,1.7282)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-left-4">
+      <stop
+         id="SvgjsStop2856"
+         stop-opacity="0"
+         stop-color="#000000"
+         offset="0.95" />
+      <stop
+         id="SvgjsStop2857"
+         stop-opacity="0.3"
+         stop-color="#000000"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2861"
+       cx="129.049"
+       cy="85.956"
+       r="15.117"
+       gradientTransform="matrix(0.9945 0.1042 -0.1042 0.9945 7.1735 -12.4637)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-right-0">
+      <stop
+         id="SvgjsStop2862"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2863"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2864"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2865"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2866"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2870"
+       cx="121.786"
+       cy="84.496"
+       fx="133.039"
+       fy="84.527"
+       r="16.003"
+       gradientTransform="matrix(-0.9998,0.0208,-0.0166,-0.7998,244.9525,149.5433)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-right-3">
+      <stop
+         id="SvgjsStop2871"
+         stop-opacity="1"
+         stop-color="#e4b3ab"
+         offset="0" />
+      <stop
+         id="SvgjsStop2872"
+         stop-opacity="0.3"
+         stop-color="#e4b3ab"
+         offset="0.7" />
+      <stop
+         id="SvgjsStop2873"
+         stop-opacity="0"
+         stop-color="#f3d4cf"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2875"
+       cx="69.124"
+       cy="107.529"
+       r="29.525"
+       gradientTransform="matrix(-1.0336,0,0,1.0336,201.6792,1.7282)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-right-4">
+      <stop
+         id="SvgjsStop2876"
+         stop-opacity="0"
+         stop-color="#000000"
+         offset="0.95" />
+      <stop
+         id="SvgjsStop2877"
+         stop-opacity="0.3"
+         stop-color="#000000"
+         offset="1" />
+    </radialGradient>
+    <linearGradient
+       id="SvgjsLinearGradient2883"
+       x1="100"
+       y1="141"
+       x2="100"
+       y2="138"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-mouth-gradient-single-0">
+      <stop
+         id="SvgjsStop2884"
+         stop-opacity="1"
+         stop-color="#ebc3bd"
+         offset="0.1" />
+      <stop
+         id="SvgjsStop2885"
+         stop-opacity="1"
+         stop-color="#e4b3ab"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="SvgjsLinearGradient2911"
+       x1="99.98"
+       y1="171.27"
+       x2="99.98"
+       y2="136.351"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-chinshadow-gradient-single-0">
+      <stop
+         id="SvgjsStop2912"
+         stop-opacity="0.8"
+         stop-color="#e4b3ab"
+         offset="0" />
+      <stop
+         id="SvgjsStop2913"
+         stop-opacity="1"
+         stop-color="#c5796d"
+         offset="0.7" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1262">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1260" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1266">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1264" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1270">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1268" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1274">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1272" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1278">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1276" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1282">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1280" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1286">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1284" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1290">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1288" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1294">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1292" />
+    </filter>
+    <radialGradient
+       id="SvgjsRadialGradient2886-9"
+       cx="100"
+       cy="114"
+       r="41"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-facehighlight-gradient-single-0">
+      <stop
+         id="SvgjsStop2887-2"
+         stop-opacity="0.5"
+         stop-color="#ffe4d6"
+         offset="0" />
+      <stop
+         id="SvgjsStop2888-0"
+         stop-opacity="0"
+         stop-color="#f0c7b1"
+         offset="0.9" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2890-2"
+       cx="100"
+       cy="54"
+       r="37"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-facehighlight-gradient-single-1">
+      <stop
+         id="SvgjsStop2891-3"
+         stop-opacity="0.5"
+         stop-color="#ffe4d6"
+         offset="0" />
+      <stop
+         id="SvgjsStop2892-7"
+         stop-opacity="0"
+         stop-color="#f0c7b1"
+         offset="0.9" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2913-5"
+       cx="129.041"
+       cy="83.945"
+       r="15.117"
+       gradientTransform="matrix(-0.9945,0.1042,0.1042,0.9945,192.8281,-12.4633)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesback-gradient-left-0">
+      <stop
+         id="SvgjsStop2914-9"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2915-2"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.315" />
+      <stop
+         id="SvgjsStop2916-2"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.504" />
+      <stop
+         id="SvgjsStop2917-8"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.66" />
+      <stop
+         id="SvgjsStop2918-9"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2920-7"
+       cx="128.643"
+       cy="83.986"
+       r="15.116"
+       gradientTransform="matrix(0.9945,0.1042,-0.1042,0.9945,7.1738,-12.4633)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesback-gradient-right-0">
+      <stop
+         id="SvgjsStop2921-3"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2922-6"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2923-1"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2924-2"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2925-9"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2928-3"
+       cx="-568.659"
+       cy="-521.042"
+       r="59.751"
+       gradientTransform="matrix(0.096,-0.0248,0.0245,0.0961,141.2814,119.9893)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-left-1">
+      <stop
+         id="SvgjsStop2929-1"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2930-9"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2932-4"
+       cx="-582.838"
+       cy="-519.099"
+       r="59.745"
+       gradientTransform="matrix(0.0991,8.856319e-4,-0.0011,0.0991,131.1134,135.9855)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-left-2">
+      <stop
+         id="SvgjsStop2933-7"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2934-8"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2951-0"
+       cx="-568.654"
+       cy="-521.042"
+       r="59.752"
+       gradientTransform="matrix(0.096,-0.0248,0.0245,0.0961,193.2804,119.9894)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-right-1">
+      <stop
+         id="SvgjsStop2952-6"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2953-3"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2955-2"
+       cx="-582.833"
+       cy="-519.102"
+       r="59.747"
+       gradientTransform="matrix(0.0991,8.856319e-4,-0.0011,0.0991,183.1126,135.9856)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-right-2">
+      <stop
+         id="SvgjsStop2956-0"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2957-6"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2973-5"
+       cx="129.041"
+       cy="83.945"
+       r="15.117"
+       gradientTransform="matrix(-0.9945 0.1042 0.1042 0.9945 192.8281 -12.4633)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-left-0">
+      <stop
+         id="SvgjsStop2974-6"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2975-9"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2976-3"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2977-7"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2978-4"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2982-5"
+       cx="121.986"
+       cy="82.496"
+       fx="133.239"
+       fy="82.527"
+       r="16.003"
+       gradientTransform="matrix(0.9998,0.0208,0.0166,-0.7998,-45.3195,145.9395)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-left-3">
+      <stop
+         id="SvgjsStop2983-2"
+         stop-opacity="1"
+         stop-color="#e1ac8f"
+         offset="0" />
+      <stop
+         id="SvgjsStop2984-5"
+         stop-opacity="0.3"
+         stop-color="#e1ac8f"
+         offset="0.7" />
+      <stop
+         id="SvgjsStop2985-4"
+         stop-opacity="0"
+         stop-color="#f0c7b1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2987-7"
+       cx="68.931"
+       cy="105.995"
+       r="29.524"
+       gradientTransform="matrix(1.0336,0,0,1.0336,-1.6796,1.3127)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-left-4">
+      <stop
+         id="SvgjsStop2988-4"
+         stop-opacity="0"
+         stop-color="#000000"
+         offset="0.95" />
+      <stop
+         id="SvgjsStop2989-4"
+         stop-opacity="0.2"
+         stop-color="#000000"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2993-3"
+       cx="128.643"
+       cy="83.986"
+       r="15.116"
+       gradientTransform="matrix(0.9945 0.1042 -0.1042 0.9945 7.1738 -12.4633)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-right-0">
+      <stop
+         id="SvgjsStop2994-0"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2995-7"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2996-8"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2997-6"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2998-8"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient3002-8"
+       cx="121.587"
+       cy="82.496"
+       fx="132.839"
+       fy="82.527"
+       r="16.003"
+       gradientTransform="matrix(-0.9998,0.0208,-0.0166,-0.7998,244.5208,145.9478)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-right-3">
+      <stop
+         id="SvgjsStop3003-4"
+         stop-opacity="1"
+         stop-color="#e1ac8f"
+         offset="0" />
+      <stop
+         id="SvgjsStop3004-3"
+         stop-opacity="0.3"
+         stop-color="#e1ac8f"
+         offset="0.7" />
+      <stop
+         id="SvgjsStop3005-1"
+         stop-opacity="0"
+         stop-color="#f0c7b1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient3007-4"
+       cx="69.316"
+       cy="105.995"
+       r="29.524"
+       gradientTransform="matrix(-1.0336,0,0,1.0336,201.6796,1.3127)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-right-4">
+      <stop
+         id="SvgjsStop3008-9"
+         stop-opacity="0"
+         stop-color="#000000"
+         offset="0.95" />
+      <stop
+         id="SvgjsStop3009-2"
+         stop-opacity="0.2"
+         stop-color="#000000"
+         offset="1" />
+    </radialGradient>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter4674-2">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"
+         id="feColorMatrix4672-6"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4680-6" />
+      <feColorMatrix
+         id="feColorMatrix4682-4"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4684-9" />
+      <feColorMatrix
+         id="feColorMatrix4686-5"
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <radialGradient
+       id="SvgjsRadialGradient2886-7"
+       cx="100"
+       cy="114"
+       r="41"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-facehighlight-gradient-single-0">
+      <stop
+         id="SvgjsStop2887-22"
+         stop-opacity="0.5"
+         stop-color="#ffe4d6"
+         offset="0" />
+      <stop
+         id="SvgjsStop2888-6"
+         stop-opacity="0"
+         stop-color="#f0c7b1"
+         offset="0.9" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2890-1"
+       cx="100"
+       cy="54"
+       r="37"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-facehighlight-gradient-single-1">
+      <stop
+         id="SvgjsStop2891-0"
+         stop-opacity="0.5"
+         stop-color="#ffe4d6"
+         offset="0" />
+      <stop
+         id="SvgjsStop2892-6"
+         stop-opacity="0"
+         stop-color="#f0c7b1"
+         offset="0.9" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2913-1"
+       cx="129.041"
+       cy="83.945"
+       r="15.117"
+       gradientTransform="matrix(-0.9945,0.1042,0.1042,0.9945,192.8281,-12.4633)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesback-gradient-left-0">
+      <stop
+         id="SvgjsStop2914-5"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2915-9"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.315" />
+      <stop
+         id="SvgjsStop2916-4"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.504" />
+      <stop
+         id="SvgjsStop2917-9"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.66" />
+      <stop
+         id="SvgjsStop2918-0"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2920-9"
+       cx="128.643"
+       cy="83.986"
+       r="15.116"
+       gradientTransform="matrix(0.9945,0.1042,-0.1042,0.9945,7.1738,-12.4633)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesback-gradient-right-0">
+      <stop
+         id="SvgjsStop2921-1"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2922-7"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2923-7"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2924-1"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2925-1"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2928-5"
+       cx="-568.659"
+       cy="-521.042"
+       r="59.751"
+       gradientTransform="matrix(0.096,-0.0248,0.0245,0.0961,141.2814,119.9893)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-left-1">
+      <stop
+         id="SvgjsStop2929-9"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2930-7"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2932-7"
+       cx="-582.838"
+       cy="-519.099"
+       r="59.745"
+       gradientTransform="matrix(0.0991,8.856319e-4,-0.0011,0.0991,131.1134,135.9855)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-left-2">
+      <stop
+         id="SvgjsStop2933-6"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2934-7"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2951-4"
+       cx="-568.654"
+       cy="-521.042"
+       r="59.752"
+       gradientTransform="matrix(0.096,-0.0248,0.0245,0.0961,193.2804,119.9894)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-right-1">
+      <stop
+         id="SvgjsStop2952-8"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2953-1"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2955-29"
+       cx="-582.833"
+       cy="-519.102"
+       r="59.747"
+       gradientTransform="matrix(0.0991,8.856319e-4,-0.0011,0.0991,183.1126,135.9856)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-right-2">
+      <stop
+         id="SvgjsStop2956-3"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2957-9"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2973-6"
+       cx="129.041"
+       cy="83.945"
+       r="15.117"
+       gradientTransform="matrix(-0.9945 0.1042 0.1042 0.9945 192.8281 -12.4633)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-left-0">
+      <stop
+         id="SvgjsStop2974-3"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2975-8"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2976-5"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2977-6"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2978-1"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2982-1"
+       cx="121.986"
+       cy="82.496"
+       fx="133.239"
+       fy="82.527"
+       r="16.003"
+       gradientTransform="matrix(0.9998,0.0208,0.0166,-0.7998,-45.3195,145.9395)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-left-3">
+      <stop
+         id="SvgjsStop2983-5"
+         stop-opacity="1"
+         stop-color="#e1ac8f"
+         offset="0" />
+      <stop
+         id="SvgjsStop2984-9"
+         stop-opacity="0.3"
+         stop-color="#e1ac8f"
+         offset="0.7" />
+      <stop
+         id="SvgjsStop2985-8"
+         stop-opacity="0"
+         stop-color="#f0c7b1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2987-4"
+       cx="68.931"
+       cy="105.995"
+       r="29.524"
+       gradientTransform="matrix(1.0336,0,0,1.0336,-1.6796,1.3127)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-left-4">
+      <stop
+         id="SvgjsStop2988-8"
+         stop-opacity="0"
+         stop-color="#000000"
+         offset="0.95" />
+      <stop
+         id="SvgjsStop2989-1"
+         stop-opacity="0.2"
+         stop-color="#000000"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2993-0"
+       cx="128.643"
+       cy="83.986"
+       r="15.116"
+       gradientTransform="matrix(0.9945 0.1042 -0.1042 0.9945 7.1738 -12.4633)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-right-0">
+      <stop
+         id="SvgjsStop2994-3"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2995-0"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2996-4"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2997-4"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2998-4"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient3002-4"
+       cx="121.587"
+       cy="82.496"
+       fx="132.839"
+       fy="82.527"
+       r="16.003"
+       gradientTransform="matrix(-0.9998,0.0208,-0.0166,-0.7998,244.5208,145.9478)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-right-3">
+      <stop
+         id="SvgjsStop3003-7"
+         stop-opacity="1"
+         stop-color="#e1ac8f"
+         offset="0" />
+      <stop
+         id="SvgjsStop3004-6"
+         stop-opacity="0.3"
+         stop-color="#e1ac8f"
+         offset="0.7" />
+      <stop
+         id="SvgjsStop3005-3"
+         stop-opacity="0"
+         stop-color="#f0c7b1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient3007-1"
+       cx="69.316"
+       cy="105.995"
+       r="29.524"
+       gradientTransform="matrix(-1.0336,0,0,1.0336,201.6796,1.3127)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-right-4">
+      <stop
+         id="SvgjsStop3008-7"
+         stop-opacity="0"
+         stop-color="#000000"
+         offset="0.95" />
+      <stop
+         id="SvgjsStop3009-5"
+         stop-opacity="0.2"
+         stop-color="#000000"
+         offset="1" />
+    </radialGradient>
+    <linearGradient
+       id="SvgjsLinearGradient3044-2"
+       x1="100"
+       y1="171"
+       x2="100"
+       y2="131"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-chinshadow-gradient-single-0">
+      <stop
+         id="SvgjsStop3045-1"
+         stop-opacity="0.8"
+         stop-color="#e1ac8f"
+         offset="0" />
+      <stop
+         id="SvgjsStop3046-7"
+         stop-opacity="1"
+         stop-color="#c27b55"
+         offset="0.7" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter4674-8">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"
+         id="feColorMatrix4672-5"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4680-7" />
+      <feColorMatrix
+         id="feColorMatrix4682-41"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4684-8" />
+      <feColorMatrix
+         id="feColorMatrix4686-59"
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <radialGradient
+       id="SvgjsRadialGradient2754-0"
+       cx="100"
+       cy="113"
+       r="40"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-facehighlight-gradient-single-0">
+      <stop
+         id="SvgjsStop2755-4"
+         stop-opacity="0.5"
+         stop-color="#fff4f3"
+         offset="0" />
+      <stop
+         id="SvgjsStop2756-8"
+         stop-opacity="0"
+         stop-color="#f3d4cf"
+         offset="0.9" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2758-8"
+       cx="100"
+       cy="57"
+       r="36"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-facehighlight-gradient-single-1">
+      <stop
+         id="SvgjsStop2759-8"
+         stop-opacity="0.5"
+         stop-color="#fff4f3"
+         offset="0" />
+      <stop
+         id="SvgjsStop2760-9"
+         stop-opacity="0"
+         stop-color="#f3d4cf"
+         offset="0.9" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2781-7"
+       cx="129.05"
+       cy="85.956"
+       r="15.117"
+       gradientTransform="matrix(-0.9945,0.1042,0.1042,0.9945,192.8274,-12.4637)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesback-gradient-left-0">
+      <stop
+         id="SvgjsStop2782-7"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2783-6"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2784-4"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2785-3"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2786-0"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2788-3"
+       cx="129.049"
+       cy="85.956"
+       r="15.117"
+       gradientTransform="matrix(0.9945,0.1042,-0.1042,0.9945,7.1735,-12.4637)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesback-gradient-right-0">
+      <stop
+         id="SvgjsStop2789-0"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2790-9"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2791-2"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2792-5"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2793-4"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2796-0"
+       cx="-558.588"
+       cy="-490.918"
+       r="84.646"
+       gradientTransform="matrix(0.096,-0.0248,0.0245,0.0961,140.5478,120.3577)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-left-1">
+      <stop
+         id="SvgjsStop2797-5"
+         stop-opacity="0.8"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2798-9"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2800-4"
+       cx="-565.337"
+       cy="-492.691"
+       r="84.644"
+       gradientTransform="matrix(0.0991,8.856325e-4,-0.0011,0.0991,130.3774,136.3533)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-left-2">
+      <stop
+         id="SvgjsStop2801-6"
+         stop-opacity="0.8"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2802-9"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2819-4"
+       cx="-578.76"
+       cy="-490.73"
+       r="84.646"
+       gradientTransform="matrix(0.096,-0.0248,0.0245,0.0961,192.4794,119.8404)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-right-1">
+      <stop
+         id="SvgjsStop2820-8"
+         stop-opacity="0.8"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2821-1"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2823-2"
+       cx="-584.778"
+       cy="-487.329"
+       r="84.644"
+       gradientTransform="matrix(0.0991,8.856325e-4,-0.0011,0.0991,182.3104,135.839)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesiris-gradient-right-2">
+      <stop
+         id="SvgjsStop2824-8"
+         stop-opacity="0.8"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2825-9"
+         stop-opacity="0"
+         stop-color="#ffffff"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2841-0"
+       cx="129.05"
+       cy="85.956"
+       r="15.117"
+       gradientTransform="matrix(-0.9945 0.1042 0.1042 0.9945 192.8274 -12.4637)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-left-0">
+      <stop
+         id="SvgjsStop2842-5"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2843-1"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2844-1"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2845-0"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2846-8"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2850-5"
+       cx="121.786"
+       cy="84.496"
+       fx="133.039"
+       fy="84.527"
+       r="16.003"
+       gradientTransform="matrix(0.9998,0.0208,0.0166,-0.7998,-44.9524,149.5433)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-left-3">
+      <stop
+         id="SvgjsStop2851-0"
+         stop-opacity="1"
+         stop-color="#e4b3ab"
+         offset="0" />
+      <stop
+         id="SvgjsStop2852-6"
+         stop-opacity="0.3"
+         stop-color="#e4b3ab"
+         offset="0.7" />
+      <stop
+         id="SvgjsStop2853-4"
+         stop-opacity="0"
+         stop-color="#f3d4cf"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2855-6"
+       cx="69.124"
+       cy="107.529"
+       r="29.525"
+       gradientTransform="matrix(1.0336,0,0,1.0336,-1.6792,1.7282)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-left-4">
+      <stop
+         id="SvgjsStop2856-2"
+         stop-opacity="0"
+         stop-color="#000000"
+         offset="0.95" />
+      <stop
+         id="SvgjsStop2857-5"
+         stop-opacity="0.3"
+         stop-color="#000000"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2861-8"
+       cx="129.049"
+       cy="85.956"
+       r="15.117"
+       gradientTransform="matrix(0.9945 0.1042 -0.1042 0.9945 7.1735 -12.4637)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-right-0">
+      <stop
+         id="SvgjsStop2862-6"
+         stop-opacity="1"
+         stop-color="#ffffff"
+         offset="0" />
+      <stop
+         id="SvgjsStop2863-2"
+         stop-opacity="1"
+         stop-color="#fcfdfd"
+         offset="0.316" />
+      <stop
+         id="SvgjsStop2864-8"
+         stop-opacity="1"
+         stop-color="#f4f7f8"
+         offset="0.505" />
+      <stop
+         id="SvgjsStop2865-4"
+         stop-opacity="1"
+         stop-color="#e5ecef"
+         offset="0.661" />
+      <stop
+         id="SvgjsStop2866-7"
+         stop-opacity="1"
+         stop-color="#d8e2e7"
+         offset="0.76" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2870-2"
+       cx="121.786"
+       cy="84.496"
+       fx="133.039"
+       fy="84.527"
+       r="16.003"
+       gradientTransform="matrix(-0.9998,0.0208,-0.0166,-0.7998,244.9525,149.5433)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-right-3">
+      <stop
+         id="SvgjsStop2871-4"
+         stop-opacity="1"
+         stop-color="#e4b3ab"
+         offset="0" />
+      <stop
+         id="SvgjsStop2872-0"
+         stop-opacity="0.3"
+         stop-color="#e4b3ab"
+         offset="0.7" />
+      <stop
+         id="SvgjsStop2873-6"
+         stop-opacity="0"
+         stop-color="#f3d4cf"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="SvgjsRadialGradient2875-2"
+       cx="69.124"
+       cy="107.529"
+       r="29.525"
+       gradientTransform="matrix(-1.0336,0,0,1.0336,201.6792,1.7282)"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-eyesfront-gradient-right-4">
+      <stop
+         id="SvgjsStop2876-9"
+         stop-opacity="0"
+         stop-color="#000000"
+         offset="0.95" />
+      <stop
+         id="SvgjsStop2877-9"
+         stop-opacity="0.3"
+         stop-color="#000000"
+         offset="1" />
+    </radialGradient>
+    <linearGradient
+       id="SvgjsLinearGradient2911-1"
+       x1="99.98"
+       y1="171.27"
+       x2="99.98"
+       y2="136.351"
+       gradientUnits="userSpaceOnUse"
+       class="svga-on-canvas-chinshadow-gradient-single-0">
+      <stop
+         id="SvgjsStop2912-3"
+         stop-opacity="0.8"
+         stop-color="#e4b3ab"
+         offset="0" />
+      <stop
+         id="SvgjsStop2913-1"
+         stop-opacity="1"
+         stop-color="#c5796d"
+         offset="0.7" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1262-1">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1260-0" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1266-3">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1264-4" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1270-0">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1268-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1274-9">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1272-1" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1278-9">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1276-6" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1282-9">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1280-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1286-3">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1284-8" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1290-0">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1288-5" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1294-6">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix1292-6" />
+    </filter>
+  </defs>
+  <g
+     transform="matrix(0.89861024,0,0,0.89861024,-103.156,28.650509)"
+     id="g904"
+     style="overflow:hidden">
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-backs-single"
+       transform="scale(3)" />
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-hair-back"
+       transform="matrix(2.5499984,0,0,2.5499984,44.028828,52.135383)">
+      <path
+         id="SvgjsPath2902"
+         d="m 100.5,100.5 h -1 v -1 h 1 z"
+         stroke-width="none"
+         style="opacity:1;fill:#2a232b" />
+    </g>
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-humanbody-single"
+       transform="matrix(2.5499984,0,0,2.5499984,44.028828,52.135383)">
+      <path
+         id="SvgjsPath2893"
+         d="m 195.417,199.778 c -2.196,-4.746 -8.195,-11.779 -14.86,-13.722 -8.239,-2.403 -26.837,-5.308 -33.733,-6.923 -5.528,-1.296 -16.662,-11.294 -20.564,-14.65 -0.7,-0.6 -1.273,-1.839 -1.287,-2.76 -0.139,-10.864 4.195,-39.724 4.195,-39.724 H 100 70.833 c 0,0 4.334,28.859 4.193,39.724 -0.011,0.921 -0.587,2.16 -1.285,2.76 -3.902,3.356 -15.036,13.354 -20.564,14.65 -6.897,1.615 -25.495,4.619 -33.733,7.022 -6.667,1.942 -12.664,8.876 -14.86,13.622 -3.708,8.008 -4.584,22.5 -4.584,35 h 100 100 c 0,-12.499 -0.877,-26.991 -4.583,-34.999 z"
+         stroke-width="none"
+         style="opacity:1;fill:#f0c7b1;stroke:none" />
+      <path
+         id="SvgjsPath2894"
+         d="m 159.156,184.058 c 24.342,3.542 34.586,8.708 37.794,50.721 H 200 c 0,-12.5 -0.877,-26.992 -4.583,-35 -2.196,-4.746 -8.195,-11.779 -14.86,-13.722 -8.239,-2.403 -26.837,-5.308 -33.733,-6.923 -5.528,-1.296 -18.242,-12.069 -21.643,-16.35 3.36,4.704 12.791,15.605 21.054,18.46 3.953,1.366 7.245,1.988 12.921,2.814 z m -105.39,-2.814 c 8.263,-2.854 17.693,-13.756 21.054,-18.46 -3.4,4.28 -16.114,15.054 -21.643,16.35 -6.896,1.615 -25.494,4.619 -33.733,7.022 -6.665,1.942 -12.664,8.876 -14.86,13.622 -3.706,8.008 -4.583,22.5 -4.583,35 h 3.05 c 3.188,-41.744 13.475,-47.183 37.794,-50.721 5.675,-0.825 8.968,-1.447 12.921,-2.813 z"
+         stroke-width="none"
+         style="opacity:1;fill:#ffe4d6;stroke:none" />
+      <path
+         id="SvgjsPath2895"
+         d="m 95.646,197.62 c 0,0 -5.074,-1.609 -7.083,-2.379 -10.449,-4.009 -44.395,-6.607 -44.395,-6.607 0,0 35.754,1.419 43.644,2.779 -0.458,-4.767 -3.017,-20.004 -3.017,-20.004 0,0 5.149,16.815 6.409,21.057 0.674,2.268 4.442,5.154 4.442,5.154 z m 10.799,-1.342 c -0.089,0.073 -0.191,0.168 -0.302,0.268 0.113,-0.085 0.215,-0.174 0.302,-0.268 z m -10.799,1.342 c 0,0 2.893,2.992 4.347,3.03 1.91,0.051 4.828,-2.899 6.151,-4.104 -1.265,0.957 -4.159,1.391 -5.31,1.436 -1.33,0.051 -5.188,-0.362 -5.188,-0.362 z m 21.018,-7.519 c -1.545,0.248 -4.386,0.789 -4.386,0.789 L 114.565,176 c -0.646,3.071 -4.474,16.211 -8.12,20.278 1.91,-1.616 6.158,-2.391 8.324,-2.704 10.236,-1.484 10.232,-1.483 41.062,-4.94 0,0 -29.071,-0.155 -39.167,1.467 z"
+         stroke-width="none"
+         style="opacity:1;fill:#e1ac8f;stroke:none" />
+      <path
+         id="SvgjsPath2896"
+         d="m 195.417,199.778 c -2.196,-4.746 -8.195,-11.779 -14.86,-13.722 -8.239,-2.403 -26.837,-5.308 -33.733,-6.923 -5.528,-1.296 -16.662,-11.294 -20.564,-14.65 -0.7,-0.6 -1.273,-1.839 -1.287,-2.76 -0.139,-10.864 4.195,-39.724 4.195,-39.724 H 100 70.833 c 0,0 4.334,28.859 4.193,39.724 -0.011,0.921 -0.587,2.16 -1.285,2.76 -3.902,3.356 -15.036,13.354 -20.564,14.65 -6.897,1.615 -25.495,4.619 -33.733,7.022 -6.667,1.942 -12.664,8.876 -14.86,13.622 -3.708,8.008 -4.584,22.5 -4.584,35 h 100 100 c 0,-12.499 -0.877,-26.991 -4.583,-34.999 z"
+         style="opacity:1;fill:none;stroke:#c27b55;stroke-width:1.5" />
+    </g>
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-chinshadow-single"
+       transform="matrix(2.5499984,0,0,2.5499984,44.028828,52.135383)">
+      <path
+         id="SvgjsPath3043"
+         d="m 100.021,171.866 c 8.183,0 16.871,-4.943 24.199,-10.675 -0.001,-6.702 1.451,-19.105 2.652,-28.205 -15.382,-2.247 -38.406,-2.279 -53.766,-0.152 1.184,8.96 2.625,21.206 2.671,28.02 7.342,5.913 16.045,11.012 24.244,11.012 z"
+         style="opacity:1;fill:url(#SvgjsLinearGradient3044-2)" />
+    </g>
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-clothes-single"
+       transform="matrix(2.5499984,0,0,2.5499984,44.028828,52.135383)">
+      <path
+         id="SvgjsPath2898"
+         d="m 111.806,235.888 c -19.135,0 -41.455,-0.074 -68.233,-0.229 L 19.894,235.531 C 5.596,235.453 4.753,235.437 3.007,235.437 l -4.899,0.007 c -4.571,-41.875 14.41,-52.87 43.762,-56.708 7.789,-1.097 15.449,-3.097 21.459,-6.972 16.327,22.243 64.811,17.562 73.103,-0.629 1.39,0.53 2.539,1.215 3.977,1.734 4.666,3.433 11.072,5.836 17.628,6.199 26.008,1.441 44.419,12.996 44.057,54.64 0.003,0.165 0.004,1.175 -0.013,1.49 -12.513,0 -17.206,0.121 -27.034,0.262 -13.331,0.19 -29.923,0.427 -63.229,0.427 -0.005,0.001 -0.008,0.001 -0.012,0.001 z"
+         stroke-width="none"
+         style="opacity:1;fill:#386e77" />
+      <path
+         id="SvgjsPath2899"
+         d="m 201.055,234.64 c -0.41,-7.385 -4.064,-28.058 -10.36,-37.541 -12.482,-18.805 -42.26,-12.206 -49.132,-19.693 -4.986,10.159 -24.975,16.595 -31.594,17.54 19.181,-6.36 27.237,-10.959 30.42,-21.87 6.405,8.33 41.074,1.971 54.717,24.331 3.995,6.547 7.794,27.386 5.949,37.233 z M 55.811,177.628 c 1.357,-0.315 2.034,-1.249 3.381,-1.614 l -1.426,-1.891 c -9.049,7.052 -42.909,2.645 -54.519,24.036 -3.659,6.741 -6.127,22.788 -4.192,36.439 0.537,-8.384 0.799,-26.314 7.095,-35.798 11.324,-17.06 31.974,-12.553 47.619,-19.775 6.983,8.6 17.888,12.828 28.984,14.577 C 68.832,189.971 60.85,183.84 55.811,177.628 Z"
+         stroke-width="none"
+         style="opacity:1;fill:#4d7e86" />
+      <path
+         id="SvgjsPath2900"
+         d="m 135.31,173.244 c -5.532,11.514 -47.35,24.923 -70.93,0.879 -1.466,0.622 -5.852,2.112 -5.852,2.112 17.176,23.386 67.511,23.534 80.909,-0.114 -0.059,-0.023 -2.765,-2.185 -4.127,-2.877 z"
+         stroke-width="none"
+         style="opacity:1;fill:#265e68" />
+      <path
+         id="SvgjsPath2901"
+         d="m 136.38,171.002 c -9.413,18.822 -58.397,21.485 -73.012,0.632 -5.337,1.578 -10.469,4.941 -15.636,5.782 -30.92,4.605 -53.778,6.919 -49.732,58.136 9.94,0 -6.611,-0.065 45.571,0.215 123.59,0.71 119.562,-0.461 158.606,-0.461 0.029,-0.14 0.015,-1.452 0.021,-1.596 2.096,-56.436 -30.852,-53.104 -53.12,-56.995 -3.144,-0.718 -6.066,-2.773 -8.635,-3.945 -1.419,-0.649 -2.625,-1.232 -4.063,-1.768 z m -73.366,1.263 c 12.974,23.392 64.219,18.699 74.113,0.101 1.2,0.504 1.507,0.704 2.898,1.197 -10.248,21.489 -60.942,28.337 -81.677,1.163 0.146,-0.041 3.204,-1.913 4.666,-2.461 z m -63.859,62.513 c -2.421,-26.431 1.797,-48.043 32.78,-53.345 10.276,-1.896 16.557,-1.962 25.384,-5.794 16.763,27.405 72.098,23.158 83.598,-1.305 1.652,1.409 4.228,3.03 7.405,3.785 18.098,4.299 54.838,-0.894 52.898,56.658 -54.057,-0.702 -98.865,-2.344 -202.065,0.001 z"
+         stroke-width="none"
+         style="opacity:1;fill:#0c4049" />
+    </g>
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-ears-left"
+       transform="matrix(2.5499984,0,0,2.5499984,44.028828,52.135383)">
+      <path
+         style="opacity:1;fill:#f0c7b1;stroke:#c27b55;stroke-width:1.5"
+         d="M 45.671,84.344 C 44.186,81.882 39.344,75.145 35.64,76.09 c -3.012,0.772 -2.973,4.971 -3.206,7.455 -0.34,3.644 -0.464,9.992 0.525,12.568 0.951,2.473 3.96,7.252 5.828,9.075 2.299,2.235 5.97,9.358 6.422,10.097 0.711,1.168 2.137,2.84 4.325,2.708 3.071,-0.185 5.724,-3.087 5.965,-4.485 1.301,-7.59 -5.963,-22.758 -9.828,-29.164 z"
+         id="SvgjsPath2906" />
+      <path
+         style="opacity:1;fill:#c27b55;stroke:none"
+         stroke-width="none"
+         d="m 44.2,99.341 c -0.143,-0.563 0.007,-1.513 0.154,-2.429 0.133,-0.835 0.258,-1.624 0.182,-2.182 -0.289,-2.09 -1.915,-6.06 -2.976,-8.212 -1.223,-2.476 -3.199,-5.595 -5.679,-6.399 -1.024,-0.333 -1.699,0.065 -2.089,0.468 -0.288,0.296 -0.353,0.645 -0.259,0.687 0.095,0.041 0.307,-0.248 0.617,-0.519 0.254,-0.222 -0.508,-0.04 0,0 -0.205,1.04 -0.865,6.302 -0.41,10.143 0.358,3.022 1.05,5.279 1.263,5.617 0.031,0.356 0.083,0.705 0.16,1.043 1.002,4.41 7.518,10.177 9.034,11.82 0.28,0.303 0.574,0.483 0.646,0.409 0.072,-0.074 -0.101,-0.373 -0.379,-0.678 -1.498,-1.632 -7.971,-7.381 -8.939,-11.635 -1.027,-4.514 3.912,-11.207 4.699,-12.623 0.401,0.665 0.742,1.303 1.004,1.835 0.207,0.417 0.434,0.906 0.67,1.435 -0.463,0.738 -5.118,6.127 -3.934,10.441 0.438,1.591 3.822,3.642 5.131,4.203 0.72,0.31 0.99,0.772 1.304,1.306 0.364,0.624 0.033,2.229 1.23,2.739 0.244,0.104 0.464,0.146 0.659,0.146 0.338,0 0.594,-0.13 0.783,-0.284 0.02,0.271 0.019,0.619 0.009,0.941 -0.012,0.418 0.047,0.609 0.148,0.617 0.103,0.009 0.21,-0.174 0.223,-0.587 0.017,-0.51 0.014,-1.141 -0.077,-1.444 -0.269,-0.889 -1.088,-1.894 -1.957,-2.957 -0.854,-1.045 -0.995,-3.029 -1.217,-3.901 z m -9.231,-3.909 c -2.348,-6.923 1.283,-13.229 1.81,-14.179 1.012,0.399 2.562,2.193 3.221,3.235 -0.48,0.833 -4.933,6.287 -5.031,10.944 z m 10.803,11.032 c -1.084,-0.462 -0.706,-1.984 -1.056,-2.584 -0.318,-0.542 -0.646,-1.102 -1.479,-1.46 -0.18,-0.078 -0.379,-0.196 -0.583,-0.332 -2.682,-6.075 0.293,-8.73 1.039,-9.273 0.229,0.742 0.399,1.423 0.476,1.97 0.068,0.5 -0.059,1.298 -0.181,2.068 -0.153,0.955 -0.31,1.944 -0.147,2.584 0.244,0.953 0.411,2.97 1.291,4.048 0.781,0.956 1.583,1.942 1.857,2.746 -0.118,0.16 -0.489,0.544 -1.217,0.233 z"
+         id="SvgjsPath2907" />
+    </g>
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-ears-right"
+       transform="matrix(2.5499984,0,0,2.5499984,44.028828,52.135383)">
+      <path
+         style="opacity:1;fill:#f0c7b1;stroke:#c27b55;stroke-width:1.5"
+         d="m 154.066,84.344 c 1.486,-2.462 6.328,-9.199 10.031,-8.254 3.012,0.772 2.973,4.971 3.207,7.455 0.34,3.644 0.463,9.992 -0.525,12.568 -0.951,2.473 -3.961,7.252 -5.828,9.075 -2.299,2.235 -5.971,9.358 -6.422,10.097 -0.711,1.168 -2.137,2.84 -4.326,2.708 -3.07,-0.185 -5.723,-3.087 -5.965,-4.485 -1.3,-7.59 5.965,-22.758 9.828,-29.164 z"
+         id="SvgjsPath2908" />
+      <path
+         style="opacity:1;fill:#c27b55;stroke:none"
+         stroke-width="none"
+         d="m 154.322,103.243 c -0.869,1.063 -1.688,2.068 -1.957,2.957 -0.092,0.304 -0.094,0.935 -0.078,1.444 0.014,0.413 0.121,0.596 0.225,0.587 0.102,-0.008 0.16,-0.199 0.148,-0.617 -0.01,-0.322 -0.012,-0.67 0.008,-0.941 0.189,0.154 0.445,0.284 0.783,0.284 0.195,0 0.416,-0.042 0.66,-0.146 1.195,-0.511 0.865,-2.116 1.229,-2.739 0.314,-0.534 0.584,-0.997 1.305,-1.306 1.309,-0.561 4.693,-2.611 5.131,-4.203 1.184,-4.314 -3.471,-9.704 -3.934,-10.441 0.234,-0.529 0.463,-1.018 0.668,-1.435 0.264,-0.532 0.604,-1.171 1.006,-1.835 0.787,1.416 5.725,8.108 4.699,12.623 -0.969,4.254 -7.441,10.003 -8.939,11.635 -0.279,0.305 -0.453,0.604 -0.381,0.678 0.074,0.074 0.367,-0.106 0.646,-0.409 1.516,-1.643 8.031,-7.41 9.033,-11.82 0.078,-0.338 0.131,-0.687 0.162,-1.043 0.211,-0.337 0.904,-2.594 1.262,-5.617 0.455,-3.841 -0.205,-9.103 -0.41,-10.143 0.508,-0.04 -0.254,-0.222 0,0 0.311,0.271 0.523,0.56 0.617,0.519 0.094,-0.042 0.029,-0.39 -0.258,-0.687 -0.391,-0.403 -1.066,-0.801 -2.09,-0.468 -2.48,0.804 -4.457,3.923 -5.68,6.399 -1.061,2.152 -2.686,6.122 -2.975,8.212 -0.076,0.558 0.049,1.347 0.182,2.182 0.146,0.916 0.297,1.866 0.154,2.429 -0.222,0.871 -0.362,2.855 -1.216,3.901 z m 5.416,-18.755 c 0.66,-1.042 2.209,-2.835 3.221,-3.235 0.527,0.95 4.158,7.256 1.811,14.179 -0.098,-4.657 -4.551,-10.111 -5.032,-10.944 z m -6.988,21.741 c 0.273,-0.804 1.076,-1.79 1.857,-2.746 0.879,-1.078 1.047,-3.095 1.291,-4.048 0.162,-0.64 0.006,-1.629 -0.146,-2.584 -0.123,-0.77 -0.25,-1.568 -0.182,-2.068 0.076,-0.547 0.246,-1.228 0.475,-1.97 0.746,0.543 3.721,3.199 1.039,9.273 -0.203,0.136 -0.402,0.254 -0.584,0.332 -0.832,0.358 -1.16,0.918 -1.479,1.46 -0.35,0.6 0.029,2.123 -1.055,2.584 -0.728,0.313 -1.099,-0.071 -1.216,-0.233 z"
+         id="SvgjsPath2909" />
+    </g>
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-faceshape-wrap"
+       transform="matrix(2.5499984,0,0,2.5499984,44.028828,52.135383)">
+      <g
+         id="svga-group-faceshape-single">
+        <path
+           style="opacity:1;fill:#f0c7b1;stroke:none"
+           stroke-width="none"
+           d="m 158.785,78.006 h -0.005 c -0.01,0.046 -12.197,40.27 -15.879,52.418 -0.715,2.358 -1.931,4.551 -3.556,6.386 -6.375,7.194 -23.768,25.057 -39.324,25.057 -15.849,0 -33.591,-19.045 -39.708,-26.214 -1.442,-1.688 -2.507,-3.633 -3.172,-5.765 C 53.534,118.337 41.015,78.24 41.004,78.194 H 41.003 C 39.705,73.202 39.009,67.963 39.001,62.56 38.949,28.536 66.155,0.92 99.773,0.867 c 33.621,-0.053 60.913,27.476 60.964,61.499 0.009,5.403 -0.669,10.644 -1.952,15.64 z"
+           id="SvgjsPath3040" />
+        <path
+           style="opacity:1;fill:#e8b9a0;stroke:none"
+           stroke-width="none"
+           d="m 132.168,10.26 c 14.31,11.135 23.671,29.457 23.699,50.208 0.009,5.404 -0.615,10.645 -1.796,15.641 h -0.004 c -0.009,0.046 -11.223,40.27 -14.608,52.417 -0.658,2.358 -1.776,4.551 -3.271,6.385 -5.865,7.195 -21.866,25.059 -36.178,25.059 -14.582,0 -30.904,-19.047 -36.531,-26.215 -1.327,-1.689 -2.306,-3.633 -2.918,-5.764 C 57.243,116.439 45.725,76.342 45.715,76.296 H 45.714 C 44.52,71.304 43.88,66.065 43.872,60.662 43.843,39.835 53.22,21.423 67.585,10.25 50.392,21.159 38.967,40.508 39.001,62.56 c 0.008,5.403 0.704,10.643 2.002,15.634 h 10e-4 c 0.01,0.046 12.53,40.143 16.137,51.694 0.666,2.132 1.73,4.076 3.172,5.765 6.116,7.169 23.858,26.214 39.708,26.214 15.557,0 32.949,-17.862 39.324,-25.057 1.625,-1.835 2.841,-4.027 3.556,-6.386 3.682,-12.148 15.869,-52.372 15.879,-52.418 h 0.005 c 1.283,-4.997 1.961,-10.237 1.952,-15.641 -0.033,-21.976 -11.44,-41.23 -28.569,-52.105 z"
+           id="SvgjsPath3041" />
+        <path
+           style="opacity:1;fill:none;stroke:#c27b55;stroke-width:1.5"
+           d="m 158.785,78.006 h -0.005 c -0.01,0.046 -12.197,40.27 -15.879,52.418 -0.715,2.358 -1.931,4.551 -3.556,6.386 -6.375,7.194 -23.768,25.057 -39.324,25.057 -15.849,0 -33.591,-19.045 -39.708,-26.214 -1.442,-1.688 -2.507,-3.633 -3.172,-5.765 C 53.534,118.337 41.015,78.24 41.004,78.194 H 41.003 C 39.705,73.202 39.009,67.963 39.001,62.56 38.949,28.536 66.155,0.92 99.773,0.867 c 33.621,-0.053 60.913,27.476 60.964,61.499 0.009,5.403 -0.669,10.644 -1.952,15.64 z"
+           id="SvgjsPath3042" />
+      </g>
+    </g>
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-nose-single"
+       transform="matrix(2.5499984,0,0,2.5499984,44.028828,52.135383)">
+      <path
+         style="opacity:1;fill:#e1ac8f;stroke:none"
+         stroke-width="none"
+         d="m 91.115,115.499 c -0.878,2.064 5.934,4.292 8.519,4.429 2.8,0.147 10.646,-2.9 9.316,-4.992 -1.399,-2.195 -6.643,-0.286 -8.906,-0.286 -2.252,-0.001 -7.753,-1.905 -8.929,0.849 z"
+         id="SvgjsPath3023" />
+      <path
+         style="opacity:1;fill:#c27b55;stroke:none"
+         stroke-width="none"
+         d="m 101.857,117.058 c -0.23,-0.759 1.876,-1.584 2.657,-1.694 1.101,-0.16 3.36,0.802 3.158,1.592 -0.184,0.698 -2.148,-0.533 -2.86,-0.429 -0.734,0.107 -2.737,1.242 -2.955,0.531 z m -6.883,-0.247 c 0.968,0 2.404,0.623 2.668,0.074 0.315,-0.655 -2.139,-1.461 -2.86,-1.372 -0.596,0.07 -2.733,1.315 -2.439,1.839 0.274,0.481 1.355,-0.541 2.631,-0.541 z"
+         id="SvgjsPath3024" />
+      <path
+         style="opacity:0.2;fill:#fff5ef;stroke:none"
+         stroke-width="none"
+         d="m 100.089,111.999 c 0.607,0 1.742,-0.74 1.792,-2.23 0.201,-6.008 -0.956,-23.833 -1.792,-23.77 -0.78,0.059 -2.267,17.637 -1.948,23.77 0.079,1.502 1.263,2.23 1.948,2.23 z"
+         id="SvgjsPath3025" />
+    </g>
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-beardwrap"
+       transform="matrix(2.5499984,0,0,2.5499984,44.028828,52.135383)">
+      <g
+         id="svga-group-beard-single">
+        <path
+           style="opacity:1;fill:#2a232b"
+           stroke-width="none"
+           d="M 100,18.13 Z"
+           id="SvgjsPath3021" />
+      </g>
+    </g>
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-mustache-single"
+       transform="matrix(2.5499984,0,0,2.5499984,44.028828,52.135383)">
+      <path
+         style="opacity:1;fill:#2a232b"
+         stroke-width="none"
+         d="M 100,18.13 Z"
+         id="SvgjsPath3019" />
+    </g>
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-hair-front"
+       transform="matrix(2.5499984,0,0,2.5499984,44.028828,52.135383)">
+      <path
+         style="opacity:1;fill:#2a232b"
+         stroke-width="none"
+         d="M 158.43,41.325 C 140,-4.765 100,0.405 100,0.405 c 0,0 -40,-5.169 -58.43,40.92 -9.245,23.12 2.158,50.324 2.158,50.324 h 5.826 C 44.46,69.897 50.35,73.987 50.73,69.927 c 0.118,-1.255 -0.3,-3.367 -0.421,-4.622 -0.592,-6.112 1.982,-18.029 5.245,-23.173 1.603,-2.526 5.369,-6.659 8.174,-7.699 9.97,-3.694 20.044,0.715 22.854,1.421 4.461,1.12 22.373,1.12 26.836,0 3.343,-0.839 13.182,-4.905 22.854,-1.321 2.806,1.04 6.871,4.972 8.474,7.499 3.263,5.144 5.537,16.16 4.945,22.272 -0.121,1.255 -0.539,4.367 -0.422,5.623 0.107,1.147 2.617,3.689 2.898,4.807 1.16,4.612 -1.722,16.915 -1.722,16.915 h 5.825 c 10e-4,0 11.406,-27.204 2.16,-50.324 z"
+         id="SvgjsPath2904" />
+      <path
+         style="opacity:1;fill:#000000"
+         stroke-width="none"
+         d="M 154.938,31.163 C 136.178,-3.114 101.979,-0.631 100,-0.455 98.021,-0.631 63.823,-3.114 45.062,31.163 30.57,57.641 41.57,88.137 42.907,91.612 42.983,91.809 44.483,91.65 44.483,91.65 44.477,91.635 44.379,91.258 44.317,91.1 43.108,87.98 32.128,57.92 46.378,31.884 65.111,-2.342 99.595,1.007 99.94,1.046 l 0.06,-0.542 0.06,0.542 c 0.345,-0.039 34.829,-3.388 53.563,30.837 14.563,26.61 2.773,57.423 1.996,59.383 -0.021,0.055 -0.107,0.375 -0.111,0.383 0,0 1.506,0.169 1.575,-0.011 1.291,-3.344 12.384,-33.929 -2.145,-60.475 z"
+         id="SvgjsPath2905" />
+    </g>
+    <g
+       style="filter:url(#filter4674-8)"
+       id="svga-group-glasses-single"
+       transform="matrix(2.5499984,0,0,2.5499984,44.028828,52.135383)">
+      <path
+         style="opacity:1;fill:#26120b"
+         stroke-width="none"
+         d="M 100,18.13 Z"
+         id="SvgjsPath3012" />
+    </g>
+    <rect
+       style="display:none;opacity:0.5;fill:#ecf0f1;filter:url(#filter4674-8)"
+       y="185"
+       x="0"
+       height="15"
+       width="200"
+       id="SvgjsRect1036-7"
+       transform="scale(3)" />
+    <text
+       y="185"
+       x="100"
+       font-weight="400"
+       font-size="0.84em"
+       style="font-weight:400;font-size:10.07999992px;font-family:Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;text-anchor:middle;display:none;fill:#000000;filter:url(#filter4674-8)"
+       id="SvgjsText1037-1"
+       transform="scale(3)">
+      <tspan
+         style="font-weight:400;font-size:8.46719933px;font-family:Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;text-anchor:middle"
+         x="100"
+         dy="1.2em"
+         id="SvgjsTspan1038-7">Created on AvatarMaker.com</tspan>
+    </text>
+  </g>
+  <g
+     transform="matrix(0.88981136,0,0,0.88981136,144.05482,45.322302)"
+     id="g1171"
+     style="overflow:hidden">
+    <g
+       id="svga-group-backs-single-7"
+       transform="scale(3)"
+       style="filter:url(#filter1262-1)" />
+    <g
+       id="svga-group-hair-back-5"
+       transform="matrix(2.5499984,0,0,2.5499984,44.153025,50.728452)"
+       style="filter:url(#filter1266-3)">
+      <path
+         id="SvgjsPath2967"
+         d="m 41.279,215.266 c -0.033,-0.044 -0.063,-0.094 -0.095,-0.14 3.872,-1.418 107.984,7.4 115.031,6.323 -0.001,0.108 -0.007,0.217 -0.007,0.325 0.282,-0.064 0.24,-0.075 0.254,-0.359 0.259,-0.032 1.051,-0.167 0.027,-0.457 3.485,-63.467 43.554,-53.333 20.529,-111.343 -5.448,-13.536 -5.042,-26.26 -6.357,-42.117 -1.84,1.797 -1.238,11.106 -3.489,28.325 17.078,53.526 2.414,51.246 -11.503,76.872 -4.604,8.467 -8.295,17.095 -9.091,26.65 -22.673,-39.208 -16.05,-38.328 -6.981,-62.078 -1.56,2.201 -7.898,6.916 -13.709,8.025 14.211,-10.797 22.683,-10.831 22.98,-76.708 -13.031,-6.03 -24.886,-17.239 -32.2,-29.8 -9.476,19.65 -26.281,27.875 -47.75,31.14 -5.35,2.72 -10.92,5 -16.55,7.08 -0.476,27.679 6.753,46.579 21.26,66.64 -5.091,-3.645 -10.294,-9.649 -13.96,-14.758 4.4,8.811 10.944,16.104 9.16,31.867 -1.972,17.313 -18.629,29.105 -18.629,51.372 C 33.935,186.737 28.447,197.492 32.22,169.813 26.043,159.007 23.04,151.671 20.54,143.834 c -0.605,-0.005 -1.578,0.138 -2.133,0.204 -7.074,26.657 3.058,46.46 22.872,71.228 z"
+         stroke-width="none"
+         style="opacity:1;fill:#1b141c" />
+      <path
+         id="SvgjsPath2968"
+         d="m 142.489,227.847 h -90 V 97.24 h 90 z"
+         stroke-width="none"
+         style="opacity:1;fill:#0c080c" />
+      <path
+         id="SvgjsPath2969"
+         d="m 156.49,220.958 c 3.485,-63.467 43.554,-53.333 20.529,-111.343 -4.317,-10.726 -4.958,-20.946 -5.692,-32.615 -0.213,0 -0.427,0 -0.641,0 0.342,11.384 0.54,21.512 3.883,31.266 20.946,61.4 -17.667,48.849 -18.343,112.635 -4.423,-0.602 -111.114,-7.244 -115.042,-5.775 -14.061,-20.667 -24.449,-40.831 -22.283,-63.372 -0.668,-0.594 -1.228,-1.297 -1.759,-2.028 -4.286,23.862 5.757,42.566 24.137,65.541 -0.033,-0.044 -0.063,-0.094 -0.095,-0.14 3.872,-1.418 107.984,7.4 115.031,6.323 -0.001,0.108 -0.007,0.217 -0.007,0.325 0.282,-0.064 0.24,-0.075 0.254,-0.359 0.26,-0.033 1.052,-0.168 0.028,-0.458 z"
+         stroke-width="none"
+         style="opacity:1;fill:#000000" />
+    </g>
+    <g
+       id="svga-group-humanbody-single-3"
+       transform="matrix(2.5499984,0,0,2.5499984,44.153025,50.728452)"
+       style="filter:url(#filter1270-0)">
+      <path
+         id="SvgjsPath2761"
+         d="m 190.858,199.866 c -6.008,-10.158 -13.474,-11.973 -19.628,-13.936 -6.323,-2.016 -19.346,-3.178 -26.449,-4.6 -6.86,-1.373 -23.153,-5.789 -23.339,-13.488 -0.192,-8.066 4.291,-40.09 4.291,-40.09 H 74.005 c 0,0 4.487,32.023 4.294,40.09 -0.184,7.699 -16.48,12.115 -23.341,13.488 -7.104,1.422 -20.125,2.584 -26.448,4.6 -6.156,1.963 -13.624,3.777 -19.632,13.936 -3.644,6.16 -6.008,16.133 -6.008,27.133 h 194 c -0.001,-11 -2.361,-20.973 -6.012,-27.133 z"
+         stroke-width="none"
+         style="opacity:1;fill:#f3d4cf;stroke:none" />
+      <path
+         id="SvgjsPath2762"
+         d="m 121.442,167.843 c 2.495,10.929 18.165,13.698 26.293,15.325 21.909,4.379 33.772,5.134 42.297,19.539 2.903,4.916 5.459,15.864 5.962,24.153 1.835,0.291 0.531,-17.432 -5.136,-26.994 -9.742,-16.472 -29.089,-15.135 -46.077,-18.535 -6.86,-1.373 -23.153,-5.789 -23.339,-13.488 z m -42.884,0 c -0.186,7.699 -16.479,12.115 -23.339,13.488 -16.988,3.4 -36.335,2.063 -46.077,18.535 -5.667,9.563 -6.971,27.285 -5.136,26.994 0.503,-8.289 3.059,-19.237 5.962,-24.153 8.524,-14.405 20.388,-15.16 42.297,-19.539 8.128,-1.627 23.798,-4.397 26.293,-15.325 z"
+         stroke-width="none"
+         style="opacity:1;fill:#fff4f3;stroke:none" />
+      <path
+         id="SvgjsPath2763"
+         d="m 51.206,189.513 c 0,0 28.641,0.299 33.473,1.885 2.314,0.758 8.372,5.633 8.372,5.633 0,0 -6.556,-3.17 -8.658,-3.758 -4.883,-1.364 -33.187,-3.76 -33.187,-3.76 z m 48.589,10.486 c 2.053,-0.041 7.887,-3.799 7.887,-3.799 0,0 -5.574,2.059 -7.342,2.16 -1.491,0.086 -6.366,-1.238 -6.366,-1.238 0,0 4.138,2.91 5.821,2.877 z m 17.213,-7.242 c 6.75,-1.818 29.786,-3.23 29.786,-3.23 0,0 -23.791,-0.516 -30.51,1.725 -2.252,0.752 -7.562,5.16 -7.562,5.16 0,0 6.064,-3.058 8.286,-3.655 z"
+         stroke-width="none"
+         style="opacity:1;fill:#e4b3ab;stroke:none" />
+      <path
+         id="SvgjsPath2764"
+         d="m 190.858,199.866 c -9.741,-16.471 -29.122,-15.142 -46.077,-18.535 -6.86,-1.373 -23.153,-5.789 -23.339,-13.488 -0.192,-8.066 4.291,-40.09 4.291,-40.09 H 74.005 c 0,0 4.487,32.023 4.294,40.09 -0.184,7.699 -16.48,12.115 -23.341,13.488 -7.104,1.422 -20.125,2.584 -26.448,4.6 -6.156,1.963 -13.624,3.777 -19.632,13.936 C 5.234,206.027 2.87,216 2.87,227 h 194 c -0.001,-11.001 -2.361,-20.974 -6.012,-27.134 z"
+         style="opacity:1;fill:none;stroke:#c5796d;stroke-width:1.5" />
+    </g>
+    <g
+       id="svga-group-chinshadow-single-8"
+       transform="matrix(2.5499984,0,0,2.5499984,44.153025,50.728452)"
+       style="filter:url(#filter1274-9)">
+      <path
+         id="SvgjsPath2910"
+         d="m 100.021,171.27 c 5.607,-0.009 13.53,-3.627 20.967,-8.478 0.485,-6.84 1.756,-17.341 2.758,-25.098 -13.972,-1.825 -33.828,-1.785 -47.741,0.101 0.995,7.702 2.249,18.065 2.739,24.877 7.534,4.921 15.6,8.607 21.277,8.598 z"
+         style="opacity:1;fill:url(#SvgjsLinearGradient2911-1)" />
+    </g>
+    <g
+       id="svga-group-clothes-single-8"
+       transform="matrix(2.5499984,0,0,2.5499984,44.153025,50.728452)"
+       style="filter:url(#filter1278-9)">
+      <path
+         id="SvgjsPath2766"
+         d="m 110.139,228.889 c -17.864,0 -38.7,-0.069 -63.699,-0.213 l -22.105,-0.12 C 10.987,228.484 8.334,228.469 6.704,228.469 l -4.573,0.006 c 0.032,-40.523 20.015,-43.334 41.17,-46.313 7.271,-1.023 14.789,-2.082 21.584,-4.733 8.525,11.975 21.924,13.591 33.912,13.591 0.667,0 1.341,-0.006 2.016,-0.017 12.668,-0.285 27.552,-4.774 32.317,-14.161 0.614,0.234 1.186,0.504 1.738,0.766 0.621,0.293 1.263,0.597 1.974,0.854 4.65,1.684 10.432,2.48 16.552,3.324 20.011,2.76 44.916,6.193 44.578,45.069 0.003,0.154 0.004,1.097 -0.012,1.392 -11.682,0 -19.607,0.113 -28.782,0.244 -12.445,0.178 -27.935,0.398 -59.027,0.398 -0.006,0 -0.009,0 -0.012,0 z"
+         stroke-width="none"
+         style="opacity:1;fill:#09aac5" />
+      <path
+         id="SvgjsPath2767"
+         d="m 197.869,226.999 c -2.027,-5.485 -0.96,-15.439 -6.837,-24.292 -11.653,-17.556 -33.322,-15.948 -53.227,-21.639 -4.204,8.565 -12.24,13.539 -21.429,16.39 l -0.016,-0.047 c 9.016,-3.198 16.683,-8.066 21.003,-16.475 -0.501,-0.146 -1.001,-0.292 -1.499,-0.448 l 0.956,-1.836 c 24.187,7.439 43.709,2.062 55.037,21.214 3.652,6.16 6.012,16.133 6.012,27.133 z M 57.233,182.344 c 1.267,-0.294 2.53,-0.607 3.788,-0.948 l -1.332,-1.765 c -23.343,6.027 -40.887,2.21 -51.548,20.235 -3.65,6.16 -6.011,16.133 -6.011,27.133 2.027,-5.485 0.96,-15.439 6.837,-24.292 10.571,-15.926 29.385,-16.085 47.646,-20.225 6.519,8.028 16.042,13.7 26.402,15.333 -12.995,-3.39 -21.077,-9.672 -25.782,-15.471 z"
+         stroke-width="none"
+         style="opacity:1;fill:#1fbad4" />
+      <path
+         id="SvgjsPath2768"
+         d="m 132.08,178.811 c -4.996,7.702 -18.542,12.955 -33.907,12.955 -15.182,0 -27.706,-5.206 -33.5,-13.926 l -0.044,-0.065 1.235,1.856 c -1.369,0.581 -4.817,1.748 -4.817,1.748 l -1.446,-1.86 0.089,0.117 c 0.271,0.354 0.553,0.736 0.851,1.14 4.359,5.904 11.656,15.785 36.296,15.785 2.162,0 4.443,-0.079 6.78,-0.235 16.303,-1.168 26.873,-6.359 32.244,-15.839 -0.055,-0.023 -2.509,-1.031 -3.781,-1.676 z"
+         stroke-width="none"
+         style="opacity:1;fill:#009cb6" />
+      <path
+         id="SvgjsPath2769"
+         d="m 133.079,176.717 c -5.041,10.081 -21.03,13.934 -32.27,14.187 -14.635,0.228 -27.563,-1.841 -35.89,-13.597 -26.368,10.344 -62.89,-3.587 -62.89,51.269 9.28,0 -4.304,-0.062 44.41,0.2 115.375,0.663 115.16,-0.43 151.61,-0.43 0.027,-0.131 0.023,-1.356 0.021,-1.49 0.44,-50.604 -41.021,-41.186 -61.195,-48.488 -1.371,-0.497 -2.453,-1.15 -3.796,-1.651 z m -68.49,1.179 c 13.809,20.776 60.199,16.511 68.44,-0.561 1.12,0.471 2.34,0.94 3.64,1.4 -3.904,8.186 -12.275,16.001 -33.06,17.49 -32.014,2.134 -39.41,-10.844 -43.84,-16.65 0.136,-0.038 3.456,-1.168 4.82,-1.679 z m -62.42,50.509 c 2.5,-22.877 4.756,-39.219 32.69,-44.068 9.593,-1.77 14.509,-1.939 24.83,-4.731 7.873,10.792 15.739,18.518 44.7,17.3 21.37,-2.377 28.569,-9.619 32.461,-18.1 26.52,8.347 59.285,-0.172 60.88,49.38 -50.465,-0.657 -99.22,-1.97 -195.561,0.219 z"
+         stroke-width="none"
+         style="opacity:1;fill:#008197" />
+    </g>
+    <g
+       style="display:none"
+       id="svga-group-ears-left-3"
+       transform="matrix(2.5499984,0,0,2.5499984,44.153025,50.728452)">
+      <path
+         style="opacity:1;fill:#f3d4cf;stroke:#c5796d;stroke-width:1.5"
+         d="m 47.001,83.974 c -1.376,-2.313 -5.638,-7.997 -9.98,-6.603 -2.749,0.882 -3.293,3.765 -3.735,6.311 -0.588,3.386 0.471,10.083 1.389,12.503 0.881,2.325 3.533,6.816 5.264,8.527 2.13,2.1 4.775,8.793 5.194,9.487 0.66,1.097 1.536,2.745 4.122,2.538 2.853,-0.229 4.584,-1.742 5.856,-1.999 3.142,-0.629 -4.529,-24.743 -8.11,-30.764 z"
+         id="SvgjsPath2774" />
+      <path
+         style="opacity:1;fill:#c5796d;stroke:none"
+         stroke-width="none"
+         d="m 44.197,97.997 c -0.132,-0.548 0.007,-1.47 0.142,-2.362 0.124,-0.812 0.24,-1.579 0.169,-2.121 -0.267,-2.032 -1.773,-5.893 -2.757,-7.985 -1.132,-2.407 -2.963,-5.439 -5.262,-6.221 -0.95,-0.324 -1.575,0.063 -1.938,0.456 -0.266,0.289 -0.325,0.627 -0.238,0.667 0.086,0.04 0.285,-0.24 0.572,-0.504 0.235,-0.216 0.579,-0.402 1.051,-0.363 -0.19,1.011 -1.167,6.49 -0.744,10.225 0.333,2.938 1.593,5.131 1.79,5.46 0.029,0.346 0.077,0.685 0.148,1.014 0.929,4.287 4.971,9.163 6.378,10.758 0.259,0.295 0.531,0.47 0.598,0.398 0.066,-0.072 -0.094,-0.364 -0.353,-0.66 -1.388,-1.585 -5.391,-6.442 -6.289,-10.579 -0.952,-4.389 2.318,-10.896 3.048,-12.272 0.371,0.646 0.687,1.267 0.93,1.785 0.19,0.406 0.402,0.881 0.619,1.395 -0.429,0.718 -3.434,5.958 -2.338,10.153 0.406,1.546 2.235,3.54 3.447,4.086 0.667,0.301 0.919,0.75 1.209,1.271 0.336,0.604 0.718,1.288 1.828,1.784 0.225,0.102 0.429,0.142 0.61,0.142 0.313,0 0.551,-0.126 0.725,-0.276 0.018,0.266 0.017,0.604 0.009,0.917 -0.012,0.404 0.042,0.737 0.137,0.745 0.094,0.008 0.196,-0.313 0.207,-0.717 0.016,-0.496 0.013,-1.11 -0.072,-1.403 -0.248,-0.865 -1.008,-1.841 -1.813,-2.875 -0.789,-1.019 -1.607,-2.071 -1.813,-2.918 z M 36.95,94.196 c -2.177,-6.731 0.656,-12.54 1.144,-13.464 0.85,0.775 1.6,1.811 2.21,2.824 -0.444,0.809 -3.263,6.113 -3.354,10.64 z m 9.391,9.846 c -1.004,-0.447 -1.339,-1.051 -1.666,-1.633 -0.293,-0.527 -0.598,-1.072 -1.369,-1.42 -0.168,-0.075 -0.352,-0.191 -0.542,-0.323 -2.486,-5.906 0.272,-8.488 0.963,-9.017 0.211,0.722 0.369,1.384 0.439,1.915 0.063,0.488 -0.052,1.263 -0.167,2.012 -0.142,0.929 -0.286,1.89 -0.137,2.512 0.226,0.926 1.069,2.009 1.884,3.057 0.723,0.929 1.466,1.888 1.721,2.67 -0.108,0.157 -0.45,0.53 -1.126,0.227 z"
+         id="SvgjsPath2775" />
+    </g>
+    <g
+       style="display:none"
+       id="svga-group-ears-right-1"
+       transform="matrix(2.5499984,0,0,2.5499984,44.153025,50.728452)">
+      <path
+         style="opacity:1;fill:#f3d4cf;stroke:#c5796d;stroke-width:1.5"
+         d="m 152.736,83.974 c 1.377,-2.313 5.639,-7.997 9.98,-6.603 2.75,0.882 3.293,3.765 3.736,6.311 0.588,3.386 -0.471,10.083 -1.389,12.503 -0.881,2.325 -3.533,6.816 -5.266,8.527 -2.129,2.1 -4.775,8.793 -5.193,9.487 -0.658,1.097 -1.535,2.745 -4.121,2.538 -2.854,-0.229 -4.584,-1.742 -5.857,-1.999 -3.142,-0.629 4.53,-24.743 8.11,-30.764 z"
+         id="SvgjsPath2776" />
+      <path
+         style="opacity:1;fill:#c5796d;stroke:none"
+         stroke-width="none"
+         d="m 153.727,100.913 c -0.805,1.033 -1.564,2.009 -1.813,2.875 -0.086,0.293 -0.088,0.907 -0.072,1.403 0.012,0.404 0.113,0.725 0.207,0.717 0.094,-0.008 0.148,-0.341 0.137,-0.745 -0.008,-0.313 -0.008,-0.651 0.01,-0.917 0.174,0.15 0.412,0.276 0.725,0.276 0.182,0 0.385,-0.04 0.609,-0.142 1.109,-0.496 1.492,-1.18 1.828,-1.784 0.289,-0.52 0.543,-0.969 1.209,-1.271 1.213,-0.546 3.041,-2.54 3.447,-4.086 1.096,-4.194 -1.908,-9.435 -2.338,-10.153 0.217,-0.513 0.43,-0.988 0.619,-1.395 0.244,-0.518 0.559,-1.139 0.93,-1.785 0.73,1.377 4,7.883 3.049,12.272 -0.896,4.137 -4.9,8.994 -6.289,10.579 -0.258,0.296 -0.418,0.588 -0.352,0.66 0.066,0.071 0.338,-0.104 0.598,-0.398 1.406,-1.596 5.449,-6.471 6.379,-10.758 0.07,-0.329 0.117,-0.668 0.146,-1.014 0.197,-0.329 1.459,-2.523 1.791,-5.46 0.422,-3.735 -0.555,-9.214 -0.744,-10.225 0.473,-0.039 0.814,0.146 1.051,0.363 0.287,0.264 0.486,0.544 0.572,0.504 0.086,-0.04 0.027,-0.378 -0.238,-0.667 -0.363,-0.393 -0.988,-0.779 -1.938,-0.456 -2.299,0.782 -4.131,3.814 -5.262,6.221 -0.984,2.093 -2.49,5.953 -2.758,7.985 -0.072,0.542 0.045,1.309 0.17,2.121 0.135,0.892 0.273,1.814 0.141,2.362 -0.205,0.849 -1.023,1.901 -1.814,2.918 z m 5.707,-17.358 c 0.611,-1.013 1.361,-2.049 2.211,-2.824 0.488,0.925 3.32,6.733 1.145,13.464 -0.093,-4.526 -2.911,-9.83 -3.356,-10.64 z m -7.164,20.261 c 0.254,-0.782 0.998,-1.741 1.721,-2.67 0.816,-1.048 1.658,-2.131 1.885,-3.057 0.148,-0.622 0.004,-1.583 -0.137,-2.512 -0.115,-0.749 -0.23,-1.524 -0.166,-2.012 0.068,-0.531 0.227,-1.193 0.438,-1.915 0.691,0.529 3.449,3.111 0.965,9.017 -0.191,0.132 -0.375,0.248 -0.543,0.323 -0.771,0.348 -1.074,0.893 -1.369,1.42 -0.326,0.582 -0.662,1.186 -1.666,1.633 -0.677,0.302 -1.019,-0.071 -1.128,-0.227 z"
+         id="SvgjsPath2777" />
+    </g>
+    <g
+       id="svga-group-faceshape-wrap-8"
+       transform="matrix(2.5499984,0,0,2.5499984,44.153025,50.728452)"
+       style="filter:url(#filter1282-9)">
+      <g
+         id="svga-group-faceshape-single-9">
+        <path
+           style="opacity:1;fill:#f3d4cf;stroke:none"
+           stroke-width="none"
+           d="m 158.785,76.762 h -0.005 c -0.012,0.053 -10.717,44.373 -18.919,56.95 -6.452,9.895 -28.166,25.54 -39.84,25.558 C 88.35,159.29 66.584,143.711 60.103,133.837 51.861,121.285 41.017,77 41.005,76.946 H 41.004 C 39.706,72.035 39.01,66.88 39.002,61.564 38.949,28.09 66.155,0.919 99.773,0.867 c 33.621,-0.052 60.913,27.033 60.964,60.507 0.009,5.316 -0.669,10.472 -1.952,15.388 z"
+           id="SvgjsPath2907-6" />
+        <path
+           style="opacity:1;fill:#ebc3bd;stroke:none"
+           stroke-width="none"
+           d="m 125.766,6.622 c 19.104,10.248 32.075,30.355 32.039,53.476 -0.009,5.316 -0.704,10.471 -2.003,15.382 h -0.001 c -0.012,0.053 -10.856,44.339 -19.099,56.891 -5.946,9.061 -24.555,25.121 -36.833,25.121 -12.279,0 -30.886,-16.061 -36.833,-25.121 C 54.794,119.819 43.95,75.534 43.938,75.48 H 43.937 C 42.639,70.569 41.943,65.414 41.935,60.098 41.898,36.977 54.87,16.87 73.972,6.622 53.277,16.324 38.963,37.28 39.001,61.564 c 0.008,5.316 0.704,10.471 2.002,15.382 h 10e-4 c 0.012,0.053 10.856,44.339 19.098,56.891 4.416,6.728 15.922,16.095 26.5,21.382 -0.529,-0.226 -1.062,-0.466 -1.599,-0.717 5.408,2.875 10.664,4.763 14.713,4.768 0.049,0 0.103,-0.005 0.152,-0.005 0.049,0 0.103,0.005 0.152,0.005 4.049,-0.005 9.305,-1.893 14.714,-4.768 -0.538,0.253 -1.071,0.491 -1.601,0.718 10.577,-5.287 22.085,-14.655 26.501,-21.383 8.242,-12.552 19.087,-56.837 19.098,-56.891 h 0.002 c 1.298,-4.911 1.994,-10.066 2.002,-15.382 0.039,-24.284 -14.274,-45.24 -34.97,-54.942 z"
+           id="SvgjsPath2908-4" />
+        <path
+           style="opacity:1;fill:none;stroke:#c5796d;stroke-width:1.5"
+           d="m 158.785,76.762 h -0.005 c -0.012,0.053 -10.717,44.373 -18.919,56.95 -6.452,9.895 -28.166,25.54 -39.84,25.558 C 88.35,159.29 66.584,143.711 60.103,133.837 51.861,121.285 41.017,77 41.005,76.946 H 41.004 C 39.706,72.035 39.01,66.88 39.002,61.564 38.949,28.09 66.155,0.919 99.773,0.867 c 33.621,-0.052 60.913,27.033 60.964,60.507 0.009,5.316 -0.669,10.472 -1.952,15.388 z"
+           id="SvgjsPath2909-3" />
+      </g>
+    </g>
+    <g
+       id="svga-group-hair-front-3"
+       transform="matrix(2.5499984,0,0,2.5499984,44.153025,50.728452)"
+       style="filter:url(#filter1286-3)">
+      <path
+         style="opacity:0.1;fill:#2a232b"
+         stroke-width="none"
+         d="M 51.396,214.38 C 35.673,189.275 30.075,199.47 33.724,171.923 28.515,162.512 24.349,153.153 21.533,143.099 15.935,121.618 21.665,107.834 26.675,92.151 21.889,26.813 59.341,-9.001 100.71,-9.001 c 32.28,0 67.16,23.47 67.471,75.221 -0.514,9.459 -1.932,25.343 -3.003,32.165 17.769,55.029 2.501,50.649 -11.07,76.357 -3.681,6.968 -8.012,17.267 -8.919,27.573 -18.66,-33.246 -16.96,-38.325 -10.676,-53.39 7.504,-17.985 4.547,-4.07 -10.03,-2.422 13.563,-10.49 22.717,-10.462 23.003,-75.823 0.001,-0.039 -0.021,-0.075 -0.054,-0.091 -12.352,-5.881 -24.037,-17.006 -31.256,-29.76 -0.018,-0.031 -0.047,-0.05 -0.082,-0.05 -10e-4,0 -0.003,0 -0.003,0 -0.037,10e-4 -0.07,0.023 -0.085,0.057 C 107.671,58.623 93.38,68.21 69.67,71.92 c -4.629,2.417 -9.738,4.666 -16.104,7.085 -0.037,0.014 -0.063,0.051 -0.063,0.092 -0.428,25.658 5.466,43.881 20.327,65.193 -7.085,-3.254 -12.746,-12.711 -12.746,-12.711 -0.355,0 2.484,4.965 2.662,5.281 19.809,35.294 -12.119,46.623 -12.35,77.52 z"
+         id="SvgjsPath2971" />
+      <path
+         style="opacity:1;fill:#2a232b"
+         stroke-width="none"
+         d="m 50.101,212.286 c -16.177,-25.105 -21.937,-14.91 -18.182,-42.457 -5.36,-9.411 -9.647,-18.77 -12.543,-28.824 -5.76,-21.481 0.135,-35.265 5.29,-50.948 -4.925,-65.337 33.609,-101.152 76.175,-101.152 33.21,0 69.099,23.47 69.419,75.221 -0.527,9.459 -1.984,25.343 -3.089,32.165 18.283,55.029 2.573,50.649 -11.39,76.357 -3.789,6.968 -8.242,17.267 -9.175,27.573 -19.202,-33.246 -17.451,-38.325 -10.984,-53.39 7.718,-17.985 2.953,-4.116 -10.321,-1.223 13.954,-10.49 23.373,-11.661 23.668,-77.022 0.001,-0.039 -0.022,-0.075 -0.058,-0.091 -12.709,-5.881 -24.729,-17.006 -32.156,-29.76 -0.018,-0.031 -0.051,-0.05 -0.086,-0.05 -10e-4,0 -0.003,0 -0.004,0 -0.037,10e-4 -0.07,0.023 -0.086,0.057 -8.577,17.787 -23.281,27.374 -47.675,31.084 -4.764,2.417 -10.02,4.666 -16.569,7.085 -0.039,0.014 -0.064,0.051 -0.065,0.092 -0.441,25.657 5.624,44.881 20.914,66.193 -7.322,-5.419 -13.113,-13.711 -13.113,-13.711 -0.366,0 2.556,4.965 2.738,5.281 20.38,35.295 -12.471,46.624 -12.708,77.52 z"
+         id="SvgjsPath2972" />
+      <path
+         style="opacity:1;fill:#1b141c"
+         stroke-width="none"
+         d="M 27.34,109.853 C 26.589,102.124 14.664,52.402 44.121,15.991 30.129,43.148 26.056,79.801 27.34,109.853 Z M 167.521,94.041 c 4.414,-30.432 5.609,-63.063 -19.443,-86.74 12.375,24.191 21.013,41.89 19.443,86.74 z M 143.14,22.856 c -2.382,11.089 1.711,25.652 3.052,35.713 C 139.202,52.934 135.036,45 130.23,33.973 c 1.055,6.228 3.485,17.428 16.972,31.263 -21.798,-19.468 -26.475,-29.291 -22.914,-52.455 -0.198,0.877 -0.389,1.705 -0.573,2.49 C 124.192,12.729 124.628,9.983 125,7 121.799,25 97.883,57.049 77.939,63.902 c -3.01,3.013 -5.737,3.154 -8.993,5.917 27.231,-4.152 44.396,-19.706 48.078,-30.866 7.436,12.238 20.931,23.546 33.167,29.331 1.848,-16.192 -4,-26.142 -7.051,-45.428 z m -41.604,0.713 c -9,15 -14.354,24.5 -28.354,33.5 4.545,-3.637 7.687,-9.667 9.531,-14.927 C 77.203,50.297 68.565,55.381 61,62 68.516,53.732 78.645,42.142 85.036,31.069 78.594,39.651 68.223,46.406 59,54.069 66.256,48.04 72,40.402 76,32.402 73.225,36.102 68.138,38.861 62,45 70.972,33.034 71.88,27.516 74.419,22.595 68.203,33.069 62.764,36.701 56.625,41.89 52.404,59.592 52.164,67.278 51.369,77.003 51.33,77.472 68.482,70.04 68.904,69.826 c 0.014,-0.002 0.028,-0.005 0.042,-0.007 15.992,-13.57 22.556,-27.725 32.59,-46.25 z M 60,137 c 2.788,11.151 1.226,21.095 -2.464,32.735 -0.488,-10.761 -8.475,-21.806 -14.417,-31.462 1.364,20.726 3.566,30.364 0.083,46.129 -1.866,-28.597 -7.833,-38.269 -16.583,-59.417 -3.527,13.393 -2.659,30.866 5.299,44.844 -3.755,27.547 2.005,17.352 18.182,42.457 0.238,-30.896 33.088,-42.226 12.707,-77.52 -0.183,-0.316 -3.104,-5.281 -2.738,-5.281 0,0 5.792,8.292 13.113,13.711 C 50.949,118.985 45.119,88.485 44.482,55.485 39.495,95.233 54,117 60,137 Z m 109.126,-35.544 c 0.865,16.928 5.439,38.169 -9.257,51.947 6,-10 3.131,-23.403 0.131,-33.403 0.376,26.762 -10.812,42.834 -13.809,60.402 -0.456,-8.086 -2.304,-17.859 1.473,-31.015 -3.663,6.402 -7.795,13.848 -9.388,22.723 -5.241,-9.827 -2.367,-17.266 -0.533,-26.834 7.778,-8.19 13.157,-23.839 14.294,-33.894 -0.935,8.266 -6.287,20.703 -12.478,25.897 -0.001,0.009 -0.536,1.809 -1.124,3.782 0.044,-0.333 0.086,-0.668 0.125,-1.008 -8.928,21.01 -13.345,23.131 8.046,60.166 0.845,-9.357 4.724,-19.388 9.175,-27.573 13.455,-24.772 28.62,-22.169 13.345,-71.19 z"
+         id="SvgjsPath2973" />
+      <path
+         style="opacity:1;fill:#3a353a"
+         stroke-width="none"
+         d="m 155.339,79.777 c 4.269,-17.414 -2.295,-44.215 -5.664,-49.444 5.253,8.148 12.299,30.132 5.664,49.444 z m 4.102,7.922 c 0.458,-2.363 14.095,-28.735 -8.994,-65.914 20.885,38.017 9.458,63.518 8.994,65.914 z M 34.086,55.382 c 1,-0.447 7.361,-47.259 48.429,-56.088 C 39.446,6.883 35.086,54.937 34.086,55.382 Z m 5.67,44.385 C 39.732,98.764 31.604,52.384 54.447,22.663 27.996,53.967 39.732,98.767 39.756,99.767 Z m 3.257,31.389 c -1.428,-1.897 -13.106,-33.317 -7.671,-69.134 -10.056,37.562 6.919,68.134 7.671,69.134 z M 153.395,30.807 c -1,-0.295 -13.057,-35.017 -37.847,-31.593 21.684,-1.229 36.847,31.295 37.847,31.593 z m -20.632,17.99 c 0,0 -9.419,-14.771 -6.004,-39.082 -3.152,14.84 -2.821,25.098 6.004,39.082 z m 2.661,-11.495 c 2.568,7.16 8.104,14.888 9.026,15.499 -1.001,-0.663 -9.66,-13.341 -11.684,-34.227 0.18,6.269 0.518,12.76 2.658,18.728 z M 88.142,57.415 C 96.135,49.645 113.978,42.012 124.115,5.041 113.238,39.193 96.597,49.196 88.142,57.415 Z m 0.025,-30.406 c 6.991,-6.677 9.494,-13.522 9.407,-19.946 -0.716,6.447 -4.207,14.98 -9.407,19.946 z m -10.021,3.329 c 0.377,-0.013 1.333,-1.137 1.603,-1.373 C 87.726,22.006 91.374,16.384 92.137,6.729 90.966,17.738 79.148,30.304 78.146,30.338 Z m -1.343,-1.979 c 0,0 8.23,-9.662 11.186,-23.308 -3.13,10.887 -11.186,23.308 -11.186,23.308 z m -20.4,125.376 c 0.581,-1 1.925,-20.274 -7.62,-28.24 6.005,6.094 8.2,27.239 7.62,28.24 z m 0.017,-0.01 c -0.46,-7.765 -7.55,-13.918 -8.99,-23.647 0.536,12.408 8.195,16.828 8.99,23.647 z m -15.325,6.677 c -0.959,-2.241 3.723,-12.528 -10.313,-34.283 11.433,20.579 9.851,33.203 10.313,34.283 z m 0.02,-1.321 c -1.186,-4.379 0.906,-13.748 -4.325,-28.989 2.734,10.111 2.791,23.317 4.325,28.989 z m 108.909,-27.792 c -4.108,8.074 -12.523,13.667 -10.338,33.775 -0.201,-1.853 0.16,-3.941 0.305,-5.79 1.957,-24.953 8.672,-5.729 16.046,-52.242 -1.784,7.138 -3.142,18.616 -6.013,24.257 z m -2.295,36.44 c 0.371,-1.456 0.345,-3.097 0.603,-4.586 2.182,-12.614 6.991,-19.381 7.411,-39.744 -0.962,16.481 -8.222,30.106 -8.014,44.33 z m 17.378,-26.702 c 0.469,-3.128 6.825,-7.942 1.996,-32.945 2.746,25.659 -1.535,29.869 -1.996,32.945 z m 0.001,0.031 c 0.438,-1 3.109,-17.928 -3.651,-30.616 4.719,10.273 4.09,29.616 3.651,30.616 z"
+         id="SvgjsPath2974" />
+      <path
+         style="opacity:1;fill:#000000"
+         stroke-width="none"
+         d="m 18.901,151.753 c 0.248,-2.574 0.649,-5.177 1.238,-7.817 2.5,7.838 5.503,15.074 11.68,25.88 -3.773,27.679 2.116,17.422 18.38,42.81 0,-22.267 17.058,-34.558 19.03,-51.87 1.784,-15.764 -4.759,-22.359 -9.16,-31.17 3.666,5.108 8.469,10.416 13.56,14.061 -14.507,-20.062 -21.735,-38.961 -21.26,-66.64 5.63,-2.08 11.2,-4.36 16.55,-7.08 21.469,-3.266 38.274,-11.49 47.75,-31.14 7.314,12.562 19.169,23.77 32.2,29.8 -0.298,65.876 -9.77,66.413 -23.98,77.209 5.811,-1.109 12.751,-5.729 14.311,-7.93 -9.068,23.75 -15.193,23.472 7.479,62.68 0.796,-9.556 4.586,-19.383 9.19,-27.85 13.917,-25.626 29.741,-22.284 11.45,-77.29 1.544,-9.539 2.827,-18.686 3,-27.83 0.175,3.245 0.276,6.377 0.367,9.425 0.214,0 0.428,0 0.641,0 -0.257,-4.086 -0.525,-8.347 -0.968,-12.875 -0.657,-106.408 -155.465,-102.179 -145.79,25.9 -5.227,15.913 -11.063,29.484 -5.29,50.95 -0.926,3.002 -1.626,5.909 -2.137,8.749 0.532,0.731 1.091,1.434 1.759,2.028 z m 6.058,-57.468 c 0.095,1 3.72,27.654 1.32,8.13 -17.743,-144.346 166.257,-154.346 139.86,-0.519 -1.794,10.454 -0.768,5.549 0.961,-5.12 17.259,58.25 -3.75,45.563 -18.32,87.37 -1.37,3.939 -2.34,9 -2.74,13.13 -21.623,-38.089 -11.207,-41.533 -5.64,-60.7 6.599,-7.292 10.615,-15.871 11.71,-26.52 -2.591,17.989 -14.384,30.05 -24.181,34.06 5.116,-3.371 10.438,-6.975 13.601,-12.39 2.034,-2.136 11.762,-26.173 8.12,-72.03 -1.673,-20.141 -8.437,-26.107 -6.931,-34.66 -1.396,6.717 2.429,11.257 4.71,25.08 1.055,6.458 1.431,15.847 1.431,17.57 -10.923,-5.965 -24.91,-18.89 -31.76,-29.79 4.461,-9.145 6.782,-23.075 8.6,-31.87 -5.416,22.088 -9.213,52.515 -53.76,62.3 7.232,-3.953 22.987,-12.243 39.25,-45.36 0.02,-0.01 0.029,-0.02 0.029,-0.04 8.711,-17.095 0.602,-2.034 -0.09,-0.8 -0.013,-0.026 -0.01,-0.103 -0.01,0.01 -20.156,36.093 -36.387,45.333 -58.75,54.6 0.01,-0.68 0.02,-1.36 0.05,-2.04 27.481,-8.941 44.618,-41.674 39.07,-33.58 -8.877,13.02 -24.155,28.015 -39.06,33.34 0.017,-1 0.183,-4.32 0.46,-7.14 19.215,-13.644 23.448,-20.838 30.89,-33.8 0.556,-0.979 1.037,-1.813 1.454,-2.526 -4.483,6.824 -16.303,23.2 -32.294,35.725 0.44,-4.62 1.1,-9.22 1.89,-13.79 0.921,-1.218 8.834,-7.552 15.32,-20.74 3.094,-6.249 4.27,-9.59 4.27,-9.59 -0.871,1.578 -6.035,13.404 -19.31,28.78 2.19,-12.138 5.188,-23.076 8.57,-35.03 -5.756,17.895 -11.357,37.272 -13.01,56.8 -0.488,1 -1.416,37.987 17.235,63.969 -28.77,-30.95 -24.066,-68.987 -23.885,-81.719 -0.09,0 -0.75,10.35 -0.8,11.05 -3.867,51.415 25.597,63.853 24,90.61 -1.172,19.548 -17.347,30.422 -17.49,53.89 -12.637,-21.956 -19.809,-15.55 -16.85,-39.3 0.077,-1 1.134,-8.253 0.08,-15.33 -1.696,-11.256 -4.121,-14.498 -3.766,-16.86 -0.269,1.428 0.351,2.886 1.417,6.7 1.909,6.668 2.163,15.704 1.33,22.73 -16.523,-32.548 -14.211,-49.843 -6.981,-74.6 z"
+         id="SvgjsPath2975" />
+    </g>
+    <g
+       id="svga-group-nose-single-3"
+       transform="matrix(2.5499984,0,0,2.5499984,44.153025,50.728452)"
+       style="filter:url(#filter1290-0)">
+      <path
+         style="opacity:1;fill:#e4b3ab;stroke:none"
+         stroke-width="none"
+         d="m 92.281,116.235 c -0.745,2.063 5.028,4.289 7.218,4.426 2.374,0.147 9.024,-2.899 7.896,-4.991 -1.185,-2.197 -5.63,-0.286 -7.547,-0.286 -1.908,0 -6.572,-1.905 -7.567,0.851 z"
+         id="SvgjsPath2890" />
+      <path
+         style="opacity:1;fill:#c5796d;stroke:none"
+         stroke-width="none"
+         d="m 102.207,117.221 c -0.243,-0.522 1.194,-1.333 1.748,-1.493 0.777,-0.226 2.505,0.238 2.438,0.831 -0.06,0.521 -1.603,-0.169 -2.105,-0.022 -0.521,0.15 -1.853,1.175 -2.081,0.684 z m -6.993,-0.479 c 0.706,0 1.753,0.457 1.945,0.057 0.229,-0.479 -1.56,-1.065 -2.086,-1 -0.434,0.052 -1.991,0.958 -1.777,1.338 0.2,0.353 0.988,-0.395 1.918,-0.395 z"
+         id="SvgjsPath2891" />
+      <path
+         style="opacity:0.2;fill:#ffffff;stroke:none"
+         stroke-width="none"
+         d="m 99.857,113.479 c 0.669,0 1.807,-0.637 1.978,-1.9 0.754,-5.575 -0.521,-20.246 -1.978,-20.246 -1.365,0 -2.508,15.024 -2.155,20.246 0.087,1.281 1.397,1.9 2.155,1.9"
+         id="SvgjsPath2892" />
+    </g>
+    <g
+       id="svga-group-glasses-single-8"
+       transform="matrix(2.5499984,0,0,2.5499984,44.153025,50.728452)"
+       style="filter:url(#filter1294-6)">
+      <path
+         style="opacity:1;fill:#26120b"
+         stroke-width="none"
+         d="M 100,18.13 Z"
+         id="SvgjsPath2880" />
+    </g>
+    <rect
+       style="display:none;opacity:0.5;fill:#ecf0f1;stroke-width:3"
+       y="555"
+       x="0"
+       height="45"
+       width="600"
+       id="SvgjsRect1033" />
+    <text
+       y="555"
+       x="300"
+       font-weight="400"
+       font-size="0.84em"
+       style="font-weight:400;font-size:30.23999977px;font-family:Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;text-anchor:middle;display:none;fill:#000000;stroke-width:3"
+       id="SvgjsText1034">
+      <tspan
+         style="font-weight:400;font-size:25.40159798px;font-family:Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;text-anchor:middle;stroke-width:3"
+         x="300"
+         dy="43.200001"
+         id="SvgjsTspan1035">Created on AvatarMaker.com</tspan>
+    </text>
+  </g>
+</svg>

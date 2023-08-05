@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xml:lang="${locale_name}" lang="${locale_name}">
+  <head>
+    <meta charset="utf-8"/>
+    <title>${subject}</title>
+  </head>
+  <body>
+      <strong>${_('Hello ${n},', {'n': first_name or last_name})}</strong>
+  </body>
+</html>
