@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xml:lang="${request.locale_name}" lang="${request.locale_name}">
+<head>
+  <meta charset="utf-8"/>
+  <title>${title}</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+
+  <link rel="stylesheet" href="${theme}/css/chrysalio.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" metal:define-slot="css" href="" tal:omit-tag=""/>
+  <link rel="stylesheet" href="${theme}/css+/theme.css" type="text/css" media="screen"
+        tal:condition="theme_has(request, 'css+')"/>
+
+  <script src="${theme}/js/js.cookie.js"></script>
+  <script src="${theme}/js/jquery.js"></script>
+  <script src="${theme}/js/chrysalio.js"></script>
+  <script metal:define-slot="js" tal:omit-tag=""></script>
+  <script src="${theme}/js+/theme.js"
+          tal:condition="theme_has(request, 'js+')"></script>
+</head>
+<body id="cio${page_id}">
+  <!-- ============================== Container =========================== -->
+  <div id="cioContainer">
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Text ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <section id="cioLoginText" class="cioFlexItem">
+      <img src="${theme}/custom/login_logo.png" alt="Chrysalio"/>
+      <h1>${_('Welcome to ${t}', {'t': title})}</h1>
+    </section>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Form ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <section id="cioLoginForm" class="cioFlexItem">
+      ${form.begin()}
+      <div>
+        <h2>${_('Log in')}</h2>
+        ${form.hidden('next')}
+        ${form.grid_text('login', _('Identifier'), placeholder=_('Your identifier'))}
+        ${form.grid_password('password', _('Password'), placeholder=_('Your password'))}
+        <div class="cioRemember">
+          ${form.custom_checkbox('remember')}
+          <label for="remember">${_('Remember me')}</label>
+        </div>
+        <div tal:define="flash load: flash.macro.pt" metal:use-macro="flash"/>
+        <div class="cioSubmit">${form.submit('submit', _('Log in'), class_='cioButton')}</div>
+      </div>
+      <div class="cioExtra">
+        <a href="${route('user_password_forgot')}">${_('Forgot password?')}</a>
+      </div>
+      ${form.end()}
+    </section>
+  </div>
+
+  <!-- ================================ Footer ============================ -->
+  <footer id="cioFooter" class="cioFlexRowContainer">
+    <div class="cioFlexItem cioLogo">
+      <a href="http://docs.chrysal.io" title="${_('Chrysalio')}"><img src="${theme}/custom/chrysalio_logo.png" alt="Chrysalio"/></a>
+    </div>
+    <div class="cioFlexItem cioVersion">${request.registry.settings.get('site.version', request.registry['version'])}</div>
+    <div class="cioFlexItem cioPyramid">
+      <a href="https://trypyramid.com" title="${_('Powered by Pyramid')}"><img src="${theme}/images/pyramid.png" alt="Pyramid" height="24" width="24"/></a>
+    </div>
+  </footer>
+
+  <!-- ==================================================================== -->
+</body>
+</html>

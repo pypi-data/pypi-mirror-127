@@ -1,0 +1,19 @@
+<div metal:define-macro="picture_edit" tal:omit-tag=""
+     xmlns:tal="http://xml.zope.org/namespaces/tal"
+     xmlns:metal="http://xml.zope.org/namespaces/metal">
+  <div class="cioPicture" tal:switch="action == 'pct?.x'">
+    <div tal:case="True" tal:omit-tag="">
+      ${form.upload('picture')}
+      ${form.submit('pct!.x', _('Import picture'), class_='cioButton cioButtonSmall')}
+      ${form.submit_cancel(_('Cancel'), theme+'/images/action_cancel.png')}
+    </div>
+    <div tal:case="False" tal:omit-tag="">
+      <span>
+        ${form.upload('picture', class_='cioHidden')}
+        ${form.submit_image('pct?.x', _('Update picture'),
+          theme+'/images/action_edit.png', class_='cioInputFile')}
+      </span>
+      <img src="${picture}" alt="${_('Picture')}"/>
+    </div>
+  </div>
+</div>

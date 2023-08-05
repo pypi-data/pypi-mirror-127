@@ -1,0 +1,55 @@
+<metal:main use-macro="load: ${layout}"
+            xmlns:tal="http://xml.zope.org/namespaces/tal"
+            xmlns:metal="http://xml.zope.org/namespaces/metal">
+
+  <div metal:fill-slot="form_begin" tal:omit-tag="">
+    ${form.begin(multipart=True)}
+  </div>
+
+  <div id="cioContainer" metal:fill-slot="container">
+    <!-- ................................ Flash ........................... -->
+    <div tal:define="flash load: flash_snackbar.macro.pt"
+         metal:use-macro="flash"/>
+
+    <div id="cioContent" class="cioFlexRowContainer">
+      <!-- ............................... Backup ......................... -->
+      <div class="cioTabsetSheet cioFlexColumnContainer">
+        <h2>${_('Backup')}</h2>
+        <div class="cioFlexItem">
+          <p>
+            ${_('Use this option if you want to get all configuration as file.')}
+          </p>
+        </div>
+        ${form.submit('bck!.x', _('Download a backup'), class_='cioButton')}
+      </div>
+
+      <!-- ............................... Restore ........................ -->
+      <div class="cioTabsetSheet cioFlexColumnContainer">
+        <h2>${_('Restore')}</h2>
+        <div class="cioFlexItem">
+          <p>
+            ${_('Use this option to restore your configuration from a backup file.')}
+          </p>
+          <p id="cioReset">
+            ${form.custom_checkbox('reset')} ${_('Deleting the old configuration')}
+          </p>
+        </div>
+        <div  tal:switch="action == 'rst?'" tal:omit-tag="">
+          <div tal:case="True" tal:omit-tag="">
+            ${form.upload('file')}
+            ${form.submit('rst!.x', _('Restore a backup'), class_='cioButton')}
+          </div>
+          <div tal:case="False" tal:omit-tag="">
+            <div class="cioProgress cioHidden" >
+              <div class="cioBar"></div><div class="cioPercent">0%</div>
+            </div>
+            ${form.upload('file', data_max_size=download_max_size, class_='cioHidden')}
+            ${form.submit('rst?.x', _('Restore a backup'), class_='cioButton cioInputFile')}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div metal:fill-slot="form_end" tal:omit-tag="">${form.end()}</div>
+</metal:main>

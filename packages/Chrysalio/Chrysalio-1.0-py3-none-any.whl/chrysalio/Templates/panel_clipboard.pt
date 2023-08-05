@@ -1,0 +1,28 @@
+<aside xmlns:tal="http://xml.zope.org/namespaces/tal"
+       id="cioPanel-${panel.uid}" data-uid="${panel.uid}"
+       class="cioPanel${' cioWasOpen' if panel.was_open(request) else ''}">
+  <div class="cioClose cioFlexRowContainer">
+    <h2 class="cioFlexItem">
+      <img src="${theme}${panel.icon}" alt="${panel.uid}"/> ${panel.label}
+    </h2>
+    <a href="${panel.route(request)}" title="${_('Close panel')}">
+      <img src="${theme}/images/close.png" alt="close"/>
+    </a>
+  </div>
+  <div tal:switch="panel.is_empty(request)" tal:omit-tag="">
+    <h3 tal:case="True">
+      ${_('The clipboard is empty.')}
+    </h3>
+    <ul tal:case="False">
+      <li tal:repeat="entry panel.entries(request)" class="cioFlexRowContainer">
+        <div>
+          ${form.custom_checkbox(
+            '{0}{1}'.format(PANEL_ITEM_PREFIX, repeat.entry.index))}
+        </div>
+        <div tal:attributes="class 'cioCut' if entry[1] else None">
+          ${entry[3]}
+        </div>
+      </li>
+    </ul>
+  </div>
+</aside>

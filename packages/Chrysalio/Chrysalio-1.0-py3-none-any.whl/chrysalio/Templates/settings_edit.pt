@@ -1,0 +1,34 @@
+<metal:main use-macro="load: ${layout}"
+            xmlns:tal="http://xml.zope.org/namespaces/tal"
+            xmlns:metal="http://xml.zope.org/namespaces/metal">
+
+  <div metal:fill-slot="form_begin" tal:omit-tag="">${form.begin()}</div>
+
+  <!-- .............................. Main Buttons ........................ -->
+  <div id="cioMainButtons" metal:fill-slot="main_buttons">
+    ${form.submit('sav!.x', _('Save'))}
+    ${form.button(route('settings_view'), _('Cancel'))}
+  </div>
+
+  <div id="cioContainer" metal:fill-slot="container">
+    <!-- ............................... Flash ............................ -->
+    <div tal:define="flash load: flash_snackbar.macro.pt"
+         metal:use-macro="flash"/>
+
+    <div id="cioContent">
+      <!-- .............................. Sheet ........................... -->
+      <section class="cioTabsetSheet">
+        <h2>${_('General Settings')}</h2>
+        ${tabset.begin()}
+        <div tal:repeat="tab tabset.tabs" tal:omit-tag="">
+          ${tab.begin()}
+          ${dbsettings.tab4edit(request, tab.index, form)}
+          ${tab.end()}
+        </div>
+        ${tabset.end()}
+      </section>
+    </div>
+  </div>
+
+  <div metal:fill-slot="form_end" tal:omit-tag="">${form.end()}</div>
+</metal:main>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Not well-formed -->
+<chrysalio version="1.0">
+  <user>
+    <login>user1</login>
+    <password>user1pwd</password>
+    <firstname>Marc</firstname>
+    <lastname>HINDÉLAIBILE</lastname>
+    <email>user1@chrysal.io</email>
+  </users>
+</chrysalio>

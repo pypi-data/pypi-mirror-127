@@ -1,0 +1,46 @@
+<metal:main use-macro="load: ${layout}"
+            xmlns:tal="http://xml.zope.org/namespaces/tal"
+            xmlns:metal="http://xml.zope.org/namespaces/metal">
+
+  <div metal:fill-slot="form_begin" tal:omit-tag="">
+    ${form.begin(multipart=True)}
+  </div>
+
+  <!-- .............................. Main Buttons ........................ -->
+  <div id="cioMainButtons" metal:fill-slot="main_buttons"
+       tal:switch="action == 'imp?'">
+    <div tal:case="True" tal:omit-tag="">
+      ${form.upload('file')}
+      ${form.submit('imp!.x', _('Import file'), class_='cioButton cioButtonSmall')}
+      ${form.submit_cancel(_('Cancel'), theme+'/images/action_cancel.png')}
+    </div>
+    <div tal:case="False" tal:omit-tag="">
+      <div tal:condition="creation" tal:omit-tag="">
+        ${form.upload('file', class_='cioHidden')}
+        ${form.submit('imp?.x', _('Import'), class_='cioButton cioInputFile')}
+      </div>
+      ${form.submit('sav!.x', _('Save'))}
+      <div tal:condition="not creation" tal:omit-tag="">
+        ${form.button(route('cioldap_view'), _('Cancel'))}
+      </div>
+    </div>
+  </div>
+
+  <div id="cioContainer" metal:fill-slot="container">
+    <!-- ............................... Flash ............................ -->
+    <div tal:define="flash load: ../../../Templates/flash_snackbar.macro.pt"
+         metal:use-macro="flash"/>
+
+    <div id="cioContent">
+      <!-- .............................. Sheet ........................... -->
+      <section class="cioTabsetSheet">
+        <h2>${_('CioLDAP Module Configuration')}</h2>
+        <div class="cioTabContent">
+          ${dbldap.sheet4edit(request, form, profile_labels)}
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div metal:fill-slot="form_end" tal:omit-tag="">${form.end()}</div>
+</metal:main>

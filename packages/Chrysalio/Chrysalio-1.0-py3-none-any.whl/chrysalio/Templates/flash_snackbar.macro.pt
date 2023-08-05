@@ -1,0 +1,16 @@
+<div metal:define-macro="flash" tal:omit-tag=""
+     xmlns:tal="http://xml.zope.org/namespaces/tal"
+     xmlns:metal="http://xml.zope.org/namespaces/metal">
+  <div id="cioFlashPersistent"
+       tal:condition="request.session.peek_flash('persistent')">
+    <div tal:repeat="message request.session.pop_flash('persistent')">${message}</div>
+  </div>
+  <div id="cioFlashSnackbar"
+       tal:condition="request.session.peek_flash()">
+    <div tal:repeat="message request.session.pop_flash()">${message}</div>
+  </div>
+  <div id="cioFlashAlertSnackbar"
+       tal:condition="request.session.peek_flash('alert')">
+    <div tal:repeat="message request.session.pop_flash('alert')">${message}</div>
+  </div>
+</div>

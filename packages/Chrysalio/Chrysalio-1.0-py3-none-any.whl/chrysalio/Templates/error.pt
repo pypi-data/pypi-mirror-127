@@ -1,0 +1,14 @@
+<metal:main use-macro="load: ${layout}"
+            xmlns:tal="http://xml.zope.org/namespaces/tal"
+            xmlns:metal="http://xml.zope.org/namespaces/metal">
+  <div id="cioContainer" class="cioHttpException" metal:fill-slot="container">
+    <div class="status status${status}">
+      <h1>${title}</h1>
+      <div><strong>${message}</strong></div>
+    </div>
+    <div class="cioBack">
+      <a href="${request.breadcrumbs.current_path()}"
+         class="cioButton">${_('Back')}</a>
+    </div>
+  </div>
+</metal:main>

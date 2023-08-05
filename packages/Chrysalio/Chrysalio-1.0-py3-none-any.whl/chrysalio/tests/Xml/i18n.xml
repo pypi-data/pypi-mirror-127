@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chrysalio version="1.0">
+  <profile id="user_profile_manager">
+    <label xml:lang="en">Profile Manager</label>
+    <label xml:lang="fr">Gestionnaire des profils</label>
+  </profile>
+</chrysalio>

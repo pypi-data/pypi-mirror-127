@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: Chrysalio
+Version: 1.0
+Summary: SDK to build Pyramid Web site with user management
+Home-page: https://docs.chrysal.io
+Author: Patrick PIERRE
+Author-email: patrick.pierre@lap2.fr
+License: UNKNOWN
+Keywords: web wsgi pylons pyramid Chrysalio
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Framework :: Pyramid
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Requires-Dist: future
+Requires-Dist: pyramid (>=1.10)
+Requires-Dist: pyramid-beaker
+Requires-Dist: pyramid-retry
+Requires-Dist: pyramid-tm
+Requires-Dist: pyramid-chameleon
+Requires-Dist: pyramid-debugtoolbar
+Requires-Dist: SQLAlchemy
+Requires-Dist: zope.sqlalchemy
+Requires-Dist: lxml
+Requires-Dist: bcrypt
+Requires-Dist: pycryptodome
+Requires-Dist: colander
+Requires-Dist: WebHelpers2
+Requires-Dist: docutils
+Requires-Dist: pytz
+Requires-Dist: gitpython
+Requires-Dist: ldap3
+Requires-Dist: Babel
+Requires-Dist: waitress
+Provides-Extra: development
+Requires-Dist: ldap3 (>=2.2) ; extra == 'development'
+Requires-Dist: WebTest (>=2.0) ; extra == 'development'
+Requires-Dist: testfixtures ; extra == 'development'
+Requires-Dist: flake8 ; extra == 'development'
+Requires-Dist: pytest (>=3.7.4) ; extra == 'development'
+Requires-Dist: pytest-flake8 ; extra == 'development'
+Requires-Dist: pytest-cov ; extra == 'development'
+Requires-Dist: tox ; extra == 'development'
+Requires-Dist: Sphinx ; extra == 'development'
+Requires-Dist: sphinx-rtd-theme ; extra == 'development'
+Requires-Dist: pylint ; extra == 'development'
+Requires-Dist: twine ; extra == 'development'
+Provides-Extra: documentation
+Requires-Dist: Sphinx ; extra == 'documentation'
+Requires-Dist: sphinx-rtd-theme ; extra == 'documentation'
+Provides-Extra: modules
+Requires-Dist: ldap3 (>=2.2) ; extra == 'modules'
+Provides-Extra: testing
+Requires-Dist: ldap3 (>=2.2) ; extra == 'testing'
+Requires-Dist: WebTest (>=2.0) ; extra == 'testing'
+Requires-Dist: testfixtures ; extra == 'testing'
+Requires-Dist: flake8 ; extra == 'testing'
+Requires-Dist: pytest (>=3.7.4) ; extra == 'testing'
+Requires-Dist: pytest-flake8 ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: tox ; extra == 'testing'
+
+Chrysalio README
+================
+
+Getting Started
+---------------
+
+.. code-block:: bash
+
+    $ cd <directory containing this file>
+    $ source $VENV/bin/activate
+    (virtualenv)$ pip install -e .
+    (virtualenv)$ ciopopulate development.ini
+    (virtualenv)$ pserve development.ini
+
+
+Testing the Application
+-----------------------
+
+.. code-block:: bash
+
+    (virtualenv)$ pip install -e ".[testing]"
+    (virtualenv)$ py.test --pep8 --last-failed -v --cov --cov-report=term-missing
+
+
+Developping the Application
+---------------------------
+
+.. code-block:: bash
+
+    (virtualenv)$ pip install -e ".[development]"
+
+..
+   Creating a new Chrysalio Project
+   --------------------------------
+
+   (virtualenv)$ pcreate -s chrysalio_project MyProject
+
+   Creating a new Chrysalio Theme
+   ------------------------------
+
+   (virtualenv)$ pcreate -s chrysalio_theme MyTheme
+
+
+Generating Localization Files
+-----------------------------
+
+.. code-block:: bash
+
+    (virtualenv)$ ./i18n.sh
+
+
+CHANGES
+=======
+
+1.0 (2017-10-02)
+----------------
+
+- Initial version
+
+

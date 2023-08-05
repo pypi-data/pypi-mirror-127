@@ -1,0 +1,76 @@
+<metal:main use-macro="load: ${layout}"
+            xmlns:tal="http://xml.zope.org/namespaces/tal"
+            xmlns:metal="http://xml.zope.org/namespaces/metal">
+  <div id="cioContainer" metal:fill-slot="container">
+    <section>
+      <h2>${_('Welcome to ${t}', {'t': title})}</h2>
+
+      <div tal:condition="request.has_permission('warehouse-view') and
+                          'modules_off' in request.registry and
+                          'ciowarehouse' in request.registry['modules'] and
+                          'ciowarehouse' not in request.registry['modules_off']">
+        ${button(
+          route('home', _query={'route': 'warehouse_index', 'mode': 'warehouse'}),
+          _('Warehouse Access'))}
+      </div>
+
+      <div tal:condition="request.has_permission('dashboard-view') and
+                          'modules_off' in request.registry and
+                          'ciodashboard' in request.registry['modules'] and
+                          'ciodashboard' not in request.registry['modules_off']">
+        ${button(
+          route('home', _query={'route': 'dashboard_index', 'mode': 'dashboard'}),
+          _('Dashboard Access'))}
+      </div>
+
+      <div tal:condition="request.has_permission('job-view') and
+                          'modules_off' in request.registry and
+                          'cioservice' in request.registry['modules'] and
+                          'cioservice' not in request.registry['modules_off']">
+        ${button(
+          route('home', _query={'route': 'job_index', 'mode': 'job'}),
+          _('Job Access'))}
+      </div>
+
+      <div tal:condition="request.has_permission('bone-view') and
+                          'modules_off' in request.registry and
+                          'chrysalio.modules.cioskeleton' in request.registry['modules'] and
+                          'chrysalio.modules.cioskeleton' not in request.registry['modules_off']">
+        ${button(
+          route('home', _query={'route': 'bone_index', 'mode': 'skeleton'}),
+          _('Skeleton Access'))}
+      </div>
+
+      <div tal:condition="request.has_permission('group-view')">
+        ${button(
+          route('home', _query={'route': 'group_index', 'mode': 'admin'}),
+          _('User Group Management'))}
+      </div>
+
+      <div tal:condition="request.has_permission('user-view')">
+        ${button(
+          route('home', _query={'route': 'user_index', 'mode': 'admin'}),
+          _('User Management'))}
+      </div>
+
+      <div tal:condition="request.has_permission('profile-view')">
+        ${button(
+          route('home', _query={'route': 'profile_index', 'mode': 'admin'}),
+          _('Profile Management'))}
+      </div>
+
+      <div tal:condition="'modules' in request.registry and
+                          request.has_permission('modules-view')">
+        ${button(
+          route('home', _query={'route': 'modules_view', 'mode': 'admin'}),
+          _('Modules Management'))}
+      </div>
+
+      <div tal:condition="request.has_permission('settings-view')">
+        ${button(
+          route('home', _query={'route': 'settings_view', 'mode': 'admin'}),
+          _('General Settings Management'))}
+      </div>
+     </section>
+  </div>
+</metal:main>

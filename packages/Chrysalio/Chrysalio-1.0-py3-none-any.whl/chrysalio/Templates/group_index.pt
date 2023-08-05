@@ -1,0 +1,170 @@
+<metal:main use-macro="load: ${layout}"
+            xmlns:tal="http://xml.zope.org/namespaces/tal"
+            xmlns:metal="http://xml.zope.org/namespaces/metal">
+
+  <link metal:fill-slot="css" tal:omit-tag="">
+    <link rel="stylesheet" href="${theme}/css/jquery-ui.css"
+          type="text/css" media="screen"/>
+  </link>
+
+  <script metal:fill-slot="js" tal:omit-tag="">
+    <script src="${theme}/js/jquery-ui.js"></script>
+    <script src="${theme}/js/chrysalio-filter.js"></script>
+  </script>
+
+  <div metal:fill-slot="form_begin" tal:omit-tag="">
+    ${form.begin(request.current_route_path(_anchor='current'), multipart=True)}
+    ${form.default_button('filter')}
+  </div>
+
+  <!-- .............................. Main Buttons ........................ -->
+  <div id="cioMainButtons" metal:fill-slot="main_buttons"
+       tal:condition="i_creator" tal:switch="action == 'imp?'">
+    <div tal:case="True" tal:omit-tag="">
+      ${form.upload('file', multiple="multiple")}
+      ${form.submit('imp!.x', _('Import file'), class_='cioButton cioButtonSmall')}
+      ${form.submit_cancel(_('Cancel'), theme+'/images/action_cancel.png')}
+    </div>
+    <div tal:case="False" tal:omit-tag="">
+      <div class="cioProgress cioHidden" >
+        <div class="cioBar"></div><div class="cioPercent">0%</div>
+      </div>
+      ${form.upload('file', multiple="multiple", data_max_size=download_max_size,
+        class_='cioHidden')}
+      ${form.submit('imp?.x', _('Import'), class_='cioButton cioInputFile')}
+      ${form.button(route('group_create', _anchor='tab0'), label=_('Create'))}
+    </div>
+  </div>
+
+  <div id="cioContainer" metal:fill-slot="container">
+    <!-- ............................... Flash ............................ -->
+    <div tal:define="flash load: flash_snackbar.macro.pt"
+         metal:use-macro="flash"/>
+
+    <div id="cioContent">
+      <!-- .............................. List ............................ -->
+      <div class="cioPagingList" tal:condition="paging.display == 'list'">
+        <div class="cioSticky">
+          <div tal:define="paging_filter load: paging_filter.macro.pt"
+               metal:use-macro="paging_filter"/>
+        </div>
+
+        <table>
+          <caption>${_('Groups')}</caption>
+          <thead>
+            <tr>
+              <th class="cioCheckbox" id="check_all"></th>
+              <th>${paging.sortable_column(_('Identifier'), 'group_id')}</th>
+              <th>${_('Label')}</th>
+              <th class="cioOptional">${_('Description')}</th>
+              <th class="cioActions" tal:switch="i_creator and action == 'del?#'">
+                <span tal:case="True" tal:omit-tag="">
+                  ${form.submit('del!#.x',
+                    _('Confirm the deletion of ${n} group(s)', {'n': len(items)}),
+                    class_='cioButton cioButtonSmall cioButtonAlert')}
+                  ${form.submit_cancel(_('Cancel'), theme+'/images/action_cancel.png')}
+                </span>
+                <span tal:case="False" tal:condition="not action" tal:omit-tag="">
+                  ${form.submit_image('exp!#', _('Export selected groups'),
+                    theme+'/images/action_export.png')}
+                  <span tal:condition="i_creator" tal:omit-tag="">
+                    ${form.submit_image('del?#', _('Delete selected groups'),
+                      theme+'/images/action_delete.png')}
+                  </span>
+                </span>
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr tal:repeat="dbgroup paging">
+              <td class="cioCheckbox cioSelect">
+                ${form.custom_checkbox('#{0}'.format(dbgroup.group_id))}
+              </td>
+              <td>
+                <a href="${route('group_view', group_id=dbgroup.group_id)}">
+                  ${dbgroup.group_id}
+                </a>
+              </td>
+              <td>
+                <a href="${route('group_view', group_id=dbgroup.group_id)}">
+                  ${dbgroup.label(request)}
+                </a>
+              </td>
+              <td class="cioOptional">
+                ${dbgroup.description(request)}
+              </td>
+              <td class="cioActions">
+                ${form.submit_image('exp!{0}'.format(dbgroup.group_id), _('Export group'),
+                  theme+'/images/action_export_one.png')}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- .............................. Cards ........................... -->
+      <div class="cioPagingCards" tal:condition="paging.display == 'cards'">
+        <div class="cioSticky">
+          <div tal:define="paging_filter load: paging_filter.macro.pt"
+               metal:use-macro="paging_filter"/>
+
+          <div class="cioPagingBar cioFlexRowContainer">
+            <div class="cioPagingSort cioFlexItem">
+              <span class="cioCheckbox" id="check_all"></span>
+              ${paging.sortable_column(_('Identifier'), 'group_id')}
+            </div>
+            <div class="cioActions" tal:switch="i_creator and action == 'del?#'">
+              <span tal:case="True" tal:omit-tag="">
+                ${form.submit('del!#.x',
+                  _('Confirm the deletion of ${n} group(s)', {'n': len(items)}),
+                  class_='cioButton cioButtonSmall cioButtonAlert')}
+                ${form.submit_cancel(_('Cancel'), theme+'/images/action_cancel.png')}
+              </span>
+              <span tal:case="False" tal:condition="not action" tal:omit-tag="">
+                ${form.submit_image('exp!#', _('Export selected groups'),
+                  theme+'/images/action_export.png')}
+                <span tal:condition="i_creator" tal:omit-tag="">
+                  ${form.submit_image('del?#', _('Delete selected groups'),
+                    theme+'/images/action_delete.png')}
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <ul class="cioPagingCardsArea cioFlexRowContainer${has_attachments and ' cioAttachments' or ''}">
+          <li tal:repeat="dbgroup paging" class="cioPagingCard cioFlexColumnContainer">
+            <div class="cioFlexItem cioFlexColumnContainer">
+              <a href="${route('group_view', group_id=dbgroup.group_id)}" class="cioFlexItem">
+                <div tal:condition="has_attachments" class="cioPagingCardPicture">
+                  <img src="${attachment_url(request, dbgroup.attachments_dir, dbgroup.attachments_key, dbgroup.picture) \
+                            or theme+'/images/group_picture.svg'}"
+                       alt="picture"/>
+                </div>
+                <div class="cioPagingCardTitle">
+                  ${dbgroup.label(request)}
+                </div>
+                <div class="cioPagingCardSubtitle">${dbgroup.group_id}</div>
+                <div class="cioPagingCardDescription">
+                  ${dbgroup.description(request)}
+                </div>
+              </a>
+              <div class="cioActions cioFlexRowContainer">
+                <div class="cioFlexItem">
+                  ${form.submit_image('exp!{0}'.format(dbgroup.group_id), _('Export group'),
+                    theme+'/images/action_export_one.png')}
+                </div>
+                <div class="cioSelect">
+                  ${form.custom_checkbox('#{0}'.format(dbgroup.group_id))}
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div metal:fill-slot="form_end" tal:omit-tag="">${form.end()}</div>
+</metal:main>
