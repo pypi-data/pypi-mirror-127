@@ -1,0 +1,12 @@
+geopandas
+shapely
+rasterio
+python-igraph
+
+[dev]
+affine
+black
+nbstripout
+numpy
+pytest
+pytest-cov
