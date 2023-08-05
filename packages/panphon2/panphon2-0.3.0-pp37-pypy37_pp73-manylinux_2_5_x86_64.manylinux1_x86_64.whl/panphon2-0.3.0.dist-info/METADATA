@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: panphon2
+Version: 0.3.0
+Classifier: Programming Language :: Rust
+Classifier: Operating System :: POSIX :: Linux
