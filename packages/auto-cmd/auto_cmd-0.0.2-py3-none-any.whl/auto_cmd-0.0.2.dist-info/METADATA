@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: auto-cmd
+Version: 0.0.2
+Summary: Cross-platform CLI tools and HTTP RPC server for desktop automation.
+Home-page: UNKNOWN
+Author: link89
+Author-email: xuweihong.cn@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: fire
+Requires-Dist: fastapi
+Requires-Dist: pynput
+Requires-Dist: UISoup
+Requires-Dist: uvicorn
+Requires-Dist: pytesseract
+Requires-Dist: Pillow
+Requires-Dist: pyvirtualcam
+Requires-Dist: numpy
+Requires-Dist: pyobjc-framework-Quartz
+
+Cross-platform CLI tools and HTTP RPC server for desktop automation.
+

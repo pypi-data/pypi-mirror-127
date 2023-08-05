@@ -1,0 +1,13 @@
+auto_cmd/__init__.py,sha256=SVx21MuFUg9LeZHbxv1vSBs_6YQId6xGB8W5IEOumQA,253
+auto_cmd/cli.py,sha256=D6TrAjUYz1Bz8ami9oC0c2oc6NU8m9WZlH1D8QeuaBk,111
+auto_cmd/core.py,sha256=76JmTzBKd6z0Yysw5VGVN1scWEh8CXSxT0oHYCuIW1k,9633
+auto_cmd/http_server.py,sha256=Sg4HM01gfegZpbhG54ZV4LE_4s4zTZeopMyirYk2Uyg,548
+auto_cmd/mac.py,sha256=gmwL9RSiPWwVk7pBM_SQy1O70jqODoxfXLA7MjGtidM,66
+auto_cmd/utils.py,sha256=nf-DJ_VmWKFQCbnjZScUrZF9aScg6xEst5rT88zYWjg,87
+auto_cmd/win.py,sha256=VkK0zI0TKCwU_O3HiZ-bNEw2xu4Pui64NpX7X53Drto,62
+auto_cmd/res/__init__.py,sha256=ggfKXgJsGNO03-aMNGahPnCNngwAkXPkUzyjECspZ7o,102
+auto_cmd-0.0.2.dist-info/METADATA,sha256=BCIdvvEts498mNY_jIoWJMofG0FhLPHcignc5gq96uQ,862
+auto_cmd-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+auto_cmd-0.0.2.dist-info/entry_points.txt,sha256=MWO3Amt8lcyTD0ObVVAPlJbVUf_M5joK_-thai8jbHg,90
+auto_cmd-0.0.2.dist-info/top_level.txt,sha256=e3aQFnfWkPliWgAFaXZxlIvndqCmFLzRJ8iWAbrXt5c,9
+auto_cmd-0.0.2.dist-info/RECORD,,
