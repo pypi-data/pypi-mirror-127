@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/litvar/__init__.py
+src/litvar/core.py
+src/litvar/utils.py
+src/litvarpy.egg-info/PKG-INFO
+src/litvarpy.egg-info/SOURCES.txt
+src/litvarpy.egg-info/dependency_links.txt
+src/litvarpy.egg-info/requires.txt
+src/litvarpy.egg-info/top_level.txt
