@@ -1,0 +1,6 @@
+pathlib
+typing
+PyGithub
+
+[test]
+pytest
