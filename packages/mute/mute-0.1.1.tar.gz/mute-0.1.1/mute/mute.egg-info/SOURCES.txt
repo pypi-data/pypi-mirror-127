@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+mute/_version.py
+mute/mute.egg-info/PKG-INFO
+mute/mute.egg-info/SOURCES.txt
+mute/mute.egg-info/dependency_links.txt
+mute/mute.egg-info/requires.txt
+mute/mute.egg-info/top_level.txt
