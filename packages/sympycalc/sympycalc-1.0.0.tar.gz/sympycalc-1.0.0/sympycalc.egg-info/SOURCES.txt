@@ -1,0 +1,10 @@
+setup.py
+src/__init__.py
+src/sympycalc.py
+sympycalc.egg-info/PKG-INFO
+sympycalc.egg-info/SOURCES.txt
+sympycalc.egg-info/dependency_links.txt
+sympycalc.egg-info/entry_points.txt
+sympycalc.egg-info/not-zip-safe
+sympycalc.egg-info/requires.txt
+sympycalc.egg-info/top_level.txt

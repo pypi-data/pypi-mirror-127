@@ -1,0 +1,4 @@
+[console_scripts]
+pc = src.sympycalc:main
+sympycalc = src.sympycalc:main
+

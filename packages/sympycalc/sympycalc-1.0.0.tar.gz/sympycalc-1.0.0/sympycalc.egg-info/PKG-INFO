@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sympycalc
+Version: 1.0.0
+Summary: Simple commandline calculator
+Home-page: UNKNOWN
+Author: Harish PVV
+Author-email: harishpvv@gmail.com
+License: MIT
+Description: Simple commandline calculator
+Keywords: calculator commandline terminal harishpvv
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
