@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pytrackunit
+Version: 0.0.3
+Summary: A small example package
+Home-page: https://github.com/einsteinmaster/TrackUnitPython
+Author: Marius Schlüter
+Author-email: themrslue@googlemail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/einsteinmaster/TrackUnitPython/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: requests
+
+# TrackUnitPython
+Python API for Trackunit
+
+
+![example workflow](https://github.com/einsteinmaster/TrackUnitPython/actions/workflows/test.yml/badge.svg)
+
+![example workflow](https://github.com/einsteinmaster/TrackUnitPython/actions/workflows/pylint.yml/badge.svg)
+
+![example workflow](https://github.com/einsteinmaster/TrackUnitPython/actions/workflows/python-publish.yml/badge.svg)
+
+
