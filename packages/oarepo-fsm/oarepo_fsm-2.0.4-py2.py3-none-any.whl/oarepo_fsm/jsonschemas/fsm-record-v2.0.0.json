@@ -1,0 +1,21 @@
+{
+  "definitions": {
+    "FSMRecord": {
+      "title": "OARepoFSM fields v2.0.0",
+      "type": "object",
+      "properties": {
+        "oarepo:recordStatus": {
+          "type": "string",
+          "enum": [
+            "editing",
+            "pending-approval",
+            "approved",
+            "published",
+            "deleted"
+          ],
+          "description": "Field representing the current FSM status of the record"
+        }
+      }
+    }
+  }
+}
