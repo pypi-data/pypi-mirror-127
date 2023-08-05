@@ -1,0 +1,14 @@
+htruc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+htruc/catalog.py,sha256=Pk_RWqriRBywa647DUg2kfzlWhzu4dzZjUxuby8qBVQ,4104
+htruc/cli.py,sha256=kKdXCqhqTDu1zdOOCwv_FMycB3NsXOm5mkEZOr1KqkA,5801
+htruc/utils.py,sha256=N4CJCK0-X3NHTr7g5ZSXw_06srFqVwMNKEwRCtvqEOU,526
+htruc/validator.py,sha256=rSLmov6eResgBeYXEIySaTvlUeWtehEnFOaAwnWNQRE,1974
+htruc/repos/__init__.py,sha256=CbbbUVnL7LOR6LdD_RakJCJCTLX0dg-pDBcP2HnwYsE,97
+htruc/repos/_generic.py,sha256=YveE2_baeanHc9x6reWrJM5VMlYDqgir7yiS_TojGTM,492
+htruc/repos/_github.py,sha256=egqB-WwBbRTGLDBTtebBvnDlqCcbwnQzd42TLR3vVuw,1674
+htruc/schemas/__init__.py,sha256=kiR-5bc5is9UKmyDKZ5__fcAFqHLhNzRfjPOQUs5xho,49
+htruc-0.0.1.dist-info/METADATA,sha256=qaUw8BnSdvUmkcnMfeUuTYN4sqbZRL7h8MhbNroQwO0,1117
+htruc-0.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+htruc-0.0.1.dist-info/entry_points.txt,sha256=4Xu_yz3EVAA2Pnon8Twv65ZQ7BVvid3bzimYZhywW3o,41
+htruc-0.0.1.dist-info/top_level.txt,sha256=LNxYiAUcGGY18FizeYqcVet1AarFVkBgd5m4FpLHafw,6
+htruc-0.0.1.dist-info/RECORD,,
