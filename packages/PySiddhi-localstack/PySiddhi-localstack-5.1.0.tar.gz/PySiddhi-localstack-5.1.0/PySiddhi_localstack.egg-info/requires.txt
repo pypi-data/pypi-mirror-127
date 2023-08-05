@@ -1,0 +1,6 @@
+future
+pyjnius
+requests
+
+[:python_version < "4"]
+enum34
