@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: infix2postfix
+Version: 0.0.1
+Summary: Infix to post fix
+Home-page: UNKNOWN
+Author: Joshua Lowe
+Author-email: copyisreal@gmail.com
+License: MIT
+Description: This is an infix to post fix calculator
+        
+        Version: 0.0.1
+        -First realease
+Keywords: infixtopostfix
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

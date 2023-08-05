@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+infix2postfix.egg-info/PKG-INFO
+infix2postfix.egg-info/SOURCES.txt
+infix2postfix.egg-info/dependency_links.txt
+infix2postfix.egg-info/top_level.txt
