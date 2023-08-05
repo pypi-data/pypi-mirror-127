@@ -1,0 +1,3 @@
+langcodes>=3.2.1
+tld>=0.12
+urllib3<2,>=1.26
