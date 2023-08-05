@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: python-multimapwithttl
+Version: 0.1.0
+Summary: An implementation of multimap with per-item expiration backed up by Redis.
+Home-page: https://github.com/loggi/python-multimapwithttl
+License: MIT
+Author: Fernando Macedo
+Author-email: fgmacedo@gmail.com
+Requires-Python: >=3.6.2,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: black (>=21.5b2,<22.0); extra == "test"
+Requires-Dist: bump2version (>=1.0.1,<2.0.0); extra == "dev"
+Requires-Dist: fakeredis (>=1.6.1,<2.0.0); extra == "test"
+Requires-Dist: flake8 (>=3.9.2,<4.0.0); extra == "test"
+Requires-Dist: flake8-docstrings (>=1.6.0,<2.0.0); extra == "test"
+Requires-Dist: isort (>=5.8.0,<6.0.0); extra == "test"
+Requires-Dist: mkdocs (>=1.1.2,<2.0.0); extra == "doc"
+Requires-Dist: mkdocs-autorefs (>=0.2.1,<0.3.0); extra == "doc"
+Requires-Dist: mkdocs-include-markdown-plugin (>=1.0.0,<2.0.0); extra == "doc"
+Requires-Dist: mkdocs-material (>=6.1.7,<7.0.0); extra == "doc"
+Requires-Dist: mkdocs-material-extensions (>=1.0.1,<2.0.0)
+Requires-Dist: mkdocstrings (>=0.15.2,<0.16.0); extra == "doc"
+Requires-Dist: mypy (>=0.900,<0.901); extra == "test"
+Requires-Dist: pip (>=20.3.1,<21.0.0); extra == "dev"
+Requires-Dist: pre-commit (>=2.12.0,<3.0.0); extra == "dev"
+Requires-Dist: pytest (>=6.2.4,<7.0.0); extra == "test"
+Requires-Dist: pytest-cov (>=2.12.0,<3.0.0); extra == "test"
+Requires-Dist: pytest-freezegun (>=0.4.2,<0.5.0); extra == "test"
+Requires-Dist: toml (>=0.10.2,<0.11.0); extra == "dev"
+Requires-Dist: tox (>=3.20.1,<4.0.0); extra == "dev"
+Requires-Dist: twine (>=3.3.0,<4.0.0); extra == "dev"
+Requires-Dist: types-redis (>=3.5.15,<4.0.0); extra == "test"
+Requires-Dist: virtualenv (>=20.2.2,<21.0.0); extra == "dev"
+Description-Content-Type: text/markdown
+
+# MultiMapWithTTL
+
+
+[![pypi](https://img.shields.io/pypi/v/python-multimapwithttl.svg)](https://pypi.org/project/python-multimapwithttl/)
+[![python](https://img.shields.io/pypi/pyversions/python-multimapwithttl.svg)](https://pypi.org/project/python-multimapwithttl/)
+[![Build Status](https://github.com/loggi/python-multimapwithttl/actions/workflows/dev.yml/badge.svg)](https://github.com/loggi/python-multimapwithttl/actions/workflows/dev.yml)
+[![codecov](https://codecov.io/gh/loggi/python-multimapwithttl/branch/main/graphs/badge.svg)](https://codecov.io/github/loggi/python-multimapwithttl)
+
+
+
+An implementation of multimap with per-item expiration backed up by Redis.
+
+
+* Documentation: <https://loggi.github.io/python-multimapwithttl>
+* GitHub: <https://github.com/loggi/python-multimapwithttl>
+* PyPI: <https://pypi.org/project/python-multimapwithttl/>
+* Free software: MIT
+
+
+## Description
+
+This lib is based on: https://quickleft.com/blog/how-to-create-and-expire-list-items-in-redis/
+without the need for an extra job to delete old items.
+
+Values are internally stored on Redis using Sorted Sets :
+
+    key1: { (score1, value1), (score2, value2), ... }
+    key2: { (score3, value3), (score4, value4), ... }
+    ...
+
+Where the `score` is the timestamp when the value was added.
+We use the timestamp to filter expired values and when an insertion happens,
+we opportunistically garbage collect expired values.
+
+The key itself is set to expire through redis ttl mechanism together with the newest value.
+These operations result in a simulated multimap with item expiration.
+
+You can use to keep track of values associated to keys,
+when the value has a notion of expiration.
+
+```
+>>> s = MultiMapWithTTL(redis_client, 'multimap')
+>>> s.add('a', 1, 2, 3)
+>>> sorted(s.get('a'))
+[1, 2, 3]
+>>> s.add_many([('b', (4, 5, 6)), ('c', (7, 8, 9)), ])
+>>> sorted(sorted(values) for values in s.get_many('a', 'b', 'c')))
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+```
+
