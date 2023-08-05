@@ -1,0 +1,11 @@
+magicfile-0.4.26.dist-info/RECORD,,
+magicfile-0.4.26.dist-info/LICENSE,sha256=Pzdzev545xdhLafvaLGJ-iXM0uvOeyNCrZKvGb3g4S4,1081
+magicfile-0.4.26.dist-info/WHEEL,sha256=NsdoZHnDEYy1X7LxgpdrgzFbjRyTRMqCsO9DNnt326E,111
+magicfile-0.4.26.dist-info/top_level.txt,sha256=3brWKQcgC_IzIHWJ5mbt605y6i3SHAh2ZgUVusbkfgA,10
+magicfile-0.4.26.dist-info/METADATA,sha256=mQZsIYxqgguYw2FbmwpKuY0vDAgpYcBrXVYf4X0NVSw,4213
+magicfile/_libmagic.abi3.so,sha256=-CRphSPE4wdAImOOle5iBhziHOaFl4PSSQbeNgNRGdo,56608
+magicfile/__init__.py,sha256=MWiNE_GUgvrDcnI1TGsamHuY1d4zoBxkFUokU4tqjrU,5990
+magicfile/magic.mgc,sha256=4XbrbGdFV5iyTiRryig1Be49g_GABXck-STl5pePuIQ,5818072
+magicfile/_libmagic_build.py,sha256=R3o-26lPHQACrPYi3Wo6-AmXZz2kItr6W7YSAYuymdA,841
+magicfile/.dylibs/libmagic.1.dylib,sha256=K_WZ7pAsOHMHX153RMJ67CN9GW97j8RSFmcQfTYxPxM,215248
+magicfile/.dylibs/liblzma.5.dylib,sha256=Mi1sv5VUHPqatMZ2nQaT0XgxXSFLCdcWSM0lO8dpfTc,157792
