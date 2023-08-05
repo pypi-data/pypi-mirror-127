@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+xmr/xmr/__init__.py
+xmr/xmr.egg-info/PKG-INFO
+xmr/xmr.egg-info/SOURCES.txt
+xmr/xmr.egg-info/dependency_links.txt
+xmr/xmr.egg-info/requires.txt
+xmr/xmr.egg-info/top_level.txt
