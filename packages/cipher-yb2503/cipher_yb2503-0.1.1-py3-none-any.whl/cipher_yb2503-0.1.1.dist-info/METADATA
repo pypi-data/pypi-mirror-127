@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: cipher-yb2503
+Version: 0.1.1
+Summary: We are adding cipher to the package
+Home-page: https://github.com/QMSS-G5072-2021/cipher_bo_yunxin
+License: MIT
+Author: Yunxin Bo
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/QMSS-G5072-2021/cipher_bo_yunxin
+Description-Content-Type: text/markdown
+
+# cipher_yb2503
+
+We are adding cipher to the package
+
+## Installation
+
+```bash
+$ pip install cipher_yb2503
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`cipher_yb2503` was created by Yunxin Bo. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`cipher_yb2503` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
