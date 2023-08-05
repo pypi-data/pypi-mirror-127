@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: cherry_picker
+Version: 2.1.0
+Summary: Backport CPython changes from main to maintenance branches.
+Home-page: https://github.com/python/cherry_picker
+Author: Mariatta Wijaya
+Author-email: mariatta@python.org
