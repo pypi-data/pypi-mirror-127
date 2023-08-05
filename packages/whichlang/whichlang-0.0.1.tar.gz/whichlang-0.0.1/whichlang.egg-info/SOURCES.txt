@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+whichlang.egg-info/PKG-INFO
+whichlang.egg-info/SOURCES.txt
+whichlang.egg-info/dependency_links.txt
+whichlang.egg-info/top_level.txt
