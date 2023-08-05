@@ -1,0 +1,34 @@
+{% load datetime_filter %}
+{% load humanize %}
+<article class="comment" id="comment-{{ comment.id }}">
+  <details open>
+    <summary>
+      <span class="upvote">{{ comment.score }}</span> point{{ comment.score|pluralize}}
+      <a href="{% url 'user' comment.author.id %}">{{ comment.author.username }}</a>
+      commented
+      <time datetime="{{ comment.created }}">
+        {{ comment.created | to_datetime | naturaltime }}
+      </time>
+    </summary>
+    <div class="comment">
+      {{ comment.content_html | safe }}
+      <input id="reply-to-{{ comment.id }}" type="checkbox" class="reply-check">
+      <label for="reply-to-{{ comment.id }}">Reply</label>
+      <form method="POST" action="{% url 'reply_comment' post.id comment.id %}">
+        {% csrf_token %}
+        <textarea name="comment"></textarea>
+        <input type="radio" id="md" name="content-type"
+                                    value="content_markdown" checked>
+        <label for="md">Markdown</label>
+        <input type="radio" id="plain" name="content-type" value="content_text">
+        <label for="plain">Plain text</label>
+        <input type="submit" value="Reply">
+      </form>
+      {% for reply in comment.replies.items %}
+      {% with comment=reply template_name="comment.html" %}
+      {% include template_name %}
+      {% endwith %}
+      {% endfor %}
+    </div>
+  </details>
+</article>

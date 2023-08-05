@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}
+New post
+{% endblock %}
+
+{% block body %}
+
+<form method="post" action="{% url 'new_post' community_id %}">
+	{% csrf_token %}
+	<fieldset>
+		<legend>
+			<h1>New post</h1>
+		</legend>
+		<label for="title">Title</label>
+		<input type="text" name="title" id="title" required>
+		<label for="url">URL</label>
+		<input type="url" name="url" id="url">
+		<label for="image">File</label>
+		<input type="file" name="image" id="image" accept="image/*">
+		<label for="text">Content</label>
+		<textarea name="text" id="text"></textarea>
+		<input type="radio" id="md" name="content-type"
+			value="content_markdown" checked>
+		<label for="md">Markdown</label>
+		<input type="radio" id="plain" name="content-type" value="content_text">
+		<label for="plain">Plain text</label>
+		<input type="submit" value="Post" id="submit">
+	</fieldset>
+</form>
+
+{% endblock %}
