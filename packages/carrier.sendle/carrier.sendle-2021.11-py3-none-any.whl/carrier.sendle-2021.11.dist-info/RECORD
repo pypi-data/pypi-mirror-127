@@ -1,0 +1,10 @@
+sendle_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sendle_lib/order_cancel_response.py,sha256=BVJypKf00Q_xAONPBUYn4KRP_DKqmiw1cSTmTbVErVg,414
+sendle_lib/order_request.py,sha256=QHdF2fk5j5Slc5A-aSOeUInwEUEet1QJbgLCrw0niP4,1709
+sendle_lib/order_response.py,sha256=O3OfscRdBZCNYSx2RJy0nlRo9Sm2XVEIi7122rk4TIM,2786
+sendle_lib/rating.py,sha256=qtO-U6v0AZGsZbOcZZvbsRvKDaBxyxix4O5BidSpDPg,1809
+sendle_lib/tracking_response.py,sha256=0lUdrjDAW1dmd4z4A1uTu2chEfCRAgP9Tiu4sbzl6Xo,1362
+sendle_lib/validation_error.py,sha256=65nG5xHiRE2fxl0I11gvMpwImK4oKu6MIiDQ_55M-_E,633
+carrier.sendle-2021.11.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+carrier.sendle-2021.11.dist-info/METADATA,sha256=C7lnsYaaksy2J6DvQCJtoT_WrfkgCiuHle_ZPKBoKCY,1229
+carrier.sendle-2021.11.dist-info/RECORD,,
