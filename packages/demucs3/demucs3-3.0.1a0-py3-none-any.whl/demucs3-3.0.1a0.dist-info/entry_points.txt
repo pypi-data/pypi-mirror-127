@@ -1,0 +1,3 @@
+[console_scripts]
+demucs3 = demucs3.separate:main
+
