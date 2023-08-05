@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pypi_scraper/__init__.py
+sohu_scraper.egg-info/PKG-INFO
+sohu_scraper.egg-info/SOURCES.txt
+sohu_scraper.egg-info/dependency_links.txt
+sohu_scraper.egg-info/requires.txt
+sohu_scraper.egg-info/top_level.txt
