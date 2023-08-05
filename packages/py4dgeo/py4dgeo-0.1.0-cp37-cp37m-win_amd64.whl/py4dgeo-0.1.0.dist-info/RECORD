@@ -1,0 +1,12 @@
+py4dgeo/__init__.py,sha256=xlVYiiaRsCl2aVecwZIcrm7_n51LdR0cexU5dLwFpH8,133
+py4dgeo/_py4dgeo.cp37-win_amd64.pyd,sha256=26DK9FKXsNwgr74_pIe5sMoOXQk4ti1pFINUjB4V2oo,354816
+py4dgeo/epoch.py,sha256=mehSIa-3dpE76wefuiVidnKBmioIHr3gxeLbtNq9hbw,1134
+py4dgeo/fallback.py,sha256=owh53a_rZGdOIVuGP3btNjvPrxasitkO-_uw8R66T94,2502
+py4dgeo/m3c2.py,sha256=W87hKY_Wrk59yGfQEFsZBuirKui6Ep1EIxov6lSEQ_c,5337
+py4dgeo/util.py,sha256=kVje6LbAAO7_n0Kl-F1pDyLigAJDD9g2ZWAlwXTHLw4,5291
+py4dgeo-0.1.0.dist-info/COPYING.md,sha256=WEUErkKuC_h3kss9PcvLhbmxf_4ETLlNecJENIRG1IQ,128
+py4dgeo-0.1.0.dist-info/LICENSE.md,sha256=s54Z3TUFdKaCNDs1umE4mjJLeWE8JsJyVpP1Pr_ChQU,1026
+py4dgeo-0.1.0.dist-info/METADATA,sha256=B8TOHk1dt2b-mP1ajpnrVFTnxrvQmHJy6BI46v4D-XM,474
+py4dgeo-0.1.0.dist-info/WHEEL,sha256=00rRnYzom2AU5I6AmamLLncvS8UZBgVascFFgwmjLoo,95
+py4dgeo-0.1.0.dist-info/top_level.txt,sha256=Hda6A92db-qiPIT5hUPqcZF2jhZNGidN7XyRJHmfs9A,8
+py4dgeo-0.1.0.dist-info/RECORD,,
