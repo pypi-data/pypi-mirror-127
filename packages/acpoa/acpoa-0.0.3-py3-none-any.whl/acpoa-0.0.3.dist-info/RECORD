@@ -1,0 +1,14 @@
+acpoa/__init__.py,sha256=H3HBTrgVRJIlUHNZMdruhSg1TQqSxIoPm7qLTvVn5K0,296
+acpoa/cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acpoa/configuration.py,sha256=m6G2X91VwN6lQ3e2I5TaxdN6roZWY80KY1VeOcgeyrM,3522
+acpoa/core.py,sha256=LNU1LCUQKEqjEkZIQvztb5l1qRnTEAb15UbmdUMuZPU,6173
+acpoa/hookshandler.py,sha256=vaslnSAcem2M73D7egS5R8976A532SvSq_Q3henAvio,4618
+acpoa/plugin_base.py,sha256=p_HMVN341ao6eN7CAzACLfWDzNmS7VRLDakAZ2WW9Tc,728
+acpoa/plugin_manager.py,sha256=VTm9d7O1w7jgK4UJmwn7poKWrgilMS_GIwJXnYIiVIE,3968
+acpoa/repository_manager.py,sha256=VrWSJuBFSzdaawIqusLNd_RGl0MTIRMAVdqgDp4H_sg,5340
+acpoa/singleton.py,sha256=BHKTdsX3qRl_E9br07F8tGXVV19pOQox8xkwN46kG5o,336
+acpoa-0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+acpoa-0.0.3.dist-info/METADATA,sha256=OYm2xTWY-uISxZaK4iD9toaTseM3PigHjbszHrrQDWA,700
+acpoa-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+acpoa-0.0.3.dist-info/top_level.txt,sha256=41VVgcgbRQgq3M0hD92_vwkggfOUjc68yyg-hjEbakQ,6
+acpoa-0.0.3.dist-info/RECORD,,
