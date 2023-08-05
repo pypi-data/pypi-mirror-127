@@ -1,0 +1,9 @@
+cherry_picker/__init__.py,sha256=qfimagQdXUAyGKIKZrQPti9T-p7BPmBty0eiyRlE0xM,88
+cherry_picker/__main__.py,sha256=JME6o__cvSBQKC3STwPqVi7UqMM61cfrfrxxfOEYyIc,93
+cherry_picker/cherry_picker.py,sha256=lgNf1_ou9l7mLcOKjGYxMj542BaXYGK1Q1crbz809HE,27778
+cherry_picker/test.py,sha256=exuOkvnwgUdBHEPooBzHaCIeJUO5V4CK8v9T0vcylxA,30956
+cherry_picker-2.1.0.dist-info/entry_points.txt,sha256=if_PQJ34R139EtdHNn7gMANAyZBGhLq3rDSV9jR2kOc,77
+cherry_picker-2.1.0.dist-info/LICENSE,sha256=d3BgQ5OokS1y394l3h1rTIrWLNerhAxdRIiA8-lopz4,11356
+cherry_picker-2.1.0.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+cherry_picker-2.1.0.dist-info/METADATA,sha256=X-nu6Eba1VGkuibgaprQqJ1viOEYgG57jCUyDoIqS8c,14723
+cherry_picker-2.1.0.dist-info/RECORD,,
