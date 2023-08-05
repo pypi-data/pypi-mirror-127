@@ -1,0 +1,2 @@
+recursive-include telebotify/resources
+recursive-include telebotify/resources/i18n
