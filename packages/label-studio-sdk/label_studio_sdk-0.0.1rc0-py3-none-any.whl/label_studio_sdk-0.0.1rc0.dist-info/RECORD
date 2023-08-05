@@ -1,0 +1,11 @@
+docs/__init__.py,sha256=G0jbqZzwWT6wuivkBVPcV_JuXcfcrdPT6TBx4XDwUao,32
+label_studio_sdk/__init__.py,sha256=1eT0UY2hM394TSlWKT8t_OkMKfdkJVO9jsl8iw6vpAw,152
+label_studio_sdk/client.py,sha256=Oj0ZWIUyDY4Uo-aqygxEZEPxEcWo5Y_lgPaca7Keu9A,3520
+label_studio_sdk/data_manager.py,sha256=oxxsRZvWF1Euoayji97B5cmZc26ybiSUSvZ8tWJkHi4,7893
+label_studio_sdk/project.py,sha256=7R3KzRpHUzDCXXLJOiJo2afWrwHONLCaJjRWmqqDsD8,41346
+label_studio_sdk/utils.py,sha256=9yfkX8JDeVBtqLK1u12wzwZPO8UJKjNDqx8CUScG6kI,4083
+label_studio_sdk-0.0.1rc0.dist-info/LICENSE,sha256=lyszEV775P2PLmRYrU2TOQZ79PS2IPIiTyQEXU18IvA,11342
+label_studio_sdk-0.0.1rc0.dist-info/METADATA,sha256=hOASqAs97S5QHKjiytKqPm5e2ctvGMwE0E8StqWN6nE,579
+label_studio_sdk-0.0.1rc0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+label_studio_sdk-0.0.1rc0.dist-info/top_level.txt,sha256=yh4DXhYuuP73JEuEXnLmKj3s4NSvT5lMnE7izBYfS5U,22
+label_studio_sdk-0.0.1rc0.dist-info/RECORD,,
