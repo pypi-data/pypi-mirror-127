@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: se-code
+Version: 0.0.4
+Summary: se_code 对python代码加密保护，带密运行
+Home-page: https://github.com/ssbuild
+Author: ssbuild
+Author-email: 9727464@qq.com
+License: Apache 2.0
+Keywords: se_code,se_code,se code,secode
+Platform: win32_AMD64
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3, <4
+Description-Content-Type: text/markdown
+Requires-Dist: se-import
+Requires-Dist: fastcrypto
+
+se_code 对python代码加密保护，带密运行
+
+```py
+# -*- coding: utf-8 -*-
+# @Time    : 2021/11/11 14:42
+# @Author  : wyw
+
+import shutil
+
+
+#工程源码加密处理
+def test_se_project():
+    from se_code import se_project
+    #源码工程目录示例,
+    # 代码 /home/project/serving ,
+    # 代码 /home/project/serving/utils ,等等
+    # 代码 /home/project/serving/runner.py 程序主入口 main()
+    # script运行脚本 /home/project/script
+    # /home/project/script/run.sh 启动脚本
+
+    #工程源码
+    src_dir = '/home/project'
+
+    #加密处理工程，需保证文件夹不存在
+    dst_dir = '/home/project_se'
+
+    #忽略复制文件，文件对工程运行没有用
+    ignore = shutil.ignore_patterns('test','.git','.idea','setup.py')
+
+    #加密接受规则
+    rules = ['serving/utils/*', 'serving/run*', 'serving/http_client/http*']
+    se_project(src_dir,
+            dst_dir,
+            ignore = ignore,
+            rules = rules,
+            key=bytes([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]),
+            iv=bytes([1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+               )
+
+def run():
+    #将下面代码放到对应加密后的代码工程用于启动， 例如 /home/project_se/serving/start.py
+    import sys
+    sys.path.append('..')
+    from se_code import se_ready
+    se_ready(rules=['serving/utils/*', 'serving/run*', 'serving/http_client/http*'])
+    from serving.runner import main
+    main()
+
+```
+
+
