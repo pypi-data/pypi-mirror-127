@@ -1,0 +1,11 @@
+ComposeNomadConvertor-0.0.4.data/scripts/nomadgen,sha256=ay1xnY2mqCyMh_3JAoJ8s2f-UNck_90hTPoC5qEP7ow,174
+composenomadconvertor/__init__.py,sha256=sIb7jfFnJYHqMGDxdx4TAx2-HMo-F0SQIqGiYkgXmXI,274
+composenomadconvertor/__main__.py,sha256=cM9bAKJ28Vp5ME77n-J5019v18Xbnm81k07eLtBgE54,123
+composenomadconvertor/arg_parser.py,sha256=-_cWGikhglZWqLzzSFzK3qz9mIGH5CVT4DrXwBiDuWc,932
+composenomadconvertor/compose_defaults.py,sha256=bQZOWJbPd3mZt1EQcl4dNCizvbL_NJ1NW69xqeO1Hz0,1079
+composenomadconvertor/folder_compressor.py,sha256=vaiVqbT0-3gIAXKan6UijaQ527KfqVkA1ltBc7qXMS4,421
+composenomadconvertor/produce_tasks.py,sha256=0OI1zv3n20rVIjwxk3Ws8Xk4jDvwzq1L_84gx_6pZ4o,6802
+ComposeNomadConvertor-0.0.4.dist-info/METADATA,sha256=XUR5EhBHjW3zzN19wyFhuqnK5IGxe0CQRY8R74L9VIY,280
+ComposeNomadConvertor-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ComposeNomadConvertor-0.0.4.dist-info/top_level.txt,sha256=GDwRG5XqG4kqRptlj1dR51Ihx0VPsaZtEwVKpd2LSsc,22
+ComposeNomadConvertor-0.0.4.dist-info/RECORD,,
