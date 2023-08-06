@@ -1,0 +1,10 @@
+requests[socks]
+clint
+futures; python_version == "2.7"
+
+setuptools
+wheel
+
+tox
+
+twine
