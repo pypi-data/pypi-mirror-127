@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: single-cell-datasets
+Version: 0.0.1
+Summary: Python repository to easily download single cell datasets
+Home-page: https://github.com/hojaeklee/scdata
+Author: Hojae Lee
+Author-email: hojae.k.lee@gmail.com
+License: gpl-3.0
+Keywords: single-cell
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# scdata
+
+

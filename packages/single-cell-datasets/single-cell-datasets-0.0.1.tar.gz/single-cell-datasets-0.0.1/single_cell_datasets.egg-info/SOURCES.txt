@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+scdata/__init__.py
+single_cell_datasets.egg-info/PKG-INFO
+single_cell_datasets.egg-info/SOURCES.txt
+single_cell_datasets.egg-info/dependency_links.txt
+single_cell_datasets.egg-info/top_level.txt
