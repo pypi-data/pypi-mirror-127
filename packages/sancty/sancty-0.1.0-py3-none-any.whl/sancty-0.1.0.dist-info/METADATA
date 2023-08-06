@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sancty
+Version: 0.1.0
+Summary: 
+Author: Tip ten Brink
+Author-email: 75669206+tiptenbrink@users.noreply.github.com
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: blessed @ git+https://github.com/tiptenbrink/blessed@master
+Requires-Dist: cwcwidth (>=0.1.5,<0.2.0)
+Requires-Dist: numpy (>=1.21.4,<2.0.0)
