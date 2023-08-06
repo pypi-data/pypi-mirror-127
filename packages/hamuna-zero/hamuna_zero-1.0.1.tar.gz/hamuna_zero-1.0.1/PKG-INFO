@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hamuna_zero
+Version: 1.0.1
+Summary: Hamuna zero rpc framework based on pyzmq
+Home-page: https://www.hamuna.club
+Author: O.Push
+Author-email: opush.developer@outlook.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/plain
+License-File: LICENSE
+
+support numpy data transfer
+

@@ -1,0 +1,5 @@
+pyzmq
+msgpack
+typing-inspect
+numpy
+msgpack-numpy
