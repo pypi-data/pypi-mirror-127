@@ -1,0 +1,8 @@
+django_troop_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_troop_auth/authentication.py,sha256=n0xbicULiE2U0GtMSJIHJrCGTTJuLDZ6htrYobfiTVk,3411
+django_troop_auth/permission.py,sha256=DCvfmFEDgg0lk7orxysQLHGTnf7VKhDWjh5wRFwfy2A,1336
+django_troop_auth/user.py,sha256=j8_tOvroVmDckev7rehEqsqTs0M6Spprvc-g5UOHf8U,950
+django_troop_auth-0.1.0.dist-info/METADATA,sha256=9EJ7oc3OHPnEJVg1FD-pasdiMcAPwpEcGAwito33FLs,565
+django_troop_auth-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_troop_auth-0.1.0.dist-info/top_level.txt,sha256=Cya2iivl52e7hC1IoFUbsAexU24xsfaJpRJ4cpindsk,18
+django_troop_auth-0.1.0.dist-info/RECORD,,
