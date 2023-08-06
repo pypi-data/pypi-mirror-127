@@ -1,0 +1,11 @@
+pyjson5.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
+pyjson5.libs/libstdc++-8baf04f9.so.6.0.28,sha256=7dHa2sV5CgWXjdC4QqxbCNsm-pN9kkmNNqxtn5AaAvs,2428960
+pyjson5-1.5.3.dist-info/METADATA,sha256=r70MozvUhG_4WT1gHSkeNRrnEuAHkhekSOZk3s35xUQ,1894
+pyjson5-1.5.3.dist-info/RECORD,,
+pyjson5-1.5.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pyjson5-1.5.3.dist-info/WHEEL,sha256=pN7jTLJrWhNX2c0EL4xkp0PuLPZI6t3Tzd6IIOvLCXM,111
+pyjson5-1.5.3.dist-info/top_level.txt,sha256=N5XE5x5NaHOF70RJXclTamY-8L3s6cQ8SO-MAdPAhsA,8
+pyjson5/__init__.py,sha256=-Gt1Ih1nu29ns2x29GZ1zZ51OQODV5EjlfAPtkO3a0U,23
+pyjson5/pyjson5.cpython-310-i386-linux-gnu.so,sha256=S-BOc8r7JldtEkrtH6Tc--ENt5bKm138hn7WYE5u7Fg,937452
+pyjson5/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjson5/__init__.pyi,sha256=H_szT1dwl6bY7cyDBhbOfZLmeixA6odShiAw3oMxSR4,8454
