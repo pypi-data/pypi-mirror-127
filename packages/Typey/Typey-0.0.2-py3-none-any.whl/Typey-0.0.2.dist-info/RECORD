@@ -1,0 +1,13 @@
+typey/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typey/__main__.py,sha256=TP4xxpbByKKzgG37YxRQhk1AGr0tgURCIwYPVNlMQa8,64
+typey/challenge.py,sha256=N0folHsUTpaBCpVWt_eGRzupz1bwZ89ecmmisArNYP0,3934
+typey/theme.py,sha256=pQam2v4iWVls27Mw9mFf6S017msr21NwOW-XjlIjKm8,1481
+typey/typey.py,sha256=76tJeOb6fdJ0J0mg5YmSwu5wzx3PIRbInCCtEiR3K-c,2774
+typey/assets/1-1000.txt,sha256=yuIvMJpr_ypYrOg2KeE_4-W7n2ze6-uj9xurDDWuRQE,5839
+typey/assets/themes.json,sha256=mgFZ_X4npTpUG6oMZd-g2YeDW5-EXLWzm9ZMeCV27W4,350
+Typey-0.0.2.dist-info/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+Typey-0.0.2.dist-info/METADATA,sha256=BnbmvhxPvBxjgbYkamEemiCsV656D3M4DyPjbxh1Z6A,1549
+Typey-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Typey-0.0.2.dist-info/entry_points.txt,sha256=mfP_E_mmL6UyjkXYYxrOjxXurzsL7Cg-AZEN40SvtPw,44
+Typey-0.0.2.dist-info/top_level.txt,sha256=04Gn4nUKJPUcpWXgUCIXHLREqW9z6Yzl6KqhJ3EHRAI,6
+Typey-0.0.2.dist-info/RECORD,,
