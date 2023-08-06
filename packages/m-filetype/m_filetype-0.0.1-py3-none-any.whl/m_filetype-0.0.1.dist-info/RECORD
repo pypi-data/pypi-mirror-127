@@ -1,0 +1,12 @@
+mobio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mobio/libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mobio/libs/filetype/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mobio/libs/filetype/common.py,sha256=HAaz2aANagw2wMOuL2agH9ZnjJxCI0P8Ra7oqe5jc5o,707
+mobio/libs/filetype/file.py,sha256=Crbk_Ou2kEjzZCDWrVXExV6r8JeL-0nXljefRhLKs5M,1844
+mobio/libs/filetype/file_signature.json,sha256=qJZHcgjLqI5h-7eY5LDkwmQ-rQ5PZfauMYW_9ZWtEHA,17442
+mobio/libs/filetype/utils.py,sha256=yRJUcVcdRUj2EEykzFCiFzmSTN6h99BsNtTe1S0mrjA,1399
+m_filetype-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+m_filetype-0.0.1.dist-info/METADATA,sha256=7n_AqmghOkvqMffpbKE-3ZoAERn6MvnAYNc9e0cInDQ,479
+m_filetype-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+m_filetype-0.0.1.dist-info/top_level.txt,sha256=aDRCg1NQKxwVo4upz2Jiwm_Qm1Yw57mFFYdDaGu4b8c,6
+m_filetype-0.0.1.dist-info/RECORD,,
