@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: sapid
+Version: 1.0.0a0
+Summary: A robust asynchronous framework for building scalable GitHub Applications.
+Home-page: UNKNOWN
+Author: justanotherbyte
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: pyjwt[crypto]
+Provides-Extra: proxy-support
+Requires-Dist: aiohttp-remotes ; extra == 'proxy-support'
+
+# Sapid
+
+A high-level framework for building GitHub applications in Python.
+
+
+## Core Features
+- Async
+- Proper ratelimit handling
+- Handles interactions for you (responding with appropriate response status codes etc.)
+- Minimal raw payloads. Most are being parsed internally into pythonic objects.
+- Runs its own webhook server, with a no-bloat async web server (aiohttp)
+
+## Example
+### Basic bot example
+
+```py
+from sapid import GitBot
+
+bot = GitBot(
+    pem_file_fp="bot.pem",
+    app_id="...", # Found on github.
+    webhook_secret="...", # Set on github.
+    client_secret="..." # Generate on github.
+)
+
+@bot.event
+async def on_sapid_tcp_ready(host, port):
+    print(f"tcp running on http://{host}:{port}")
+    print(bot.user.name)
+    print(bot.user.description)
+
+bot.run(host="127.0.0.1", port=3000)
+```
+
