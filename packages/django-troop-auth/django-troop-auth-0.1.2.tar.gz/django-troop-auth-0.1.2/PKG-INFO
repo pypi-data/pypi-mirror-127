@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: django-troop-auth
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: https://github.com/troopstack/django-troop-auth.git
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Troop-auth
+
+![PUBLISH](https://github.com/binaryai/sdk/workflows/PUBLISH/badge.svg)
+
+## Installation
+
+```shell
+pip install django-troop-auth
+```
+
+## Documentation
+
+Please see the <a>Documentation</a> for more details.
+
