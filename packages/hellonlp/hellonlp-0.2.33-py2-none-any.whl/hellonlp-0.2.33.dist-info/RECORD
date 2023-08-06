@@ -1,0 +1,12 @@
+ChineseWordSegmentation/__init__.py,sha256=i6tRecYkCIwOh5XLz85I2lm4lSdKdqi3tXHXYB1v6ug,402
+ChineseWordSegmentation/discovery_word.py,sha256=ygTWmfwXYCnCqqtHptQpSUvysJuAgGG6mKtquH8Xxxc,1389
+ChineseWordSegmentation/hyperparameters.py,sha256=c3QAuC26kRjsSo_mPDlDv5PU5qEJ6dZPS_APV86sFss,519
+ChineseWordSegmentation/modules.py,sha256=pxBEwM1n7YPAGI6sLpyjr8Unb8Yp7bR3SuuRu5n3VdM,8281
+ChineseWordSegmentation/probability.py,sha256=qCujRv3hCVlTHItKwbir5JU7x_2BbbMYtVQ6anPS7dY,742
+ChineseWordSegmentation/segment_entropy.py,sha256=AzK2CdIFbSSeBFURYJdI1pR8W9PuvLdUx7_1cZFbXy8,2018
+ChineseWordSegmentation/tokenization.py,sha256=7e7tpGvQz2xJFGMOYCtMQA4GUJMWaYGWm3F-dyjmdoU,10866
+ChineseWordSegmentation/utils.py,sha256=HmBOY7CKEnebkSbu0d8I9oAumM6QDiwTCpn85f5RLJQ,4865
+hellonlp-0.2.33.dist-info/METADATA,sha256=qXavq2NuHfkcWeVsdKbHBv1Vk5x96uHLNCVLKszDNW8,731
+hellonlp-0.2.33.dist-info/WHEEL,sha256=IhjwRKCBU_-qWYU-9mADzLY2DSoO4crUVcAQt39lCCc,92
+hellonlp-0.2.33.dist-info/top_level.txt,sha256=ytTsnQpdjjeWZxGSHuMeeWdIg8FT32VHjs7YOKwCbT8,24
+hellonlp-0.2.33.dist-info/RECORD,,
