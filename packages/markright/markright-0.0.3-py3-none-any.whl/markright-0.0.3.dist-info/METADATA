@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: markright
+Version: 0.0.3
+Summary: Templateless markdown template engine
+Home-page: https://gitlab.com/Vadimhtml/markright
+Author: Vadimhtml
+Author-email: i@vadimhtml.ru
+License: MIT
+Keywords: markdown template
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+# markright v&shy;<!---version-->0.0.3<!---/version-->
+*Templateless markdown template engine*
+
+## Usage
+
+
+Install this package `pip install markright` and create `README.md` file containing:
+```markdown
+# MyPackage v&shy;<!---ver--><!---/ver-->
+```
+
+Create python script like `markright_test.py`:
+```python
+from markright import mark
+
+data = {
+    "ver": "0.0.1"
+}
+
+mark("README.md", data)
+```
+
+Run your script `python ./markright_test.py` and you will get `README.md` looks pretty awsome after rendering, for example on gitlab :
+```markdown
+# MyPackage v&shy;<!---ver-->0.0.1<!---/ver-->
+```
+Restarting the script does not require clearing the template, just run the script again with new data!
+
