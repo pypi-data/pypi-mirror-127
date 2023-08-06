@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sageutils
+Version: 0.1.4
+Summary: Sage common utilities library
+Home-page: https://github.com/ttong-ai/sageutils
+Author: Tony Tong
+Author-email: ttong@pro-ai.org
+License: MIT
+Project-URL: Bug Tracker, https://github.com/ttong-ai/sageutils/issues
+Description: Sage common utilities library
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
