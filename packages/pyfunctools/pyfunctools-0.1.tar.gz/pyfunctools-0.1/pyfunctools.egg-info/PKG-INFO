@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: pyfunctools
+Version: 0.1
+Summary: pyfunctools - Functional programming toolkit
+Home-page: https://github.com/natanfeitosa/pyfunctools
+Author: Natan Santos
+Author-email: natansantosapps@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: package tools functional development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7.*
