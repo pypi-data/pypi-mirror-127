@@ -1,0 +1,4 @@
+Click<9,>=7.0
+arrow<2,>1
+xdg<6,>5
+bullet<3,>2

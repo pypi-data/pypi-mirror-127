@@ -1,0 +1,3 @@
+[console_scripts]
+bmynab = bmynab.cli:main
+

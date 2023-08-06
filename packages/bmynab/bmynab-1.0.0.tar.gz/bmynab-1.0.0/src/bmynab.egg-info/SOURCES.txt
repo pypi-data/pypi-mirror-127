@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/bmynab/__init__.py
+src/bmynab/cli.py
+src/bmynab.egg-info/PKG-INFO
+src/bmynab.egg-info/SOURCES.txt
+src/bmynab.egg-info/dependency_links.txt
+src/bmynab.egg-info/entry_points.txt
+src/bmynab.egg-info/not-zip-safe
+src/bmynab.egg-info/requires.txt
+src/bmynab.egg-info/top_level.txt
