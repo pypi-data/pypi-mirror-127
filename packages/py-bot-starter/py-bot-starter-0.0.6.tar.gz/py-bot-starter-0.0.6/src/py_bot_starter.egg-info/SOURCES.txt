@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/botstarter/__init__.py
+src/botstarter/bot.py
+src/py_bot_starter.egg-info/PKG-INFO
+src/py_bot_starter.egg-info/SOURCES.txt
+src/py_bot_starter.egg-info/dependency_links.txt
+src/py_bot_starter.egg-info/top_level.txt
