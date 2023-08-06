@@ -1,0 +1,9 @@
+libusb_package/__init__.py,sha256=j1DQxmuvl0sLEbVlU1ZNPESWxtft4wA6mlQIZYNz9wc,3773
+libusb_package/_version.py,sha256=Cu-R0g9z_whDeKzK1tMv10tpzYWb-eXYvrpaJdVHgLQ,154
+libusb_package/libusb-1.0.dll,sha256=LvkBINlFRaNtcphdE0syXtN1suENjl2I3O4OZTVOxQk,136192
+libusb_package/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libusb_package-1.0.24.1.dist-info/LICENSE,sha256=bR2Wj7Il7KNny38LiDGrASo12StUfpReF--OewXD5cw,10349
+libusb_package-1.0.24.1.dist-info/METADATA,sha256=oMKuyYnJpELS1AHb8YalBPH4Ex4YibcPsJVrKGNNjk4,5281
+libusb_package-1.0.24.1.dist-info/WHEEL,sha256=zg0xOMyemez8PVySo1B8lpbm0_VC89N75YtIdp1rWss,97
+libusb_package-1.0.24.1.dist-info/top_level.txt,sha256=0g5vFMKF2nURPAQ9_q2TljIDMYQfvru8jzMZWes-PW4,16
+libusb_package-1.0.24.1.dist-info/RECORD,,
