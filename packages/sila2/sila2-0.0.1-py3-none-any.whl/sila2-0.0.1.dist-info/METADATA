@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: sila2
+Version: 0.0.1
+Summary: Python implementation of the SiLA 2 standard for lab automation
+Home-page: https://gitlab.com/nmertsch/sila2
+Author: Niklas Mertsch
+Author-email: niklasmertsch@web.de
+License: UNKNOWN
+Project-URL: Source, https://gitlab.com/nmertsch/sila2
+Project-URL: Bug Reports, https://gitlab.com/nmertsch/sila2/-/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: black
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
+Requires-Dist: isort
+Requires-Dist: jinja2
+Requires-Dist: lxml
+Requires-Dist: jsonschema
+Requires-Dist: xmlschema
+Requires-Dist: zeroconf
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+UNKNOWN
+
