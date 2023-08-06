@@ -1,0 +1,8 @@
+tensorflow
+tqdm
+
+[dev]
+check-manifest
+
+[test]
+coverage
