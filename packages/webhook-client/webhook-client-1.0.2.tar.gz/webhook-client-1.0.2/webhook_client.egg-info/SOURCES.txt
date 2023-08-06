@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+webhook_client/__init__.py
+webhook_client/client.py
+webhook_client/colour.py
+webhook_client/embed.py
+webhook_client/errors.py
+webhook_client/types.py
+webhook_client.egg-info/PKG-INFO
+webhook_client.egg-info/SOURCES.txt
+webhook_client.egg-info/dependency_links.txt
+webhook_client.egg-info/requires.txt
+webhook_client.egg-info/top_level.txt
