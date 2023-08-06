@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: streamdeckui
+Version: 0.0.3
+Summary:  gui framework for an elgato stream deck 
+Home-page: https://github.com/kneufeld/streamdeckui
+Author: Kurt Neufeld
+Author-email: kneufeld@burgundywall.com
+License: MIT License
+Keywords: streamdeck,ui,gui
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: System :: Hardware :: Universal Serial Bus (USB) :: Human Interface Device (HID)
+License-File: LICENSE.md
+
+
+gui framework for an elgato stream deck
+
+
