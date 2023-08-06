@@ -1,0 +1,25 @@
+awkward>=1.5.1
+pre-commit
+pyarrow>=6.0.0
+uproot>=4.1.8
+
+[:python_version < "3.8"]
+typing_extensions>=3.7
+
+[dev]
+pytest>=6
+
+[docs]
+Sphinx~=3.0
+myst_parser>=0.13
+sphinx-book-theme>=0.1.0
+sphinx_copybutton
+
+[ml]
+jax
+jaxlib
+matplotlib
+pytorch-lightning>=1.5
+
+[test]
+pytest>=6
