@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+compiler_magics.egg-info/PKG-INFO
+compiler_magics.egg-info/SOURCES.txt
+compiler_magics.egg-info/dependency_links.txt
+compiler_magics.egg-info/requires.txt
+compiler_magics.egg-info/top_level.txt
+hpcmagic/__init__.py
+hpcmagic/custom.js
+hpcmagic/hpcmagic.ini
+hpcmagic/hpcmagic.py
+hpcmagic/ipython_config.py

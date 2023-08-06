@@ -1,0 +1,3 @@
+include hpcmagic/custom.js
+include hpcmagic/ipython_config.py
+include hpcmagic/hpcmagic.ini
