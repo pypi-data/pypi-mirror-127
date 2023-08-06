@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: m-filetype
+Version: 0.0.1
+Summary: Libs check filetype
+Home-page: UNKNOWN
+Author: MOBIO
+Author-email: contact@mobio.vn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+##  Thư viện filetype.
+
+
+### Cài đặt:
+```bash
+ $ pip3 install m-filetype.test
+ ```
+
