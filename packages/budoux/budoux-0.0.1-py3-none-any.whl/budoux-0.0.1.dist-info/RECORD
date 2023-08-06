@@ -1,0 +1,12 @@
+budoux/__init__.py,sha256=P3IzhY2MxOmbO_C5A12mUgrj5ZByu2SLDIquv3UE2BM,709
+budoux/feature_extractor.py,sha256=715QcWHBcQ2Bia4otEqY-3oIYOv4m9Vp1YwKwn6jLNM,5050
+budoux/parser.py,sha256=-uA5s8f3JJqUFxOr5j_17lwMUOrPldLW8OXR4EiJ01Q,5365
+budoux/skip_nodes.json,sha256=USVNg7UXSE87Yk73bk_FBzplpBoSG--aqFPCzK2DR_Y,124
+budoux/unicode_blocks.json,sha256=9DDceovouPgvH8-HGej2PZq9bbtwYnuGtDaMNyoFYUM,2111
+budoux/utils.py,sha256=CsjcDMtJYpKD1M7SWRX9xB7EH-PYW93QHHdqyC-6QOo,820
+budoux/models/ja-knbc.json,sha256=KeLSexKnf1fwiJxNozQJ_-TV2DdCjd9jtfBKvkbVBlc,10213
+budoux-0.0.1.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+budoux-0.0.1.dist-info/METADATA,sha256=2u6eQAbT-O52Epn_inH8B2nM0WgLNVuz48B73ZTR5gE,6883
+budoux-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+budoux-0.0.1.dist-info/top_level.txt,sha256=RZc1YCADjD8KgYsTUZFMA-PrjomfwDfj6XnCo6BsxTo,7
+budoux-0.0.1.dist-info/RECORD,,
