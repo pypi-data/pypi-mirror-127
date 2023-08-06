@@ -1,0 +1,15 @@
+desktop_application/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+desktop_application/__main__.py,sha256=TfLHakv5Z8abOmPnbC4YtwZ_6Nv_ecRyUV8ZTKcL-8g,39
+obff/__init__.py,sha256=84H_62VNEc4kJHc3PxixDrmBvn5yhep_eu8X2RvtMgE,128
+obff/__vars__.py,sha256=TByyQI5O2NbE8hXZzcbdlmyiEuyKsUuugJXbPsyP2Zk,221
+obff/obff.py,sha256=3OYprtxZx0jQiioVcsKi9KfRkCFF92glvStN5JJVE4E,10179
+obff/obff_class.py,sha256=LtQYDQVrVu1vaVCvZ76cVZXFAD3c8G8rgKIcRK5jxNM,358
+obff/utils.py,sha256=rwgKbRh32X56VYR4Pvp-hosygLu61KwBSjbTkMj8eH8,339
+obff/desktop_application/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+obff/desktop_application/__main__.py,sha256=TfLHakv5Z8abOmPnbC4YtwZ_6Nv_ecRyUV8ZTKcL-8g,39
+obff-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+obff-1.0.1.dist-info/METADATA,sha256=redBFCOsVMOWpns3cR9-TFCxLKpr13-PUeik2dwx4pw,2611
+obff-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+obff-1.0.1.dist-info/entry_points.txt,sha256=EzIsmrQcKqI-n_IMtRq0D8xKZWzUxEv7wZLLi5yJxcI,52
+obff-1.0.1.dist-info/top_level.txt,sha256=dfaF02OCSb-JZTSeHxYgJTkqRe4o4OCP-bFs7-NxoNI,5
+obff-1.0.1.dist-info/RECORD,,
