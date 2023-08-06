@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/migu_test_pass_through/__init__.py
+src/migu_test_pass_through/pass_through.py
+src/migu_test_pass_through_xiaoming_debug.egg-info/PKG-INFO
+src/migu_test_pass_through_xiaoming_debug.egg-info/SOURCES.txt
+src/migu_test_pass_through_xiaoming_debug.egg-info/dependency_links.txt
+src/migu_test_pass_through_xiaoming_debug.egg-info/top_level.txt
