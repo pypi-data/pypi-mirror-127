@@ -1,0 +1,15 @@
+madbg/__init__.py,sha256=9EBOlqNh46rFo7sEWfTV5V0vWu1uwkvtz8RtphtMeso,143
+madbg/__main__.py,sha256=5c55P-X6r-Eg9yPNWMwB82yh2Fe0n0qeCKQTL4LmlII,2336
+madbg/api.py,sha256=wMRtKRW6U7aMiMn1xKYO06wuuIKlDyqDCPmWjgHzYfs,4124
+madbg/client.py,sha256=GMRM6769-6-AJ97OZteFFJ-KX9jkxq3l-CjDjbb8MQc,2252
+madbg/communication.py,sha256=ohGNyrHNmBfQe6Bk2Mk0XiUaoKB6zQ556T2j_wK6fck,2965
+madbg/consts.py,sha256=PTYrossWhvWd35RMok0EFIevFaTAEEY437qFUisWGBE,137
+madbg/debugger.py,sha256=_G7VtiEpdygOpUjqkV6FwyHus0bdeuvYxFUYveh48Pw,6045
+madbg/tty_utils.py,sha256=0cn-gBgsnSOC2cy2vlo7MCt-bzMI_o17LKdQKjKPDA4,3220
+madbg/utils.py,sha256=fu0ud0kY0vHfUcuoWhk0V8epUraSSXx_bnIhc_iagJc,2030
+madbg-1.2.0.dist-info/LICENSE.txt,sha256=uWMiTSyfaXYaCmltnVDyC-IeeLafXAMXJ01Kn5C-Dng,1092
+madbg-1.2.0.dist-info/METADATA,sha256=E0BLY1J9TEZXyabTHNZ4CCMiA4pIsKBwVXKqdZEjjsA,3669
+madbg-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+madbg-1.2.0.dist-info/entry_points.txt,sha256=rVLEnj33ZbhtEqb9ZxdsZbPTv25WSPSTeXL0RkhSRcY,46
+madbg-1.2.0.dist-info/top_level.txt,sha256=figio5MEhblp22xV2Tc6-bMtlpGZUTpxj1dEAP-vIrg,6
+madbg-1.2.0.dist-info/RECORD,,
