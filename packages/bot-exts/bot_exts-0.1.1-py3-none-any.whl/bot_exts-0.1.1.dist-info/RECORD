@@ -1,0 +1,9 @@
+bot_exts/__init__.py,sha256=uugxenM2gJARy-QYcF-UzmbC0vAzvOhMScLrEXitvbU,137
+bot_exts/cogs/__init__.py,sha256=BnBSOFXJv-WsTbksWtlnRMnGImUFeC2Yiw8Hrcy68sI,66
+bot_exts/cogs/base.py,sha256=9X483LbHnlJzYREQVo9gFWwoFUBYgKdk8DOQKRc8Kto,291
+bot_exts/cogs/orm.py,sha256=Pm35FO7A2qnII7pqbhVCjTTUfQauR4fokENoUtXUsqo,823
+bot_exts/converters.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bot_exts-0.1.1.dist-info/LICENSE,sha256=PDSAXah-aIe6XbgyeyUlvzd_xZB3DMHK6a-iEqBTOhk,1092
+bot_exts-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bot_exts-0.1.1.dist-info/METADATA,sha256=KKqIHVFz6TiCQO_NYwPMj_creOf_WKbTQluG2O5xM2M,453
+bot_exts-0.1.1.dist-info/RECORD,,
