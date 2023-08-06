@@ -1,0 +1,14 @@
+# 1. Enter your email credentials
+# 2. Rename this file to 'config.yaml'
+---
+- files:        # Local file paths
+    db_path:    "config/accounts.sqlite"
+    user_image: "config/user_face.jpg"
+    last_image: "config/last_face.jpg"
+    words:      "config/words.txt"
+
+- email:        # Email settings
+    address:    "some.address@example.org"
+    password:   "some-password"
+    server:     "smtp.gmail.com"
+    port:       "465"
