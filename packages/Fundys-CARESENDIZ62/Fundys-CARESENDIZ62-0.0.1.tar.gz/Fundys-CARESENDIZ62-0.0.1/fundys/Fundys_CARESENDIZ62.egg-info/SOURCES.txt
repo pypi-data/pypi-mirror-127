@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+fundys/Fundys_CARESENDIZ62.egg-info/PKG-INFO
+fundys/Fundys_CARESENDIZ62.egg-info/SOURCES.txt
+fundys/Fundys_CARESENDIZ62.egg-info/dependency_links.txt
+fundys/Fundys_CARESENDIZ62.egg-info/top_level.txt
