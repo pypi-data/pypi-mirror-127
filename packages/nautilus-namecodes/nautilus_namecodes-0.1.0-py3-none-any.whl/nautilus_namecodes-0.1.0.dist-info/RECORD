@@ -1,0 +1,11 @@
+nautilus_namecodes/__main__.py,sha256=_O26haFoldwugVr9L1qUovXj63E9waxElST5KzFfsBw,117
+nautilus_namecodes/_helpers.py,sha256=XBvcyRkYDDi3zERKHeS1i4bB_M3VJ1-8595XQ0MLhgA,1267
+nautilus_namecodes/_version.py,sha256=RKWtv03aIuQwlnYQk2rb_rjjy1kz8FD2ksK_ql_I6Tc,986
+nautilus_namecodes/builder/namecode_builder_dataclasses.py,sha256=79hk6gj5Z6wlN4N3C_XGd8LA6jVnFf3TLP3MJ16VWJQ,5889
+nautilus_namecodes/namecodes_dataclasses.py,sha256=0_xNyu4E2EL-8nPfu013GxkZb81tpoC_okhOHy9k9Lg,1162
+nautilus_namecodes/scheme/v_0_0_1/namecode_values.py,sha256=41vzOhCqQJ82MV2ywBhMhjUZTKXEiojwyp6MSAXdI-c,9451
+nautilus_namecodes/scheme/v_0_0_1/namecodes.py,sha256=WVVxG4ysd-uaQEFc_sU2kKnFQZHYKfXimxe_LyRGymE,2768
+nautilus_namecodes-0.1.0.dist-info/LICENSE.md,sha256=GWE1fSFyeR1itk1AH4R63Mal_kFa7ctUbxeNfIURpBY,34258
+nautilus_namecodes-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nautilus_namecodes-0.1.0.dist-info/METADATA,sha256=a4FIVIoRAZ251Q6ALKdTzN7lkzaKcd8cZ5qdl-_ShjE,3377
+nautilus_namecodes-0.1.0.dist-info/RECORD,,
