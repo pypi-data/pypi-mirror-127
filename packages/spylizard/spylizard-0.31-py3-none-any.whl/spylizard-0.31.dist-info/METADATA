@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: spylizard
+Version: 0.31
+Summary: A python wrapper for the amazing sparselizard c++ library 
+Home-page: UNKNOWN
+Author: Alexandre Halbach
+Author-email: alexandre.halbach@gmail.com
+License: GNU GPLv2+
+Keywords: sparselizard numerical siulation finite element fem fea mesh multiphysics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+* Spylizard
+This python package is a wrapper for sparselizard
+
+
