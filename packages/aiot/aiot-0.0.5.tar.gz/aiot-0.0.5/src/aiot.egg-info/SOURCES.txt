@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/aiot.py
+src/aiot.egg-info/PKG-INFO
+src/aiot.egg-info/SOURCES.txt
+src/aiot.egg-info/dependency_links.txt
+src/aiot.egg-info/requires.txt
+src/aiot.egg-info/top_level.txt
