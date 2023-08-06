@@ -1,0 +1,7 @@
+setup.py
+albaraa.egg-info/PKG-INFO
+albaraa.egg-info/SOURCES.txt
+albaraa.egg-info/dependency_links.txt
+albaraa.egg-info/not-zip-safe
+albaraa.egg-info/top_level.txt
+distributions/__init__.py
