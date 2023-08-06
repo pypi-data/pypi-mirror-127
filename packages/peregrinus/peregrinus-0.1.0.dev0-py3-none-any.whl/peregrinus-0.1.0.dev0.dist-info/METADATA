@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: peregrinus
+Version: 0.1.0.dev0
+Summary: adventures in python
+Author: Thomas Reiter
+License: Apache-2.0
+Keywords: adventure
+Home-page: https://pypi.org/project/peregrinus
+Project-URL: Repository, https://github.com/tom65536/peregrinus
+Project-URL: Bug Tracker, https://github.com/tom65536/peregrinus/issues
+Project-URL: Documentation, https://peregrinus.readthedocs.io
+Project-URL: ChangeLog, https://github.com/tom65536/peregrinus/blob/master/ChangeLog.rst
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Games/Entertainment :: Role-Playing
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Requires-Dist: pint>=0.17
+Description-Content-Type: text/x-rst
+
+
+``peregrinus`` -- adventures in `Python`
+========================================
+
+.. image:: https://img.shields.io/badge/Maintained%3F-yes-green.svg
+   :target: https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity
+.. image:: https://www.code-inspector.com/project/29419/status/svg
+   :target: https://frontend.code-inspector.com/project/29419/dashboard
+.. image:: https://readthedocs.org/projects/alterego/badge/?version=latest
+   :target: https://alterego.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+.. image:: https://codecov.io/gh/tom65536/peregrinus/branch/main/graph/badge.svg?token=YHR292UJVK
+   :target: https://codecov.io/gh/tom65536/peregrinus
+.. image:: https://img.shields.io/github/license/tom65536/peregrinus
+   :alt: GitHub License
+.. image:: https://img.shields.io/github/workflow/status/tom65536/peregrinus/nox
+   :alt: GitHub Workflow Status
+.. image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+   :target: https://github.com/pre-commit/pre-commit
+   :alt: pre-commit
+.. image:: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
+   :target: CODE_OF_CONDUCT.rst
+   :alt: Contributor Covenant
+
+Summary
+-------
+
+brief summary
+
+Installation
+------------
+Install the code using pip:
+
+.. code::
+
+   pip install peregrinus
