@@ -1,0 +1,8 @@
+LICENSE
+README.md
+se_com_opts.py
+setup.py
+se_com_opts.egg-info/PKG-INFO
+se_com_opts.egg-info/SOURCES.txt
+se_com_opts.egg-info/dependency_links.txt
+se_com_opts.egg-info/top_level.txt
