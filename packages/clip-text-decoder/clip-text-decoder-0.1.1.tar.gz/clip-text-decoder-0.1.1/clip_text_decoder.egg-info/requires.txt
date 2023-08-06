@@ -1,0 +1,14 @@
+dill
+numpy
+pickle5
+pytorch-lightning
+spacy
+torch>=1.8
+torchtext
+
+[test]
+black
+flake8
+isort
+pytest
+pytest-cov
