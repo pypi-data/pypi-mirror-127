@@ -1,0 +1,10 @@
+vartests/__init__.py,sha256=sAuj_kb60PbaFeoZXVF9qODeoaihs_Folb1vhkhB_m4,80
+vartests/poetry.lock,sha256=7vAcmorLzgkEu5WcBPxQov5RlVSYisPXJj7QdawmEeg,28624
+vartests/pyproject.toml,sha256=n0Fd9S_5DxnxMYQMQvn8NSrzHAW4ElhurjAVfZc4RCI,431
+vartests/vartests.py,sha256=3PwWq7EBngrXk2vyfIqiedjFHELN6ab0ZVwn3SqGFC0,9717
+vartests/version.py,sha256=GGA2upEzyxv_kh-udLfYZt1MmqMAcI8WHrP4C1bWmhw,66
+vartests/media/Example.xlsx,sha256=_JrZRm8t8oOGchTpiDwLFZvFHgmBkG80UeLa7TcLYu8,26275
+vartests-0.1.7.dist-info/METADATA,sha256=DV619tx7o3CBMs5ZCeA_6yxjqgSifh37hN02Km78z_c,3766
+vartests-0.1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vartests-0.1.7.dist-info/top_level.txt,sha256=f7NhWVZEnWWGQWUZ-NlWWIg4_iUhJbV9J6IDzAXyIHA,9
+vartests-0.1.7.dist-info/RECORD,,
