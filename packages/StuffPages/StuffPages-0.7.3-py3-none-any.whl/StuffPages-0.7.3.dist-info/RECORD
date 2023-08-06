@@ -1,0 +1,17 @@
+stuffpages/__init__.py,sha256=1eSL67qtopji3Bo_KVIKZQWSkF8buCzbLw43dXlCWvk,70
+stuffpages/__main__.py,sha256=EH8FrThMMiNmJ2JfdQTsINdRkX_VobeLaVAyQQrVie0,1524
+stuffpages/__meta__.py,sha256=i5zhgfscuWC8vabp6pP1S6z_O5355x2aIv0so00_cmo,22
+stuffpages/_stuffpages.py,sha256=nvMSmmjX4W1IJwX4l-yzS3yGilIHkxrsvTGcpq3CpqU,20338
+stuffpages/_stuffpages/config.py,sha256=1QlkoAywxI7NxYsdU003XBnQJ21FqWFKdghO3PudAn4,3274
+stuffpages/_stuffpages/styles/default-dark.css,sha256=ZGyC_pzhUhHRirINBozKvGFXG0TmzBOCTDiVYpWlxvw,10714
+stuffpages/_stuffpages/styles/default.css,sha256=LsjIYDqDjYTYrv5nloUJ7PlsODeG7GdGMFUyhR6aroA,10532
+stuffpages/_stuffpages/styles/selenized-black.css,sha256=UT5Ejq8Vv6cfIbnwbEgP_W6CW5dFMeKtbpq9LwVAqV0,19209
+stuffpages/_stuffpages/styles/selenized-dark.css,sha256=dfAv6PMnG9KkBn6mFKlZAeKvFKUD6y7oUUPya5s3lA4,19209
+stuffpages/_stuffpages/styles/selenized-light.css,sha256=9vd8ha685yArTqlLdp3YV66xQWiUEzhV-g0HdGVJnv4,19209
+stuffpages/_stuffpages/styles/selenized-white.css,sha256=XXCXpJjTHVGPMFe2EF_-c_e2dDnZp-TYPSz7zrqzJiI,19209
+stuffpages/_stuffpages/styles/simple.css,sha256=DQnQxmogryowjw5OpACjVqJqnmj0DPwB6uCxGpzY3K4,254
+StuffPages-0.7.3.dist-info/METADATA,sha256=0eL3kCiS04RnZqbM2GnEDOUi-5k3cWbGDqaCOiI9cFA,4232
+StuffPages-0.7.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+StuffPages-0.7.3.dist-info/entry_points.txt,sha256=gAv5BZvPThTxXhKczzfxcuBMBEmj7BEjIU6XS-1kXJ0,57
+StuffPages-0.7.3.dist-info/top_level.txt,sha256=fa6ISmSRbAi5DUQDo7vwVUkfqIZO9zoYfUOPWh6vHSw,11
+StuffPages-0.7.3.dist-info/RECORD,,
