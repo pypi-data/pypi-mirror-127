@@ -1,0 +1,11 @@
+david_home_automation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+david_home_automation/config.py,sha256=VLddrw5FEBOml-tGFHe0tR27otolreDbWnaKfkcypsY,1858
+david_home_automation/main.py,sha256=_KjDKOw2CZN27iSJ7Da3-FgdqwPC3xA2axbPeDqPC2U,2540
+david_home_automation/server.py,sha256=5oVw-E-YmjgbzRk4qPypL_10yIa7mjC0QRJaMIw-Zm4,602
+david_home_automation/static/index.html,sha256=stUmXOplj3lVEeIO4hsamqaW6xk6PtdpSa_kSF4nvAg,2825
+david_home_automation/static/script.js,sha256=WsWIoLOK-l2n3IlSRNJLzY_OIlyoTeolvQcMhc2_j2g,1720
+david_home_automation/static/style.css,sha256=J0Lw0Ei0uWzBNlqFAh6R67YQB8hHTL2KJA-DEX2jSVE,1213
+david_home_automation/utils.py,sha256=buoORNOrGEOneHkozMiy03Vq-GxLMcYDYDGgeTJrqB4,1172
+david_home_automation-0.1.30.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+david_home_automation-0.1.30.dist-info/METADATA,sha256=7x--cXGhGw9Ps1ZFGA26cLzohSI80NNUQxg8aMNiL6s,1533
+david_home_automation-0.1.30.dist-info/RECORD,,
