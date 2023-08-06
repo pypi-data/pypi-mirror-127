@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: slurmer
+Version: 1.0.0
+Summary: A package to schedule different tasks in parallel with cluster support.
+License: MIT
+Author: Joan Marcè i Igual
+Author-email: J.Marce.i.Igual@tue.nl
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
