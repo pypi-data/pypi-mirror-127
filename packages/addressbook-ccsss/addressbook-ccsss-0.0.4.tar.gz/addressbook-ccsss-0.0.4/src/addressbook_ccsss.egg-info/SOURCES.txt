@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+src/addressbook/AddressBook.py
+src/addressbook/__init__.py
+src/addressbook_ccsss.egg-info/PKG-INFO
+src/addressbook_ccsss.egg-info/SOURCES.txt
+src/addressbook_ccsss.egg-info/dependency_links.txt
+src/addressbook_ccsss.egg-info/entry_points.txt
+src/addressbook_ccsss.egg-info/requires.txt
+src/addressbook_ccsss.egg-info/top_level.txt
+src/gui/__init__.py
+src/gui/gui.py
