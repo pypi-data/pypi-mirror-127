@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/copula_package/__init__.py
+src/copula_package/copula_density.py
+src/copuladensity_pkg.egg-info/PKG-INFO
+src/copuladensity_pkg.egg-info/SOURCES.txt
+src/copuladensity_pkg.egg-info/dependency_links.txt
+src/copuladensity_pkg.egg-info/top_level.txt
