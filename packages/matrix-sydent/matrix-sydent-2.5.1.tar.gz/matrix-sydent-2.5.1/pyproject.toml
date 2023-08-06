@@ -1,0 +1,72 @@
+[tool.towncrier]
+    package = "sydent"
+    filename = "CHANGELOG.md"
+    directory = "changelog.d"
+    issue_format = "[\\#{issue}](https://github.com/matrix-org/sydent/issues/{issue})"
+
+    [[tool.towncrier.type]]
+        directory = "feature"
+        name = "Features"
+        showcontent = true
+
+    [[tool.towncrier.type]]
+        directory = "bugfix"
+        name = "Bugfixes"
+        showcontent = true
+
+    [[tool.towncrier.type]]
+        directory = "docker"
+        name = "Updates to the Docker image"
+        showcontent = true
+
+    [[tool.towncrier.type]]
+        directory = "doc"
+        name = "Improved Documentation"
+        showcontent = true
+
+    [[tool.towncrier.type]]
+        directory = "removal"
+        name = "Deprecations and Removals"
+        showcontent = true
+
+    [[tool.towncrier.type]]
+        directory = "misc"
+        name = "Internal Changes"
+        showcontent = true
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+target-version = ['py36']
+
+[tool.mypy]
+plugins = "mypy_zope:plugin"
+show_error_codes = true
+namespace_packages = true
+strict = true
+
+files = [
+    # Find files that pass with
+    #     find sydent tests -type d -not -name __pycache__ -exec bash -c "mypy --strict '{}' > /dev/null"  \; -print
+    "sydent"
+    # TODO the rest of CI checks these---mypy ought to too.
+    # "tests",
+    # "matrix_is_test",
+    # "scripts",
+    # "setup.py",
+]
+mypy_path = "stubs"
+
+[[tool.mypy.overrides]]
+module = [
+    "idna",
+    "nacl.*",
+    "netaddr",
+    "prometheus_client",
+    "sentry_sdk",
+    "signedjson.*",
+    "sortedcontainers",
+]
+ignore_missing_imports = true
+
