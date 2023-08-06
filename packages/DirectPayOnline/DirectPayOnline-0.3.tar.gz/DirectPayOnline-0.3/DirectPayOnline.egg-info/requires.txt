@@ -1,0 +1,4 @@
+requests
+xmltodict
+pydantic
+python-dotenv
