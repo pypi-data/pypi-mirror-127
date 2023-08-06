@@ -1,0 +1,8 @@
+jupyter_doexport/__init__.py,sha256=5Si0afdKENZg9H0fpjVLDQElscKz05FowBk8aTdvGCA,1679
+jupyter_doexport/magic_convert.py,sha256=nv2NKXelTjuM8iQ9pa_ZbXogtlI2B2vhCc2PVoJcj2E,272
+jupyter_doexport/templates/dofile/dofile.do.j2,sha256=kN3Fs0Rg1DDI7hl3bhg1dy6ArevHQp9xaEbztrmwBy4,536
+jupyter_doexport/templates/dofile_output/dofile_output.do.j2,sha256=UYhOVSxG3-3vGZf0kT3XvpArf2szBIhH5rLe6SCTLv4,930
+jupyter_doexport-0.3.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+jupyter_doexport-0.3.9.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+jupyter_doexport-0.3.9.dist-info/METADATA,sha256=JWAO211JGGsX25edIvtZj_6KhlDmxWAiRPoewkyHcsQ,1517
+jupyter_doexport-0.3.9.dist-info/RECORD,,
