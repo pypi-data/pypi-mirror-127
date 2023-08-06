@@ -1,0 +1,42 @@
+## requirements.txt for creating venvs with sagelib
+##
+## Usage:
+##
+##                   $ ../sage -sh
+##         (sage-sh) $ python3 -m venv venv1
+##         (sage-sh) $ source venv1/bin/activate
+## (venv1) (sage-sh) $ pip install -r requirements.txt
+## (venv1) (sage-sh) $ pip install -e .
+
+
+sage-conf==9.5.beta6
+
+cypari2==2.1.2
+cysignals==1.10.3
+Cython==0.29.24
+gmpy2==2.1.0b5
+jinja2==2.11.2
+jupyter_core==4.7.1
+numpy==1.21.2
+pkgconfig==1.5.5
+pplpy==0.8.6
+pycygwin==0.1; sys_platform == 'cygwin'
+
+
+ipython==7.27.0
+pexpect==4.8.0
+
+sphinx==4.2.0
+networkx==2.6.2
+scipy==1.6.3
+sympy==1.8
+matplotlib==3.3.4
+pillow==8.1.2
+mpmath==1.2.1
+ipykernel==6.3.1
+jupyter_client==7.0.2
+ipywidgets==7.6.4
+
+cvxopt==1.2.7
+rpy2==3.3.6
+fpylll==0.5.6
