@@ -1,0 +1,14 @@
+sancty/__init__.py,sha256=iRHTUOvmT7Mo1WLqjvcIcTYF_lQdM3bsJYNEwITwa5g,119
+sancty/cli.py,sha256=O0QdeSP-fM2E_T5ot1kSrdiT8-WVITCM-GsyZ-6soVg,77
+sancty/deps_types.py,sha256=U5KnTjxydR7Xp_RUXta_B6MkxvSKaPrrYnxHHN5_s1Q,357
+sancty/main.py,sha256=rv2_vI9D2miG-KW1MjvBCDvm4McLRJNM1nz4ITrLYH0,93
+sancty/patch_blessed/__init__.py,sha256=WXDFlym0tGQW79yAOc2-LTT6fjzW8RNzpO1x-A1TFZs,51
+sancty/patch_blessed/terminal.py,sha256=cmgxi-xU8u_n44KCEgfuJgaCdo_wyZSALe8Un6H9K_Y,313
+sancty/read.py,sha256=a6A40ZOrA0kTv8Z1z_xOjBppeHHr3FxaScLo1llBZ24,2985
+sancty/render.py,sha256=6DnKyLzzHb_HkFAUYKkkzoNS5SY2VSty30qr77DUB1w,13404
+sancty/run.py,sha256=3qMzQCQqhLcu7BkQKMwjz6KW2svEl6eOurXb1hJYzG4,4545
+sancty-0.2.0.dist-info/entry_points.txt,sha256=czv0Aabx6kz4PZ7mT--KidV8Nd-0VBSnuz2-QRm9YzI,41
+sancty-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sancty-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sancty-0.2.0.dist-info/METADATA,sha256=bp67ZxSjZzCNTf4nblJQbEezpPV326AXGrkLqVqmFpk,2011
+sancty-0.2.0.dist-info/RECORD,,
