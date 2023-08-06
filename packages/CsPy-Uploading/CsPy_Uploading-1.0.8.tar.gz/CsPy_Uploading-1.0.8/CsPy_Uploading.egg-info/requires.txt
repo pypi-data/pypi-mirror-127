@@ -1,0 +1,9 @@
+pandas
+pandas-gbq
+numpy
+datetime
+humanfriendly
+openpyxl
+pymssql
+google
+smtplib
