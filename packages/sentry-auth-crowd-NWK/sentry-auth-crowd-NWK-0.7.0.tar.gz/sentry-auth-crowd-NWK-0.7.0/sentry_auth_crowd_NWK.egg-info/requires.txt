@@ -1,0 +1,5 @@
+Crowd>=2.0.1
+sentry>=21.9.0
+
+[tests]
+flake8<2.1,>=2.0

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sentry-auth-crowd-NWK
+Version: 0.7.0
+Summary: Crowd authentication provider for Sentry
+Home-page: https://github.com/NWKDenmark/sentry-auth-crowd
+Author: NWK
+Author-email: NWKDenmark@protonmail.com
+License: Apache 2.0
+Description: 
+        sentry-auth-crowd
+        ==================
+        Original work by 2016 Bas van Oostveen, updated for Sentry 21.9.0 by NWK
+        :copyright: (c) 2016 Bas van Oostveen, 2021 NWK
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Provides-Extra: tests
