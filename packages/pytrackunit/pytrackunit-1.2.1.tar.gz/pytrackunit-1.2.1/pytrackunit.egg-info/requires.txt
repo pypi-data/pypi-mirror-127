@@ -1,0 +1,3 @@
+pyparsing<3
+matplotlib
+requests

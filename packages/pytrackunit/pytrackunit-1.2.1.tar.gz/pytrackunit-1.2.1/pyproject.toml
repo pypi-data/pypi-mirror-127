@@ -1,0 +1,10 @@
+[build-system]
+requires = [
+	"pyparsing<3",
+	"setuptools",
+	"wheel",
+	"matplotlib",
+	"requests",
+	"pytest"
+]
+build-backend = "setuptools.build_meta"
