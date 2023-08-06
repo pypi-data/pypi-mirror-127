@@ -1,0 +1,2 @@
+streamlit>=0.63
+streamlit-text-like>=0.0.2
