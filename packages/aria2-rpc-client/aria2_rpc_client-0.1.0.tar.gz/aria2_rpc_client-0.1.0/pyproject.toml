@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aria2_rpc_client"
+version = "0.1.0"
+description = "Aria2 RPC Client"
+authors = ["Özkan ŞEN <ozkansen@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^21.10b0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
