@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: fastapi-users-db-deta
+Version: 0.1.0
+Summary: Sub-package for Deta Base support in FastAPI Users.
+Home-page: https://github.com/ak4zh/fastapi_users_db_deta
+Author: Akash Agarwal
+Author-email: agwl.akash@gmail.com
+License: MIT license
+Keywords: fastapi_users_db_deta
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+=====================
+FastAPI Users DB Deta
+=====================
+
+
+.. image:: https://img.shields.io/pypi/v/fastapi_users_db_deta.svg
+        :target: https://pypi.python.org/pypi/fastapi_users_db_deta
+
+.. image:: https://img.shields.io/travis/ak4zh/fastapi_users_db_deta.svg
+        :target: https://travis-ci.com/ak4zh/fastapi_users_db_deta
+
+.. image:: https://readthedocs.org/projects/fastapi-users-db-deta/badge/?version=latest
+        :target: https://fastapi-users-db-deta.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Sub-package for Deta Base support in FastAPI Users.
+
+
+* Free software: MIT license
+* Documentation: https://fastapi-users-db-deta.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2021-11-17)
+------------------
+
+* First release on PyPI.
+
+
