@@ -1,0 +1,12 @@
+sckg/__init__.py,sha256=2H0uYOoLLBD6oXAyxWVx3Bx2OibEgOkJhDFXtJzoY_A,147
+sckg/buildtrie.py,sha256=CWgWjhX7PERSOnGAoqJLtV61W6y4mky0BNKzuyKZnpk,515
+sckg/cli.py,sha256=UsR1DX42bhF_o7IMVdkXdpK1UxZimnVywXW8PrTNpNs,390
+sckg/graph.py,sha256=X_DS-Pt7fK-mkAncY3GRgkEmt35wtOPRIK5RKJCdQsE,6976
+sckg/sckg.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+sckg-0.1.7.dist-info/AUTHORS.rst,sha256=KIY7dRsXFhInFvpo7BzqFPVeYyLJkFM3IRJvibGMt9A,181
+sckg-0.1.7.dist-info/LICENSE,sha256=1oihNRrLkFOyLnaETECbtg9HvSKWh1JVBfbbW_P0eKE,1091
+sckg-0.1.7.dist-info/METADATA,sha256=3SUEG1Zl0KTIj0qzoVy3YD42RkSE1CmY4DyS5cBk8k4,2517
+sckg-0.1.7.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+sckg-0.1.7.dist-info/entry_points.txt,sha256=D6SEXzyL7RVufgJJQEGs1F3osKYu_IV7PDZsnBnYeRE,40
+sckg-0.1.7.dist-info/top_level.txt,sha256=U23iaDcUU-uEdEF3xx-LOF_GXqTxS6oxUT19aN2zw6o,5
+sckg-0.1.7.dist-info/RECORD,,
