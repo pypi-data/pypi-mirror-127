@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="res_partner_form" model="ir.ui.view">
+    <field name="name">res.partner.form</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="account.view_partner_property_form" />
+    <field name="arch" type="xml">
+      <xpath expr="//page[@name='accounting']" position="after">
+        <page string="Sponsees" name="sponsees" attrs="{'invisible': [('member','!=',True)]}">
+          <field name="sponsee_ids"/>
+        </page>
+      </xpath>
+    </field>
+  </record>
+  <record id="res_partner_form_easy_my_coop" model="ir.ui.view">
+    <field name="name">res.partner.form.easy_my_coop</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="easy_my_coop.view_partner_form_easy_my_coop" />
+    <field name="arch" type="xml">
+      <field name="gender" position="after">
+        <field name="coop_sponsee"/>
+        <field name="sponsor_id" attrs="{'invisible': [('coop_sponsee','=',False)]}"/>
+      </field>
+    </field>
+  </record>
+  <record id="view_res_partner_filter_coop" model="ir.ui.view">
+    <field name="name">res.partner.select.coop_sponsorship</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="easy_my_coop.view_res_partner_filter_coop" />
+    <field name="arch" type="xml">
+      <filter name="cooperator_candidates" position="after">
+        <filter string="Cooperator Sponsees" name="sponsees"
+          domain="[('coop_sponsee','=',1)]"
+          help="Partners with a sponsor"/>
+      </filter>
+    </field>
+  </record>
+</odoo>
