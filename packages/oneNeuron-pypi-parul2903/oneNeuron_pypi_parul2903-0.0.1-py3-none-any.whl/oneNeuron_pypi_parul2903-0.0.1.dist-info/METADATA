@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: oneNeuron-pypi-parul2903
+Version: 0.0.1
+Summary: It is an implementation of Perceptron
+Home-page: https://github.com/pypa/sampleproject
+Author: parul2903
+Author-email: parul3kin@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/parul2903/oneNeuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+# oneNeuron_pypi
+Python package index
+
+### Reference
+[Official Python packaging doc](https://packaging.python.org/tutorials/packaging-projects/)
+
+[Github Docs for Github Actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
+
