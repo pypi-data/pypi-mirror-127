@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+benchmarks/__init__.py
+benchmarks/benchmark_correct.py
+benchmarks/benchmark_fit.py
+benchmarks/benchmark_plot.py
+detectorcal/__init__.py
+detectorcal/correct.py
+detectorcal/fit.py
+detectorcal/plot.py
+detectorcal.egg-info/PKG-INFO
+detectorcal.egg-info/SOURCES.txt
+detectorcal.egg-info/dependency_links.txt
+detectorcal.egg-info/requires.txt
+detectorcal.egg-info/top_level.txt
