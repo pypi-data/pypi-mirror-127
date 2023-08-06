@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: hass-auth-synology
+Version: 0.3.0
+Summary: Synology authentication provider for Home Assistant
+Home-page: https://github.com/sdebruyn/hass-auth-synology
+License: Apache-2.0
+Keywords: synology,authentication,homeassistant,hass
+Author: Sam Debruyn
+Author-email: sam@debruyn.dev
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Security
+Requires-Dist: homeassistant (>=2021.11.2,<2022.0.0)
+Project-URL: Repository, https://github.com/sdebruyn/hass-auth-synology
+Description-Content-Type: text/markdown
+
+# Authentication provider using Synology DSM users for Home Assistant
+
+## License & attribution
+
+Apache v2.0
+
+Test utilities under `tests` are coming from [Home Assistant Core](https://github.com/home-assistant/core).
+

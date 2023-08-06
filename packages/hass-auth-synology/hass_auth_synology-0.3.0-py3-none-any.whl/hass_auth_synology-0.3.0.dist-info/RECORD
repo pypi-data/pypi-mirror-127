@@ -1,0 +1,8 @@
+hass_auth_synology/__init__.py,sha256=WUcrH3EsCQdWjDYKBY5lZLElujrRTJn0x4NluQPo0JU,194
+hass_auth_synology/install.py,sha256=lWS9cNMXL52k8EGTbMy_lfWJ1AusZoILVSwBN_msIq8,1147
+hass_auth_synology/synology.py,sha256=WLLdsame_5SkuvxiC_-rW24em1sK--Rrh9iHajmRJYE,8073
+hass_auth_synology-0.3.0.dist-info/entry_points.txt,sha256=RKYkVKnnd_1u04IHEAIXP2mme739O8jwQETUfXdHNrk,69
+hass_auth_synology-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hass_auth_synology-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+hass_auth_synology-0.3.0.dist-info/METADATA,sha256=u_-71I3riV_byLbaMblhmFWmutwQBlzsI1xxrD84CfQ,1231
+hass_auth_synology-0.3.0.dist-info/RECORD,,
