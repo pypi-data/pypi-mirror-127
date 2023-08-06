@@ -1,0 +1,9 @@
+django-coffee-model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django-coffee-model/coffee_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django-coffee-model/coffee_model/apps.py,sha256=3kXztTC8Zx8gsiiWB0qnYCYep2J62RHcTUV32lQrTR0,155
+django-coffee-model/coffee_model/models.py,sha256=dvndQIiSMlgbCOdkhADUrc4bqAggUYVrHi3IkcDz3Ro,1384
+django-coffee-model/coffee_model/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_coffee_model-2.1.dist-info/METADATA,sha256=SK-sMM9oX3QVK1eT2JB2LF8sXNy083Q7_rdNI0zf9-Y,648
+django_coffee_model-2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_coffee_model-2.1.dist-info/top_level.txt,sha256=V5jyLY-7gwPPxz7R0oWTSj3W7EihmBZZNv5tQwxL9g4,20
+django_coffee_model-2.1.dist-info/RECORD,,
