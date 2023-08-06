@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+pyspyne/__init__.py
+pyspyne/broccoli.py
+pyspyne/catalyst_setup.py
+pyspyne/photon_setup.py
+pyspyne/spyne.py
+pyspyne.egg-info/PKG-INFO
+pyspyne.egg-info/SOURCES.txt
+pyspyne.egg-info/dependency_links.txt
+pyspyne.egg-info/top_level.txt
