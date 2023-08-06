@@ -1,0 +1,10 @@
+colorain/__init__.py,sha256=zlzH2KjXlFdPur3DtHX6J7l_5jM9fv3cohAsAVi5kVo,44
+colorain/colorain.py,sha256=ejgOzuL4b5-GsJ_KeQpNtTi939JjI-m_Pu7wPr-AZ5s,6196
+colorain/colours.py,sha256=J_ZL37l0wSOme03Gj9BYpE58YgZJI7c9wHQrFK-d7zY,4094
+colorain/errors.py,sha256=P0oxkilmxjc6J7HLxcCtYMhNAyJP3IjR9iwn_54y7GI,1319
+colorain/snake.py,sha256=ys0L1ic2laDepeSdKDyh94CebmI3awSm1Sw3CoUR3bE,6649
+colorain-0.0.39.dist-info/LICENSE,sha256=gmVua0_H1HIC4ZCyeMmf8wIbAMYJMceP78QxVKaE2Sg,1055
+colorain-0.0.39.dist-info/METADATA,sha256=e35wjxm_OAEadtIskDV68xwBShVHyWjEYjadGJPSbds,9617
+colorain-0.0.39.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+colorain-0.0.39.dist-info/top_level.txt,sha256=GMxBi8atZUgRJhIv8fgiyen8PtEWqWwJN0BtsShTg_w,9
+colorain-0.0.39.dist-info/RECORD,,
