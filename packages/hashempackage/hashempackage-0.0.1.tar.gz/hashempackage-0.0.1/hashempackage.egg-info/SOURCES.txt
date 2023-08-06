@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+hashempackage.egg-info/PKG-INFO
+hashempackage.egg-info/SOURCES.txt
+hashempackage.egg-info/dependency_links.txt
+hashempackage.egg-info/top_level.txt
+joshbasiccalculator/__init__.py
