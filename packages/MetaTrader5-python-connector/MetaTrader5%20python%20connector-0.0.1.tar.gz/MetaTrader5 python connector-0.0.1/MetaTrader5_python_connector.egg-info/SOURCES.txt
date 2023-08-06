@@ -1,0 +1,10 @@
+setup.py
+MetaTrader5_python_connector.egg-info/PKG-INFO
+MetaTrader5_python_connector.egg-info/SOURCES.txt
+MetaTrader5_python_connector.egg-info/dependency_links.txt
+MetaTrader5_python_connector.egg-info/top_level.txt
+mt5_conn/Account.py
+mt5_conn/MT5app.py
+mt5_conn/Price.py
+mt5_conn/__init__.py
+mt5_conn/mt5_objects.py
