@@ -1,0 +1,9 @@
+SnowML/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SnowML/evaluation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SnowML/evaluation/evaluation_utils.py,sha256=ze_bynQBOr8fjNCrfZlNyZHd5bPE3FN754qm-awAN1I,600
+SnowML/evaluation/evaluators.py,sha256=2Bh7lOEXL35YhQkGiCBcjYYJObnF_38OcSqKhNMySYQ,6318
+SnowML-0.0.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+SnowML-0.0.4.dist-info/METADATA,sha256=6TYCLV4Tb77sfCFuIDXTjx2bzMO3W5fWIczxi_9w1fU,765
+SnowML-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+SnowML-0.0.4.dist-info/top_level.txt,sha256=VKCsV_HxrCNt4XSfp4KWaLpd9aCIkgaFPy8App-3Nrc,18
+SnowML-0.0.4.dist-info/RECORD,,
