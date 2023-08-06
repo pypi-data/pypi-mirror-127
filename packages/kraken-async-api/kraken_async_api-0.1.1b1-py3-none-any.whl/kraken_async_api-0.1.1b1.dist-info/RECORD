@@ -1,0 +1,11 @@
+kraken_async_api/__init__.py,sha256=x3N7rUj136tJ1oU1fRKaqPpfCn_OIzC5kxkjCau95wA,649
+kraken_async_api/config.py,sha256=efaRk0zXqdfgcz0rfIspxEguPdpxbgHG0FR2xw0SH4g,1369
+kraken_async_api/constants.py,sha256=KKbJcBFJ-XLrecstc12DVvs1RB3AqiQ9OfPrDKY92eo,1000
+kraken_async_api/exchange.py,sha256=0LS7AAmEsfOPRhwWb1QPb7gCeKh1M1sFIqBleH2ZgzU,4365
+kraken_async_api/rest.py,sha256=hspJVBQrDk8ESgrS2zySdkbo5jJ87qyRqhb-Sdha0po,9491
+kraken_async_api/websocket.py,sha256=EjC_x4-evIAu9T3aZygn9Tiqxlq2cXXGdFJ2E3_c3os,11633
+kraken_async_api-0.1.1b1.dist-info/LICENSE.txt,sha256=zBk8OcyY2RNeid4bbvuJQEo-uW9TjlEUMGf7q1SQ0Aw,1078
+kraken_async_api-0.1.1b1.dist-info/METADATA,sha256=N3YO7wpgJPaW-n8r6feg9KO6uBI_C5qls8xaN_gMpks,1770
+kraken_async_api-0.1.1b1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+kraken_async_api-0.1.1b1.dist-info/top_level.txt,sha256=M7GB26LFKADc7MoN6IwpVISXouZBgqfy_m54LZIwceM,17
+kraken_async_api-0.1.1b1.dist-info/RECORD,,
