@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pkgs/YouTubePlayer.egg-info/PKG-INFO
+pkgs/YouTubePlayer.egg-info/SOURCES.txt
+pkgs/YouTubePlayer.egg-info/dependency_links.txt
+pkgs/YouTubePlayer.egg-info/requires.txt
+pkgs/YouTubePlayer.egg-info/top_level.txt
+pkgs/youtubeplayer/Lib.py
+pkgs/youtubeplayer/__init__.py
+pkgs/youtubeplayer/config.py
+pkgs/youtubeplayer/database.py
+pkgs/youtubeplayer/y2mate.py
+pkgs/youtubeplayer/youtube.py
