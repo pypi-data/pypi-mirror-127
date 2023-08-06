@@ -1,0 +1,10 @@
+requests
+
+[dev]
+pytest
+pylint
+yapf
+mypy
+responses
+twine
+types-requests
