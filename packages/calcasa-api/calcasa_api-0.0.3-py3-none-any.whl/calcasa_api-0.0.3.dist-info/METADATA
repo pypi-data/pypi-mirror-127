@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: calcasa-api
+Version: 0.0.3
+Summary: Calcasa Public API
+Home-page: https://github.com/calcasa/api-python
+Author: Calcasa B.V.
+Author-email: info@calcasa.nl
+License: Apache-2.0
+Keywords: OpenAPI,OpenAPI-Generator,Calcasa Public API
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Requires-Dist: python-dateutil
+Requires-Dist: urllib3 (>=1.25.3)
+
+# api
+Calcasa tools for the API
+
+![Nuget](https://img.shields.io/nuget/v/Calcasa.Api?label=Nuget) - ![Packagist Downloads](https://img.shields.io/packagist/v/calcasa/api?label=Packagist) - ![PyPI - Downloads](https://img.shields.io/pypi/v/calcasa-api?label=PyPi)
+
+
