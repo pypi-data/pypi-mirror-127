@@ -1,0 +1,2 @@
+jsonschema==4.1.2
+bagit==1.8.1
