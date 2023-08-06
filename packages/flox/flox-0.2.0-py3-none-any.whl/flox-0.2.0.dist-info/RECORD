@@ -1,0 +1,16 @@
+flox/__init__.py,sha256=U0u-WRB4nbR-z_DjdBQzhgpuQd3-7yhCVsLwpxtzsvo,543
+flox/aggregations.py,sha256=45_MZDDhWenGCu6mO1q8zNFlmDoDCzvJEZKfvVIbODM,10257
+flox/core.py,sha256=ziwJgq8ey169uzUCAi6CnrM2cDc3s5AIlDzrS2_0Q_g,47446
+flox/pdutils.py,sha256=esKIPIAHL2rqIkXQd0jQSxOPPBFbDJG8uotT9htT78M,1146
+flox/toolz_compat.py,sha256=U4Y7pOxNsDmUSJRdXbVFQy5aULx2-Sw7uoEwspUuBXk,3059
+flox/xarray.py,sha256=nxsoi3AXmQV2jFmOys3KMvFGe8L7N6lUryoRUa755og,18454
+flox/xrdtypes.py,sha256=5xqRjaQ11o7wR7pWKNC3sXsvZkPamC9ubqU5-TSlQdo,4823
+flox/xrutils.py,sha256=GFfh7rKAGaTgvbQHSb1OObXwTMj2X0SP6LbwseWpL1g,3034
+tests/__init__.py,sha256=WCOuui7_ysaZOO_PpHOZBiODT1qy8JsRtc7gpfCfLlE,1414
+tests/test_core.py,sha256=6PV4V-dlY3qmtblCFLMdH9mh7-fVik61w335hP5dq1A,19230
+tests/test_xarray.py,sha256=APVF-EoTjZ-RQ7YdCDweydXwxUMGnao2zz2GufJ3x18,9696
+flox-0.2.0.dist-info/LICENSE,sha256=IayqHV9saw9sn7tAUYqWE3pcFO5G5RVUOcWHYsDfvPs,11324
+flox-0.2.0.dist-info/METADATA,sha256=M_o2INGpz-pvAF6k3lUGNIW7FSPLU1UAfHEpuk0lC2E,3947
+flox-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+flox-0.2.0.dist-info/top_level.txt,sha256=IXoXhbKXjGh-fnFSO4H1Ez6kV1Q1E3eUIb8O6B8SlA4,11
+flox-0.2.0.dist-info/RECORD,,
