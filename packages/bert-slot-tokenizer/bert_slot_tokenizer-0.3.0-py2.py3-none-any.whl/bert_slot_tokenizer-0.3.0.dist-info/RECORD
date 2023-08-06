@@ -1,0 +1,10 @@
+bert_slot_tokenizer/__init__.py,sha256=mb-kKScK8mmhMOlbkJVK3D7FkF_4Atnbx-4gGgeBFPk,8488
+bert_slot_tokenizer/main.py,sha256=pk9_uenXXO1uXiWdqEHRyRcRxI-xXTHq1xoVmnn9iss,141
+bert_slot_tokenizer/bert_tokenizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bert_slot_tokenizer/bert_tokenizer/tokenization.py,sha256=3HY1jkEqCVH9b48u62G1x-a4HXJ3ee9CZvzxDbyF1a8,18690
+bert_slot_tokenizer-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bert_slot_tokenizer-0.3.0.dist-info/METADATA,sha256=NkUsqZ9VuDzlgTKC5WZZwqMCaTYzddk6DxxoDM_XXAM,2668
+bert_slot_tokenizer-0.3.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+bert_slot_tokenizer-0.3.0.dist-info/entry_points.txt,sha256=y6lovnUyn6j7ZOd0GoA_vS2nFEE2VILAmaFnmV9Au8I,71
+bert_slot_tokenizer-0.3.0.dist-info/top_level.txt,sha256=cKBZ1IyquspQzoyoPijGm4tuTSgRoDzlkitBDnwh_XQ,20
+bert_slot_tokenizer-0.3.0.dist-info/RECORD,,
