@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: yama-util
+Version: 0.0.0
+Summary: Sleepy cat all day and night
+Home-page: https://github.com/yamato-kaeng/yama_util
+Author: kaengyama
+Author-email: pachitkaeng@gmail.com
+License: MIT
+Description: # yama_util
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
