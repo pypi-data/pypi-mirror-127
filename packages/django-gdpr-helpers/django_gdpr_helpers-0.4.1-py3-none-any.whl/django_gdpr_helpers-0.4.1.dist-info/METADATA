@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: django-gdpr-helpers
+Version: 0.4.1
+Summary: A Django app for managing GDPR compliancy
+Home-page: UNKNOWN
+Author: Fabio Piras
+Author-email: fabio@godsofweb.com
+License: BSD-3-Clause
+Project-URL: Source, https://github.com/Arussil/django-gdpr-helpers
+Project-URL: Tracker, https://github.com/Arussil/django-gdpr-helpers/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: django (<4.0,>2.2)
+Provides-Extra: test
+Requires-Dist: pytest-django ; extra == 'test'
+Requires-Dist: freezegun ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+
+UNKNOWN
+
