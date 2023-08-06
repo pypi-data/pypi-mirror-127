@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+bin/lawyertools
+lawyertools/__init__.py
+lawyertools/app.py
+lawyertools.egg-info/PKG-INFO
+lawyertools.egg-info/SOURCES.txt
+lawyertools.egg-info/dependency_links.txt
+lawyertools.egg-info/requires.txt
+lawyertools.egg-info/top_level.txt
