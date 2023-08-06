@@ -1,0 +1,5 @@
+httpx~=0.20
+lxml
+pydantic>=1.8.2
+email-validator>=1.1.0
+phonenumberslite
