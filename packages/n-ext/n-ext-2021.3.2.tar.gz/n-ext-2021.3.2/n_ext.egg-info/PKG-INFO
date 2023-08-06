@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: n-ext
+Version: 2021.3.2
+Summary: Project interface for nextcord-ext's
+Home-page: https://github.com/nextcord-ext/n-ext
+Author: nextcord-ext
+License: Apache Software License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8.0
+Provides-Extra: menus
+Provides-Extra: ipc
+Provides-Extra: events
+Provides-Extra: alternatives
+Provides-Extra: core
+Provides-Extra: lava
+Provides-Extra: music
+License-File: LICENSE
+
+UNKNOWN
+
