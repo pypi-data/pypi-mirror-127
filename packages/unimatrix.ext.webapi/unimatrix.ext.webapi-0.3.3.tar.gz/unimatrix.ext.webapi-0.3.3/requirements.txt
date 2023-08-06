@@ -1,0 +1,7 @@
+fastapi
+python-ioc>=1.8.0
+marshmallow
+unimatrix>=0.11.0
+unimatrix.ext.crypto>=0.14.2
+unimatrix.ext.jose>=1.3.0
+unimatrix.ext.model
