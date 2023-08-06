@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+Hgments.egg-info/PKG-INFO
+Hgments.egg-info/SOURCES.txt
+Hgments.egg-info/dependency_links.txt
+Hgments.egg-info/requires.txt
+Hgments.egg-info/top_level.txt
