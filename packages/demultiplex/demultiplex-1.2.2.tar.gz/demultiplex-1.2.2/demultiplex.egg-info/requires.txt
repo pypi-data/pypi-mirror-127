@@ -1,0 +1,5 @@
+biopython>=1.72
+dict-trie>=1.0.1
+fastools>=1.1.0
+jit-open>=1.0.1
+tssv>=1.1.0
