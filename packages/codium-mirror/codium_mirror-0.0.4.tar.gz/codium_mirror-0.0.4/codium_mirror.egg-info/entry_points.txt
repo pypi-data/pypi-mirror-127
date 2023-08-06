@@ -1,0 +1,3 @@
+[console_scripts]
+codium_mirror = codium_mirror:run
+
