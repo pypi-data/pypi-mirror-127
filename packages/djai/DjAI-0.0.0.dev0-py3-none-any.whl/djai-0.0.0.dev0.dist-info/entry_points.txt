@@ -1,0 +1,3 @@
+[console_scripts]
+djai=djai.util.cli:djai
+
