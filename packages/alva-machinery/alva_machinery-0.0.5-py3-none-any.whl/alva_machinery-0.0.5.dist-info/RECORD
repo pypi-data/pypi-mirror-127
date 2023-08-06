@@ -1,0 +1,14 @@
+alva_machinery/__init__.py,sha256=A-sreSLwtfn87i-0bEO1pTwAkXhrsXHQ0a7ypTZwvWg,210
+alva_machinery/branching/__init__.py,sha256=xDZa23y1MYaPTuyjO1pDUNDcgn_l5Uw7wcR7rUlkNKo,210
+alva_machinery/branching/aWay.py,sha256=rdSUVMeUwRXHWp5nx8tR8I9ViV7NAw2cTGqxf9m5y0Q,6816
+alva_machinery/distribution/__init__.py,sha256=QBhPrJJyxZZdTzDNFw6g8luU-tZn15fb1K5G3EIQpGk,189
+alva_machinery/distribution/aFit.py,sha256=2DokQ77poJmJg_MaK4Q12d15fOf_5s2PK2qO54PKg6M,29261
+alva_machinery/markov/__init__.py,sha256=xDZa23y1MYaPTuyjO1pDUNDcgn_l5Uw7wcR7rUlkNKo,210
+alva_machinery/markov/aChain.py,sha256=0YYQh85AxLxuN0qILVCP_UN1rTTrM5F_MgVk8AYZ0qc,21701
+alva_machinery/packing/__init__.py,sha256=QBhPrJJyxZZdTzDNFw6g8luU-tZn15fb1K5G3EIQpGk,189
+alva_machinery/packing/aCircle.py,sha256=JcIrHdsae33O0dE_IFF2G92zZXe-izdG-unScjINcMM,17972
+alva_machinery-0.0.5.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+alva_machinery-0.0.5.dist-info/METADATA,sha256=36CDxT-0CC6ddHNFFiwX_3kLuqbFqHH1bBjumF1jvt8,1922
+alva_machinery-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+alva_machinery-0.0.5.dist-info/top_level.txt,sha256=uar44gdP8WY-RMaxTOFtMDLujaa1MSGYKHnnqUX57Bw,15
+alva_machinery-0.0.5.dist-info/RECORD,,
