@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: dtcalc
+Version: 0.1a0
+Summary: Find difference between dates and times
+Home-page: https://github.com/ju-sh/dtcalc
+Author: Julin S
+Author-email: 
+License: UNKNOWN
+Project-URL: Changelog, https://github.com/ju-sh/dtcalc/blob/master/CHANGELOG.md
+Project-URL: Issue Tracker, https://github.com/ju-sh/dtcalc/issues
+Description: ## Features
+        
+         - Self-contained. No dependencies other than a recent Python implementation.
+         - 100% test coverage
+         - Static type checked
+         - Linted
+        
+        ## Why
+        
+         - Did the phone company did their math right?
+         - Your complaint will be resolved within 12 days. Okay, when is that?
+         - Oh, my birthday was 3 months ago.
+         - My friend's wedding anniversary is 2 weeks away.
+        
+        ## What can't be done
+        
+         - Subtracting a date from an offset.
+           + `3d - 2021/04/28  # will throw error`
+         - 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
