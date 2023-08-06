@@ -1,0 +1,10 @@
+pyaemet/__init__.py,sha256=4yJQpITeKCRJC4mboMR7cSG9TxZHwLTLcuKqK9cYnj8,387
+pyaemet/aemet_api_request.py,sha256=RdvzlMIsY2451uOxKVuvcO0oWOa0QZEfqTBZYNNpZ50,2461
+pyaemet/apikey_file.py,sha256=9eSvdtb7GeI_daQH3WUSSLZ85zHXRFspn8UEUyZ5htw,483
+pyaemet/utilities.py,sha256=6AjOYBwTihsxQYEbCrgFMzR9T6F77dxREhGMHzExT4A,3251
+pyaemet/valores_climatologicos.py,sha256=ZU7egc5vWVEQ0mC1I3Nx-vgonumaHh6rhSEoz4484-c,12966
+pyaemet-1.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyaemet-1.0.2.dist-info/METADATA,sha256=ihl0_OdRiFD0Ch9v_nL1_n96Hf0xRm-NdxlV5MpExZo,6303
+pyaemet-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyaemet-1.0.2.dist-info/top_level.txt,sha256=b3j_PQqE-O0TNVfkAIt3EGMA5Umm9kJL7Zn0sw84ulw,8
+pyaemet-1.0.2.dist-info/RECORD,,
