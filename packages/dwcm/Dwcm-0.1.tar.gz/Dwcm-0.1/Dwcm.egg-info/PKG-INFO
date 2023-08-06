@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: Dwcm
+Version: 0.1
+Summary: Word Cloud
+Home-page: https://github.com/Cmccm123
+Author: Sunny CM <cm.for.dev@gmail.com>
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/Cmccm123/DWCM/archive/refs/tags/D3.tar.gz
+Description: UNKNOWN
+Keywords: D3,D3.js,Word Cloud,DASH,data visualization
+Platform: UNKNOWN
+Classifier: Framework :: Dash
