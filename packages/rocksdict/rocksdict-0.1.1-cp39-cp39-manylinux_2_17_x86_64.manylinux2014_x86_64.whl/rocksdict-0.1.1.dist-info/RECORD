@@ -1,0 +1,5 @@
+rocksdict-0.1.1.dist-info/METADATA,sha256=IO4pOvSk0OkN9-Q1afcjSG7Fe6EKtdcY96MI3XA1-fU,1001
+rocksdict-0.1.1.dist-info/WHEEL,sha256=Ye6z346f9f2JgULeHKfPAxRDbDTW7FUE39gmaPqtamA,128
+rocksdict/__init__.py,sha256=TPfmmwsguhDS_MYE0m4lxYKcUisxQDMsGwYg0jRvlDE,54
+rocksdict/rocksdict.cpython-39-x86_64-linux-gnu.so,sha256=oAvgkfCgdrivvPuIIGwSUkN10yqK4DJnIT4TH1Q_W3A,8751312
+rocksdict-0.1.1.dist-info/RECORD,,
