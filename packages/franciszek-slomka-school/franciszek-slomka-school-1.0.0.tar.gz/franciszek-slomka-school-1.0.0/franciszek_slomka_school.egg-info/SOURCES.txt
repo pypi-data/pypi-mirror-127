@@ -1,0 +1,9 @@
+README.md
+setup.py
+franciszek_slomka_school.egg-info/PKG-INFO
+franciszek_slomka_school.egg-info/SOURCES.txt
+franciszek_slomka_school.egg-info/dependency_links.txt
+franciszek_slomka_school.egg-info/top_level.txt
+school/__init__.py
+school/classroom.py
+school/student.py
