@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+cinemat/__init__.py
+cinemat/__main__.py
+cinemat/config.py
+cinemat/get_details.py
+cinemat/help.py
+cinemat/restful_events.py
+cinemat/search.py
+cinemator.egg-info/PKG-INFO
+cinemator.egg-info/SOURCES.txt
+cinemator.egg-info/dependency_links.txt
+cinemator.egg-info/entry_points.txt
+cinemator.egg-info/not-zip-safe
+cinemator.egg-info/requires.txt
+cinemator.egg-info/top_level.txt
