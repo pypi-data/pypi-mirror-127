@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: XMZ-env
+Version: 0.0.3
+Summary: Fake it until you make it
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: gym
+
+just for fun
+
