@@ -1,0 +1,9 @@
+include *.txt
+recursive-include example *.py
+recursive-include misc *.config
+recursive-include misc *.py
+recursive-include notebook *.ipynb
+recursive-include notebook *.md
+recursive-include tests *.py
+recursive-include typings *.pyi
+recursive-include src *.pyi

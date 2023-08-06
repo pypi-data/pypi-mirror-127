@@ -1,0 +1,11 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "networkx",
+    "pandas",
+    "pythonnet",
+    "numpy",
+    "pyproj",
+]
+build-backend = "setuptools.build_meta"
