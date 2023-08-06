@@ -1,0 +1,14 @@
+README.md
+setup.py
+imagecaptioner/__init__.py
+imagecaptioner/captioner.py
+imagecaptioner/cli.py
+imagecaptioner/metatags.py
+imagecaptioner/utils.py
+imagecaptioner.egg-info/PKG-INFO
+imagecaptioner.egg-info/SOURCES.txt
+imagecaptioner.egg-info/dependency_links.txt
+imagecaptioner.egg-info/entry_points.txt
+imagecaptioner.egg-info/requires.txt
+imagecaptioner.egg-info/top_level.txt
+imagecaptioner/fonts/Lato-Regular.ttf
