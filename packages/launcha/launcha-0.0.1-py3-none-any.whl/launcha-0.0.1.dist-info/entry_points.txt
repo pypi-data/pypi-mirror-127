@@ -1,0 +1,3 @@
+[console_scripts]
+launcha=launcha.launcha:main
+

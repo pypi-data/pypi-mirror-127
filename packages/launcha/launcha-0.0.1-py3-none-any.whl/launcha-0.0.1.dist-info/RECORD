@@ -1,0 +1,10 @@
+launcha/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+launcha/launcha.py,sha256=OiRbcdz4E_-oY1O24QmdzyR2-ZUHISs1p1OJVPwsLmQ,6188
+launcha/template/main.tf,sha256=fsW7tqGkCY-y3glIxaLZkAhbYM6-DNYvlJj_SgmSe-M,619
+launcha/template/modules/cleanrl/main.tf,sha256=1ojJhHMbXeInmb-KvkRPz0yJ5PC2Bo9PHxeeR391hUI,2360
+launcha/template/modules/cleanrl/setups.tf,sha256=Qco3X-5fJl8A_fxhkcJ0VGSxseejx4uZ1R3R3jeqix4,2145
+launcha/template/modules/cleanrl/variables.tf,sha256=QhyvZql_91-S1LVaJqn_srexGF3peWEEuMmxvT-RT1w,1249
+launcha-0.0.1.dist-info/entry_points.txt,sha256=M3ZpyJjXr8wDZqrt_o2d0N9AwY7ZMmiFsKREn_yu9M4,48
+launcha-0.0.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+launcha-0.0.1.dist-info/METADATA,sha256=Hgn6lac1Ipw6QRLYSCr9TmAjSmoAKXLTB-7RTiwDFw0,420
+launcha-0.0.1.dist-info/RECORD,,
