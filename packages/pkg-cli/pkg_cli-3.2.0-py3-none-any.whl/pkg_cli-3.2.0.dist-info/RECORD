@@ -1,0 +1,12 @@
+pkg/__init__.py,sha256=xm-DXnO48aTxTYB2DylwEvhFIVT3jVLtFvu4dUcbGfc,107
+pkg/__main__.py,sha256=fYC5cOBASsG4PK5O12eNyt-Wu-ebtIAuJTtF9mFB4dc,966
+pkg/commands.py,sha256=V-m5AJ7RHP050G1ZpoIX0k4SOVxbJ3vmdCO006rUP5g,1463
+pkg/decorators.py,sha256=ZMcqrNf4qvcncoNcOFaxhKyyJTkUifEdYIuqbWK6bqI,373
+pkg/setup.py,sha256=z9c4R3Q4sYdOjKd-lkBqPs5NC4ok_6tV-Ur96NmlwJk,75
+pkg/utils.py,sha256=YvrPdppG5dH_FhX-S4-0boPNJKMAGT25PscCx0lM7dw,142
+pkg_cli-3.2.0.dist-info/LICENSE,sha256=Svr33Q9M3IkMqdsS__5ymDaFRWFrAaaE_gIL371CiwI,1101
+pkg_cli-3.2.0.dist-info/METADATA,sha256=8q7m_JnCiBTZhqVTZOzX9T5KNqyOEbwKPv68DHQDAXA,1887
+pkg_cli-3.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pkg_cli-3.2.0.dist-info/entry_points.txt,sha256=15Ml0iQTY1AkNh23hDezL9egHrA5CCizBpGcJ81BgUE,43
+pkg_cli-3.2.0.dist-info/top_level.txt,sha256=8jjfKuFvlaNGG7JiuNtS31gIuwOm8thUcUQoNbsxxls,4
+pkg_cli-3.2.0.dist-info/RECORD,,
