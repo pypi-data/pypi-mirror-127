@@ -1,0 +1,16 @@
+categories_i18n/__init__.py,sha256=HAqPnxEaFsw2h6gaUtwKrH1_7nzzLyfdNdfBzHiJVc0,99
+categories_i18n/abstract_models.py,sha256=qDzedWU59jX1TVgmLM2vB_jqVpKQg6Z7_h3drsffecU,2026
+categories_i18n/admin.py,sha256=xEVan3Ejpxksm53JaFwMO00f-tCubiLx4vdIPffw4lY,908
+categories_i18n/apps.py,sha256=FftrVliYonm3FCgmTmc3DiozTvTmZ19qd0Wk2sQ05DM,264
+categories_i18n/managers.py,sha256=LrMCS65HY91HK1KzUr9Jz8NQXR5GoVMtQBSrj9FR5Pw,811
+categories_i18n/models.py,sha256=Fo4HahipseMMqHSXpsciHOADtxwa7jLnGTW9pw8ALIs,880
+categories_i18n/urls.py,sha256=rtD01lDDjjEVQtWSStv3objiQdWROC_BLB6g-5Uhd4Y,277
+categories_i18n/views.py,sha256=bqaQlTlHT3MA7fd3nFxfHJvbpX7fIJjFeDFVTtT34vE,355
+categories_i18n/migrations/0001_initial.py,sha256=8Uq3AXDkJ-NSHjOiS6-2fJ9LwXwgCZmoPdVmSe1N8Kk,3376
+categories_i18n/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_categories_i18n-2.0.dist-info/AUTHORS,sha256=_8tOydTr5JF-dBINNg1hE9AxJSiPZo2dSf1vssQ-ShI,43
+django_categories_i18n-2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+django_categories_i18n-2.0.dist-info/METADATA,sha256=DkBUtNfP8QaYVUXlLpA-eHr3wRxjdMFavieS8Xo0b-I,2296
+django_categories_i18n-2.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_categories_i18n-2.0.dist-info/top_level.txt,sha256=jcUtLfuaKpRVCb51ehOKORmKK7Pr0ifQckgZaNWMLY4,16
+django_categories_i18n-2.0.dist-info/RECORD,,
