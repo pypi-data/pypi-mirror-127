@@ -1,0 +1,4 @@
+beautifulsoup4>=4.8.0
+requests>=2.25
+urllib3>=1.25
+strsimpy>=0.1.3
