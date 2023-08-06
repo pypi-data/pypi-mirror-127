@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+xiaobaiapi/__init__.py
+xiaobaiapi/__version__.py
+xiaobaiapi/xiaobaiapi.py
+xiaobaiapi.egg-info/PKG-INFO
+xiaobaiapi.egg-info/SOURCES.txt
+xiaobaiapi.egg-info/dependency_links.txt
+xiaobaiapi.egg-info/requires.txt
+xiaobaiapi.egg-info/top_level.txt
