@@ -1,0 +1,10 @@
+setup.py
+nanodegree-excercise5-distributions/Binomialdistribution.py
+nanodegree-excercise5-distributions/Gaussiandistribution.py
+nanodegree-excercise5-distributions/Generaldistribution.py
+nanodegree-excercise5-distributions/__init__.py
+nanodegree_excercise5_distributions.egg-info/PKG-INFO
+nanodegree_excercise5_distributions.egg-info/SOURCES.txt
+nanodegree_excercise5_distributions.egg-info/dependency_links.txt
+nanodegree_excercise5_distributions.egg-info/not-zip-safe
+nanodegree_excercise5_distributions.egg-info/top_level.txt
