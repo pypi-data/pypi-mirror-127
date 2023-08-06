@@ -1,0 +1,13 @@
+fastapi_chat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_chat/run.py,sha256=YMbxJaoGDFetjM8W3Myo6wVc3oKaSCv4Nr6v2UwIvFY,149
+fastapi_chat/chat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_chat/chat/app.py,sha256=pTAMB5PHB2ol4IshagJY6tAHvUektkMtpnVgePUJrZ4,1265
+fastapi_chat/chat/manager.py,sha256=bHiKRMyhRzUyuGBCIwjyFfhJUxzHQOW27TtW3tbI6os,1489
+fastapi_chat/chat/redis_connector.py,sha256=a9aq28RtMwaQ138uEFMtN5GyIfpM0FIaDzBmgeZvel8,268
+fastapi_chat/chat/settings.py,sha256=ovHubmCC6M68U8H5wUC2LFmJuf4O5ieRTCLh7yw1kc8,1063
+fastapi_chat-0.0.2.dist-info/LICENSE,sha256=i8Q5PIB9X8pSGT4OEkfO6uP0IVDwoatt0cxLpWB4NAQ,1071
+fastapi_chat-0.0.2.dist-info/METADATA,sha256=FOC2SFtkyklNWjI_c1SzrSkYSr7IQfms2kyfVYiUP3U,2411
+fastapi_chat-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fastapi_chat-0.0.2.dist-info/entry_points.txt,sha256=XvLWvlfXzRFyr-rsURB0utDZha6heMnAll8P3v89ntc,54
+fastapi_chat-0.0.2.dist-info/top_level.txt,sha256=CEhHypVf_mx7A5XVsK84MGhRTT6Q1OsWTIUrhHHjblI,13
+fastapi_chat-0.0.2.dist-info/RECORD,,
