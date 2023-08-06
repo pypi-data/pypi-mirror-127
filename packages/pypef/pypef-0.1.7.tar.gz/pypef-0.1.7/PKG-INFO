@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pypef
+Version: 0.1.7
+Summary: A command-line interface (CLI) tool for performing data-driven protein engineering by building machine learning models from sequence variant-fitness data (e.g., provided as CSV data). Get a small API provided for encoding and model validation from modules in pypef.api.
+Home-page: https://github.com/niklases/PyPEF
+Author: Niklas Siedhoff & Alexander-Maurice Illig
+Author-email: n.siedhoff@biotec.rwth-aachen.de
+License: CC BY-NC-SA 4.0
+Keywords: Pythonic Protein Engineering Framework
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+For detailed description including a short Jupyter Notebook-based tutorial please refer to the GitHub page.
+
