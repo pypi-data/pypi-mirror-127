@@ -1,0 +1,11 @@
+szu_autoconnect/__init__.py,sha256=N7YhIIPiQ0ymaSTAS58U778g3Nl7kWsOWv3zeLlFQq0,117
+szu_autoconnect/open_ui.py,sha256=fT9UkIe-XXjuWGpL2MJ9xwNiIDWFF2kqMeDVMzq__bE,90
+szu_autoconnect/run.py,sha256=Z57DedrMG9KhLxqlzewm8JF3D7N7dAEutHMgR4zaQEI,1608
+szu_autoconnect/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+szu_autoconnect/core/auto.py,sha256=DB26cNOO8C4koctEADTjtrF2XFHs3x7hbVHUpHvjaiY,3829
+szu_autoconnect/core/ui.py,sha256=KV6EN-4kuCBqzK6VBfvxh03S23MQCsy6NY_d9CvqP3E,9659
+szu_autoconnect-1.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+szu_autoconnect-1.0.4.dist-info/METADATA,sha256=S3lI3qfgOSNsJyTxw7laQIfx8GlzPpJFV-WTJrVt0NI,438
+szu_autoconnect-1.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+szu_autoconnect-1.0.4.dist-info/top_level.txt,sha256=oJ5HCW5L4OVI4SS38oj9rno8d4Q9usBLOVcIWpZRgu8,16
+szu_autoconnect-1.0.4.dist-info/RECORD,,
