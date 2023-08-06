@@ -1,0 +1,8 @@
+bottle
+daliuge-common==2.0.1
+metis>=0.2a3
+networkx<2.4
+numpy
+psutil
+pyswarm
+ruamel.yaml.clib<=0.2.2
