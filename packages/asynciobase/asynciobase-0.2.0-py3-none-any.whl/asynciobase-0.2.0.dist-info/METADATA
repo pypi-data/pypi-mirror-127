@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: asynciobase
+Version: 0.2.0
+Summary: Base class for every async file-like, similar to io.IOBase for sync file-like
+Author: JuniorJPDJ
+Author-email: dev@juniorjpdj.pl
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
