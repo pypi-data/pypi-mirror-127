@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rockpaperscissor-domroon
+Version: 0.1.0
+Summary: A simple text-based Rock, Paper, Scissor game
+License: MIT
+Author: Dominik Haeusser
+Author-email: haeusser-dominik@web.de
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
