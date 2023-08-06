@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+./anglerfish.py
+bio_anglerfish.egg-info/PKG-INFO
+bio_anglerfish.egg-info/SOURCES.txt
+bio_anglerfish.egg-info/dependency_links.txt
+bio_anglerfish.egg-info/not-zip-safe
+bio_anglerfish.egg-info/requires.txt
+bio_anglerfish.egg-info/top_level.txt
+demux/__init__.py
+demux/demux.py
+demux/samplesheet.py
