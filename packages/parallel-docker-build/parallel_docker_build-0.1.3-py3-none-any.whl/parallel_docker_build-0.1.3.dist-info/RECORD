@@ -1,0 +1,10 @@
+parallel_docker_build/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parallel_docker_build/__metadata__.py,sha256=AmJNgS1rwBddrXMwqZcHAclvL3J7wDLmHhaw4UuYG9E,1903
+parallel_docker_build/cli.py,sha256=Do0igWw5B5vZX2BsgjA47zXg_koQbgLs-atuie5cF-0,3021
+parallel_docker_build/tools.py,sha256=R05JSdP3MUxstVW-E33otvwWwMtPvA6h-E0VDiOCj00,8117
+parallel_docker_build-0.1.3.dist-info/LICENSE,sha256=dKg8drnSJDDqxQOloNyS8Ps_jH3A1erWyKAwEMGrxCQ,1077
+parallel_docker_build-0.1.3.dist-info/METADATA,sha256=fB7FCp4wQpiFreX6fqrtfdUhYZTNudMAVxT-OQOk0Iw,4819
+parallel_docker_build-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+parallel_docker_build-0.1.3.dist-info/entry_points.txt,sha256=dKzVrBexUNbh1eaWl_II_3DoeXuel11J3aqDx6sVzzc,74
+parallel_docker_build-0.1.3.dist-info/top_level.txt,sha256=4dx1-sVacQopE-8Pye6ewOGx_IMuu11GIZIQNvFHzGA,22
+parallel_docker_build-0.1.3.dist-info/RECORD,,
