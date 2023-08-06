@@ -1,0 +1,13 @@
+crafting/__init__.py,sha256=BdgZEy0T6KTGjl0TBNcMmrr7AC2XkM1WIBGJCDDU4Tg,23
+crafting/basic_config.yaml,sha256=0JmXrzyeemhWdlL3lr5wi_gfXJCrQ0Y0t_F7shgI2hU,90
+crafting/config_validation.py,sha256=VU6kdpVgD4fMhBuyZOSZkTVR2OZQbV-oDRgpQKh0esQ,920
+crafting/main.py,sha256=EyEx4nOS5iYx3Orl7uP14tIylgSzLeRffj87-0XBlYM,2880
+crafting/minecraft_names.json,sha256=xqf65ajgdhk8lZSEEmNjOVBezeWmvel3AHPMSLLfVtU,3785
+crafting/utils.py,sha256=4qYFSLQfyfW9G8ZrpkVGrfWpXlxeNnprlF1NNJKHqP4,3758
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_create.py,sha256=29BUL0_LspfFC7CLtSFNXigbaWgnrB7-A1djY42Dsas,277
+crafting-0.201.dist-info/METADATA,sha256=uLTaXabsZzRDq-8ndxxajnjHijkZHIunUIVc8rZSs28,472
+crafting-0.201.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+crafting-0.201.dist-info/entry_points.txt,sha256=JGi6TZD57RGxlnvrr7BD2vj3kySp7tUViaX9ZSg6liM,76
+crafting-0.201.dist-info/top_level.txt,sha256=SI1zJ8zDjfMljbmJBwW9fh_sxb2p8Ix2tXofifpXIss,15
+crafting-0.201.dist-info/RECORD,,
