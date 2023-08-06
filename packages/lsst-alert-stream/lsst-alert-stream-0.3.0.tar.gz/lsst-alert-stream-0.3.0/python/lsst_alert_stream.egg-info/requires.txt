@@ -1,0 +1,3 @@
+confluent_kafka
+fastavro
+lsst-alert-packet
