@@ -1,0 +1,8 @@
+networkx
+pandas
+pythonnet
+numpy
+pyproj
+
+[dev]
+pytest>=3.7

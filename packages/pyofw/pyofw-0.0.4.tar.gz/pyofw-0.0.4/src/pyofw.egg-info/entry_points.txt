@@ -1,0 +1,3 @@
+[console_scripts]
+newofw = pyOpenFlows.tools.cmd:newofw_command
+
