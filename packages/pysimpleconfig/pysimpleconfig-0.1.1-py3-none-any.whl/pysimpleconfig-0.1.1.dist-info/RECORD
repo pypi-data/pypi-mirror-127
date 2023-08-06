@@ -1,0 +1,13 @@
+simpleconfig/__init__.py,sha256=5-td7-8vAxMqiElbwS9XTl-7JdoWwbdQL1NqDdxZv6g,6991
+simpleconfig/configuration.py,sha256=TA7fm4vS_qhGmgVB64a2ldcdB-cmPOo9pHYVicsa3ho,2441
+simpleconfig/exceptions.py,sha256=4CyydouOWyO0Rm0YUQqvi-rO2AMPvloqpqP1AVrl5Zo,607
+simpleconfig/settings.py,sha256=C8cem7zEAMK15psUpqAGLkOKjgX2EotX3F4E8ReVBhI,1401
+simpleconfig/formatters/__init__.py,sha256=je4mMXyGX9zQPEb4oJwD0QTONqqs39KFqbJrGebBeas,125
+simpleconfig/formatters/formatbase.py,sha256=licCIry92EtqDVPTixIpYwLYYuNjEQKjYWSWjlTMFxs,566
+simpleconfig/formatters/ini_formatter.py,sha256=abuuwR4BAIqswyS_B4qYdPyIeJvNAz_yRoJSgIJu6oY,1128
+simpleconfig/formatters/json_formatter.py,sha256=wsFVo8VY8lsdYLMhIctvxWPwe1G6M5DtV7sc9Fja6ow,252
+pysimpleconfig-0.1.1.dist-info/LICENSE,sha256=yB5y8yihrN2tgDoTYq7GnWYxr6igax1qQKhf3w_DcsI,1085
+pysimpleconfig-0.1.1.dist-info/METADATA,sha256=RvnEh1nkovKFvNwVrXxXhca14IXCyY4zGHpMV6DfQgI,499
+pysimpleconfig-0.1.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pysimpleconfig-0.1.1.dist-info/top_level.txt,sha256=qfeqHZPxCcJqyZzaJABMrWZCN1y4RvSpstlyBt2ftPE,13
+pysimpleconfig-0.1.1.dist-info/RECORD,,
