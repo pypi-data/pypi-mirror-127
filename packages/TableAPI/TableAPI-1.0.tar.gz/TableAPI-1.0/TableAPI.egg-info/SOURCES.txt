@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.cfg
+TableAPI.egg-info/PKG-INFO
+TableAPI.egg-info/SOURCES.txt
+TableAPI.egg-info/dependency_links.txt
+TableAPI.egg-info/top_level.txt
+tableAPI/TableAPI.py
+tableAPI/__init__.py
+tableAPI/hello.table

@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: TableAPI
+Version: 1.0
+Summary: To create Tables in the Console window and export them
+Home-page: https://github.com/Knuffeliger/TableAPI
+Author: Knuffeliger / Max Dutz
+Author-email: maxdutz@kabelmail.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TableAPI
+
+At first you need to import this nice stuff
+You can choose one of them
+In the instruction we use the second
+```
+import TableAPI
+from TableAPI import *
+```
+
+To Create a Table with 2 collumns write
+```
+table = StaticTable(2)
+table.addRow('ID', 'Name')
+table.addRow('0', 'Knuffeliger1')
+table.addRow('1', 'Knuffeliger2')
+table.build()
+```
+The output will look like this
+```
++----+--------------+
+| ID | Name         |
++----+--------------+
+| 0  | Knuffeliger1 |
++----+--------------+
+| 1  | Knuffeliger2 |
++----+--------------+
+```
+
+If you want to have a better design you can use this method
+```
+table = ModernTable(1, indexing=True)
+table.setHeader('Name')
+table.addRow('Knuffeliger1')
+table.addRow('Knuffeliger2')
+table.build()
+```
+The output will look like this
+```
++----+-------------+
+| ID | Name        |
++----+-------------+
+| 0  | Name        |
+| 1  | Knuffeliger |
++----+-------------+
+```
+You can turn indexing off if you remove the statement or write False instead
+
+If you want to have a GUI for the static table write
+```
+GUI()
+```
+Then you get a fresh GUI to create nice static Tables
+ModernTables doesnt habe a GUI right now
+
+You can save and load files with
+```
+table.saveToFile('PathToFile')
+table.readFromFile('PathToFile')
+```
+
