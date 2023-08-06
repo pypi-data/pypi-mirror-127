@@ -1,0 +1,13 @@
+pdfrenamer/StandardAbbreviations.txt,sha256=4yqlDjJG4kw3k3RX1pk8IVR6M3QfcviIBU9hR9eFofY,893277
+pdfrenamer/UserDefinedAbbreviations.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdfrenamer/__init__.py,sha256=I1hE1UvJY_P4bGWAGx9HQCob6M4Rr19BbuWyxIyU3aQ,789
+pdfrenamer/config.py,sha256=2Hx17tp957orDN3FKVAD_iOTH0fOC9amXDFJyiUwaFk,3338
+pdfrenamer/filename_creators.py,sha256=wjnjCzt0eEZYIUbPKjTXw7_w10Hti1xu-YmTi8FBpfY,11799
+pdfrenamer/main.py,sha256=tp7nFvucfqJGP53P1q-BD5RJ0zmxDfRACSc5uEB-Y8I,18869
+pdfrenamer/settings.ini,sha256=hjc_fgWJh6YJCwwr_QB1kJbq45-PGLBO5HHNmHZG5Ns,151
+pdfrenamer/utils_registry.py,sha256=_MsnT4RAOP3tnCcPbxPVjdZG6LR6COQJt5yIm7T0NQM,5018
+pdf_renamer-1.0rc1.dist-info/METADATA,sha256=lJJdSJC233ogOmAmmjrxTwRjdUw0Cp9R7PUCWa6t25k,3266
+pdf_renamer-1.0rc1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pdf_renamer-1.0rc1.dist-info/entry_points.txt,sha256=XAQvDqTXpZMPToLLAAsvQMKmt7l5BGREQ5dR2u9MXYo,53
+pdf_renamer-1.0rc1.dist-info/top_level.txt,sha256=jn8-Vcd9ihk7rlIi9ZcK_Zf0k76L15EFUkXVZ4rvudk,11
+pdf_renamer-1.0rc1.dist-info/RECORD,,
