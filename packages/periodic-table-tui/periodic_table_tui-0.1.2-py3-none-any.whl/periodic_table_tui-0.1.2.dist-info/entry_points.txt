@@ -1,0 +1,3 @@
+[console_scripts]
+periodic_table_tui = periodic_table_tui.__main__:main
+
