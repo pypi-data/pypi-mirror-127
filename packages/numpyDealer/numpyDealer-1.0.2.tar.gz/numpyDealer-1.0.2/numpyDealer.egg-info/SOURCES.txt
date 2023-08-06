@@ -1,0 +1,11 @@
+LICENSE.txt
+README.txt
+setup.py
+numpyDealer/Card.py
+numpyDealer/numpyDeck.py
+numpyDealer.egg-info/PKG-INFO
+numpyDealer.egg-info/SOURCES.txt
+numpyDealer.egg-info/dependency_links.txt
+numpyDealer.egg-info/entry_points.txt
+numpyDealer.egg-info/requires.txt
+numpyDealer.egg-info/top_level.txt
