@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: tensorboard-plugin-netron
+Version: 0.2.2
+Summary: Netron TensorBoard Plugin
+Home-page: https://sr.ht/~dhruvin/tensorboard-plugin-netron
+Author: Dhruvin Gandhi
+Author-email: contact@dhruvin.dev
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Netron TensorBoard Plugin
+
+## Description
+[Netron](https://github.com/lutzroeder/Netron) is a great tool to visualize neural network models.
+This plugin hosts Netron inside TensorBoard.
+
+## Usage
+1. Install the plugin: `$ pip3 install tensorboard-plugin-netron`
+2. Start tensorboard: `$ tensorboard ...`
+3. Visit [Netron](http://localhost:6006/#netron) tab
+
+

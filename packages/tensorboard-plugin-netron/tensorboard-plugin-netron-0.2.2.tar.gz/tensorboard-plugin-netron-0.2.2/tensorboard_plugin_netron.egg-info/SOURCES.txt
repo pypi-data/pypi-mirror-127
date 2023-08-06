@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tensorboard_plugin_netron/__init__.py
+tensorboard_plugin_netron/plugin.py
+tensorboard_plugin_netron.egg-info/PKG-INFO
+tensorboard_plugin_netron.egg-info/SOURCES.txt
+tensorboard_plugin_netron.egg-info/dependency_links.txt
+tensorboard_plugin_netron.egg-info/entry_points.txt
+tensorboard_plugin_netron.egg-info/requires.txt
+tensorboard_plugin_netron.egg-info/top_level.txt
