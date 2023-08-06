@@ -1,0 +1,2 @@
+opencv-python-headless<5,>=4
+python-telegram-bot<14,>=13
