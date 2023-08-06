@@ -1,0 +1,13 @@
+sencore/__init__.py,sha256=6wckjSj4MaWTamGh7_qqrpF1R18mSbBsCxUAl7yNeAQ,653
+sencore/entry.py,sha256=ixZKo3U6tnOHWAtbhwRztficsFJogdQcGjqEdPqNgmE,3012
+sencore/kg_parser.py,sha256=20KsLM6Qh2kgvYNp-wVsav3t28JYpj8XwjwdLL3kIOo,1185
+sencore/lib.py,sha256=0zd_Dymk2rv_3mVzSPDTtHNnr-y13vPjGvCGAAEQpDA,757
+sencore/parser.py,sha256=yrt-SKEDcmnpjrOkvHSqKFYlUHOxgpvFkDSCCyB1fm4,448
+sencore/phrase_parser.py,sha256=AVZ-9BvvJEhHPmCVb-PvuUXKXB7rGK3_MX3_1cZaJFA,2060
+sencore/structure_parser.py,sha256=nEKGLUoWaZoOOHdI_-FB9gf3FrYfmp8rEs8aaj-WKtQ,1183
+sencore/train.py,sha256=Wav-lLQgOOhpXIQAo8zr_M1g_2Lrt01sbdqgTyJ7QB8,1277
+sencore/vocab_parser.py,sha256=HvHiZgpIejjDoD448IwuosFizmKamIzTpG2J-SKx8p8,887
+sencore-0.1.32.dist-info/entry_points.txt,sha256=Sh96zFbTUc1zhaV7AMYonI6vw1Ad82p1oJfzSwXAzHg,203
+sencore-0.1.32.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sencore-0.1.32.dist-info/METADATA,sha256=Chgf4s32gnDLpMh_vsnsDLLtCjHAnPCpmEV9hDLb8ng,3944
+sencore-0.1.32.dist-info/RECORD,,
