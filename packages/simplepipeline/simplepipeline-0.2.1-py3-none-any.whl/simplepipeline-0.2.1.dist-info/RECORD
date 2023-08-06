@@ -1,0 +1,14 @@
+simplepipeline/__init__.py,sha256=7vQYE-J0A3e79B85CutvYUmaJ7mQdnDoG_a0eHk0xWE,274
+simplepipeline/pipeline.py,sha256=Vmm-MzjUdf7V2mBqEord3kN45vUgVSWLOujK0b8DO8g,672
+simplepipeline/task.py,sha256=0GkPcKBSlwMpALyoGPRTQxKPN1owcWqUmERra-nZz3Y,1801
+simplepipeline/map/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplepipeline/map/base_map.py,sha256=WklsI9Su4q4SM_Tx-lVCYwIrQCzX3kNjSEeqQGnTQek,536
+simplepipeline/map/parallel.py,sha256=llG7yBEQ6rcmezl_jVontbLC60FkVVQbYJ3cCrvHKL4,1048
+simplepipeline/map/sequential.py,sha256=AntmVvo0Ca9hd-thjve4p5rv6ESKw3cXjwwkAqkjNJY,783
+simplepipeline/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplepipeline/utils/task_logger.py,sha256=fdx4y6z1SHWQ-mIwfLopj-aUIUvvrYmlllxujUWwfjI,649
+simplepipeline-0.2.1.dist-info/LICENSE.txt,sha256=Z_R0qA8dBa_UBMGgM1fEedm0wV7CBqwIBaBEOu4iT5w,1077
+simplepipeline-0.2.1.dist-info/METADATA,sha256=gXfMjAFz95ktjsDg8og2Jbeaxz3Jg-nrA68GUVgaddk,519
+simplepipeline-0.2.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+simplepipeline-0.2.1.dist-info/top_level.txt,sha256=HNQnsAB5qOpjOURduHXFfegT1y1SUThXUTy--3DDPD8,15
+simplepipeline-0.2.1.dist-info/RECORD,,
