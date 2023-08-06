@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: Organic Answers
+Version: 0.0.1
+Summary: With this module, you can search for answers of Google Questions.
+Home-page: UNKNOWN
+Author: Josh
+Author-email: joshy1234aaa@gmail.com
+License: MIT
+Description: With this module, you can search for answers of Google Questions.
+        
+        HOW TO USE:
+        
+        To get the answer of a question, type the following line: print(get_answer('why is the sky blue?'))
+        To get the snippet of a question, type the following line: print(get_snippet('why is the sky blue?'))
+        To get the link of the question's source (https://www.rmg.co.uk/stories/topics/why-sky-blue), type the following line: link = get_link(question)
+        print(link)
+        
+        To get the title of the link of the question, type the following line print(get_title('why is the sky blue?'))
+        Lastly, to get the domain (www.rmg.co.uk), first find the link by following the step above, then write out this line: print(get_domain(link))
+        
+        
+        If this module helps you, please share with friends.
+        
+        11 - 12 - 21:
+        -Added the ability to define a question's answer, snippet from Google, link/source, and domain of link
+        -Released Version 0.1
+Keywords: bs4,beautifulsoup,webscraper,google answers
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

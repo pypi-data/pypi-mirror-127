@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+Organic_Answers.egg-info/PKG-INFO
+Organic_Answers.egg-info/SOURCES.txt
+Organic_Answers.egg-info/dependency_links.txt
+Organic_Answers.egg-info/requires.txt
+Organic_Answers.egg-info/top_level.txt
