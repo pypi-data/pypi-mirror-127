@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ACord
+Version: 0.0.1a0
+Summary: An API wrapper for discord
+Home-page: https://github.com/Mecha-Karen/acord
+Author: Mecha Karen
+Author-email: admin@mechakaren.xyz
+License: GNU License
+Project-URL: Documentation, https://docs.mechakaren.xyz/acord
+Project-URL: Issue tracker, https://github.com/Mecha-Karen/acord/issues
+Project-URL: Organisation, https://github.com/Mecha-Karen
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# acord
+An API wrapper for discord
+
+
