@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cltl.asr
+Version: 0.0.dev4
+Summary: ASR for Leolani
+Home-page: https://github.com/leolani/cltl-asr
+Author: CLTL
+Author-email: t.baier@vu.nl
+License: MIT License
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: impl
+Provides-Extra: service
+License-File: LICENSE
+
+# cltl-asr
+
+Speech to text service for Leolani.
+
