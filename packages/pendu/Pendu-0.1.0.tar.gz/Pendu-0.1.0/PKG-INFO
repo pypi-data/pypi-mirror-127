@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pendu
+Version: 0.1.0
+Summary: 
+Author: iHelperRepo
+Author-email: 86736499+PetchouDev@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: art (>=5.3,<6.0)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
