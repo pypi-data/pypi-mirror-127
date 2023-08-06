@@ -1,0 +1,6 @@
+pop>=19.0.1
+acct>=6.1.1
+idem>=12.0.0
+azure-common
+azure-core
+azure-identity
