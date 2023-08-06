@@ -1,0 +1,11 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/binary_encoder.py,sha256=kcvqrv1rVzh2FUHdPQaknP3Mq2hyIymkP2B1W0MJGvc,1874
+src/binary_util.py,sha256=ASBfT6teRQS065DfdtkuWTZLFGpcNYhYrsDmEhpYE4k,1123
+src/bit_encoder.py,sha256=nDs5YiV8jFndZ203h33hqJMZaFXyOHbydCJmTlTca9M,2792
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=WuglQ_LKz7KL1z5W96oVXcsHPdPOqMnq2m-BpMJH-AQ,2557
+binary_tools-0.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+binary_tools-0.0.0.dist-info/METADATA,sha256=c20qbANyAm4KQhjgXYyg_hjjFYiQjd6uHiAb5pN3K8s,619
+binary_tools-0.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+binary_tools-0.0.0.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+binary_tools-0.0.0.dist-info/RECORD,,
