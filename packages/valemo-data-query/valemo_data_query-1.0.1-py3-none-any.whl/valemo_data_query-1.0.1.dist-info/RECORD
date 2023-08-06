@@ -1,0 +1,9 @@
+valemo_data_query/__init__.py,sha256=SSY1oZNu9wbC5lO5xlFKgmQ-gu62WKDhrlDXlthZQ_E,94
+valemo_data_query/_azure_gen2.py,sha256=R-5wk5KKgF-R5aceX2AWx0jWiS4o_XlaDdylNhXI6eY,25371
+valemo_data_query/_user_credentials.py,sha256=pLxAR8lLeMAOnZf84s0IUbSbxN5mHzspfYXDFBZQY7E,1288
+valemo_data_query/user_credentials.json,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+valemo_data_query-1.0.1.dist-info/License.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+valemo_data_query-1.0.1.dist-info/METADATA,sha256=r_glh7oaR4cpLNvitL0Q5inlWjvooMZyOvCzVeUiYjs,7465
+valemo_data_query-1.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+valemo_data_query-1.0.1.dist-info/top_level.txt,sha256=3HIPJWi9nULvsnEtMmZzjIprOxO7MR5pavFM1EQQlX8,18
+valemo_data_query-1.0.1.dist-info/RECORD,,

@@ -1,0 +1,179 @@
+Metadata-Version: 2.1
+Name: valemo-data-query
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Arthur_LAFFARGUE
+Author-email: arthur.laffargue@valemo.fr
+License: GNU
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: License.txt
+Requires-Dist: pandas
+Requires-Dist: azure-storage-file-datalake
+Requires-Dist: numpy
+Requires-Dist: parquet
+
+# VALEMO_DATA_QUERY
+## _Outils de requêtes de données sur Python pour Valemo_
+
+## Fonctionnalités
+
+#### azure_datalake_gen2
+
+- Rechercher les fichiers .csv dans une architecture partitionnée du datalake gen2 ; 
+- Filtrer les partitions et sélectionner les dossiers ; 
+- Télécharger les .csv depuis le datalake et les agréger en dataframes Pandas ; 
+- Transformer les données et préparer des analyses ; 
+
+#### user_credentials
+
+- enregistrer vos informations de connexion et les importer facilement ;
+ 
+## Installation
+Installer _valemo-data-query_ via command prompt
+```sh
+pip install --upgrade valemo-data-query
+```
+
+Désinstaller _valemo-data-query_ via command prompt
+```sh
+pip uninstall valemo-data-query
+```
+
+_valemo-data-query_ requiert : 
+- Un abonnement Azure. Consultez la page d'obtention d’un essai gratuit d’[Azure](https://azure.microsoft.com/fr-fr/free/) ;
+- Un compte de stockage doté d’un espace de noms hiérarchique activé. Pour créer un test, suivez [ces](https://docs.microsoft.com/fr-fr/azure/storage/blobs/create-data-lake-storage-account) instructions ; 
+- Pour plus d'informations sur la gestion de datalake gen2 de microsoft via Python voir cette [page](https://docs.microsoft.com/fr-fr/azure/storage/blobs/data-lake-storage-directory-file-acl-python) ; 
+- Installation à jour de Python 3.8 ou supérieure. Distribution [Anaconda](https://www.anaconda.com/products/individual) recommandée. ; 
+- Librairie Pandas version 1.1.4 ou supérieure ; 
+- Librairie Numpy version 1.21.3 ou supérieure ;
+- Librairie Azure (azure-storage-file-datalake) version 12.5.0 ;  
+
+## Exemple : enregistrer ses connexions 
+```python
+from valemo_data_query import user_credentials
+
+credentials = user_credentials()
+
+# Déclarer une nouvelle connexion 
+datalake_1 = {"account" : "datalake_name",
+                "key" : "password"}
+credentials.add_datasource(datalake_1 ,"datalake_1")
+
+datalake_2 = {"account" : "datalake_name_2",
+                "key" : "password"}
+credentials.add_datasource(datalake_2 ,"datalake_2")
+
+# Récupérer une connexion 
+dataconnexion = credentials.get_credentials
+datalake_1 = dataconnexion["datalake_1"]
+
+#Supprimer toutes les connexions 
+credentials.clear_credentials()
+
+```
+
+## Exemple : Azure datalake - gérer les partitions
+Après avoir configurer ses connexions au datalake Azure gen2, la fonction _read_csv_partition_ reconstruit l'arborescence des fichiers csv sans lire le contenu. Lors de cette phase des filtres peuvent être appliqués basés sur la reconnaissance des hiérarchies _projet=_, _year=_ et _month=_. La méthode statique _get_file_partition_df_ renvoie les partitions des fichiers csv. Un deuxième filtre basé sur ce dataframe est applicable avec _apply_user_partition_filter_ avant la lecture  et la concaténation des données via la méthode _concatenate_pandas_.
+
+```python
+from valemo_data_query import azure_datalake_gen2, user_credentials
+datalake_connexion = user_credentials().get_credentials["datalake_1"]
+
+"""
+On recherche les fichiers csv dans le dossier : 
+    "detailed/wind/metrics/csv/project=X/year=Y/month=Z/..."
+    Avec X,Y,Z : 
+     X = ["BAM","DSN","PUDP","PAACS"]
+     Y = ["2021","2022"]
+     Z : Mois [de 06 à 10]
+"""
+basepath = "detailed/wind/metrics/csv/"
+azure_query = azure_datalake_gen2(datalake_connexion,basepath)
+azure_query.filter_partitionProject(["BAM","DSN","PUDP","PAACS"])
+azure_query.filter_partitionYear(["2021","2022"])
+# Pour les mois on pourrait spécifier le filtre via .filter_partitionMonth
+# ou utiliser .apply_user_partition_filter basé sur le dataframe des 
+# partitions renvoyé par la méthode .get_file_partition_df
+
+azure_query.read_csv_partition() #recherche de l'arborescence des fichiers csv
+partition_df = azure_query.get_file_partition_df
+"""
+    filepath               partition  ...                              year       month
+0   detailed/wind/metr...  project=BAM/year=2021/month=10/day=01  ...  year=2021  month=10
+1   detailed/wind/metr...  project=BAM/year=2021/month=10/day=02  ...  year=2021  month=10
+2   detailed/wind/metr...  project=BAM/year=2021/month=10/day=03  ...  year=2021  month=10
+3   detailed/wind/metr...  project=BAM/year=2021/month=10/day=04  ...  year=2021  month=10
+"""
+month_number = partition_df["month"].str.replace("month=","").astype(int) 
+filter_month = (month_number>=6)&(month_number<=10)
+azure_query.apply_user_partition_filter(filter_month)
+
+azure_query.concatenate_pandas(aggregation_level=['year','month']) #concaténer par mois
+azure_query.write_concatenated_dataset_csv("my/local_path/",
+                                        file_prefixe="Wind")
+# génère plusieurs fichiers 
+# CONCAT DATASET ... 
+# my/local_path/Wind_year=2021_month=06.csv
+# my/local_path/Wind_year=2021_month=07.csv
+# ... 
+```
+
+## Exemple : Azure datalake - retravailler les données
+Lorsque l'arborescence des fichiers ne nécessite pas de filtre via _apply_user_partition_filter_, il est possible de rechercher les partitions et lire les fichiers csv trouvés dynamiquement en utilisant _concatenate_pandas_ sans _read_csv_partition_. Les fonctions _select_columns_ et _dataframe_transformation_ permettent de gérer les dataframes lus de manière dynamique à chaque lecture de fichiers. 
+Il est possible de différer ces opérations après la lecture des données (après concatenate_pandas). L'option _return_copy_ renvoie une copie des transformations appliquées en différé.  
+```python
+from valemo_data_query import azure_datalake_gen2, user_credentials
+import pandas as pd
+datalake_connexion = user_credentials().get_credentials["datalake_1"]
+
+
+basepath = "consolidated/pv/metrics/subs/csv/"
+projets = ["Project1","Project2"]
+annees = ["2021"]
+mois = ["09","10"]
+query_azure = azure_datalake_gen2(credentials_dict,basepath)
+
+# Filtrage
+query_azure.filter_partitionProject(projets)
+query_azure.filter_partitionYear(annees)
+query_azure.filter_partitionMonth(mois)
+
+
+#Transformation des données et sélection
+
+select_col = ["projectCode","localTimestamp","activePower","gii"]
+
+def daily_metrics_func(data:pd.DataFrame):
+    """
+    agrégation des données par jour, par parc
+    """
+    data["day"] = data["localTimestamp"].astype("datetime64[D]")
+    aggdata = data.drop(columns='localTimestamp').\
+                   groupby(["projectCode","day"]).\
+                   sum().\
+                   rename(columns={"activePower":"activeEnergy",
+                                   "irradiance":"irradianceEnergy"}).\
+                   reset_index(drop=False)
+    aggdata[["activeEnergy",
+            "irradianceEnergy"]] = aggdata[["activeEnergy",
+                                            "irradianceEnergy"]]/(1000*6)
+    return aggdata
+
+#Les transformations + sélections sont appliquées à la lecture. 
+query_azure.select_columns(select_col)
+query_azure.dataframe_transformation(daily_metrics_func)
+
+
+#Lecture des fichiers
+
+query_azure.concatenate_pandas(aggregation_level=['project','year',"month"],
+                                convert_dtypes=True)
+
+query_azure.write_concatenated_dataset_csv("dataset/")
+
+
+
+```
+
