@@ -1,0 +1,57 @@
+//
+// Created by epw on 2021/10/14.
+//
+
+syntax = "proto3";
+
+option optimize_for = SPEED;
+
+package fit_fill;
+
+service FitFill {
+  rpc new_stage(Setting) returns (Setting);
+  rpc import_mesh(Mesh) returns (MeshInfo);
+  rpc simulate(Simulate) returns (SimulateResult);
+}
+
+message Setting {
+}
+
+message Vector {
+  repeated double values = 1;
+}
+
+message Matrix {
+  repeated Vector vectors = 1;
+}
+
+message Indices {
+  repeated int32 values = 1;
+}
+
+message Points {
+  repeated Vector points = 1;
+}
+
+message Faces {
+  repeated Indices faces = 1;
+}
+
+message Mesh {
+  string name = 1;
+  string server_path = 2;
+}
+
+message MeshInfo {
+  string name = 1;
+  int32 point_num = 2;
+  int32 face_num = 3;
+}
+
+message Simulate {
+  string capture_path = 1;
+}
+
+message SimulateResult {
+  Matrix matrix = 1;
+}
