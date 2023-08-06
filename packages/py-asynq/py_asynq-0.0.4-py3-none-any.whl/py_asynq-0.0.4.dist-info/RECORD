@@ -1,0 +1,12 @@
+py_asynq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_asynq/client.py,sha256=h3z4ZOqk-DeESj4XAL26aj2SeKT-ZYGTndyUD4vCbTg,3589
+py_asynq/constant.py,sha256=gJPiXT9GJp3yznBRhsbW8GUJBzyNQ8kKyXdhU5wjS9Y,250
+py_asynq/example.py,sha256=iBXKQp-pSXF4buqir0h1GCwmci8W0tMRGkUFDMZv9Us,472
+py_asynq/task.py,sha256=PuZefhqTSslMFs5p4fWNTGajd3aasIxsQooOqYN7CHg,2609
+py_asynq/proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_asynq/proto/asynq_pb2.py,sha256=3L4I_81d3thkx_iYE84UnKuww7ko6Sqd83BGdc6M3IE,25161
+py_asynq-0.0.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+py_asynq-0.0.4.dist-info/METADATA,sha256=3iCowDpxl_Ng1lh8m5avErgvZukgwbP42LTGc6I6xeY,670
+py_asynq-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+py_asynq-0.0.4.dist-info/top_level.txt,sha256=OKxhxGMdgUGfiMy08PAmD4WD46PGGtg3RIE2_ySX0gU,9
+py_asynq-0.0.4.dist-info/RECORD,,
