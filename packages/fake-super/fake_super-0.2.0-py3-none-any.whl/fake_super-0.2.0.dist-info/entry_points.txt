@@ -1,0 +1,3 @@
+[console_scripts]
+fake-super = fake_super:main
+
