@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+sampletext/src/location.py
+sampletext/src/sampletext.py
+sampletext/src/textfunc.py
+sampletext/src/sampletext.egg-info/PKG-INFO
+sampletext/src/sampletext.egg-info/SOURCES.txt
+sampletext/src/sampletext.egg-info/dependency_links.txt
+sampletext/src/sampletext.egg-info/requires.txt
+sampletext/src/sampletext.egg-info/top_level.txt
