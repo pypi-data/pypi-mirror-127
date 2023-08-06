@@ -1,0 +1,11 @@
+duckdb.cp37-win_amd64.pyd,sha256=G35UHhT8dU6Q0x746_I3-QkUOcY-bg52dgrbRS2bBaM,23330816
+duckdb-stubs/__init__.pyi,sha256=XCHiEaVxOjnWKC1YcM200sCwTgbZD9x9utu9Gc4oJvs,7972
+duckdb_query_graph/__init__.py,sha256=27J1x4gjNTaLRv_JY71BsG6gbLuDaFaRE7_pkB9omCU,2789
+duckdb_query_graph/parse_profiling_output.js,sha256=7KUOjbdY7hof5q66UcXg9ng5hLHNwvdpX5SoTWJUEWA,9009
+duckdb_query_graph/query_graph.css,sha256=prE97VSYIZKPHVHHSRSKDZkHC8462HkWfu3TPBGP-0I,2851
+duckdb_query_graph/raphael.js,sha256=Yng53yYbwL9xr9_GWXM1yWf64cQxmUqeYbiVqaTdpvE,90669
+duckdb_query_graph/treant.js,sha256=Bibc-ms2j75JBXZC95l6Eu9BM5k4Qs6JsUEdfj3BkCo,39340
+duckdb-0.3.1.dist-info/METADATA,sha256=R_PNZ7wUqQQzECFcei6IeVCqdPKE3XL3ohwDiqKczNU,496
+duckdb-0.3.1.dist-info/WHEEL,sha256=OmDKD3JmZjhMu_YdpkiJDfFL1rf8n9nexhWCGhSBGVE,101
+duckdb-0.3.1.dist-info/top_level.txt,sha256=3ub5G4cOYPUZkzVaewM37SglhvhJ_CtqVOs98NeP8N4,39
+duckdb-0.3.1.dist-info/RECORD,,
