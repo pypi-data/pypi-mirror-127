@@ -1,0 +1,33 @@
+# E-mail subject
+subject: This is the mail subject
+
+# E-mail flag to prepend e-mail subject
+severity: information
+
+# E-mail recipients
+recipients:
+  - glipsl@ipsl.fr
+
+# Describe the issue
+message: >
+  Loremp Ipsum
+
+# Set start and end date
+# Format "DD-MM-YYYY HH:MM"
+# If date start is "null" = Default is now.
+# If date end is "null" = Default is unlimited.
+date:
+#    from: 12-11-2021 15:33
+    from: null
+ #   to: 14-11-2021 17:00
+    to: null
+
+# List all CICLAD/ClimServ data path unavailable
+affected_data:
+    - /bdd/CMIP6
+    - /bdd/CMIP5
+
+# List all ESPRI hostnames unavailable
+affected_servers:
+    - http://vesg.ipsl.upmc.fr
+    - https://thredds-su.ipsl.fr

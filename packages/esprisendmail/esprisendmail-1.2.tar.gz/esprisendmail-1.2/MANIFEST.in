@@ -1,0 +1,4 @@
+include README.rst
+include sendmail/smtp.yaml
+include sendmail/contents/*.yaml
+include sendmail/templates/*.html

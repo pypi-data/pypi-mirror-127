@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.py
+esprisendmail.egg-info/PKG-INFO
+esprisendmail.egg-info/SOURCES.txt
+esprisendmail.egg-info/dependency_links.txt
+esprisendmail.egg-info/entry_points.txt
+esprisendmail.egg-info/not-zip-safe
+esprisendmail.egg-info/top_level.txt
+sendmail/__init__.py
+sendmail/main.py
+sendmail/smtp.yaml
+sendmail/contents/broken_sshfs.yaml
+sendmail/templates/info.html
