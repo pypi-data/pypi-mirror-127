@@ -1,0 +1,15 @@
+jacdac/__init__.py,sha256=rhy6Pm5qxDiM_Uf7nHuGvFadmevsg8_6ga3t4Fl9U8o,90
+jacdac/bus.py,sha256=c6EEZVAudza11ALW2CjwHC1DVAF41jIyHqOVGJI9y4o,22268
+jacdac/ctrl.py,sha256=RSJXtcp1I8HIG5DgsCu9sdlmC3b1tn6dnzmZvFTD1N4,4062
+jacdac/devtools.py,sha256=Q7R6NdtEvWi61jmxyM1yChBffxzxOCS6iYvcc9JdgKA,439
+jacdac/events.py,sha256=oOjfWepn0AH97exwlg0wN54tlEHDrjmFGNYhmKKEGAw,2407
+jacdac/jdconstants.py,sha256=dXKjsvgpIEDrYdPG7UwefmUTKkGLvcuc5v_wydwpilU,2490
+jacdac/packet.py,sha256=RdcXFKYNOnq4TyTut6819RVEQQ5PVDjAO-xRhnM2DnY,4212
+jacdac/sample.py,sha256=-XuH3XOJgKtwrIlEbZxmyVY6BTDsxGmRSuLcmCOiRUU,1574
+jacdac/transport.py,sha256=XseJrAnR3apHzvg1KMOOQGi0CS_vZVtafp0bRB4P6L8,325
+jacdac/util.py,sha256=vEJUzu8ekCPqBm8OHDmAADS2uoev8qHxQ87MMsVMeMY,2708
+jacdac_python-0.0.8.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+jacdac_python-0.0.8.dist-info/METADATA,sha256=g3lm8PI5eapim5F6Tiy7BgpoMt6YC3IBD2BR3i8ESmU,1808
+jacdac_python-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jacdac_python-0.0.8.dist-info/top_level.txt,sha256=haOZlvJBLrw7cpflRs3ZuLz-e5PxHpYSXCddSQVBU40,7
+jacdac_python-0.0.8.dist-info/RECORD,,
