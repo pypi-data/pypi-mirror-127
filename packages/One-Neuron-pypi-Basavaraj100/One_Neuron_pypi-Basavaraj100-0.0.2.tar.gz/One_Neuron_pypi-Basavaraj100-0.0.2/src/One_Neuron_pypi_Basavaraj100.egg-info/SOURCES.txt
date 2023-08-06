@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/One_Neuron_pypi_Basavaraj100.egg-info/PKG-INFO
+src/One_Neuron_pypi_Basavaraj100.egg-info/SOURCES.txt
+src/One_Neuron_pypi_Basavaraj100.egg-info/dependency_links.txt
+src/One_Neuron_pypi_Basavaraj100.egg-info/requires.txt
+src/One_Neuron_pypi_Basavaraj100.egg-info/top_level.txt
+src/oneNeuron/__init__.py
+src/oneNeuron/perceptron.py

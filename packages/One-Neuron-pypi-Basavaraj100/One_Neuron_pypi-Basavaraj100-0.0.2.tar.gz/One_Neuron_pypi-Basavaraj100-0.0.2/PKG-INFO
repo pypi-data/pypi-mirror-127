@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: One_Neuron_pypi-Basavaraj100
+Version: 0.0.2
+Summary: its an implimentation of Perceptron
+Home-page: https://github.com/Basavaraj100/One_Neuron_pypi
+Author: Basavaraj100
+Author-email: benkibijali@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Basavaraj100/One_Neuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# One_Neuron_pypi
+One_Neuron_pypi
+
+
