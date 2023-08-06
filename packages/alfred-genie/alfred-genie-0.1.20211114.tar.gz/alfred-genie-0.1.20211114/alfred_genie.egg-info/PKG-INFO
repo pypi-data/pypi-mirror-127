@@ -1,0 +1,120 @@
+Metadata-Version: 1.1
+Name: alfred-genie
+Version: 0.1.20211114
+Summary: Genie for Alfred
+Home-page: https://github.com/namuan/alfred-genie
+Author: DeskRiders Dev
+Author-email: me@deskriders.dev
+License: MIT
+Description: alfred-genie
+        ------------
+        
+        Genie for Alfred
+        
+        `GitHub
+        license <https://github.com/namuan/alfred-genie/blob/master/LICENSE>`__
+        `Twitter Follow <https://twitter.com/deskriders_twt>`__
+        
+        |image0|
+        
+        Using from Alfred
+        ~~~~~~~~~~~~~~~~~
+        
+        Install ``Alfred Genie.alfredworkflow`` in Alfred and use the ``genie``
+        command to use any available function.
+        
+        |image1|
+        
+        Using from Command line
+        ~~~~~~~~~~~~~~~~~~~~~~~
+        
+        ::
+        
+           $ pip install alfred-genie
+        
+        Then the following commands will be available
+        
+        ::
+        
+           $ alfred-genie 
+           Usage: alfred-genie [OPTIONS] COMMAND [ARGS]...
+        
+           Options:
+             --help  Show this message and exit.
+        
+           Commands:
+             base64-decode
+             base64-encode
+             commands # ignore this as this is only used from Alfred
+             format-json
+             minify-json
+        
+        Contributing
+        ~~~~~~~~~~~~
+        
+        Pull requests are welcome. For major changes, please open an issue first
+        to discuss what you would like to change.
+        
+        You’ll need a working version of ``Python3`` to run these scripts.
+        
+        1) Create and use new virtual env
+        
+        ::
+        
+           python3 -m venv venv
+           source venv/bin/activate
+        
+        2) Install required dependencies
+        
+        ::
+        
+           $ pip install -r requirements.txt
+        
+        3) Run locally
+        
+        ::
+        
+           $ python local_main.py ...
+        
+        Creating Alfred Workflow
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        For publishing it in workflow, we need to perform following additional
+        steps
+        
+        -  [ ] Open workflow file in Alfred
+        -  [ ] Open workflow directory in Terminal
+        -  [ ] Apply any changes from this directory to workflow directory
+        -  [ ] Install dependencies in workflow directory
+           ``pip install --target=. click``
+        -  [ ] Export workflow and publish to Github
+        
+        Publishing Updates to PyPi
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        .. code:: shell
+        
+           $ make package
+        
+        Enter the username and password for pypi.org repo when prompted
+        
+        License
+        ~~~~~~~
+        
+        `MIT <https://choosealicense.com/licenses/mit/>`__
+        
+        .. |image0| image:: docs/alfred-genie-intro.png
+        .. |image1| image:: docs/alfred-genie-usage.gif
+        
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
