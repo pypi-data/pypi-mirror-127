@@ -1,0 +1,4 @@
+redis<4,>=3
+
+[hiredis]
+redis[hiredis]<4,>=3

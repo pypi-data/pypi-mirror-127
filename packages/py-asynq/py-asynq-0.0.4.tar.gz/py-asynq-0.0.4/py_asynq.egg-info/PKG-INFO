@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: py-asynq
+Version: 0.0.4
+Summary: client for asynq wrriten in go.
+Home-page: https://gitee.com/newlife/py-asynq
+Author: newlife
+Author-email: shfeng819@126.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: hiredis
+License-File: LICENSE
+
+UNKNOWN
+
