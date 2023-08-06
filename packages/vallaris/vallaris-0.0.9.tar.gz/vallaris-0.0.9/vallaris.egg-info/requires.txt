@@ -1,0 +1,9 @@
+geojson
+geopandas
+jsonschema
+ndjson
+numpy
+pandas
+requests
+shapely
+tqdm
