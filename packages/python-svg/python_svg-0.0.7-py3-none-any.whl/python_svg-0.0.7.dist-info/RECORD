@@ -1,0 +1,13 @@
+svg/__init__.py,sha256=fzF65Lpp8SRb-XqgYyLgztnqmo9MhJVkB-w4XMsy78M,110
+svg/canvas.py,sha256=hOAadMIMdneYIfvlp4a0MqnpDumO1SZhvfJik0ddUm0,524
+svg/example.py,sha256=Z08y154jmYsepKxODItZY_BGqHtQqqMvwBUANf7h7BA,252
+svg/link.py,sha256=t5KGLJNOzpiL_b4dRGKRb_4xtp0P6bNr1p4bY2-QTwo,769
+svg/main.py,sha256=TnuyNS8us4po0Ar8TM6QWm2UQ8sGQYoVA-CR8NYOO2I,164
+svg/server.py,sha256=1SA1waq05zXxZVd6YsxPac5FjipcHB7b_VdD9XawJgs,974
+svg/shapes.py,sha256=MPdF-UUFGYRvC9eD8CC_iiP83psy1V_ZLTSRFyuRwP8,5372
+svg/style.py,sha256=k58fOpldEtpKwJOE4TA1KFlprNHD-dYzvQ-cHlRr7GI,189
+svg/templates.py,sha256=jjOYw69no4U7zYiA7YbfFKoIm0aTpCBbA-UH2pBZZ6k,80
+python_svg-0.0.7.dist-info/METADATA,sha256=zvlaFqkEM4UhFKVtWVrl3il5DJdtIXsqUDBQB72e2P8,1456
+python_svg-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+python_svg-0.0.7.dist-info/top_level.txt,sha256=Y3NlR3oBY_jlVR5ESORtkIjxgpDuUIpUygpHh9USMkY,4
+python_svg-0.0.7.dist-info/RECORD,,
