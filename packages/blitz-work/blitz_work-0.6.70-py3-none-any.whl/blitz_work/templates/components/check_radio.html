@@ -1,0 +1,9 @@
+{% load l10n i18n forcheck %}
+<div class="custom-control custom-radio">
+  <input type="radio" id="{{ widget.name }}_customRadioYes" name="{{ widget.name }}" class="custom-control-input" value="true" {% for name,value in widget.attrs.items %}{% if name == 'checked' %}checked{% endif %}{% endfor %}>
+  <label class="custom-control-label" for="{{ widget.name }}_customRadioYes">{% translate "Yes" %}</label>
+</div>
+<div class="custom-control custom-radio">
+  <input type="radio" id="{{ widget.name }}_customRadioNo" name="{{ widget.name }}" class="custom-control-input" value="false" {{widget.attrs.items|checkfor}}>
+  <label class="custom-control-label" for="{{ widget.name }}_customRadioNo">{% translate "No" %}</label>
+</div>
