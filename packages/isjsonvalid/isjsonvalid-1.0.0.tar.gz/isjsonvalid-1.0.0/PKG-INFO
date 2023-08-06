@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: isjsonvalid
+Version: 1.0.0
+Summary: Validate anything in any JSON
+Home-page: https://github.com/ivancmonaco/isjsonvalid.git
+Author: Real Python
+Author-email: ivancmonaco@gmail.com
+License: MIT
+Description: ## IsJSONVAlid
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

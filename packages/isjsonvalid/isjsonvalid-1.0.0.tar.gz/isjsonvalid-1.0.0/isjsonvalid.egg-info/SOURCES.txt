@@ -1,0 +1,9 @@
+README.md
+setup.py
+isjsonvalid/__init__.py
+isjsonvalid/helpers.py
+isjsonvalid/validation.py
+isjsonvalid.egg-info/PKG-INFO
+isjsonvalid.egg-info/SOURCES.txt
+isjsonvalid.egg-info/dependency_links.txt
+isjsonvalid.egg-info/top_level.txt
