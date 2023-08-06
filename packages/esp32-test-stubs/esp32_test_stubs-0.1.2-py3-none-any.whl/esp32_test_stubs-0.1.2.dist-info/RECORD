@@ -1,0 +1,11 @@
+esp-stubs/__init__.pyi,sha256=XZdbmH-r5E7-dk4_r0NVZWWAArM6c-m1SNwGt0upqYU,355
+esp-stubs/sub_pkg/__init__.pyi,sha256=__wiOV2TUdSP6zBFKRGmpjSv4hlSPA9B4958mp6vpJI,66
+esp32-stubs/__init__.pyi,sha256=IQhS_X3vc9vq2u2ds9o1p46xOMS4JyH9JHvJ3lBLDEk,1138
+esp32-stubs/sub_pkg.pyi,sha256=vOgkOYYU3XbLpKv8qpJ6f2EVHJPAW_SyfRzRumtmOD8,62
+machine.pyi,sha256=jl6bJpF68ORb1s-WSw3TsDYY7MshikLVT60MuB0fCao,2953
+upip.pyi,sha256=9S12w-JTmOxDHVl2al33JCsg-9bdUzvyYQjVP5RWgPg,497
+uuid-stubs/__init__.pyi,sha256=mEhdwa4MJV4UBh_xmYE2WidBkvt7GLbkq-IKeRUOp04,49
+uuid-stubs/py.typed,sha256=la67KBlbjXN-_-DfGNcdOcjYumVpKG_Tkw-8n5dnGB4,8
+esp32_test_stubs-0.1.2.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+esp32_test_stubs-0.1.2.dist-info/METADATA,sha256=gSfRuBylezxa91l6RH3aykE-uulRYeqQ8xSeNFC3UdU,2805
+esp32_test_stubs-0.1.2.dist-info/RECORD,,
