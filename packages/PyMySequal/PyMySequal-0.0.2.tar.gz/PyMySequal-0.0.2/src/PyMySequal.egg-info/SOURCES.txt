@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/PyMySequal.py
+src/PyMySequal.egg-info/PKG-INFO
+src/PyMySequal.egg-info/SOURCES.txt
+src/PyMySequal.egg-info/dependency_links.txt
+src/PyMySequal.egg-info/requires.txt
+src/PyMySequal.egg-info/top_level.txt
