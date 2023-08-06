@@ -1,0 +1,7 @@
+rodeo
+rodeo/car
+rodeo/cython
+rodeo/eigen
+rodeo/ibm
+rodeo/numba
+rodeo/utils
