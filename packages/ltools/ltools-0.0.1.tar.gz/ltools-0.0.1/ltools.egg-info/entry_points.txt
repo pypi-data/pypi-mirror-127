@@ -1,0 +1,3 @@
+[console_scripts]
+tools = ltools.__main__:main
+
