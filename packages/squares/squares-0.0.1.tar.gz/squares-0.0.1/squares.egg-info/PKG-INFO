@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: squares
+Version: 0.0.1
+Summary: An identicon generator
+Home-page: https://github.com/aaeg/squares
+Author: Alee
+Author-email: mazaeela@gmail.com
+License: MIT
+Keywords: identicon,pil
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# squares
+Squares is an identicon generator. It uses a hash of the seed you enter to generate an identicon.
+
+## Examples
+<p align="center">
+  <img src="https://github.com/aaeg/squares/blob/3d117f50c3799d72163714cb7878b351bdbbbc74/examples/deukn.png?raw=true" width="128"/>&nbsp;&nbsp;
+  <img src="https://github.com/aaeg/squares/blob/3d117f50c3799d72163714cb7878b351bdbbbc74/examples/eynqv.png?raw=true" width="128"/>&nbsp;&nbsp;
+  <img src="https://github.com/aaeg/squares/blob/3d117f50c3799d72163714cb7878b351bdbbbc74/examples/pcmfd.png?raw=true" width="128"/>&nbsp;&nbsp;
+  <img src="https://github.com/aaeg/squares/blob/3d117f50c3799d72163714cb7878b351bdbbbc74/examples/rcvyd.png?raw=true" width="128"/>&nbsp;&nbsp;
+  <img src="https://github.com/aaeg/squares/blob/3d117f50c3799d72163714cb7878b351bdbbbc74/examples/zkmmu.png?raw=true" width="128"/>
+</p>
+
+
