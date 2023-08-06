@@ -1,0 +1,11 @@
+colorain/__init__.py,sha256=93j8F5a0JNqq_9RyxPBcWahc6TuS03nIbdy2LmIMyU0,79
+colorain/colorain.py,sha256=ZddbWJwoKtLrG8C-pORYo85wKJppnaYB5OAYZv4DSGg,6199
+colorain/colours.py,sha256=zEwuLpUyhEaaYGHJkMHGMWCdzT7Ke4SnbTPecNczVpg,4094
+colorain/console_game_engine.py,sha256=ubVJNDe4GDE41SYJJhLgzo2HdPWs1GVbDJERg-hQZuY,4376
+colorain/errors.py,sha256=P0oxkilmxjc6J7HLxcCtYMhNAyJP3IjR9iwn_54y7GI,1319
+colorain/snake.py,sha256=7jCBQsCIkeb7JNDJBiUWUn5bzyKz_w6jXtvq2Clud4U,4005
+colorain-0.0.44.dist-info/LICENSE,sha256=gmVua0_H1HIC4ZCyeMmf8wIbAMYJMceP78QxVKaE2Sg,1055
+colorain-0.0.44.dist-info/METADATA,sha256=e0h8OZeOznk-d6BSly3ESoSO4P5lStHYvDtV-o__J_o,9617
+colorain-0.0.44.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+colorain-0.0.44.dist-info/top_level.txt,sha256=GMxBi8atZUgRJhIv8fgiyen8PtEWqWwJN0BtsShTg_w,9
+colorain-0.0.44.dist-info/RECORD,,
