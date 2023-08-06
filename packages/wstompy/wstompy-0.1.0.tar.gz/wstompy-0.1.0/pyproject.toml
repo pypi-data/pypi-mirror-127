@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "wstompy"
+version = "0.1.0"
+description = "Using a transport agnostic protocol and websocket-client to speak STOMP over websocket."
+authors = [
+    "Henrik Lindgren <henriklindgren@users.noreply.github.com>",
+]
+maintainers = [
+    "Henrik Lindgren <henriklindgren@users.noreply.github.com>",
+]
+license = "Apache-2.0"
+repository = "https://github.com/henriklindgren/wstompy"
+keywords = ["stomp", "websocket"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Typing :: Typed",
+]
+packages = [
+    { include = "wstompy" },
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+websocket-client = "^1.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+mypy = "^0.910"
+flake8 = "^4.0.1"
+black = "^21.9b0"
+pytest-kwparametrize = "^0.0.3"
+
+[tool.black]
+line_length = 120
+use_parentheses = true
+include_trailing_comma = true
+skip_string_normalization = true
+experimental_string_processing = true
+
+[[tool.mypy.overrides]]
+module = "websocket"
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
