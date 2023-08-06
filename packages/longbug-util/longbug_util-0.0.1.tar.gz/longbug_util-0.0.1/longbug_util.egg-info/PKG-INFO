@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: longbug-util
+Version: 0.0.1
+Summary: A simple Longbug package
+Home-page: https://github.com/c-tawayip/longbug_util
+Author: c-tawayip
+Author-email: piyawatchuangkrud@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+# longbug_util
+a simple package
+
+
