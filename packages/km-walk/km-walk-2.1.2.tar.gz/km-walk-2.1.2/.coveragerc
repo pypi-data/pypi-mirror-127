@@ -1,0 +1,10 @@
+[run]
+source =
+  km
+[report]
+omit =
+  .eggs/*
+  km/tests/*
+  km/argparser/*
+  km/km.py
+  km/__main__.py
