@@ -1,0 +1,11 @@
+cloudprice/__init__.py,sha256=YrO_A1H2-FzdFx9Wq8sHzv1zd2co8qeR3BGkg_c697c,27
+cloudprice/azure.py,sha256=j3CDv_OGaZivGyLZRebm-uwYxc2iSe6GXRQzC3B6_oc,4517
+cloudprice/azure_helpers.py,sha256=9a_hp5ZcVrcMqKlDL0Xcm9GAIPI6Uhs2cxjvaS6UPKo,2639
+cloudprice/prices.py,sha256=yOO7_gC1MlLoQMXd1CHcp6VlfhpkSaiPRbuad29C-Ak,1586
+cloudprice/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudprice/constants/azure.py,sha256=KHjdq6Bo9hubs4zUM0SCnpItRk_7S8TldPnTOHaehRk,319
+cloudprice-0.0.3.dist-info/LICENSE.txt,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+cloudprice-0.0.3.dist-info/METADATA,sha256=Z6kWrCvDP3gN7XAfWwKJyjhPcbnIyVwXkRM4TkpeTR4,1851
+cloudprice-0.0.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+cloudprice-0.0.3.dist-info/top_level.txt,sha256=-Y7LX24aBFEFFXycSfIPcNqG9Tq5xcPUw4-4jnZnj3Y,11
+cloudprice-0.0.3.dist-info/RECORD,,
