@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+archerdb/__init__.py
+archerdb/constants.py
+archerdb/database.py
+archerdb/table.py
+archerdb/utils.py
+archerdb.egg-info/PKG-INFO
+archerdb.egg-info/SOURCES.txt
+archerdb.egg-info/dependency_links.txt
+archerdb.egg-info/top_level.txt
