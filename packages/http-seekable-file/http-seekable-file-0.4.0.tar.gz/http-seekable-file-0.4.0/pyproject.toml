@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "http-seekable-file"
+version = "0.4.0"
+description = "Provides file-like seekable interface for HTTP(S) URLs in sync and async fashion"
+authors = ["JuniorJPDJ <dev@juniorjpdj.pl>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+aiohttp = { version = "^3.6", optional = true, extras = ["speedups"] }
+requests = { version = "^2.22", optional = true }
+asynciobase = { version = "^0.2.0", optional = true }
+asyncio-rlock = { version = "^0.1.0", optional = true }
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+pytest-asyncio = "^0.15"
+
+[tool.poetry.extras]
+async = ["aiohttp", "asynciobase", "asyncio-rlock"]
+sync = ["requests"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
