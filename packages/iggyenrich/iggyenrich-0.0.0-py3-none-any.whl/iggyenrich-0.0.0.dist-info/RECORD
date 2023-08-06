@@ -1,0 +1,9 @@
+iggyenrich/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iggyenrich/bigquery_data_package.py,sha256=MV5jgfaCy60RsNVuODBBVVuTlX-tHy-XYFTa9MqHPSk,2767
+iggyenrich/iggy_data_package.py,sha256=vZSXhq1Dtq3rnPN1HLsnKHY5brTioDgcozSDXPwYxR0,7389
+iggyenrich/iggy_enrich.py,sha256=pAqY6sGgYcyHVFiY_kTEFoAZKJ7TB3YpkFe2B2CA3uU,3838
+iggyenrich-0.0.0.dist-info/LICENSE,sha256=Wex14zssPuGSeRR_y5sW9ZlkzyWbhVLoVs4VKy03rvA,1070
+iggyenrich-0.0.0.dist-info/METADATA,sha256=l-Wpeux5Y36G_4PshY9RK8a2mWNCeXX8k6N3SWRaRpw,6959
+iggyenrich-0.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+iggyenrich-0.0.0.dist-info/top_level.txt,sha256=u3t8sCEE94DE2d-qiyt7faJU1aPSQ73iu9WWR2OZBVQ,11
+iggyenrich-0.0.0.dist-info/RECORD,,
