@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: autonomous-agent-udit107710
+Version: 0.0.1
+Summary: An autonomous agent to interact with environment.
+Home-page: https://github.com/Udit107710/autonomous-agent
+Author: Udit Krishna Chaudhary
+Author-email: uditcry10107@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Udit107710/autonomous-agent/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# autonomous-agent
+
+
