@@ -1,0 +1,9 @@
+astropy
+corner
+emcee
+matplotlib
+ndradexhyperfine
+numpy
+scipy
+tqdm
+lmfit
