@@ -1,0 +1,13 @@
+simple_deploy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_deploy/apps.py,sha256=W-znCrZ-BvJCkU5WEsJWjnx97aUrglm0czNpr81iAs4,157
+simple_deploy/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+simple_deploy/management/commands/simple_deploy.py,sha256=UG-ja0Ooc2imZczQ_eIxWlKWHTxc1ENDkM8Fp1evXTc,8397
+simple_deploy/management/commands/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_deploy/management/commands/utils/deploy_heroku.py,sha256=exMJZkhpDWw83NX_2qnekQVStMqni_7BlTZnP7S6rUA,15285
+simple_deploy/management/commands/utils/deploy_messages.py,sha256=CGdEGOG_Ix4xw2dMGHO41m1ItvdRcIgkztbJyHpowVQ,3217
+simple_deploy/management/commands/utils/deploy_messages_heroku.py,sha256=crcnlVxtxAb5EkdnQsineEA6LChl2MSq7I_UFyA4V2c,3497
+django_simple_deploy-0.1.10.dist-info/LICENSE,sha256=eE0PSpGK-C_T72lmuE6kQ_Am4fOlJympaeS_aItmiws,1484
+django_simple_deploy-0.1.10.dist-info/METADATA,sha256=Pnmm9RsTnj0nghPmM168TRp-RFyl6AZwZwDBQWceedQ,12994
+django_simple_deploy-0.1.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_simple_deploy-0.1.10.dist-info/top_level.txt,sha256=OCchoi28Lwat28UlHpY4LiIhbxbzyIw9uQrei2dWB9E,14
+django_simple_deploy-0.1.10.dist-info/RECORD,,
