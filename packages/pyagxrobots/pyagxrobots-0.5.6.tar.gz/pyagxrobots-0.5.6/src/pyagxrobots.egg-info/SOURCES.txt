@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+scripts/bringup_can2usb_500k.bash
+scripts/setup_can2usb.bash
+src/pyagxrobots/README.md
+src/pyagxrobots/UGVConfigMsg.py
+src/pyagxrobots/__init__.py
+src/pyagxrobots/agxrobots.py
+src/pyagxrobots.egg-info/PKG-INFO
+src/pyagxrobots.egg-info/SOURCES.txt
+src/pyagxrobots.egg-info/dependency_links.txt
+src/pyagxrobots.egg-info/requires.txt
+src/pyagxrobots.egg-info/top_level.txt
