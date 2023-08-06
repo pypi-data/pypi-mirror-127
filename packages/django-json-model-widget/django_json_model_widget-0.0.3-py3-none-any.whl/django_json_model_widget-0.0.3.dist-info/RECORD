@@ -1,0 +1,10 @@
+json_model_widget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+json_model_widget/widgets.py,sha256=WXJ-AeH5-vKBjMWAKrTsKLJQfCp32LrNidJurBGqnuc,2604
+json_model_widget/__pycache__/__init__.cpython-39.pyc,sha256=Vw40DsAk6f7ZARTeW8R-te15tejFdtoGaNAp__OLmfs,177
+json_model_widget/__pycache__/widgets.cpython-39.pyc,sha256=3Tmr2r0pY43anP5ZuPmI4OyoZHNOQ3jQas2u6_oHCgQ,2768
+json_model_widget/static/json_model_widget/images/icon-deletepair.svg,sha256=mmKJYoILsDLLHSGaP-FambbhWpYlJQqLyltZey9BIuU,400
+json_model_widget/templates/json_model_widget/json_model_widget.html,sha256=YFoC8ikOziOE4pyCbWxExuL96LdGZf8eJE3qcqFC-j0,2101
+django_json_model_widget-0.0.3.dist-info/METADATA,sha256=E3Ipl0OPScJ7KnuWMv2vl6usfpU6MykvtAdMvrsJDaQ,417
+django_json_model_widget-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_json_model_widget-0.0.3.dist-info/top_level.txt,sha256=9N9Y2sa359iVaIZTlgxpkHEEhyGUOOsSKcB50uzvkCI,18
+django_json_model_widget-0.0.3.dist-info/RECORD,,
