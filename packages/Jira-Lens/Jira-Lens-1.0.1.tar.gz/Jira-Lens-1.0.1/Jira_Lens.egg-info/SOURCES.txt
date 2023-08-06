@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+Jira_Lens.egg-info/PKG-INFO
+Jira_Lens.egg-info/SOURCES.txt
+Jira_Lens.egg-info/dependency_links.txt
+Jira_Lens.egg-info/requires.txt
+Jira_Lens.egg-info/top_level.txt
