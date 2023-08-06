@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+GAWS.egg-info/PKG-INFO
+GAWS.egg-info/SOURCES.txt
+GAWS.egg-info/dependency_links.txt
+GAWS.egg-info/entry_points.txt
+GAWS.egg-info/not-zip-safe
+GAWS.egg-info/requires.txt
+GAWS.egg-info/top_level.txt
+gaws/__init__.py
+gaws/__main__.py
