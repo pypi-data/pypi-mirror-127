@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fasthdl/__init__.py
+fasthdl/fasthdl.py
+fasthdl.egg-info/PKG-INFO
+fasthdl.egg-info/SOURCES.txt
+fasthdl.egg-info/dependency_links.txt
+fasthdl.egg-info/requires.txt
+fasthdl.egg-info/top_level.txt
