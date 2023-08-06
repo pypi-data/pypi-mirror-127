@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+BlackDuckUtils/BlackDuckOutput.py
+BlackDuckUtils/MavenUtils.py
+BlackDuckUtils/NpmUtils.py
+BlackDuckUtils/Utils.py
+BlackDuckUtils/bdio.py
+BlackDuckUtils/globals.py
+blackduck_python_utils.egg-info/PKG-INFO
+blackduck_python_utils.egg-info/SOURCES.txt
+blackduck_python_utils.egg-info/dependency_links.txt
+blackduck_python_utils.egg-info/requires.txt
+blackduck_python_utils.egg-info/top_level.txt
