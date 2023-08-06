@@ -1,0 +1,5 @@
+deprecation
+matplotlib
+numpy
+scipy
+xarray>=0.17.0
