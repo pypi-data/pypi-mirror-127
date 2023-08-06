@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ChecksumCsv
+Version: 0.0.1
+Summary: Short Script to do the work remotely 
+Home-page: UNKNOWN
+Author: Tejesh Vaish
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Extracts the checksum file remotely 
+
+
