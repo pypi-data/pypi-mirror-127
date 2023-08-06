@@ -1,0 +1,164 @@
+Metadata-Version: 2.1
+Name: drf-pretty-exception-handler
+Version: 0.1.2
+Summary: Django Rest Framework pretty exception handler
+Home-page: https://github.com/ivlevdenis/drf_pretty_exception_handler
+Author: Denis Ivlev
+Author-email: me@dierz.pro
+License: MIT license
+Keywords: drf_pretty_exception_handler
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: djangorestframework (>=3.10)
+
+Django Rest Framework pretty exception handler
+==============================================
+
+
+![https://pypi.python.org/pypi/drf_pretty_exception_handler](https://img.shields.io/pypi/v/drf_pretty_exception_handler.svg) ![https://travis-ci.com/ivlevdenis/drf_pretty_exception_handler](https://img.shields.io/travis/ivlevdenis/drf_pretty_exception_handler.svg) ![https://drf-pretty-exception-handler.readthedocs.io/en/latest/?badge=latest](https://readthedocs.org/projects/drf-pretty-exception-handler/badge/?version=latest) ![https://pyup.io/repos/github/ivlevdenis/drf_pretty_exception_handler/](https://pyup.io/repos/github/ivlevdenis/drf_pretty_exception_handler/shield.svg)
+
+Django Rest Framework pretty exception handler
+
+**Dependencies**
+
+* Python 3.7+
+* Django 2.0+
+* Django Rest Framework 3.10+
+
+**Setup**
+
+You can install the library directly from pypi using pip:
+
+`$ pip install drf-pretty-exception-handler`
+
+Edit your REST_FRAMEWORK settings in settings.py file:
+
+```python
+
+REST_FRAMEWORK = {
+    ...
+    'EXCEPTION_HANDLER': 'drf_pretty_exception_handler.exception_handler',
+    ...
+}
+
+```
+
+License
+-------
+Free software: MIT license
+
+
+Features
+--------
+
+Default Django Rest Framework exception handler return errors in different formats.
+
+**Examples**:
+Response on `raise exceptions.APIException`.
+```json
+{
+  "detail": "A server error occurred."
+}
+```
+Response on `raise exceptions.ValidationError`.
+```json
+[
+  "Invalid input."
+]
+```
+Response on `raise exceptions.ValidationError` if error in field serializator.
+```json
+{
+  "email": [
+    "This field is required."
+  ]
+}
+```
+Response on `raise exceptions.ValidationError` in serializator `.validate()` .
+```json
+{
+  "non_field_errors": [
+    "Passwords does not match"
+  ]
+}
+```
+
+
+This greatly complicates error handling in the frontend. This package provide own format of errors.
+
+```json
+{
+  "status_code": 500,
+  "errors": {
+    "non_field_errors": [
+      "A server error occurred."
+    ]
+  }
+}
+```
+
+```json
+{
+  "status_code": 400,
+  "errors": {
+    "non_field_errors": [
+      "Invalid input."
+    ]
+  }
+}
+```
+```json
+{
+  "status_code": 400,
+  "errors": {
+    "email": [
+      "This field is required."
+    ]
+  }
+}
+```
+```json
+{
+  "status_code": 400,
+  "errors": {
+    "non_field_errors": [
+      "Passwords does not match"
+    ]
+  }
+}
+```
+
+And this package handle default Python exceptions.
+```python
+l = [1, 2, 3, 4]
+l[10]
+```
+
+```json
+{
+  "status_code": 500,
+  "errors": {
+    "non_field_errors": [
+      "IndexError: list index out of range"
+    ]
+  }
+}
+```
+<!-- * TODO -->
+
+Credits
+-------
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage) project template.
+
+
