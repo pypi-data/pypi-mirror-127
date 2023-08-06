@@ -1,0 +1,5 @@
+setup.py
+lisa_framework.egg-info/PKG-INFO
+lisa_framework.egg-info/SOURCES.txt
+lisa_framework.egg-info/dependency_links.txt
+lisa_framework.egg-info/top_level.txt
