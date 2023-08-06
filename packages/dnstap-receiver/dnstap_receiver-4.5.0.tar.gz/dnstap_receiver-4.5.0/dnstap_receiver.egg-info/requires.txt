@@ -1,0 +1,16 @@
+dnstap_pb
+pyyaml
+aiohttp
+geoip2
+tlds
+cachetools
+fstrm
+
+[kafka]
+confluent-kafka
+
+[pgsql]
+asyncpg
+
+[rabbitmq]
+pika
