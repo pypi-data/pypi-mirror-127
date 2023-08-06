@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hw5lib
+Version: 1.0.1
+Summary: HW5 Library
+Home-page: UNKNOWN
+Author: gnlm
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
