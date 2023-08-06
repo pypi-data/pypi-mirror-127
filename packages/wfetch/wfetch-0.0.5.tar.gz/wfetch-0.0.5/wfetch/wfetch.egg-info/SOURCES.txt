@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+wfetch/wfetch.egg-info/PKG-INFO
+wfetch/wfetch.egg-info/SOURCES.txt
+wfetch/wfetch.egg-info/dependency_links.txt
+wfetch/wfetch.egg-info/entry_points.txt
+wfetch/wfetch.egg-info/top_level.txt
