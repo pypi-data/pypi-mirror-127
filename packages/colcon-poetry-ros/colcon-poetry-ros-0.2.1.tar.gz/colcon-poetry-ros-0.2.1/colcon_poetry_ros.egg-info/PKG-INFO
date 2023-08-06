@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: colcon-poetry-ros
+Version: 0.2.1
+Summary: A Colcon extension providing support for Python projects that use Poetry
+Home-page: https://github.com/urban-machine/colcon-poetry-ros
+Author: Urban Machine
+Author-email: info@urbanmachine.build
+Maintainer: Urban Machine
+Maintainer-email: info@urbanmachine.build
+License: BSD-3-Clause
+Keywords: colcon
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+License-File: LICENSE
+
+UNKNOWN
+
