@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/alino_package/__init__.py
+src/alino_package/calcul.py
+src/calcul_kemgue.egg-info/PKG-INFO
+src/calcul_kemgue.egg-info/SOURCES.txt
+src/calcul_kemgue.egg-info/dependency_links.txt
+src/calcul_kemgue.egg-info/requires.txt
+src/calcul_kemgue.egg-info/top_level.txt
