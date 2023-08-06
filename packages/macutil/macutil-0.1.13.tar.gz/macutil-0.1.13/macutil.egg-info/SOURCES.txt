@@ -1,0 +1,12 @@
+README.md
+setup.py
+macutil.egg-info/PKG-INFO
+macutil.egg-info/SOURCES.txt
+macutil.egg-info/dependency_links.txt
+macutil.egg-info/top_level.txt
+package/__init__.py
+package/macutil
+package/modules/__init__.py
+package/modules/brute.py
+package/modules/general.py
+package/modules/utility.py
