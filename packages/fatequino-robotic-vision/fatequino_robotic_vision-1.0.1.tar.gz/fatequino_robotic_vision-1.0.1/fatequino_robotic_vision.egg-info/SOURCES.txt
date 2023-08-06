@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+fatequino_robotic_vision.egg-info/PKG-INFO
+fatequino_robotic_vision.egg-info/SOURCES.txt
+fatequino_robotic_vision.egg-info/dependency_links.txt
+fatequino_robotic_vision.egg-info/top_level.txt
