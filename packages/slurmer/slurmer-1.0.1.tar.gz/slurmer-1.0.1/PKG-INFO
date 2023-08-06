@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: slurmer
+Version: 1.0.1
+Summary: A package to schedule different tasks in parallel with cluster support.
+Home-page: https://jmigual.github.io/slurmer/
+License: MIT
+Author: Joan Marcè i Igual
+Author-email: J.Marce.i.Igual@tue.nl
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
+Project-URL: Repository, https://github.com/jmigual/slurmer
+Description-Content-Type: text/markdown
+
+# Slurmer
+
+This package is designed to run heavy loads in a computer cluster. 
+
+For now we only support the SLURM task scheduler but PRs are welcome.
+
+You can find the documentation [here](https://jmigual.github.io/slurmer/)
+
