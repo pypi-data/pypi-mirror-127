@@ -1,0 +1,17 @@
+lxml
+
+[dev]
+Tox
+isort
+check-manifest
+
+[test]
+xmldiff
+
+[test:python_version < "3"]
+PyTest<5
+PyTest-Cov<2.6
+
+[test:python_version >= "3.6"]
+PyTest
+PyTest-Cov

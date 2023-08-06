@@ -1,0 +1,15 @@
+/* Custom CSS */
+
+table.border-none, table.border-none td {
+    border: none;
+    box-shadow: none;
+}
+table.vertical-align-top td {
+    vertical-align: top;
+}
+table.vertical-align-middle td {
+    vertical-align: middle;
+}
+table.text-align-center td {
+    text-align: center;
+}
