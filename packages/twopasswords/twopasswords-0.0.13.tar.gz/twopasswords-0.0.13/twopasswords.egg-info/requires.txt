@@ -1,0 +1,8 @@
+cmake
+py-cui
+opencv-python
+face-recognition
+sqlcipher3==0.4.5
+pyperclip
+PyYAML
+Faker
