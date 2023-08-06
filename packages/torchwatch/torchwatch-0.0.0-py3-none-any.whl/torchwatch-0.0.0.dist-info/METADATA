@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: torchwatch
+Version: 0.0.0
+Summary: basic block built with pytorch
+Home-page: https://github.com/szuboy/torchwatch#readme
+Author: szuboy
+Author-email: szujeremy@gmail.com
+License: Apache License
+Project-URL: Documentation, https://torchwatch.readthedocs.io/
+Project-URL: Github, https://github.com/szuboy/torchwatch
+Keywords: torch torchwatch basic-block module deep-learning Residual Inception SE_block
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+torchwatch
+===========
+
+The torchwatch package consists of popular basic block for deep learning,
+which strives to be an watch for torch, like iWatch for iPhone.
+
+
+
+
+
+
