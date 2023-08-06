@@ -1,0 +1,10 @@
+LICENSE
+clipboard_sync_client.py
+pyproject.toml
+setup.py
+clipboard_sync_client.egg-info/PKG-INFO
+clipboard_sync_client.egg-info/SOURCES.txt
+clipboard_sync_client.egg-info/dependency_links.txt
+clipboard_sync_client.egg-info/entry_points.txt
+clipboard_sync_client.egg-info/requires.txt
+clipboard_sync_client.egg-info/top_level.txt
