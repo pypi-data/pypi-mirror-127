@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+lightmgb.egg-info/PKG-INFO
+lightmgb.egg-info/SOURCES.txt
+lightmgb.egg-info/dependency_links.txt
+lightmgb.egg-info/entry_points.txt
+lightmgb.egg-info/requires.txt
+lightmgb.egg-info/top_level.txt
+reader/__init__.py
+reader/__main__.py
+reader/config.cfg
+reader/feed.py
+reader/viewer.py
