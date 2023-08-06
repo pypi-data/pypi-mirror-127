@@ -1,0 +1,15 @@
+fmm3dpy/__init__.py,sha256=JjBTWGkKov7jovvWwUsCtfxdyqpV0YQayFGQvbtIwIc,95
+fmm3dpy/emfmm3d_fortran.cp38-win_amd64.pyd,sha256=2bnUNiDsLrNwhvg8xdkAI9CLsaEMV30KuH-t8xdD448,4048800
+fmm3dpy/fmm3d.py,sha256=tcEcIRN_bBiYizNvTvsZwUf6L35wnZ22rGWxh_mD_7s,57149
+fmm3dpy/hfmm3d_fortran.cp38-win_amd64.pyd,sha256=xpQvF5JR9i6946CL5lTspt7qCUMwAtG0EqpBdUbUC_s,4293916
+fmm3dpy/lfmm3d_fortran.cp38-win_amd64.pyd,sha256=a8ih_qgylMGqC5lqA7sU-NEbmn9njaYtZIh3TKA6iDI,1954573
+fmm3dpy/libgcc_s_seh-1.dll,sha256=utMBVGuAoJdBNHPGKiOVrELUICW6qZWgQxiaR-BNgbg,84147
+fmm3dpy/libgfortran-5.dll,sha256=aTz6K6JjyyLTmtPsr7cTeMTZOSumFfiBY-HbeMr4xUg,2992212
+fmm3dpy/libgomp-1.dll,sha256=zLnaPyZzR8yXSfODxnf2q8tcTrGUKxw_2-mUzaCkkSU,251743
+fmm3dpy/libquadmath-0.dll,sha256=D4I1PR80VcpFvusSucqGEynMPuAhblS2BL6J0a7XPJA,379696
+fmm3dpy/libwinpthread-1.dll,sha256=Yjl6o4B4srKRQ5oHk3rmKcaakTkw1fGi-PXmsP2029U,58621
+fmm3dpy/stfmm3d_fortran.cp38-win_amd64.pyd,sha256=cmsSki5TAFGHUHkJzS-N9UIhG2yTwDmphq-jLzSjYbA,1558056
+fmm3dpy-1.0.0.dist-info/METADATA,sha256=is8ZO6H66qdC5QN3iTdbnad1FSLgv8-HYXQ_e9oB8Lk,1092
+fmm3dpy-1.0.0.dist-info/WHEEL,sha256=P24hRDQapckAvHvgBBzlH5uw6rQ_oZQtKbG6drGrqOM,100
+fmm3dpy-1.0.0.dist-info/top_level.txt,sha256=oY6S5uBKxxYTrHWmje0dbdrwzmqbRd3B8ebuBTlAdUw,8
+fmm3dpy-1.0.0.dist-info/RECORD,,
