@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: randomstrings
+Version: 0.0.1
+Summary: strings that are ✨ random ✨
+Home-page: https://pypi.org/project/random-strings/
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: random-strings
+
+# randomstrings
+
+alias for random-strings
+
+```bash
+$ pip install random-strings
+```
+
+---
+
+
