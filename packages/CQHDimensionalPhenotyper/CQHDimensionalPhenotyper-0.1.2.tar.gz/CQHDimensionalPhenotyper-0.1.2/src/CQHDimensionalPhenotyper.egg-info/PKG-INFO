@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: CQHDimensionalPhenotyper
+Version: 0.1.2
+Summary: Score EHR based on NIMH RDoC
+Home-page: UNKNOWN
+Author: Tom McCoy, modified by Daisy Dan
+Author-email: sdan@mclean.harvard.edu
+License: MIT
+Description: Modified based on Tom McCoy code to score electronic health records
+Platform: UNKNOWN
+Requires-Python: >=2.7
