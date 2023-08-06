@@ -1,0 +1,17 @@
+PyNetworkD3/__init__.py,sha256=rvaMpZ6LES59qIOYeACTEFGkmKlaj5J-9De0kN1RNvU,193
+PyNetworkD3/constants.py,sha256=YLdYuhlTsjCQyuavNIvGjBaLkTYizSvu0LH0EPxSKb4,144
+PyNetworkD3/core.py,sha256=Iafr-bFVvgm_BkvsYrRAcSlVgOCm7dnGsQAWsBiULls,4085
+PyNetworkD3/templates/adjacency matrix/adjacency matrix.css,sha256=9l5eSDmG5ZINhee-aADYr0ODBecQaDJs7HT8UEsh2bs,231
+PyNetworkD3/templates/adjacency matrix/adjacency matrix.js,sha256=y1PFKpmOU0dGGmhnaZBv4Y4nlpRfW4VKFCwykmPRWmw,2307
+PyNetworkD3/templates/arc diagram/arc diagram.css,sha256=oS7v-c6dMoJUt9qwnqr6qLIw8RCLMpLeRQlGBNTuvvc,202
+PyNetworkD3/templates/arc diagram/arc diagram.js,sha256=Zd4vxCuUcFbHJl33Hz1wsq5vOpH3cGN2iM3FZEs7Kx4,1885
+PyNetworkD3/templates/graph/graph.css,sha256=Kw9N-blHyxZcN8rmt4qxTejVlbElp9YXVeoOHYdvFcc,440
+PyNetworkD3/templates/graph/graph.js,sha256=5EECtKhE1caizks-WbFx8_IKWpzMH2_3VjXa51LtpQI,2958
+PyNetworkD3/templates/main.html,sha256=idGjGFZ3QTdEA-CG_o_9KIzeYWXfUGzaYCyag6bS3R0,578
+PyNetworkD3/templates/main.js,sha256=O-eDFEX88AnQQQOGN25YTM6CFkL-z6MYXncDiBG3vyg,602
+PyNetworkD3/utils.py,sha256=0MGLjuNWSJMrqAEbQyuD3b9HaFncj9KPiN9oh5rPtC0,127
+pynetworkd3-0.0.5.dist-info/entry_points.txt,sha256=Q0FnjCDhuoHU69NU2XI9wVBW4vlsJjhrI2hqvAJAFeQ,63
+pynetworkd3-0.0.5.dist-info/LICENSE,sha256=UBZPnboJMzxcH76eGCc-pQF2cBwzPK_UT5Xuj5XqkaY,1089
+pynetworkd3-0.0.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pynetworkd3-0.0.5.dist-info/METADATA,sha256=bfS_GGLi6ci4p2iotnTOd5uRnak0uU0LkgEeojaaP8w,4598
+pynetworkd3-0.0.5.dist-info/RECORD,,
