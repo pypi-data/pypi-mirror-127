@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cryptostore
+Version: 0.4.0
+Summary: Storage engine for cryptocurrency data
+Home-page: https://github.com/bmoscon/cryptostore
+Author: Bryant Moscon
+Author-email: bmoscon@gmail.com
+License: XFree86
+Keywords: cryptocurrency,bitcoin,btc,market data,data storage,redis,database,kafka
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: redis
+Provides-Extra: kafka
+Provides-Extra: arctic
+Provides-Extra: gcs
+Provides-Extra: aws
+Provides-Extra: zmq
+Provides-Extra: drive
+License-File: LICENSE
+
+UNKNOWN
+
