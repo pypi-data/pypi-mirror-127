@@ -1,0 +1,4 @@
+base58check~=1.0
+ecdsa~=0.17
+sympy~=1.8
+requests~=2.26
