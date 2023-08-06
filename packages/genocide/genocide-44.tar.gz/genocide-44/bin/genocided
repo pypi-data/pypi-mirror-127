@@ -1,0 +1,69 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+"EM_T04_OTP-CR-117_19"
+
+
+__version__ = 70
+
+
+import os
+import readline
+import sys
+import termios
+import threading
+import time
+
+
+from gcd.irc import Cfg as IRC
+from gcd.obj import Cfg
+from gcd.ofn import fmt
+from gcd.run import Runtime, starttime
+from gcd.run import Cfg as RunCfg
+from gcd.tbl import Table
+from gcd.tms import elapsed
+from gcd.utl import spl
+
+
+Cfg.wd = "/var/lib/genocide/"
+
+
+class Kernel(Runtime):
+
+    @staticmethod
+    def error(txt):
+        Kernel.log(txt)
+
+    @staticmethod
+    def log(txt):
+        if not txt:
+            return
+        print(txt)
+        sys.stdout.flush()
+
+
+k = Kernel()
+
+
+import gcd.all
+import genocide.all
+
+
+def main(): 
+    k.cfg.name = "genocide"
+    k.cfg.version = __version__
+    msg = "GENOCIDE %s starting at %s" % (__version__, time.ctime(time.time()))
+    k.log(msg.replace("  ", " "))
+    k.log("workdir is %s" % Cfg.wd)
+    k.log(fmt(k.cfg, ["console", "daemon", "debug", "systemd", "verbose"]))
+    k.privileges()
+    k.cfg.mod += "gcd.irc,gcd.rss,genocide.sui"
+    k.start()
+    k.init(k.cfg.mod)
+    k.log(",".join(sorted(list(Table.modnames))))
+    k.log("booted (%s)" % elapsed(time.time() - starttime))
+    k.wait()
+
+
+main()
