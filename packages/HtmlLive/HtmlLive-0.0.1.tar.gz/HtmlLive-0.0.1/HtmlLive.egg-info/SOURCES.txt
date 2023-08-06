@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+HtmlLive.egg-info/PKG-INFO
+HtmlLive.egg-info/SOURCES.txt
+HtmlLive.egg-info/dependency_links.txt
+HtmlLive.egg-info/top_level.txt
+src/main.py
