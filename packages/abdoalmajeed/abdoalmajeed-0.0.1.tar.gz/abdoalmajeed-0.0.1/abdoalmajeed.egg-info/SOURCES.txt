@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+abdoalmajeed/abdo.py
+abdoalmajeed.egg-info/PKG-INFO
+abdoalmajeed.egg-info/SOURCES.txt
+abdoalmajeed.egg-info/dependency_links.txt
+abdoalmajeed.egg-info/top_level.txt

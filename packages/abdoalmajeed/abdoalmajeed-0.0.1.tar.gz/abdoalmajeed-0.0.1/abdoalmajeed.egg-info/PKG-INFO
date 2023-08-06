@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: abdoalmajeed
+Version: 0.0.1
+Summary: A very basic print
+Home-page: UNKNOWN
+Author: Abdo Almajeed
+Author-email: face0play0@gmail.com
+License: MIT
+Description: print
+        
+        Change Log
+        ==========
+        
+        0.0.1 (15/11/2021)
+        -------------------
+        - First Release
+        
+Keywords: printer
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
