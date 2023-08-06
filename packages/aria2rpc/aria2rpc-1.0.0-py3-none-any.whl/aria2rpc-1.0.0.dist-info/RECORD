@@ -1,0 +1,12 @@
+.gitignore,sha256=y4OnrjuOuhhyLpsafUd3HLgHi4kM1muEZqhLtiwHjUI,54
+LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+README.md,sha256=HOFxLZJS6x4Z_YLKcm5FVHhskypgGnWLhLs_MI8wwXI,1650
+requirements.txt,sha256=h8m6mKEmDO6-CWQu8RcoRIS8Vop28z9gxW70hPFxGqY,30
+aria2rpc/__init__.py,sha256=BQqQYO-gWx8mfgiWasHLfS8c2vpCJRi-Ia3j55HV2ds,432
+aria2rpc/core.py,sha256=QGx6Ew0-50wyvqZYWUM3o5Ry9i1jBTWBPHdH6kjYYbc,11844
+aria2rpc/utils.py,sha256=z75OH99zAyzBRgUIGAlV2N0p_ysA3zS_hsFUof--DDE,2681
+aria2rpc-1.0.0.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+aria2rpc-1.0.0.dist-info/METADATA,sha256=4PZuYd3nysTYS2LR3YW1qz_Usx3F9q6TsIChos7DEfo,2874
+aria2rpc-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aria2rpc-1.0.0.dist-info/top_level.txt,sha256=Z4pPIZLGvzgyHWTHN0sZkYj9HTlC-JtqJEE7sjiL9Z4,9
+aria2rpc-1.0.0.dist-info/RECORD,,
