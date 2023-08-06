@@ -1,0 +1,5 @@
+icontract<3,>=2.5.1
+
+[dev]
+black==21.11b0
+mypy==0.910
