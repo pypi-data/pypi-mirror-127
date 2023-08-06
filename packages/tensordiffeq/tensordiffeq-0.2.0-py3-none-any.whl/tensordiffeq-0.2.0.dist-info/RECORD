@@ -1,0 +1,16 @@
+tensordiffeq/__init__.py,sha256=DJuoXCGbJjkFUf4ejKEHQKjxl2bFKVXyap5gMWd09g4,629
+tensordiffeq/boundaries.py,sha256=GMYuM3-4awujPnVSYOlHsP_wqxBTRFcMBvu8AidVUf0,9630
+tensordiffeq/domains.py,sha256=-2r9DPtAThJ4ZsMJ9Iu_zjV03VoBgRX2no0TU9G1UJ4,926
+tensordiffeq/fit.py,sha256=FyZV7SxXUt5vyn7M1rBRxFETh7inYUfCe0o1EnhXOBI,7088
+tensordiffeq/helpers.py,sha256=6zHuomPqNSa3gtbmAEVKY8fzs_8WrYHzn0_GJ-hobFM,123
+tensordiffeq/models.py,sha256=6LBjDQUyw8NORZKEJpZPVi9wJrm0wssWEoeohbpsDZk,16188
+tensordiffeq/networks.py,sha256=H4e847BufOZrsnGx_r-Yt04JQ_wT31H1vA1CldtoSjQ,767
+tensordiffeq/optimizers.py,sha256=VqA7EJ2TuxN-eAhIvq1f-Ee8VMewsbCMdCjLQjMzlSs,14000
+tensordiffeq/output.py,sha256=sihqOWGYSisMDHnD562lXNwX-L8KYczWA06ThgcnM5E,357
+tensordiffeq/plotting.py,sha256=zw8qRkrrSkcRmBggLXpLaX9jiYTgfDnH1WLtXgWC9s8,5547
+tensordiffeq/sampling.py,sha256=pNSBUakedQRqo6LNWjLQ1RKOu5PA74wLEHK8ziDuWIY,17899
+tensordiffeq/utils.py,sha256=WqP5FPfTAsiLFM37ihdsxs1lcZwOEKcCPmc9tYYauN8,3068
+tensordiffeq-0.2.0.dist-info/METADATA,sha256=Rb5vEdxAWBin1dzm89XlpwmJGx7pJh9pFu3rUZvXuG8,4042
+tensordiffeq-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tensordiffeq-0.2.0.dist-info/top_level.txt,sha256=e0SuTnpPYtlGdVEEUB7WeeCYiWN8nHaUVMMgl1ZcWDo,13
+tensordiffeq-0.2.0.dist-info/RECORD,,
