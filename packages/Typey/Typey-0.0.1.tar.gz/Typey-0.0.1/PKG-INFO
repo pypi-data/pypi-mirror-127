@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Typey
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/makemepresident/Typey
+Author: makemepresident
+License: GNU
+Keywords: typing,typings,monkeytype,typingtest,typey
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TyPy
+
+"Tie-pie" is a minimalistic, terminal-based typing test inspired from the likes of [typings.gg](https://typings.gg/) and [monkeytype.gg](https://monkeytype.com/).
+
+![Demonstration](./images/sc1.png "TyPy Demo")
+
+
