@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: eb-airflow-providers-siafi
+Version: 1.1.1
+Summary: Provider para interações com o SIAFI e seus sistemas derivados
+Home-page: UNKNOWN
+Author: Carlos Alberto Duarte Pinto
+Author-email: carlos.adpinto@gmail.com
+License: Exército Brasileiro
+Keywords: airflow,siafi,administracao,governo
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: apache-airflow
+
+# eb-airflow-providers-siafi
+
+Provider para interações com o SIAFI e seus sistemas derivados
+
+## Instalação
+
+```shell
+pip install eb-airflow-providers-siafi
+```
+
+## Conteúdo
+
+- Hook e tipo de conexão "Conta do SIAFI"
+
+![Imagem para conexão "Conta do SIAFI"](https://imgur.com/a/DeKSFPb)
+
+## Uso
+
+```python
+from eb_airflow.providers.siafi.hooks.siafi import SIAFIHook
+
+...
+```
+
+
+

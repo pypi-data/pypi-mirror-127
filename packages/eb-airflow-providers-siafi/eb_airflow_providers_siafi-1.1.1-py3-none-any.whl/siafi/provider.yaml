@@ -1,0 +1,24 @@
+---
+package-name: eb-airflow-providers-siafi
+name: SIAFI
+description: SIAFI
+
+versions:
+  - 1.0.0
+  - 1.0.1
+
+additional-dependencies:
+  - apache-airflow>=2.1.0
+
+hooks:
+  - integration-name: SIAFI
+    python-modules:
+      - siafi.hooks.siafi
+
+hook-class-names:  # deprecated - to be removed after providers add dependency on Airflow 2.2.0+
+  - siafi.hooks.siafi.SIAFIHook
+
+
+connection-types:
+  - hook-class-name: siafi.hooks.siafi.SIAFIHook
+    connection-type: siafi
