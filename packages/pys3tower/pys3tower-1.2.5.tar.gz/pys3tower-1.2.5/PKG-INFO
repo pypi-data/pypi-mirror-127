@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pys3tower
+Version: 1.2.5
+Summary: Sync a local directory to a S3 bucket.
+Home-page: https://github.com/s0rcy-r/pys3_tower
+Author: Louis Fiori
+Author-email: louis.fioripro@gmail.com
+License: GNU General Public License v3
+Project-URL: Bug Tracker, https://github.com/s0rcy-r/pys3_tower/issues
+Platform: any
+Classifier: Framework :: AWS CDK
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: System :: Archiving :: Mirroring
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyS3 Tower
+
+
+## Introduction
+
+PyS3 Tower *(like the Pisa Tower)* is a Python library that can sync your local files to a S3 bucket. With PyS3 Tower you can easily sync your local files to a S3 bucket and also sync your S3 bucket to your local files.
+
+This script work like xcopy on Windows. But it is more powerful, flexible and adapted to the needs of the S3 bucket.
+
+\> PyS3 Tower work with the following rules:
+- If a file is in the S3 bucket and not in the local folder, it will be deleted on the bucket,
+- If a file is in the local folder and not in the S3 bucket, it will be uploaded to the bucket,
+- If a file is in both the local and the S3 bucket, the local file will be updated on the bucket if it is different from the local file.
+
+
+## Installation
+
+    pip install pys3tower
+
+
+## Usage
+
+Import the PyS3 Tower library:
+
+    import pys3tower
+
+And create a PyS3 Tower object with your local file path, your S3 bucket name, your S3 bucket key and your access key, secret key and region:
+    
+    pys3tower = pys3tower.PyS3Tower(local_path, s3_bucket_name, s3_bucket_key, access_key, secret_key, region)
+
+or you could create a PyS3 Tower object with your local file path, your S3 bucket name and your access key, secret key and region and the bucket region:
+
+    pys3tower = pys3tower.PyS3Tower(local_path, s3_bucket_name, access_key, secret_key, region)
+
+Then, run the pysetower.run() method:
+
+    pys3tower.run()
+
