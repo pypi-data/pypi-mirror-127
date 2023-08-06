@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xgi
+Version: 0.1
+Summary: XGI is a Python library for the representation and analysis of hypergraphs.
+Home-page: https://github.com/ComplexGroupInteractions/xgi
+Author: Nicholas W. Landry and Leo Torres
+Author-email: nicholas.landry@colorado.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: testing
+Provides-Extra: tutorials
+Provides-Extra: documentation
+Provides-Extra: all
+License-File: license.md
+
+UNKNOWN
+
