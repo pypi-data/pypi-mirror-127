@@ -1,0 +1,132 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ggseg/__init__.py
+ggseg.egg-info/PKG-INFO
+ggseg.egg-info/SOURCES.txt
+ggseg.egg-info/dependency_links.txt
+ggseg.egg-info/requires.txt
+ggseg.egg-info/top_level.txt
+ggseg/data/aseg/3rd-Ventricle
+ggseg/data/aseg/4th-Ventricle
+ggseg/data/aseg/Brain-Stem
+ggseg/data/aseg/CC_Anterior
+ggseg/data/aseg/CC_Central
+ggseg/data/aseg/CC_Mid_Anterior
+ggseg/data/aseg/CC_Mid_Posterior
+ggseg/data/aseg/CC_Posterior
+ggseg/data/aseg/Cerebellum-Cortex
+ggseg/data/aseg/Cerebellum-White-Matter
+ggseg/data/aseg/Coronal
+ggseg/data/aseg/Left-Amygdala
+ggseg/data/aseg/Left-Caudate
+ggseg/data/aseg/Left-Hippocampus
+ggseg/data/aseg/Left-Lateral-Ventricle
+ggseg/data/aseg/Left-Pallidum
+ggseg/data/aseg/Left-Putamen
+ggseg/data/aseg/Left-Thalamus
+ggseg/data/aseg/Left-VentralDC
+ggseg/data/aseg/Right-Amygdala
+ggseg/data/aseg/Right-Caudate
+ggseg/data/aseg/Right-Hippocampus
+ggseg/data/aseg/Right-Lateral-Ventricle
+ggseg/data/aseg/Right-Pallidum
+ggseg/data/aseg/Right-Putamen
+ggseg/data/aseg/Right-Thalamus
+ggseg/data/aseg/Right-VentralDC
+ggseg/data/aseg/Sagittal
+ggseg/data/dk/NA_left
+ggseg/data/dk/NA_right
+ggseg/data/dk/bankssts_left
+ggseg/data/dk/bankssts_right
+ggseg/data/dk/caudalanteriorcingulate_left
+ggseg/data/dk/caudalanteriorcingulate_right
+ggseg/data/dk/caudalmiddlefrontal_left
+ggseg/data/dk/caudalmiddlefrontal_right
+ggseg/data/dk/corpuscallosum_left
+ggseg/data/dk/corpuscallosum_right
+ggseg/data/dk/cuneus_left
+ggseg/data/dk/cuneus_right
+ggseg/data/dk/entorhinal_left
+ggseg/data/dk/entorhinal_right
+ggseg/data/dk/fusiform_left
+ggseg/data/dk/fusiform_right
+ggseg/data/dk/inferiorparietal_left
+ggseg/data/dk/inferiorparietal_right
+ggseg/data/dk/inferiortemporal_left
+ggseg/data/dk/inferiortemporal_right
+ggseg/data/dk/insula_left
+ggseg/data/dk/insula_right
+ggseg/data/dk/isthmuscingulate_left
+ggseg/data/dk/isthmuscingulate_right
+ggseg/data/dk/lateral_left
+ggseg/data/dk/lateral_right
+ggseg/data/dk/lateraloccipital_left
+ggseg/data/dk/lateraloccipital_right
+ggseg/data/dk/lateralorbitofrontal_left
+ggseg/data/dk/lateralorbitofrontal_right
+ggseg/data/dk/lingual_left
+ggseg/data/dk/lingual_right
+ggseg/data/dk/medial_left
+ggseg/data/dk/medial_right
+ggseg/data/dk/medialorbitofrontal_left
+ggseg/data/dk/medialorbitofrontal_right
+ggseg/data/dk/middletemporal_left
+ggseg/data/dk/middletemporal_right
+ggseg/data/dk/paracentral_left
+ggseg/data/dk/paracentral_right
+ggseg/data/dk/parahippocampal_left
+ggseg/data/dk/parahippocampal_right
+ggseg/data/dk/parsopercularis_left
+ggseg/data/dk/parsopercularis_right
+ggseg/data/dk/parsorbitalis_left
+ggseg/data/dk/parsorbitalis_right
+ggseg/data/dk/parstriangularis_left
+ggseg/data/dk/parstriangularis_right
+ggseg/data/dk/pericalcarine_left
+ggseg/data/dk/pericalcarine_right
+ggseg/data/dk/postcentral_left
+ggseg/data/dk/postcentral_right
+ggseg/data/dk/posteriorcingulate_left
+ggseg/data/dk/posteriorcingulate_right
+ggseg/data/dk/precentral_left
+ggseg/data/dk/precentral_right
+ggseg/data/dk/precuneus_left
+ggseg/data/dk/precuneus_right
+ggseg/data/dk/rostralanteriorcingulate_left
+ggseg/data/dk/rostralanteriorcingulate_right
+ggseg/data/dk/rostralmiddlefrontal_left
+ggseg/data/dk/rostralmiddlefrontal_right
+ggseg/data/dk/superiorfrontal_left
+ggseg/data/dk/superiorfrontal_right
+ggseg/data/dk/superiorparietal_left
+ggseg/data/dk/superiorparietal_right
+ggseg/data/dk/superiortemporal_left
+ggseg/data/dk/superiortemporal_right
+ggseg/data/dk/supramarginal_left
+ggseg/data/dk/supramarginal_right
+ggseg/data/dk/transversetemporal_left
+ggseg/data/dk/transversetemporal_right
+ggseg/data/jhu/Anterior thalamic radiation L
+ggseg/data/jhu/Anterior thalamic radiation R
+ggseg/data/jhu/CSF
+ggseg/data/jhu/Cingulum (cingulate gyrus) L
+ggseg/data/jhu/Cingulum (cingulate gyrus) R
+ggseg/data/jhu/Cingulum (hippocampus) L
+ggseg/data/jhu/Cingulum (hippocampus) R
+ggseg/data/jhu/Corticospinal tract L
+ggseg/data/jhu/Corticospinal tract R
+ggseg/data/jhu/Forceps major
+ggseg/data/jhu/Forceps minor
+ggseg/data/jhu/Inferior fronto-occipital fasciculus L
+ggseg/data/jhu/Inferior fronto-occipital fasciculus R
+ggseg/data/jhu/Inferior longitudinal fasciculus L
+ggseg/data/jhu/Inferior longitudinal fasciculus R
+ggseg/data/jhu/NA
+ggseg/data/jhu/Superior longitudinal fasciculus (temporal part) L
+ggseg/data/jhu/Superior longitudinal fasciculus (temporal part) R
+ggseg/data/jhu/Superior longitudinal fasciculus L
+ggseg/data/jhu/Superior longitudinal fasciculus R
+ggseg/data/jhu/Uncinate fasciculus L
+ggseg/data/jhu/Uncinate fasciculus R
