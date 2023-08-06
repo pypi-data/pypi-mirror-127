@@ -1,0 +1,3 @@
+[console_scripts]
+hindi_english = transliterate.hindi_english:main
+
