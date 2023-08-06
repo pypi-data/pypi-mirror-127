@@ -1,0 +1,5 @@
+setup.py
+Main_code/src/ChecksumCsv.egg-info/PKG-INFO
+Main_code/src/ChecksumCsv.egg-info/SOURCES.txt
+Main_code/src/ChecksumCsv.egg-info/dependency_links.txt
+Main_code/src/ChecksumCsv.egg-info/top_level.txt
