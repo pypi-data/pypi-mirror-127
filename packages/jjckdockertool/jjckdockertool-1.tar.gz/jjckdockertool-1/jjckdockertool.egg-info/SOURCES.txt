@@ -1,0 +1,6 @@
+README.md
+setup.py
+jjckdockertool.egg-info/PKG-INFO
+jjckdockertool.egg-info/SOURCES.txt
+jjckdockertool.egg-info/dependency_links.txt
+jjckdockertool.egg-info/top_level.txt
