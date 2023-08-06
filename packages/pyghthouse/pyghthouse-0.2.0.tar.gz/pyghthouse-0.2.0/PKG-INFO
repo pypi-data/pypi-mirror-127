@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyghthouse
+Version: 0.2.0
+Summary: Python Lighthouse adapter
+Home-page: https://github.com/Musicted/pyghthouse
+Author: Gavin Lüdemann
+Author-email: gavin.luedemann@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pyghthouse 
+
+A Python Lighthouse Adapter
+
+(README WIP; please consult pyghthouse/ph.py for usage information.)
+
+
