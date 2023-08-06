@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+hyperopt7777777/main.py
+hyperopt7777777name.egg-info/PKG-INFO
+hyperopt7777777name.egg-info/SOURCES.txt
+hyperopt7777777name.egg-info/dependency_links.txt
+hyperopt7777777name.egg-info/not-zip-safe
+hyperopt7777777name.egg-info/top_level.txt

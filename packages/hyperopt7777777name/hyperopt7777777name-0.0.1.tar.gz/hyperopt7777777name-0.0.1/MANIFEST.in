@@ -1,0 +1,4 @@
+include hyperopt7777777/*.py
+include hyperopt7777777/*.so
+inclued MANIFEST.in
+inclued *.so 
