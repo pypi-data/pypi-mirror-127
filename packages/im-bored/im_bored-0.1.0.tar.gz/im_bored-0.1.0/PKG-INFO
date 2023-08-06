@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: im_bored
+Version: 0.1.0
+Summary: A simple package that returns an interesting website in string.
+Home-page: https://github.com/JavierDevs/Im-Bored-pypi
+Author: Javier
+Author-email: javier.is.high@gmail.com
+License: UNKNOWN
+Keywords: python,web,bored
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+

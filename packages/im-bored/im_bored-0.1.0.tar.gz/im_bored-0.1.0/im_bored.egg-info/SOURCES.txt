@@ -1,0 +1,7 @@
+setup.py
+im_bored.egg-info/PKG-INFO
+im_bored.egg-info/SOURCES.txt
+im_bored.egg-info/dependency_links.txt
+im_bored.egg-info/top_level.txt
+im_bored_pypi/__init__.py
+im_bored_pypi/im_bored.py
