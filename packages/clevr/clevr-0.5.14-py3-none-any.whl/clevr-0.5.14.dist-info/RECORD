@@ -1,0 +1,12 @@
+clevr/__init__.py,sha256=z8wTwqo2tWSiW90uDaby8mLkgdDxwPru4edtchyh7sQ,98
+clevr/helpers.py,sha256=LezkLVDo6k8BCY1QeuYJ1REDRoamCcIzbaKpX1b4_08,1158
+clevr/library_helpers.py,sha256=0Ik0q-8V7fTAYnFxi_vvWgPnQ12rnGnokb-MkUpXOV8,814
+clevr/api_resources/__init__.py,sha256=bIU3s4RUgZ7hXV7zeV2fXls85xXQiWERa_Ouq_sVNh0,189
+clevr/api_resources/athena.py,sha256=uuHMfb4_tB0PsoPyl4rKI_9WRl2nXcKM0UqBGACAYNc,1786
+clevr/api_resources/layers.py,sha256=YQ-t-246ptTOEghx4lO5Z7cHX6u-X-xMjtlm36wKB6Y,4164
+clevr/api_resources/persona.py,sha256=vEvSDidb3rW5k0FZPavOaRX9B3p4-8boz6uZj_HqLMI,1688
+clevr/api_resources/platform.py,sha256=TXqLffqJmYPFidam24XaduLoqjm8ZY8IHAyRybebgrI,1408
+clevr-0.5.14.dist-info/METADATA,sha256=JF5dtWaLMTRceZJ7dyH4tTRmZGRnEwTnnyJR_57eE7o,285
+clevr-0.5.14.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+clevr-0.5.14.dist-info/top_level.txt,sha256=9AJ41Iq20WGnlkY4sD77zHWWEj0VQAt_VbDsGUsRd0Y,6
+clevr-0.5.14.dist-info/RECORD,,
