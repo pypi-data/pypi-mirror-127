@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: morerandoms
+Version: 0.2
+Summary: More Random for God of Random!
+Home-page: https://github.com/Wolframoviy/morerandom-py
+Author: WolframoviyI
+Author-email: arseniysstrim@gmail.com
+License: MIT
+Description: More Random for God of Random!
+Platform: UNKNOWN
+Requires: random
