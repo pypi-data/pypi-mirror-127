@@ -1,0 +1,16 @@
+AsciiDotter/BrailleImage.py,sha256=dy72C82g5wex0qvNARppOMzLzdCTsxjYfaUpBanWFd8,3909
+AsciiDotter/BrailleSegment.py,sha256=Dnzx-yAhx8BkMm10b3T7rNe3NB4EYTx7Xg0X0IgwbOA,2733
+AsciiDotter/Luminance.py,sha256=ySaJhJlAn3tknsBzWAf5zBnAmQsD1LTPLyVhZPYHAAw,3559
+AsciiDotter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AsciiDotter/__main__.py,sha256=h2i-57UIIEa__hZIHNIBu-UY3ibiUgVmMNw4FhG_2eo,3880
+ascii_dotter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ascii_dotter/__main__.py,sha256=b6oVcIxQ-B2MOZxloBwYt0YhMJgSsqOnfA_gmhM0XSs,3909
+ascii_dotter/braille_image.py,sha256=AmHH9lSinSbepdZiSYpkYnzU5t_M91gZjx9NyE4H7DM,4258
+ascii_dotter/braille_segment.py,sha256=Ov9Qf4I4hcYBt2Uh8anlT6oRpuh84AQaFz0fDr89gx8,2865
+ascii_dotter/luminance.py,sha256=gngc4eK7TA5gF9nlIF_B-UtQJCCs5IwshiUOJ5YQo5I,3959
+AsciiDotter-2.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+AsciiDotter-2.1.0.dist-info/METADATA,sha256=xo_O5Y4M3Z6so5vnN3HU1DeaiBOkhIyIcQU4rhuY7s4,3140
+AsciiDotter-2.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+AsciiDotter-2.1.0.dist-info/entry_points.txt,sha256=1KlAVAtIxwSuK3alnC6xQP3eBAvElzjuNC3x_0jbGwY,71
+AsciiDotter-2.1.0.dist-info/top_level.txt,sha256=6z95Huq6A5w98OkeIQX2Kr_NrhuapmOksV0Qmtaq6pY,13
+AsciiDotter-2.1.0.dist-info/RECORD,,
