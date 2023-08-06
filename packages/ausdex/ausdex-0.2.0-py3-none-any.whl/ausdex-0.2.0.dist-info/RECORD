@@ -1,0 +1,15 @@
+ausdex/__init__.py,sha256=dBe0BsPsrE0G6Zxtl72i_rmhe7saeJtB89MEVqNluVk,38
+ausdex/dates.py,sha256=SQ3gR5l3omIDYI1zRuiJLioqA6GvjJRHPCpe_XBWb94,2088
+ausdex/files.py,sha256=07V1PzTZbxDehLnIrM-_a0nPo9YrUiGmRmXvSmpXwno,1203
+ausdex/inflation.py,sha256=Tbt0M7cXSu81IpX6sBX8JnymWIHYzLpS-AfmS9UIoLQ,6846
+ausdex/main.py,sha256=qYMYTkuMU41dX9X6mAamg8EjV1Ot-E-WWGzuHXWVAZQ,3850
+ausdex/seifa_vic/__init__.py,sha256=2ZPJ31ZP0wp0Kc8U_HXFVBp0n_rcLZobXoQCS1uUXFA,62
+ausdex/seifa_vic/data_io.py,sha256=HoPobJk_PpWBbXf5qfP7fsZUW70lZ5jceClR2DenSHk,6797
+ausdex/seifa_vic/data_wrangling.py,sha256=AotdGL6hEd6rCOOYT1HRxeryNc5AqD0wBPKmHPnsf_g,12097
+ausdex/seifa_vic/metadata/victorian_locations.csv,sha256=adFti_Hu8jDcei_wtwX4rxsam4C5Lilax3Th_aY62BE,182955
+ausdex/seifa_vic/seifa_vic.py,sha256=QjqkTltJPGt4W81NFKEPI5ljuQLln0OAFFQWRfOKWQs,11192
+ausdex-0.2.0.dist-info/entry_points.txt,sha256=edzVtPD360vEIyS0l-vAnK5eVO_bMbyUHPsgjwiXKmc,42
+ausdex-0.2.0.dist-info/LICENSE,sha256=Zrbm5hRF2Ulgi51hodZlG52nAUSNhDy4BKpgVqEHiIo,11365
+ausdex-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ausdex-0.2.0.dist-info/METADATA,sha256=qEFUZD3Jd5qjl1lhNsBLgTwEwpz5_iogAJADwul0KEI,6571
+ausdex-0.2.0.dist-info/RECORD,,
