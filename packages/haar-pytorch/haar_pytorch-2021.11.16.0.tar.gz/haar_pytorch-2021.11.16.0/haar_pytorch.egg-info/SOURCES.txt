@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+haar_pytorch/__init__.py
+haar_pytorch/transform2d.py
+haar_pytorch.egg-info/PKG-INFO
+haar_pytorch.egg-info/SOURCES.txt
+haar_pytorch.egg-info/dependency_links.txt
+haar_pytorch.egg-info/requires.txt
+haar_pytorch.egg-info/top_level.txt
+haar_pytorch.egg-info/zip-safe

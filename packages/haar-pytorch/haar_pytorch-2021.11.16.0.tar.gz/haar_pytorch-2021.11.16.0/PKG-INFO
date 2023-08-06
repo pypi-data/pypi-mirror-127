@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: haar_pytorch
+Version: 2021.11.16.0
+Summary: Pytorch implementation of the forward and inverse discrete wavelet transform using Haar Wavelets.
+Home-page: https://github.com/bes-dev/haar_pytorch
+Author: Sergei Belousov aka BeS
+Author-email: sergei.o.belousov@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# haar_pytorch: Pytorch implementation of forward and inverse Haar Wavelets 2D
+
+A simple library that implements differentiable forward and inverse Haar Wavelets.
+
+<p align="center">
+  <img src="resources/haar.png"/>
+</p>
+
+## Install the latest version
+
+```bash
+pip install --upgrade git+https://github.com/bes-dev/haar_pytorch.git
+```
+
+## Example
+```python
+import torch
+from haar_pytorch import HaarForward, HaarInverse
+
+haar = HaarForward()
+ihaar = HaarInverse()
+
+img = torch.randn(5, 4, 64, 64)
+wavelets = haar(img)
+img_reconstructed = ihaar(wavelets)
+```
+
+
