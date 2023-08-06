@@ -1,0 +1,10 @@
+dask
+numpy_groupies
+toolz
+xarray
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[test]
+netCDF4
