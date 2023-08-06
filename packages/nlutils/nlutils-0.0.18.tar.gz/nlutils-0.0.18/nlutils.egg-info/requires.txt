@@ -1,0 +1,5 @@
+coloredlogs
+tqdm
+itchat
+smtplib
+email
