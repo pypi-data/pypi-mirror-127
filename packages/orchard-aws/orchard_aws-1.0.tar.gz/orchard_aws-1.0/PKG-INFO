@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: orchard_aws
+Version: 1.0
+Summary: Orchad Analytics package for interacting with AWS.
+Home-page: https://github.com/Orchard-Analytics/orchard_aws
+Author: Ryan Brennan
+Author-email: ryantbrennan1@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
