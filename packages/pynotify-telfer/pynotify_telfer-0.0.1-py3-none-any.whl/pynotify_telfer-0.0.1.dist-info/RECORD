@@ -1,0 +1,10 @@
+pynotify/__init__.py,sha256=5WrtN0z_6UrIioEN_T3u7iP_fkBgvGImXzHn_R9jOyA,77
+pynotify/__main__.py,sha256=2ctGOVOae2zb52eZW47srae4SdzP3illRhxBk5qKgdE,69
+pynotify/config.py,sha256=5vGxZf-nDuDYJyYiWUrCT3zYjuI_PIc0Iq00LbGe5_c,401
+pynotify/pynotify.py,sha256=SmgeWJRCRHepoPipmIlVBd31i_38ANmYwHZq6tn8TDo,3515
+pynotify_telfer-0.0.1.dist-info/LICENSE,sha256=-sTtYhVTU_5-cGAq_PAf7Ww_FwfzqFE2NzeoNPZEi7A,1069
+pynotify_telfer-0.0.1.dist-info/METADATA,sha256=z0UkbFKcFa1vokFdnuuns4hKUrJMV-GnTUij2Epb2Ks,1421
+pynotify_telfer-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pynotify_telfer-0.0.1.dist-info/entry_points.txt,sha256=qFCZNS18cEPWDfr1JuNsZdyhi3SQegxOeN5ywrdFTpI,50
+pynotify_telfer-0.0.1.dist-info/top_level.txt,sha256=I_BNM7O-sxeZkpyu8otyh-EK61FnTRoeUm3HboSu4vA,9
+pynotify_telfer-0.0.1.dist-info/RECORD,,
