@@ -1,0 +1,10 @@
+mt5_conn/Account.py,sha256=_P0naOFjCW7tS60i-0E4_qgkLfyD3T9n6WOX5AlcYRk,1693
+mt5_conn/MT5app.py,sha256=woWc1UeQ3PSaP9Wr8XWYGsZqstxeuq3AISGFfVKxX84,984
+mt5_conn/Price.py,sha256=c1DWPUHSR2aKIwgH4B52y2ApeC2DAv-rES79wtai3WY,1754
+mt5_conn/__init__.py,sha256=sqA_HPckm6RDeIziX3jYZmFLPup3XQ4OrpjX7G9FHvU,38
+mt5_conn/mt5_objects.py,sha256=z6gUp6w7SPfWrfxRsxl9QdzLHjMNHz0KQgpoy7eGLh8,2540
+MetaTrader5_python_connector-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+MetaTrader5_python_connector-0.0.1.dist-info/METADATA,sha256=YukJoBqz50sGgJOVd-zPY8ieyl320y6sKlgcCvIulNI,295
+MetaTrader5_python_connector-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+MetaTrader5_python_connector-0.0.1.dist-info/top_level.txt,sha256=x-U0AqD-Mn2ye9bl7BYUe2gdoNFmh9mdYLxH1uryJLc,9
+MetaTrader5_python_connector-0.0.1.dist-info/RECORD,,
