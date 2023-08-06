@@ -1,0 +1,13 @@
+munch<3,>=2.3
+docopt<1,>=0.6
+tqdm<5,>=4
+unidecode<2,>=1
+furl<3,>=2
+dataclass-property<2,>=1
+where<2,>=1
+marionette_driver<4,>=3
+python-dateutil<3,>=2.7
+datetime-interval==0.2
+
+[test]
+pytest<7,>=6
