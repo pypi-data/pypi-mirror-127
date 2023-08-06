@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: lscom
+Version: 0.0.1
+Summary: list available active COM ports
+Home-page: https://github.com/joshschmelzle/lscom
+Author: Josh Schmelzle
+Author-email: josh@joshschmelzle.com
+License: MIT
+Keywords: com,com ports,serial
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Utilities
+Requires-Python: >3.2,
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyserial
+
+# lscom
+
+List and discover available COM ports.
+
+Why? More quickly identify which COM ports are available for use. Any COM ports already in use will not be listed.
+
+lscom should work cross platform (Linux, macOS, Windows), but has not been extensively tested.
+
+## example
+
+```
+$ lscom
+['COM3']
+```
+
+
