@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/maxllg/__init__.py
+src/maxllg/params.py
+src/maxllg.egg-info/PKG-INFO
+src/maxllg.egg-info/SOURCES.txt
+src/maxllg.egg-info/dependency_links.txt
+src/maxllg.egg-info/top_level.txt
+src/maxllg/solver/__init__.py
+src/maxllg/solver/solver.py
