@@ -1,0 +1,36 @@
+# VoxyPy    
+ A data structure for Voxel operations.     
+    
+- Uses [NumPy](https://pypi.org/project/numpy/) for speed and efficiency.     
+- Uses a modified version of [numpy-vox-io](https://github.com/alexhunsley/numpy-vox-io) for IO operations.    
+    
+## Quickstart 
+```python  
+from voxypy.models import Entity, Voxel
+dense = np.zeros((10, 10, 10), dtype=int)
+entity = Entity(data=dense)
+
+entity.set(x=1, y=2, z=3, 42)
+voxel = entity.get(1, 2, 3) # Voxel object with value 42
+
+voxel.add(1) # Voxel object with value 43
+new_voxel = Voxel(255)
+new_voxel.add(1) # Returns Voxel object with value 1
+entity.set(5, 5, 5, new_voxel)
+entity.set(5, 5, 5, 69)
+
+entity = Entity().from_file('old_entity.vox')
+# optional
+entity.set_palette_from_file('palette.png')
+entity.save('new_entity.vox')
+```
+
+Full documentation can be found [here](https://voxypy.readthedocs.io/en/latest/)
+
+## Helpful Links
+
+- **[VoxyPy Full Documentation](https://voxypy.readthedocs.io/en/latest/#)**
+- [VoxyPy GitLab repo](https://gitlab.com/Claytone/voxypy)
+- [Claytone's blog for development commentary](https://claytonwells.com/)
+- [NumPy](https://pypi.org/project/numpy/)
+- [MagicaVoxel voxel editor](https://ephtracy.github.io/)
