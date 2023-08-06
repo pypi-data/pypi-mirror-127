@@ -1,0 +1,6 @@
+threezaconventions
+cachetools
+pathlib
+jsonpath_ng
+requests
+matplotlib
