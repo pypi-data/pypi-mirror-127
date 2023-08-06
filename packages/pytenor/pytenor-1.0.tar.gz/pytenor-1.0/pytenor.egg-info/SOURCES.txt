@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pytenor/__init__.py
+pytenor/classes.py
+pytenor/exceptions.py
+pytenor/tenor.py
+pytenor.egg-info/PKG-INFO
+pytenor.egg-info/SOURCES.txt
+pytenor.egg-info/dependency_links.txt
+pytenor.egg-info/requires.txt
+pytenor.egg-info/top_level.txt
