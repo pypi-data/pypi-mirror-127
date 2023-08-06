@@ -1,0 +1,4 @@
+copyheaders
+requests-toolbelt
+netifaces
+httpx
