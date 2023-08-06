@@ -1,0 +1,2 @@
+fhirclient@git+https://github.com/smart-on-fhir/client-py#egg=fhirclient
+http://github.com/mtai/python-gearman/tarball/master#egg=gearman-2.0.0beta
