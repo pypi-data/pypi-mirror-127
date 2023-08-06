@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bot-exts"
+version = "0.1.0"
+description = ""
+authors = ["TrixiS <oficialmorozov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nextcord = "^2.0.0-alpha.3"
+pydantic = "^1.8.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.extras]
+orm = ["tortoise-orm"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
