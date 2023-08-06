@@ -1,0 +1,3 @@
+[console_scripts]
+mysql-xml-formatter = toolbox:xml_formatter_main
+
