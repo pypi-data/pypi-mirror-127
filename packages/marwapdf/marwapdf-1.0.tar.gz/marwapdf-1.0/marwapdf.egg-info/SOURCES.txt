@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+marwapdf/__init__.py
+marwapdf/pdf2image.py
+marwapdf/pdf2text.py
+marwapdf.egg-info/PKG-INFO
+marwapdf.egg-info/SOURCES.txt
+marwapdf.egg-info/dependency_links.txt
+marwapdf.egg-info/top_level.txt
