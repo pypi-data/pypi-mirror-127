@@ -1,0 +1,16 @@
+numpy
+scipy
+astropy
+matplotlib
+reproject
+numba
+numexpr
+pyproj
+dask[array]
+sqlalchemy
+
+[healpy]
+healpy
+
+[mocpy]
+mocpy
