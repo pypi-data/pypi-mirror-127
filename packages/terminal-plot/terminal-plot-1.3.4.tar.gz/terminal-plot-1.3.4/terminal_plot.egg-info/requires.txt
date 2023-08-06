@@ -1,0 +1,10 @@
+tensorboard>=2.5
+plotext==4.0
+mock
+pandas
+numpy
+scipy
+
+[matplotlib-backend]
+matplotlib
+pillow
