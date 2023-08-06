@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/pysem_strings/__init__.py
+src/pysem_strings/strings.py
+src/pysem_strings.egg-info/PKG-INFO
+src/pysem_strings.egg-info/SOURCES.txt
+src/pysem_strings.egg-info/dependency_links.txt
+src/pysem_strings.egg-info/top_level.txt
