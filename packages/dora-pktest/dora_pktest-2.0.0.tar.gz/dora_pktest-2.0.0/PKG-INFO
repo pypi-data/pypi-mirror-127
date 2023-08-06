@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: dora_pktest
+Version: 2.0.0
+Summary: Test packages
+Home-page: https://github.com/doranung/dora_pktest
+Author: doranung
+Author-email: UNKNOWN
+License: MIT
+Description: # dora_pktest
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
