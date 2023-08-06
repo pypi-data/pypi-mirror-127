@@ -1,0 +1,3 @@
+[console_scripts]
+gaws = gaws.__main__:main
+
