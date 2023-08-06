@@ -1,0 +1,11 @@
+[tool.black]
+line-length=88
+exclude='node_modules'
+target-version = ['py37']
+
+[tool.isort]
+atomic = true
+profile = "black"
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "tests.settings"
