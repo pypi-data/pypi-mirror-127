@@ -1,0 +1,10 @@
+slxjsonrpc/__init__.py,sha256=vv1TBcLKoxOep-EuGqzNSMBp9moINxRYg-S_f1atVuk,543
+slxjsonrpc/jsonrpc.py,sha256=27IteIfB06gs9-8Cpvf23-A-8obYK-bC6Fmnqd4NcpA,18290
+slxjsonrpc/jsonrpc.pyi,sha256=lWBZFNPfaB69C0MYUiP86k5BBsMPxc4gxbyHSPtUgaY,2092
+slxjsonrpc/schema/__init__.py,sha256=V6AjHz6ZTS-SoGAKkJaX06b2hXgGx1ahgptS0YKR6AI,8
+slxjsonrpc/schema/jsonrpc.py,sha256=v_apRNDRsNhyyvzkx9kGbeuHcJ1_c8QTL-Glh0qc2_A,11316
+slxjsonrpc-0.8.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+slxjsonrpc-0.8.0.dist-info/METADATA,sha256=fEsDi1dxCW39H-R-0tM65A4oiHZRSj0co4axnJmvoQ0,2033
+slxjsonrpc-0.8.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+slxjsonrpc-0.8.0.dist-info/top_level.txt,sha256=FGDjDhuHA6AzA88PdeU6dI-zDSWJomnrP0WAIsscSRc,11
+slxjsonrpc-0.8.0.dist-info/RECORD,,
