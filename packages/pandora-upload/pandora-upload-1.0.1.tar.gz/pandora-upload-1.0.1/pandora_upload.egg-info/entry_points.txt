@@ -1,0 +1,3 @@
+[console_scripts]
+pandora-upload = pandora_upload:main
+
