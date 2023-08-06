@@ -1,0 +1,7 @@
+nukr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nukr/command.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nukr/nuke_base.py,sha256=X5inmk874uAM3ruvcdo06CtNmeyYzPo8UCo7TmhtQ8w,46
+nukr/nuke_reddit.py,sha256=T2UduiMYtTpANU_Ynh5pye380TOxz0cFPO6dcDEMyxw,83
+nukr-0.1.0a1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nukr-0.1.0a1.dist-info/METADATA,sha256=VJRdwt5dKx5jQY8A_s54gIvE0Fe3_P3jDqMTmN0HS8U,461
+nukr-0.1.0a1.dist-info/RECORD,,
