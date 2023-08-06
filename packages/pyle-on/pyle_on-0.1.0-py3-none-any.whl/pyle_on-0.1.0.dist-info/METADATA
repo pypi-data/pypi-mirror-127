@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyle-on
+Version: 0.1.0
+Summary: Command-line tool to manage to-dos when things keep piling on
+Home-page: https://github.com/DJ73/pyle-on
+License: MIT
+Keywords: todo,commandline
+Author: Dhananjay Jindal
+Author-email: djindal211@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/DJ73/pyle-on
+Description-Content-Type: text/markdown
+
+# pyle-on
+Command-line friendly to-do list app for when things keep piling on
+
