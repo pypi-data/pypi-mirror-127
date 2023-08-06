@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+scTenifold/__init__.py
+scTenifold/__main__.py
+scTenifoldpy.egg-info/PKG-INFO
+scTenifoldpy.egg-info/SOURCES.txt
+scTenifoldpy.egg-info/dependency_links.txt
+scTenifoldpy.egg-info/entry_points.txt
+scTenifoldpy.egg-info/requires.txt
+scTenifoldpy.egg-info/top_level.txt
