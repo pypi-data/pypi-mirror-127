@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: bianary-decision-parameter
+Version: 0.0
+Summary: AUTOCALCULATE ARIMA MODEL
+Home-page: UNKNOWN
+Author: MAINAK RAY
+Author-email: mainakr748@gmail.com
+License: MIT
+Description: this module is used to find out best parameters of desision tree.
+        ![image info](https://github.com/mainak-cmd/All-Ml/blob/main/flow_chart.drawio.png)
+        
+        Change Log
+        ==========
+        
+        0.1(11/14/2021)
+        -------------------
+        - 1st Release
+        
+Keywords: decision
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
