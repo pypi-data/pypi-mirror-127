@@ -1,0 +1,3 @@
+[console_scripts]
+train_folder=alignn.script.train_folderpretrained = alignn.pretrained
+
