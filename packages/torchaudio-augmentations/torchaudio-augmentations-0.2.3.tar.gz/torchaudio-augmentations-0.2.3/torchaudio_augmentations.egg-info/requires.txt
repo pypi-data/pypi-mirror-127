@@ -1,0 +1,13 @@
+numpy
+torch
+torchaudio
+julius
+wavaugment
+torch-pitch-shift
+
+[fancy feature]
+
+[test]
+pytest
+black
+librosa
