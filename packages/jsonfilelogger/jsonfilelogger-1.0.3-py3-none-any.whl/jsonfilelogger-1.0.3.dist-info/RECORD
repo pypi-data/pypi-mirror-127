@@ -1,0 +1,10 @@
+jsonfilelogger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonfilelogger/custom_encoder.py,sha256=SkY3-w2XEhlszS7IYXpB_mPLlcgfb7C8rTOL0adtjgk,253
+jsonfilelogger/logger.py,sha256=o8gV5bqduhoDNU-E_9p6SsSUqynQ60U1RvuyzeEu5l8,4255
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_logger.py,sha256=_rKLytPJkQvCJHcoygB1Y2XQsXdYcmSAKraRZUbLTZw,3682
+jsonfilelogger-1.0.3.dist-info/LICENSE,sha256=bMz7tGSbaj_XWjqw8P5RYB3eUJMXVUVseDHY1qUDmjo,1068
+jsonfilelogger-1.0.3.dist-info/METADATA,sha256=nk9N4PBCCuJLUcoLkJqvXyQLUPWOdqYxYE7BywCdfkI,3913
+jsonfilelogger-1.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jsonfilelogger-1.0.3.dist-info/top_level.txt,sha256=SJu848zPQ4qPIRt2o2o-a3m3vlP938Jx8HU0e6ysycA,21
+jsonfilelogger-1.0.3.dist-info/RECORD,,
