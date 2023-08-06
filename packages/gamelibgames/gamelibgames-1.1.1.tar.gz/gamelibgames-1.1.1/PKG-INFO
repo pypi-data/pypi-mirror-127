@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: gamelibgames
+Version: 1.1.1
+Summary: A collection of minigames made with Gamelib.
+Home-page: https://github.com/NLGS2907/gamelib_games
+Author: NLGS
+Author-email: flighterman@fi.uba.ar
+License: MIT
+Download-URL: https://github.com/NLGS2907/gamelib_games/archive/refs/tags/v1.1.1.tar.gz
+Description: UNKNOWN
+Keywords: GAMELIB,MINIGAMES
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
