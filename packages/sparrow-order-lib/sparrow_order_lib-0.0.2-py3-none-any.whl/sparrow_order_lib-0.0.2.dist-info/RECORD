@@ -1,0 +1,9 @@
+sparrow_order_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparrow_order_lib/example.py,sha256=X8MPB275LbdlIVf8Mawtah11TDi5cPI8aDrkduPD7y8,42
+sparrow_order_lib/db_tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparrow_order_lib/db_tool/query.py,sha256=Ve0VU7Pe6HcxQc25wXFjsSGsaPssoliVihhgbTH65yw,842
+sparrow_order_lib-0.0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+sparrow_order_lib-0.0.2.dist-info/METADATA,sha256=afaJcGy_ta-v7TE3k95f23kQxmrn6YAK8W1fzJWKgz4,744
+sparrow_order_lib-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sparrow_order_lib-0.0.2.dist-info/top_level.txt,sha256=1PNUpxkVRnDPMhiHCnDYE5qiZYz787MWolTSrzHePKU,18
+sparrow_order_lib-0.0.2.dist-info/RECORD,,
