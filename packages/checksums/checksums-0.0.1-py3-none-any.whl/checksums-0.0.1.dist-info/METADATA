@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: checksums
+Version: 0.0.1
+Summary: A command line tool that show/verify checksums for a file.
+Home-page: https://github.com/meowmeowmeowcat/checksums
+Author: meowmeowcat
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# checksums
+
+A command line tool that show/verify checksums for a file. Works on Windows, macOS and Linux.
+
+## Installation
+
+```
+pip install checksums
+```
+
+## Usages
+
+- Show checksums of a file:
+
+```
+$ checksums ./file.txt
+```
+
+- Verify the MD5 checksum of a file:
+
+```
+$ checksums check-md5 [MD5-checksum here] ./file.txt
+```
+
+- Verify the SHA-1 checksum of a file:
+
+```
+$ checksums check-sha1 [SHA-1-checksum here] ./file.txt
+```
+
+- Verify the SHA-256 checksum of a file:
+
+```
+$ checksums check-sha256 [SHA-256-checksum here] ./file.txt
+```
+
+- Verify the SHA-512 checksum of a file:
+
+```
+$ checksums check-sha512 [SHA-512-checksum here] ./file.txt
+```
+
+
+

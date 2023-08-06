@@ -1,0 +1,8 @@
+checksums/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+checksums/calculate.py,sha256=g2xukCa8PSdyEtkGlgqlQk52pDw9JesjTAqxHaL8lcM,429
+checksums/cli.py,sha256=PEIuBjiHyiTZr4GGam5773w36ymZDtVHxP_WYBJ13eY,2861
+checksums-0.0.1.dist-info/METADATA,sha256=u5WoN5P3jhd-xd_0FMGNrdsPE3v3DX5eZbb8q4Ru6ag,1135
+checksums-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+checksums-0.0.1.dist-info/entry_points.txt,sha256=iG0XXNC97ZYXjUqWdhkHbnph7mgL5vYZRR9_ZLWvZHo,71
+checksums-0.0.1.dist-info/top_level.txt,sha256=eD6rDdU8eOEZO_P-Jm5RwI6BEfm7RKxC6M4OajN4kDw,10
+checksums-0.0.1.dist-info/RECORD,,

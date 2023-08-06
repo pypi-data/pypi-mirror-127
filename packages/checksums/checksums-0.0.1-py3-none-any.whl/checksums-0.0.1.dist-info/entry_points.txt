@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        checksums=checksums.cli:cli
+        
