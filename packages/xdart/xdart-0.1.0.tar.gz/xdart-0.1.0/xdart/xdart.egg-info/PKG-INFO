@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: xdart
+Version: 0.1.0
+Summary: A pyFAI based GUI utility to rebin and visualize X-ray Diffraction data
+Home-page: https://github.com/rwalroth/xdart.git
+Author: Vivek Thampy
+Author-email: vthampy@slac.stanford.edu
+License: UNKNOWN
+Keywords: xrd,diffracion,pyFAI
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# xdart
+X-ray Data Analysis in Real Time
+
+# Installation
+It is recommended to use conda. Run "conda env create -f xdart_env.yml", followed by "conda activate xdart_env". The program can then be run by calling xdart_main.py.
+
+

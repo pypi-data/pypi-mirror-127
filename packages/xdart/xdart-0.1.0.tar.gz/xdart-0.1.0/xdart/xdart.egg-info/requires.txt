@@ -1,0 +1,15 @@
+pyfai
+pygix
+pyqtgraph
+pyqt5
+pandas
+scikit-image
+lmfit
+pyyaml
+numpy
+scipy
+silx
+fabio
+matplotlib
+requests
+h5py
