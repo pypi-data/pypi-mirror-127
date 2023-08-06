@@ -1,0 +1,8 @@
+servicenowpy/__init__.py,sha256=jsMHSTBIAq1HVKo0J85OyUJ6INzEZOOtHCvY7kch7Vw,751
+servicenowpy/exceptions.py,sha256=dEJyoCbRYK9y8iglbnVYUie2PZitDPOcptbgSu5bkKo,381
+servicenowpy/servicenow.py,sha256=TZOEWFAIAZVv_BBSw4JEBzgbnj3gahDuZmmOZfAo-RU,9505
+servicenowpy-0.1.0.dist-info/LICENSE,sha256=es3go9LMmsC6XbgO5I10e_NKReTwriByaL7Xh6AkXWQ,1054
+servicenowpy-0.1.0.dist-info/METADATA,sha256=eyN1D0U3BgEzEbIxcyQSgfNO-y_YaNPg5JNzRO9LI-Y,2115
+servicenowpy-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+servicenowpy-0.1.0.dist-info/top_level.txt,sha256=f4BCrMD4HhGjQVLJWCEgvAYQGIwSQt5q5MM2sw7InGI,13
+servicenowpy-0.1.0.dist-info/RECORD,,
