@@ -1,0 +1,4 @@
+pynacl>=1.4
+tqdm>=4.62
+msgpack>=1.0
+zxcvbn>=4.4
