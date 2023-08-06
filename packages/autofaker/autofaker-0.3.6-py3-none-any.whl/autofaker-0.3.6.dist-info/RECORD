@@ -1,0 +1,17 @@
+autofaker/__init__.py,sha256=ravw1xGxFaMnxu1uLqkj0VlygeLiNJ6B5umZb77oJ_k,215
+autofaker/alias.py,sha256=zS64Ag3t1W2OwrC0YOFZsNy_HlqucuEkx6cCGe-n4l4,467
+autofaker/attributes.py,sha256=U4v1H_vbl3iOJt-HCEMHdB448XNfP6RlVxNG6x0ONxY,543
+autofaker/autodata.py,sha256=Eg1Nu9r2NHp71zChKJ5p5-U8YNCM9l-fTF7mwgBFfUs,2867
+autofaker/base.py,sha256=8Knx1IyxFv2D-4KcPkmBanh_SIeXN8ABsWr3E74-jlE,119
+autofaker/builtins.py,sha256=iQnAtYB_ZYgOCmnSNOTMR0rZUxMpg0Y3W2TsYPVmmNY,804
+autofaker/dataframe.py,sha256=VOjwuP21d1ScRRL8egNt8tPbWNtVrNfcFD48m5a6a0g,1851
+autofaker/dates.py,sha256=frXXkrvy5glRcES1KXRmRzTCj4tX27FzaxU8dItTojc,1006
+autofaker/decorators.py,sha256=Mf3A1PUXQYHC_wvVfZrsnEGs0_fPKo0xWczWSDDu94g,5346
+autofaker/fakes.py,sha256=kDbbjp1VDPlsT0WY9X-zNU95AAqjSBE4xLTy9OOIWC0,766
+autofaker/generator.py,sha256=hHyE32FniqjLwQuRTSKEjD7Kn75O2azfREbPPTK8o-o,5277
+autofaker-0.3.6.dist-info/LICENSE,sha256=VgjJWulX6gjHBQFRGG-MGGKYdqXQzIUtr3_n-sfzjzM,1078
+autofaker-0.3.6.dist-info/METADATA,sha256=hcT2loLClZLY9w7CBQo08QRqqtgDnVp0rThRdzQh_aI,11783
+autofaker-0.3.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+autofaker-0.3.6.dist-info/entry_points.txt,sha256=jPs9Cnh_xffEw8yWEq5Wc8d_3vpw9hle130iK55WqJQ,53
+autofaker-0.3.6.dist-info/top_level.txt,sha256=Dmf6IaSyDmTyyo9xk0CjdVehP0ZqoHi6B5rB5k6uI00,10
+autofaker-0.3.6.dist-info/RECORD,,
