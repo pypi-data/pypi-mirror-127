@@ -1,0 +1,4 @@
+lto>=0.0.16
+argparse
+configparser
+pathlib
