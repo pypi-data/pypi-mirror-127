@@ -1,0 +1,6 @@
+acryl-datahub[airflow]
+apache-airflow-providers-google
+packaging
+pip
+
+[dev]
