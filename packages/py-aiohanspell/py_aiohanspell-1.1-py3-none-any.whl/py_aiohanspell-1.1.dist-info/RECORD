@@ -1,0 +1,9 @@
+aiohanspell/__init__.py,sha256=tw0LYdHs-n56hTnwNcQ9D8gMlYPqN92Vz1GiVo9wBL0,19
+aiohanspell/constants.py,sha256=zhUFbS18hVN83mI1FiEEgKSAbzKauxRyR9BqgvtrWyE,217
+aiohanspell/response.py,sha256=AqKZzBfptsVFe4QNc4wnRqPnSF0VgO5VT9SCOfditBg,818
+aiohanspell/spell_checker.py,sha256=nR6rUHzZIjvL7fosHC9-ahPxIeOEjpmM1GWuuFznnwQ,3756
+py_aiohanspell-1.1.dist-info/LICENSE,sha256=bpzBnY8gK9cpyFWwCYGL8IpRR6Opd51mkDIPwvKzbxw,1094
+py_aiohanspell-1.1.dist-info/METADATA,sha256=IhWFdpxDCTzArlKfhu5ge47BH5EtMDy9qB-696dDGrQ,6700
+py_aiohanspell-1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py_aiohanspell-1.1.dist-info/top_level.txt,sha256=djb6OQRCSem1Ay2aCM-xQTQfW6E-tYkCHJ4-Uhyxb4Y,12
+py_aiohanspell-1.1.dist-info/RECORD,,
