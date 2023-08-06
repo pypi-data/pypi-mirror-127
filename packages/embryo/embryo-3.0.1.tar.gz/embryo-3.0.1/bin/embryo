@@ -1,0 +1,192 @@
+#!/usr/bin/env python3
+# encoding=utf8
+# vim: set filetype=python
+
+from appyratus.cli import CliProgram, Subparser, PositionalArg, OptionalArg, FlagArg, Parser
+from appyratus.files import Yaml, Json
+from appyratus.utils.dict_utils import DictUtils
+from appyratus.utils.time_utils import TimeUtils
+from appyratus.schema import fields
+
+from embryo import Incubator
+from embryo.utils import say, shout
+from embryo.history import History
+
+
+def main():
+    prog = EmbryoProgram(
+        name="embryo",
+        version="2.0.2",
+        tagline="generate this",
+    )
+    prog.run()
+
+
+class EmbryoProgram(CliProgram):
+    """
+    My very own Embryo Program
+    """
+
+    def subparsers(self):
+        return [
+            HatchSubparser(
+                name='hatch',
+                usage='Hatch a new embryo',
+                args=[
+                    PositionalArg(
+                        name='embryo',
+                        dtype=str,
+                        usage="Name of the embryo to hatch.",
+                    ),
+                    OptionalArg(
+                        name='destination',
+                        dtype=str,
+                        default='.',
+                        usage="Destination directory.",
+                    ),
+                    OptionalArg(
+                        name='context',
+                        usage="Path to a json/yaml context file or an inline JSON object.",
+                    )
+                ]
+            ),
+            HistorySubparser(name='history', usage='View the history of an embryo')
+        ]
+
+
+class HatchSubparser(Subparser):
+
+    @staticmethod
+    def perform(program):
+        cli_args = program.cli_args
+        HatchSubparser.dothis(program, cli_args)
+
+    @staticmethod
+    def dothis(program, cli_args):
+        """
+        The hatch program does the following:
+        - build args context from provided cli args
+        - load up the incubator with embryo details and args context
+        - using embryo schema, create Args for each field
+        - create and run the cli program
+        - take the new programs args and update the embryo context 
+        - run incubator hatch
+        """
+
+        cli_args_context = HatchSubparser.load_context(cli_args)
+        _incubator = Incubator(
+            embryo_name=cli_args.embryo,
+            destination=cli_args.destination,
+            context=cli_args_context,
+        )
+
+        # XXX this is a hacky approach at getting the hatched embryo's context
+        # schema as args into embryo.  the reason it is hacky is because the
+        # program args have already been built and processed at this point, so
+        # they must go through this process again.
+        embryo = _incubator.embryo
+        context_fields = embryo.schema.fields
+        nargs = []
+        for field_name, field in context_fields.items():
+            if field_name not in cli_args_context:
+                continue
+            arg_params = {'name': field.name, 'short_flag': False}
+            if isinstance(field, fields.List):
+                arg_params['action'] = 'append'
+                # XXX where in the field can we store choices to populate this?
+                arg_params['choices'] = None
+            arg = OptionalArg(**arg_params)
+            arg.build(program)
+            nargs.append(arg)
+
+        nprogram = CliProgram(args=nargs, cli_args=program._raw_cli_args)
+        nprogram.run()
+
+        # take the new programs args and update the embryo context 
+        embryo.context.update({
+            k: v for k, v in
+            HatchSubparser.load_context(nprogram.cli_args).items()
+            if k in embryo.schema.fields
+        })
+
+        return _incubator.hatch()
+
+    @staticmethod
+    def load_context_arg(cli_args_context):
+        """
+        This loads the --context arg into a dict and returns it.
+        """
+
+        def has_ext(filename, extensions):
+            return any(filename.lower().endswith('.' + ext.lower()) for ext in extensions)
+
+        context = {}
+
+        if cli_args_context:
+            context_str = cli_args_context
+            if has_ext(context_str, ['json']):
+                context = Json.read(context_filepath)
+            elif has_ext(context_str, ['yml', 'yaml']):
+                context = Yaml.read(context_filepath)
+            else:
+                # assume it's a JSON object string
+                context = Json.load(context_str)
+
+        return context
+
+    @staticmethod
+    def parse_cli_args(cli_args, skip_keys=None):
+        if not skip_keys:
+            skip_keys = []
+        data = {
+            k: getattr(cli_args, k)
+            for k in dir(cli_args) if not ((k in skip_keys) or k.startswith('_'))
+        }
+        return data
+
+    @staticmethod
+    def load_context(cli_args):
+        """
+        Here, we convert the commandline arguments into a dict and merge it
+        together with the dict loaded from the --context argument. The return
+        value of this function is the context object passed into the loader.
+        """
+        non_context_arg_names = {'context', 'destination', 'embryo'}
+        data_from_cli_kwargs = HatchSubparser.parse_cli_args(
+            cli_args, non_context_arg_names
+        )
+        if hasattr(cli_args, 'context'):
+            data_from_context_arg = HatchSubparser.load_context_arg(cli_args.context)
+        else:
+            data_from_context_arg = {}
+
+        context = {}
+        context.update(data_from_cli_kwargs)
+        context.update(data_from_context_arg)
+        context = DictUtils.unflatten_keys(context)
+
+        return context
+
+
+class HistorySubparser(Subparser):
+    """
+    # History Subparser
+    See embryo.history for related functionality
+    """
+
+    @staticmethod
+    def perform(program):
+        embryo_commands = History.read_context('')
+        for timestamp, command in embryo_commands:
+            if timestamp is not None:
+                say(f'{timestamp} {command}')
+            else:
+                say(command)
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as error:
+        shout(error)
+        raise error
