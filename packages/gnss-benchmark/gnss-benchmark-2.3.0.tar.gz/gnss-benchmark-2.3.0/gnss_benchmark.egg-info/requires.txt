@@ -1,0 +1,11 @@
+docopt
+jason_gnss>=1.10.0
+jinja2
+matplotlib
+numpy
+pandoc
+pyproj
+pytest
+requests
+roktools
+pytest
