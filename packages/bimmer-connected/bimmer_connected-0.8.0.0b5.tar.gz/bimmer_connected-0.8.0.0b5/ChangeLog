@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.8.0b5
+-------
+
+* Move parse\_datetime to utils, don't fail on error
