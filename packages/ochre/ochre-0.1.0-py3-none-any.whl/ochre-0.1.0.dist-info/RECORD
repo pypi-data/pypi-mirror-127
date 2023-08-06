@@ -1,0 +1,9 @@
+ochre/__init__.py,sha256=BRPwi6BWf1cs-211vWEKRbfeu067he3laxQge0BPIbM,194
+ochre/ansi256.py,sha256=8mcSApC_PCK6WTTjv6zk7wwWzdJ2XdpFymS20BWxnSo,3977
+ochre/colorsys.py,sha256=dVYiVwTACAQA4vHt-JYWNM2XetKxcQmorZJ-d7cbwAI,6547
+ochre/spaces.py,sha256=8TCfu8E3-ChyyvanMTpX-Ubrv00R6fPbJCQ0FUOZDK0,6586
+ochre/web.py,sha256=MvAdeL1Gbjxb4aLNrOizxhejOqt843VPNzEdg1YFYVg,4430
+ochre-0.1.0.dist-info/LICENSE,sha256=FeIkrNMqfG8ISBZg6sqSRICYYv97G7H762iMO8CcH1E,1079
+ochre-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ochre-0.1.0.dist-info/METADATA,sha256=4lhIv1X8VGk8pe1nqsO1BAqyeEAKYfg3LOkP7pvzi9A,2099
+ochre-0.1.0.dist-info/RECORD,,
