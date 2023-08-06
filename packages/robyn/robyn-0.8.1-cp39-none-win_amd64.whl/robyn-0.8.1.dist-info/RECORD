@@ -1,0 +1,12 @@
+robyn-0.8.1.dist-info/METADATA,sha256=LXnnboXWJVRjqA1KeD2NTL3PsHJcwXvJKIZ9hYWpkXo,2738
+robyn-0.8.1.dist-info/WHEEL,sha256=zc2GbnFtSgdYT0xjyR351HHmLLwRNWFfST0pbl6uDwc,95
+robyn/argument_parser.py,sha256=g1LILlBpfeUz9mLvam-qImV-xgDU476qw--Wdi_5JYU,907
+robyn/dev_event_handler.py,sha256=x_y2Vw7dxsjcKcGtA9u9I5FzcXt3ECN8bj3YMGwd7Ac,1171
+robyn/log_colors.py,sha256=MzYZYuqgkRgsaVluP8ZZjPfnRHa0Ktdv4kBmhDF01qI,236
+robyn/processpool.py,sha256=cf6ggDM6yoJzlFXhWLUHmBkDU3I_T_P9gJXapYE-kPs,2153
+robyn/responses.py,sha256=nTyjPB9Y4qhECNiKw0IkjPBmdOsBrrUGtRIyBi8a8TA,487
+robyn/test-requirements.txt,sha256=_rTHAl7Rlmt6DARtxaLRQb-xJnZHuj86qN0g0Lh59IE,93
+robyn/test_robyn.py,sha256=iWzHbm29CGrHNqPewQGK51wisWUC6PP97_HpGU0N3-M,235
+robyn/__init__.py,sha256=DUfA5652rOcDzmFIAzvFCldyFDy0f5YfykItI0FFHRY,6051
+robyn/robyn.cp39-win_amd64.pyd,sha256=tFhqCANFT4wTqJ6So4Ls1gqnBE4cnvsa3zIa4cgICWY,4836352
+robyn-0.8.1.dist-info/RECORD,,
