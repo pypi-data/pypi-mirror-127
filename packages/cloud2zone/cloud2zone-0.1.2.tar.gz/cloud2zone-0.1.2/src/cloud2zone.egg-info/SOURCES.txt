@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+src/cloud2zone/__init__.py
+src/cloud2zone/cli.py
+src/cloud2zone/utils.py
+src/cloud2zone.egg-info/PKG-INFO
+src/cloud2zone.egg-info/SOURCES.txt
+src/cloud2zone.egg-info/dependency_links.txt
+src/cloud2zone.egg-info/entry_points.txt
+src/cloud2zone.egg-info/requires.txt
+src/cloud2zone.egg-info/top_level.txt
