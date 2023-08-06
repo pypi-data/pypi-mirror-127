@@ -1,0 +1,12 @@
+cryptography>=35
+requests>=2
+beautifulsoup4>=4
+coloredlogs>=15
+func_timeout>=4
+
+[testing]
+pytest>=6.0
+pytest-cov>=2.0
+mypy>=0.910
+flake8>=3.9
+tox>=3.24
