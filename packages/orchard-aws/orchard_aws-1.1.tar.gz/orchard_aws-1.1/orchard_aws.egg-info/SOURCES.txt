@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+orchard_aws/__init__.py
+orchard_aws/redshift.py
+orchard_aws/s3.py
+orchard_aws/sql_generator.py
+orchard_aws/string_utils.py
+orchard_aws.egg-info/PKG-INFO
+orchard_aws.egg-info/SOURCES.txt
+orchard_aws.egg-info/dependency_links.txt
+orchard_aws.egg-info/requires.txt
+orchard_aws.egg-info/top_level.txt
+orchard_aws/config/__init__.py
+orchard_aws/config/pandas_redshift_datatypes.yaml
