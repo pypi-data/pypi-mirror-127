@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: oofd-kz-parser
+Version: 0.1.1
+Summary: Parse tickets from consumer.oofd.kz
+Home-page: https://github.com/skroll182/oofd-kz-parser
+Author: Kirill Olar
+Author-email: kirill.olar26@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.4.0,<9.0.0)
+Requires-Dist: beautifulsoup4 (>=4.10.0,<5.0.0)
+Requires-Dist: html5lib (>=1.1,<2.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: pyzbar (>=0.1.8,<0.2.0)
+Requires-Dist: selenium (>=4.0.0,<5.0.0)
+Project-URL: Repository, https://github.com/skroll182/oofd-kz-parser
