@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: hxltm-eticaai
+Version: 0.8.9rc2
+Summary: HXLTM
+Home-page: https://github.com/EticaAI/hxltm
+Author: Emerson Rocha
+Author-email: rocha@ieee.org
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/EticaAI/hxltm/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# hxltm
+**[monorepo split not finished] See https://github.com/EticaAI/HXL-Data-Science-file-formats/issues/25**
+
+- <https://hxltm.etica.ai/>
+
+```bash
+pip install hxltm-eticaai
+```
+
+
+<!--
+
+> TODO:
+> - https://github.com/ymyzk/tox-gh-actions
+> - re-add UNLICENSE
+> - re-add dedicated tests with tox
+> - documentation with one of the following:
+>   - https://docs.antora.org/ / https://antora.org/
+>   - https://github.com/manoelcampos/asciidoctor-ghpages-action
+> - documentation that could be localized?
+>   - https://github.com/OpenRefine/OpenRefine/issues/2273#issuecomment-574415046
+
+- https://hxltm.etica.ai
+- https://eticaai.github.io/hxltm/
+
+-->
+
+
