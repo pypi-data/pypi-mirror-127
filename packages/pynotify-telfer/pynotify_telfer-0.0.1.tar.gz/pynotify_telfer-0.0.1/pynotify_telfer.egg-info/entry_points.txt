@@ -1,0 +1,3 @@
+[console_scripts]
+notify = pynotify.pynotify:cli
+
