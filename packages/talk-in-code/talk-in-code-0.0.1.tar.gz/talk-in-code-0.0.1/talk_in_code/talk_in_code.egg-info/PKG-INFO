@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: talk-in-code
+Version: 0.0.1
+Summary: Transform natural language strings on Python runnable code
+Home-page: UNKNOWN
+Author: Itanú Romero
+License: UNKNOWN
+Description: # talk-in-code
+        Transform natural language strings on Python runnable code
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
