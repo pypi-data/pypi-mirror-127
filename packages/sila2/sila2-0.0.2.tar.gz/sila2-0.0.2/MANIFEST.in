@@ -1,0 +1,5 @@
+include src/sila2/resources/xsl/*.xsl
+include src/sila2/resources/xsd/*.xsd
+include src/sila2/resources/proto/*.proto
+include src/sila2/resources/fdl/*.sila.xml
+include src/sila2/resources/code_generator_templates/feature/*.jinja2

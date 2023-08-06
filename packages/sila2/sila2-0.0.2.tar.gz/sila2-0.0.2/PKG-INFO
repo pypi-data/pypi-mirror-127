@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sila2
+Version: 0.0.2
+Summary: Python implementation of the SiLA 2 standard for lab automation
+Home-page: https://gitlab.com/sila2/sila_python
+Author: Niklas Mertsch
+Author-email: niklas.mertsch@stud.uni-goettingen.de
+License: UNKNOWN
+Project-URL: Source, https://gitlab.com/sila2/sila_python
+Project-URL: Bug Reports, https://gitlab.com/sila2/sila_python/-/issues
+Project-URL: SiLA Standard, https://sila-standard.org
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Provides-Extra: tests
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
