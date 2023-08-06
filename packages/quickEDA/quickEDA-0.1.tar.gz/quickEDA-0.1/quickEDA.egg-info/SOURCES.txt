@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+quickEDA/__init__.py
+quickEDA/__main__.py
+quickEDA/dataframe.py
+quickEDA.egg-info/PKG-INFO
+quickEDA.egg-info/SOURCES.txt
+quickEDA.egg-info/dependency_links.txt
+quickEDA.egg-info/entry_points.txt
+quickEDA.egg-info/not-zip-safe
+quickEDA.egg-info/top_level.txt
