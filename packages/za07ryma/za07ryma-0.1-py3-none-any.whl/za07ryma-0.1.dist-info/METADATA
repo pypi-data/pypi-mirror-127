@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: za07ryma
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: DSSS
+Author-email: ahmed.sofan.fau@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: ipywidgets
+
+UNKNOWN
+
+
