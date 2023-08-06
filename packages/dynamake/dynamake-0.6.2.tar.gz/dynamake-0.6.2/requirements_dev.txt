@@ -1,0 +1,14 @@
+black
+bumpversion
+flake8
+isort
+mypy
+pylint
+pylint-strict-informational
+pytest
+pytest-cov
+sphinx
+sphinx_rtd_theme
+testfixtures
+twine
+tox

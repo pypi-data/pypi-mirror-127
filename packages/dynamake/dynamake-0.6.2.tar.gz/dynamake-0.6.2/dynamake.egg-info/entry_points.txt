@@ -1,0 +1,3 @@
+[console_scripts]
+dynamake = dynamake.__main__:main
+
