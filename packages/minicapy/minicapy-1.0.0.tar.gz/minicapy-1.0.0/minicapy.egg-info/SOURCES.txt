@@ -1,0 +1,9 @@
+MANIFEST.in
+Makefile
+README.md
+setup.py
+minicapy/minica.py
+minicapy.egg-info/PKG-INFO
+minicapy.egg-info/SOURCES.txt
+minicapy.egg-info/dependency_links.txt
+minicapy.egg-info/top_level.txt
