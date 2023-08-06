@@ -1,0 +1,3 @@
+[console_scripts]
+typey = typey.typey:main
+
