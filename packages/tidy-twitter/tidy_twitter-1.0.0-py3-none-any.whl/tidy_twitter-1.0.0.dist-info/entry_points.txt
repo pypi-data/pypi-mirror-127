@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        tidy-twitter=api.cli:cli
+    
