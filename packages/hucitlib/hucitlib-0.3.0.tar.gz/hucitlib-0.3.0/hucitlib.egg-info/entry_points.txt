@@ -1,0 +1,3 @@
+[console_scripts]
+hucit = hucitlib.cli:main
+

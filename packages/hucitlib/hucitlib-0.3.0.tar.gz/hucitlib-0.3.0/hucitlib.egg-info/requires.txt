@@ -1,0 +1,7 @@
+pyCTS
+docopt
+tqdm
+retrying
+rdflib>=4.2.1
+MyCapytain
+surf@ git+https://github.com/franzlst/surfrdf@master#egg=surf
