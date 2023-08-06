@@ -1,0 +1,57 @@
+#lang ivy
+
+module unsigned_bit_vector(bits) = {
+    type this
+    global {
+        interpret this -> bv[bits]
+    }
+    action random returns (res:this)
+    implementation {
+        implement random {
+            <<<
+            res = 0;
+            for (int b = `bits`; b > 0; b -= 15) {
+                int q = ( b < 15 ) ? b : 15;
+                res = (res << q) | (::random() & ~(-1 << q));
+            }
+            >>>
+        }
+    }
+}
+    
+autoinstance uint[bits] : unsigned_bit_vector(bits)
+
+global {
+    object nat = {
+        type this
+        interpret nat -> nat
+
+        function mod(X:this,Y:this) = X - X / Y * Y
+        function next(X:this) = X + 1
+        function max2(X:this,Y:this) = X if X >= Y else Y
+        action random (upper:this) returns (res:this)  # not perfectly uniform!
+        implementation {
+            implement random {
+                <<<
+                res = 0;
+                for (int b = 64; b > 0; b -= 15) {
+                    int q = ( b < 15 ) ? b : 15;
+                    res = (res << q) | (::random() & ~(-1 << q));
+                }
+                res = res % upper;
+                >>>
+            }
+        }
+
+        class range_t = {
+            field begin : nat
+            field end : nat
+            function value(r:this,n:nat) = n
+        }
+
+        action range(begin:nat,end:nat) returns(it:range_t) = {
+            it.begin := begin;
+            it.end := end;
+        }
+    }
+}
