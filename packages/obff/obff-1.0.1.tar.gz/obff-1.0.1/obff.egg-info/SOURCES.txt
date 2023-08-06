@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+obff/__init__.py
+obff/__vars__.py
+obff/obff.py
+obff/utils.py
+obff.egg-info/PKG-INFO
+obff.egg-info/SOURCES.txt
+obff.egg-info/dependency_links.txt
+obff.egg-info/entry_points.txt
+obff.egg-info/top_level.txt
