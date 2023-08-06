@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: cleanrl
+Version: 0.5.0
+Summary: High-quality single file implementation of Deep Reinforcement Learning algorithms with research-friendly features
+Author: Costa Huang
+Author-email: costa.huang@outlook.com
+Requires-Python: >=3.7.1,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: atari
+Provides-Extra: cloud
+Provides-Extra: docs
+Provides-Extra: mujoco
+Provides-Extra: pettingzoo
+Provides-Extra: plot
+Provides-Extra: procgen
+Provides-Extra: pybullet
+Provides-Extra: pytest
+Provides-Extra: spyder
+Requires-Dist: AutoROM[accept-rom-license] (>=0.4.2,<0.5.0); extra == "atari"
+Requires-Dist: ale-py (>=0.7,<0.8); extra == "atari"
+Requires-Dist: awscli (>=1.20.57,<2.0.0); extra == "cloud"
+Requires-Dist: boto3 (>=1.18.57,<2.0.0); extra == "cloud"
+Requires-Dist: free-mujoco-py (>=2.1.6,<3.0.0); extra == "mujoco"
+Requires-Dist: gym (>=0.21.0,<0.22.0)
+Requires-Dist: mkdocs-material (>=7.3.4,<8.0.0); extra == "docs"
+Requires-Dist: opencv-python (>=4.5.3,<5.0.0)
+Requires-Dist: pandas (>=1.3.3,<2.0.0); extra == "plot"
+Requires-Dist: pettingzoo (>=1.11.2,<2.0.0); extra == "pettingzoo"
+Requires-Dist: procgen (>=0.10.4,<0.11.0); extra == "procgen"
+Requires-Dist: pybullet (>=3.1.8,<4.0.0); extra == "pybullet"
+Requires-Dist: pygame (>=2.0.1,<3.0.0); extra == "pettingzoo"
+Requires-Dist: pyglet (>=1.5.19,<2.0.0)
+Requires-Dist: pymunk (>=6.2.0,<7.0.0); extra == "pettingzoo"
+Requires-Dist: pytest (>=6.2.5,<7.0.0); extra == "pytest"
+Requires-Dist: seaborn (>=0.11.2,<0.12.0); extra == "plot"
+Requires-Dist: spyder (>=5.1.5,<6.0.0); extra == "spyder"
+Requires-Dist: stable-baselines3 (>=1.1.0,<2.0.0); extra == "atari" or extra == "procgen" or extra == "pettingzoo"
+Requires-Dist: tensorboard (>=2.5.0,<3.0.0)
+Requires-Dist: torch (>=1.7.1,<2.0.0)
+Requires-Dist: wandb (>=0.12.1,<0.13.0)
