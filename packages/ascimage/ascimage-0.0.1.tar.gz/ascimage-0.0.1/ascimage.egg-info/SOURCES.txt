@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ascimage/__init__.py
+ascimage.egg-info/PKG-INFO
+ascimage.egg-info/SOURCES.txt
+ascimage.egg-info/dependency_links.txt
+ascimage.egg-info/entry_points.txt
+ascimage.egg-info/requires.txt
+ascimage.egg-info/top_level.txt
