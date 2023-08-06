@@ -1,0 +1,3 @@
+[console_scripts]
+addr = gui.gui:gui_main
+

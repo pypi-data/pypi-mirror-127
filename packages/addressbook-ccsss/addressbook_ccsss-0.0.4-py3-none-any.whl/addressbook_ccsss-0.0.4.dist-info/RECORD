@@ -1,0 +1,9 @@
+addressbook/AddressBook.py,sha256=aBQOb-Nph9IqArPh38Bdu09qyY_FQvwdu3_46R55ce0,3947
+addressbook/__init__.py,sha256=MQUvczL-oLr9jYGgxRxCFkzDx3wevcjcDtHG9hVCyuU,53
+gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gui/gui.py,sha256=fa6m5EtkmwDx7fSujtf7-p7eFNIxeJXozZEI7nZ6nWo,5341
+addressbook_ccsss-0.0.4.dist-info/METADATA,sha256=v86bdcxJ7202s96tIXw4rKZWrRBierZ-L9xVXVx7TmE,576
+addressbook_ccsss-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+addressbook_ccsss-0.0.4.dist-info/entry_points.txt,sha256=pwI3jUx7SxQpUp6CC66_MfA2wSqbKUwkBA9E4_i-uVw,43
+addressbook_ccsss-0.0.4.dist-info/top_level.txt,sha256=ccTds98gZeU68jV_i8fQF673_kxbbOkfYHqSfDihsbk,16
+addressbook_ccsss-0.0.4.dist-info/RECORD,,

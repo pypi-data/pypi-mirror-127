@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: addressbook-ccsss
+Version: 0.0.4
+Summary: Education material "address book program"
+Home-page: UNKNOWN
+Author: Chansol Han
+Author-email: chansol0505@naver.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: faker
+Requires-Dist: tabulate[widechars]
+Requires-Dist: tablib[xlsx]
+
+# 주소록 프로그램
+
+주소록 프로그램입니다.
+
