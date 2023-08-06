@@ -1,0 +1,3 @@
+[console_scripts]
+pychotic = pychotic.pychotic:main
+

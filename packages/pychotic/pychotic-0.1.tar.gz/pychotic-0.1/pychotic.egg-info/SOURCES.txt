@@ -1,0 +1,8 @@
+setup.py
+pychotic/__init__.py
+pychotic/pychotic.py
+pychotic.egg-info/PKG-INFO
+pychotic.egg-info/SOURCES.txt
+pychotic.egg-info/dependency_links.txt
+pychotic.egg-info/entry_points.txt
+pychotic.egg-info/top_level.txt
