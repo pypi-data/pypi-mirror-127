@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: sentry-quart
+Version: 0.1.0
+Summary: Sentry middleware for quart
+Home-page: https://github.com/ponytailer/sentry-quart.git
+License: MIT
+Author: hs
+Author-email: huangxiaohen2738@gmail.com
+Requires-Python: >=3.7
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: sentry-sdk (>=1.3.0,<2.0.0)
+Project-URL: Repository, https://github.com/ponytailer/sentry-quart.git
+Description-Content-Type: text/markdown
+
+# sentry-quart
+The sentry middleware for quart
+
+Sentry-asgi can't not collect the information like Flask
+
+## How to install
+
+```
+pip install sentry-quart
+
+```
+
+## How to use
+
+```
+from quart import Quart
+from sentry_quart import QuartMiddleware
+
+app = Quart(__name__)
+host = "https://xxxx.com/v1"
+app.asgi_app = QuartMiddleware(app, host)._run_asgi3
+sentry_sdk.init(traces_sample_rate=1)
+```
+
