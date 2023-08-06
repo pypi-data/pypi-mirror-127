@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: vhash
+Version: 0.0.16
+Summary: hash tables for vectorizing text-based documents
+Home-page: UNKNOWN
+Author: Mike Powell PhD
+Author-email: mike@lakeslegendaries.com
+License: MIT License
+        
+        Copyright (c) 2021 Lake's Legendaries LLC
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+##############################
+VHash: Vectorizing Hash Tables
+##############################
+
+If you have documents with class labels, and you want to create numeric
+representations of those documents that maximize inter-class differences, then
+this package is for you. This package provides vectorizing hash tables that
+quickly transform your text, optimizing for the maximum distance between
+document-class vectors.
+
+This project has a C++ backend with a python interface, allowing for maximum
+speed and maximum interopability.
+
+To get started, check out the `docs <https://lakes-legendaries.github.io/vhash/>`_!
+
+If you will be contributing to this repo, checkout the
+`developer guide <https://lakes-legendaries.github.io/vhash/dev.html>`_.
+
+
