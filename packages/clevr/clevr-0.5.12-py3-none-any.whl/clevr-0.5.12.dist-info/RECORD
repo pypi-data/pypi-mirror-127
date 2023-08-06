@@ -1,0 +1,9 @@
+api_resources/__init__.py,sha256=bIU3s4RUgZ7hXV7zeV2fXls85xXQiWERa_Ouq_sVNh0,189
+api_resources/athena.py,sha256=uuHMfb4_tB0PsoPyl4rKI_9WRl2nXcKM0UqBGACAYNc,1786
+api_resources/layers.py,sha256=YQ-t-246ptTOEghx4lO5Z7cHX6u-X-xMjtlm36wKB6Y,4164
+api_resources/persona.py,sha256=vEvSDidb3rW5k0FZPavOaRX9B3p4-8boz6uZj_HqLMI,1688
+api_resources/platform.py,sha256=TXqLffqJmYPFidam24XaduLoqjm8ZY8IHAyRybebgrI,1408
+clevr-0.5.12.dist-info/METADATA,sha256=0PFNtFlr5k140PypqzZWbzrN1L5gVKRcrlG1eVu4bo4,285
+clevr-0.5.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+clevr-0.5.12.dist-info/top_level.txt,sha256=ge-OmNZN_X9DFPRwpY4fULyZhBNJ_qrB5iMHdNzJN-s,14
+clevr-0.5.12.dist-info/RECORD,,
