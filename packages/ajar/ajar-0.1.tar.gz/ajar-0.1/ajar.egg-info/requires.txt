@@ -1,0 +1,17 @@
+appdirs
+chess
+requests
+sqlalchemy
+
+[dev]
+coverage
+ipython
+pyOpenSSL
+pytest
+pytest-cov
+pytest-xdist
+python-coveralls
+sphinx-autodoc-typehints
+sphinx_rtd_theme
+sphinxcontrib-napoleon
+twine
