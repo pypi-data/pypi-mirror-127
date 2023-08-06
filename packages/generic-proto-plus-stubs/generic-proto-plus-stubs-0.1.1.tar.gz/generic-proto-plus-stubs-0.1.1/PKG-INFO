@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: generic-proto-plus-stubs
+Version: 0.1.1
+Summary: Manually updated type stubs for proto-plus with some generics
+Home-page: https://github.com/saggitar/generic-proto-plus-stubs
+License: Apache-2.0
+Author: Maximilian Schmidt
+Author-email: landlaeufer@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Dist: proto-plus (>=1.18.0,<2.0.0)
+Requires-Dist: types-protobuf (>=3.17.4,<4.0.0)
+Project-URL: Repository, https://github.com/saggitar/generic-proto-plus-stubs
+Description-Content-Type: text/markdown
+
+# Manually updated type stubs for proto-plus
+[![PyPI version](https://badge.fury.io/py/generic-proto-plus-stubs.svg)](https://badge.fury.io/py/generic-proto-plus-stubs)
+
+This package provides type stubs for the [proto-plus](https://pypi.org/project/proto-plus/) package with 
+some use of generics. 
+
+**This is in no way affiliated with Google.**
+
+**This is basically just a fork of [henribru/proto-plus-stubs](https://github.com/henribru/proto-plus-stubs)
+with some manually added code to make use of pythons generics**
+
+The stubs were created automatically by [stubgen](https://mypy.readthedocs.io/en/stable/stubgen.html).
+## Installation
+```shell script
+$ pip install generic-proto-plus-stubs
+```
+

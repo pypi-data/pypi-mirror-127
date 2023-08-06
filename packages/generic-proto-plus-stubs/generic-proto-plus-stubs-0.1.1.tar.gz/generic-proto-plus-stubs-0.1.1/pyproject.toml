@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "generic-proto-plus-stubs"
+version = "0.1.1"
+license = "Apache-2.0"
+description = "Manually updated type stubs for proto-plus with some generics"
+authors = ["Maximilian Schmidt <landlaeufer@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/saggitar/generic-proto-plus-stubs"
+packages = [
+    { include = "generic-proto-stubs" },
+]
+classifiers = [
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+proto-plus = "^1.18.0"
+types-protobuf = "^3.17.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
