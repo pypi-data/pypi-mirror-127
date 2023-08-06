@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Sparkora/__init__.py
+Sparkora/main.py
+Sparkora/testsparkora.py
+Sparkora.egg-info/PKG-INFO
+Sparkora.egg-info/SOURCES.txt
+Sparkora.egg-info/dependency_links.txt
+Sparkora.egg-info/requires.txt
+Sparkora.egg-info/top_level.txt
