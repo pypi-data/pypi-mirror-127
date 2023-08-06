@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+CQHDimensionalPhenotyper/CQHDimensionalPhenotyper.py
+CQHDimensionalPhenotyper/__init__.py
+CQHDimensionalPhenotyper/words.py
+CQHDimensionalPhenotyper.egg-info/PKG-INFO
+CQHDimensionalPhenotyper.egg-info/SOURCES.txt
+CQHDimensionalPhenotyper.egg-info/dependency_links.txt
+CQHDimensionalPhenotyper.egg-info/requires.txt
+CQHDimensionalPhenotyper.egg-info/top_level.txt
+CQHDimensionalPhenotyper/data/AN02109ALZ_1of1.txt
