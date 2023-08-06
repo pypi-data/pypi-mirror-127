@@ -1,0 +1,6 @@
+meutils
+pysnooper
+redis-py-cluster
+pyarrow
+
+http://10.212.3.93:8000/easydata-0.2.1-py3-none-any.whl
