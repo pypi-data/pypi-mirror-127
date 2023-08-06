@@ -1,0 +1,9 @@
+mipack/__init__.py,sha256=keiffdy9eLA54gichPu_cPkNkvS2kBwId333u3i7vWk,42
+mipack/utils/__init__.py,sha256=Ce4FbeSXRuW44SGVbSUd0C2OAD0Fl4ZUe1K3xPPMnac,63
+mipack/utils/path_utils.py,sha256=3WgZaId7UabsrRD7d8hZ0LDKP6_14_G4YOu1Chxtw0Y,523
+tests/__init__.py,sha256=wrIoGmw3Ul_dDpkypzKe_oIJ6o8pSnv7KZzfscUfXpA,61
+mipack-0.0.6.dist-info/LICENSE,sha256=84l-rTT1R2pgscGECJjT1BOodYY5T3YpU5nGkp1FW4o,1063
+mipack-0.0.6.dist-info/METADATA,sha256=O5p1qXZQPyGXSp2cj5M4HiwR1L1bXV0xLHXN-QZxh5w,1727
+mipack-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mipack-0.0.6.dist-info/top_level.txt,sha256=7AURNvksIbS4Z0Nx3tVGr3VTOGauGcaXGFKrPuBCQJM,7
+mipack-0.0.6.dist-info/RECORD,,
