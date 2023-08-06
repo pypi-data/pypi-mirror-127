@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        spotify-album-cards=spotify_album_cards.cli:cli
+    

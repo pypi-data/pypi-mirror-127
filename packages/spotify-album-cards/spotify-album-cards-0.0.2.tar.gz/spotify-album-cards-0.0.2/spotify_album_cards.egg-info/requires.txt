@@ -1,0 +1,8 @@
+click
+spotipy
+python-dotenv
+Pillow
+requests
+
+[test]
+pytest

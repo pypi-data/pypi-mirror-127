@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+spotify_album_cards/__init__.py
+spotify_album_cards/cli.py
+spotify_album_cards.egg-info/PKG-INFO
+spotify_album_cards.egg-info/SOURCES.txt
+spotify_album_cards.egg-info/dependency_links.txt
+spotify_album_cards.egg-info/entry_points.txt
+spotify_album_cards.egg-info/requires.txt
+spotify_album_cards.egg-info/top_level.txt
