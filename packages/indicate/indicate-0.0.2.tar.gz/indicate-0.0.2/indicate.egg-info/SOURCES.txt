@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+indicate/__init__.py
+indicate/hindi_english.py
+indicate/transliterate.py
+indicate/utils.py
+indicate.egg-info/PKG-INFO
+indicate.egg-info/SOURCES.txt
+indicate.egg-info/dependency_links.txt
+indicate.egg-info/entry_points.txt
+indicate.egg-info/requires.txt
+indicate.egg-info/top_level.txt
