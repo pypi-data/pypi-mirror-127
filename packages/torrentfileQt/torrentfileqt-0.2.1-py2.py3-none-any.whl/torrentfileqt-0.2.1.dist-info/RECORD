@@ -1,0 +1,14 @@
+torrentfileQt/__init__.py,sha256=5MFGyRmYtAiqDVOEHNi35z6czZaVskMpKFnGlxXV2bM,1058
+torrentfileQt/checkTab.py,sha256=ANwlhtoGY8hu5qlcx4TNBEHPZD-xcNHpWEJWH8uTX6E,17209
+torrentfileQt/createTab.py,sha256=wbDuRaa_9t0AjF67ESf5h4x9F4YvSkY8b6yx5BFvCWw,16121
+torrentfileQt/infoTab.py,sha256=2RP89jPtGYM7uqDKlaK1gDsTr4kYh5YxZUi_1iBKoAM,13562
+torrentfileQt/menu.py,sha256=MaOfB4wz1wt_gEaZo3F6JAtcxOyUypQ-bl9ThOFWN9g,4243
+torrentfileQt/qss.py,sha256=lArQrzYzUc5WGh7xZVNXOyh_RXiOIr3X8WcntYCVjf0,13192
+torrentfileQt/version.py,sha256=CgisaY014iwNLLnVclf39LMTUms8oYjYUMfb8kE4DPY,784
+torrentfileQt/window.py,sha256=xVdoF8bHsP9tQD8iMPjGMQngwZuaT55ut4r_Bxz0b58,4275
+torrentfileqt-0.2.1.dist-info/LICENSE,sha256=4DukHX-rIHAHaf5BGLq1DYAMt0-ZA1OgXS9f_xwig2M,11558
+torrentfileqt-0.2.1.dist-info/METADATA,sha256=rFdorJyybYbXBMq3rUpgMUqXc862QI1D_UteUaV4vh0,1372
+torrentfileqt-0.2.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+torrentfileqt-0.2.1.dist-info/entry_points.txt,sha256=GmLh9v4pciBnD3MhY9V0moN8T7q2Pyc9u7Wx-2VSPGE,62
+torrentfileqt-0.2.1.dist-info/top_level.txt,sha256=nSUjbWj0nx6DghB8Zr9FbzCcc4utS-DWpgJcwNmT2pk,14
+torrentfileqt-0.2.1.dist-info/RECORD,,
