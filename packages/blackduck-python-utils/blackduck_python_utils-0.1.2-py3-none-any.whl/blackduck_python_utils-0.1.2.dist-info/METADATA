@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: blackduck-python-utils
+Version: 0.1.2
+Summary: Python wrapper for common patterns used with Black Duck.
+Home-page: https://github.com/synopsys-sig-community/BlackDuckUtils
+Author: James Croall
+Author-email: jcroall@synopsys.com
+License: Apache
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: blackduck
+Requires-Dist: networkx
+
+# blackduck-python-utils
+Python module for common patterns used with the BlackDuck module
+
+
