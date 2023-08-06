@@ -1,0 +1,11 @@
+README.md
+setup.py
+django_troop_auth/__init__.py
+django_troop_auth/authentication.py
+django_troop_auth/permission.py
+django_troop_auth/user.py
+django_troop_auth.egg-info/PKG-INFO
+django_troop_auth.egg-info/SOURCES.txt
+django_troop_auth.egg-info/dependency_links.txt
+django_troop_auth.egg-info/requires.txt
+django_troop_auth.egg-info/top_level.txt
