@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dynamodb-stream-router
+Version: 0.0.6
+Summary: A framework for content-based routing of records in a Dynamodb Stream to the callable that should handle them
+Home-page: https://github.com/QuiNovas/dynamodb-router-router
+Author: QuiNovas
+Author-email: pypi@quinovas.com
+License: Apache 2.0
+Keywords: dynamodb,lambda
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
