@@ -1,0 +1,6 @@
+[unimatrix.runtime.cleanup]
+unimatrix.ext.rdbms = unimatrix.ext.rdbms:disconnect
+
+[unimatrix.runtime.init]
+unimatrix.ext.rdbms = unimatrix.ext.rdbms:connect
+
