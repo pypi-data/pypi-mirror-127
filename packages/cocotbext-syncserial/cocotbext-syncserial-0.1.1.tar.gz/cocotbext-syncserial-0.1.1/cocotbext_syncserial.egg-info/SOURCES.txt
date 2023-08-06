@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cocotbext/syncserial/__init__.py
+cocotbext/syncserial/syncserial.py
+cocotbext/syncserial/version.py
+cocotbext_syncserial.egg-info/PKG-INFO
+cocotbext_syncserial.egg-info/SOURCES.txt
+cocotbext_syncserial.egg-info/dependency_links.txt
+cocotbext_syncserial.egg-info/requires.txt
+cocotbext_syncserial.egg-info/top_level.txt
+tests/syncserial/Makefile
+tests/syncserial/test_syncserial.py
+tests/syncserial/test_syncserial.vhd
+tests/syncserial/sim_build/test_syncSerial/test_syncserial.vhd
