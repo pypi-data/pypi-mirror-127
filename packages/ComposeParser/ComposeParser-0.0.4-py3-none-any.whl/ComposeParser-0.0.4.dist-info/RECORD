@@ -1,0 +1,9 @@
+libparse.so,sha256=yKjtWjITqOvCXjSY23miu308vIrEMQUnCsTwDE3DL04,11986800
+composeparser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+composeparser/parse.py,sha256=kwYzIcd6baMF5C_oT968hNZBjATKY_5l3YekejDsjXE,928
+ComposeParser-0.0.4.dist-info/LICENSE,sha256=3yYgr9oJqWNk9H-VGoV0-QMdUd3ryAtE8d-Tx_VPgiQ,10764
+ComposeParser-0.0.4.dist-info/METADATA,sha256=FBQEhE_6CQe-0ikxgy9d1w-zzmoDxaUjf7dqEbUdLv8,248
+ComposeParser-0.0.4.dist-info/NOTICE,sha256=uBAVYG0Qu4ZAwvW_bXHsu61iu4GCp2C_fvWuNsUvLYY,75
+ComposeParser-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ComposeParser-0.0.4.dist-info/top_level.txt,sha256=_FjkfLs4Mmr5yGzzvQyBclVlyN0a9xAbVzBLOF5bqIM,14
+ComposeParser-0.0.4.dist-info/RECORD,,
