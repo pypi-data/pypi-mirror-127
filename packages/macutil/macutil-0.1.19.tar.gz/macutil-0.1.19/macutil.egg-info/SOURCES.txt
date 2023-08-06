@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Package/__init__.py
+Package/macutil
+Package/doc/known_macs.txt
+Package/modules/__init__.py
+Package/modules/brute.py
+Package/modules/general.py
+Package/modules/utility.py
+macutil.egg-info/PKG-INFO
+macutil.egg-info/SOURCES.txt
+macutil.egg-info/dependency_links.txt
+macutil.egg-info/top_level.txt
