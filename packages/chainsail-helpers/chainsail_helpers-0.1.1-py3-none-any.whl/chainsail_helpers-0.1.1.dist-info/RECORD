@@ -1,0 +1,11 @@
+chainsail_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chainsail_helpers/pdf/__init__.py,sha256=dSf-WOrmCNJLgSR5cJPpBIAxykBYQ37l1RAOOjgTRRA,883
+chainsail_helpers/pdf/pymc3/__init__.py,sha256=xlj5NA2iAyIcJ_PbjwNTtZbPCfL2po4jUqN5csEQ4uY,1468
+chainsail_helpers/pdf/stan/__init__.py,sha256=13mmz6G99VIP80_U117XWFPLVvmTObtcHpoUmvBlPG0,3109
+chainsail_helpers/scripts/README.md,sha256=nfLOhq_RAYMOPGfUy6ppSGrb2tmTK8E_x7st7qr-7DM,499
+chainsail_helpers/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chainsail_helpers/scripts/concatenate_samples.py,sha256=5HoDNSmcaGQjMEKLUMMOARQFy_Qrw0q5KJqWIRdWhqI,1213
+chainsail_helpers-0.1.1.dist-info/entry_points.txt,sha256=LoaGGpsLH4ZRAdRTlR2EBlAMNDmB19wGLR3CuwI5o1k,90
+chainsail_helpers-0.1.1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+chainsail_helpers-0.1.1.dist-info/METADATA,sha256=hAdASh9Ci48AlxEQ4gXH4B1PC-6RlCoMgsW0HwQ7XhI,2306
+chainsail_helpers-0.1.1.dist-info/RECORD,,
