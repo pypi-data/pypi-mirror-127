@@ -1,0 +1,4 @@
+pynacl
+prompt_toolkit
+blessed
+pyperclip
