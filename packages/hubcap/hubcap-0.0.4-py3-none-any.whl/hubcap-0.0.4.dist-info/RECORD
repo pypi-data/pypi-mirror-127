@@ -1,0 +1,8 @@
+hubcap/__init__.py,sha256=HtSN0YVvUJurdA5scuwAGGDxcmA2cCv8_CYvmPkRogo,10026
+hubcap/scrap/__init__.py,sha256=0gEfrc0FaySeDLeKiWrNFuGMjCETKSL4YGr6CXN158c,4748
+hubcap/scrap/direct_github_api.py,sha256=YK1J-DHAyCcAc1PmDwWGt_-_FmcAiycoe19STkGNq1Y,3184
+hubcap-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hubcap-0.0.4.dist-info/METADATA,sha256=M2TpnvtnDCyX2yi-wTiwUUxDfJAjycmeuOZtNZzbw8Q,5066
+hubcap-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+hubcap-0.0.4.dist-info/top_level.txt,sha256=hV-qgzIgn4QoG6zpkU48BwSzUOImKBTkC7IjIzy7SHM,7
+hubcap-0.0.4.dist-info/RECORD,,
