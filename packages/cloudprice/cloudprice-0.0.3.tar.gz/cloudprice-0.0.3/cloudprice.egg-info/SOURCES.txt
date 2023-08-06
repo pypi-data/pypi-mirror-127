@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+cloudprice/__init__.py
+cloudprice/azure.py
+cloudprice/azure_helpers.py
+cloudprice/prices.py
+cloudprice.egg-info/PKG-INFO
+cloudprice.egg-info/SOURCES.txt
+cloudprice.egg-info/dependency_links.txt
+cloudprice.egg-info/requires.txt
+cloudprice.egg-info/top_level.txt
+cloudprice/constants/__init__.py
+cloudprice/constants/azure.py
