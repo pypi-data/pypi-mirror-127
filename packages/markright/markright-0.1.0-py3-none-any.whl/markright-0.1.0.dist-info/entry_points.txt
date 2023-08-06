@@ -1,0 +1,3 @@
+[console_scripts]
+markright = markright.markright:main
+
