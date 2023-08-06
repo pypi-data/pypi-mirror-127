@@ -1,0 +1,11 @@
+pyproject.toml
+setup.py
+db-controllers/__init__.py
+db-controllers/db-services.py
+db-controllers/db_crud_pb2.py
+db-controllers/db_crud_pb2_grpc.py
+trans_video_data.egg-info/PKG-INFO
+trans_video_data.egg-info/SOURCES.txt
+trans_video_data.egg-info/dependency_links.txt
+trans_video_data.egg-info/requires.txt
+trans_video_data.egg-info/top_level.txt
