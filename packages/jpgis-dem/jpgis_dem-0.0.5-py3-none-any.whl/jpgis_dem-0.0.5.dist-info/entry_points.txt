@@ -1,0 +1,3 @@
+[console_scripts]
+jpgis-dem = jpgisdem:cli
+
