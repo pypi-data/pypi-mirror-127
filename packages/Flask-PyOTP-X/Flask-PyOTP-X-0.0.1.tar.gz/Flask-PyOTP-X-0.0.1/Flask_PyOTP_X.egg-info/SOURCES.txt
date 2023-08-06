@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+Flask_PyOTP_X.egg-info/PKG-INFO
+Flask_PyOTP_X.egg-info/SOURCES.txt
+Flask_PyOTP_X.egg-info/dependency_links.txt
+Flask_PyOTP_X.egg-info/not-zip-safe
+Flask_PyOTP_X.egg-info/requires.txt
+Flask_PyOTP_X.egg-info/top_level.txt
+flask_pyotp/__init__.py
