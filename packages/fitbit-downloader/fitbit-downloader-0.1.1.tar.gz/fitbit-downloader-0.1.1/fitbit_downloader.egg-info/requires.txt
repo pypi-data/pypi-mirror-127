@@ -1,0 +1,4 @@
+cherrypy
+pydantic[dotenv]
+py-app-conf>=0.4.1
+fs
