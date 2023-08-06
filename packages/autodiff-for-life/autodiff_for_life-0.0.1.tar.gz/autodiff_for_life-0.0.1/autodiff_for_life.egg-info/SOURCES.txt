@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+autodiff_for_life/__init__.py
+autodiff_for_life/forward_mode.py
+autodiff_for_life.egg-info/PKG-INFO
+autodiff_for_life.egg-info/SOURCES.txt
+autodiff_for_life.egg-info/dependency_links.txt
+autodiff_for_life.egg-info/requires.txt
+autodiff_for_life.egg-info/top_level.txt
