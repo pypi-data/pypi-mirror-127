@@ -1,0 +1,17 @@
+numpy
+scipy
+Cython
+numba
+eigenpip
+kalmantv
+
+[docs]
+sphinx
+sphinx_rtd_theme
+recommonmark
+
+[examples]
+jupyter
+matplotlib
+numdifftools
+seaborn
