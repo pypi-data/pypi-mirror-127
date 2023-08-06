@@ -1,0 +1,12 @@
+cdds/__init__.py,sha256=BvjZkG_BPdSBre0LJF73zlr2MZGRa3eNDhkFONEV2is,282
+cdds/cdds.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+cdds/cli.py,sha256=GaAtQRb9w-ZeZ2Osl0pbXCCSxWpVB1IN4cSP_xXe6JA,390
+cdds/datasets.py,sha256=BE9xJl8QvVedt0Ua74E9yA8qko6DYsCZ9m2cpY2sLXo,14995
+cdds/imports.py,sha256=J6iZNSvJSYHHLs-qZzo65GIpMrT0mVlcWgFfxiGDslk,8520
+cdds/inspect.py,sha256=zPYsvBITgXiMxb-1VFOSsepsIsrf3O_lEqPCmqg4roU,23655
+cdds-0.1.1.dist-info/AUTHORS.rst,sha256=1HgixR08_4u05G6NFAenvKBQ9fTwVvp39TiqJNQ4u_I,164
+cdds-0.1.1.dist-info/METADATA,sha256=qtAsm-0fZlgxTt0mC937JM0JxGdLakvZ4F25Bl9hF2g,1530
+cdds-0.1.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+cdds-0.1.1.dist-info/entry_points.txt,sha256=1SrKEDTtBLOt3lnzuWrRVvKAepYWiILzy_Obri1umQE,40
+cdds-0.1.1.dist-info/top_level.txt,sha256=QdgagBDG85U1_eoA6BXd8pFW3MugA-urXUMGHGBvTZE,5
+cdds-0.1.1.dist-info/RECORD,,
