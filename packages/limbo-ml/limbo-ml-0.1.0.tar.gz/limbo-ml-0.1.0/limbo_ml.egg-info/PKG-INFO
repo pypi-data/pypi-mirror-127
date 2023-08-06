@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: limbo-ml
+Version: 0.1.0
+Summary: Library for accessing computer vision training data in Limbo Data Format.
+Home-page: UNKNOWN
+Maintainer: Timothy M. Shead
+Maintainer-email: tshead@sandia.gov
+License: UNKNOWN
+Project-URL: Chat, https://github.com/limbo-ml/user/discussions
+Project-URL: Coverage, https://coveralls.io/r/limbo-ml/user
+Project-URL: Documentation, http://limbo-ml.readthedocs.io/
+Project-URL: Issue Tracker, http://github.com/limbo-ml/user/issues
+Project-URL: Regression Tests, http://github.com/limbo-ml/user/actions
+Project-URL: Source, http://github.com/limbo-ml/user
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
