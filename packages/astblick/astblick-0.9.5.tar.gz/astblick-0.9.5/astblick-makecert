@@ -1,0 +1,18 @@
+#!/bin/bash
+
+KEY=~/.astblick_key.pem
+CERT=~/.astblick_cert.pem
+
+if [ ! -f $KEY ]; then
+    openssl req -x509 -newkey rsa:4096 \
+	-keyout $KEY -out $CERT -days 365 -nodes \
+	-subj "/C=US/ST=None/L=None/O=None/CN=localhost"
+else
+    openssl x509 -x509toreq -in $CERT -out ~/.astblick.csr -signkey $KEY
+    openssl rsa -in $KEY -out ~/.astblick_key.key
+    openssl x509 -req -days 365 -in ~/.astblick.csr -out ~/.astblick.crt.new -signkey ~/.astblick_key.key
+    cat ~/.astblick.crt.new ~/.astblick_key.key > ~/.astblick_cert.pem.new
+    mv $CERT ~/.astblick_cert.pem.old
+    mv ~/.astblick_cert.pem.new $CERT
+    rm -f ~/.astblick.csr ~/.astblick_key.key
+fi
