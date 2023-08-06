@@ -1,0 +1,13 @@
+README.md
+setup.py
+pandas_excel_limitedrows/__init__.py
+pandas_excel_limitedrows/main.py
+pandas_excel_limitedrows.egg-info/PKG-INFO
+pandas_excel_limitedrows.egg-info/SOURCES.txt
+pandas_excel_limitedrows.egg-info/dependency_links.txt
+pandas_excel_limitedrows.egg-info/requires.txt
+pandas_excel_limitedrows.egg-info/top_level.txt
+pandas_excel_limitedrows/engines/__init__.py
+pandas_excel_limitedrows/engines/_openpyxl.py
+pandas_excel_limitedrows/engines/_pyxlsb.py
+pandas_excel_limitedrows/engines/_xlrd.py
