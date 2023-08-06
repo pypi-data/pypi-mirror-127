@@ -1,0 +1,16 @@
+cntext/__init__.py,sha256=X6XRFu74PCQzz4kgtm6LJxyQ69wa2z8bZ_Fawhe5QTg,266
+cntext/dictionary/__init__.py,sha256=tugDydZKwQWrUzIS-u5ZydYPdX_FDO7XvBKf-Q7DUQY,43
+cntext/dictionary/dictionary.py,sha256=gbO_NYfNqMS3j73u-0XFZYUbVochF6_1W5izl1jlDQY,723845
+cntext/plot/__init__.py,sha256=BAF-KbmAT-R0nHwCLbHBMrg-kjRTSp_OqyOfCG9qQJY,51
+cntext/plot/plot.py,sha256=zhWsIEl_aAjlJXjTXXWrDG9b9r00ZMkfczGoEg5MrbQ,2085
+cntext/sentiment/__init__.py,sha256=QaxXG2HB8VKdly29P7qmb3Bc_Btp4ukF4-te8AbsqdY,101
+cntext/sentiment/sentiment.py,sha256=zKnEPnn5MiTcl0KyKnfDpD7ESaj5N1jRwCdluljjasI,9780
+cntext/similarity/__init__.py,sha256=5qayy2jBT3KYq7R-rBc9t1KLsJHW-v6QsvpJJz5Yf28,57
+cntext/similarity/similarity.py,sha256=1A27yQ0fWsLveDkG32dd0Iq2H1VycLx6JV87qSh34Wk,2852
+cntext/stats/__init__.py,sha256=wGRsq7Ify7qoqInLS-qpM9FI8nFF56UAspRteOqVdH4,53
+cntext/stats/stats.py,sha256=cnWeOBa4pEdMbLlfSXsABpIjDybToBsIluLjiMF7X58,2315
+cntext-0.9.3.dist-info/LICENSE,sha256=Vd1-O0E7e_NUvgbdvzYLeE_w5K2iL86RwdFWFs_-0xk,1067
+cntext-0.9.3.dist-info/METADATA,sha256=9n9zJAm41t1-mIGhlryJ6S_G9xCmGr3cbX8p8l1pI_g,21505
+cntext-0.9.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cntext-0.9.3.dist-info/top_level.txt,sha256=DMASYaa5eLZYVP_1nRm5W1I0xZJ_iS0iLtcn7X-JKpM,7
+cntext-0.9.3.dist-info/RECORD,,
