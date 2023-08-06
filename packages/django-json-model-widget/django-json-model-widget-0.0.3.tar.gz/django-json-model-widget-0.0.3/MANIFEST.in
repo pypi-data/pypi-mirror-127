@@ -1,0 +1,5 @@
+include LICENSE
+include README.MD
+include HISTORY.MD
+include requirements.txt
+recursive-include json_model_widget *
