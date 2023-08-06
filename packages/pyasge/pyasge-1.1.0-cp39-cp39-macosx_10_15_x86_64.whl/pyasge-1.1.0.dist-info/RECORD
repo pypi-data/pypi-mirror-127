@@ -1,0 +1,9 @@
+pyasge.cpython-39-darwin.so,sha256=Gykb3BE_nIcSfuCgmHcJJmqkaM0WfKlEUbv43PKsY_w,2404928
+pyasge.dylibs/libpng16.16.dylib,sha256=VgVHxUybxRgy0YIx3FcT0FFUUVXGUsC0wBdMhN5Pwuo,197040
+pyasge.dylibs/libbrotlidec.1.0.9.dylib,sha256=TUltbT2Nhh62KXBuCjx-1hwCwn_Wv9hMhSkmZOPYz7I,71216
+pyasge.dylibs/libbrotlicommon.1.0.9.dylib,sha256=h72IIsPGxf-jjcaWlv7kD2tXlCGSc5S6Is14KjLqKBI,159632
+pyasge-1.1.0.dist-info/RECORD,,
+pyasge-1.1.0.dist-info/LICENSE,sha256=S2nd-7BFd7mvHrPqa4o68NtQ75uSvhlIOY9imdac_qk,1071
+pyasge-1.1.0.dist-info/WHEEL,sha256=1ojbudfZJLJO7ljQv-xaAyGhu3D5suH6RFk4VSvhLj0,110
+pyasge-1.1.0.dist-info/top_level.txt,sha256=PstXetLTBJFGWTsAjyBfmpg2je90Pl2O8oI1_9amfXw,7
+pyasge-1.1.0.dist-info/METADATA,sha256=YXsJsmsObTT7itExe6DGXhlMq4PmHBIjD8d2n7bRfUg,5360
