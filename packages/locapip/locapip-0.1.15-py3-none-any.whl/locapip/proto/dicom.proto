@@ -1,0 +1,21 @@
+//
+// Created by epw on 2021/10/14.
+//
+
+syntax = "proto3";
+
+option optimize_for = SPEED;
+
+package dicom;
+
+service Dicom {
+  rpc parse_series(Path) returns (stream Filenames);
+}
+
+message Path {
+  string path = 1;
+}
+
+message Filenames {
+  repeated string filenames = 1;
+}
