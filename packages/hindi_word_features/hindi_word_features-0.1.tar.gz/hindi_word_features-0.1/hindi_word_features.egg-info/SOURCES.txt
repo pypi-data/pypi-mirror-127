@@ -1,0 +1,9 @@
+README.md
+setup.py
+hin_feature/__init__.py
+hin_feature/feat.py
+hindi_word_features.egg-info/PKG-INFO
+hindi_word_features.egg-info/SOURCES.txt
+hindi_word_features.egg-info/dependency_links.txt
+hindi_word_features.egg-info/requires.txt
+hindi_word_features.egg-info/top_level.txt
