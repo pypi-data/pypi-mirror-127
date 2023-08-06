@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+snore/__init__.py
+snore/snore.py
+snore/utils.py
+snore_embedding.egg-info/PKG-INFO
+snore_embedding.egg-info/SOURCES.txt
+snore_embedding.egg-info/dependency_links.txt
+snore_embedding.egg-info/requires.txt
+snore_embedding.egg-info/top_level.txt
