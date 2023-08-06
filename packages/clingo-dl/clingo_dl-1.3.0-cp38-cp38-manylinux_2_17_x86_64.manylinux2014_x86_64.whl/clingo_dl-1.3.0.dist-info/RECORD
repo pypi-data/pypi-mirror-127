@@ -1,0 +1,10 @@
+clingodl/_clingodl.cpython-38-x86_64-linux-gnu.so,sha256=0rCUKA8xj6Nx3_DWGpwYYlxxDbm03OixcCV0i3u4BaI,484688
+clingodl/clingo-dl.h,sha256=BaB28uwhx-kxC1_HvwetyCqCUTeS8H9JDJy7DnFKENE,5997
+clingodl/__init__.py,sha256=MXKQOoLh2QPSXlLrUq7dssWyS5QVoGxBHKSvSIgwRos,319
+clingodl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clingodl/__main__.py,sha256=HnRHdq9EWXPrfrex2BvRHHJm4XqPgv1d7v6SpESgLi0,2101
+clingo_dl-1.3.0.dist-info/METADATA,sha256=E1eT523MWiub6ns7gju9mPu5eHs_L462iEMCyLL3CWc,559
+clingo_dl-1.3.0.dist-info/LICENSE.md,sha256=FkS__z6N7hEwdWeIE0v3bs56yAcOxcvoAdRrOig5O-s,1101
+clingo_dl-1.3.0.dist-info/RECORD,,
+clingo_dl-1.3.0.dist-info/WHEEL,sha256=m-MONUefd9gLqH49mGPyOFn57f4EuQiVfeCP95CSDOo,142
+clingo_dl-1.3.0.dist-info/top_level.txt,sha256=0gvC0C9AqC1c40t9uqwsrFcNu0kUas8VoudB8kGNLU0,9
