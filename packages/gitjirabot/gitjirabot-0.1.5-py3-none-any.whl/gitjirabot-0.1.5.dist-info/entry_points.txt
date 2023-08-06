@@ -1,0 +1,3 @@
+[console_scripts]
+gitjirabot=gitjirabot.cli:main
+
