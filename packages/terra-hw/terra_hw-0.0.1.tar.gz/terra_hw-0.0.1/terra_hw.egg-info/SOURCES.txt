@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+terra_hw/Homework.py
+terra_hw/settings.py
+terra_hw.egg-info/PKG-INFO
+terra_hw.egg-info/SOURCES.txt
+terra_hw.egg-info/dependency_links.txt
+terra_hw.egg-info/top_level.txt
