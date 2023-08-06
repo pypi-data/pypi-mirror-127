@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: todo-ksumit
+Version: 0.0.2
+Summary: A perfect task manager.
+Home-page: https://github.com/sumit-kushwah/todo-cli
+Author: Sumit kushwah
+Author-email: sumitkushwah1729@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: tabulate
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+<p align="center">
+  <img src="media/TODO.gif">
+</p>
+
+*Please visit [docs](https://sumit-kushwah.github.io/todo-cli/) to learn more.*
+
+
+
+
