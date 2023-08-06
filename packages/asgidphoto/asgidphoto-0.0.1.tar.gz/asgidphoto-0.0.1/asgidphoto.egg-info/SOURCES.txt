@@ -1,0 +1,9 @@
+README.md
+setup.py
+asgidphoto/__init__.py
+asgidphoto/idphoto.py
+asgidphoto.egg-info/PKG-INFO
+asgidphoto.egg-info/SOURCES.txt
+asgidphoto.egg-info/dependency_links.txt
+asgidphoto.egg-info/requires.txt
+asgidphoto.egg-info/top_level.txt
