@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: InSearch
+Version: 0.1.2
+Summary: Python-based inverted index structure library with full-text search support
+Home-page: https://github.com/CNUCSE-Team2/InSearch
+Author: 2ternal, Fortune00, MoonDD99, shellboy
+Author-email: ddft97@gmail.com
+License: UNKNOWN
+Keywords: BM25,inverted-index,full-text search
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
+Requires-Dist: eunjeon (>=0.4.0)
+
+UNKNOWN
+
