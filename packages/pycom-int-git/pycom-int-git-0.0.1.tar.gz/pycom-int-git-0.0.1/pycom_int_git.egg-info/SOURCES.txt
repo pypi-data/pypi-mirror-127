@@ -1,0 +1,5 @@
+setup.py
+pycom_int_git.egg-info/PKG-INFO
+pycom_int_git.egg-info/SOURCES.txt
+pycom_int_git.egg-info/dependency_links.txt
+pycom_int_git.egg-info/top_level.txt
