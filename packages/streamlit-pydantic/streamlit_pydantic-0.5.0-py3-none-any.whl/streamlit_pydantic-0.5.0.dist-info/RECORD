@@ -1,0 +1,10 @@
+streamlit_pydantic/__init__.py,sha256=KPVSjF66ElKn4utfUU1la9MFoFOLQVdG9OJijm_OM64,219
+streamlit_pydantic/_about.py,sha256=QjwdjNSAG9RSWenkdzr0-TR2SWpvsjxV4DTUzfbh-l8,124
+streamlit_pydantic/schema_utils.py,sha256=RM7U_dx9WocY3_xo2QW3N7sGVtK8Vpn90hMBUyAdHbw,4432
+streamlit_pydantic/types.py,sha256=6EWFg2190Mk9VmikkdHXk8_zs80D_zM0ArayoUppIlo,855
+streamlit_pydantic/ui_renderer.py,sha256=5q7dEUxNvrUx_XDVWg2d0aNnlrigAQjOqunaYnkUZls,42938
+streamlit_pydantic-0.5.0.dist-info/LICENSE,sha256=Ixhb36Qp3A5N0KROEmFZ05pcD8HyQPZzf-RJ0oUbsI4,1081
+streamlit_pydantic-0.5.0.dist-info/METADATA,sha256=U8SnyVhSs0fCE-uT12KR5Eg3O4nD62JVATN3CvPe3GY,13314
+streamlit_pydantic-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+streamlit_pydantic-0.5.0.dist-info/top_level.txt,sha256=qZMg3m1gf5_fFCM_YX1R7qeWopgVUpy70tzMjvostGk,19
+streamlit_pydantic-0.5.0.dist-info/RECORD,,
