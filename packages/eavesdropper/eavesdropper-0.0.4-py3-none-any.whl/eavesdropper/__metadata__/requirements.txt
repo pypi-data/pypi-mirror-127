@@ -1,0 +1,2 @@
+omnitools>=0.0.1
+mitmproxy==5.3.0
