@@ -1,0 +1,15 @@
+LICENSE,sha256=T_a9yqlaZEQmTPbuxH4MoZ92aGDrVUgek5Ly9wOZmOc,1083
+adacord/__init__.py,sha256=sDHod61MDbPRTOfnHxiIG5QW_Dm3a8yPQ2QGFpHL4X0,166
+adacord/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adacord/cli/api.py,sha256=aWwRPJ5LBq4OtuSJgKJYFYdVLj2rkdZgUF7sxHcAvQQ,9764
+adacord/cli/api_tokens.py,sha256=Ovkq9v504Yi9TAf9rN-Z1mpv_QygkwG78BbM2fmLVa8,2107
+adacord/cli/auth.py,sha256=77zldOR56pRtIzT-H3bSo-vTuHtHsPOdoXRa3eFac6w,2534
+adacord/cli/bucket.py,sha256=gfUYslhkLfyNMRMZEpIYUR9unwS9EneVGPjZrPTfBvQ,6372
+adacord/cli/commons.py,sha256=eXQOFIFrtEuE565Of2OTCea0e-gk570WpWYXNWkiQW4,1366
+adacord/cli/exceptions.py,sha256=qdNbV8ZoBu5f0XXcey1Iv7eNggJBfr1ULpNjHsP2qNQ,1001
+adacord/cli/main.py,sha256=9QvBa9wgjLkiIRm3cTWgksJLxu0KL4xfbFXGINlZTik,459
+adacord-0.1.13.dist-info/entry_points.txt,sha256=VOSn4hwg_bWwqbD6G79DTCyzVeujqnWvcaU1XVRjWvc,48
+adacord-0.1.13.dist-info/LICENSE,sha256=T_a9yqlaZEQmTPbuxH4MoZ92aGDrVUgek5Ly9wOZmOc,1083
+adacord-0.1.13.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+adacord-0.1.13.dist-info/METADATA,sha256=zmSMD6JNg0uGGW5mN4rgg2cB5zcqXJaH3bh9aVQI8j8,1469
+adacord-0.1.13.dist-info/RECORD,,
