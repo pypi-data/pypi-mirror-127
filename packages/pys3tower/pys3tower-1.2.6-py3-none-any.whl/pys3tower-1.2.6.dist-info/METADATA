@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pys3tower
+Version: 1.2.6
+Summary: Synchronization tool between an S3 bucket and a local file.
+Home-page: https://github.com/s0rcy-r/pys3_tower
+Author: Louis Fiori
+Author-email: louis.fioripro@gmail.com
+License: GNU General Public License v3
+Project-URL: Bug Tracker, https://github.com/s0rcy-r/pys3_tower/issues
+Platform: any
+Classifier: Framework :: AWS CDK
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: System :: Archiving :: Mirroring
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+
+UNKNOWN
+
