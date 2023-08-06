@@ -1,0 +1,80 @@
+id: 20211113163131659
+app: postq
+name: jobs
+depends:
+- postq:20211113162456006_init
+applied: null
+doc: null
+up: >-
+  CREATE TABLE postq.status (
+    name    varchar PRIMARY KEY,
+    value   smallint NOT NULL UNIQUE
+  );
+
+  INSERT INTO postq.status (name, value) VALUES
+    ('initialized', 0),
+    ('queued', 1),
+    ('processing', 2),
+    ('completed', 3),
+    ('success', 4),
+    ('notice', 5),
+    ('warning', 6),
+    ('cancelled', 7),
+    ('failure', 8),
+    ('error', 9);
+
+  CREATE TABLE postq.queue (
+    qname   varchar PRIMARY KEY
+  );
+
+  CREATE TABLE postq.job (
+    id            uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+    qname         varchar NOT NULL
+                    REFERENCES postq.queue(qname),
+    status        varchar NOT NULL DEFAULT 'queued'
+                    REFERENCES postq.status(name),
+    queued        timestamptz NOT NULL DEFAULT current_timestamp,
+    scheduled     timestamptz NOT NULL DEFAULT current_timestamp,
+    completed     timestamptz,
+    tasks         jsonb NOT NULL DEFAULT '{}'::jsonb,
+    data          jsonb NOT NULL DEFAULT '{}'::jsonb
+  );
+
+  CREATE TABLE postq.job_queued (
+    id          uuid NOT NULL
+                  REFERENCES postq.job(id) ON delete cascade,
+    qname       varchar NOT NULL 
+                  REFERENCES postq.queue(qname),
+    status      varchar NOT NULL DEFAULT 'queued' 
+                  REFERENCES postq.status(name),
+    queued      timestamptz NOT NULL DEFAULT current_timestamp,
+    scheduled   timestamptz NOT NULL DEFAULT current_timestamp,
+    tasks       jsonb NOT NULL DEFAULT '{}'::jsonb,
+    data        jsonb NOT NULL DEFAULT '{}'::jsonb
+  );
+
+  CREATE INDEX postq_job_queued_qname_idx ON postq.job_queued (qname);
+  CREATE INDEX postq_job_queued_status_idx ON postq.job_queued (status);
+  CREATE INDEX postq_job_queued_queued_idx ON postq.job_queued (queued);
+
+  -- When a postq.job is inserted, also insert the job into postq.job_queued
+
+  CREATE OR REPLACE FUNCTION postq_job_queued_job() RETURNS trigger as $postq_job_queued_job$
+    BEGIN
+      INSERT INTO postq.job_queued (id, qname, status, queued, scheduled, tasks, data)
+        VALUES (NEW.id, NEW.qname, 'queued', NEW.queued, NEW.scheduled, NEW.tasks, NEW.data);
+      UPDATE postq.job SET status='queued' WHERE id=NEW.id;
+      RETURN NEW;
+    END;
+  $postq_job_queued_job$ LANGUAGE plpgsql;
+
+  CREATE TRIGGER postq_job_queued_job AFTER INSERT ON postq.job 
+  FOR EACH ROW EXECUTE FUNCTION postq_job_queued_job();
+
+dn: >-
+  DROP TRIGGER IF EXISTS postq_job_queued_job ON postq.job;
+  DROP FUNCTION postq_job_queued_job;
+  DROP TABLE postq.job_queued;
+  DROP TABLE postq.job;
+  DROP TABLE postq.queue;
+  DROP TABLE postq.status;
