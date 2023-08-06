@@ -1,0 +1,7 @@
+pandas
+pyyaml
+matplotlib
+werkzeugnumpy
+requests
+scipy
+watchdog
