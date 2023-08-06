@@ -1,0 +1,9 @@
+pygroebner/__init__.py,sha256=u09GBkeXNSa2n6r7ZOhRse_6eLW6--N3iRUnDRSbwYI,25
+pygroebner/base_algebra.py,sha256=fLW4a-0feJQzWmWM4QENQ71pxQms3pisaKDrGu2BbL8,7084
+pygroebner/mymath.py,sha256=fLO4_yb1sGbxLLud_Rbso6FYYmomG5GaB3OR2lc7JfA,10132
+pygroebner/pygroebner.py,sha256=dwKWP1xoIq6S2PEhb6li74UYe-PusOnB-lZQrWVc6gk,35302
+pygroebner-0.0.1.dist-info/LICENSE,sha256=QEz8BtGGLE6shwJ4S5jxVJa-mv-gcJBRh8LobHGNTCk,1086
+pygroebner-0.0.1.dist-info/METADATA,sha256=875jvIHLlPSatltuPUbeATNvO06hFi5iEY5wGhqb5k8,1890
+pygroebner-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pygroebner-0.0.1.dist-info/top_level.txt,sha256=6zgQHOLmKunOdz1rYtHF_ZWFX56fE9HZLZgt-fOymlg,11
+pygroebner-0.0.1.dist-info/RECORD,,
