@@ -1,0 +1,16 @@
+click==7.1.2
+setuptools
+tiledb>=0.10.5
+pandas
+
+[ci]
+tiledb-cloud>=0.7
+
+[dev]
+black
+cmake>=3.13
+cython
+pybind11
+wheel
+setuptools-scm
+pytest
