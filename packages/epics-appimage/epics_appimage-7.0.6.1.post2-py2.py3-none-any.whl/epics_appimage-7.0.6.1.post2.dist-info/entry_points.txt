@@ -1,0 +1,15 @@
+[console_scripts]
+caget = epics_appimage:run_caget
+cainfo = epics_appimage:run_cainfo
+camonitor = epics_appimage:run_camonitor
+caput = epics_appimage:run_caput
+epics-base-tools = epics_appimage:run_epics_base_tools
+p2p = epics_appimage:run_p2p
+pvcall = epics_appimage:run_pvcall
+pvget = epics_appimage:run_pvget
+pvinfo = epics_appimage:run_pvinfo
+pvmonitor = epics_appimage:run_pvmonitor
+pvput = epics_appimage:run_pvput
+softIoc = epics_appimage:run_softIoc
+softIocPVA = epics_appimage:run_softIocPVA
+
