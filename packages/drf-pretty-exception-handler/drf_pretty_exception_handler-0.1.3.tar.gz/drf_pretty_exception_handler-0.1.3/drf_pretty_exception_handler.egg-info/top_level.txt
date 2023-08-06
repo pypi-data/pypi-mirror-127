@@ -1,0 +1,1 @@
+drf_pretty_exception_handler
