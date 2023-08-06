@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+spidex/__init__.py
+spidex.egg-info/PKG-INFO
+spidex.egg-info/SOURCES.txt
+spidex.egg-info/dependency_links.txt
+spidex.egg-info/top_level.txt
