@@ -1,0 +1,9 @@
+dapr/ext/fastapi/__init__.py,sha256=S-skpbcpGV6c793YT_eC9mCsOf-g4OSkhZpEm7TxDu8,226
+dapr/ext/fastapi/actor.py,sha256=CFOHY-XsCmaGJ1a32rxOkpOOQ8e8tUfRf_ctIjoVwu8,6057
+dapr/ext/fastapi/app.py,sha256=_eicB-ytjOWA3bgbh0Vpm4gbMr2bhdFeFCVcUlqbkFA,2619
+dapr/ext/fastapi/version.py,sha256=T7tcZuygWdW47H9iNTrk2Q-qMqQpe5x7Y2uBxFKbohg,154
+dapr_ext_fastapi_dev-1.5.0rc1.dev665.dist-info/LICENSE,sha256=iVca8saaTTsb6oZKlEMKt5lqpSBcyM8Oc-9tUn9IE30,1096
+dapr_ext_fastapi_dev-1.5.0rc1.dev665.dist-info/METADATA,sha256=rM1mrLM6-x7rDuxlryT5_idQ1Mx08VxzohqHaeFn7Wk,904
+dapr_ext_fastapi_dev-1.5.0rc1.dev665.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dapr_ext_fastapi_dev-1.5.0rc1.dev665.dist-info/top_level.txt,sha256=iLDu9C_1nUTIsa3H4jMbuHuF-zs0opkitR7p7PCPYz0,5
+dapr_ext_fastapi_dev-1.5.0rc1.dev665.dist-info/RECORD,,
