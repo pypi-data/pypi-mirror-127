@@ -1,0 +1,7 @@
+README.rst
+setup.py
+torchwatch/__init__.py
+torchwatch.egg-info/PKG-INFO
+torchwatch.egg-info/SOURCES.txt
+torchwatch.egg-info/dependency_links.txt
+torchwatch.egg-info/top_level.txt
