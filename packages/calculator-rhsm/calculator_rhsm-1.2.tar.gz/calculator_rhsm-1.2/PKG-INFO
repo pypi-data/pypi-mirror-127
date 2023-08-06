@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: calculator_rhsm
+Version: 1.2
+Summary: Uma simples calculadora feita com o Tkinter
+Home-page: https://github.com/rafael-hsm/tkinter-calculator
+Author: Rafael Meireles
+Author-email: rafameireles2011@gmail.com
+License: MIT
+Keywords: Calculadora básica feita com Tkinter
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics
+License-File: LICENSE
+
+Calculadora com funções básicas.Adicionar, subtrair, dividir e multiplicarEntre os vários aprendizados destaco a organizaçãoem grid dos botões, selecionar do início (0) ao fim (END).
+
