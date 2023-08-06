@@ -1,0 +1,5 @@
+setup.py
+src/mu_message.egg-info/PKG-INFO
+src/mu_message.egg-info/SOURCES.txt
+src/mu_message.egg-info/dependency_links.txt
+src/mu_message.egg-info/top_level.txt
