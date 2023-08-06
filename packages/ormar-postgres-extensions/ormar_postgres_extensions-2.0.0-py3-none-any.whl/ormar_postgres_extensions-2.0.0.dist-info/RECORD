@@ -1,0 +1,9 @@
+ormar_postgres_extensions/__init__.py,sha256=0HZyJ03rwn_j5mEm9r011ZWfy3h8FW69IQWaZp8yGNA,59
+ormar_postgres_extensions/fields/__init__.py,sha256=QzJrrt0Gp0X0i_Y4hSPtDbJwO8mArG-fUt2nJEUpxXI,76
+ormar_postgres_extensions/fields/jsonb.py,sha256=FO6opa2tJn7zFooHRtPdHBrM6haNczuS_zVr3PMPnqc,432
+ormar_postgres_extensions/fields/uuid.py,sha256=5SV5gPTVo1H4sTbH2uEiR0UTSyvDjt4LAhhPCGjtbgk,1403
+ormar_postgres_extensions-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ormar_postgres_extensions-2.0.0.dist-info/METADATA,sha256=w8OOOkuygOWxBzhmTTGBYagoXYUJrywLS163VQvmg-I,6504
+ormar_postgres_extensions-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ormar_postgres_extensions-2.0.0.dist-info/top_level.txt,sha256=AjOnn2bVX3ZyOu7qcg2eto_b0TIoHkDKWlTyxqG9fRc,26
+ormar_postgres_extensions-2.0.0.dist-info/RECORD,,
