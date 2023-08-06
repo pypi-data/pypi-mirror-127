@@ -1,0 +1,3 @@
+[console_scripts]
+gbstoolkit = gbstoolkit:run_cli
+
