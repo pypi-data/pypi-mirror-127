@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/imessage/__init__.py
+src/py_imessage_shortcuts.egg-info/PKG-INFO
+src/py_imessage_shortcuts.egg-info/SOURCES.txt
+src/py_imessage_shortcuts.egg-info/dependency_links.txt
+src/py_imessage_shortcuts.egg-info/top_level.txt
