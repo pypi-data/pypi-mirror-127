@@ -1,0 +1,10 @@
+sphinxcontrib-issuetracker
+tqdm
+requests
+pytest
+pytest-cov
+pytest-recording
+codecov
+vcrpy
+PyYAML
+simplejson
