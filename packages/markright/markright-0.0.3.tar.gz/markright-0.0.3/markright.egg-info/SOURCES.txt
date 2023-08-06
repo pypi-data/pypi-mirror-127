@@ -1,0 +1,10 @@
+README.md
+setup.py
+markright/__init__.py
+markright/markright.py
+markright/version.py
+markright.egg-info/PKG-INFO
+markright.egg-info/SOURCES.txt
+markright.egg-info/dependency_links.txt
+markright.egg-info/entry_points.txt
+markright.egg-info/top_level.txt
