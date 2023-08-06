@@ -1,0 +1,7 @@
+setup.py
+winshotor/__init__.py
+winshotor/screenshotor.py
+winshotor.egg-info/PKG-INFO
+winshotor.egg-info/SOURCES.txt
+winshotor.egg-info/dependency_links.txt
+winshotor.egg-info/top_level.txt
