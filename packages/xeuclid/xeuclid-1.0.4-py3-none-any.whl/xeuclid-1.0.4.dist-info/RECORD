@@ -1,0 +1,15 @@
+xeuclid/__init__.py,sha256=64aF8QEP9kKBIfDKSr9ntW17m0CIlzZALdr2HmmDG6A,202
+xeuclid/anim.py,sha256=Mrx2aAivydfXTWZObq6_2WAQ7uFA1ZnD3jxvAw6Z4Sk,1277
+xeuclid/curves.py,sha256=9OhN1g6jDTvPe3sinEnjUeaQPvN3ERtOnvuZQHs2XQ0,2029
+xeuclid/euclid2.py,sha256=J3OHnl2TC-3gfW4xQSLjbGnvhY5UwBtt4UE-fuoUlDs,29652
+xeuclid/euclid3.py,sha256=YYwlHYTVMoZwgAtEJ59RNOEzyrXUGIi0DyXgRgdNfNk,7923
+xeuclid/graph_parser.py,sha256=CAU1Efva66kztQp054q4YuJzmLEGD3e083TocEWtFhE,4916
+xeuclid/tikz_draw.py,sha256=roH5OsFCCW8QZwSCN0bpY4Ck8-SzhKEjTBFsBAK-Evw,41575
+xeuclid/tikzrc.py,sha256=iM0uC1oDH3KxwL0-IfCns3G7FnMN-BG1kl-YReiH9-4,1094
+xeuclid/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xeuclid/utils/file_edit.py,sha256=Ej7AfxGasyGCFkWDSu25x4DJn7HoY6t3lhEHiChawYk,2791
+xeuclid/utils/math.py,sha256=_zGGIkTNld87CV7bnifk6M1zTO84fA9L91jRRAu9wM8,4328
+xeuclid-1.0.4.dist-info/METADATA,sha256=3oFa2RtqDZJyeY3f6I6itKDmqzFr5trHx4Azt7pDvoQ,2614
+xeuclid-1.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+xeuclid-1.0.4.dist-info/top_level.txt,sha256=yogxdmy2mOyNXTNf7WNDl0ykv6gRG0dCNPmPxpYD2QE,8
+xeuclid-1.0.4.dist-info/RECORD,,
