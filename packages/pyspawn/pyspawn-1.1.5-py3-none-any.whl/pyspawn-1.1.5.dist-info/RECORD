@@ -1,0 +1,17 @@
+pyspawn/Checkpoint.py,sha256=a0rHyw8Iid2_WDTDeSxwokPkKnYYzO9K_8tIoqmEs6o,7268
+pyspawn/ICheckpoint.py,sha256=qQYL4nPTsLXW0qnqZOwROp36cN0jb5NCGuFUz91U-Ao,1983
+pyspawn/__init__.py,sha256=lqkdRNbqUQOhLGEMTvdNJWJMJ77i96ZB2PxMb3f9SPU,34
+pyspawn/adapters/IDbAdapter.py,sha256=RvfmiofNpdCqO4uIuHmjrVU1m9gbE-QJ8HMb4yySq0c,2218
+pyspawn/adapters/PgAdapter.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyspawn/adapters/SqlServerAdapter.py,sha256=sm_L4YOHClon6KcZLcCSdWYTVo2kDf8HsEkQ-XnfjaE,11322
+pyspawn/adapters/__init__.py,sha256=qGAd5S6XBxEdQEZipcnMdTuqIwd6bdicQkTzkP_qSko,46
+pyspawn/graph/GraphBuilder.py,sha256=XB3JUgeA7Wq-HQ8O6lbg21eqAPe5l8gox5tMTY-KmCE,4352
+pyspawn/graph/Relationship.py,sha256=B_a46lzhooQy5H8wtn_xfK5fzDm5OxP09Qx0eu54In4,1180
+pyspawn/graph/Table.py,sha256=Nsn1yKBGrow5Kab1TaKOY-cV5syYIr-S2pFXPq85dxU,1346
+pyspawn/graph/TemporalTable.py,sha256=k4tpN7ghA0mTK3qIPQShA97W913hQM29aoG0pKGDKBk,535
+pyspawn/graph/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyspawn-1.1.5.dist-info/LICENCE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+pyspawn-1.1.5.dist-info/METADATA,sha256=1my1tvGYTsk1lUZBCr8NFjdl7rdMH80anw86sI-zghA,4050
+pyspawn-1.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyspawn-1.1.5.dist-info/top_level.txt,sha256=1HpTRFMRYcp4nnA0SS_j6SlyLfAbZJ-lZkqT06qR8TE,8
+pyspawn-1.1.5.dist-info/RECORD,,
