@@ -1,0 +1,8 @@
+gitpython
+lizard
+numpy
+pandas
+psutil
+python-magic
+gitdb-speedups
+pynpm-download

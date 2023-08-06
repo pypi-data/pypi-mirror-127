@@ -1,0 +1,71 @@
+# CoCluReMiG - COmmit CLUstering and REpository MIning for Git
+
+A simple to use library for mining git repositories.
+
+## Usage
+
+### Commit graph
+
+```python
+import cocluremig.utils.gitutils as gitutils
+
+#get git repository (saved by default to tempdir)
+repo = gitutils.get_repo("https://github.com/mmonschau/cocluremig")
+
+#get commit_graph
+(edges, commits) = gitutils.get_edge_list(repo)
+```
+
+### Pre-Defined Commit Metric
+
+```python
+import cocluremig.utils.gitutils as gitutils
+import cocluremig.analyzer.commit.analyzers as c_analyzers
+
+repo = gitutils.get_repo("https://github.com/mmonschau/cocluremig")
+
+file_type_analyzer = c_analyzers.get_file_number_per_extension_analyzer(repo)
+
+for c in c_analyzers.get_all_commits(repo):
+    
+    c_analyzers.get_basic_commit_data(c)
+    # sha, date_committed, date_authored, signed, author_name, author_mail, committer_name, committer_mail
+    file_type_analyzer.apply_metric(c)
+    # {'py':26,'md':1,'toml':1,'cfg':1}
+```
+
+### Own Commit Metric
+
+```python
+import cocluremig.utils.gitutils as gitutils
+import cocluremig.analyzer.commit
+import cocluremig.analyzer.commit.analyzers
+import cocluremig.analyzer.commit.base_analyzer
+import cocluremig.analyzer.commit.blob_inspectors
+
+repo = gitutils.get_repo("https://github.com/mmonschau/cocluremig")
+
+def get_tokens(blob):
+    text = cocluremig.analyzer.commit.blob_inspectors.get_text_representation(blob)
+    # import git ...
+    tokens = set(text.split())
+    return tokens
+    
+
+analyzer = cocluremig.analyzer.base_analyzer.RepoFileMetricAnalyzer(repo,get_tokens,lambda x,y : x.union(y), set() )
+
+for c in cocluremig.analyzer.get_all_commits(repo):
+    analyzer.apply_metric(c)
+    # {if, is, for, in, ...}
+```
+
+### Other exmaples
+
+see samples-folder
+
+## LICENSE
+
+GPLv3+
+
+I decided to use GPL because it is really annoying for reproduction if researchers just publish some random pseudocode
+in a paper. This enforces further development on this library to be public.
