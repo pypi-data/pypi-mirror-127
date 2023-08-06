@@ -1,0 +1,8 @@
+fastgenomics_cli/__init__.py,sha256=nByFyU1fdxYmz8gcN9uANZ61TsJ362C6kYhzC7bEcRI,50
+fastgenomics_cli/fg_cli.py,sha256=PNZzz_qAZqGC5YY2c2UYDxdYLeEd3SB8Vm0xlkKDgww,19668
+fastgenomics_cli/fg_configurationupdater.py,sha256=uEt2ovUyx3O02VfViAZycFJnn1R0fp3MarA85G4kXnc,2195
+fastgenomics_cli/fg_upload.py,sha256=mccdTW5hytAurLYH0BEdLIpuGtwzNBbT63icJeJWrI0,4553
+fastgenomics_cli-0.13.0.dist-info/entry_points.txt,sha256=vw5y0SLqMKid9GDkFNB5LFotU_KmGdPTWmgtbfoJQf4,166
+fastgenomics_cli-0.13.0.dist-info/WHEEL,sha256=3tm2ZG-oRLlcavA1Wig9g4cIO0hV_ajg2xEhQivkwx4,99
+fastgenomics_cli-0.13.0.dist-info/METADATA,sha256=nxpiCrxP1y-5iCc3G79mnyt96mDO3NKuTdZG1pLyiOg,10234
+fastgenomics_cli-0.13.0.dist-info/RECORD,,

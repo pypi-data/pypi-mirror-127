@@ -1,0 +1,5 @@
+[console_scripts]
+fg-cli=fastgenomics_cli.fg_cli:run
+fg-configurationupdater=fastgenomics_cli.fg_configurationupdater:main
+fg-upload=fastgenomics_cli.fg_upload:main
+
