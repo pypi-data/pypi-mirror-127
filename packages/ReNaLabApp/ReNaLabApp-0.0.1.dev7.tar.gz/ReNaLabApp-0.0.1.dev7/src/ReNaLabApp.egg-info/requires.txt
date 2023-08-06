@@ -1,0 +1,14 @@
+numpy
+PyQt5
+pyserial
+pylsl
+sklearn
+scipy
+brainflow
+mne
+pyqtgraph
+Pillow
+matplotlib
+pyxdf
+opencv-python
+pyautogui
