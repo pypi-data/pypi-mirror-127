@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+xontrib/default_command.xsh
+xontrib_default_command.egg-info/PKG-INFO
+xontrib_default_command.egg-info/SOURCES.txt
+xontrib_default_command.egg-info/dependency_links.txt
+xontrib_default_command.egg-info/requires.txt
+xontrib_default_command.egg-info/top_level.txt
