@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pylaprof"
+version = "0.2.0"
+description = "A Python sampling profiler for AWS Lambda functions (and not only)."
+authors = ["Giuseppe Lumia <g.lumia@outlook.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+black = "^21.10b0"
+isort = "^5.10.1"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
