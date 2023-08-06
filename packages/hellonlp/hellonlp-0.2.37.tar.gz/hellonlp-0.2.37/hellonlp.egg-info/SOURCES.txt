@@ -1,0 +1,5 @@
+hellonlp.egg-info/PKG-INFO
+hellonlp.egg-info/SOURCES.txt
+hellonlp.egg-info/dependency_links.txt
+hellonlp.egg-info/requires.txt
+hellonlp.egg-info/top_level.txt
