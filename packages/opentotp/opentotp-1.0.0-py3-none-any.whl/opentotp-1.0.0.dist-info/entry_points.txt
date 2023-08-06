@@ -1,0 +1,3 @@
+[console_scripts]
+opentotp = opentotp.__main__:main
+
