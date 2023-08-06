@@ -1,0 +1,16 @@
+tf_gnns/__init__.py,sha256=CHgAp5vidcDY_uKmjPLGbyL8rJLC2mZrQqWrI9BW-gg,821
+tf_gnns/datastructures.py,sha256=x-8bu-pviuk9iw-iWLhbMI4sCOJBc4EhX__v0tiY6fE,18671
+tf_gnns/graphnet_utils.py,sha256=c6gsgCFBLnTVQTI0nwwXBTkTZ7nrJ7pdVlLZsrxJf4A,82644
+tf_gnns/utils.py,sha256=yhiIXn6w-rPgAMRFoWoUtLQIQLwzZcPYsP8pVMZZSQE,8155
+tf_gnns/utils_train.py,sha256=07mvvTmj6C7MUQZ_8VKqfcEh_JdCQw-t1hPPlLbilgg,2259
+tf_gnns/assets/html_css/accordion.js,sha256=GSDpbWeDz8imSOJZCjG2zijLuK6OTnWw0jF2Nmw7BfY,557
+tf_gnns/assets/html_css/pretty_print_accordion.css,sha256=0l-7XxFWVOveLf-aUR9BO2MAfkAW8eYODUHOzb0bUQU,658
+tf_gnns/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tf_gnns/lib/gt_ops.py,sha256=65am67lmuXE3ACMuArNVk64uTUIEO2J55TxKxuW9onw,4150
+tf_gnns/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tf_gnns/models/graphnet.py,sha256=FVsEC5yy7IF-zMtLMGCAxvOc-N3AvZDJgk_EP47Z1H8,11175
+tf_gnns-0.1.4.dist-info/LICENSE,sha256=kSN36hU8hz8ooeRhDuEA0GiPLlZPft_EzZqPmLTt9ec,11347
+tf_gnns-0.1.4.dist-info/METADATA,sha256=Jg1JLofCrebrGiLgXlA6ZgzfdKTej151PcYtYVtffYY,3630
+tf_gnns-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tf_gnns-0.1.4.dist-info/top_level.txt,sha256=aZ7927eYNa-nPovNIAz79qXiYqYCPmQFt0WHKLWz60k,8
+tf_gnns-0.1.4.dist-info/RECORD,,
