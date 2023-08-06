@@ -1,0 +1,6 @@
+README.md
+heroku_guardian.egg-info/PKG-INFO
+heroku_guardian.egg-info/SOURCES.txt
+heroku_guardian.egg-info/dependency_links.txt
+heroku_guardian.egg-info/top_level.txt
+heroku_guardian.egg-info/zip-safe
