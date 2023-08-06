@@ -1,0 +1,17 @@
+customer_churn_model/VERSION,sha256=MwNd9EhurQgzsjxHZAaxusM6CW-O712q9cXt4Ob68Lk,7
+customer_churn_model/__init__.py,sha256=th9ohxzuEcXXjGLm-FH9lSuV-xCoFgvoifcCy1qu2fE,879
+customer_churn_model/config.yml,sha256=QwnrXWFTsStuWYVFztMSbPoqllSIEnX7aJ2t0irA0yA,648
+customer_churn_model/pipeline.py,sha256=hJzmXqY4zIsvSfXRFgGJTQrkDdl3l0HNYD7inrZQSQI,607
+customer_churn_model/predict.py,sha256=x3LihPDWb0cZOry-Ef_UPSAiFC6-l7I10GzwDD5Gpyo,905
+customer_churn_model/train_pipeline.py,sha256=dN1rlntXFtV1JZQus2ZJm-2kydtjMXci-5aygT9vc_w,880
+customer_churn_model/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+customer_churn_model/config/core.py,sha256=sMH73rNCqeQnYNt57xBLH5QcoeHtFwieMlzd9kElTnw,2068
+customer_churn_model/datasets/Customer_Churn.csv,sha256=iL5Lk_vgzINCGvHFA3lMl8NC7KkUwVdtt8J25h1hNYo,977501
+customer_churn_model/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+customer_churn_model/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+customer_churn_model/processing/data_manager.py,sha256=PBU2gNaYlCwSRuZystK76GDGKJjrai5Qm32IISo8sgM,1637
+customer_churn_model/trained_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Customer_churn_model-0.0.1.dist-info/METADATA,sha256=h29mpvw5d6rNZlDOt9f7n8RgdDXvPG19wVzr2Ysdhcw,1179
+Customer_churn_model-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Customer_churn_model-0.0.1.dist-info/top_level.txt,sha256=z2jF0gcCYZM5SqwVWvycZUOUAREoLaK2-isHFvTCmhs,21
+Customer_churn_model-0.0.1.dist-info/RECORD,,
