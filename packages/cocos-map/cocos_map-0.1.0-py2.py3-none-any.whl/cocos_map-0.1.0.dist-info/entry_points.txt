@@ -1,0 +1,3 @@
+[console_scripts]
+cocos_map = cocos_map.cli:main
+
