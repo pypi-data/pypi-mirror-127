@@ -1,0 +1,5 @@
+setup.py
+lisa_gui.egg-info/PKG-INFO
+lisa_gui.egg-info/SOURCES.txt
+lisa_gui.egg-info/dependency_links.txt
+lisa_gui.egg-info/top_level.txt
