@@ -1,0 +1,13 @@
+hellonlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hellonlp/ChineseWordSegmentation/__init__.py,sha256=i6tRecYkCIwOh5XLz85I2lm4lSdKdqi3tXHXYB1v6ug,402
+hellonlp/ChineseWordSegmentation/discovery_word.py,sha256=ygTWmfwXYCnCqqtHptQpSUvysJuAgGG6mKtquH8Xxxc,1389
+hellonlp/ChineseWordSegmentation/hyperparameters.py,sha256=c3QAuC26kRjsSo_mPDlDv5PU5qEJ6dZPS_APV86sFss,519
+hellonlp/ChineseWordSegmentation/modules.py,sha256=pxBEwM1n7YPAGI6sLpyjr8Unb8Yp7bR3SuuRu5n3VdM,8281
+hellonlp/ChineseWordSegmentation/probability.py,sha256=qCujRv3hCVlTHItKwbir5JU7x_2BbbMYtVQ6anPS7dY,742
+hellonlp/ChineseWordSegmentation/segment_entropy.py,sha256=AzK2CdIFbSSeBFURYJdI1pR8W9PuvLdUx7_1cZFbXy8,2018
+hellonlp/ChineseWordSegmentation/tokenization.py,sha256=7e7tpGvQz2xJFGMOYCtMQA4GUJMWaYGWm3F-dyjmdoU,10866
+hellonlp/ChineseWordSegmentation/utils.py,sha256=HmBOY7CKEnebkSbu0d8I9oAumM6QDiwTCpn85f5RLJQ,4865
+hellonlp-0.2.40.dist-info/METADATA,sha256=7XtHjk0MZ1EqiaJ78LvIkfL-Y45QwWEqXza8mbPG9cc,850
+hellonlp-0.2.40.dist-info/RECORD,,
+hellonlp-0.2.40.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+hellonlp-0.2.40.dist-info/top_level.txt,sha256=DvoR7kGfx1SB0309ySqv6cj4-EnqE9znOo4R8132DY8,9
