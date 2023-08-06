@@ -1,0 +1,29 @@
+# Eavesdropper
+
+<badges>[![version](https://img.shields.io/pypi/v/eavesdropper.svg)](https://pypi.org/project/eavesdropper/)
+[![license](https://img.shields.io/pypi/l/eavesdropper.svg)](https://pypi.org/project/eavesdropper/)
+[![pyversions](https://img.shields.io/pypi/pyversions/eavesdropper.svg)](https://pypi.org/project/eavesdropper/)  
+[![powered](https://img.shields.io/badge/Say-Thanks-ddddff.svg)](https://saythanks.io/to/foxe6)
+[![donate](https://img.shields.io/badge/Donate-Paypal-0070ba.svg)](https://paypal.me/foxe6)
+[![made](https://img.shields.io/badge/Made%20with-PyCharm-red.svg)](https://paypal.me/foxe6)
+</badges>
+
+<i>Eavesdropper, an application-level gateway firewall proxy, gives you control over all network traffic.</i>
+
+# Hierarchy
+
+```
+eavesdropper
+'---- EAVESDROPPER()
+    |---- Dropper
+    |   |---- request()
+    |   '---- response()
+    |---- configure()
+    |---- start()
+    '---- stop()
+```
+
+# Example
+
+## python
+See `test`.
