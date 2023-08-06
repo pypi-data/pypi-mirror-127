@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: torchir
+Version: 0.1
+Summary: Pytorch Image Registration Library
+Home-page: https://github.com/BDdeVos/TorchIR
+Author: Bob D. de Vos
+Author-email: b.d.devos@amsterdamumc.nl
+License: MIT
+Download-URL: https://github.com/BDdeVos/TorchIR/archive/refs/tags/version_01.tar.gz
+Description: UNKNOWN
+Keywords: PyTorch,Deep Learning,Image Registration,Affine Registration,Deformable Registration
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
