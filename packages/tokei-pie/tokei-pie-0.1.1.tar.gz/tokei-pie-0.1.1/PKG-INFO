@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tokei-pie
+Version: 0.1.1
+Summary: Draw a pie chart for tokei output.
+Author: laixintao
+Author-email: laixintaoo@gmail.com
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: plotly (>=5.4.0,<6.0.0)
