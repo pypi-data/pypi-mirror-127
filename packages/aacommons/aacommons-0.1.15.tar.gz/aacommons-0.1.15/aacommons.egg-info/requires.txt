@@ -1,0 +1,6 @@
+PyYAML
+jstyleson
+munch
+redis
+requests
+urllib3
