@@ -1,0 +1,3 @@
+[console_scripts]
+imprint = ascimage:imprint_cmd
+
