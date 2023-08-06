@@ -1,0 +1,11 @@
+mopidy_raspberry_gpio/__init__.py,sha256=umIJfF7Xje_-kSPOjYQF0f6r7c0OcFrFtbVegrv3zwg,717
+mopidy_raspberry_gpio/ext.conf,sha256=-e75OSEuhvsyaEw94A-WRYl1dDCqo5AXJAfr-6lTyZ0,275
+mopidy_raspberry_gpio/frontend.py,sha256=RplTonWyYqnnl4UkybIv307yO27YNBxVW7mutinCZ3k,3705
+mopidy_raspberry_gpio/pinconfig.py,sha256=3U4JR1uA-pyCNrAg0TwX9IndblGBsXo2jlQy6HMod44,2003
+mopidy_raspberry_gpio/rotencoder.py,sha256=c5EwusYJx4A7fPvLpTY9azul5JWujyPkS5Zr4T3ttac,1407
+mopidy_raspberry_gpio-1.0.4.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+mopidy_raspberry_gpio-1.0.4.dist-info/METADATA,sha256=2REJtthVJBgC_IkI14gnPHR5FX8kCZ0au5czcQxWpig,4537
+mopidy_raspberry_gpio-1.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mopidy_raspberry_gpio-1.0.4.dist-info/entry_points.txt,sha256=ngcKY1edLZFVzyDhMrLvORgp_mslXP0HnA3QlojraWE,63
+mopidy_raspberry_gpio-1.0.4.dist-info/top_level.txt,sha256=UOp2vvsKDqDsyR3ibhhnuNBD4FsRV7zdfwAxgHKq_4s,22
+mopidy_raspberry_gpio-1.0.4.dist-info/RECORD,,
