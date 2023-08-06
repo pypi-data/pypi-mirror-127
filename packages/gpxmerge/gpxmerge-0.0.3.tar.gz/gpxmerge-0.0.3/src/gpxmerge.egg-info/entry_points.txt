@@ -1,0 +1,3 @@
+[console_scripts]
+gpxmerge = gpxmerge.gpxmerge:main
+

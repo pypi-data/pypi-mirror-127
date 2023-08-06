@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/gpxmerge/__init__.py
+src/gpxmerge/gpxmerge.py
+src/gpxmerge.egg-info/PKG-INFO
+src/gpxmerge.egg-info/SOURCES.txt
+src/gpxmerge.egg-info/dependency_links.txt
+src/gpxmerge.egg-info/entry_points.txt
+src/gpxmerge.egg-info/requires.txt
+src/gpxmerge.egg-info/top_level.txt
