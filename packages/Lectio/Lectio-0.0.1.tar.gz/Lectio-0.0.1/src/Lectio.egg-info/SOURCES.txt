@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Lectio/__init__.py
+src/Lectio/lectioCode.py
+src/Lectio.egg-info/PKG-INFO
+src/Lectio.egg-info/SOURCES.txt
+src/Lectio.egg-info/dependency_links.txt
+src/Lectio.egg-info/top_level.txt
