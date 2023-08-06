@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: rinoh-typeface-symbola
+Version: 0.1.0
+Summary: Symbola typeface
+Home-page: https://github.com/jemrobinson/rinoh-typeface-symbola
+Author: James Robinson
+Author-email: james.em.robinson+pypi@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jemrobinson/rinoh-typeface-symbola/issues
+Keywords: opentype,font
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing :: Fonts
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rinohtype
+
+# rinoh-typeface-symbola
+
+This package provides the [Symbola](https://fontlibrary.org/en/font/symbola) typeface for use with [rinohtype](https://github.com/brechtm/rinohtype#readme).
+Symbola is part of the [Unicode Fonts for Ancient Scripts](http://users.teilar.gr/~g1951d/) project and includes many Unicode symbols.
+
+
