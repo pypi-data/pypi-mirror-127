@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: zzip
+Version: 0.0.2
+Summary: Zipper tool for interacting with data
+Author: Stephen Mizell
+Author-email: smizell@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
