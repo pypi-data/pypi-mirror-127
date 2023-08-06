@@ -1,0 +1,41 @@
+Metadata-Version: 1.1
+Name: caterpillar_mail
+Version: 1.0.1
+Summary: 收发邮件解析邮件的高层封装，极简应用
+Home-page: https://gitee.com/redrose2020_admin/caterpillar_mail
+Author: redrose2100
+Author-email: hitredrose@163.com
+License: MulanPSL2
+Description: # caterpillar_mail 
+        
+        ### caterpillar_mail 简介
+        caterpillar_mail 主要为收发邮件、解析邮件做的进一步高层封装，使用起来及其方便，追求极简的编码方式
+        
+        ### caterpillar_mail 安装方式
+        
+        ```bash
+        pip install caterpillar_mail
+        ```
+        
+        ### caterpillar_mail 使用说明
+        
+        
+        ### caterpillar_mail 发布记录
+        
+        * 1.0.1
+           * 发送邮件功能
+        
+        
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
