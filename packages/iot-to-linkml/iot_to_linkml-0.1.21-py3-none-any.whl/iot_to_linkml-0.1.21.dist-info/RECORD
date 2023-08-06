@@ -1,0 +1,7 @@
+iot_to_linkml/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+iot_to_linkml/becli.py,sha256=yftGGtr-cq-t1rHFLHO23i1m1OltyyjioGXJn3msBxw,14796
+iot_to_linkml/sheet2yaml.py,sha256=2_-cVbNzWD0-eCGR_UZfY8LDcyM4X78x_HpwXDQ20HQ,10695
+iot_to_linkml-0.1.21.dist-info/entry_points.txt,sha256=lCVRjCr_7r5p7WW6xI4bRkKtyZbbGo7NHQDrC9JzFwg,59
+iot_to_linkml-0.1.21.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+iot_to_linkml-0.1.21.dist-info/METADATA,sha256=6KK6wvfjEmYTu_tkANPUOWyuk9L12Iw-P_VSkoIciV8,602
+iot_to_linkml-0.1.21.dist-info/RECORD,,

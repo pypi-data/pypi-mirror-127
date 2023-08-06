@@ -1,0 +1,3 @@
+[console_scripts]
+becli=iot_to_linkml.becli:make_iot_yaml
+
