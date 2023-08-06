@@ -1,0 +1,10 @@
+columngenerationsolverpy/__init__.py,sha256=TxuDFhA5Xi25P9u2l2998cPRxM7g_yUGTzI1hgNjWcQ,161
+columngenerationsolverpy/column_generation.py,sha256=kZ59QrYBdnphqEyT1G8Xb_kpWL9Vo5VCmLs8QsUyOqc,11276
+columngenerationsolverpy/commons.py,sha256=cfdYv131rvClj5cF1dNwyDBtGybNuuHihozTNBmjBZY,5157
+columngenerationsolverpy/greedy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+columngenerationsolverpy/limited_discrepancy_search.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+columngenerationsolverpy-0.0.1.dist-info/LICENSE,sha256=q_G727UR-IxZk3oiAdxHTwWMImRrSmp4l6EM4JfRm-c,1071
+columngenerationsolverpy-0.0.1.dist-info/METADATA,sha256=OcIAV2fK3wuJNhXDAYQjzByYiylQDxO6izcysDRvbjY,1728
+columngenerationsolverpy-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+columngenerationsolverpy-0.0.1.dist-info/top_level.txt,sha256=LPj8MNy7Yx1mwYopYTzXFhh6euWonzQku_1xdZmVC3A,25
+columngenerationsolverpy-0.0.1.dist-info/RECORD,,
