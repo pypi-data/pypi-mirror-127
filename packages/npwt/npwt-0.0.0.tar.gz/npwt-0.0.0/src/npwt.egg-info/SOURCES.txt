@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/npwt/__init__.py
+src/npwt/main.py
+src/npwt.egg-info/PKG-INFO
+src/npwt.egg-info/SOURCES.txt
+src/npwt.egg-info/dependency_links.txt
+src/npwt.egg-info/entry_points.txt
+src/npwt.egg-info/requires.txt
+src/npwt.egg-info/top_level.txt

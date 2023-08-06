@@ -1,0 +1,3 @@
+[console_scripts]
+npwt = npwt.main:main
+
