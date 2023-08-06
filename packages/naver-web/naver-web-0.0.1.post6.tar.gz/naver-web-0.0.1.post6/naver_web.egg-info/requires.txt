@@ -1,0 +1,4 @@
+Flask
+flask-restx
+cryptography
+naver_config
