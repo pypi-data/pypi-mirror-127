@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: webhook-gateway
+Version: 0.1.0
+Summary: A configurable webhook gateway. Routes HTTP webhooks from any source, to any HTTP REST/JSON destination !
+Author: Léo GATELLIER
+Author-email: github@leogatellier.fr
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: System :: Networking
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: coloredlogs (>=15.0.1,<16.0.0)
+Requires-Dist: dependency-injector (>=4.37.0,<5.0.0)
+Requires-Dist: fastapi (>=0.70.0,<0.71.0)
+Requires-Dist: jsonpath-ng (>=1.5.3,<2.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: uvicorn (>=0.15.0,<0.16.0)
