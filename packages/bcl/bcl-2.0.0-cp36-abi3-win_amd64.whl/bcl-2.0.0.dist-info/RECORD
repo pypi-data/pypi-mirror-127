@@ -1,0 +1,9 @@
+bcl/__init__.py,sha256=Jhz4OI513SaqTvXrpYFVoOpGICYMMdpXE11JdB9W34o,153
+bcl/_sodium.pyd,sha256=XzVZpCosR97gkZw5rHNI2EXleglAu87ZTHe6k0L-DtA,158720
+bcl/bcl.py,sha256=uI4IEs1lbl113cBXCkN3rMnXMR3PkRIixOmWOP2nr0k,25090
+bcl/sodium_ffi.py,sha256=3tGNPHr-2MYQkkdohq9gDR_PG7EIZGVsav0s0FQidKA,624
+bcl-2.0.0.dist-info/LICENSE,sha256=PPPK9pZKC4ylV6bQfAwC6cCG0lYWK0et9FmZEaU_5UE,1093
+bcl-2.0.0.dist-info/METADATA,sha256=J__U_I4i9giXOuYf6sH_6-MrAWBHjfL1PfCAodrlTCA,8832
+bcl-2.0.0.dist-info/WHEEL,sha256=g0Gp_9X_YiwOuaF1hZMQNaS1qKUg2WIXRJjlZWggGSw,100
+bcl-2.0.0.dist-info/top_level.txt,sha256=60xDq0p6tuZDUfORyycchJARyVzRys0BDJYe14sKuVU,12
+bcl-2.0.0.dist-info/RECORD,,
