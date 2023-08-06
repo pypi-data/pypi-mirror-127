@@ -1,0 +1,203 @@
+/* Base : Fit : Objects : State: Theme */
+
+/*  Base    */
+
+* {
+box-sizing: border-box;
+border: 0;
+font: inherit;
+font-size: 100%;
+line-height: 1.2em;
+list-style-type: none;
+margin: 0;
+outline: 0;
+padding: 0;
+text-decoration: none;
+vertical-align: baseline;
+}
+
+@font-face {
+font-family: "AA Paro";
+src: local("AA Paro"), local("AAParo-Regular"),
+    url(/fonts/AAParo-Regular.otf) format("opentype"),
+    url(/fonts/aaparo-regular-webfont.woff2) format("woff2"),
+    url(/fonts/aaparo-regular-webfont.woff) format("woff");
+font-weight: 100 950;
+}
+
+/*  Fit  */
+
+body {
+display: grid;
+grid-template-columns: 3fr 5fr 1fr;
+grid-template-areas:
+"vista  speech  control";
+height: 100vh;
+}
+
+.fit-vista {
+background-color: var(--creamy, white);
+border-left: 0.25rem solid var(--pebble, grey);
+font-family: var(--titles);
+grid-area: vista;
+padding-left: 1.0rem;
+}
+
+.fit-control {
+align-items: center;
+background-color: var(--blonde, grey);
+background-image: url("/img/brushed-alum.png");
+border-left: 1rem solid var(--creamy, white);
+display: flex;
+flex-direction: column;
+grid-area: control;
+min-width: 128px;
+}
+
+.fit-speech {
+background-color: var(--rafter, darkslategrey);
+color: var(--creamy, white);
+display: flex;
+flex-direction: column;
+grid-area: speech;
+}
+
+@media screen and (max-width: 1024px) {
+
+body {
+display: grid;
+grid-template-columns: 5fr 1fr;
+grid-template-areas:
+"speech  control"
+}
+
+.fit-vista {
+display: none;
+}
+
+}
+
+main {
+flex-grow: 1;
+margin-left: 1.2rem;
+}
+
+/*  Objects  */
+
+ul.obj-dialogue {
+padding: 0.5em;
+margin-left: 1.5rem;
+margin-right: 0.3rem;
+margin-top: 3.6rem;
+}
+
+ul.obj-dialogue li {
+animation-name: fadeinout;
+animation-fill-mode: both;
+list-style-type: none;
+padding-bottom: 1.2rem;
+padding-top: 1.2rem;
+}
+
+ul.obj-dialogue li:last-of-type {
+animation-name: fadein;
+}
+
+.obj-persona {
+font-family: var(--system);
+font-size: 1.1rem;
+font-weight: lighter;
+margin: 0.25rem 0 0.25rem 0;
+}
+
+.obj-persona:after{
+content: ":";
+}
+
+.obj-speech {
+font-family: var(--system);
+font-size: 1.3rem;
+}
+
+.obj-entity + .obj-speech {
+font-style: italic;
+}
+
+/*  State   */
+
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+12% {
+opacity: 1;
+}
+100% {
+opacity: 1;
+}
+}
+
+@keyframes fadeinout {
+0% {
+opacity: 0;
+}
+12% {
+opacity: 1;
+}
+82% {
+opacity: 1;
+}
+100% {
+opacity: 0.6;
+}
+}
+
+
+/*  Theme   */
+
+body {
+border: 6rem solid var(--creamy, white);
+color: var(--pebble, grey);
+}
+
+h1, h2 {
+letter-spacing: 0.125rem;
+font-family: var(--titles);
+font-size: 3rem;
+margin: 0.2rem 0 0.2rem 1.2rem;
+}
+
+h2 {
+font-size: 1.6rem;
+}
+
+p {
+font-family: var(--system);
+padding-left: 1rem;
+}
+
+img {
+padding: 0.35rem 0.7rem 0.35rem 0.7rem;
+width: 100%;
+}
+
+button {
+background-color: var(--bubble, pink);
+background-image: url("/img/my-little-plaid.png");
+border: 2px solid var(--pebble, grey);
+border-radius: 0.4rem;
+color: var(--creamy, white);
+letter-spacing: 0.125rem;
+font-family: var(--titles);
+font-size: 1.6rem;
+margin-bottom: 0.6rem;
+margin-left: -6%;
+margin-top: 0.6rem;
+padding: 0.6rem;
+width: 112%;
+}
+
+button:hover {
+border: 2px solid var(--creamy, white);
+}
+
