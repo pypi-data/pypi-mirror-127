@@ -1,0 +1,13 @@
+README.md
+setup.py
+crosspress/__init__.py
+crosspress/_darwin.py
+crosspress/_linux.py
+crosspress/_windows.py
+crosspress/crosspress.py
+crosspress.egg-info/PKG-INFO
+crosspress.egg-info/SOURCES.txt
+crosspress.egg-info/dependency_links.txt
+crosspress.egg-info/entry_points.txt
+crosspress.egg-info/requires.txt
+crosspress.egg-info/top_level.txt
