@@ -1,0 +1,12 @@
+six
+sigtools>=2.0
+attrs<20,>=17.4.0
+od
+docutils<0.18
+
+[clize-own-docs]
+sphinx~=4.2.0
+sphinx_rtd_theme
+
+[datetime]
+python-dateutil
