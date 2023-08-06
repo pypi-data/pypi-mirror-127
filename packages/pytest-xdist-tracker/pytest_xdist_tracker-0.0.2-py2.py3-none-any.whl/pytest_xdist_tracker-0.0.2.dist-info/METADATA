@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: pytest-xdist-tracker
+Version: 0.0.2
+Summary: pytest plugin helps to reproduce failures for particular xdist node
+Home-page: https://github.com/DKorytkin/pytest-xdist-tracker
+Author: Denis Korytkin
+Author-email: dkorytkin@gmail.comm
+License: MIT license
+Keywords: py.test,pytest,xdist plugin,tracker,failed tests
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: pytest (>=3.5.1)
+Requires-Dist: pytest-xdist (>=1.23.2)
+Requires-Dist: pytest-forked (>=1.0.1)
+Requires-Dist: six (>=1.15.0)
+
+# pytest-xdist-tracker
+
+This plugin allows us to keep artifact after running test with xdist (parallel)
+
+
+## Installation
+
+```shell
+pip install pytest-xdist-tracker
+```
+
+
+## Using
+
+For example, we use `pytest-xdist` for running tests in parallel and
+we have a test that fails from time to time.
+That definitely a flaky/coupled test that fails because 
+before were executed tests that keep after self some unexpected state for our failed test
+
+`pytest-xdist-tracker` can help with that case
+
+It stores artifact after execution like this one `xdist_stats_worker_gw1.txt`
+where `gw1` is number of xdist node
+
+Then we can reproduce tests which were run in particular node where failure happened
+
+```shell
+pytest --from-xdist-stats=xdist_stats_worker_gw1.txt
+```
+It will collect tests as usual but will filter by our tests
+
+note: this plugin works only with `pytest-xdist`
+
