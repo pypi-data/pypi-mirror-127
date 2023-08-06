@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: securincv
+Version: 0.1
+Summary: A set of functions for computer vision developement
+Home-page: https://github.com/user/reponame
+Author: Balkirat Singh Chahal
+Author-email: balkirat.chahal@gmail.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Computer Visison,Face Detection,Background Replacing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
