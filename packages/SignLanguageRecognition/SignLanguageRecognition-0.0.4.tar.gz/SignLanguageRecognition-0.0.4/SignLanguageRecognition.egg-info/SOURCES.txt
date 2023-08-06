@@ -1,0 +1,12 @@
+README.md
+setup.py
+SignLanguageRecognition.egg-info/PKG-INFO
+SignLanguageRecognition.egg-info/SOURCES.txt
+SignLanguageRecognition.egg-info/dependency_links.txt
+SignLanguageRecognition.egg-info/requires.txt
+SignLanguageRecognition.egg-info/top_level.txt
+src/__init__.py
+src/createDataset.py
+src/landmarkDetection.py
+src/main.py
+src/signLanguageRecognizer.py
