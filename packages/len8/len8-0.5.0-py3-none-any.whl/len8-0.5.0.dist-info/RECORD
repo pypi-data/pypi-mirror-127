@@ -1,0 +1,11 @@
+len8/__init__.py,sha256=5E4faZM_CG1w1nSaXc22qgHj6co_8-44bU9FCQhYUZI,2085
+len8/__main__.py,sha256=x8Yy78_krJdpS7hA3KecgtxRo_w5FxWKzJgSK0tlWac,1626
+len8/checker.py,sha256=JGKHAqzFpgijuRjSxIU0Ny38WrdJNAoE8x16r0rpGuU,9738
+len8/cli.py,sha256=gh_E6hEYXP1S1uCcpD3rkj4OdzA7r94GtC7hMQ235ak,3121
+len8/errors.py,sha256=C17mwmAFFY1EMC9K6DWHXI8dZaUX3jXzWx2Cn3UFVeY,2068
+len8-0.5.0.dist-info/LICENSE,sha256=fM3iV0scchQvyZO0fkkBVwh3Ct_qmM5xAPUIMjJlFg4,1534
+len8-0.5.0.dist-info/METADATA,sha256=2s77fzlKhrHuQ6g8ZAVDWtSLA3Zv22Hd3zY2BdgGkWQ,5296
+len8-0.5.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+len8-0.5.0.dist-info/entry_points.txt,sha256=g2w5hF71imyvPYao_gpR5I5RZ6-mRhgXoaxAoXVF0NA,40
+len8-0.5.0.dist-info/top_level.txt,sha256=A-Ins581j1L-pf3vj6EoQyeVzYcPMuR4_iKUC51PmNk,5
+len8-0.5.0.dist-info/RECORD,,
