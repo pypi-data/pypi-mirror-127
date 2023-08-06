@@ -1,0 +1,12 @@
+zxing/__init__.py,sha256=dobQMHH2PUAqlMTgBVejqJABqVOvO3vGtgTgZXPh7LM,7822
+zxing/__main__.py,sha256=7f--HFaCSV6ZNHiDjNwHnScPWsfcMadVhhCZGmmKCxc,1523
+zxing/version.py,sha256=o03aSTlJ5Rht2OotQZZsgrGv8sQ1cvZnvoB9NJQV1wk,21
+zxing/java/core.jar,sha256=rPowM4wmJntsq2ZVCcIlG7lug1C_ytidWblJuncBH40,539286
+zxing/java/javase.jar,sha256=1-4aA1yya3_VJZgcM9qUe0s5zMoV5KkrC64-Miv83CA,36840
+zxing/java/jcommander.jar,sha256=eJHeu4S1-D6b1XWT6-zjOZq74P2TjPMGs1NMV5E7lhU,83782
+zxing-0.14.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+zxing-0.14.dist-info/METADATA,sha256=-TaRS9wHewqPs3PSdZ9MLflBj80GiuDsXKIg9433RNk,1041
+zxing-0.14.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zxing-0.14.dist-info/entry_points.txt,sha256=JC7OqaZH8Mt1YYcOoAXQTHCvoCwpKHxEhIisedzYlj8,47
+zxing-0.14.dist-info/top_level.txt,sha256=j4z3ScjPsEiiCdS6dcdteS1P37g_d1ZFaWH8gp6fukg,6
+zxing-0.14.dist-info/RECORD,,
