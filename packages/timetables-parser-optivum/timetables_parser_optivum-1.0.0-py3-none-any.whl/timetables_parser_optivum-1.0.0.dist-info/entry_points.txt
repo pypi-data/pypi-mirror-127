@@ -1,0 +1,3 @@
+[console_scripts]
+optivum=timetables.parser.optivum.cli:main
+

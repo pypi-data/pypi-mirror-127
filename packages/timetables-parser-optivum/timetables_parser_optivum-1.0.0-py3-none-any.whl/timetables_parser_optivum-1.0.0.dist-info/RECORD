@@ -1,0 +1,9 @@
+timetables/parser/optivum/__init__.py,sha256=oh0p0fb4ghxOzFqhCBrsq3R-E8mnhNaFh0Q3szhmp2U,70
+timetables/parser/optivum/cli.py,sha256=-DevqmLQuvAFiZdW36PLuUWTT4xERqMdMWrbf2NVuHA,1074
+timetables/parser/optivum/parser.py,sha256=tIicwR5dIbsvzr8v0kGUBZpPq0bXA3q-zj2bmY9OVGs,11749
+timetables/parser/optivum/utils.py,sha256=guXnI509iRtfbgUSTVGHJzQMvkWZxPIqQVV8wgHP96c,2599
+timetables_parser_optivum-1.0.0.dist-info/entry_points.txt,sha256=0CbN3c4fst_TuF3Mo6H_G7t_rI89FgZeqFP026w1PL8,62
+timetables_parser_optivum-1.0.0.dist-info/LICENSE,sha256=j4YxTAJddJwd5r8nWlNsflGma3CnexShkQs5vBE0t1Q,1076
+timetables_parser_optivum-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+timetables_parser_optivum-1.0.0.dist-info/METADATA,sha256=S_9oErFuj_GqVPGUmrdBHvOsNRA5hiMWEA5jzQiATbk,2071
+timetables_parser_optivum-1.0.0.dist-info/RECORD,,
