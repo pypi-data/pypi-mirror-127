@@ -1,0 +1,13 @@
+PySide2
+numpy
+scipy
+opencv-python-headless
+tomlkit
+appdirs
+zarr
+pyreadline
+pluginlib
+thorlabs_apt_device
+thorlabs_mc200b
+andor3
+trs-interface
