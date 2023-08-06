@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: fedhf
+Version: 0.1.1
+Summary: A Federated Learning Framework which is Heterogeneous and Flexible.
+Home-page: https://github.com/beiyuouo/FedHF
+Author: Bingjie Yan
+Author-email: bj.yan.pa@qq.com
+Maintainer: Bingjie Yan
+Maintainer-email: bj.yan.pa@qq.com
+License: Apache-2.0 License
+Keywords: federated learning,deep learning,pytorch,asynchronous federated learning,wandb
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# FedHF
+A Federated Learning Framework which is Heterogeneous and Flexible.
+
+[[ Document ](https://www.bj-yan.top/FedHF/)]
+
+## Feature
+
+
+# Getting Start
+
+```sh
+pip install fedhf
+
+# If you want to use wandb to view log, please login first
+wandb login
+```
+
+# Licence
+
+
+# Reference
+
+Highly inspired by [FedLab](https://github.com/SMILELab-FL/FedLab), thanks for their great work.
+
+
