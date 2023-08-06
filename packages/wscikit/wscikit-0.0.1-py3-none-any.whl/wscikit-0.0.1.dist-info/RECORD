@@ -1,0 +1,9 @@
+wscikit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wscikit/importnp.py,sha256=RdYPoaDj3ZGHbDBxCeuWkW87FyoNaXagyT080kDSyOE,1384
+wscikit/compute/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wscikit/compute/csd.py,sha256=CH7_H8tqovf9_zlYFpsjvlo3fUkh0xphYAplVwRi0BM,2366
+wscikit-0.0.1.dist-info/LICENSE,sha256=8sCEkqJmcg9nksRO3xpwZUg4ArQHqD38TIrq3q7ZZhU,1072
+wscikit-0.0.1.dist-info/METADATA,sha256=sKgTT03ZiztE6cz4Bhhf4xMUJ6UDeJTyEeFFXcWFkaU,592
+wscikit-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wscikit-0.0.1.dist-info/top_level.txt,sha256=fh-o34E4BKow_dEoWIoKnSMtVfANl__i6b-yfktJ3Lc,8
+wscikit-0.0.1.dist-info/RECORD,,
