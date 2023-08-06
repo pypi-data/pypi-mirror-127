@@ -1,0 +1,7 @@
+setup.py
+dulli/__init__.py
+dulli/dulli.py
+dulliABCD.egg-info/PKG-INFO
+dulliABCD.egg-info/SOURCES.txt
+dulliABCD.egg-info/dependency_links.txt
+dulliABCD.egg-info/top_level.txt
