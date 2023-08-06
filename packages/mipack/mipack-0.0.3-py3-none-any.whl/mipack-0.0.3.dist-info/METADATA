@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mipack
+Version: 0.0.3
+Summary: My implemented packages for python
+Home-page: https://github.com/swyo/mipack
+Author: swyo
+Author-email: l22491360@gmail.com
+License: MIT
+Keywords: python,packaging
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# My Implemented Package
+
+Practice of development and deploy codes.
+This repo will be used to create a package by refering this structure.
+
+## Tools
+
+Used tools as follows.
+
+* [github action](https://github.com/features/actions): continuous integration.
+* [sphinx](https://www.sphinx-doc.org/en/master): document is created along with package codes.
+* [streamlit](https://streamlit.io/): streaming dashboard for exploration.
+* [wandb](https://wandb.ai/site): daashboard for states of models.
+
+
