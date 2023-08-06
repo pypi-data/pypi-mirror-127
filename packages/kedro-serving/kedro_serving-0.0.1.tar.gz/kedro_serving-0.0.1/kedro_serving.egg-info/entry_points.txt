@@ -1,0 +1,3 @@
+[kedro.project_commands]
+kedro_serving = kedro_serving.cli:commands
+
