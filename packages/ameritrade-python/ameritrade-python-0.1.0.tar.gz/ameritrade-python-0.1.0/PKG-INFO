@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ameritrade-python
+Version: 0.1.0
+Summary: A python wrapper for the Ameritrade API.
+License: MIT
+Author: Kyler Roloff
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.3,<4.0.0)
+Requires-Dist: dataclass-factory (>=2.10,<3.0)
