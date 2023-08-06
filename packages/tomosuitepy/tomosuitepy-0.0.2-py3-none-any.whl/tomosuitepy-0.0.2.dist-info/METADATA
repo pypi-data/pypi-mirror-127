@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: tomosuitepy
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/WilliamJudge94/tomosuitepy
+Author: William Judge
+Author-email: williamjudge94@gmail.com
+License: UNKNOWN
+Keywords: Tomography CT X-ray microscopy Argonne Advanced Photon Source
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: ==3.6
+Description-Content-Type: text/markdown
+
+TomoSuitePY
+===========
+
+
+Motivation & Features
+---------------------
+
+
+BASIC Installation (git)
+-------------------------
+
+
+Usage
+-----
+
+
+License
+-------
+
+
+
+
