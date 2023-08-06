@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: blather
+Version: 0.0.4
+Summary: Train and use generative language models with only three lines of code.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
