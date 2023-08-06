@@ -1,0 +1,9 @@
+tailscale/__init__.py,sha256=LDMNGpo6CQNPxc1hlDWbdrFDEzP6glfvC9y_D5ZCtR8,422
+tailscale/exceptions.py,sha256=eT_w80089r7odTmK5Kv-BJbg2AX5KFPB6XI0dHsFHZU,313
+tailscale/models.py,sha256=jIDNtLGu4Y7w9sDcd-fYYbQs2rAXOTYh51-PSFcYA-c,1867
+tailscale/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tailscale/tailscale.py,sha256=AKvx-4xRDdTUuI0yU_wpmsm8hNybUmtPqHAxJfOC_Jk,4090
+tailscale-0.1.0.dist-info/LICENSE.md,sha256=vi3i31zoBDWrgVCIaGwumebSmFThWL-8ylARPi-FYIU,1072
+tailscale-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tailscale-0.1.0.dist-info/METADATA,sha256=ZMa4peN6UFs6cW6FyBRqxOLW0jcCmvm1oZJpiXKaCA4,6940
+tailscale-0.1.0.dist-info/RECORD,,
