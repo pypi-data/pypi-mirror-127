@@ -1,0 +1,9 @@
+whichlang/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whichlang/check.py,sha256=d1bdrr_JosKFbDvx5PDE9V0gORRqEu_HmgDJ0IXYQ9s,172
+whichlang/train_lang_models.py,sha256=Bz1s4ulBOMrjsogqo7vxbF6F-ACfnpYspG7oGSO9s30,1052
+whichlang/whichlang.py,sha256=Xgjgf3TbMc3xIqjejABRU8sYDepslAheC2-ys-hfaeE,5710
+whichlang-0.0.3.dist-info/LICENSE,sha256=eHCjoDlMODlRmVAgAqxPsGupis4FMLXKMY8FPdxtHho,1071
+whichlang-0.0.3.dist-info/METADATA,sha256=5kIMnWa_Yl7s6YMo8KOjUbeCjWrtFqtPpNUY3XaLkLw,2774
+whichlang-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+whichlang-0.0.3.dist-info/top_level.txt,sha256=7Hznx0_7ufc1UI20RlsRyAF8iim88dM-u9Zmvl_o0r0,10
+whichlang-0.0.3.dist-info/RECORD,,
