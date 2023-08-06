@@ -1,0 +1,4 @@
+[console_scripts]
+hecss = hecss.cli:hecss_sampler
+hecss_sampler = hecss.cli:_hecss_sampler
+
