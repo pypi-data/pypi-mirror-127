@@ -1,0 +1,8 @@
+setup.py
+src/base.py
+src/waste_simulation.py
+src/waste_simulation.egg-info/PKG-INFO
+src/waste_simulation.egg-info/SOURCES.txt
+src/waste_simulation.egg-info/dependency_links.txt
+src/waste_simulation.egg-info/requires.txt
+src/waste_simulation.egg-info/top_level.txt
