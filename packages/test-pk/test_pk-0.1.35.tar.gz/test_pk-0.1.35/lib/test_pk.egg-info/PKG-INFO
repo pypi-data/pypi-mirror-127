@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: test-pk
+Version: 0.1.35
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: sqlalchemy
+Platform: any
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Provides-Extra: collector_api
+Provides-Extra: all
+
+UNKNOWN
+
