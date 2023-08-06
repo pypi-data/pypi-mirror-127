@@ -1,0 +1,10 @@
+pyodide_importer/__init__.py,sha256=MCeiCUmoWJhbCMQzZogCo5pJ1pdJsOCXqbaSPq1fa-E,131
+pyodide_importer/api.py,sha256=-5AqTc3eAGevlzrW2EKMJjWlvNnGhwSmcpsRCG2c1Rs,1873
+pyodide_importer/import_hook.py,sha256=1nRXk0gzPG86MHdPfarZCiLkFtXY-ptqFi6ecEaj-1I,5080
+pyodide_importer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyodide_importer/tests/test_import_hook.py,sha256=BlCV1ckAUAF-hkrkFWBVqIR9dr7-izUoTj1CE_Oo0QY,2332
+pyodide_importer-0.0.2.dist-info/LICENSE,sha256=qjd6xZsCqexJOVDo756-kd90vSyYOtE1M6ZJvN2kg5U,1070
+pyodide_importer-0.0.2.dist-info/METADATA,sha256=vv_-8jvUbozuLsNCity2rau3JP85osLqgiTVjpy99w8,2261
+pyodide_importer-0.0.2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pyodide_importer-0.0.2.dist-info/top_level.txt,sha256=9ZiHaBDIbzPhUr5_ncHfNI0BVB3XcPvzdblX5ptq3PE,17
+pyodide_importer-0.0.2.dist-info/RECORD,,
