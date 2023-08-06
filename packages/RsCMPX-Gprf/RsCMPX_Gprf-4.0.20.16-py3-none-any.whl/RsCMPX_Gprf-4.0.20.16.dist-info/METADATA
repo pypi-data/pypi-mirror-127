@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: RsCMPX-Gprf
+Version: 4.0.20.16
+Summary: CMX/CMP Global Purpose RF Remote-control Module
+Home-page: UNKNOWN
+Author: Rohde & Schwarz GmbH & Co. KG
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyVisa
+
+Rohde & Schwarz CMX/CMP Global Purpose RF RsCMPX_Gprf instrument driver.
+
+Supported instruments: CMX500, CMP200
+
+The package is hosted here: https://pypi.org/project/RsCMPX_Gprf/
+
+Documentation: https://RsCMPX_Gprf.readthedocs.io/
+
+Examples: https://github.com/Rohde-Schwarz/Examples/
+
+--------------------------------------------------------------------------------
+
+Currently supported CMX/CMP subsystems:
+
+- Base: `RsCMPX_Base <https://RsCMPX_Base.readthedocs.io/>`_
+- GPRF: `RsCMPX_Gprf <https://RsCMPX_Gprf.readthedocs.io/>`_
+- LTE Measurement: `RsCMPX_LteMeas <https://RsCMPX_LteMeas.readthedocs.io/>`_
+- New Radio FR1 Measurement: `RsCMPX_NrFr1Meas <https://RsCMPX_NrFr1Meas.readthedocs.io/>`_
+- New Radio FR2 Measurement: `RsCMPX_NrFr2Meas <https://RsCMPX_NrFr2Meas.readthedocs.io/>`_
+- CMP Ultra Wideband Measurement: `RsCMPX_UwbMeas <https://RsCMPX_UwbMeas.readthedocs.io/>`_
+- CMX/P Signaling: `RsCMX_Signaling <https://RsCMX_Signaling.readthedocs.io/>`_
+
+In case you require support for more subsystems, please contact our customer support on customersupport@rohde-schwarz.com
+with the topic "Auto-generated Python drivers" in the email subject. This will speed up the response process
+
+--------------------------------------------------------------------------------
+
+Release Notes: for the whole RsCMPX_xxx group:
+
+Latest release notes summary: New documentation format, fixed RsCMPX_Gprf parameter in ROUTe:GPRF:GENerator|MEASurement:SPATh
+
+Version 4.0.20.16
+
+- New documentation format, fixed RsCMPX_Gprf parameter in ROUTe:GPRF:GENerator|MEASurement:SPATh to single string
+
+Version 4.0.40.13
+
+- Update of RsCMPX_Base to 4.0.40
+
+Version 4.0.20.12
+
+- Release for RsCMPX_Gprf version 4.0.20
+
+Version 4.0.7.5
+
+- Fixed several misspelled arguments and command headers
+
+Version 4.0.7.4
+
+- Added documentation on ReadTheDocs
+
+Version 4.0.7.3
+
+- Added new subsystems NrFr2Meas, UwbMeas, Signaling
+
+Version 4.0.7.2
+
+- Added new UDF integer number recognition
+- Added RsCMPX_Gprf
+
+Version 4.0.7.1
+
+- First released version
+
+
