@@ -1,0 +1,5 @@
+aiohttp
+pyjwt[crypto]
+
+[proxy-support]
+aiohttp_remotes
