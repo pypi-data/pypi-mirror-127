@@ -1,0 +1,8 @@
+git_commit="70766f6ba0476b86d7d3ddaefcbd71ee4839939d"
+git_commit_timestamp=""
+git_describe="70766f6"
+build_os="Linux 2b57e5f9684a 4.15.0-132-generic #136-Ubuntu SMP Tue Jan 12 14:58:42 UTC 2021 x86_64 GNU/Linux"
+build_machine="2b57e5f9684a"
+build_date="Sat Nov 13 00:15:48 UTC 2021"
+build_user="jenkins"
+version="1.10.1"
