@@ -1,0 +1,7 @@
+README.md
+setup.py
+weaponx/__init__.py
+weaponx.egg-info/PKG-INFO
+weaponx.egg-info/SOURCES.txt
+weaponx.egg-info/dependency_links.txt
+weaponx.egg-info/top_level.txt
