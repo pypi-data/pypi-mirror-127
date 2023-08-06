@@ -1,0 +1,4 @@
+beautifulsoup4
+netifaces
+pycryptodome
+requests-toolbelt
