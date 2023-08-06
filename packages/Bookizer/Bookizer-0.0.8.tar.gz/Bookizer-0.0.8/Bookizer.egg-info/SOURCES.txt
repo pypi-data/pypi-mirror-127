@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Bookizer.egg-info/PKG-INFO
+Bookizer.egg-info/SOURCES.txt
+Bookizer.egg-info/dependency_links.txt
+Bookizer.egg-info/entry_points.txt
+Bookizer.egg-info/not-zip-safe
+Bookizer.egg-info/requires.txt
+Bookizer.egg-info/top_level.txt
+bookizer/__init__.py
+bookizer/__main__.py

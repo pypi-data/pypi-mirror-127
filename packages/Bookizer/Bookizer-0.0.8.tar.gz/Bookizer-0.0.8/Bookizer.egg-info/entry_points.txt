@@ -1,0 +1,3 @@
+[console_scripts]
+bookizer = bookizer.__main__:main
+
