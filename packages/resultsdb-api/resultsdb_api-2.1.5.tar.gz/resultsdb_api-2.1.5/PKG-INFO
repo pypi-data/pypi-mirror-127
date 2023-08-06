@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: resultsdb_api
+Version: 2.1.5
+Summary: Library for simplifying the communication with ResultsDB
+Home-page: https://pagure.io/taskotron/resultsdb_api
+Author: Josef Skladanka
+Author-email: jskladan@redhat.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+UNKNOWN
+

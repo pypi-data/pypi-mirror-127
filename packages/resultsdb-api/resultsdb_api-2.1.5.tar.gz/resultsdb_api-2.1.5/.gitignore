@@ -1,0 +1,17 @@
+*.pyc
+*.pyo
+*.swp
+*__pycache__*
+.ropeproject/
+*.sqlite
+*.sass-cache
+*build/
+*dist/
+*.egg*
+.coverage
+htmlcov/
+test_env/
+.cache
+coverage.xml
+pep8.out
+.tox/
