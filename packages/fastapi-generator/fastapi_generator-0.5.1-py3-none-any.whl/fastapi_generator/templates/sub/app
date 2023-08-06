@@ -1,0 +1,4 @@
+import_setting_flag
+from app.utils import Appbuilder
+
+app = Appbuilder(app_name=settings.app_name).app
