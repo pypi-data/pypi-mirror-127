@@ -1,0 +1,21 @@
+FROM python:3.8-slim
+
+ENV TZ=Asia/Shanghai
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+# 安装依赖: build-essential 是 pycryptodome 所需要的依赖
+RUN sed -i s@/deb.debian.org/@/mirrors.aliyun.com/@g /etc/apt/sources.list \
+    && apt-get clean \
+    && apt-get update \
+    && apt-get install -y sudo curl wget inetutils-ping net-tools build-essential libgl1-mesa-glx libglib2.0-dev
+# 安装依赖
+COPY ./requirements.txt /app/
+RUN pip install -r /app/requirements.txt -i https://pypi.douban.com/simple
+# 自定义依赖
+
+# 工作目录
+WORKDIR /app
+# 复制项目
+COPY ./build/. /app/
+# Run
+CMD ["/app/{PACKAGE_NAME}.bin"]
