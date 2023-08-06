@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: remoteobjects-py
+Version: 0.1.0
+Summary: Python Remote Objects wrapper
+Home-page: https://github.com/prakis/remoteobjects-py
+Author: Kishore
+Author-email: prakis@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: mpi4py (>=2.0)
+Requires-Dist: numpy
+
+UNKNOWN
+
+
