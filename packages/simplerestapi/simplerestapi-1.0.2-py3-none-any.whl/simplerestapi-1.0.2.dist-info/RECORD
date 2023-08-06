@@ -1,0 +1,13 @@
+simplerestapi/__init__.py,sha256=8rxfiXLcDgc99uYCe-6gfIt8wYSQycRHh9CgL5UBFGc,66
+simplerestapi/api.py,sha256=MwOcr6nj-HvYTzAyF0eEHaC8wTLmt9OEXpaQyFbVrw8,4546
+simplerestapi/endpoint.py,sha256=-yRAIeEocozfFXujna5VCy9CXQ-z-t0E3a0MvzNQzys,2611
+simplerestapi/exception.py,sha256=8luCjIUyyGzExZSSarOjF0RG_OxXqY74lWTMM6mxFMA,209
+simplerestapi/main.py,sha256=ptMQlJLzYnlu11AsD3UTFKbvg4pwdJ0Xk3_2-_VUeYY,1365
+simplerestapi/model_validator.py,sha256=NrlOTJigsO8iO5vq4kldsXCnENTliYDZ2RXAZ4k3BOY,1762
+simplerestapi/router.py,sha256=puGhwP5O7f5IIPkd5N16shGl5RQWpFXIMdnHWZVul3s,708
+simplerestapi/url_params.py,sha256=ULkXmy6MHeocrPwgNxnRe5UyxU3G7p0tWppn46ffRs0,2764
+simplerestapi-1.0.2.dist-info/LICENSE,sha256=g7iw1WHw3PBXn980ARCIgZK2yBJ5Y4ASM47FF4uFG-w,1071
+simplerestapi-1.0.2.dist-info/METADATA,sha256=fNvSlIQBcoswoysqkmMmMPqM6PPaFGybbmtaTGZqx5k,4382
+simplerestapi-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+simplerestapi-1.0.2.dist-info/top_level.txt,sha256=Js5zAvcONFYfr6vU4pEFYGlp77fnQb5flrY2BRTdCyw,14
+simplerestapi-1.0.2.dist-info/RECORD,,
