@@ -1,0 +1,10 @@
+README.md
+setup.py
+huggingpics/__init__.py
+huggingpics/classifier.py
+huggingpics/data.py
+huggingpics.egg-info/PKG-INFO
+huggingpics.egg-info/SOURCES.txt
+huggingpics.egg-info/dependency_links.txt
+huggingpics.egg-info/requires.txt
+huggingpics.egg-info/top_level.txt
