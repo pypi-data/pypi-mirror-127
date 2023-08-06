@@ -1,0 +1,5 @@
+pylancelot-0.7.0.dist-info/METADATA,sha256=o_tFJuIjNKHb4hzFkuGacE5B54e-unBGqosTVv97JDw,627
+pylancelot-0.7.0.dist-info/WHEEL,sha256=8IfhksmFDDbNrXfllwbCQrdisFpf6C8r21RsLG5qfKU,130
+lancelot/__init__.py,sha256=MZSkl_hTuzJVmQ5r7gkLaegKBwiYmJFy-obDl80iQVs,52
+lancelot/lancelot.cpython-38-aarch64-linux-gnu.so,sha256=ygkT5kPqT51sSF4v46atlT-sADviaf0cMFcKal1Z1a4,1972944
+pylancelot-0.7.0.dist-info/RECORD,,
