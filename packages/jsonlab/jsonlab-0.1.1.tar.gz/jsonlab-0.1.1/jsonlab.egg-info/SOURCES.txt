@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+jsonlab/__init__.py
+jsonlab/jsonlab.py
+jsonlab.egg-info/PKG-INFO
+jsonlab.egg-info/SOURCES.txt
+jsonlab.egg-info/dependency_links.txt
+jsonlab.egg-info/top_level.txt
