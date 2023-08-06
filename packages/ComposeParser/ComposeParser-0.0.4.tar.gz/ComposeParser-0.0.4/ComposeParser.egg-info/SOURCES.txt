@@ -1,0 +1,12 @@
+LICENSE
+NOTICE
+README.md
+pyproject.toml
+setup.py
+ComposeParser.egg-info/PKG-INFO
+ComposeParser.egg-info/SOURCES.txt
+ComposeParser.egg-info/dependency_links.txt
+ComposeParser.egg-info/not-zip-safe
+ComposeParser.egg-info/top_level.txt
+composeparser/__init__.py
+composeparser/parse.py
