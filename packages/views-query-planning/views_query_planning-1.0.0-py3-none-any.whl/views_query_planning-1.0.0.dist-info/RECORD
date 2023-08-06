@@ -1,0 +1,8 @@
+views_query_planning/__init__.py,sha256=xjRQD0i8oxp4CxLq-q9Io2a02YU2lj2aRlliYpVOVfU,71
+views_query_planning/definitions.py,sha256=hwryiLq4oyWu23Uq2c05P75JWoqDRBZF_rqqQJMSWpc,167
+views_query_planning/exceptions.py,sha256=iJVLipgg4_-4vQMrURgfmotO9qBnSHdZJMTWDNy1AcQ,127
+views_query_planning/query_planning.py,sha256=yCEAArJyuaA8Q6zTeoaZ6N4ZYhwWtNIyM7Tcp8GolYA,5494
+views_query_planning-1.0.0.dist-info/LICENSE,sha256=9nf0Ilw1tFcCX5_BJt5uZkKXaJLT9pzK8i77sJDCtF8,1093
+views_query_planning-1.0.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+views_query_planning-1.0.0.dist-info/METADATA,sha256=ao1HvxZ6NMXMnD0vghFKP2HAxLBBHFgipUbloRwaThA,389
+views_query_planning-1.0.0.dist-info/RECORD,,
