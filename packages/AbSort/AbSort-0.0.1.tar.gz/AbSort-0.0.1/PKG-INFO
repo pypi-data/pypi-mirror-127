@@ -1,0 +1,169 @@
+Metadata-Version: 1.1
+Name: AbSort
+Version: 0.0.1
+Summary: A Very Powerful and fully documented package to perform different types of Sorting techniques on the list Data Structure.
+Home-page: UNKNOWN
+Author: Abenezer Walelign
+Author-email: walelignabenezer@gmail.com
+License: MIT
+Description: AbSort
+        =======
+        
+        Absort is Powerful Python package that performs 8 different types of stable and unstable Sorting algorithms on List Data Structure with full of documentation. 
+        This package will be more beneficial(Usefull) for competitive programmers and developers. So based on your requirement choose your sorting algorithm.
+        
+        USAGE
+        ======
+        
+        importing Library
+        -----------------
+        
+        - import AbSort
+        
+        Creating the  Object
+        sortObj = AbSort.SortingAlgo()
+        
+        
+        awsort
+        ======
+        
+        myList = [490, 395, 388, 496, 497, 350, 469, 435, 310, 1, 3, 2, 7, 4]
+        
+        - Genearting the Sort Result 
+        
+        sortedResult = sortObj.awsort(myList)
+        
+        - Science know the SortedResult variable contains the Sorted List we can print the sorted list saying
+        
+        print(sortedResult)
+        
+        
+        
+        SelectionSort
+        =============
+        
+        myList = [490, 395, 388, 496, 497, 350, 469, 435, 310, 1, 3, 2, 7, 4]
+        
+        - Genearting the Sort Result 
+        
+        sortedResult = sortObj.selectionSort(myList)
+        
+        - Science know the SortedResult variable contains the Sorted List we can print the sorted list saying
+        
+        print(sortedResult)
+        
+        
+        
+        mergeSort
+        =========
+        
+        myList = [490, 395, 388, 496, 497, 350, 469, 435, 310, 1, 3, 2, 7, 4]
+        
+        - Genearting the Sort Result 
+        
+        sortedResult = sortObj.mergeSort(myList)
+        
+        - Science know the SortedResult variable contains the Sorted List we can print the sorted list saying
+        
+        print(sortedResult)
+        
+        
+        
+        quickSort
+        =========
+        
+        myList = [490, 395, 388, 496, 497, 350, 469, 435, 310, 1, 3, 2, 7, 4]
+        
+        - Genearting the Sort Result 
+        
+        sortedResult = sortObj.quickSort(myList)
+        
+        - Science know the SortedResult variable contains the Sorted List we can print the sorted list saying
+        
+        print(sortedResult)
+        
+        
+        
+        bogoSort
+        ========
+        
+        myList = [490, 395, 388, 496, 497, 350, 469, 435, 310, 1, 3, 2, 7, 4]
+        
+        - Genearting the Sort Result 
+        
+        sortedResult = sortObj.bogoSort(myList)
+        
+        - Science know the SortedResult variable contains the Sorted List we can print the sorted list saying
+        
+        print(sortedResult)
+        
+        
+        
+        insertionSort
+        =============
+        
+        myList = [490, 395, 388, 496, 497, 350, 469, 435, 310, 1, 3, 2, 7, 4]
+        
+        - Genearting the Sort Result 
+        
+        sortedResult = sortObj.insertionSort(myList)
+        
+        - Science know the SortedResult variable contains the Sorted List we can print the sorted list saying
+        
+        print(sortedResult)
+        
+        
+        
+        binaryInsertionSort
+        ===================
+        
+        myList = [490, 395, 388, 496, 497, 350, 469, 435, 310, 1, 3, 2, 7, 4]
+        
+        - Genearting the Sort Result 
+        
+        sortedResult = sortObj.binaryInsertionSort(myList)
+        
+        - Science know the SortedResult variable contains the Sorted List we can print the sorted list saying
+        
+        print(sortedResult)
+        
+        
+        
+        bubbleSort
+        ==========
+        
+        myList = [490, 395, 388, 496, 497, 350, 469, 435, 310, 1, 3, 2, 7, 4]
+        
+        - Genearting the Sort Result 
+        
+        sortedResult = sortObj.bubbleSort(myList)
+        
+        - Science know the SortedResult variable contains the Sorted List we can print the sorted list saying
+        
+        print(sortedResult)
+        
+        
+        Dependencies
+        ============
+        
+        - Python v3.x is Required.
+        
+        
+        
+        Change Log
+        ==========
+        
+        
+        0.0.1 (11/14/2021)
+        -------------------
+        
+        - First Release
+        
+        
+Keywords: SortingAlgo
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
