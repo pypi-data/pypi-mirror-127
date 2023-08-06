@@ -1,0 +1,13 @@
+benchmarks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+benchmarks/benchmark_correct.py,sha256=w0uXp7720FfnYwy-EAV4idEsTKAN07702kUHwhO8_gU,666
+benchmarks/benchmark_fit.py,sha256=S6Gacb6u2YJ2WT-KEpdv9arzh55cdhOla7YEZachvy8,701
+benchmarks/benchmark_plot.py,sha256=E2jcPwONUsgesOnwW3kNyaF4VbRcXZm_2UcDCrW_uCU,358
+detectorcal/__init__.py,sha256=JnnLIU8wOPgCNhniDdHjqMNMZ6YIh9t0oM-o_gW89Eg,120
+detectorcal/correct.py,sha256=s3HNFTyiuURNp_MRA4o7n3vTrXLtRIt9qdp_KD6z3_k,12915
+detectorcal/fit.py,sha256=7D0tus8zNuQieBfz5Ce-nsWZf0PH5qv2d33r-0PERl4,11775
+detectorcal/plot.py,sha256=598VoKCPKrtATU_HwUjQ0FET6pta_jSTubP7umlEqRg,4144
+detectorcal-0.0.1.dist-info/LICENSE,sha256=nIZkxbWa4lta7vPIOHvxlwcXkrsO9xj_34vuV0svsJs,1515
+detectorcal-0.0.1.dist-info/METADATA,sha256=9_uN6DHPx4f_5CgzujaIOeaJRw15KYtKDL1ApiqBAkM,9682
+detectorcal-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+detectorcal-0.0.1.dist-info/top_level.txt,sha256=Vm0eT7zsuHlQspPJqLTT33RbUZN5K6KjfD1Aq9SQze4,23
+detectorcal-0.0.1.dist-info/RECORD,,
