@@ -1,0 +1,17 @@
+iotoolz/__init__.py,sha256=Aj6dc-9i_GLsHwHKWtZoOrz-gQESGolr8n3FyWYtJFo,155
+iotoolz/_abc.py,sha256=jXIe7VTwhsinug1HRWEYNHfIOENz0JZce_6CCmz4xT0,31262
+iotoolz/_chardet.py,sha256=HhZvG-h1vmTBbb9mvW4T2DBNP5vm0EpLkiuc18Dsr00,1594
+iotoolz/_toolz.py,sha256=glUhRdTKoy7LFb_oJpuV3S8zndw8lIHq6O7Nbf06viI,179
+iotoolz/extensions/__init__.py,sha256=tJ3vjqNl-qTCKqMHseagDiincHkANmbTje64R7nj3RM,1102
+iotoolz/extensions/_not_implemented.py,sha256=kpqp84GVZzNeutrs4F90PdhSgS0hdR20sCE7FRvRHTg,5649
+iotoolz/extensions/minio.py,sha256=k2SreIju7I_LQVJKBS9IkIUafH0Tc2mIhpD3A6RGhLw,8192
+iotoolz/extensions/s3.py,sha256=zBfz6uMWxI7HjtnE2Sty69-X_aUQ0s0gfMs3m6fnQxI,17318
+iotoolz/file.py,sha256=hjwI3Fi-mPdN0JdhrR9Ldfofbd6aoLNtGgrdBSQlzTg,5538
+iotoolz/http.py,sha256=kIvu5m0_c6zjNQd1pkXBXOFsJrak-tl8PEvjkO1xlfc,4649
+iotoolz/streams.py,sha256=0vEBrYMODcVZxLkqTOgFYwkTyO8o8wOHy87iqNP2hQY,12706
+iotoolz/temp.py,sha256=VsSzQqN8e4iOp9py8J5brsMEXLu5cLRzxow6WHBuNQM,7496
+iotoolz/utils.py,sha256=TBcYamwIfeE2UbG2O4JBWkWBEF3fzUQcbpLhdl-FeX8,1843
+iotoolz-0.1.0.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+iotoolz-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+iotoolz-0.1.0.dist-info/METADATA,sha256=hbD7LWSdk0HM1KipD5HgZ1cG5pY22mBgm-ulKMjejQw,13422
+iotoolz-0.1.0.dist-info/RECORD,,
