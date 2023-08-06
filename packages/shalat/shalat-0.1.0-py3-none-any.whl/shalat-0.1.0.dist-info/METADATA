@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: shalat
+Version: 0.1.0
+Summary: Shalat time calculation
+Home-page: https://github.com/HanzHaxors/shalat
+Author: Haxors
+Author-email: hanzhaxors@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Religion
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+
+# shalat
+
+
