@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+torch_ema/__init__.py
+torch_ema/_version.py
+torch_ema/ema.py
+torch_ema.egg-info/PKG-INFO
+torch_ema.egg-info/SOURCES.txt
+torch_ema.egg-info/dependency_links.txt
+torch_ema.egg-info/requires.txt
+torch_ema.egg-info/top_level.txt
