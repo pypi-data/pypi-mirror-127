@@ -1,0 +1,53 @@
+# Compiled Object files
+**.o
+**.lo
+
+# Compiled Dynamic libraries
+**.so*
+
+# Compiled Static libraries
+**.a
+**.la*
+
+# Executables
+**_x
+
+# Pyfhel building
+Pyfhel/*.pyc
+**/build
+**.eggs
+**.egg-info
+**/dist
+**/gmon.out
+
+# Makefiles
+**/Makefile
+
+# SEAL
+Pyfhel/SEAL/*
+!Pyfhel/SEAL/.gitkeep
+!Pyfhel/SEAL/config.h
+
+# Pyfhel saved objects
+**.pycon
+**.pypk
+**.pysk
+**.pyrok
+**.pyrlk
+
+# Visual Studio Code
+**.vscode
+
+# ipython checkpoints
+**.ipynb
+Pyfhel/Scratchpad
+**.ipynb_checkpoints
+**/__pycache__
+
+# Documentation
+docs/_autosummary
+docs/_autoexamples
+**.doctree
+**.pickle
+docs/html
+docs/doctrees
