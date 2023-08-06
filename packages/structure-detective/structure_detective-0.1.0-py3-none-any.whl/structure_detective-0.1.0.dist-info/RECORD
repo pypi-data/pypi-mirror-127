@@ -1,0 +1,12 @@
+structure_detective/__init__.py,sha256=WjcAT2T5nNT1U7CXFGdRcSAMD8nXwnJ4jv_ku_AZ-Pk,96
+structure_detective/constants.py,sha256=sigekvFdFW5ATw6ATASOUyn5k24hZws63dyUUy-sVgk,292
+structure_detective/de/structure.py,sha256=3wiuIQlyGPgSgNclfIoO5tf2ocgwzY-J09ernPabFBg,3609
+structure_detective/de/trans_structure.py,sha256=bgiPo9pEq3kmdUPO--0cfKTwnsY_oNcuDnmWc-VDWUE,395
+structure_detective/en/structure.py,sha256=byGXPdXQhDVAZLFgCj1tOlVQW-y1a7ehw8Ab_qfBmtA,3704
+structure_detective/en/trans_structure.py,sha256=Dbyjm_oApCdsvdsQaWSycYcEZ260qiIXn_zQxZn1LgE,2370
+structure_detective/es/structure.py,sha256=55Qd3Xys9YImUCph-ITcv__d6zwruhmSi5gi6XB-cmQ,3606
+structure_detective/es/trans_structure.py,sha256=biXCwQ0JdHQtr-zX7CKAWMjjYkxgAhU5G5MaBiVsqzs,395
+structure_detective/structure.py,sha256=J9m0wm0C1cSVPh_GXwW6RasaqZxX65zY-3MtVnxDSAk,799
+structure_detective-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+structure_detective-0.1.0.dist-info/METADATA,sha256=GDxvqaAKQ2DRZc0w7-XKD1BSD_JaPE-rGSf_BfvaZus,386
+structure_detective-0.1.0.dist-info/RECORD,,
