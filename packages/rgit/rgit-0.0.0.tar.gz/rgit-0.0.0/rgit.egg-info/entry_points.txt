@@ -1,0 +1,3 @@
+[console_scripts]
+rgit = rgit.__main__:_ssmain
+
