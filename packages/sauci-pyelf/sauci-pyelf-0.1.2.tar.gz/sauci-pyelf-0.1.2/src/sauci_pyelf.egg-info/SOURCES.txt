@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+setup.py
+src/pyelf/__init__.py
+src/pyelf/cli.py
+src/pyelf/pyelf.py
+src/sauci_pyelf.egg-info/PKG-INFO
+src/sauci_pyelf.egg-info/SOURCES.txt
+src/sauci_pyelf.egg-info/dependency_links.txt
+src/sauci_pyelf.egg-info/entry_points.txt
+src/sauci_pyelf.egg-info/requires.txt
+src/sauci_pyelf.egg-info/top_level.txt
