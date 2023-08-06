@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pygroebner/__init__.py
+src/pygroebner/base_algebra.py
+src/pygroebner/mymath.py
+src/pygroebner/pygroebner.py
+src/pygroebner.egg-info/PKG-INFO
+src/pygroebner.egg-info/SOURCES.txt
+src/pygroebner.egg-info/dependency_links.txt
+src/pygroebner.egg-info/top_level.txt
