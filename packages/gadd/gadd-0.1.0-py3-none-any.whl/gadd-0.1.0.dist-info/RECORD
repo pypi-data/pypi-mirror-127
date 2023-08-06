@@ -1,0 +1,8 @@
+LICENSE,sha256=Aro8k_jUkdc5JrUE6KZNRp9uDH-5Vh2Ngp8xYPNXl5Q,1073
+gadd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gadd/conf.py,sha256=SOGI7TOFUKLso2ASyrxVe_4vtM-fuXKqYoCoxiKrFZI,2526
+gadd/gadd.py,sha256=dToMumObEkQHjSnNnmcMLnhCnm8TvHtbKDILGpndM-0,5146
+gadd-0.1.0.dist-info/LICENSE,sha256=Aro8k_jUkdc5JrUE6KZNRp9uDH-5Vh2Ngp8xYPNXl5Q,1073
+gadd-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+gadd-0.1.0.dist-info/METADATA,sha256=8dguJUc-hXTZOR3Z2xKRDoubdKFxdNzmKuFkHhHKbXM,4023
+gadd-0.1.0.dist-info/RECORD,,
