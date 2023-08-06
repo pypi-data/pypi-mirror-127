@@ -1,0 +1,10 @@
+alembic>=1.7.5
+sqlalchemy>=1.4.27
+unimatrix>=0.14.1
+
+[all]
+asyncpg
+aiomysql
+aiosqlite
+psycopg2-binary
+pytest-asyncio
