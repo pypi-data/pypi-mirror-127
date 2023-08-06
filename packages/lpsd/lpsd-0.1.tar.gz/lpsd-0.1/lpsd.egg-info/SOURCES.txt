@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+versioneer.py
+lpsd/__init__.py
+lpsd/_version.py
+lpsd/lpsd.py
+lpsd.egg-info/PKG-INFO
+lpsd.egg-info/SOURCES.txt
+lpsd.egg-info/dependency_links.txt
+lpsd.egg-info/requires.txt
+lpsd.egg-info/top_level.txt
