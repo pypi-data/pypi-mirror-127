@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: bigmcl
+Version: 0.1b16
+Summary: High throughput large scale Markov clustering (MCL) via subgraph extraction
+Home-page: https://gitlab.com/xonq/bigmcl
+Author: xonq
+Author-email: konkelzach@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.0,<4
+Description-Content-Type: text/markdown
+
+# bigmcl
+
+High throughput large scale Markov clustering (MCL) via subgraph extraction    
+bigmcl will isolate disconnected subgraphs from a large graph file and perform
+Markov clustering on the subgraphs. bigmcl enables MCL on large, highly 
+disconnected graphs, such as those used in orthogroup inference.
+
+## INSTALL
+
+```
+pip install bigmcl
+```
+
+Download `mcl` and add to your path.
+
+
