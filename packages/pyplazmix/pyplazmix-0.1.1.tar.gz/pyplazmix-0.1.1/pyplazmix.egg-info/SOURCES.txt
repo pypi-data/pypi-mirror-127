@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+pyplazmix/__init__.py
+pyplazmix/client.py
+pyplazmix/enums.py
+pyplazmix/errors.py
+pyplazmix/moderator_alert.py
+pyplazmix/news.py
+pyplazmix/online_now.py
+pyplazmix/user.py
+pyplazmix.egg-info/PKG-INFO
+pyplazmix.egg-info/SOURCES.txt
+pyplazmix.egg-info/dependency_links.txt
+pyplazmix.egg-info/requires.txt
+pyplazmix.egg-info/top_level.txt
