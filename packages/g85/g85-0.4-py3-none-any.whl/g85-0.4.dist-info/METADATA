@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: g85
+Version: 0.4
+Summary: G85 wafer map reader / writer
+Home-page: https://mpxd.net/code/jan/g85
+Author: Jan Petykiewicz
+Author-email: jan@mpxd.net
+License: UNKNOWN
+Keywords: design,CAD,EDA,electronics,photonics,IC,mask,wafer,map,G85,wmap
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: numpy
+
+# g85 README
+
+`g85` is a Python module for reading and writing to the G85 XML wafer map format.
+
+
+### Links
+- [Source repository](https://mpxd.net/code/jan/g85)
+- [PyPI](https://pypi.org/project/g85)
+
+
+## Installation
+
+Requirements:
+* python >= 3.7 (written and tested with 3.9)
+* numpy
+
+
+Install with pip:
+```bash
+pip3 install g85
+```
+
+Alternatively, install from git
+```bash
+pip3 install git+https://mpxd.net/code/jan/g85.git@release
+```
+
+## Examples
+
+
