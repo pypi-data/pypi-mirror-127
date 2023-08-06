@@ -1,0 +1,12 @@
+orthanc_api_client/__init__.py,sha256=SLYqYSw-4_OAQwtMATDWPldCaonu4Q_XgAwmckfQOEU,110
+orthanc_api_client/api_client.py,sha256=3khUZZXltO8tWQE3SjAGBXI7x5xhOlc3P5SAHW9aXJE,3976
+orthanc_api_client/exceptions.py,sha256=cUA2M6KpULRWXIsq8C2BWiqW_p_f0cTx88JfPvnkh4o,1937
+orthanc_api_client/helpers.py,sha256=BLjuOLU3gbAXhMYcOL52tvIwQd0Trtk1pSo-UHZWxC4,430
+orthanc_api_client/http_client.py,sha256=apzDI8re_0PbszA6pbzqJEPDheVV9MrqNt-bwK7Txs4,2531
+orthanc_api_client/instances.py,sha256=sxgqYbpl62O3zY5Ls9XTIbRCCh6veNrmOvw1VqKJDOE,355
+orthanc_api_client/resources.py,sha256=H-KsPxH9FveQM7iLsfb9xfYpF0qP7W2xLtO5xmg2fCU,352
+orthanc_api_client-0.0.4.dist-info/LICENSE.txt,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+orthanc_api_client-0.0.4.dist-info/METADATA,sha256=m_ZWs62H2JnM-VHh701Jp6TgVIkuYavTXFOArgaaF_4,1962
+orthanc_api_client-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+orthanc_api_client-0.0.4.dist-info/top_level.txt,sha256=8sB2DHByzGsFm6oV64Qj8aiEPdhid0MTRUrvnxE9NtA,19
+orthanc_api_client-0.0.4.dist-info/RECORD,,
