@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: New Organic Answers
+Version: 0.0.1
+Summary: A way to read Googles "Organic Answer Box"
+Home-page: UNKNOWN
+Author: Josh
+Author-email: josher@gmail.com
+License: MIT
+Description: With this module, you can search for answers of Google Questions.
+        
+        HOW TO USE:
+        
+        To get the answer of a question, type the following line: print(get_answer('why is the sky blue?'))
+        To get the snippet of a question, type the following line: print(get_snippet('why is the sky blue?'))
+        To get the link of the question's source (https://www.rmg.co.uk/stories/topics/why-sky-blue), type the following line: link = get_link(question)
+        print(link)
+        
+        To get the title of the link of the question, type the following line print(get_title('why is the sky blue?'))
+        Lastly, to get the domain (www.rmg.co.uk), first find the link by following the step above, then write out this line: print(get_domain(link))
+        
+        
+        If this module helps you, please share with friends.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (11/13/21)
+        -------------------
+        - First Release
+Keywords: google scraper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
