@@ -1,0 +1,5 @@
+mermaid
+mermaid_apps
+mermaid_demos
+mermaid_experiments
+mermaid_settings
