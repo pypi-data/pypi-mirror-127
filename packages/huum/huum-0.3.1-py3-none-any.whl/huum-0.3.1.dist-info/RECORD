@@ -1,0 +1,9 @@
+huum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huum/const.py,sha256=vKN1LjLroU1jxar6boUeUOLm0VmypWjFsDmsCAO3Ka8,720
+huum/huum.py,sha256=SP7bNKlDM0Mnk7EQpmKgEehtIiwHCceJ78D8y4An-zQ,2699
+huum/schemas.py,sha256=sMB1swJlza6aJWU3f_EE1GREd4pYS1XMueAnt1L0QpI,888
+huum/settings.py,sha256=29NjCDN14WuUeJB41iEXNDK3MJFZDeVAHHFFbfAnmWo,185
+huum-0.3.1.dist-info/LICENSE,sha256=5IfxObw3tCnSBUkc8_jPFqA2EKiQhmZz3jBlLobPwPQ,1073
+huum-0.3.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+huum-0.3.1.dist-info/METADATA,sha256=Y_HZB67o3XHDXKa7fgssDlWW_eoP3f-sgza8-nyJytU,448
+huum-0.3.1.dist-info/RECORD,,
