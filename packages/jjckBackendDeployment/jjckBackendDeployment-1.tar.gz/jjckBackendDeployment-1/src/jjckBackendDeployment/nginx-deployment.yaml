@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    k8s.kuboard.cn/layer: web
+    k8s.kuboard.cn/name: website
+  name: website
+spec:
+  selector:
+    matchLabels:
+      app: k8s_vue
+  replicas: 2 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: k8s_vue
+    spec:
+      containers:
+      - name: web
+        image: docker.muniuma.cn/k8s_vue:8899588214
+        ports:
+        - containerPort: 80

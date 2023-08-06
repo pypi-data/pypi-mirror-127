@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jjckBackendDeployment
+Version: 1
+Summary: 自动部署容器环境
+Home-page: http://gitlab.jjck.cn:2203/zengzhangquan/autodeployment
+Author: 曾章泉
+Author-email: 2943917172@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+#运行命令
+python -m jjckBackendDeployment
+#功能
+k8s的自动部署程序
+

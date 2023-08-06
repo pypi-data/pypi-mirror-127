@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+src/jjckBackendDeployment/DockerActive.py
+src/jjckBackendDeployment/K8sActive.py
+src/jjckBackendDeployment/ProjcetActive.py
+src/jjckBackendDeployment/__init__.py
+src/jjckBackendDeployment/__main__.py
+src/jjckBackendDeployment/kubeconfig.yaml
+src/jjckBackendDeployment/nginx-deployment.yaml
+src/jjckBackendDeployment.egg-info/PKG-INFO
+src/jjckBackendDeployment.egg-info/SOURCES.txt
+src/jjckBackendDeployment.egg-info/dependency_links.txt
+src/jjckBackendDeployment.egg-info/top_level.txt

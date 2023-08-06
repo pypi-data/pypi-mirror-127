@@ -1,0 +1,7 @@
+[build-system]
+requires = [
+    "redis",
+    "docker",
+    "kubernetes",
+]
+build-backend = "setuptools.build_meta"
