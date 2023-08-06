@@ -1,0 +1,12 @@
+.gitignore
+README.md
+codium_mirror.py
+codium_mirror.sh
+setup.py
+codium_mirror/__init__.py
+codium_mirror/codium.mirrors
+codium_mirror.egg-info/PKG-INFO
+codium_mirror.egg-info/SOURCES.txt
+codium_mirror.egg-info/dependency_links.txt
+codium_mirror.egg-info/entry_points.txt
+codium_mirror.egg-info/top_level.txt
