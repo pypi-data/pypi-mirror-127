@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+budoux/__init__.py
+budoux/feature_extractor.py
+budoux/parser.py
+budoux/skip_nodes.json
+budoux/unicode_blocks.json
+budoux/utils.py
+budoux.egg-info/PKG-INFO
+budoux.egg-info/SOURCES.txt
+budoux.egg-info/dependency_links.txt
+budoux.egg-info/top_level.txt
+budoux/models/ja-knbc.json
