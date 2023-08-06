@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/early_stopping/__init__.py
+src/early_stopping/early_stopping.py
+src/early_stopping.egg-info/PKG-INFO
+src/early_stopping.egg-info/SOURCES.txt
+src/early_stopping.egg-info/dependency_links.txt
+src/early_stopping.egg-info/top_level.txt
