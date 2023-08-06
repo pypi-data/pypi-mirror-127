@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tembo
+Version: 0.0.4
+Summary: 
+Author: dtomlinson
+Author-email: dtomlinson@panaetius.co.uk
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.2,<4.0.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: panaetius (>=2.3.2,<3.0.0)
+Requires-Dist: pendulum (>=2.1.2,<3.0.0)
