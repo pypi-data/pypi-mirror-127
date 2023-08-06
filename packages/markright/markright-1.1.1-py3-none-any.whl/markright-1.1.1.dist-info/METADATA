@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: markright
+Version: 1.1.1
+Summary: Templateless markdown template engine
+Home-page: https://gitlab.com/Vadimhtml/markright
+Author: Vadimhtml
+Author-email: i@vadimhtml.ru
+License: MIT
+Keywords: markdown template
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+# markright v&shy;<!---version-->1.1.1<!---/version-->
+*Templateless markdown template engine*
+
+## Install
+
+```shell
+pip install markright
+```
+
+## Python usage
+
+Create a `README.md` file containing:
+```markdown
+Existing value: &shy;<!---foo--><!---/foo-->
+
+Missing value: &shy;<!---bar-->bar<!---/bar-->
+```
+
+Create python script `markright_test.py` with code like:
+```python
+from markright import mark
+
+data = {
+    "foo": "foo"
+}
+
+mark("README.md", data)
+```
+
+```python
+mark("README.md", data, True)  # if you want to keep missing variables in the markup
+```
+
+Run your script `python ./markright_test.py` and you will get `README.md` looks pretty awsome after rendering, for example on gitlab :
+```markdown
+Existing value: &shy;<!---foo-->foo<!---/foo-->
+
+Missing value: &shy;<!---bar-->bar<!---/bar-->
+```
+If you forgot to keep the missing variables, you will get the result:
+```markdown
+Existing value: &shy;<!---foo-->foo<!---/foo-->
+
+Missing value: &shy;<!---bar--><!---/bar-->
+```
+
+Restarting the script does not require clearing the template, just run the script again with new data!
+
+## CLI Usage
+
+```shell
+markright -h # for help
+markright -f README.md -d data.json # take data from json file
+markright -f README.md -d data.ini # take data from [markright] section of ini file
+markright -f README.md -d '{"foo": "bar"}' # data from json string
+
+markright -f README.md -d data.json --dirt # if you want to keep missing variables
+```
+
