@@ -1,0 +1,4 @@
+pyparsing
+tqdm
+numpy
+matplotlib
