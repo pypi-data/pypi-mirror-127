@@ -1,0 +1,14 @@
+relatio/__init__.py,sha256=tp8G0qxB4HX8ag3leEtkFZ4xbk4QmirmMZUznpaOsyo,35
+relatio/clustering.py,sha256=jTeupDg9fojIRFwQ6A4_leu6dcHRxoCOEey2lf0jCrw,10303
+relatio/datasets.py,sha256=CK1yCZvv5MPEQ_HO_0RfkSPYhwNhGbHCp7ZeQEzD8k4,1631
+relatio/graphs.py,sha256=-4S2BYCJpXKJ_iFvfFoYoXPI5-jVRd2seZXGoNC970c,4671
+relatio/named_entity_recognition.py,sha256=Q04dKydkkoRhDecNQaskUci2148xF86c2L_pZPwAaWg,4429
+relatio/semantic_role_labeling.py,sha256=HDkKtFJ6VaCRpISO263AUvROxsvnF4Ublyv59SYm1tM,9965
+relatio/utils.py,sha256=6ku3Vs8-jn8I10ZQwahe3aZHHemfMXBl84AZF2eOJaU,15303
+relatio/verbs.py,sha256=rq-dX7MaNWe7sYQpOrrmoAOSTqtrdrElwEwqJeXWhAw,4737
+relatio/wrappers.py,sha256=Je2OsmeYLp3X-ssuy3sVFQzHhuPkjPW_iL6mehjOIBw,19859
+relatio-0.2.1.dist-info/LICENSE,sha256=Oe23l5Jmx207-UtFGObZiAoTlXey3DYao0ieMbum4CA,1265
+relatio-0.2.1.dist-info/METADATA,sha256=kYTpwJcxpsJb0UgglHj98Ba4o3dK9FP_If2pF-aZZTI,2458
+relatio-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+relatio-0.2.1.dist-info/top_level.txt,sha256=118R0UrXaQ0VImQbWUvKZ3jEi79s8eM46vuId_atGG0,8
+relatio-0.2.1.dist-info/RECORD,,
