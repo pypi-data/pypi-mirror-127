@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/lazylicense/__init__.py
+src/lazylicense/lazylicense.py
+src/lazylicense.egg-info/PKG-INFO
+src/lazylicense.egg-info/SOURCES.txt
+src/lazylicense.egg-info/dependency_links.txt
+src/lazylicense.egg-info/top_level.txt
+src/lazylicense/utils/__init__.py
+src/lazylicense/utils/file_scanner.py
+src/lazylicense/utils/read_write.py
