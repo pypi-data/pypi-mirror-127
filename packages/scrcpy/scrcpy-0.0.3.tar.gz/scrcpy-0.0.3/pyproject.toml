@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "scrcpy"
+version = "0.0.3"
+description = "A python client for scrcpy, i.e. see & control your android device over adb."
+authors = ["lengyue <lengyue@lengyue.me>", "S1M0N38 <bertolottosimone@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/S1M0N38/scrcpy"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+av = "^8.0.3"
+adbutils = "^0.11.0"
+numpy = "^1.21.4"
+
+[tool.black]
+line-length = 79
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
