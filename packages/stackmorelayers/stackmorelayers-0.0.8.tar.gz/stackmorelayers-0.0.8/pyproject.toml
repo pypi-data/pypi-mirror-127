@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "stackmorelayers"
+version = "0.0.8"
+description = "My personal ML library"
+authors = ["Andrew Sonin <sonin.cel@yandex.ru>"]
+repository = "https://github.com/andrewsonin/stackmorelayers"
+homepage = "https://github.com/andrewsonin/stackmorelayers"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "^1.21.4"
+pandas = "^1.3.4"
+matplotlib = "^3.5.0"
+scikit-learn = "^1.0.1"
+catboost = "^1.0.3"
+tqdm = "^4.62.3"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.29.0"
+jupyter = "^1.0.0"
+jupyterlab = "^3.2.3"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools>=57"]
+build-backend = "poetry.core.masonry.api"
