@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: tiny-dag
+Version: 0.0.1
+Summary: Mimimal DAG implementation with Python
+Home-page: https://github.com/omyllymaki/tiny-dag
+Author: Ossi Myllymäki
+Author-email: omyllymaki@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/omyllymaki/tiny-dag/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Tiny DAG
+
+Bare bones implementation of computation (directed, acyclic) graph for Python.
+
+# Requirements
+
+- Python >= 3.6
+- graphviz
+
+# Usage example
+
+```
+from tinydag.graph import Graph
+from tinydag.node import Node
+
+add = lambda a, b: a + b
+mul = lambda a, b: a * b
+div = lambda a, b: a / b
+
+nodes = [
+    Node(["add1", "x"], add, "add2"),
+    Node(["add1", "add2"], mul, "mul"),
+    Node(["x", "y"], add, "add1"),
+    Node(["mul", "z"], div, "div"),
+]
+graph = Graph(nodes)
+graph.render()
+data = {"x": 5, "y": 3, "z": 3}
+results = graph.calculate(data)
+```
+
+render method produces following figure:
+<p align="center">
+<img src="sample_graph.jpg" width="800px" />
+</p>
+
