@@ -1,0 +1,3 @@
+[console_scripts]
+netqasm = netqasm.runtime.cli:cli
+
