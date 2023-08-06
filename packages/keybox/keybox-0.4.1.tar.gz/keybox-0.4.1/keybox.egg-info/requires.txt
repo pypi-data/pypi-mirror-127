@@ -1,0 +1,3 @@
+blessed
+pynacl
+pyperclip
