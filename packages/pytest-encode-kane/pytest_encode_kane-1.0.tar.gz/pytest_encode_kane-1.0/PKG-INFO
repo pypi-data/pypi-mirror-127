@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: pytest_encode_kane
+Version: 1.0
+Summary: set your encoding and logger
+Home-page: https://gitee.com/yanxiaokang0904/pytest_encode_kane
+Author: Kane.Yan
+Author-email: 653847252@qq.com
+License: proprietary
+Description: Show Chinese for your mark.parametrize(). Define logger variable for getting your log
+Keywords: pytest,py.test,pytest_encode_kane
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3.6

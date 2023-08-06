@@ -1,0 +1,3 @@
+[pytest11]
+pytest_encode_kane = pytest_encode_kane.main
+
