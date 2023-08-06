@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+setup.py
+scgc/__init__.py
+scgc/__main__.py
+scgc/apps.py
+scgc/classifier.py
+scgc/fastx.py
+scgc/plot.py
+scgc/utils.py
+scgc.egg-info/PKG-INFO
+scgc.egg-info/SOURCES.txt
+scgc.egg-info/dependency_links.txt
+scgc.egg-info/entry_points.txt
+scgc.egg-info/not-zip-safe
+scgc.egg-info/requires.txt
+scgc.egg-info/top_level.txt

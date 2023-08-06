@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: scgc
+Version: 0.3.0
+Summary: SCGC sequence processing, pipelines, and utilities
+Home-page: https://github.com/BigelowLab/scgcpy
+Author: Joe Brown
+Author-email: jmbrown@bigelow.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+UNKNOWN
+

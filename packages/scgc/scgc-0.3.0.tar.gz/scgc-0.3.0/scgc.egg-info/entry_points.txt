@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        scgc=scgc.__main__:cli
+    
