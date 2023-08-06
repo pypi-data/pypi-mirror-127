@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: RelevanceAI
+Version: 0.15.1
+Summary: UNKNOWN
+Home-page: https://relevance.ai/
+Author: Relevance AI
+Author-email: dev@relevance.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: tqdm (>=4.49.0)
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: loguru (>=0.5.3)
+Requires-Dist: document-utils (>=1.3.0)
+Requires-Dist: requests (>=2.0.0)
+Requires-Dist: numpy (>=1.19.0)
+Provides-Extra: dev
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (>=0.5.0) ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-dotenv ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: types-requests ; extra == 'dev'
+Requires-Dist: openpyxl (>=3.0.9) ; extra == 'dev'
+Requires-Dist: fsspec (>=2021.10.1) ; extra == 'dev'
+Requires-Dist: scikit-learn ; extra == 'dev'
+Requires-Dist: plotly (>=5.3.1) ; extra == 'dev'
+Requires-Dist: typing-extensions ; extra == 'dev'
+Requires-Dist: typeguard ; extra == 'dev'
+Requires-Dist: scikit-learn-extra ; extra == 'dev'
+Requires-Dist: umap-learn (>=0.5.2) ; extra == 'dev'
+Requires-Dist: ivis[cpu] (>=2.0.6) ; extra == 'dev'
+Requires-Dist: ivis[gpu] (>=2.0.6) ; extra == 'dev'
+Provides-Extra: excel
+Requires-Dist: openpyxl (>=3.0.9) ; extra == 'excel'
+Requires-Dist: fsspec (>=2021.10.1) ; extra == 'excel'
+Provides-Extra: ivis-cpu
+Requires-Dist: ivis[cpu] (>=2.0.6) ; extra == 'ivis-cpu'
+Provides-Extra: ivis-gpu
+Requires-Dist: ivis[gpu] (>=2.0.6) ; extra == 'ivis-gpu'
+Provides-Extra: kmedoids
+Requires-Dist: scikit-learn-extra ; extra == 'kmedoids'
+Provides-Extra: notebook
+Requires-Dist: jsonshower ; extra == 'notebook'
+Requires-Dist: scikit-learn ; extra == 'notebook'
+Requires-Dist: plotly (>=5.3.1) ; extra == 'notebook'
+Requires-Dist: typing-extensions ; extra == 'notebook'
+Requires-Dist: typeguard ; extra == 'notebook'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-dotenv ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest-mock ; extra == 'tests'
+Requires-Dist: mypy ; extra == 'tests'
+Requires-Dist: types-requests ; extra == 'tests'
+Requires-Dist: openpyxl (>=3.0.9) ; extra == 'tests'
+Requires-Dist: fsspec (>=2021.10.1) ; extra == 'tests'
+Requires-Dist: scikit-learn ; extra == 'tests'
+Requires-Dist: plotly (>=5.3.1) ; extra == 'tests'
+Requires-Dist: typing-extensions ; extra == 'tests'
+Requires-Dist: typeguard ; extra == 'tests'
+Requires-Dist: scikit-learn-extra ; extra == 'tests'
+Requires-Dist: umap-learn (>=0.5.2) ; extra == 'tests'
+Requires-Dist: ivis[cpu] (>=2.0.6) ; extra == 'tests'
+Requires-Dist: ivis[gpu] (>=2.0.6) ; extra == 'tests'
+Provides-Extra: umap
+Requires-Dist: umap-learn (>=0.5.2) ; extra == 'umap'
+Provides-Extra: vis
+Requires-Dist: scikit-learn ; extra == 'vis'
+Requires-Dist: plotly (>=5.3.1) ; extra == 'vis'
+Requires-Dist: typing-extensions ; extra == 'vis'
+Requires-Dist: typeguard ; extra == 'vis'
+
+UNKNOWN
+
