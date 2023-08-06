@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: data_impute
+Version: 0.0.1
+Summary: Data_impute is a data imputataion library which imputes the missing data in the dataframe.
+Home-page: UNKNOWN
+Author: Vijeth Moudgalya
+Author-email: vijethmoudgalya.conatact@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Data_Cleaning,EDA,Data_preprocessing,utils
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
