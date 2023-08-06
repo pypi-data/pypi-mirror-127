@@ -1,0 +1,5 @@
+[console_scripts]
+nbagile_build_docs = nbagile.docstring:nbagile_build_docs
+nbagile_build_lib = nbagile.docstring:nbagile_build_lib
+nbagile_diff_nbs = nbagile.docstring:nbagile_diff_nbs
+
