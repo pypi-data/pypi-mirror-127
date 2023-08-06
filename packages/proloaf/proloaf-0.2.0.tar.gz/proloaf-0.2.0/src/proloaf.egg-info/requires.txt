@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+torch
+scikit-learn
+datetime
+pyparsing<3,>=2.2.1
+arch
+optuna
+pmdarima
+statsmodels
+tensorboard
