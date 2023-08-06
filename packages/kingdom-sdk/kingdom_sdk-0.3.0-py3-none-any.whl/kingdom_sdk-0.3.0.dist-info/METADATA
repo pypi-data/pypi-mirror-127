@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: kingdom-sdk
+Version: 0.3.0
+Summary: Library containing the core modules for the kingdom-python-server
+License: MIT
+Author: William Abreu
+Author-email: william@t10.digital
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: SQLAlchemy (>=1.4.25,<2.0.0)
+Requires-Dist: jinjasql (>=0.1.8,<0.2.0)
+Requires-Dist: pytz (>=2021.3,<2022.0)
+Requires-Dist: redis (>=3.5.3,<4.0.0)
+Description-Content-Type: text/markdown
+
+# 🏰 Kingdom Core
+
+Library containing the core modules for the kingdom-python-server.
+
+## Test
+
+To test the database package, you need do it manually, running a migration. Make sure the database is configured before.
+
+```bash
+cd tests/poc/
+alembic revision --autogenerate
+alembic upgrade head
+```
+
+The rest, run `pytest`.
+
+Don't commit the generated revision.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `kingdom-core`.
+
+```bash
+pip install kingdom-core
+```
+
+You can use [poetry]() as well.
+
+```bash
+poetry add kingdom-core
+```
+
+## Usage
+
+```python
+from kingdom_sdk.utils import files
+
+orm_files = files.find("orm.py", "/")
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+> This file is based on [Make a README](https://www.makeareadme.com/).
+
