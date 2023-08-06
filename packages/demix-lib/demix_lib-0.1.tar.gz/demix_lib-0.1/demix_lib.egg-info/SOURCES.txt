@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+demix_lib/__init__.py
+demix_lib/demix_download.py
+demix_lib/demix_functions.py
+demix_lib/demix_stats.py
+demix_lib.egg-info/PKG-INFO
+demix_lib.egg-info/SOURCES.txt
+demix_lib.egg-info/dependency_links.txt
+demix_lib.egg-info/top_level.txt
