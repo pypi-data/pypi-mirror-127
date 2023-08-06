@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tembo
+Version: 0.0.5
+Summary: A simple folder organiser for your work notes.
+Home-page: https://tembo-pages.github.io/tembo-core/
+License: MIT
+Keywords: notes,organisation,work
+Author: dtomlinson
+Author-email: dtomlinson@panaetius.co.uk
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.2,<4.0.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: panaetius (>=2.3.2,<3.0.0)
+Requires-Dist: pendulum (>=2.1.2,<3.0.0)
+Project-URL: Documentation, https://tembo-pages.github.io/tembo-core/
+Project-URL: Repository, https://github.com/tembo-pages/tembo-core/
+Description-Content-Type: text/markdown
+
+# Tembo
+
+<center><img src="./assets/tembo_logo.png" width="200px"></center>
+
+A simple folder organiser for your work notes.
+

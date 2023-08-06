@@ -1,0 +1,3 @@
+[console_scripts]
+tembo=tembo.cli.cli:main
+
