@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyodide-importer
+Version: 0.0.1
+Summary: Import hook for Pyodide
+Home-page: https://github.com/ryanking13/pyodide-importer
+Author: ryanking13
+Author-email: def6488@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/ryanking13/pyodide-importer/issues
+Keywords: pyodide
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# pyodide-importer
+
