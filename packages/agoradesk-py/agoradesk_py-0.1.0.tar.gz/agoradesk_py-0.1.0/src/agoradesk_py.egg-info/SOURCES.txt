@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/agoradesk_py/__init__.py
+src/agoradesk_py/agoradesk.py
+src/agoradesk_py/py.typed
+src/agoradesk_py.egg-info/PKG-INFO
+src/agoradesk_py.egg-info/SOURCES.txt
+src/agoradesk_py.egg-info/dependency_links.txt
+src/agoradesk_py.egg-info/not-zip-safe
+src/agoradesk_py.egg-info/requires.txt
+src/agoradesk_py.egg-info/top_level.txt
