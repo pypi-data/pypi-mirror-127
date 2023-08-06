@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+../LICENSE
+../README.md
+hopsworks.egg-info/PKG-INFO
+hopsworks.egg-info/SOURCES.txt
+hopsworks.egg-info/dependency_links.txt
+hopsworks.egg-info/requires.txt
+hopsworks.egg-info/top_level.txt

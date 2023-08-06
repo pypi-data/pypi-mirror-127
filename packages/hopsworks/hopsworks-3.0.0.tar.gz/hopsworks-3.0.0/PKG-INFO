@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hopsworks
+Version: 3.0.0
+Summary: Hopsworks: An wrapper library that uses hsfs and hsfs libraries to interact with the Hopsworks Platform
+Home-page: https://github.com/logicalclocks/hopsworks-api
+Author: Logical Clocks AB
+Author-email: jim@logicalclocks.com
+License: Apache License 2.0
+Download-URL: https://github.com/logicalclocks/hopsworks-api/releases/tag/3.0.0
+Description: # hopsworks-api
+        Wrapper library for hsfs and hsml libraries
+        
+Keywords: Hopsworks,Feature Store,ML,Models,Machine Learning Models,Model Registry,TensorFlow,PyTorch,Machine Learning,MLOps
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
