@@ -1,0 +1,16 @@
+SignLanguageRecognitionLib/__init__.py,sha256=BJQ-6x0NkxBoIDEgkT34P2FM8HUiEz4eUvDFUe509BY,199
+SignLanguageRecognitionLib/createDataset.py,sha256=LaSi9W9x4Y24_6lV4MmAhU9ZwyghZMmzsxDzXSY0pdk,3040
+SignLanguageRecognitionLib/landmarkDetection.py,sha256=TFYkFuzXD1KlffQ_DQK98uBxypscfoA-8SuLkhBGf3g,2960
+SignLanguageRecognitionLib/main.py,sha256=aDmZVdSnmT37I9c98ErxtnFBXrpa5RP2xF6QVoqH3RM,539
+SignLanguageRecognitionLib/signLanguageRecognizer.py,sha256=rww8OtxKeSOXPvWrsoEzhnlNSo5GpC4O0RYxjpUp3rQ,2670
+src/__init__.py,sha256=9r-0nGZ5AleyhXZ8uEXxRf3YQ1wHMRbkcHIiDRukY_c,280
+src/createDataset.py,sha256=LaSi9W9x4Y24_6lV4MmAhU9ZwyghZMmzsxDzXSY0pdk,3040
+src/landmarkDetection.py,sha256=TFYkFuzXD1KlffQ_DQK98uBxypscfoA-8SuLkhBGf3g,2960
+src/main.py,sha256=aDmZVdSnmT37I9c98ErxtnFBXrpa5RP2xF6QVoqH3RM,539
+src/signLanguageRecgnizer.py,sha256=rww8OtxKeSOXPvWrsoEzhnlNSo5GpC4O0RYxjpUp3rQ,2670
+src/signLanguageRecognizer.py,sha256=rww8OtxKeSOXPvWrsoEzhnlNSo5GpC4O0RYxjpUp3rQ,2670
+SignLanguageRecognition-0.0.5.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+SignLanguageRecognition-0.0.5.dist-info/METADATA,sha256=2l0drm_NBIqiakDp_oQLiSEQFgfRU0a9O7fEEnYH5Bo,848
+SignLanguageRecognition-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+SignLanguageRecognition-0.0.5.dist-info/top_level.txt,sha256=Zb16DuN05t7JeTzeERHAYjPM_UUaeBBdUZjH_O0x6Ug,27
+SignLanguageRecognition-0.0.5.dist-info/RECORD,,
