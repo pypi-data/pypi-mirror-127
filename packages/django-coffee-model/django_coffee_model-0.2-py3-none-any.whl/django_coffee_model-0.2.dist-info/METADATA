@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-coffee-model
+Version: 0.2
+Summary: django coffee models
+Home-page: https://github.com/shinkeonkim/django-coffee-model
+Author: shinkeonkim
+Author-email: singun11@kookmin.ac.kr
+License: UNKNOWN
+Keywords: django,models
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
