@@ -1,0 +1,104 @@
+{% raw %}
+<div data-template="timeline">
+    <div class="timeline">
+        <div class="arrow previous" :class="{disabled: isScrollZero && !previousPeriod}" @click="scrollPrev" @dblclick.stop.prevent>&#x25C0;</div>
+        <div class="scroll" ref="periodScroll">
+            <div class="periods" ref="periods">
+                <div v-for="subPeriod in period.children"
+                     :key="subPeriod.id"
+                     class="period"
+                     :class="{empty: !subPeriod.snapshotCount, highlight: highlightPeriod === subPeriod, 'last-level': isLastZoomLevel}"
+                     v-on:click="changePeriod(subPeriod)">
+                    <div class="histo">
+                        <div class="count" v-if="!subPeriod.snapshot && !isLastZoomLevel"><span class="count-inner">{{subPeriod.snapshotCount}}</span></div>
+                        <div class="line"
+                             v-for="histoPeriod in subPeriod.children"
+                             :key="histoPeriod.id"
+                             :style="{height: getHistoLineHeight(histoPeriod.snapshotCount)}"
+                             v-on:click="changePeriodFromHistogram(histoPeriod)"
+                        >
+                            <div class="snap-info" v-if="isLastZoomLevel">{{histoPeriod.snapshot.getTimeDateFormatted()}}</div>
+                        </div>
+                    </div>
+                    <div class="inner">
+                        <div class="label">{{subPeriod.getReadableId()}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrow next" :class="{disabled: isScrollMax && !nextPeriod}" @click="scrollNext" @dblclick.stop.prevent>&#x25B6;</div>
+    </div>
+</div>
+<div data-template="timeline-summary">
+    <div class="summary">
+        <template v-if="parents.length">
+            <span class="item">
+                <span class="goto" @click="changePeriod(parents[0])">{{parents[0].getReadableId(true)}}</span>
+            </span>
+            <span class="count">({{parents[0].snapshotCount}})</span>
+            &gt;
+            <span v-for="(parent,i) in parents" :key="parent.id" class="item" v-if="i > 0">
+                <span class="goto" @click="changePeriod(parent)">{{parent.getReadableId(true)}}</span>
+            </span>
+        </template>
+        <span class="item">
+            <span class="current">{{period.getReadableId(true)}}</span>
+            <span class="count">({{period.snapshotCount}} snapshot<span v-if="period.snapshotCount !== 1">s</span>)</span>
+        </span>
+    </div>
+</div>
+<div data-template="calendar-year">
+    <div class="full-view">
+        <h2>Snapshots in {{year.id}}</h2>
+        <div class="months">
+            <calendar-month
+                    v-for="month in year.children"
+                    :key="month.id"
+                    :month="month"
+                    :year="year"
+                    @goto-period="$emit('goto-period', $event)"
+            ></calendar-month>
+        </div>
+    </div>
+</div>
+<div data-template="calendar-month">
+    <div class="calendar-month">
+        <h3>{{month.getReadableId()}}</h3>
+        <div v-if="month.snapshotCount">
+            <span v-for="(day) in ['S', 'M', 'T', 'W', 'H', 'F', 'S']" class="day" :style="dayStyle">{{day}}</span><br/>
+            <span v-for="(day,i) in days"><br v-if="i && i % 7===0"/><span class="day" :class="{empty: !day || !day.snapshotCount}" :style="dayStyle"><template v-if="day"><span class="size" v-if="day.snapshotCount" :style="getDayCountCircleStyle(day.snapshotCount)" @click="$emit('goto-period', day)"></span>{{day.id}}<span v-if="day.snapshotCount" class="count">{{day.snapshotCount}} snapshot<span v-if="day.snapshotCount!==1">s</span></span></template><template v-else>&nbsp;</template></span></span>
+        </div>
+        <div v-else class="empty">no snapshots</div>
+    </div>
+</div>
+<div data-app="webrecorder-replay-app">
+  <div class="short-nav">
+    <div class="first-line">
+      <div class="logo"><img src="/static/pywb-logo-sm.png" /></div>
+      <div class="url-and-timeline">
+        <div class="url"></div>
+        <timeline
+                v-if="currentPeriod"
+                :period="currentPeriod"
+                @goto-period="gotoPeriod"
+        ></timeline>
+      </div>
+    </div>
+    <div class="second-line">
+      <timeline-summary
+              v-if="currentPeriod"
+              :period="currentPeriod"
+              @goto-period="gotoPeriod"
+      ></timeline-summary>
+      <span class="full-view-toggle" :class="{expanded: showFullView}" @click="showFullView = !showFullView">
+                <template v-if="!showFullView"><span class="detail">show year calendar</span></template><template v-else><span class="detail">hide year calendar</span></template>
+            </span>
+    </div>
+  </div>
+
+  <calendar-year v-if="showFullView"
+                 :period="currentPeriod"
+                 @goto-period="gotoPeriod">
+  </calendar-year>
+</div>
+{% endraw %}

@@ -1,0 +1,381 @@
+
+
+    .timeline {
+        position: relative;
+        display: flex;
+        width: auto;
+        height: 80px;
+        margin: 5px;
+        justify-content: left;
+    }
+
+    .timeline .id {
+        display: inline-block;
+        font-size: 30px;
+    }
+    .timeline .arrow {
+        display: inline-block;
+        width: 20px;
+        font-size: 20px; /* font-size = width of arrow, as it UTF char */
+        line-height: 80px;
+        vertical-align: top;
+        cursor: pointer;
+    }
+    .timeline .arrow.previous {
+    }
+    .timeline .arrow.next {
+    }
+    .timeline .arrow.disabled, .timeline .arrow.disabled:hover {
+        color: lightgray;
+        background-color: transparent;
+        cursor: not-allowed;
+    }
+    .timeline .arrow:hover {
+        background-color: antiquewhite;
+        color: firebrick;
+    }
+
+    .timeline .scroll {
+        position: relative;
+        display: inline-block;
+        width: 100%; /* */
+        height: 100%;
+
+        /* maker scrollable horizontally */
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        scroll-behavior: smooth;
+
+        text-align: center;
+    }
+    /* hide scroll bar */
+    .timeline .scroll::-webkit-scrollbar {
+        display: none;
+    }
+    .timeline .scroll .periods {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        min-width: 600px;
+    }
+
+
+    .timeline .period {
+        flex-grow: 1;
+        position: relative;
+        display: inline-block;
+        height: 100%;
+        /* line-height: 80px; /* use to center middle vertically */
+        white-space: normal;
+        vertical-align: top;
+        text-align: center;
+        /*background-color: #eee;*/
+        /*border-right: 1px solid white; !* all other periods have right border, except first period*!*/
+        cursor: pointer;
+
+        transition: background-color 500ms ease-in-out;
+    }
+    /* 1st period period child el */
+    .timeline .period:nth-child(1) {
+        /*border-left: 1px solid white; !* has left border; all other periods have right border *!*/
+    }
+
+    .timeline .period:hover {
+        background-color: #eeeeee;
+    }
+
+    /* empty period */
+    .timeline .period.empty {
+        color: #aaa;
+        /*background-color: transparent;*/
+    }
+    /* highlighted period */
+    .timeline .period.highlight {
+        background-color: cyan;
+    }
+
+    .timeline .period .label {
+        font-weight: bold;
+        font-size: 14px;
+        font-family: Baskerville, sans-serif;
+    }
+    .timeline .period .count {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        width: 100%;
+        height: 100%;
+        padding: 10px 0 0 0;
+        text-align: center;
+        font-size: 25px;
+    }
+    .timeline .period .count .count-inner {
+        display: inline;
+        width: auto;
+        background-color: rgba(255,255,255,.85);
+        padding: 1px;
+        border-radius: 5px;
+    }
+    .timeline .period:hover .count {
+        display: block;
+    }
+    .timeline .period .inner {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 16px;
+        background-color: white;
+        border-top: 1px solid gray;
+    }
+    .timeline .period.last-level .inner {
+        text-align: left;
+    }
+
+    .timeline .period .histo {
+        display: flex;
+        position: absolute;
+        top: 1px;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        align-items: flex-end;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .timeline .period .histo .line {
+        flex-grow: 1;
+        display: inline-block;
+        background-color: #a6cdf5;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Last level period histogram spaces things evenly */
+    .timeline .period.last-level .histo {
+        justify-content: space-around;
+    }
+
+    /* Last level period histogram lines do not grow, but are fixed width/margin */
+    .timeline .period.last-level .histo .line {
+        flex-grow: unset;
+        width: 5px;
+        margin-left: 2px;
+
+        position: relative;
+    }
+
+        /* update line color on hover*/
+        .timeline .period.last-level .histo .line:hover {
+            background-color: #f5a6eb;
+        }
+
+        /*Last level period histogram line has extra info*/
+        .timeline .period.last-level  .histo .line .snap-info {
+            position: absolute;
+            z-index: 10;
+            top: 30%;
+            left: 120%;
+            display: none;
+            background-color: white;
+            border: 1px solid gray;
+            padding: 2px;
+            white-space: nowrap; /*no wrapping allowed*/
+        }
+            /*show on hover*/
+            .timeline .period.last-level .histo .line:hover .snap-info {
+                display: block;
+            }
+
+
+
+    .summary {
+        margin-left: 210px;
+    }
+
+    .summary .item {
+        position: relative;
+        display: inline;
+        margin: 0 2px 0 0;
+        font-size: 28px;
+    }
+    .summary .count {
+        vertical-align: middle;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .summary .count .verbose {
+        display: none;
+    }
+    .summary .count:hover .verbose {
+        display: inline;
+    }
+
+    .summary .item .goto {
+        margin: 1px;
+        cursor: pointer;
+        color: darkslateblue;
+        text-decoration: underline;
+     }
+    .summary .item .goto:hover {
+        background-color: #a6cdf5;
+    }
+    .summary .item.snapshot {
+        display: block;
+    }
+
+
+
+    .full-view {
+        position: absolute;
+        top: 160px;
+        left: 0;
+        height: 80vh;
+        width: 100%;
+    }
+    .full-view .months {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .full-view h2 {
+        margin: 10px 0;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    .calendar-month {
+        position: relative;
+        display: inline-block;
+        padding: 5px;
+        margin: 0;
+        height: 240px;
+        width: 220px;
+        text-align: center;
+        vertical-align: top;
+    }
+    .calendar-month:hover {
+        background-color: #eeeeee;
+        border-radius: 10px;
+    }
+    .calendar-month > h3 {
+        margin: 0;
+        font-size: 16px;
+    }
+    .calendar-month > .empty {
+        position: absolute;
+        top: 45%;
+        width: 100%;
+        color: gray;
+    }
+    .calendar-month .day {
+        position: relative;
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+    }
+    .calendar-month .day.empty {
+        color: gray;
+    }
+    .calendar-month .day .count {
+        display: none;
+        position: absolute;
+        bottom: 80%;
+        left: 80%;
+        line-height: 1; /* reset to normal */
+        padding: 3px;
+        border-radius: 10px;
+        border-bottom-left-radius: 0;
+        border: 1px solid gray;
+        background-color: white;
+        z-index: 30;
+        white-space: nowrap;
+    }
+    .calendar-month .day:hover .count {
+        display: block;
+    }
+    .calendar-month .day .size {
+        position: absolute;
+        box-sizing: border-box;
+        background-color: rgba(200,100,100,.5);
+        z-index: 10;
+    }
+
+    .calendar-month .day:hover .size {
+        border: 1px solid black;
+        cursor: zoom-in;
+    }
+
+
+  #app {
+    border-bottom: 1px solid lightcoral;
+    height: 150px;
+    width: 100%;
+  }
+  .iframe iframe {
+    width: 100%;
+    height: 80vh;
+  }
+  .logo {
+    margin-right: 30px;
+    width: 180px;
+  }
+  .short-nav {
+    width: 100%;
+    position: relative;
+  }
+  .short-nav .first-line {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .short-nav .second-line {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .short-nav .logo {
+    flex-shrink: initial;
+  }
+
+  .short-nav .url-and-timeline {
+    flex-grow: 2;
+    overflow-x: hidden;
+  }
+
+  .short-nav .url {
+    text-align: left;
+    margin: 0 25px;
+  }
+
+  .full-view-toggle {
+    margin-left: 10px;
+    padding-left: 30px;
+    background-image: url(/static/calendar-icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    background-size: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: zoom-in;
+  }
+  .full-view-toggle:hover {
+    background-color: #eeeeee;
+  }
+  .full-view-toggle .detail {
+    display: none;
+  }
+  .full-view-toggle:hover .detail {
+    display: inline;
+  }
+  .full-view-toggle.expanded {
+    background-color: #eeeeee;
+    cursor: zoom-out;
+  }
