@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bmynab
+Version: 1.0.0
+Summary: Turns bancolombia reports into YNAB readable input files.
+Home-page: https://github.com/odarbelaeze/bmynab
+Author: Oscar Arbeláez
+Author-email: oscar@arbelaez.dev
+License: MIT license
+Keywords: finance,ynab
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Click (<9,>=7.0)
+Requires-Dist: arrow (<2,>1)
+Requires-Dist: xdg (<6,>5)
+Requires-Dist: bullet (<3,>2)
+
+# bmynab
+Bancolombia to YNAB translator.
+
+
