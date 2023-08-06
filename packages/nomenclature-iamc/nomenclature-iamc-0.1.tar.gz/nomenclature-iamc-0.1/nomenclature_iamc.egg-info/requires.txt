@@ -1,0 +1,10 @@
+click>=8
+pyam-iamc>=0.12
+openpyxl
+setuptools>=41
+pydantic
+pyyaml
+jsonschema
+
+[tests]
+pytest
