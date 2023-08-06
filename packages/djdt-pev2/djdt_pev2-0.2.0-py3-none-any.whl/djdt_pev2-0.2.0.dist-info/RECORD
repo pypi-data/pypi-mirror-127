@@ -1,0 +1,14 @@
+djdt_pev2/__init__.py,sha256=DwouMN0mctQAXupskQbrPvK6hCYh_cEvJCUR-4PLsKk,62
+djdt_pev2/apps.py,sha256=0n3IyoFIxI7oWDgMZEdQE5R0p9d9g744U2aYFi72OWg,92
+djdt_pev2/forms.py,sha256=D4OniNGaTkY8EJ6ZuZBw99gMWXabNUg04F5Lk6eescs,159
+djdt_pev2/panels/__init__.py,sha256=EXt0ERVCQ_vSAXkRNL-1UeOq1-hR3R0V3MGHFhzWKUY,6796
+djdt_pev2/templates/djdt_pev2/panels/pev_iframe.html,sha256=phOAwBH5uP1WgfDVAmEc1ozQcFP55MehhMCctUORJDA,2442
+djdt_pev2/templates/djdt_pev2/panels/sql.html,sha256=qfZUCSwveKbI4Fm5_1vSXqgVNuh6X4j-bpR1XhCT3e0,6060
+djdt_pev2/templates/djdt_pev2/panels/sql_explain.html,sha256=U0AObdlObV649a39Osuyj8TPIH1q2rEPcbeQHq5cHog,468
+djdt_pev2/types.py,sha256=ztJCa2PSwa-tUYSQkvNpaTeqXelKCKMZ3imXBLdf-MY,564
+djdt_pev2/utils.py,sha256=SfskwktFetOcqACZ20I0VJYeUurZxaAaW5Tvenj-CBY,4238
+djdt_pev2/views.py,sha256=hkSO2L3T4jcDvZq7EvJo670GUalbXuIqg5XP5tORdTY,2077
+djdt_pev2-0.2.0.dist-info/LICENSE,sha256=TIPZ-OYqniF10hwOZG1GEpDBpsLgAxlNAOvpUTS_Sss,1316
+djdt_pev2-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+djdt_pev2-0.2.0.dist-info/METADATA,sha256=QKpS0meHowcH4Rt1IqsAkiESotl7Ct13zaKiHMKcvnQ,531
+djdt_pev2-0.2.0.dist-info/RECORD,,
