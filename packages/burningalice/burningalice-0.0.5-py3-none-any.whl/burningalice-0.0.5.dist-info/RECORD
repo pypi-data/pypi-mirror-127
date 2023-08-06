@@ -1,0 +1,11 @@
+burningalice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+burningalice/auto_label_tracker.py,sha256=YfKkwUzUO8nZbtYcR3r1bFvTYFMBQd1WRAxnlLj76aM,14207
+burningalice/map_analyzer.py,sha256=mdw9wonH3S6Ewmoj9OYGi7ZYPbjBDq02v2C0JgXawkE,1128
+burningalice/metrics_tracker.py,sha256=m-yvrNjDMvrnWk6r1KQUvcfbus0Wk3ArHFtjfKY7Vaw,2358
+burningalice/text_config_generator.py,sha256=_aZaKmD1XluXKf7miXFx1jZmKGSqNh6_dd69ASNT0X4,2012
+burningalice/text_tracker.py,sha256=_MoRSj9CbzU_C3-EJfcyocXyIng-L3TGsVElN7JwRvI,19592
+burningalice-0.0.5.dist-info/LICENSE,sha256=NyGl_otF24HMMEWodLd-bZHmJZVE0FBYW7aCRZwv6bg,29426
+burningalice-0.0.5.dist-info/METADATA,sha256=AjdrNTCHHcNq6VZ4aGqeULQQm_HxVCOLc3A2fY0sqmk,509
+burningalice-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+burningalice-0.0.5.dist-info/top_level.txt,sha256=CkqYNMgf10BE2Iots4ob2r5S9QBITm_t9YtZSk-1D7k,13
+burningalice-0.0.5.dist-info/RECORD,,
