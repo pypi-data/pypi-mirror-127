@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: elangai
+Version: 1.0.0
+Summary: Inference Engine Platform on Edge Device.
+Home-page: https://www.elang.ai/
+Author: elangai Developer
+Author-email: resha.alfahsi@techbros.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: typer
+
+# elangai
+
+`elangai` is an inference engine platform designed for but not limited to the edge device. This SDK includes the main components of `elangai`.
+
+
+## Installation
+
+
+### Prerequisite
+
+Before installing `elangai`, users have to install the following components:
+
+* TensorRT >= **7.0.0.11**
+* TensorFlow >= **2.5.0**
+* ONNXRuntime >= **1.5.2**
+
+Otherwise, `elangai` won't work as intended.
+
+
+### Install
+
+`elangai` could be installed by following command.
+
+    pip3 install elangai
+
+
+## Quick Guide
+
+
+### Make Your Own AI App
+
+Using the following command on terminal, you could easily generate the AI app.
+
+    elangai generate myapp
+
+
+### Dissect Your AI Model
+
+Use the following command to examine the input and output tensor information of your AI model.
+
+    elangai model-dissector /path/to/your/model.onnx
+
+
+Currently supports `.onnx` and `.tflite` file only.
+
+
+### Convert Your AI Model to `.trt` File
+
+`elangai` only supports `.tflite` and `.trt` file inference. Use the following command to convert `.onnx` model to `.trt` file.
+
+    elangai model-converter --src /path/to/model.onnx  --dst /path/to/model.trt
+
+
+Currently supports `.onnx` file conversion only.
+
+

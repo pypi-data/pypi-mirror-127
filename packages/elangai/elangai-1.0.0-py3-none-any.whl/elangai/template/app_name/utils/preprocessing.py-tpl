@@ -1,0 +1,21 @@
+"""
+Preprocessing utilities for {{ app_name }} application. 
+
+It processes raw input into preprocessed data.
+"""
+
+
+import elangai
+
+
+def default_preprocessing(ELANGAI_ENV):
+    """Preprocessing function.
+
+    :param ELANGAI_ENV: elangai environment variable to interact with
+    :return: valid dictionary of preprocessing output
+    """
+    preprocessed_input = dict()
+    return {'preprocessed_input': preprocessed_input, }
+
+
+preprocessing = {'default' : default_preprocessing, }

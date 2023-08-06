@@ -1,0 +1,21 @@
+"""
+Postprocessing utilities for {{ app_name }} application. 
+
+It processes predicted data into intepretable output.
+"""
+
+
+import elangai
+
+
+def default_postprocessing(ELANGAI_ENV):
+    """Postprocessing function.
+
+    :param ELANGAI_ENV: elangai environment variable to interact with
+    :return: valid dictionary of postprocessing output
+    """
+    inference_data = dict()
+    return {'inference_data': inference_data, }
+
+
+postprocessing = {'default' : default_postprocessing, }

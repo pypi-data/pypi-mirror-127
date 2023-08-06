@@ -1,0 +1,3 @@
+[console_scripts]
+elangai = elangai.__main__:app
+

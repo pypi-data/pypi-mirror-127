@@ -1,0 +1,17 @@
+{
+ "AppName": "{{ app_name }}",
+ "Param": [
+  {
+   "name": "input",
+   "type": "string",
+   "values": ["/dev/video0"],
+   "default": ["/dev/video0"]
+  },
+  {
+   "name": "frame_batch",
+   "type": "int",
+   "values": [1],
+   "default": [1]
+  }
+ ]
+}
