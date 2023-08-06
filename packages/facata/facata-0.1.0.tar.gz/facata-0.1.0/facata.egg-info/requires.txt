@@ -1,0 +1,12 @@
+
+[mariadb]
+mariadb>=1.0.8
+
+[mysql-connector]
+mysql-connector-python>=8.0.27
+
+[pg8000]
+pg8000>=1.23.0
+
+[psycopg2]
+psycopg2-binary>=2.9.2
