@@ -1,0 +1,7 @@
+README.md
+setup.py
+tomosuitepy/__init__.py
+tomosuitepy.egg-info/PKG-INFO
+tomosuitepy.egg-info/SOURCES.txt
+tomosuitepy.egg-info/dependency_links.txt
+tomosuitepy.egg-info/top_level.txt
