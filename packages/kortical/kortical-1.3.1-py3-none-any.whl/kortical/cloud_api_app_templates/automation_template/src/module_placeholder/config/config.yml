@@ -1,0 +1,7 @@
+system_url: <system_url>
+api_token: changeme
+
+instance_name: "automation_template"
+target: 'OutcomeType'
+target_accuracy: 0.8
+not_automated_class: 'Not Automated'
