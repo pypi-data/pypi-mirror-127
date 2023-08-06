@@ -1,0 +1,10 @@
+crosspress/__init__.py,sha256=mER9Z8lDY4nITzefFKISuuZ5CryTkbn6wr2rZ-o4h6s,6931
+crosspress/_darwin.py,sha256=V3uGreac1S1DhGjnAUxwHxe2qPlO9qITubD8Hag5fSA,1521
+crosspress/_linux.py,sha256=uQvr-l6Q_tUKLa9YDpcHAOr9KgGalZJe5romGNm2Bfo,3617
+crosspress/_windows.py,sha256=fJYfRMvJwWjOC_Bhn1TR311233v5fgnJ_ih8jXvfjNw,573
+crosspress/crosspress.py,sha256=OlHVSdWxkUmU2DRN2AYOkNZjQ7C4A4q6B4igLg3QM2k,656
+crosspress-0.1.1.dist-info/METADATA,sha256=eedj13ucZ7odMWIYI685XeOCKU2lF8wvCeuBGS704aM,2072
+crosspress-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+crosspress-0.1.1.dist-info/entry_points.txt,sha256=Mpx1ebCyjJtJ2xj4vcVAJZbo83lk1dLgmwcQjkXb040,59
+crosspress-0.1.1.dist-info/top_level.txt,sha256=oDQHqBFvwhsJItNVcsrj0j_pYyu_z3-jJNRmDRZVtXo,11
+crosspress-0.1.1.dist-info/RECORD,,
