@@ -1,0 +1,36 @@
+{
+  "lang":"eng",
+  "name":"spacysentiment",
+  "version":"1.0",
+  "description":"Sentiment Analysis using Spacy",
+  "author":"Vishnu Nandakumar",
+  "email":"vishnunkumar25@gmail.com",
+  "url":"https://github.com/Vishnunkumar/spacysentiment",
+  "license":"https://github.com/Vishnunkumar/spacysentiment",
+  "spacy_version":">=3.2.0,<3.3.0",
+  "spacy_git_version":"8bda39f08",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  },
+  "labels":{
+    "textcat":[
+      "positive",
+      "negative"
+    ]
+  },
+  "pipeline":[
+    "textcat"
+  ],
+  "components":[
+    "textcat"
+  ],
+  "disabled":[
+
+  ],
+  "requirements":[
+
+  ]
+}

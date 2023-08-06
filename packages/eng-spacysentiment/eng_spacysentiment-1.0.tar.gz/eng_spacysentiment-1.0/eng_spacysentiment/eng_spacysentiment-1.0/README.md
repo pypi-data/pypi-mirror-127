@@ -1,0 +1,25 @@
+Sentiment Analysis using Spacy
+
+| Feature | Description |
+| --- | --- |
+| **Name** | `eng_spacysentiment` |
+| **Version** | `1.0` |
+| **spaCy** | `>=3.2.0,<3.3.0` |
+| **Default Pipeline** | `textcat` |
+| **Components** | `textcat` |
+| **Vectors** | 0 keys, 0 unique vectors (0 dimensions) |
+| **Sources** | n/a |
+| **License** | `https://github.com/Vishnunkumar/spacysentiment` |
+| **Author** | [Vishnu Nandakumar](https://github.com/Vishnunkumar/spacysentiment) |
+
+### Label Scheme
+
+<details>
+
+<summary>View label scheme (2 labels for 1 components)</summary>
+
+| Component | Labels |
+| --- | --- |
+| **`textcat`** | `positive`, `negative` |
+
+</details>
