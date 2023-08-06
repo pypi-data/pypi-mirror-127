@@ -1,0 +1,15 @@
+nlp_dataset_readers/__init__.py,sha256=PWy3cqHmDrMgdW782koxX7UiQXa0xa6hFInGCnzt5Bg,122
+nlp_dataset_readers/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlp_dataset_readers/common/objects.py,sha256=7oylFdWLOc03J97NrHZ2-YVtfAIAxHERe9fGZ0hzui0,1873
+nlp_dataset_readers/common/reader.py,sha256=Ehm3--MecCdDosynVWK2PzTIrodjXu-Q2jVlrVYZVGg,228
+nlp_dataset_readers/semantic_role_labeling/__init__.py,sha256=XqqxjLRwZtXrKgKDfJ6cpR-V-hHgUTJ8cdYl2mJBlnM,69
+nlp_dataset_readers/semantic_role_labeling/objects.py,sha256=3blVJDi-2UvN-OpkNnFkeb7HaKOHaqvMlZw2MRZxwi8,5332
+nlp_dataset_readers/semantic_role_labeling/srl_readers.py,sha256=IaBR8wg8mBlmlFRzTxaN4AM5uV0rAzEwQpRgpH0L3Wc,13383
+nlp_dataset_readers/word_in_context/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlp_dataset_readers/word_in_context/wic_readers.py,sha256=K16ZQBZVCnArBTKJtZglarv_S1wMn0Hf4R9UvG54kYo,255
+nlp_dataset_readers/word_sense_disambiguation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlp_dataset_readers/word_sense_disambiguation/wsd_readers.py,sha256=LuFp5be5_tjMOmSal4RwZfiugKWM_mNbY7J3nzxtFXo,261
+nlp_dataset_readers-0.1.1.dist-info/METADATA,sha256=kCliSzSNoWllYIdsz3QtY1_Pv8uYTcaxyyvO2BWpfyQ,1901
+nlp_dataset_readers-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nlp_dataset_readers-0.1.1.dist-info/top_level.txt,sha256=QT3ob_UUfjD72dTbc2jn6-3KWX-H0QM_Oj9EijJmrkg,20
+nlp_dataset_readers-0.1.1.dist-info/RECORD,,
