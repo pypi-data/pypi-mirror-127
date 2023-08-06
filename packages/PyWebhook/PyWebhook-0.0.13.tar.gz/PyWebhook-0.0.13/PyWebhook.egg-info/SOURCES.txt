@@ -1,0 +1,7 @@
+README.md
+setup.py
+PyWebhook.egg-info/PKG-INFO
+PyWebhook.egg-info/SOURCES.txt
+PyWebhook.egg-info/dependency_links.txt
+PyWebhook.egg-info/requires.txt
+PyWebhook.egg-info/top_level.txt

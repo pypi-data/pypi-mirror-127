@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: PyWebhook
+Version: 0.0.13
+Summary: Easy webhook util
+Home-page: UNKNOWN
+Author: Happy Enderman
+Author-email: <test@gmail.com>
+License: UNKNOWN
+Keywords: python,video,stream,video stream,camera stream,sockets
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# PyWebhook
+PyWebhook Module 
+
+
+# Example :
+
+```py
+import PyWebhook  
+
+#Send a message with webhook
+PyWebhook.send('webhook url','message')
+
+#Delete a webhook
+PyWebhook.send('webhook url')
+
+
+#Give info of a Webhook
+PyWebhook.info('webhook url')
+
+#Give Features of module
+PyWebhook.help()
+```
+
+
