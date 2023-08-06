@@ -1,0 +1,9 @@
+[aiida.calculations]
+fenics.pfdisloc = aiida_fenics.calculation.pfdisloc:PfdislocCalculation
+
+[aiida.parsers]
+fenics.pfdislocparser = aiida_fenics.parsers.pfdisloc:PfdislocParser
+
+[console_scripts]
+aiida-fenics = aiida_fenics.cli:cmd_root
+

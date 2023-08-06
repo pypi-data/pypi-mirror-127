@@ -1,0 +1,15 @@
+aiida_fenics/__init__.py,sha256=Ujk2wJ8BhGnG2iARWbNEiygyZe2QaxuOfsIbpe_cPFg,868
+aiida_fenics/calculation/__init__.py,sha256=LpiZUwmeNtzwzykbZhtZ2m7eDeUmjwY3W9Sjdd9d7ag,846
+aiida_fenics/calculation/pfdisloc.py,sha256=iyYSEhoxkTyQGiqFcnx2f8aHny8YFlqZQcETsWeLSvY,6667
+aiida_fenics/cli/__init__.py,sha256=Xa6f29FyCDB4YKneDsfxJtZzjQJKrgXLQJgIOg86uCs,2212
+aiida_fenics/data/__init__.py,sha256=LpiZUwmeNtzwzykbZhtZ2m7eDeUmjwY3W9Sjdd9d7ag,846
+aiida_fenics/parsers/__init__.py,sha256=LpiZUwmeNtzwzykbZhtZ2m7eDeUmjwY3W9Sjdd9d7ag,846
+aiida_fenics/parsers/pfdisloc.py,sha256=9OcEa3UpQ-aKKTQUej30hoy7hy6Lf6BB2eClRqZfl1Y,1999
+aiida_fenics/workflows/__init__.py,sha256=LpiZUwmeNtzwzykbZhtZ2m7eDeUmjwY3W9Sjdd9d7ag,846
+aiida_fenics-0.1.0.dist-info/AUTHORS,sha256=IB2hqlIMXsSV36Fn4I8QxIjkoM1Lr6-gC84W3WW4HiY,210
+aiida_fenics-0.1.0.dist-info/LICENSE,sha256=OcMkXusI5s5Vfzc93-w89MEdpwAUJZo1aS9W202RI_k,1216
+aiida_fenics-0.1.0.dist-info/METADATA,sha256=6YA0Him5KX58rWbfTzEC6kc__YFNZAs5T2soWW8xEpM,6267
+aiida_fenics-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aiida_fenics-0.1.0.dist-info/entry_points.txt,sha256=TmfoMc6aUCsGthAZgciFxwLcKevJVUycilZ-iWaxHkk,240
+aiida_fenics-0.1.0.dist-info/top_level.txt,sha256=e-hwNt3SsxQCzxN8InyXrnUegc0C-mXpG_9tfnCkhDE,13
+aiida_fenics-0.1.0.dist-info/RECORD,,
