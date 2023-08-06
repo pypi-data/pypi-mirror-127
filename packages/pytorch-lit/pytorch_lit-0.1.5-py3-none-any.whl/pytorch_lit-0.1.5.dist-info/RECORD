@@ -1,0 +1,12 @@
+pytorch_lit/__init__.py,sha256=dEpLFXXucEBtS-awkkcLj-zhjEMbp8YmGdV6yRDcGXg,68
+pytorch_lit/export.py,sha256=MVsdM9TBr3m1fbL71bXBGDlwXEK5Csqvnf-L2UgOh8c,1879
+pytorch_lit/inference.py,sha256=ufUSAU-n67nm_-np-xYAZ0fyjDxGGaPOplvk43PJQSw,3884
+pytorch_lit/memory.py,sha256=XGA8Bw_KT7v66nAaauZoCzNyEJX2toII_4K5LIHBmDs,1266
+pytorch_lit/shared_params.py,sha256=3wUhBonuku5aTesOTotZDzcmFAfZyjhgDYOrcbeU4lI,1409
+pytorch_lit/util.py,sha256=HMX5hvDsmvZwr8gdP47bYlx6A80CpYW-w5BMyg0WUPU,210
+pytorch_lit/weights.py,sha256=7olXbXq2Uxsew--Xth6asxe1eh3T-sqmV7f7OybXfkY,1654
+pytorch_lit-0.1.5.dist-info/LICENSE,sha256=xC9dTD_bBcIFqGD2LtHAN2yqZT8qKo9aNPNPp1N-Ndc,1068
+pytorch_lit-0.1.5.dist-info/METADATA,sha256=SjfVRmF8doQFQ3P202sUIxFC_A4lo3ee7nu3XnqNQ00,404
+pytorch_lit-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pytorch_lit-0.1.5.dist-info/top_level.txt,sha256=XRVBMEo0F0DWRaXDGWj9c08uS-sB7mF-YrSLKsbcfLU,12
+pytorch_lit-0.1.5.dist-info/RECORD,,
