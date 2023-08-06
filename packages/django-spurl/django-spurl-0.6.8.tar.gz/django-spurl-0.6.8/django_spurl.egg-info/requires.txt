@@ -1,0 +1,11 @@
+urlobject>=2.4.0
+six
+
+[develop]
+tox
+django
+nose
+
+[test]
+coverage
+nose
