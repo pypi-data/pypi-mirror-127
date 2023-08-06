@@ -1,0 +1,8 @@
+edx-django-utils>=3.12.0
+djangorestframework
+edx-drf-extensions
+django-config-models
+django-model-utils
+edx-toggles
+Django>=2.2
+edx-celeryutils
