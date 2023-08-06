@@ -1,0 +1,3 @@
+[console_scripts]
+gen_lingua_docx=linguadoc._entry:gen_lingua_docx
+
