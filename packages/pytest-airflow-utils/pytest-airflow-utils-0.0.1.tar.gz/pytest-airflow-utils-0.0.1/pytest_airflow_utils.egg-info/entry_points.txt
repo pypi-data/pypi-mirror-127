@@ -1,0 +1,3 @@
+[pytest11]
+pytest-airflow-utils = pytest_airflow_utils.plugin
+
