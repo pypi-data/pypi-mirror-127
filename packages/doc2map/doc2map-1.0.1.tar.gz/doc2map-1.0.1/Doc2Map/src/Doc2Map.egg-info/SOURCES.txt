@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+Doc2Map/src/Doc2Map.py
+Doc2Map/src/Doc2Map.egg-info/PKG-INFO
+Doc2Map/src/Doc2Map.egg-info/SOURCES.txt
+Doc2Map/src/Doc2Map.egg-info/dependency_links.txt
+Doc2Map/src/Doc2Map.egg-info/top_level.txt
+Doc2Map/src/doc2map.egg-info/PKG-INFO
+Doc2Map/src/doc2map.egg-info/SOURCES.txt
+Doc2Map/src/doc2map.egg-info/dependency_links.txt
+Doc2Map/src/doc2map.egg-info/requires.txt
+Doc2Map/src/doc2map.egg-info/top_level.txt
