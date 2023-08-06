@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+pictorial/__init__.py
+pictorial/aggregate.py
+pictorial/bar.py
+pictorial/box.py
+pictorial/subplots.py
+pictorial/utility.py
+pictorial.egg-info/PKG-INFO
+pictorial.egg-info/SOURCES.txt
+pictorial.egg-info/dependency_links.txt
+pictorial.egg-info/requires.txt
+pictorial.egg-info/top_level.txt
+pictorial/testing/__init__.py
+pictorial/testing/data.py
