@@ -1,0 +1,9 @@
+setup.py
+libcreator/__init__.py
+libcreator/__main__.py
+libcreator/libcreator.py
+libcreator.egg-info/PKG-INFO
+libcreator.egg-info/SOURCES.txt
+libcreator.egg-info/dependency_links.txt
+libcreator.egg-info/requires.txt
+libcreator.egg-info/top_level.txt
