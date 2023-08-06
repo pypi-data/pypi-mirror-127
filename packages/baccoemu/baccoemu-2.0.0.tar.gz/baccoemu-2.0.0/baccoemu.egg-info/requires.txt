@@ -1,0 +1,9 @@
+numpy
+sklearn
+keras
+matplotlib
+scipy
+tensorflow
+setuptools
+requests
+progressbar2

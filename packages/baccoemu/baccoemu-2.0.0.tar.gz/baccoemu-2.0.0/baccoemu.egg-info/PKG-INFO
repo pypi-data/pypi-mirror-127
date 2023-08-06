@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: baccoemu
+Version: 2.0.0
+Summary: Matter power spectrum emulator
+Home-page: http://dipc.org/bacco/
+Author: Raul E Angulo
+Author-email: rangulo@dipc.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+UNKNOWN
+
