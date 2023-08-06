@@ -1,0 +1,3 @@
+[console_scripts]
+monitoring_db_license_generator = monitoring_db_license_generator.app:main
+
