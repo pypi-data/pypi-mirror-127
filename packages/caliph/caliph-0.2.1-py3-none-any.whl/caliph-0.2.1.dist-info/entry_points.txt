@@ -1,0 +1,4 @@
+[console_scripts]
+calibrate-ph=caliph:calib
+convert-ph=caliph:conv
+

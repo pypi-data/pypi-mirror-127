@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: caliph
+Version: 0.2.1
+Summary: A simple tool to calibrate and convert pH measurements using a two point method.
+Author: Peter Dunne
+Author-email: peter.dunne@applied-magnetism.com
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fire (>=0.4.0,<0.5.0)
+Requires-Dist: numpy (>=1.18,<2.0)
