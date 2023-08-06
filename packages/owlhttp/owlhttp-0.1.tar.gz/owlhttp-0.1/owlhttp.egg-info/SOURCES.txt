@@ -1,0 +1,5 @@
+setup.py
+owlhttp.egg-info/PKG-INFO
+owlhttp.egg-info/SOURCES.txt
+owlhttp.egg-info/dependency_links.txt
+owlhttp.egg-info/top_level.txt
