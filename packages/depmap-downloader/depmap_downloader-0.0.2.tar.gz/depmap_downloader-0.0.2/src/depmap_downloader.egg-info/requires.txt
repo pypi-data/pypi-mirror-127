@@ -1,0 +1,16 @@
+click
+more_click
+requests
+pystow
+beautifulsoup4
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+sphinx-autodoc-typehints
+sphinx_automodapi
+
+[tests]
+pytest
+coverage
