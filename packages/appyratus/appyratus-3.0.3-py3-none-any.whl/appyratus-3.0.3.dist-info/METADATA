@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: appyratus
+Version: 3.0.3
+Summary: Not your momma's Python toolkit
+Home-page: https://github.com/gigaquads/appyratus.git
+Author: Gigaquads
+Author-email: what@gigaquads.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: ipython
+Requires-Dist: pytest
+Requires-Dist: python-dateutil
+Requires-Dist: pyyaml
+Requires-Dist: pytz
+Requires-Dist: uvloop
+Requires-Dist: jinja2
+Requires-Dist: python-rapidjson
+Requires-Dist: aiohttp (==3.6.2)
+Requires-Dist: bcrypt
+Requires-Dist: inflect
+Requires-Dist: beautifulsoup4
+Requires-Dist: astor
+Requires-Dist: webcolors
+Requires-Dist: colormath
+Requires-Dist: yapf
+Requires-Dist: faker
+Requires-Dist: jsbeautifier
+Requires-Dist: babel
+Requires-Dist: mistune (==2.0.0rc1)
+
+# Appyratus
+Not your momma's Python toolkit
+
+## Links 
+- Web https://appyrat.us
+- Source https://github.com/gigaquads/appyratus
+- Docs https://docs.appyrat.us
+- Gigaquads Dev https://gqd.io
+- Gigaquads https://gigaquads.com
+
+
+
