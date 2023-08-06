@@ -1,0 +1,14 @@
+kohtaaminen/__init__.py,sha256=kjm6o9PK3UwFFVxd523Pr1bBpjMX9aahfBYm639BxqA,116
+kohtaaminen/__main__.py,sha256=jvrGBRbVTnfDNLwSthLoLqwd_I0guEMWnOjcO_noNak,240
+kohtaaminen/cli.py,sha256=AqBMcfyc8HzS9EeSN_RlKUJXUhwJRPezZdHHh8ITixU,2055
+kohtaaminen/kohtaaminen.py,sha256=qHE-sxvMxny4koNQlmdfiT2qj9Pj6dSZacuQEVPkqh4,8390
+tests/__init__.py,sha256=cr5ndc-DX09ICrY-63xcVD11f5aX7I-Q7X40M8aflRc,130
+tests/context.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=pN8XPFMa0ZWt-9euJUNi0L8J15F3CBh67kFtgle0qeE,1853
+tests/test_kohtaaminen.py,sha256=tyXqQxOI3pvrLrV7X2Hx-Qy1hbNWORWiuLz17Dtg59U,936
+kohtaaminen-2021.11.14.dist-info/LICENSE,sha256=NpMdbXDPQfOKFkp3mpaePQrBhcjltWWrjBt9lkJSBQQ,1069
+kohtaaminen-2021.11.14.dist-info/METADATA,sha256=xe40sayhxVn5pJwAO0_IVGiNNq3MYVsY8ix7XNSh3Kg,2497
+kohtaaminen-2021.11.14.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+kohtaaminen-2021.11.14.dist-info/entry_points.txt,sha256=owfGcSLal6OE16mnE7YibvZ9_Fp3HMAXUlaYKRpIkkg,53
+kohtaaminen-2021.11.14.dist-info/top_level.txt,sha256=-o4W1qS1Acyzi48oH2nMHQ9LopAZrEEm1UMPHpAxFvM,18
+kohtaaminen-2021.11.14.dist-info/RECORD,,
