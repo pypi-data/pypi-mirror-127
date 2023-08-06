@@ -1,0 +1,8 @@
+autopaths>=1.4.12
+plumbing>=2.10.0
+pymarktex>=1.4.6
+pandas
+numpy
+pytest
+requests
+matplotlib

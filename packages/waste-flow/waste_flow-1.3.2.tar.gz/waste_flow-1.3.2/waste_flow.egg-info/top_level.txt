@@ -1,0 +1,6 @@
+cache
+dist
+docs
+notebooks
+scripts
+waste_flow
