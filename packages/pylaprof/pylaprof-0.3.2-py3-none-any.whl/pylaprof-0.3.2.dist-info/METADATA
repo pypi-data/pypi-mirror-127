@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pylaprof
+Version: 0.3.2
+Summary: A Python sampling profiler for AWS Lambda functions (and not only).
+Home-page: https://github.com/glumia/pylaprof
+License: MIT
+Keywords: profiling,flamegraph,lambda,aws,serverless
+Author: Giuseppe Lumia
+Author-email: g.lumia@outlook.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/glumia/pylaprof
+Description-Content-Type: text/markdown
+
+# pylaprof
+🚧 **Work in progress** 🚧
+
+Actually already usable (check the *examples* directory) but not yet production
+ready.
+
+Credits:
+- This library is heavily inspired to [pprofile](
+  https://github.com/vpelletier/pprofile).
+
