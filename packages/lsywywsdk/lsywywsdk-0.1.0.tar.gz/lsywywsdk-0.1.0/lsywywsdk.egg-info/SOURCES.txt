@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+lsywywsdk/VERSION.txt
+lsywywsdk/__init__.py
+lsywywsdk/client.py
+lsywywsdk.egg-info/PKG-INFO
+lsywywsdk.egg-info/SOURCES.txt
+lsywywsdk.egg-info/dependency_links.txt
+lsywywsdk.egg-info/requires.txt
+lsywywsdk.egg-info/top_level.txt
