@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Cclipy
+Version: 1.3.2
+Summary: A life architecture intelligent scoring system
+Home-page: UNKNOWN
+Author: Jet Chen
+Author-email: unnnnn@foxmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AI 智能打分系统
+> 人工智能打分系统，基于人生架构指数（CHEN LIFE INDEX）
+
