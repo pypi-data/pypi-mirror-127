@@ -1,0 +1,11 @@
+plaintext_analyzer/__init__.py,sha256=qjL2VaLkQpEzY6JCL6jk57ys1q76Ie4PccuigREg8_o,944
+plaintext_analyzer/entry.py,sha256=72-IdlhTd77lpgA0FksCROkXtVcjDVXxeJYgUDhS0-0,3812
+plaintext_analyzer/file_reader.py,sha256=oifhyIy5yf6ByPGtOPSQue57rtqxEG_0QyZGuGGiOY4,1018
+plaintext_analyzer/file_writer.py,sha256=-YaTHPdZMC0OspHayXKHFWXveQhOI_NmrFKPP_NFFzA,1767
+plaintext_analyzer/phrase_analyzer.py,sha256=dcnwf93-HIeVzy5V1Mw1PciiHpMApASu2l404OMauoQ,1679
+plaintext_analyzer/structure_kg_analyzer.py,sha256=xDHicQLxTcUspshdIWROLW0Yq4s8c4FyNm6z7isIZUQ,2453
+plaintext_analyzer/vocab_analyzer.py,sha256=OvWcL8wWb2G6FQ1bitijuafaRnGdEVz5TthzUXG38_8,1356
+plaintext_analyzer-0.1.7.dist-info/entry_points.txt,sha256=79c2gjUIfdXaLmUVZ54HJIaN4GdL6VnOjQElOxmaiQA,179
+plaintext_analyzer-0.1.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+plaintext_analyzer-0.1.7.dist-info/METADATA,sha256=7WSE0CA6LwL2tI92_Zv96mRkbqjbU-jBHd_iSmdJPG0,6131
+plaintext_analyzer-0.1.7.dist-info/RECORD,,
