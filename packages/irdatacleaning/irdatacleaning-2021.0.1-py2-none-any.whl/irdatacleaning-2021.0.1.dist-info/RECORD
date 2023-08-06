@@ -1,0 +1,13 @@
+irdatacleaning/__init__.py,sha256=F0dm2Zqc4AJC4PGszPHvDq6Sk2jsQn5ckjBzZZdvXoU,485
+irdatacleaning/datacorrelation.py,sha256=_PA_mP9ItsDefcDZtO0n0xtjXvU4d9rAvBoO_b_Q5TM,6956
+irdatacleaning/datadiscovery.py,sha256=q-z0C57uB8ok_1SjQ-YVfv06D0Wwt9EOuD-ovLHqbSM,3190
+irdatacleaning/encoder2.py,sha256=F0YJ3wq8IElRa1Uyi4mgMpsB3uZrs7GCVmDAusvqpVg,2684
+irdatacleaning/featur_scaling.py,sha256=W7x2iy71lPzDlV-kG89xqSxrFQEt9kj4MiH5iM8c-Ys,1466
+irdatacleaning/inconsistent_data.py,sha256=OV8kqwtP6gy4GYDVfwnyumLvydTBhheQG13lUKHdp4A,7480
+irdatacleaning/missingvalues.py,sha256=Gz14cbSm1OybqiydzvxaWEuy-0NOmdfG6ITwdWdpkGU,2255
+irdatacleaning/resource.py,sha256=EV5ev_8aKXkQlx2hOWZVxaTxcRY6MG0_Q7nWk4G0JE4,274
+irdatacleaning/stringtodatetime.py,sha256=Ch4uXAg6nt6NcmsBUx2C_baBv3ungjARBgqNRM9MP0g,3369
+irdatacleaning-2021.0.1.dist-info/METADATA,sha256=7_JpMWPNCIVA6Rx4DcEVVKDPP0knhBhU2R02lhUZ6Gs,2139
+irdatacleaning-2021.0.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+irdatacleaning-2021.0.1.dist-info/top_level.txt,sha256=Idvgpw45RbCBjh6ZO_7GyQosPdB5LTogxmFRwR8Hn_Y,15
+irdatacleaning-2021.0.1.dist-info/RECORD,,
