@@ -1,0 +1,10 @@
+CythonGSL
+cython
+scipy
+numpy
+matplotlib
+PyQt5
+h5py
+lmfit
+defusedxml
+qtwidgets
