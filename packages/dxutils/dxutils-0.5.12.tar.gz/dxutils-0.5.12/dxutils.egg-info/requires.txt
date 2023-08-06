@@ -1,0 +1,9 @@
+pip
+packaging
+numpy
+ase
+spglib
+click
+matplotlib
+
+[dev]
