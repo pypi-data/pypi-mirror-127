@@ -1,0 +1,9 @@
+bio_anglerfish-0.4.1.data/scripts/anglerfish.py,sha256=9ivWOwTMWoPwqL-O7HWNEgoo2DZ61Agw9VSt1tx7G-A,7723
+demux/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demux/demux.py,sha256=uOFarMKHd1izp_l3jReWqovsQKzkL1AW40A7ZBGILO0,7539
+demux/samplesheet.py,sha256=QA0YsmItNz6XeJjrPdAhpW7NJSrk5IUhDKSP024mzEk,5038
+bio_anglerfish-0.4.1.dist-info/LICENSE,sha256=K9Z2xL6gE424cHdjjTJMmwtO9xYBVNQjqL9CaWBBhJw,1073
+bio_anglerfish-0.4.1.dist-info/METADATA,sha256=39m1FGi31jQi9HMTseO9DnXgzBdBvotk8PxKsZJVbhY,834
+bio_anglerfish-0.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bio_anglerfish-0.4.1.dist-info/top_level.txt,sha256=_gDk_fp8cShKdl9OCiT75A-T2oVJVYBXafLARLNaovs,6
+bio_anglerfish-0.4.1.dist-info/RECORD,,
