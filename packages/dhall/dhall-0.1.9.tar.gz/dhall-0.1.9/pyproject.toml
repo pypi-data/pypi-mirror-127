@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "dhall"
+version = "0.1.9"
+description = "Python bindings for dhall, a functional configuration language"
+authors = ["Simon Zeng <contact@simonzeng.com>", "Tristan Cacqueray <tdecacqu@redhat.com>", "Matthias Endler <matthias-endler@gmx.net>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{ include = "dhall" }]
+repository = "https://github.com/s-zeng/dhall-python"
+keywords = ["dhall", "python"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "~=6.1"
+pylint = "~=2.6"
+flake8 = "~=4.0"
+wheel = "*"
+pytest-runner = "*"
+pytest-benchmark = "*"
+hypothesis = "*"
+autopep8 = "*"
+maturin = "~=0.9"
+
+[build-system]
+requires = ["maturin"]
+build-backend = "maturin"
+
+[tool.maturin]
+compatibility = "manylinux_2_24"
+skip-auditwheel = false
+sdist-include = ["dhall/*"]
