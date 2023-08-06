@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/EChO/__init__.py
+src/EChO/__main__.py
+src/EChO/bot/__init__.py
+src/EChO/bot/check.py
+src/EChO/server/__init__.py
+src/EChO/server/xshell.py
+src/EChO_Framework.egg-info/PKG-INFO
+src/EChO_Framework.egg-info/SOURCES.txt
+src/EChO_Framework.egg-info/dependency_links.txt
+src/EChO_Framework.egg-info/top_level.txt

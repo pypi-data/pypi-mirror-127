@@ -1,0 +1,10 @@
+[build-system]
+requires = [
+    "setuptools",
+    "requests",
+    "colorama",
+    "jieba",
+    "paramiko",
+    'psutil'
+]
+build-backend = "setuptools.build_meta"
