@@ -1,0 +1,10 @@
+linestats/__init__.py,sha256=K72chR2TTCEWFaZJwRyMRHQ4Ut6i0Y7xo8pLEdS4Zss,472
+linestats/__main__.py,sha256=VJSFtZWTVg8AWAaQYj5cN1Kl41vbYJ1T14Z-X546TJE,1797
+linestats/linestats.py,sha256=E2uktETHQIiK4jgRQIUtJba4VT2hYlA65iq5A-B3oqU,8905
+linestats/version.py,sha256=aA4wijrWlgixThGQe3BcNUbw0dAorB5rShQRy5LFyHc,405
+linestats-1.2.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+linestats-1.2.0.dist-info/METADATA,sha256=5ZcTpRlMSaHZYikWJnCQG3YKPt6dbSFs849O-W3-qYM,5077
+linestats-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+linestats-1.2.0.dist-info/entry_points.txt,sha256=qCKH2u4O2_x6euhqpND3pLa5kkUon0bnfGtkjhi_sFY,55
+linestats-1.2.0.dist-info/top_level.txt,sha256=CRh1OmdKigS8oARoHLr6VrPfumFDxcSyhs3Xp6Loamg,10
+linestats-1.2.0.dist-info/RECORD,,
