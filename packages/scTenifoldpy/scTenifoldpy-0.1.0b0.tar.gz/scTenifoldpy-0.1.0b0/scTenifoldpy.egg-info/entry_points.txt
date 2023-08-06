@@ -1,0 +1,3 @@
+[console_scripts]
+sctenifold-net = scTenifold.build_net:main
+
