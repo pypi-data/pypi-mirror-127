@@ -1,0 +1,35 @@
+# crosspress v&shy;<!---version-->0.3.0<!---/version-->
+*Cross-platform lightweight keyboard simulator*
+
+## Python usage
+```shell
+pip install crosspress
+```
+```python
+from crosspress import (tap, CP_NOISY, CP_ERROR)
+tap("x, left shift + a")  # default usage
+tap("x, left shift + a", delay=0.5)  # 0.5 seconds delay between taps
+tap("x, left shift + a", behavior=CP_NOISY)  # highest log level
+tap("x, left shift + a", behavior=CP_ERROR)  # error level
+```
+
+## CLI usage
+```shell
+crosspress -t "x, left shift + a"
+```
+You can use the `-d, --delay` arguments to set the delay between taps.
+
+Arguments `-n, --noisy` for the highest log level or `-e, --error` for error level.
+```shell
+crosspress -t "x, left shift + a" --delay 0.5 --error
+```
+
+## Keyboard shortcuts
+### Windows
+&shy;<!---windows-->`` ' ``, `` - ``, `` . ``, `` / ``, `` 0 ``, `` 1 ``, `` 2 ``, `` 3 ``, `` 4 ``, `` 5 ``, `` 6 ``, `` 7 ``, `` 8 ``, `` 9 ``, `` ; ``, `` = ``, `` [ ``, `` \ ``, `` ] ``, `` ` ``, `` a ``, `` b ``, `` backspace ``, `` c ``, `` caps lock ``, `` comma ``, `` d ``, `` delete ``, `` down arrow ``, `` e ``, `` end ``, `` enter ``, `` esc ``, `` f ``, `` f1 ``, `` f10 ``, `` f11 ``, `` f12 ``, `` f2 ``, `` f3 ``, `` f4 ``, `` f5 ``, `` f6 ``, `` f7 ``, `` f8 ``, `` f9 ``, `` g ``, `` h ``, `` home ``, `` i ``, `` insert ``, `` j ``, `` k ``, `` l ``, `` left alt ``, `` left arrow ``, `` left ctrl ``, `` left meta ``, `` left shift ``, `` left win ``, `` m ``, `` n ``, `` num 0 ``, `` num 1 ``, `` num 2 ``, `` num 3 ``, `` num 4 ``, `` num 5 ``, `` num 6 ``, `` num 7 ``, `` num 8 ``, `` num 9 ``, `` num add ``, `` num decimal ``, `` num divide ``, `` num enter ``, `` num lock ``, `` num multiply ``, `` num subtract ``, `` o ``, `` p ``, `` page down ``, `` page up ``, `` pause ``, `` q ``, `` r ``, `` right alt ``, `` right arrow ``, `` right ctrl ``, `` right meta ``, `` right shift ``, `` right win ``, `` s ``, `` scroll lock ``, `` space ``, `` t ``, `` tab ``, `` u ``, `` up arrow ``, `` v ``, `` w ``, `` x ``, `` y ``, `` z ``<!---/windows-->
+
+### macOS
+&shy;<!---darwin-->`` ' ``, `` - ``, `` . ``, `` / ``, `` 0 ``, `` 1 ``, `` 2 ``, `` 3 ``, `` 4 ``, `` 5 ``, `` 6 ``, `` 7 ``, `` 8 ``, `` 9 ``, `` ; ``, `` = ``, `` [ ``, `` \ ``, `` ] ``, `` ` ``, `` b ``, `` backspace ``, `` c ``, `` caps lock ``, `` clear ``, `` comma ``, `` d ``, `` delete ``, `` down arrow ``, `` e ``, `` end ``, `` enter ``, `` esc ``, `` f ``, `` f1 ``, `` f10 ``, `` f11 ``, `` f12 ``, `` f2 ``, `` f3 ``, `` f4 ``, `` f5 ``, `` f6 ``, `` f7 ``, `` f8 ``, `` f9 ``, `` g ``, `` h ``, `` home ``, `` i ``, `` j ``, `` k ``, `` l ``, `` left alt ``, `` left arrow ``, `` left cmd ``, `` left ctrl ``, `` left meta ``, `` left option ``, `` left shift ``, `` m ``, `` n ``, `` num 0 ``, `` num 1 ``, `` num 2 ``, `` num 3 ``, `` num 4 ``, `` num 5 ``, `` num 6 ``, `` num 7 ``, `` num 8 ``, `` num 9 ``, `` num add ``, `` num decimal ``, `` num divide ``, `` num enter ``, `` num equal ``, `` num multiply ``, `` num subtract ``, `` o ``, `` p ``, `` page down ``, `` page up ``, `` q ``, `` r ``, `` right alt ``, `` right arrow ``, `` right cmd ``, `` right ctrl ``, `` right meta ``, `` right option ``, `` right shift ``, `` s ``, `` space ``, `` t ``, `` tab ``, `` u ``, `` up arrow ``, `` v ``, `` w ``, `` x ``, `` y ``, `` z ``<!---/darwin-->
+
+### Linux
+&shy;<!---linux-->`` ' ``, `` - ``, `` . ``, `` / ``, `` 0 ``, `` 1 ``, `` 2 ``, `` 3 ``, `` 4 ``, `` 5 ``, `` 6 ``, `` 7 ``, `` 8 ``, `` 9 ``, `` ; ``, `` = ``, `` [ ``, `` \ ``, `` ] ``, `` ` ``, `` a ``, `` b ``, `` backspace ``, `` c ``, `` caps lock ``, `` comma ``, `` d ``, `` delete ``, `` down arrow ``, `` e ``, `` end ``, `` enter ``, `` esc ``, `` f ``, `` f1 ``, `` f10 ``, `` f11 ``, `` f12 ``, `` f2 ``, `` f3 ``, `` f4 ``, `` f5 ``, `` f6 ``, `` f7 ``, `` f8 ``, `` f9 ``, `` g ``, `` h ``, `` home ``, `` i ``, `` insert ``, `` j ``, `` k ``, `` l ``, `` left alt ``, `` left arrow ``, `` left ctrl ``, `` left meta ``, `` left shift ``, `` m ``, `` n ``, `` num 0 ``, `` num 1 ``, `` num 2 ``, `` num 3 ``, `` num 4 ``, `` num 5 ``, `` num 6 ``, `` num 7 ``, `` num 8 ``, `` num 9 ``, `` num add ``, `` num decimal ``, `` num divide ``, `` num enter ``, `` num lock ``, `` num multiply ``, `` num subtract ``, `` o ``, `` p ``, `` page down ``, `` page up ``, `` pause ``, `` q ``, `` r ``, `` right alt ``, `` right arrow ``, `` right ctrl ``, `` right meta ``, `` right shift ``, `` s ``, `` scroll lock ``, `` space ``, `` t ``, `` tab ``, `` u ``, `` up arrow ``, `` v ``, `` w ``, `` x ``, `` y ``, `` z ``<!---/linux-->
