@@ -1,0 +1,8 @@
+README.md
+beizer_curves.py
+setup.py
+beizer_curves.egg-info/PKG-INFO
+beizer_curves.egg-info/SOURCES.txt
+beizer_curves.egg-info/dependency_links.txt
+beizer_curves.egg-info/requires.txt
+beizer_curves.egg-info/top_level.txt
