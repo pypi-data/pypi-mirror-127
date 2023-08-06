@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: masahiro_util
+Version: 0.0.1
+Summary: A simple package
+Home-page: https://github.com/javakung/masahiro
+Author: javakung
+Author-email: gm.komyo@gmail.com
+License: MIT
+Description: # masahiro
+        basic nlp tasks
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
