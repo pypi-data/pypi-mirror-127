@@ -1,0 +1,14 @@
+LICENSE,sha256=WoTRadDy8VbcIKoVzl5Q1QipuD_cexAf3ul4MaVLttc,18044
+click_sources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+click_sources/exceptions.py,sha256=L1TXDft6j5AIquGXuC1jqDondM6bbLkRQ4PL73m0Qgg,216
+click_sources/impl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+click_sources/impl/ini_source.py,sha256=XQ1Sv4IQoiUIcKuZXfx0expZp5M7pq2sNVmY_xnpiyQ,802
+click_sources/impl/json_source.py,sha256=V_hlGkB6oZJUxl0meATEhoNvbXC2eBi6dsivotKBG9M,549
+click_sources/impl/toml_source.py,sha256=Srpx0BkD3YH4FDVpQb2tb7LpgstewIF58zl2mzKPqMA,446
+click_sources/impl/yaml_source.py,sha256=rynJcX6FNgq7-4O7X__1HYhRJHasmYyTYVVT4TVBPkA,524
+click_sources/options.py,sha256=wm5knZgjIQHGb0XamqTxSofTRGqQqnPWemo2otkvAdM,381
+click_sources/source.py,sha256=vvYn-8WqgAyv4Tag_e-5fE9gfF-lDBkMmXfJk2tQLHg,1009
+click_sources-0.1.0a1.dist-info/LICENSE,sha256=WoTRadDy8VbcIKoVzl5Q1QipuD_cexAf3ul4MaVLttc,18044
+click_sources-0.1.0a1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+click_sources-0.1.0a1.dist-info/METADATA,sha256=6ryRaPQxUGy5RVmzLG1G6FVEv6kegbML8m2Yzf6AjBA,483
+click_sources-0.1.0a1.dist-info/RECORD,,
