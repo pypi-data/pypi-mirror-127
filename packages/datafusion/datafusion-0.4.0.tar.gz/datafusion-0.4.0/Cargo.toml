@@ -1,0 +1,40 @@
+[dependencies]
+rand = "0.7"
+
+[dependencies.datafusion]
+features = ["pyarrow"]
+path = "local_dependencies/datafusion"
+version = "6.0.0"
+
+[dependencies.pyo3]
+features = ["extension-module", "abi3", "abi3-py36"]
+version = "0.14"
+
+[dependencies.tokio]
+features = ["macros", "rt", "rt-multi-thread", "sync"]
+version = "1.0"
+
+[dependencies.uuid]
+features = ["v4"]
+version = "0.8"
+
+[lib]
+crate-type = ["cdylib"]
+name = "_internal"
+
+[package]
+authors = ["Apache Arrow <dev@arrow.apache.org>"]
+description = "Build and run queries against data"
+edition = "2021"
+homepage = "https://github.com/apache/arrow"
+license = "Apache-2.0"
+name = "datafusion-python"
+readme = "README.md"
+repository = "https://github.com/apache/arrow"
+rust-version = "1.56"
+version = "0.4.0"
+[package.metadata.maturin]
+name = "datafusion._internal"
+[profile.release]
+codegen-units = 1
+lto = true
