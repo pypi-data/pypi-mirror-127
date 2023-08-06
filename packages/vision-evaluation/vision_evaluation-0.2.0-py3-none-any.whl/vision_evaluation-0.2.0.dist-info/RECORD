@@ -1,0 +1,10 @@
+vision_evaluation/__init__.py,sha256=9-GaueWVVCRA1BJ962eJcb_soYfTBSkFFYVT1XBuzqM,1046
+vision_evaluation/coco_wrapper.py,sha256=oK9GERVxsnBZdvy6ywM2RhamGjQrgEHzKm_1xxd77Tw,1783
+vision_evaluation/evaluators.py,sha256=HAyZmaJs2Mffqi8yHfyxInyA8ITm5Td3h1Dy--HjJcQ,27401
+vision_evaluation/prediction_filters.py,sha256=uz9EJQKR2-WuIUagF8_U2YH8X-KPcbJ8318VZQL9Glk,2603
+vision_evaluation/resource_tight_evaluators.py,sha256=GBfL27c_3J6hXHVRs1rqChyR8guWLwV0FCKUutq4iWY,3494
+vision_evaluation-0.2.0.dist-info/LICENSE,sha256=o4i_MuPC9rAsMCKMCJaJPIKqZ4oAuWYUqEjjWMbaOhI,1087
+vision_evaluation-0.2.0.dist-info/METADATA,sha256=rj4w744VCYiU5Bvovdo3n-FBo0v6WSW6tdpNtCSAoRI,2489
+vision_evaluation-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vision_evaluation-0.2.0.dist-info/top_level.txt,sha256=kUzoZ-gPUxz-bRaSToa0-usTI9N1RAYJ89IGEhuqNLA,18
+vision_evaluation-0.2.0.dist-info/RECORD,,
