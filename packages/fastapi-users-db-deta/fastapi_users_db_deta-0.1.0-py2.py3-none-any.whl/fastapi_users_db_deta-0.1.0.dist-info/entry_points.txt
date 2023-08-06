@@ -1,0 +1,3 @@
+[console_scripts]
+fastapi_users_db_deta = fastapi_users_db_deta.cli:main
+
