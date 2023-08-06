@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+majkamodule.cpp
+setup.cfg
+setup.py
+majka/majka.cc
+majka/majka.h
+majka.egg-info/PKG-INFO
+majka.egg-info/SOURCES.txt
+majka.egg-info/dependency_links.txt
+majka.egg-info/top_level.txt
