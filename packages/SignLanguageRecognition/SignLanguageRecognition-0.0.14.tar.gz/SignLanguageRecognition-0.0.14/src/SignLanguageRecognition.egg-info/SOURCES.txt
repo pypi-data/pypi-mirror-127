@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+src/SignLanguageRecognition/__init__.py
+src/SignLanguageRecognition/action.h5
+src/SignLanguageRecognition/signLanguageRecognizer.py
+src/SignLanguageRecognition.egg-info/PKG-INFO
+src/SignLanguageRecognition.egg-info/SOURCES.txt
+src/SignLanguageRecognition.egg-info/dependency_links.txt
+src/SignLanguageRecognition.egg-info/requires.txt
+src/SignLanguageRecognition.egg-info/top_level.txt
