@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: reqsit
+Version: 0.28.0
+Summary: A CLI tool for converting requirements.txt entries to a form accepted by pyproject.toml.
+License: MIT
+Author: matt witt
+Author-email: matt@wittsoft.xyz
+Keywords: packaging,wheel
+Classifier: Programming Language :: Python :: 3
+Home-Page: https://github.com/dholth/enscons
+Requires-Dist: scons>=3.0.5
+Requires-Dist: pytoml>=0.1
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: attrs
+Requires-Dist: packaging>=20.9
+Requires-Dist: editables==0.2; python_version > "3.0"
+Requires-Dist: art==5.3
+Requires-Dist: enscons==0.28.0
+Requires-Dist: fire==0.4.0
+Requires-Dist: pytest==6.2.5
+Requires-Dist: pytest_mock==3.6.1
+
+
+# Reqsit
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![example workflow](https://github.com/mattyWuh/reqsit/actions/workflows/ci.yml/badge.svg)
+
+A CLI tool for converting requirements.txt entries to a form accepted by pyproject.toml.
+Pronounced "RECKS-IT".
+
+## Getting started.
+
+Install `reqsit` with `pip`,
+
+```
+pip install --user reqsit
+```
+
+Run by executing the command from the root folder of your project,
+
+```
+reqsit
+```
+
+If you prefer to use a name other than `requirements.txt` for your requirements file, then add a `--filename` argument.
+For example, to use the file `foo.bar`, enter
+
+```
+reqsit --filename=foo.bar
+```
+
+## How to contribute.
