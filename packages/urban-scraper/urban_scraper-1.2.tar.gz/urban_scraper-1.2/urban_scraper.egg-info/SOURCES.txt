@@ -1,0 +1,13 @@
+README.md
+setup.py
+urban_scraper/__init__.py
+urban_scraper/_dataclasses.py
+urban_scraper/_get_votes.py
+urban_scraper/_months.py
+urban_scraper/async_scraper.py
+urban_scraper/scraper.py
+urban_scraper.egg-info/PKG-INFO
+urban_scraper.egg-info/SOURCES.txt
+urban_scraper.egg-info/dependency_links.txt
+urban_scraper.egg-info/requires.txt
+urban_scraper.egg-info/top_level.txt
