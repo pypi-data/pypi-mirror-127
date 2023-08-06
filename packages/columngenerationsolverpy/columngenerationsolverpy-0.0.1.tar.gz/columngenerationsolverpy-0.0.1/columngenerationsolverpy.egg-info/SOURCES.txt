@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+columngenerationsolverpy/__init__.py
+columngenerationsolverpy/column_generation.py
+columngenerationsolverpy/commons.py
+columngenerationsolverpy/greedy.py
+columngenerationsolverpy/limited_discrepancy_search.py
+columngenerationsolverpy.egg-info/PKG-INFO
+columngenerationsolverpy.egg-info/SOURCES.txt
+columngenerationsolverpy.egg-info/dependency_links.txt
+columngenerationsolverpy.egg-info/requires.txt
+columngenerationsolverpy.egg-info/top_level.txt
