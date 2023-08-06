@@ -1,0 +1,3 @@
+[console_scripts]
+ruddr = ruddr.manager:main
+

@@ -1,0 +1,8 @@
+requests
+netifaces
+
+[docs]
+sphinx
+
+[systemd]
+PyGObject
