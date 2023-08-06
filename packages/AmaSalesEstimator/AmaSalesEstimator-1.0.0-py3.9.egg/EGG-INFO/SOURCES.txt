@@ -1,0 +1,8 @@
+AmaSalesEstimator.py
+LICENSE
+README.md
+setup.py
+AmaSalesEstimator.egg-info/PKG-INFO
+AmaSalesEstimator.egg-info/SOURCES.txt
+AmaSalesEstimator.egg-info/dependency_links.txt
+AmaSalesEstimator.egg-info/top_level.txt
