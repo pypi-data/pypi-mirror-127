@@ -1,0 +1,13 @@
+mapbufferaccel.cp39-win_amd64.pyd,sha256=7FQsLoi4TktWLosckUzfSf1-Dx-a0B_PXppv7Qq23-Y,10752
+mapbuffer/__init__.py,sha256=N0LgDPPWOKjqI1UkaDvsU44-4yPcNkBE7ZR6KQc_zHQ,888
+mapbuffer/compression.py,sha256=0r6k-pfrAgRCq35bmpFYl7KE1IjdKYPK4IhvQjpjpr4,5951
+mapbuffer/exceptions.py,sha256=v4ortlHmNS-7LwD9bgiboAFUQDDFWS13BXhUPybRxNY,396
+mapbuffer/lib.py,sha256=pRmd2tADH3IM8C5GJ1dU-gG0tMaC8Wl_BTtyL3oOEbM,2043
+mapbuffer/mapbuffer.py,sha256=NVOS2bSQZ3Q_Y5LLuOXeKobmHLxeuNTQ9ZTwjYk49As,9098
+mapbuffer-0.5.0.dist-info/AUTHORS,sha256=Aa4H7O3dtmfq0lF_eATudy11i8K6QAI8LykzASr9bL0,52
+mapbuffer-0.5.0.dist-info/LICENSE,sha256=gexsofTf8VX5CS-nLNyA0iTDKDSkURYN4tGuRHSU0oE,1567
+mapbuffer-0.5.0.dist-info/METADATA,sha256=iEjUgVDeO-uyg0dNC_Mk2YQMMTQEmQOUY4m1TYWFQb0,5737
+mapbuffer-0.5.0.dist-info/WHEEL,sha256=jr7ubY0Lkz_yXH9FfFe9PTtLhGOsf62dZkNvTYrJINE,100
+mapbuffer-0.5.0.dist-info/pbr.json,sha256=RutqUEq6VhfzdiiaJjEXjMCRec_orlwkN4RWjDK1RLU,47
+mapbuffer-0.5.0.dist-info/top_level.txt,sha256=iwXg4XDxkmr17CvZ7CEd0Al-ipa1UgEGH1qQxhVITfE,25
+mapbuffer-0.5.0.dist-info/RECORD,,
