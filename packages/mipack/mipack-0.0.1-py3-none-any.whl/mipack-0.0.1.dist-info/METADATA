@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mipack
+Version: 0.0.1
+Summary: My implemented packages for python
+Home-page: https://github.com/swyo/mipack
+Author: swyo
+Author-email: l22491360@gmail.com
+License: UNKNOWN
+Keywords: python,packaging
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+
+UNKNOWN
+
