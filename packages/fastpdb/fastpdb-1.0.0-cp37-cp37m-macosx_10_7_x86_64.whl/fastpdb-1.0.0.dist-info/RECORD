@@ -1,0 +1,5 @@
+fastpdb-1.0.0.dist-info/METADATA,sha256=DCNQlaDUOfWUNtbcTrgLDSnM05gu4gROGIynKom4Woo,3493
+fastpdb-1.0.0.dist-info/WHEEL,sha256=5v3HwRLT1rNMtAkuit3vUgiMBK1EK1wiMD0DKHvMplg,105
+fastpdb/__init__.py,sha256=r9OijXUbRWqr3oW13FW4YCtcoC5JNl0bXLRJ0OENoR0,16573
+fastpdb/fastpdb.cpython-37m-darwin.so,sha256=nq1V-2Ln9EDL2avjf0y77gJVk0DKJl8e7y4K9rB0vUQ,816584
+fastpdb-1.0.0.dist-info/RECORD,,
