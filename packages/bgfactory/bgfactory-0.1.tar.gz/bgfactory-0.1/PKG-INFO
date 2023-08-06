@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: bgfactory
+Version: 0.1
+Summary: Board Game Factory - a framework for composing reusable vector graphics assets, e.g. for board games.
+Home-page: https://github.com/avolny/board-game-factory
+Author: Adam Volný
+Author-email: adam.volny@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: board,game,factory,bgf,vector,graphics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
