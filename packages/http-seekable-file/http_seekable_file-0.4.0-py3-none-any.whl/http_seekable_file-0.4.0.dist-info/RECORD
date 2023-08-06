@@ -1,0 +1,5 @@
+http_seekable_file/AsyncSeekableHTTPFile.py,sha256=6ZkbkBVIjxQLe2Yczc9fSkHT_2ynthkzTan34Tt7-OM,5014
+http_seekable_file/__init__.py,sha256=4WgI_HzycBgvqxSLAP2Os9gg3LKIFAbgXp_ZrOiLqM8,197
+http_seekable_file-0.4.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+http_seekable_file-0.4.0.dist-info/METADATA,sha256=xKohgpSCocS6UxsODGUIkzFwVusZ1_Ow_6WcM5sTWZk,772
+http_seekable_file-0.4.0.dist-info/RECORD,,
