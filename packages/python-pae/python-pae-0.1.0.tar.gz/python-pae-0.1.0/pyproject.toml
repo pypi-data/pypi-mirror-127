@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "python-pae"
+version = "0.1.0"
+description = "Pre-authentication encoding (PAE) implementation in Python"
+authors = ["Matthias Valvekens <dev@mvalvekens.be>"]
+license = 'MIT'
+homepage = "https://github.com/MatthiasValvekens/python-pae"
+documentation = "https://python-pae.readthedocs.io/"
+repository = "https://github.com/MatthiasValvekens/python-pae"
+readme = "README.rst"
+classifiers = [
+    'Development Status :: 3 - Alpha',
+
+    'Intended Audience :: Developers',
+
+    'Topic :: Security :: Cryptography',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+coverage = {extras = ["toml"], version = "^6.1.1"}
+Sphinx = "^4.3.0"
+sphinx-rtd-theme = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.run]
+    omit = ["*docs*", "*test*", "*venv*"]
+
+[tool.coverage.report]
+exclude_lines = ["pragma: no cover",
+                 "pragma: nocover",
+                 "raise AssertionError",
+                 "raise NotImplementedError"]
+precision = 2
