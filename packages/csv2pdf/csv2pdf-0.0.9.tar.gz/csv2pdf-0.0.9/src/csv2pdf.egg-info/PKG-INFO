@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: csv2pdf
+Version: 0.0.9
+Summary: A simple Python module that converts CSV Files to PDF Files using the FPDF2 Library.
+Home-page: https://github.com/TECH-SAVVY-GUY/csv2pdf
+Author: SOHAM DATTA
+Author-email: dattasoham805@gmail.com
+License: UNKNOWN
+Keywords: csv,pdf,csv2pdf
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
