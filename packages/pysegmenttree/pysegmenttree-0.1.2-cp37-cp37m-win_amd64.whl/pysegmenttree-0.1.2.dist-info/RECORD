@@ -1,0 +1,16 @@
+pysegmenttree/__init__.py,sha256=_sm7w8-DTXMg8P36wAjm6n6pD8mS0aRTsYqj_i7Bmhc,111
+pysegmenttree/_abc.py,sha256=-FapJhZ3zuXymw9L5p26LLaAruFcwutWYFuIvh_wKOg,506
+pysegmenttree/_pysegmenttree_py.py,sha256=grgkpjiV209Uu5xZcd_h8XGNuxVOam-mcMravgZSXqY,2640
+pysegmenttree/_segmenttree.py,sha256=DViDOcVa0jV_xAOH_9A7yKT6JDUDg0j1-phQYRMK_pQ,900
+pysegmenttree/c_extensions.c,sha256=FnOKGrGEzVAmyzbYqlL8CndUMq-FyLpvd7HjR5LPjiE,1142
+pysegmenttree/c_extensions.cp37-win_amd64.pyd,sha256=XQVlJ4nlVhgk2vDDEyziN3g77xGeRHU0gL8YLJvfTNs,15360
+pysegmenttree/c_extensions.pyi,sha256=mnkL-Vm29NBnEdJpYkgRQViByGqcR89RBnf9Cjuch1o,341
+pysegmenttree/py.typed,sha256=DM7PDhUNKeZ6-qrwkvFVLDexRjuJp9dnmlHh8j3GcfU,17
+pysegmenttree/test_utils.py,sha256=vMGAuB3I-0B8i7vGd4gsT_eBx7r37uOk3NxXxYxwZZU,421
+pysegmenttree/_extensions/floatsegmenttree.h,sha256=-zeOdV95Zn3ffekFq0BBhSB6xmnp-qOK0nAM9_dttGs,4419
+pysegmenttree/_extensions/intsegmenttree.h,sha256=wYADOhTbzXaQ7ssq3930Z0brjAkSC4mzIil8BgSQ2Pc,5704
+pysegmenttree-0.1.2.dist-info/LICENSE,sha256=Y5FDvcFt0qImrvh0FTgsTSD47S7KpJ8e3GV7P37Vq6M,1098
+pysegmenttree-0.1.2.dist-info/METADATA,sha256=RKAbUD_4Ax2cJBk1Qbn5hYOJZEGRjHDKraYVxhvdZXg,2132
+pysegmenttree-0.1.2.dist-info/WHEEL,sha256=OmDKD3JmZjhMu_YdpkiJDfFL1rf8n9nexhWCGhSBGVE,101
+pysegmenttree-0.1.2.dist-info/top_level.txt,sha256=0XiqUumj2U6cPe7Lw0RJfRjHFTzCKRvNU32YnZZV4tY,14
+pysegmenttree-0.1.2.dist-info/RECORD,,
