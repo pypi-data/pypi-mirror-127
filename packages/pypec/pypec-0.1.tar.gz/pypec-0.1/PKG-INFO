@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pypec
+Version: 0.1
+Summary: pypec
+Home-page: https://milanskocic.github.io/PyPEC/index.html
+Author: Milan Skocic
+Author-email: milan.skocic@gmail.com
+Maintainer: Milan Skocic
+Maintainer-email: milan.skocic@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/MilanSkocic/PyPEC/
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+Description
+================
+
+PyPEC aims at Fitting PEC data with an graphical interface. 
+The program was initially developped in Python 2.7 during my PhD from 2012 to 2015 and the code is available on github
+`PyPEC (Python 2) <https://github.com/MilanSkocic/PyPEC>`_. 
+
+In 2016, the code was rewritten in Python 3 at the end of my PhD with slight modifications of the original. The code 
+remained untouched for almost 3 years and is now again under development in this repository.
+
+The first release after migrating to github will serve as a backup for the version developed during my
+PhD with completed documentation. 
+
+Installation
+==================
+See  ``INSTALL.txt``.
+
+
+Dependencies
+===================
+See ``requirements.txt``.
+
+
+License information
+===========================
+
+See ``LICENSE.txt`` for information on the history of this
+software, terms & conditions for usage, and a DISCLAIMER OF ALL
+WARRANTIES.
+
+
