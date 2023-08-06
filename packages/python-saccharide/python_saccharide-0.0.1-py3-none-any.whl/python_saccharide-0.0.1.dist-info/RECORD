@@ -1,0 +1,10 @@
+saccharide/__init__.py,sha256=8vnP6fBq7hmsgDkNz04z3f_Qcs7SI7cBzlHLP2VCyN0,537
+saccharide/_version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+saccharide/stubs.py,sha256=dhAA_16NkUG2UW5EWbtGTm07nuTSgoi9q7CHzrX1S2s,750
+saccharide/sugarmodule.py,sha256=4EwaXD1NHiK196QCpJfnmTeCc3vdu4SwgC8ki8IYYsw,7520
+saccharide/wrappers.py,sha256=B3bPf2-fvClhgdXwAXX-HOMpXsF0zZB1xdEcx3ygYP0,3065
+python_saccharide-0.0.1.dist-info/LICENSE,sha256=zT2jHwtTku1u1pQJM4FURrZw1gn7hzZU2vtjU2ipAqs,1070
+python_saccharide-0.0.1.dist-info/METADATA,sha256=TTQ6ABu31IHOa2Xp4UJkPT2hatxcz7Ss6Pp4IgjLxpY,1701
+python_saccharide-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+python_saccharide-0.0.1.dist-info/top_level.txt,sha256=mmgWBJGHBTih7uxD2qeOq8konhvqDUSaM8xWSPWMNvc,11
+python_saccharide-0.0.1.dist-info/RECORD,,
