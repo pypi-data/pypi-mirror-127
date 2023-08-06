@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: fw-curation
+Version: 0.1.2
+Summary: Flywheel Curation tools
+Home-page: https://flywheel-io.gitlab.io/tools/lib/fw-curation
+License: MIT
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: flywheel-gear-toolkit (>=0.5.6,<0.6.0)
+Requires-Dist: flywheel-sdk (>=14)
+Project-URL: Documentation, https://flywheel-io.gitlab.io/tools/lib/fw-curation
+Project-URL: Repository, https://gitlab.com/flywheel-io/tools/lib/fw-curation.git
+Description-Content-Type: text/markdown
+
+# fw-curation
+
+## Introduction
+
+`fw-curation` is a python package maintained by [Flywheel](https://flywheel.io)
+It provides a set of utilities for writing SDK scripts to perform curation.
+
+This library allows a user to:
+
+* Walk the Flywheel Hierachy (in a configurable manner) And
+* Run custom code on each container (referred to as curation)
+
+## Installation
+
+The package can be installed using pip or poetry using python 3.8 or later.
+
+```bash
+    pip install fw-curation
+    # or
+    poetry add fw-curation
+```
+
+## License
+
+`fw-curation` is developed under an MIT-based license.
+
