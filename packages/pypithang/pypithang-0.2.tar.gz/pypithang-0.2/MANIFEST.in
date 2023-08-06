@@ -1,0 +1,3 @@
+include build/_example.so
+include build/example.py
+#recursive-include build/

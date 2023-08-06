@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+test.py
+./_example.so
+./example.py
+./test.py
+./build/_example.so
+pypithang.egg-info/PKG-INFO
+pypithang.egg-info/SOURCES.txt
+pypithang.egg-info/dependency_links.txt
+pypithang.egg-info/top_level.txt
