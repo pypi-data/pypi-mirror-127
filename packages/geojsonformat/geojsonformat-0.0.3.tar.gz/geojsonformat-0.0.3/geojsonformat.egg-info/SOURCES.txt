@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+geojsonformat/__init__.py
+geojsonformat/__main__.py
+geojsonformat.egg-info/PKG-INFO
+geojsonformat.egg-info/SOURCES.txt
+geojsonformat.egg-info/dependency_links.txt
+geojsonformat.egg-info/entry_points.txt
+geojsonformat.egg-info/requires.txt
+geojsonformat.egg-info/top_level.txt
