@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/fifa_queries/__init__.py
+src/fifa_queries/main.py
+src/fifa_queries.egg-info/PKG-INFO
+src/fifa_queries.egg-info/SOURCES.txt
+src/fifa_queries.egg-info/dependency_links.txt
+src/fifa_queries.egg-info/top_level.txt
