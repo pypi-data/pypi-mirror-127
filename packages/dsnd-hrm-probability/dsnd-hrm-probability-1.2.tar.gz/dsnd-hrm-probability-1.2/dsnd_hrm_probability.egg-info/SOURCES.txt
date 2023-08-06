@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+dsnd-hrm-probability/Binomialdistribution.py
+dsnd-hrm-probability/Gaussiandistribution.py
+dsnd-hrm-probability/Generaldistribution.py
+dsnd-hrm-probability/__init__.py
+dsnd_hrm_probability.egg-info/PKG-INFO
+dsnd_hrm_probability.egg-info/SOURCES.txt
+dsnd_hrm_probability.egg-info/dependency_links.txt
+dsnd_hrm_probability.egg-info/not-zip-safe
+dsnd_hrm_probability.egg-info/top_level.txt
