@@ -1,0 +1,4 @@
+[console_scripts]
+fix-ligatures = texthooks.fix_ligatures:main
+fix-smartquotes = texthooks.fix_smartquotes:main
+
