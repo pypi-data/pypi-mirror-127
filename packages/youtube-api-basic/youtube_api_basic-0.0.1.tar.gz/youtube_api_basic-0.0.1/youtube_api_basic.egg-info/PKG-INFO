@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: youtube-api-basic
+Version: 0.0.1
+Summary: a very basic youtube api
+Home-page: UNKNOWN
+Author: khalil el ghoul
+Author-email: khalilelghoul01@gmail.com
+License: MIT
+Keywords: youtube
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+this is a simple youtube api wrapper, it is not a full fledged api wrapper, it only has the functions needed for this project
+it is very simple and easy to use
+you can search for a video, get the video info,get the video thumbnails, download the video, download the video thumbnails
+
+Change Log
+
+=======
+
+0.0.1 (2021/11/17)
+------------------
+- First release
+
+
+
