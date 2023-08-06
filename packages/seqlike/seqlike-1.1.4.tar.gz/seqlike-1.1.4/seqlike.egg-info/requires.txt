@@ -1,0 +1,9 @@
+biopython
+numpy
+pandas
+scikit-learn
+weblogo
+Pillow
+pytest-regtest
+pytest
+multipledispatch
