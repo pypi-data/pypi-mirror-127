@@ -1,0 +1,14 @@
+kbatch/__init__.py,sha256=5pkGQ1hBovlkBf7769ROqAJPEg3Wz593ZhZKniDS1wo,303
+kbatch/_backend.py,sha256=CR0FI1j98dH5f2unHBVEqZbTYTcD_LdK7VF9tZa0lQw,4709
+kbatch/_core.py,sha256=DHxhIrOsBAWA4_oYWUQ__mx0zsRL8jVBzR-6UMK8jWE,4818
+kbatch/_types.py,sha256=9DWwaYI728fg9Gbgcz2PSPm4UMyCT8r74xlklhwnUQg,567
+kbatch/cli.py,sha256=G7YGd07frD4APKKB1S0kPrjq9-omE6OgVksB_bYLVlk,3268
+kbatch_proxy/__init__.py,sha256=Bjf3O38CMmaMiJBf-hrXYJ2gv1rKDDb8W9V6ROPWQR8,259
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=xDcNTQnHQd5xbOWI6EFkSbFnfkBf02LL2Q34qCUDM3U,1667
+tests/test_core.py,sha256=kzAoGIaqNbSb2_F2bgjh1qZVJ4yJvG2y1GggXPoFJQY,5287
+kbatch-0.2.8.dist-info/METADATA,sha256=RL3Y9WW1MqFkMmqbaaWykFNhVgJg7_OeFUFcNIJ35_E,703
+kbatch-0.2.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+kbatch-0.2.8.dist-info/entry_points.txt,sha256=KayL8UU0h3TekwuK9pLn4VGOqSusBgXYsHLkpde9pKA,43
+kbatch-0.2.8.dist-info/top_level.txt,sha256=5RVtO4Q31N379g9H4MCSqD6UmrWsI6euBZWNlrR4C3U,26
+kbatch-0.2.8.dist-info/RECORD,,
