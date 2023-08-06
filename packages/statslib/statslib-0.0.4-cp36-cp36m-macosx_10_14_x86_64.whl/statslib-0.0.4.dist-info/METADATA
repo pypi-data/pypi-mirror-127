@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: statslib
+Version: 0.0.4
+Summary: Bindings for StatsLib (https://github.com/kthohr/stats)
+Home-page: https://github.com/aforren1/pystatslib
+Author: Alexander Forrence
+Author-email: alex.forrence@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: msvc-runtime ; sys_platform == "win32"
+
+git clone https://github.com/aforren1/pystatslib --recursive
+
+Example usage:
+
+```python
+import statslib as sl
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.stats import norm
+
+x = np.linspace(-3, 3, num=100)
+y = sl.dnorm(x, mu=0, sigma=1, log=False)
+y2 = norm.pdf(x, loc=0, scale=1)
+
+plt.plot(x, y - y2)
+plt.show()
+```
+
+
