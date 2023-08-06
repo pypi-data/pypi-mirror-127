@@ -1,0 +1,9 @@
+paddlelibrosa/__init__.py,sha256=KWmDTmB16LJLnTMaTDKCot-W-OZ9bmlBVM2siiOLm4A,260
+paddlelibrosa/augmentation.py,sha256=yK5qTYjgQDz1YNJQogUg5H5JjYQXUQAPIeo6OsA6fQA,2906
+paddlelibrosa/stft.py,sha256=0FvxgkijgZaYz6oQ-7ZelBNrXB9dprruLiIXhe3TkkA,38426
+paddlelibrosa/paddleplus/__init__.py,sha256=eSVvSlYbyhRBOXHyASAlKfO8akjnmT5FptCRbK_PEXQ,977
+paddlelibrosa-0.0.1.dist-info/LICENSE,sha256=N3rw7ahorqvGbbhpWhZu_7j4RYIQHn-diQVPB8r6XjU,1067
+paddlelibrosa-0.0.1.dist-info/METADATA,sha256=s_THf5ik7A_Czsmmu73NgCRPjpe114RJ-2k0HVUflz4,2982
+paddlelibrosa-0.0.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+paddlelibrosa-0.0.1.dist-info/top_level.txt,sha256=hmfzCYd_Qa5_t3fMTTXgWLstscPu2b7Nf8P8Xsbjt7E,14
+paddlelibrosa-0.0.1.dist-info/RECORD,,
