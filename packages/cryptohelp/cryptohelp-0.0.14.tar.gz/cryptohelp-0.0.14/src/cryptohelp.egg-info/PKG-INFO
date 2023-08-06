@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cryptohelp
+Version: 0.0.14
+Summary: A package which contains helper functions for solving crypto challenges in CTFs
+Home-page: https://github.com/Angmar2722/CTF-Helper-Functions-For-Crypto
+Author: Angmar
+Author-email: Angmar2722@github.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Angmar2722/CTF-Helper-Functions-For-Crypto/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Just some CTF helper functions I use for crypto challenges (sourced from many different places)
+
+## Installation:
+
+`pip install cryptohelper`
+
