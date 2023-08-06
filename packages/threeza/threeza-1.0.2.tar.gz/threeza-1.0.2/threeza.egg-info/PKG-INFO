@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: threeza
+Version: 1.0.2
+Summary: Lottery like mechanisms for crowd-sourcing
+Home-page: https://github.com/microprediction/threeza
+Author: microprediction
+Author-email: peter.cotton@microprediction.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+## Threeza (Crowd)
+
+Continuous time lottery-like mechanisms for crowd-sourcing
+ 
+And stuff
+
