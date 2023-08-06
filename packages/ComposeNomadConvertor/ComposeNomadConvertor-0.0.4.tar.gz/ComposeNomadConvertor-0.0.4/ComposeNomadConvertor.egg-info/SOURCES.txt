@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+ComposeNomadConvertor.egg-info/PKG-INFO
+ComposeNomadConvertor.egg-info/SOURCES.txt
+ComposeNomadConvertor.egg-info/dependency_links.txt
+ComposeNomadConvertor.egg-info/requires.txt
+ComposeNomadConvertor.egg-info/top_level.txt
+composenomadconvertor/__init__.py
+composenomadconvertor/__main__.py
+composenomadconvertor/arg_parser.py
+composenomadconvertor/compose_defaults.py
+composenomadconvertor/folder_compressor.py
+composenomadconvertor/nomadgen
+composenomadconvertor/produce_tasks.py
