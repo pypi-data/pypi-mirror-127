@@ -1,0 +1,11 @@
+lazylicense/__init__.py,sha256=ev46LagBPOpTovqvp5Vi0M2iAAWu51dJG6OTuEcrkrk,594
+lazylicense/__main__.py,sha256=tlziQQivqmedk_qSIi5IQPVe_5848FmSe1gaSP0BVq0,36
+lazylicense/lazylicense.py,sha256=SJleCeHFIbNNrMfxhbG75Ox4abKFYVByAXN3mQldGaA,1657
+lazylicense/utils/__init__.py,sha256=jsQ6cn6ky9elHSeOOHN7Q3tZPmXKpI5GXTTer-leN2M,618
+lazylicense/utils/file_scanner.py,sha256=uVcr2LvzsY44BJXIZaTZ5l2A2WdHAH_X6a7pBjBoar8,941
+lazylicense/utils/read_write.py,sha256=hrfMy8IfEM7SY-ehobDPtz7rFMqAh5yT95wEZqmHkWo,2174
+lazylicense-0.1.1b0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lazylicense-0.1.1b0.dist-info/METADATA,sha256=satjhWPtUOGmskdk0zMdzaFy24x6MhDfm5NTsqQbojc,2747
+lazylicense-0.1.1b0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+lazylicense-0.1.1b0.dist-info/top_level.txt,sha256=BUOHXtUGaX299JXwfNDM85KywiDkzsZR4_qUsdIOMl4,12
+lazylicense-0.1.1b0.dist-info/RECORD,,
