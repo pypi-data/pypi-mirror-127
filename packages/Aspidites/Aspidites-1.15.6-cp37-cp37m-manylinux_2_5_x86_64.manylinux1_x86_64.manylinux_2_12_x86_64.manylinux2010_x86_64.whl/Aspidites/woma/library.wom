@@ -1,0 +1,38 @@
+`This file mainly serves as the standard library bootstrapper for the python files in`
+`Aspidites/woma`
+
+`Here are some (not at all optimal) functional interfaces for atomic arithmetic ops`
+
+(add(x = 0 -> number; y = 0 -> number)) number
+	<*> x + y
+
+(sub(x = 0 -> number; y = 0 -> number)) number
+	<*> x - y
+
+(div(x = 0 -> number; y = 0 -> number)) number
+	<*> x / y
+
+(exp(x = 0 -> number; y = 0 -> number)) number
+	<*> x ** y
+
+(mod(x = 0 -> number; y = 0 -> number)) number
+    <*> x % y
+
+(mul(x = 0 -> number; y = 0 -> number)) number
+	<*> x * y
+
+(neg(x = 0 -> number)) number
+    <*> -x
+
+(iterate(f = /0 -> Callable; x = /0 -> *)) coroutine
+    i<@>iter(int, 1)
+        x = f(x)
+        <^>f(x)
+
+(partition(predictor = /0 -> Callable; iterable = /0 -> Iterable)) list
+    t = tee(iterable) -> tuple
+    t1 = t[0] -> Iterable
+    t2 = t[1] -> Iterable
+    p1 = filterfalse(predictor, t1) -> Iterable
+    p2 = filter(predictor, t2) -> Iterable
+    <*>[p1,p2]
