@@ -1,0 +1,5 @@
+[console_scripts]
+gen_alamode = dxutils.alamode:gen_alamode
+genam = dxutils.alamode:gen
+run_alamode = dxutils.alamode:run_alamode
+
