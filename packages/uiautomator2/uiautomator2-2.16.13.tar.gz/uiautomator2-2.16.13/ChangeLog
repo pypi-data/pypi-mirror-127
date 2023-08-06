@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+2.16.13
+-------
+
+* skip image test
+* update log
+* fix logger not init error
+* Update README.md
+* fix logger
+* update again
+* fix wrong github workflow path
+* fix last fix
+* try not to reinstall apk when atx-agent is not installed
+* little fix for vivo and oppo, do not reinstall uiautomator apk
