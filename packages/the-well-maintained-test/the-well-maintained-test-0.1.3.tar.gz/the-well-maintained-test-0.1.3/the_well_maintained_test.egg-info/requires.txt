@@ -1,0 +1,6 @@
+click
+requests
+rich
+
+[test]
+pytest
