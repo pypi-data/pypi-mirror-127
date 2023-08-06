@@ -1,0 +1,6 @@
+README.md
+setup.py
+bugrobot.egg-info/PKG-INFO
+bugrobot.egg-info/SOURCES.txt
+bugrobot.egg-info/dependency_links.txt
+bugrobot.egg-info/top_level.txt
