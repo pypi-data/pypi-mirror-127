@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mithen/__init__.py
+src/mithen/mithen.py
+src/mithen.egg-info/PKG-INFO
+src/mithen.egg-info/SOURCES.txt
+src/mithen.egg-info/dependency_links.txt
+src/mithen.egg-info/top_level.txt
