@@ -1,0 +1,3 @@
+[console_scripts]
+clipboard_sync_client = clipboard_sync_client:cli
+
