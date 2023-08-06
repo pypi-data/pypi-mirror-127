@@ -1,0 +1,3 @@
+[console_scripts]
+latex_trim=latex_trim.latex_trim:run
+

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: latex-trim
+Version: 0.1.0
+Summary: Tool that allows you to include sub-selections of PDFs in latex documents.
+Author: Oliver Rausch
+Author-email: oliverrausch99@gmail.com
+Requires-Python: >=3.7,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: pdf2image (>=1.16.0,<2.0.0)
