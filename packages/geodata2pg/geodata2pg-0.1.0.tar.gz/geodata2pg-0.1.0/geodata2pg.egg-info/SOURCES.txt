@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+geodata2pg/__init__.py
+geodata2pg/__version__.py
+geodata2pg.egg-info/PKG-INFO
+geodata2pg.egg-info/SOURCES.txt
+geodata2pg.egg-info/dependency_links.txt
+geodata2pg.egg-info/requires.txt
+geodata2pg.egg-info/top_level.txt

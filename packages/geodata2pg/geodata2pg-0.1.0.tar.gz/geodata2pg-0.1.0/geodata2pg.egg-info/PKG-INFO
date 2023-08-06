@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: geodata2pg
+Version: 0.1.0
+Summary: 🐰 批量导入 geojson shpfile 到 postgresql
+Home-page: https://github.com/zhuqiandai/geodata2pg
+Author: wangzhx
+Author-email: w1132154046@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+💿 批量导入 geojson  (shpfile todo) 到 postgresql
+
+Params:
+
+- db_config: {
+  "DB_USER": ""
+  "DB_PASSWORD": ""
+  "DB_HOST": ""
+  "DB_PORT": ""
+  "DB_NAME": ""
+  }
+
+- static_path: 相对路径
+- if_exists: 'fail' | 'replace' | 'append', geopandas 中的参数
+
+:rocket: 简单 Demo
+
+```python
+from geodata2pg import main
+
+if __name__ == '__main__':
+    db_config = {
+        "DB_USER": "postgres",
+        "DB_PASSWORD": "1973",
+        "DB_HOST": "localhost",
+        "DB_PORT": "5433",
+        "DB_NAME": "mapbox-api"
+    }
+
+    path = './static'
+
+    main(db_config, path, 'replace')
+
+```
+
