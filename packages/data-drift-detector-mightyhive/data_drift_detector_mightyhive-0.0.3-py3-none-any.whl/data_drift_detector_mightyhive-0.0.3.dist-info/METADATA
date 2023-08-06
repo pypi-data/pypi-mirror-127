@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: data-drift-detector-mightyhive
+Version: 0.0.3
+Summary: A data drift detection and schema validation package
+Home-page: https://github.com/superyang713/data-drift-detector/blob/main/README.md
+Author: Yang Dai
+Author-email: yang.dai@mediamonks.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: ==3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow-data-validation (==1.3.0)
+Requires-Dist: google-auth (==1.35.0)
+Requires-Dist: google-cloud-storage (==1.42.3)
+Requires-Dist: google-cloud-bigquery (==2.28.1)
+Requires-Dist: google-cloud-bigquery-storage (==2.9.1)
+
+## About The Package
+The package is a wrapper of tensorflow data validation for our specific needs.
+It can analyze training data and serving data to compute desscriptive
+statistics, infer a schema, and detect anomalies.
+
+## Dependencies
+
+* [tensorflow-data-validation](https://www.tensorflow.org/tfx/data_validation/get_started)
+
+
+## Installation
+```sh
+pip install data-drift-detector
+```
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Initialize a Harvest client:
+```python
+# The Dataset, TrainDataset, ServeDataset can be initialized with different methods.
+
+train = TrainDataset.from_GCS()
+train = TrainDataset.from_bigquery()
+train = TrainDataset.from_dataframe()
+train = TrainDataset.from_stats_file()
+```
+
+Populate the class variables and submit.
+```python
+# Get training dataset schema
+schema = train.schema_dict()
+```
+
+
