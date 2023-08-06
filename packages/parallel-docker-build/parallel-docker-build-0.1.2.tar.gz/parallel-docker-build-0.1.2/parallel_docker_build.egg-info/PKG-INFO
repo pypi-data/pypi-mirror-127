@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: parallel-docker-build
+Version: 0.1.2
+Summary: parallel_docker_build
+Home-page: https://gitlab.com/jccurtis/parallel-docker-build
+Author: Joseph (Joey) Curtis
+Maintainer: Joseph (Joey) Curtis
+License: MIT
+Download-URL: https://gitlab.com/jccurtis/parallel-docker-build/-/tags
+Keywords: automation docker continuous-deployment
+Platform: any
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# parallel-docker-build
+Parallel docker building with python docker package and multiprocessing
+
+## TODO
+
+* finish CLI for relative list of docker files
+* tagging configuration
+* tests
+
+
