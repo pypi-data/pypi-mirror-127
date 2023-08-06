@@ -1,0 +1,8 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "glob2",
+    "opencv-python"
+]
+build-backend = "setuptools.build_meta"
