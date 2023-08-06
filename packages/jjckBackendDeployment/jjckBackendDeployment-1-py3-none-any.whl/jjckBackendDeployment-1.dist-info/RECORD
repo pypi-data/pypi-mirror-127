@@ -1,0 +1,11 @@
+jjckBackendDeployment/DockerActive.py,sha256=oWjdpzAa4hz9iSvLEV4AVR8wkW41QZAksTx9ENzC6Qk,1578
+jjckBackendDeployment/K8sActive.py,sha256=UQ_qTPjg1ukq7z3WmG7hgKzukAedQQhurmPCAeDRg5U,5370
+jjckBackendDeployment/ProjcetActive.py,sha256=NJziJXavPX5a461bt9W2XzUTJ5GCcXcISqMNoMmdtzQ,2851
+jjckBackendDeployment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jjckBackendDeployment/__main__.py,sha256=Bj3se436GCx9KsthdfnYa7M-EiOd1VfLJGPPOwvhi-A,2260
+jjckBackendDeployment/kubeconfig.yaml,sha256=GPjKjOZr4Tpvu4daujULDjl1kop4Pp9eQwXPKfsm4Lk,5567
+jjckBackendDeployment/nginx-deployment.yaml,sha256=d05zkFmw1u4ljWWHGWKsnp_MTShOoqPUNaSoTYihdnw,483
+jjckBackendDeployment-1.dist-info/METADATA,sha256=WG8pJfSSJsF5Gtu1RIT4bD9ITVSqWuV47WiW0XxxUbE,537
+jjckBackendDeployment-1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jjckBackendDeployment-1.dist-info/top_level.txt,sha256=6xFI7xQ5E_7sV0sR6LoORY8CqCbW9Y70lge4VTvc3Vg,22
+jjckBackendDeployment-1.dist-info/RECORD,,
