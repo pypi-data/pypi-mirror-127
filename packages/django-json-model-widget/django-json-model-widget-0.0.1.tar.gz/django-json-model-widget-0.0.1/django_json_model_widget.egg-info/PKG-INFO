@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-json-model-widget
+Version: 0.0.1
+Summary: Custom flat json field widget for model pairs
+Home-page: https://github.com/galij899
+Author: Oleg Galichkin
+Author-email: galij899@yandex.ru
+License: MIT
+Download-URL: https://pypi.org/project/
+Keywords: django,django-admin,django-admin-widget
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+django-json-model-widget
+
+
+History
+
+

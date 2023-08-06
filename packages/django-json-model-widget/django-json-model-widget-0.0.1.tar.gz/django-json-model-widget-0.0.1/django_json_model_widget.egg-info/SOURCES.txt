@@ -1,0 +1,7 @@
+setup.py
+django_json_model_widget.egg-info/PKG-INFO
+django_json_model_widget.egg-info/SOURCES.txt
+django_json_model_widget.egg-info/dependency_links.txt
+django_json_model_widget.egg-info/top_level.txt
+json_model_widget/__init__.py
+json_model_widget/widgets.py
