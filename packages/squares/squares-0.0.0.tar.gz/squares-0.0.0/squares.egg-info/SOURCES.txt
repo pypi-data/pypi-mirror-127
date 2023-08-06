@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+squares/__init__.py
+squares/squares.py
+squares.egg-info/PKG-INFO
+squares.egg-info/SOURCES.txt
+squares.egg-info/dependency_links.txt
+squares.egg-info/requires.txt
+squares.egg-info/top_level.txt
