@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: smb-optimizer
+Version: 0.1.0
+Summary: Implementation for Pytorch of the method described in our paper "Bolstering Stochastic Gradient Descent with Model Building", S. Ilker Birbil, Ozgur Martin, Gonenc Onay, Figen Oztoprak, 2021 (see https://arxiv.org/abs/2111.07058)
+License: MIT
+Author: Ilker BIRBIL
+Author-email: s.i.birbil@uva.nl
+Requires-Python: >=3.7,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.4.3)
+Requires-Dist: numpy (>=1.21.4)
+Requires-Dist: torch (>=1.10.0)
+Requires-Dist: torchvision (>=0.11.1)
