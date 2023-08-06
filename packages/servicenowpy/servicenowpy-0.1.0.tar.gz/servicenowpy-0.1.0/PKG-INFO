@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: servicenowpy
+Version: 0.1.0
+Summary: ServiceNow Table API, easily
+Home-page: UNKNOWN
+Author: Henrique Santos
+Author-email: henriquencmt@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/henriquencmt/servicenowpy/issues
+Project-URL: Source Code, https://github.com/henriquencmt/servicenowpy
+Project-URL: Documentation, https://servicenowpy.readthedocs.io
+Keywords: servicenow
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+servicenowpy
+============
+
+[![PyPI version](https://badge.fury.io/py/servicenowpy.svg)](http://badge.fury.io/py/servicenowpy)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://pypi.python.org/pypi/servicenowpy/)
+[![Downloads](https://pepy.tech/badge/servicenowpy)](https://pepy.tech/project/servicenowpy)
+
+A library that helps you to get data from ServiceNow's Table API.
+
+Installation
+------------
+
+```shell
+pip install servicenowpy
+```
+
+Simple usage
+------------
+
+How to retrieve records from incident table with this lib:
+
+```python
+>>> from servicenowpy import Client
+>>> sn_client = Client('<instance>.service-now.com', '<user>', '<pwd>')
+>>> inc_table = sn_client.table('incident')
+>>> records = inc_table.get(sysparm_fields='number,short_description')
+>>> for record in records:
+...     print(record)
+{'number': 'INC0000060', 'short_description': 'Unable to connect to email'}
+{'number': 'INC0000009', 'short_description': 'Reset my password'}
+{'number': 'INC0009005', 'short_description': 'Need access to the common drive'}
+```
+_________________
+
+[Further Documentation](https://servicenowpy.readthedocs.io/) | [Github Repository](https://github.com/henriquencmt/servicenowpy/) | [Contributing](https://github.com/henriquencmt/servicenowpy/blob/main/CONTRIBUTING.md)
+
+

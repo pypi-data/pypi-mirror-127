@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+servicenowpy/servicenowpy/__init__.py
+servicenowpy/servicenowpy/exceptions.py
+servicenowpy/servicenowpy/servicenow.py
+servicenowpy/servicenowpy.egg-info/PKG-INFO
+servicenowpy/servicenowpy.egg-info/SOURCES.txt
+servicenowpy/servicenowpy.egg-info/dependency_links.txt
+servicenowpy/servicenowpy.egg-info/requires.txt
+servicenowpy/servicenowpy.egg-info/top_level.txt
