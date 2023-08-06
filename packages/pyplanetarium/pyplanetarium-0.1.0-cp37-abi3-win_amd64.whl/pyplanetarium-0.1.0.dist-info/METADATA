@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyplanetarium
+Version: 0.1.0
+Summary: Python bindings for Rust Planetarium rendering library
+Keywords: astronomy,simulation,python
+Author: Sergey Kvachonok <ravenexp@gmail.com>
+Author-email: Sergey Kvachonok <ravenexp@gmail.com>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/ravenexp/pyplanetarium
+
+PyPlanetarium
+=============
+
+Python bindings for **Planetarium** sub-pixel precision light spot rendering
+library for astronomy and video tracking applications.
+
+**Work In Progress**
+
