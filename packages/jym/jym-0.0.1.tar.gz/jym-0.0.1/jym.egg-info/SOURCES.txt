@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+jym.egg-info/PKG-INFO
+jym.egg-info/SOURCES.txt
+jym.egg-info/dependency_links.txt
+jym.egg-info/top_level.txt
