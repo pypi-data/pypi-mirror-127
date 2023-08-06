@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: py3a
+Version: 0.1.1
+Summary: Lib for reading and writing 3a format
+License: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Author: DomesticMoth
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
