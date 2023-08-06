@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyfmask
+Version: 0.0.0
+Summary: 
+Author: mtralka
+Author-email: mtralka@umd.edu
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
