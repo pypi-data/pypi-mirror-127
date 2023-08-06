@@ -1,0 +1,15 @@
+telemc/__init__.py,sha256=4_vdps6H5Xuyr2ChxsR7dCzwixFwXMM26gyTEYNmIZk,280
+telemc/controller.py,sha256=WJCwLqy6QhmtGD8UymHgc8HgClyfZyesLOfTjCVBsgQ,1859
+telemc/recorder.py,sha256=anSi-ve7ZCMdfx0so_Pt0fZCcVUujHlBvg2LCmavAts,1920
+telemc/telemc.py,sha256=YbQndKWovSmbbsnAMkvYyn35m1GQB630vVZQYtkVh28,1763
+telemc/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telemc/cli/telemc.py,sha256=VcGgLwqGwR43hsy7l1V01LV5ikLdyX2w0f4Y_gWGOWM,2952
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/testutil.py,sha256=LncQy6M3Y8O9lhZEK_U04Kq-Z6ZMNoQSf63zAInBGCc,624
+tests/telemc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/telemc/test_recorder.py,sha256=phv9V6TSqFkLC-vjrNJoQmi1Xs3ZapMfvZol6LTi9JM,2353
+telemc-0.4.0.dev2.dist-info/METADATA,sha256=LSnZK-ZjsaJsDm7e_bi4pnmWm6WGeB61EjvsUqzNfRo,2044
+telemc-0.4.0.dev2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+telemc-0.4.0.dev2.dist-info/entry_points.txt,sha256=6SeI2qiaMhh3ptdxDaOQnnDz-PswqXiHQguZG2MXc58,51
+telemc-0.4.0.dev2.dist-info/top_level.txt,sha256=gVhUwEYKl5ibio81ooib2_A7LAfXUzo0_Y1VopqxSFU,13
+telemc-0.4.0.dev2.dist-info/RECORD,,
