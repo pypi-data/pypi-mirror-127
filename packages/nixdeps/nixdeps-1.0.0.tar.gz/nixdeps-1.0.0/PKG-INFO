@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: nixdeps
+Version: 1.0.0
+Summary: A setuptools entrypoint to store dependencies on Nix packages at build-time
+Home-page: https://github.com/catern/rsyscall
+Author: catern
+Author-email: sbaugh@catern.com
+License: MIT
+Description: See the `nixdeps` module docstrings for more information on usage.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
