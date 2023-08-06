@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+forbin/__init__.py
+forbin.egg-info/PKG-INFO
+forbin.egg-info/SOURCES.txt
+forbin.egg-info/dependency_links.txt
+forbin.egg-info/entry_points.txt
+forbin.egg-info/requires.txt
+forbin.egg-info/top_level.txt
