@@ -1,0 +1,9 @@
+jupytercards/__init__.py,sha256=1-JeTwQgOX__PKHdraLI2mjNo4p1_FZVsP1r1Ilwp9Y,646
+jupytercards/dynamic.py,sha256=FSGFRyOJxNL3qLL1AQ0qQ3GFZGjFZGmb7uJuBYKOTxA,2866
+jupytercards/flashcards.js,sha256=9B41qJTtPSd9zwMOJqiRsX3s3OTXtrUDSfMJFqo8ACo,6846
+jupytercards/styles.css,sha256=VnCdsNXJlkIbGbY5-axmKVXMq1rs_AbyN-B6rq0-4jA,2718
+jupytercards/swiped-events.min.js,sha256=ZyPWzUwos0j0FHDF614mH5mLfYB6DulCYgBJgdk7zns,1769
+jupytercards-1.8.dist-info/LICENSE,sha256=Np-nY8RDgZhQ7xZVs7T0rgFFMvCHSRCHVYh6v3OK1EI,1069
+jupytercards-1.8.dist-info/WHEEL,sha256=iTBNkFIR26Wnx2cg5455J1IIBEskRg4YJC9DJwgu-js,99
+jupytercards-1.8.dist-info/METADATA,sha256=zE-TqiUEVhH9vTDO_qxvG4Ge2zuZ7Sa-YjMTb3zm6aA,2853
+jupytercards-1.8.dist-info/RECORD,,
