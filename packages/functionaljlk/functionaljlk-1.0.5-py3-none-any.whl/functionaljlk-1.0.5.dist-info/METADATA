@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: functionaljlk
+Version: 1.0.5
+Summary: Monads and higher-order utilities.
+Home-page: https://git.bellavistkappl.at/jonathan/py-functional
+Author: Jonathan L. Komar
+Author-email: komar.jonathan@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# functionaljlk Package
+
+Provides functional objects and utilities, inspired by the book, Functional
+Programming in Java.
+
+# Install
+
+```
+pip install functionaljlk
+```
+
+# Usage
+
+TODO
+
+
