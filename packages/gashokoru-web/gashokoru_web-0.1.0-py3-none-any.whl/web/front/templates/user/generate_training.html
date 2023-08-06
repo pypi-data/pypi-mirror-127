@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include 'commons/head.common.html' %}    
+</head>
+<body>
+
+    {% include 'commons/navbar.common.html' %}
+    <br><br><br>
+
+    <div class="container container-lg border p-3">
+
+        <h4 class=text-center>Generate a client training document</h4>
+        <br>
+
+        <h5>General info</h5>
+        <br>
+
+        <form method="POST" action="{{ url_for('routes.out_generate') }}">
+
+            {% include 'commons/generate.general_info.common.html' %}
+
+            <hr>
+
+            <h5>Content</h5>
+            <br>
+            
+            <span class="form-label">Chapters</span>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Chapters" id="floatingTextarea2" style="height: 100px" name="chapters"></textarea>
+                <label for="floatingTextarea2">Insert the chapters and subchapters here...</label>
+            </div>
+            <div id="passwordHelpBlock" class="form-text">
+                To changer a chapter's depth, indent its title using the "+" symbol.
+                <br>
+                <br>
+                Part 1 <br>
+                +Chapter 1.1 <br>
+                +Chapter 1.2 <br>
+                ++Section 1.2.1 <br>
+                Part 2 <br>
+            </div> 
+
+            <hr>
+
+            <h5>Options</h5>
+            <br>
+
+            {% include 'commons/generate.options.common.html' %}
+            
+            <br><br>
+
+            <button class="btn btn-primary" type=submit>Submit form</button>
+
+        </form>
+
+    </div>
+
+    <br><br><br>
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<title>{{ title }}</title>
+
+<link 
+    type="text/css" 
+    rel="stylesheet"  
+    href="{{ url_for('static',filename='styles/main.css') }}"
+></link>
+
+<link 
+    type="text/css" 
+    rel="stylesheet"  
+    href="{{ url_for('static',filename='styles/bootstrap.min.css') }}"
+></link>
+
+<!-- @TODO : move this to the footer -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- @TODO : move this to the footer -->
+<script type="text/javascript" src="{{ url_for('static', filename='scripts/bootstrap.min.js') }}"></script>

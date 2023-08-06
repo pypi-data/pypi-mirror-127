@@ -1,0 +1,5 @@
+templates:
+  rel_dir: 'front.templates'
+
+static:
+  rel_dir: 'front._static'

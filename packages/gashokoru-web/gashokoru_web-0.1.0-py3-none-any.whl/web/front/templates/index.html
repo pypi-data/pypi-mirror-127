@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include 'commons/head.common.html' %}    
+</head>
+<body>
+
+    {% include 'commons/navbar.common.html' %}
+
+    <br><br><br>
+
+    <div class="container container-lg border p-3">
+        
+        <h5>Generate a document</h5>
+
+        <div class="row text-center">
+
+            <div class="col-4 text-center">
+                <a class="btn btn-outline-dark" role="button" 
+                href="{{ url_for('routes.generate', id=1) }}">
+                    Client training
+                </a>
+            </div>
+
+            <div class="col-3 text-center">
+                <a class="btn btn-outline-dark" role="button" href="#">Audit</a>
+            </div>
+
+            <div class="col-4 text-center">
+                <a class="btn btn-outline-dark" role="button" href="#">Delivery test</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+

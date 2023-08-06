@@ -1,0 +1,82 @@
+<div class="row p-3">
+    
+    <div class="col-2 border p-3">
+        
+        <h6>Languages</h6>
+
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" checked="true" name="lang_fr">
+            <label class="form-check-label">French</label>
+        </div>
+
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" name="lang_en">
+            <label class="form-check-label">English</label>
+        </div>
+
+    </div>
+
+    <div class="row col-10">
+
+        <div class="col-5 border-top p-3">
+
+            <h6>Divide into files</h6>
+            
+            <div class="list-group">
+                
+                <label class="list-group-item">
+                      <input class="form-check-input" type="radio" name="segment_level">
+                      Parts (#) - <small><i>level 1</i></small>
+                </label>
+                <label class="list-group-item">
+                      <input class="form-check-input" type="radio" name="segment_level">
+                      Chapters (*) - <small><i>level 2</i></small>
+                </label>
+                <label class="list-group-item">
+                      <input class="form-check-input" type="radio" name="segment_level">
+                      Sections (=) - <small><i>level 3</i></small>
+                </label>
+
+            </div>
+
+        </div>
+
+        <div class="col-5 border-top p-3">
+
+            <h6>&nbsp;</h6>
+
+            <div class="list-group">
+                
+                <label class="list-group-item">
+                      <input class="form-check-input" type="radio" name="segment_level">
+                      Subsections (-) - <small><i>level 4</i></small>
+                </label>
+                <label class="list-group-item">
+                      <input class="form-check-input" type="radio" name="segment_level">
+                      Sub-subsections (^) - <small><i>level 5</i></small>
+                </label>
+                <label class="list-group-item">
+                      <input class="form-check-input" type="radio" name="segment_level">
+                      Paragraphs (") - <small><i>level 6</i></small>
+                </label>
+
+                <br>
+
+                <label class="list-group-item bg-dark text-light">
+                      <input class="form-check-input" type="radio" name="segment_level">
+                      Do not divide <small><i>level 0</i></small>
+                </label>
+
+            </div>
+
+        </div>
+
+        <div class="col-2 border-end border-top"></div>
+        <div id="passwordHelpBlock" class="form-text col-12 border-bottom border-end">
+            Select the depth at which you want to set file creation. Each time a title at the selected depth is encoutered,
+            a new file containing it, along with its child subtitles, will be created.
+        </div>
+    
+    </div>
+
+</div>
