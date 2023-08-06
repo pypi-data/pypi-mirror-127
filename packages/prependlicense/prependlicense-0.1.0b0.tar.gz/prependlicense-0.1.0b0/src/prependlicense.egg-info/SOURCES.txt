@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/prependlicense/__init__.py
+src/prependlicense/prependlicense.py
+src/prependlicense.egg-info/PKG-INFO
+src/prependlicense.egg-info/SOURCES.txt
+src/prependlicense.egg-info/dependency_links.txt
+src/prependlicense.egg-info/top_level.txt
+src/prependlicense/utils/__init__.py
+src/prependlicense/utils/file_scanner.py
+src/prependlicense/utils/read_write.py
