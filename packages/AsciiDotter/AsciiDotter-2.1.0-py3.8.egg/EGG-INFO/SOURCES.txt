@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/AsciiDotter.egg-info/PKG-INFO
+src/AsciiDotter.egg-info/SOURCES.txt
+src/AsciiDotter.egg-info/dependency_links.txt
+src/AsciiDotter.egg-info/entry_points.txt
+src/AsciiDotter.egg-info/not-zip-safe
+src/AsciiDotter.egg-info/requires.txt
+src/AsciiDotter.egg-info/top_level.txt
+src/ascii_dotter/__init__.py
+src/ascii_dotter/__main__.py
+src/ascii_dotter/braille_image.py
+src/ascii_dotter/braille_segment.py
+src/ascii_dotter/luminance.py
