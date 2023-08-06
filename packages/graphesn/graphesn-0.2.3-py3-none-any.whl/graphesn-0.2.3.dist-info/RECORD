@@ -1,0 +1,12 @@
+graphesn/__init__.py,sha256=6xDykfVTNT6cg2gdHMhRMwitvRb0-f_-ts_NM5w9rn8,312
+graphesn/data.py,sha256=7OQdesg0PCFf1PjrWJmv25x7IQ97Q5nfzmE1Xex_1SU,3185
+graphesn/dataset.py,sha256=V0Le-BShTXr0u7Fxiu4AXbjuNpeHnwMBPrWlNiO-W08,3643
+graphesn/matrix.py,sha256=CTsQWuUFQyZJ0g_-bQF0BuRwm7gzkzgmJNpqc-2uo6M,3437
+graphesn/readout.py,sha256=_vcwVcFbQ0RtGZ-DXekfJ6yOfaLMUp37l4NCfXbCJxg,6250
+graphesn/reservoir.py,sha256=8sFSwlP_yFyw80kYbpz3uEE4zG1QOr60ot-Du-RLDMc,12135
+graphesn/util.py,sha256=qWzsSRbyn_1HkhP_wQSa2ut_EtEWL5T98lNxat0LJHA,1198
+graphesn-0.2.3.dist-info/LICENSE,sha256=7OTrNxUNrWAeE6AIvlzp92vnIRZYD1TFMPMifVjpnF8,1110
+graphesn-0.2.3.dist-info/METADATA,sha256=oshotWjr21uq-MsNhbXFEzaN4lQpVdubKOQ44NlZIC8,2276
+graphesn-0.2.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+graphesn-0.2.3.dist-info/top_level.txt,sha256=FBlT8K5zdWPu58w6QCuBsQ3bx2qDLGGtlKSmGrhJWIk,9
+graphesn-0.2.3.dist-info/RECORD,,
