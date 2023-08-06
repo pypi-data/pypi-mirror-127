@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pynotify/__init__.py
+pynotify/__main__.py
+pynotify/config.py
+pynotify/pynotify.py
+pynotify_telfer.egg-info/PKG-INFO
+pynotify_telfer.egg-info/SOURCES.txt
+pynotify_telfer.egg-info/dependency_links.txt
+pynotify_telfer.egg-info/entry_points.txt
+pynotify_telfer.egg-info/requires.txt
+pynotify_telfer.egg-info/top_level.txt

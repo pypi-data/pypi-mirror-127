@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: pynotify_telfer
+Version: 0.0.2
+Summary: Simple email notifications
+Home-page: https://github.com/A-Telfer/simple-notification-script
+Author: Andre Telfer
+Author-email: andretelfer@cmail.carleton.ca
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/A-Telfer/simple-notification-script/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyNotify
+
+Notify yourself when your python script (or other programs) are done.
+
+## Usage
+```
+notify send "Complete" "Simulation x has finished"
+```
+
+or 
+
+```
+import pynotify
+pynotify.send("Complete", "simulation x has finished")
+```
+
+## Setup 
+
+### Create an Email Account to Send From
+
+1. Create a new google account
+
+2. Go into the account `settings > security` then allow `Less secure apps`
+
+![image-20211113125642543](/home/andretelfer/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20211113125642543.png)
+
+### Install 
+Clone this repository and cd into it
+```
+pip install --user pynotify-telfer
+```
+
+### Configure
+
+Save the bot information
+```
+notify sender update --email <bot email> --password <bot password>
+```
+
+Add your recipients
+
+```
+notify add <your email>
+```
+
+
