@@ -1,0 +1,4 @@
+include README.rst
+include smtp.yaml
+include contents/*.yaml
+include templates/*.html
