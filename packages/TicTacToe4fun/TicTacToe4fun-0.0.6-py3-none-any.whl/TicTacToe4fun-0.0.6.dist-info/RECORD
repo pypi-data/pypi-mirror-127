@@ -1,0 +1,16 @@
+TicTacToe4fun/__about__.py,sha256=IMDHWCnPFFmhxgvlJtwlBZBdyL8lVlVDmiwmhwFf3O0,139
+TicTacToe4fun/__init__.py,sha256=UmAMT_L-wxDWowGFujvMeB1yAByIO_hfVoVKhGoYUTg,250
+TicTacToe4fun/__pycache__/__about__.cpython-38.pyc,sha256=Q0AOdzucrw15MI63fQZ6D0cppdQ7uEiysgcPB88d4To,224
+TicTacToe4fun/__pycache__/__init__.cpython-38.pyc,sha256=cATELKq2Z_o0bMHmStJfnzddQLY_ys5RSyBzYVp1DjU,294
+TicTacToe4fun/examples/game1.png,sha256=1W80B3Azt20lndKa9kGqQ9Jf46XqRSWn2cW7D8PN4is,256452
+TicTacToe4fun/examples/game1.pptx,sha256=f93A2Hw0nwZw39fxEvk6LzTuUZE3_hMqJC_0UBtqnFg,205575
+TicTacToe4fun/game/__init__.py,sha256=8Ifm1BZAYdqEpEghk7H4HP2Uq1RPtT3_e_Zqd0vakaI,189
+TicTacToe4fun/game/_game.py,sha256=x1oGUu7uFnBxi_pqc8DgWgWs8LVgsXDG48lkNYlmnBg,15589
+TicTacToe4fun/game/__pycache__/__init__.cpython-38.pyc,sha256=_SV5T-57jgN3rQLrsA_QE7FUDpIk-pGWjJRnlMgLoEk,239
+TicTacToe4fun/game/__pycache__/_game.cpython-38.pyc,sha256=2O0CK5mZpCpfLyZ0H4CLtvOQmej9DdSXWKtMszniBZA,6103
+TicTacToe4fun/game/__pycache__/_play.cpython-38.pyc,sha256=l4ytnUoj3OnCf9bksRkc-frX650IaBv1DR5wPofgSd8,4184
+TicTacToe4fun-0.0.6.dist-info/LICENSE,sha256=UZzhUR8GRwL5X79j2LG-DxEVOiP3XhMt0-JkGsyJWX0,1070
+TicTacToe4fun-0.0.6.dist-info/METADATA,sha256=HVIgMvU7VMpGvduqmzATqtd9P5m53U46fXQdI5PJuRo,2379
+TicTacToe4fun-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+TicTacToe4fun-0.0.6.dist-info/top_level.txt,sha256=9zKoGKIOd_csZ2HpfVJxM4hhHILjWQofG5qDyLHialM,14
+TicTacToe4fun-0.0.6.dist-info/RECORD,,
