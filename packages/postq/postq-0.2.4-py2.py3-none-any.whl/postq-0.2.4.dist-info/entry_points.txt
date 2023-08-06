@@ -1,0 +1,3 @@
+[console_scripts]
+postq = postq.__main__:main
+
