@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pynibs
+Version: 0.1
+Summary: A toolbox to prepare and analyse non-invasive brain stimulation experiments (NIBS).
+Home-page: UNKNOWN
+Author: Konstantin Weise
+Author-email: kweise@cbs.mpg.de
+License: GPL3
+Download-URL: https://gitlab.gwdg.de/tms-localization/pynibs/-/archive/v0.1/pynibs-v0.1.tar.gz
+Keywords: NIBS,non-invasive brain stimulation,TMS,FEM
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
