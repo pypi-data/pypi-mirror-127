@@ -1,0 +1,13 @@
+zero_hid/Keyboard.py,sha256=QT4ZQJxNqIJqk6qugH0ylF8A-H-sMAm6mfzT3yn6AmM,985
+zero_hid/Mouse.py,sha256=7MBoqwS7nR6GR_6DhVsZbua_9g6_0NYDDKYeuzboIYQ,558
+zero_hid/__init__.py,sha256=7P5bN_QGSzuKrI5R5jL2VujB2dBMuTOa2pp1y2RfduU,136
+zero_hid/hid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zero_hid/hid/keyboard.py,sha256=HpoFJwpsei61SHiOT-pBYImAByJ67kGoWUZl_gVIYvg,538
+zero_hid/hid/keycodes.py,sha256=pjp0zKyPIwbI8G0MIS-aq2waMJPrR0I8PXTpPqRf5wM,8886
+zero_hid/hid/mouse.py,sha256=1693hnebSc4Rx2ETyEZsFfsns5YlzpMJsxyFPUtSyEU,407
+zero_hid/hid/write.py,sha256=w9zDJYJugk3b4TIdCh4UA_MP5qkiZI3qDgzaZ6-v2Xw,3181
+zero_hid-0.1.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+zero_hid-0.1.dist-info/METADATA,sha256=kvStIPUV00oVB0FnErydgzjTHf2vExdNZj0aRwKnrgA,1762
+zero_hid-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zero_hid-0.1.dist-info/top_level.txt,sha256=J6TtWqMTWC-wbCOGL2UyTo4dGPuksiqpP4S5WZDHplI,9
+zero_hid-0.1.dist-info/RECORD,,
