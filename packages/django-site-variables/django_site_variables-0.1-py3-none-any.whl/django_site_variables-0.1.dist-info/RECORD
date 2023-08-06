@@ -1,0 +1,14 @@
+django_site_variables/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_site_variables/admin.py,sha256=pzG1n6xpdbA3ivpecMo5EQHxKWpE-gdwW9hTv1Jlivk,1192
+django_site_variables/apps.py,sha256=cHXcE_aSQd_O2NShDj-t5rSS8DDvOnXBM0FYBgRgoxg,263
+django_site_variables/forms.py,sha256=XWmvEayimbefeRxKz_kAU4558uzVg1uoKvF2qqwlweo,356
+django_site_variables/helper.py,sha256=BzrNk1jRkHiGmZz0OWJkmv8SFt6QDPcOqEDbg4yRqm0,1256
+django_site_variables/models.py,sha256=AwqDvO1vjlNUunP9PINSIpKIuo6pMWUHcryMghE_jsA,1766
+django_site_variables/tests.py,sha256=rtsj7pN4M9393g6XLpzCzUjrZV1_LA1o_6a1jWUh61c,1094
+django_site_variables/migrations/0001_initial.py,sha256=lizrePEuhAz06HqBXGZCO88rFkuCdZ8IN9Ms2bmT7lQ,1028
+django_site_variables/migrations/0002_auto_20211114_1816.py,sha256=dT8xdAKWIKVCa5L_gEOhWeLbofHDbd1ze9W4zM7HZAo,1662
+django_site_variables/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_site_variables-0.1.dist-info/METADATA,sha256=sAKNbnLJB23gG5hPeiER2g2uJBkt-8e1hL40rF1lHHo,416
+django_site_variables-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_site_variables-0.1.dist-info/top_level.txt,sha256=psTJSXAYX40aiIJnFtF6yd6oUEpicwtFd1c53JpKlU0,22
+django_site_variables-0.1.dist-info/RECORD,,
