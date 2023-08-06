@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+adummypatt.egg-info/PKG-INFO
+adummypatt.egg-info/SOURCES.txt
+adummypatt.egg-info/dependency_links.txt
+adummypatt.egg-info/top_level.txt
+app/__init__.py
