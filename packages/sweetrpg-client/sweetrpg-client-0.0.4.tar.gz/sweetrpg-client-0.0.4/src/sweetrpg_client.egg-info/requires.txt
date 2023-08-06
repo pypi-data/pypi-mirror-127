@@ -1,0 +1,7 @@
+marshmallow==3.14.1
+sweetrpg-model-core
+sweetrpg-api-core
+sweetrpg-library-objects
+requests
+jsonapi-client
+json-api-doc
