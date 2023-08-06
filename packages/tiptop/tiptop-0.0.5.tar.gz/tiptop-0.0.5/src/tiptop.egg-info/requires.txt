@@ -1,0 +1,4 @@
+py-cpuinfo
+distro
+psutil
+textual
