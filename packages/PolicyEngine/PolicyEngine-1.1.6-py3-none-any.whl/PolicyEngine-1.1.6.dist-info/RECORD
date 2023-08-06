@@ -1,0 +1,17 @@
+policyengine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+policyengine/server.py,sha256=qTd8XA3jqyvmekZ6lBE94NTPil22Z17nJrIZEyPwBLU,3919
+policyengine/countries/__init__.py,sha256=USbyghv36l_tFsir-oDaAWSLLyvmCIIf4_dVovtAB38,104
+policyengine/countries/country.py,sha256=U5CRQmEyfhsYnyw0HZ6hQCujKuz-OJn4mgJu0VdsGOI,7100
+policyengine/countries/entities.py,sha256=Hjndu8BOd0SCnjqsbUdH4nh7-bBMn-1mzXFp0_nBBWo,1191
+policyengine/countries/uk/__init__.py,sha256=lT5TuWVqo78mm_Rajt3lk7k0rCAtjySifdLsgMi4omk,1410
+policyengine/countries/uk/default_reform.py,sha256=DIfTjZnt6Qq_s340xZz8nopSq6SoJ7UKqU04-lKsY6A,5911
+policyengine/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+policyengine/utils/charts.py,sha256=K3uVF5xTwnOpdvPBysZVMZ2GkVMJElkft_7plnGOuiE,9143
+policyengine/utils/general.py,sha256=dbfKQIl7kP8lHC0OefIGkzMhe38yUuwBMsshVnwkrOY,2211
+policyengine/utils/reforms.py,sha256=-XndqzawwKcASIaxcJ67xAJ7Ab9tuLNvsQVfQfOnbMk,8629
+policyengine/utils/situations.py,sha256=a5TVhb8SESU0jECMOZFJkckVBRdAbJEwpJK8O8y_EsM,4583
+PolicyEngine-1.1.6.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+PolicyEngine-1.1.6.dist-info/METADATA,sha256=JW8maD6MPjw5rzkSQ39jB3ky3Ri2qfEPJjRPTLm-9Y0,636
+PolicyEngine-1.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PolicyEngine-1.1.6.dist-info/top_level.txt,sha256=_23UPobfkneHQkpJ0e0OmDJfhCUfoXj_F2sTckCGOH4,13
+PolicyEngine-1.1.6.dist-info/RECORD,,
