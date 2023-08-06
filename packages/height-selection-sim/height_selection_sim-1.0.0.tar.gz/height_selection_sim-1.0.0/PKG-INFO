@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: height_selection_sim
+Version: 1.0.0
+Summary: Simple Python program to simulate the effects of negative selection on a synthetic population of humans
+Home-page: https://github.com/RobersonLab/height_selection_sim
+Author: Elisha D.O. Roberson
+Author-email: dr.eli.roberson@gmail.com
+License: MIT
+Keywords: natural selection simulator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+
+UNKNOWN
+

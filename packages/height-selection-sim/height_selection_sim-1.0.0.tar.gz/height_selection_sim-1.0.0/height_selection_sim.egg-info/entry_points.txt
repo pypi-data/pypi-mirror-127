@@ -1,0 +1,3 @@
+[console_scripts]
+height_selection_sim = height_selection_sim.__main__:run
+
