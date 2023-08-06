@@ -1,0 +1,79 @@
+[tool.poetry]
+name = "viewdom"
+version = "0.5.1"
+description = "ViewDOM"
+authors = ["Paul Everitt <pauleveritt@me.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/pauleveritt/viewdom"
+repository = "https://github.com/pauleveritt/viewdom"
+documentation = "https://viewdom.readthedocs.io"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3.9",
+]
+
+[tool.poetry.urls]
+Changelog = "https://github.com/pauleveritt/viewdom/releases"
+
+[tool.poetry.dependencies]
+python = "^3.9.1"
+tagged = "^0.0.2"
+venusian = "^3.0.0"
+htm = "^0.1.1"
+MarkupSafe = "^2.0.1"
+hopscotch = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+coverage = {extras = ["toml"], version = "^6.1"}
+safety = "^1.10.3"
+mypy = "^0.910"
+xdoctest = {extras = ["colors"], version = "^0.15.10"}
+sphinx = "^4.3.0"
+sphinx-autobuild = "^2021.3.14"
+pre-commit = "^2.15.0"
+flake8 = "^4.0.1"
+black = "^21.10b0"
+flake8-bandit = "^2.1.2"
+flake8-bugbear = "^21.9.2"
+flake8-docstrings = "^1.6.0"
+flake8-rst-docstrings = "^0.2.3"
+pep8-naming = "^0.12.1"
+darglint = "^1.8.1"
+reorder-python-imports = "^2.6.0"
+pre-commit-hooks = "^4.0.1"
+Pygments = "^2.10.0"
+pyupgrade = "^2.29.0"
+nox = "^2021.10.1"
+nox-poetry = "^0.8.6"
+furo = "^2021.11.12"
+myst-parser = "^0.15.2"
+sybil = "^3.0.0"
+
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["viewdom"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 90
+
+[tool.pytest.ini_options]
+addopts = "-p no:doctest"
+testpaths = ["tests", "examples", "docs"]
+
+[tool.mypy]
+strict = true
+pretty = true
+show_column_numbers = true
+show_error_codes = true
+show_error_context = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
