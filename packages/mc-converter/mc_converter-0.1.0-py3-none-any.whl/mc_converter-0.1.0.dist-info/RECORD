@@ -1,0 +1,14 @@
+mc_converter/__init__.py,sha256=vp4J30ytY0nAqxasWnAEuaJ8ipGrHFkFrQPfhzJFLK4,67
+mc_converter/curseforge.py,sha256=_xqV6bzaTCNYylhZIq-HKo-PW6ql1vVlXDE43CQoHjY,5500
+mc_converter/Helpers/abstractions.py,sha256=dEb0n9Asdlc7MtyxdcDYml5_Hl-OFe7QKzf4zs5gRmc,807
+mc_converter/Helpers/resourceAPI.py,sha256=94dy_BTwxALDAz-xINpqasp0jK-TM_SwyLJZDeG_G0g,8162
+mc_converter/Helpers/utils.py,sha256=s84ZhUhk_kst_l6AQOe1gnPNvwXmKACGGnLHJELxpyQ,2789
+mc_converter/main.py,sha256=5cKETJyI1MLMWk8Pxq-7vn8C4cWokTCXDLRpz5ThCsw,3034
+mc_converter/modrinth.py,sha256=yW2GW6J40nnPkRV31KOXtYeEp9yvBvHG-OueUmd2NJQ,5328
+mc_converter/multimc.py,sha256=Pk3QKMx23EOZWdFd0d8O1Yei2rU2pJLMGjVC5sMZf44,4407
+mc_converter/packwiz.py,sha256=lKrWJ8cLpshbbljbAZfa7hcFw18t2dZ1umyxgWm64Dg,8408
+mc_converter-0.1.0.dist-info/entry_points.txt,sha256=kxzjdA0tDyYXWFk7N1jWuZy1MNR3x4kNLE84pzjJj2s,50
+mc_converter-0.1.0.dist-info/LICENSE,sha256=rHLqjMHhXKsCzuQDqL8jQJW0azhWSnXFZwgmFPaRevk,1087
+mc_converter-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mc_converter-0.1.0.dist-info/METADATA,sha256=FCusQWh1G9rKuAQP9VZABQnngY1_daAtkm6wA6xo-vo,985
+mc_converter-0.1.0.dist-info/RECORD,,

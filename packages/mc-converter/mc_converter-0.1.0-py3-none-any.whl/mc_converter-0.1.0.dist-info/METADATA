@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: mc-converter
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/RozeFound/modpack-converter
+License: MIT
+Keywords: minecraft,mods,modpack,converter
+Author: RozeFound
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Requires-Dist: murmurhash2 (>=0.2.9,<0.3.0)
+Requires-Dist: pytoml (>=0.1.21,<0.2.0)
+Requires-Dist: tomli (>=1.2.1,<2.0.0)
+Project-URL: Repository, https://github.com/RozeFound/modpack-converter
+Description-Content-Type: text/markdown
+
+# modpack-converter
+Convert's one modpack format to another.
+
+Maybe I need to think of a better name...
+
+# How to Install
+
+## From PyPI
+```
+pip install mc-converter
+```
+## From `.whl` file
+Go to Release page, download latest `.whl` file \
+ And install it via the following comand:
+ ```
+ pip install mc_converter_{version}.whl
+ ```
+ 
