@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mutalyzer
+Version: 3.0.0a1
+Summary: Mutalyzer HGVS variant description tools.
+Home-page: https://github.com/mutalyzer/mutalyzer
+Author: Mihai Lefter
+Author-email: M.Lefter@lumc.nl
+License: MIT
+Keywords: Mutalyzer,HGVS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mutalyzer-hgvs-parser (==0.2.0)
+Requires-Dist: mutalyzer-spdi-parser (==0.2.0)
+Requires-Dist: mutalyzer-retriever (==0.2.4)
+Requires-Dist: mutalyzer-mutator (==0.2.0)
+Requires-Dist: mutalyzer-crossmapper (==2.0.0)
+Requires-Dist: mutalyzer-backtranslate (==0.1.4)
+Requires-Dist: description-extractor (==3.0.0)
+Requires-Dist: mutalyzer-algebra (==0.2.0)
+
+UNKNOWN
+
