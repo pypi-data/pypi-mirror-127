@@ -1,0 +1,11 @@
+hdx/database/__init__.py,sha256=T0dkQEpGF2cPtrvrAs2AuYdvlgNtn4j_cWaud8DqyFE,5422
+hdx/database/database.py,sha256=wHWV94AqqWed2E7BYB0lggukk6T0GmudpE8mktlFSSo,5399
+hdx/database/postgres.py,sha256=CfX4loRqlvSankxrot334O4sEamPUAN5ZVhD2s5yma8,1505
+hdx/database/version.py,sha256=15gNJThX0xdLvOamegE7JqEO_Cb1xY50SBW2mF_TZU4,280
+hdx/database/version.txt,sha256=LfK9cBHoc1Hi4-KW3bfyUgJwp2Fg-VstZLM3FnKU8ow,6
+hdx_python_database-1.1.1.dist-info/LICENSE,sha256=wc-4GpMn-ODs-U_bTe1YCiPVgvcjzrpYOx2wPuyAeII,1079
+hdx_python_database-1.1.1.dist-info/METADATA,sha256=eqEQIXzypkcyOnSEatuZ22PqcBRnXUMW8yY2TS3QvfU,2493
+hdx_python_database-1.1.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+hdx_python_database-1.1.1.dist-info/top_level.txt,sha256=cfo3TyDjnu-B1jb_itPPFQCH00c5VT5GuZ30eNrGmlI,4
+hdx_python_database-1.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+hdx_python_database-1.1.1.dist-info/RECORD,,
