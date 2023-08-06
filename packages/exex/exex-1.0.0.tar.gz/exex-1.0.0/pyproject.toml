@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "exex"
+version = "1.0.0"
+description = "Extract data from Excel documents."
+authors = ["Viktor Persson"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/vikpe/exex"
+keywords = ["excel", "extract", "parser", "xlsx"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Office/Business :: Financial :: Spreadsheet",
+    "Topic :: Utilities",
+    "Operating System :: POSIX",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS :: MacOS X",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+openpyxl = "^3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+tox = "^3.24.4"
+pytest-cov = "^3.0.0"
+pytest-sugar = "^0.9.4"
+tox-pyenv = "^1.1.0"
+black = "^21.10b0"
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
