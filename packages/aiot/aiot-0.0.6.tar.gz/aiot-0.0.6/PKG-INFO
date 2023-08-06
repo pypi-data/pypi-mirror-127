@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: aiot
+Version: 0.0.6
+Summary: aiot sdk in python
+Home-page: https://github.com/mobifone-aiot/aiot-python
+Author: Đào Ngọc Thành
+Author-email: thanh.daongoc10@mobifone.vn
+License: UNKNOWN
+Description: ## sdk python for mobifone aiot platform
+        
+        this is an example project demonstrating how to publish a python module to PyPI.
+        
+        ## Installation
+        
+        Run the followin gto install
+        
+        ```python
+        pip install aiot
+        ```
+        
+        ## Developing aiot
+        
+        To install Helloworld, along with the tools you need to develop and run tests, run the following in yout virtualenv:
+        
+        ```bash
+        $ pip install -e .[dev]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Provides-Extra: dev
