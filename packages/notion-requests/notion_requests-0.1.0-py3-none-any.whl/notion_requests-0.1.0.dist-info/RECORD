@@ -1,0 +1,8 @@
+notion_requests/__init__.py,sha256=VcaWWmiVrgm1X0v2Xq9tR_uc6qE1fSxKpWozFJYl7sw,249
+notion_requests/client.py,sha256=_6scnBKxS38d3UBcFKlMTPC4d8wgSYCGl6siUzG9n8I,10823
+notion_requests/version.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+notion_requests-0.1.0.dist-info/LICENSE,sha256=AGjJm9cZgp67a130aHXN1qQ8pr0IrIB6oVgM5YkAfes,1072
+notion_requests-0.1.0.dist-info/METADATA,sha256=bx1OpI36FXefLlBpRBe-jESkzqumhE2XjN0AiOb3oL8,5881
+notion_requests-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+notion_requests-0.1.0.dist-info/top_level.txt,sha256=eB2mkc1MVHaOWVSAtEgxSfGQ0jO5deI_EvRBZV9Odvc,16
+notion_requests-0.1.0.dist-info/RECORD,,
