@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: Cython_GLDA
+Version: 0.0.2
+Summary: cython implementation of gaussianlda
+Home-page: UNKNOWN
+Author: Chenyu Yang
+Author-email: devonthepupil@gmail.com
+License: MIT
+Keywords: trial
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires: numpy
+Requires: Cython
+Requires: scipy
+Requires: os
+Requires: sys
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+following "myfirstpythonpackage" this follow up package intends to implement gibbs sampling of gaussianlda model in Cython
+
+
+
+
+change log
+===================================
+
+version 0.0.1 (11/08/2021)
+-----------------------------------
+- testing object oriented version of Cython Gaussianlda
+

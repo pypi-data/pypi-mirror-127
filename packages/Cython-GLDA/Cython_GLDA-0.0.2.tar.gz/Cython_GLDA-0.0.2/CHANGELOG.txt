@@ -1,0 +1,6 @@
+change log
+===================================
+
+version 0.0.1 (11/08/2021)
+-----------------------------------
+- testing object oriented version of Cython Gaussianlda
