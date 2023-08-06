@@ -1,0 +1,4 @@
+[console_scripts]
+qcget = qc2champ.scripts.qcget:qcget
+qcwrite = qc2champ.scripts.qcwrite:main
+

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: qc2champ
+Version: 1.0.0
+Summary: qc2champ: Convert a quantum chmical output file to a CHAMP input file.
+Home-page: http://qc2champ.github.io/
+Author: Ravindra Shinde
+Author-email: neelravi@gmail.com
+Maintainer: Ravindra Shinde
+Maintainer-email: neelravi@gmail.com
+License: BSD 3-Clause License
+Platform: Any.
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+qc2champ is a Python library that connverts outputs from various
+quantum chemical calculations to CHAMP input files. It relies on cclib
+for parsers.
+
+
