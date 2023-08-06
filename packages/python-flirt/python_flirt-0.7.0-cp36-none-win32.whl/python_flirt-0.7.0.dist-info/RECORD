@@ -1,0 +1,5 @@
+python_flirt-0.7.0.dist-info/METADATA,sha256=TPsBGsBJBJI7YfvvEjmmUBqTkzRo1eVipE6a3pbQv6Q,7010
+python_flirt-0.7.0.dist-info/WHEEL,sha256=W0hRH-cwges5dppTiMISNzEbK9tpWrJVo6g3ckWJjwI,91
+flirt/__init__.py,sha256=2Cj2PdZs5_L0KP6dzc5fp4j8VH0VPCL2ra0zm1K9_hQ,46
+flirt/flirt.pyd,sha256=9ZIcblBUfIFN28avAtjp2LHYD3Px-U72wn5nnUsQpzw,349184
+python_flirt-0.7.0.dist-info/RECORD,,
