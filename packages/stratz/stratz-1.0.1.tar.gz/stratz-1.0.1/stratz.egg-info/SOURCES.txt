@@ -1,0 +1,11 @@
+README.md
+setup.py
+stratz/__init__.py
+stratz/errors.py
+stratz/lang.py
+stratz/urls.py
+stratz.egg-info/PKG-INFO
+stratz.egg-info/SOURCES.txt
+stratz.egg-info/dependency_links.txt
+stratz.egg-info/requires.txt
+stratz.egg-info/top_level.txt
