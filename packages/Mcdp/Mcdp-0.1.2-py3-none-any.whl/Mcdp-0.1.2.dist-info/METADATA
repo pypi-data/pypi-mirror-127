@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Mcdp
+Version: 0.1.2
+Summary: A python wheel helps to build a Minecraft datapack. The name 'Mcdp' is short for 'Minecraft datapack'.
+Home-page: https://github.com/Ovizro/Mcdp
+Author: Ovizro
+Author-email: Ovizro@hypercol.com
+License: Apache 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ujson
+Requires-Dist: pydantic
+Requires-Dist: aiofiles
+
+# Mcdp #
+
+A python wheel helps to build a Minecraft datapack.<br>
+The name "Mcdp" is short for "Minecraft datapack".
+
+
