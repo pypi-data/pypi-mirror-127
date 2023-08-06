@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: vox2obj
+Version: 0.1.0
+Summary: Converts voxel models to obj files.
+Home-page: https://gitlab.com/Claytone/vox2obj
+Author: Claytone
+Author-email: clayton.wells.321@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://gitlab.com/Claytone/vox2obj/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Vox2Obj
+
+Converts .vox files to .obj files. **UNDER ACTIVE DEVELOPMENT so things may change very quickly.** 
+
+## Usage
+
+```python
+from vox2obj import convert_to_obj
+convert_to_obj(in_file="in.vox", out_file="out.obj", texture_file="texture.png")
+```
+
+Where:
+- "in.vox" is the input .vox file
+- "out.obj" is the output destination
+- "texture.png" is the texture that belongs to the .vox file
+  - It should be a 1x255 pixel png image.
+  - You will probably have to save this separately using your voxel editor. 
+
