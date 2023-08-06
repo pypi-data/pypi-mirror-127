@@ -1,0 +1,13 @@
+functionaljlk/__init__.py,sha256=UT2RuRmB0u11cJKBq3-aJnCQHzwGdI8TpR1dkABZWlQ,137
+functionaljlk/collection.py,sha256=Fk0SVA55yaUzlFz8xiDmz7wGX-nSbH3I12glgB-Qirs,1380
+functionaljlk/effect.py,sha256=DvPnr6ackzGG-mtyHRZ-YMgsWLlfHWQnKNFR17AOQaY,1355
+functionaljlk/iniconfig.py,sha256=BmEUVO4Bp3r_O0oRPSpXaKjdExnO_BnowmfeKwyVRcw,2595
+functionaljlk/map.py,sha256=rZAqAI6rJj5DGxgzY9Xf4vD6IMmGNOYj5l9LzBkdVeQ,1641
+functionaljlk/monad.py,sha256=NzQMeDCf-uAnwOGLiWOJvnolfqCGDqFxZjLNegUc1PU,2239
+functionaljlk/mycallable.py,sha256=eFgsjYw1k-_r2QNCpirNjgEZD--avnXY1n-xC7KShP0,3057
+functionaljlk/result.py,sha256=1DFruzXw6wE7U5nMxZkYb6C7IyqwFxTjxVQNraFO8iw,7094
+functionaljlk-1.0.4.dist-info/LICENSE.txt,sha256=UVUV0rsbQ_RFNsuZlkPU9LonkRqwHCNZBr4WguSyqVI,1058
+functionaljlk-1.0.4.dist-info/METADATA,sha256=zmJK2ko9GXeFR9IxVQRKeoEPniP0oiSxNFtMdzUpHY8,684
+functionaljlk-1.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+functionaljlk-1.0.4.dist-info/top_level.txt,sha256=4AuBJ9FN9lCRn1GN19WJDV5KtLqRj6FdRALsjOsifLM,14
+functionaljlk-1.0.4.dist-info/RECORD,,
