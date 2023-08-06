@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: jim_kit
+Version: 0.0.3
+Summary: jims_library 
+Home-page: UNKNOWN
+Author: jim
+Author-email: 694067345@qq.com
+License: MIT Licence
+Description: this is jims personal library 
+Keywords: personal
+Platform: any
+Requires-Python: >=3.7.*
