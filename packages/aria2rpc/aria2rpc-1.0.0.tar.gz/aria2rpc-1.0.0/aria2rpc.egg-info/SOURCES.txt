@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+aria2rpc/__init__.py
+aria2rpc/core.py
+aria2rpc/utils.py
+aria2rpc.egg-info/PKG-INFO
+aria2rpc.egg-info/SOURCES.txt
+aria2rpc.egg-info/dependency_links.txt
+aria2rpc.egg-info/requires.txt
+aria2rpc.egg-info/top_level.txt
+aria2rpc/../.gitignore
+aria2rpc/../LICENSE
+aria2rpc/../README.md
+aria2rpc/../requirements.txt
+test/test.py
