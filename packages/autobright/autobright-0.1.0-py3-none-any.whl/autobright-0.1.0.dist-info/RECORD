@@ -1,0 +1,12 @@
+autobright/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autobright/__main__.py,sha256=wAdg5qR9l363VQXcn8e8NbRg6xGFG6xAtoXXDXeDMLo,594
+autobright/colorhugals.py,sha256=1gBUG2NkQ9lr--XVVvXcL0z7oAKDULFuMMgcL4Ux98I,842
+autobright/core.py,sha256=3kyY0M_oWBa4W65_PGb0mPFtin-nwcI2xjW6YfTdS7I,405
+autobright/ddccontrol.py,sha256=PI-2C0nmapgxawCyvVY5Q-XO6BuC0lYzCc04WWhscoI,607
+autobright/measurements.py,sha256=Cv-iobuqST_s8UCdbQ4bYVUNCVSxVku-clVq0xRjvi4,1130
+autobright/models.py,sha256=K3xpK_0rxv-2BqwtLuW7EWIpTiYFoiesFpell86WN7w,202
+autobright/webui.py,sha256=SdY4820w7M1sI91wxFXXpP6t0x-iibNM7rH03Rq-M7A,1179
+autobright-0.1.0.dist-info/entry_points.txt,sha256=y2ftS4cBYzCV6kEAcitCC2IUTzlAaQG8HbQLSa88tww,55
+autobright-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+autobright-0.1.0.dist-info/METADATA,sha256=AWMgHrAhaQtSu1QnGvNjP1SWGb3ytVVPn8PA76PRCQs,580
+autobright-0.1.0.dist-info/RECORD,,

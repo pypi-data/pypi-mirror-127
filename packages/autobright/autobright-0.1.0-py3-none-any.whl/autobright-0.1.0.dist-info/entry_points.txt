@@ -1,0 +1,3 @@
+[console_scripts]
+autobright=autobright.__main__:main
+
