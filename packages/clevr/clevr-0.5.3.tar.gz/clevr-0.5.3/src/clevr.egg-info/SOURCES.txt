@@ -1,0 +1,6 @@
+setup.py
+src/clevr.egg-info/PKG-INFO
+src/clevr.egg-info/SOURCES.txt
+src/clevr.egg-info/dependency_links.txt
+src/clevr.egg-info/requires.txt
+src/clevr.egg-info/top_level.txt
