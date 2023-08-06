@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: bavera
+Version: 0.14
+Summary: A Pythonic Library For The Discord API
+Home-page: https://github.com/bavera/bavera
+Author: bavera
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: gevent (<21.9.0,>=21.3.0)
+Requires-Dist: holster (<3,>=2.0.0)
+Requires-Dist: requests (<3,>=2.25.1)
+Requires-Dist: six (<2,>=1.13.0)
+Requires-Dist: websocket-client (<1.2.2,>=1.0.0)
+Provides-Extra: docs
+Requires-Dist: biblio (==0.0.4) ; extra == 'docs'
+Provides-Extra: http
+Requires-Dist: flask (<2.0.2,>=1.0.0) ; extra == 'http'
+Provides-Extra: music
+Requires-Dist: youtube-dl (>=2021.6.6) ; extra == 'music'
+Provides-Extra: sharding
+Requires-Dist: gipc (<1.3.0,>=1.0.0) ; extra == 'sharding'
+Provides-Extra: speed
+Requires-Dist: earl-etf (==2.1.2) ; extra == 'speed'
+Requires-Dist: ujson (==3.6.4) ; extra == 'speed'
+Requires-Dist: wsaccel (<0.6.3,>=0.6.2) ; extra == 'speed'
+Requires-Dist: aiodns (==3.0.0) ; extra == 'speed'
+Provides-Extra: voice
+Requires-Dist: pynacl (<1.4.0,>=1.3.0) ; extra == 'voice'
+Provides-Extra: yaml
+Requires-Dist: pyyaml (<6.0,>=3.12) ; extra == 'yaml'
+
+# Bavera
+
+[![PyPI](https://img.shields.io/pypi/l/bavera.svg)](https://pypi.python.org/pypi/bavera/)
+[![PyPI](https://img.shields.io/pypi/v/bavera.svg)](https://pypi.python.org/pypi/bavera/)
+[![TravisCI](https://img.shields.io/travis/bavera/bavera.svg)](https://travis-ci.org/bavera/bavera/)
+
+Bavera is an extensive and extendable Python 3.x library for the [Discord API](https://discord.com/developers/docs/intro). Bavera boasts the following major features:
+
+- Expressive, functional interface that gets out of the way
+- Built for high-performance and efficiency
+- Configurable and modular, take the bits you need
+- Full support for Python 3.x
+- Evented networking and IO using Gevent
+
+## Installation
+
+Bavera was built to run both as a generic-use library, and a standalone bot toolkit. Installing bavera is as easy as running `pip install bavera`, however some extra packages are recommended for power-users, namely:
+
+|Name|Reason|
+|----|------|
+|requests[security]|adds packages for a proper SSL implementation|
+|ujson|faster json parser, improves performance|
+|erlpack (2.x), earl-etf (3.x)|ETF parser run with the --encoder=etf flag|
+|gipc|Gevent IPC, required for autosharding|
+
+## Examples
+
+Simple bot using the builtin bot authoring tools:
+
+```python
+from bavera.bot import Bot, Plugin
+
+
+class SimplePlugin(Plugin):
+    # Plugins provide an easy interface for listening to Discord events
+    @Plugin.listen('ChannelCreate')
+    def on_channel_create(self, event):
+        event.channel.send_message('Woah, a new channel huh!')
+
+    # They also provide an easy-to-use command component
+    @Plugin.command('ping')
+    def on_ping_command(self, event):
+        event.msg.reply('Pong!')
+
+    # Which includes command argument parsing
+    @Plugin.command('echo', '<content:str...>')
+    def on_echo_command(self, event, content):
+        event.msg.reply(content)
+```
+
+Using the default bot configuration, we can now run this script like so:
+
+`python -m bavera.cli --token="MY_DISCORD_TOKEN" --run-bot --plugin simpleplugin`
+
+And commands can be triggered by mentioning the bot (configured by the BotConfig.command\_require\_mention flag):
+
+![](http://i.imgur.com/Vw6T8bi.png)
+
+
