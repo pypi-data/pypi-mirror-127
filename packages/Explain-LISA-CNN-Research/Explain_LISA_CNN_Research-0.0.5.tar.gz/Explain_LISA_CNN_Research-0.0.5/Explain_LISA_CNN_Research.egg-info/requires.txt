@@ -1,0 +1,9 @@
+opencv-python
+tensorflow
+numpy
+pandas
+matplotlib
+alibi[ray]
+lime
+shap
+scikit-image
