@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Package/__init__.py
+Package/macutil
+macutil.egg-info/PKG-INFO
+macutil.egg-info/SOURCES.txt
+macutil.egg-info/dependency_links.txt
+macutil.egg-info/top_level.txt
