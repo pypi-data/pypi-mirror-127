@@ -1,0 +1,9 @@
+data_loader_plugin/__init__.py,sha256=XXTgQhf5f97c4KJgMVSUiRAixypj4DgDiUMPAPJD3YQ,375
+data_loader_plugin/base.py,sha256=Hg-2F1kL2Luziqo9NuTq2IOvIRAIezZ2r-pn_0iDAzU,1159
+data_loader_plugin/copyfile.py,sha256=KVAQRMQO_OnKSCuQi24Zcm2yRqzLFUEPG3YgXigrJuE,208
+data_loader_plugin/s3.py,sha256=m83h-aReQN-xIWL00nP0RHwvhC44lQlBjJ37smPHrGg,363
+data_loader_plugin-0.0.1.dist-info/LICENSE,sha256=RemZucgkLireXwaqvtetmBfwecgMC6K5_FVRXLc-9Io,1070
+data_loader_plugin-0.0.1.dist-info/METADATA,sha256=tZ9D0_mctUdsl8HH-yRwH3lZK2_3yH18Ob9DFK6Ims8,12081
+data_loader_plugin-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+data_loader_plugin-0.0.1.dist-info/top_level.txt,sha256=9QR5SH_06k_XmhvdR1KM8c9--67MRBGudf_oMQyoFPM,19
+data_loader_plugin-0.0.1.dist-info/RECORD,,
