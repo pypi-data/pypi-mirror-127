@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+srcc/logfly.egg-info/PKG-INFO
+srcc/logfly.egg-info/SOURCES.txt
+srcc/logfly.egg-info/dependency_links.txt
+srcc/logfly.egg-info/top_level.txt
