@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.8.0b4
+-------
+
+* Fix cli status without --json flag
