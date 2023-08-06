@@ -1,0 +1,14 @@
+linguadoc/__init__.py,sha256=PGA4FaWB28zvXCSioL2059fLN8Gc3Yt-z4kfCC9QvGk,54
+linguadoc/_entry.py,sha256=TbM6KsDVEle5O8K6aGx33Qj9UI1hymwH0lq-a0KXyaE,730
+linguadoc/en/en_doc_cover.jpg,sha256=yda8XzmyuEmkrYArTF72okUCN6hUUr6oHFDkCf3niYs,263543
+linguadoc/en/en_doc_end.jpg,sha256=neVJMYhWEwsFbEQVSIHGkY-mLyLkTWJOV9dJ6Z3rc4E,450823
+linguadoc/en/en_template.docx,sha256=VGlPwqWLN1R9rsunuZbe6wiY8OUvqDVqlndezukfkks,757982
+linguadoc/es/es_doc_cover.jpg,sha256=O3bZvW64mBu-XEaAQEpz2vld6gqMzcSxNxjIq9d_y5o,245775
+linguadoc/es/es_doc_end.jpg,sha256=qECO3nl4bSjkRNt6tzmtYgTZLFke2swYzpUeQN2mTIc,463801
+linguadoc/es/es_template.docx,sha256=849BH7JGJ5fU83K18v0chrJeBdZ92Kf0oWDVsriRIh8,753360
+linguadoc/gen_doc.py,sha256=ZOJdCCK5oIwdJS-1ajkvTsnDt3wEHiZ0kAeevgeXZWg,2127
+linguadoc/lib.py,sha256=0wMaBS9I8Cm02yL2zPf-NXBENjDGIkLIA-kJvruqs7E,293
+linguadoc-0.1.3.dist-info/entry_points.txt,sha256=LqHdaDh6prMIZfpVcmxtvkkdvxRuhGPuryL_nhhobLI,66
+linguadoc-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+linguadoc-0.1.3.dist-info/METADATA,sha256=0-JoXOlRs99QZJSoUSbY5UNNacYqjWJrZi18E7c5N-U,2249
+linguadoc-0.1.3.dist-info/RECORD,,
