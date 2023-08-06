@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: deel-datasets
+Version: 0.0.6
+Summary: Dataset loader for DEEL datasets
+Home-page: https://forge.deel.ai/devops/deel_dataset_manager
+Author: DEEL
+Author-email: collaborateurs.du.projet.deel@irt-saintexupery.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE
+
+UNKNOWN
+
