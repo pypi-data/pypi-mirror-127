@@ -1,0 +1,7 @@
+README.md
+setup.py
+stuartplot.egg-info/PKG-INFO
+stuartplot.egg-info/SOURCES.txt
+stuartplot.egg-info/dependency_links.txt
+stuartplot.egg-info/requires.txt
+stuartplot.egg-info/top_level.txt
