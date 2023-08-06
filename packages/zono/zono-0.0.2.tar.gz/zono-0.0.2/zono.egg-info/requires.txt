@@ -1,0 +1,4 @@
+cryptography
+colorama
+mutagen
+python_vlc
