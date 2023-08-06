@@ -1,0 +1,8 @@
+cdk_construct1/__init__.py,sha256=nDe8Snxh3NIccxWphaSQWoguNoQ-COKTYb-VSM4PXsY,153
+cdk_construct1/batch_fargate_construct.py,sha256=9p2uT-285XBIskN-HRWeh1hjTZbDaAF0Tx30qKl-1Us,1559
+cdk_construct1/iam_construct.py,sha256=Stfn1XKm9QD4Jk3iayjKd4fDzKCh_zeWMQZsLD6LvZQ,1954
+cdk_construct1-0.1.3.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+cdk_construct1-0.1.3.dist-info/METADATA,sha256=2rguEWA8AAK_23-E0gla0m4Qu6cII27opNoD3bI3qPg,1358
+cdk_construct1-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cdk_construct1-0.1.3.dist-info/top_level.txt,sha256=1BrgSgvwK1vYWsrbFskZjHTc_961dKIVyMeSmbcw9tM,15
+cdk_construct1-0.1.3.dist-info/RECORD,,
