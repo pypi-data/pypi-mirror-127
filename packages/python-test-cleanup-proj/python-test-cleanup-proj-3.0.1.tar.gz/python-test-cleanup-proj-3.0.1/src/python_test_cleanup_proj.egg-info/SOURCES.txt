@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/python_test_cleanup_proj.egg-info/PKG-INFO
+src/python_test_cleanup_proj.egg-info/SOURCES.txt
+src/python_test_cleanup_proj.egg-info/dependency_links.txt
+src/python_test_cleanup_proj.egg-info/entry_points.txt
+src/python_test_cleanup_proj.egg-info/requires.txt
+src/python_test_cleanup_proj.egg-info/top_level.txt
+src/sample/__init__.py
+src/sample/package_data.dat
+src/sample/simple.py
