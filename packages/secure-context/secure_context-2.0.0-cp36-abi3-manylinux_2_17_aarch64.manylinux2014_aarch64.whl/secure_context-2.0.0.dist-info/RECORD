@@ -1,0 +1,11 @@
+secure_context/__init__.py,sha256=jr0_n_C6lRtjg13VEW1_CZ_M8arjoEUYB2APRsLmYkg,1008
+secure_context/_extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secure_context/_extensions/_edhc_curve.abi3.so,sha256=D4-5Itu0gJKlTC7rFmKhr_RZofCAvQzfklkH35So7vU,2513000
+secure_context/_extensions/_edhc_curve.pyi,sha256=QB8xE9R7u3cn-wiSsVkvzFuQpE4uULllhqWowJAYbg4,100
+secure_context/ffdhe4096,sha256=ZIUtaJD_nmLuzR7onHKvmvJE3-9bhTvO3qPf16reIrM,769
+secure_context/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+secure_context/ssl_context.py,sha256=2e4wN_-E1lUhHLsUz4unMcHQYC4AkRjPReoLCTss6dQ,13778
+secure_context-2.0.0.dist-info/LICENSE,sha256=reocX4eiTfFcsfpqRkA_LfMSloDyixFqiTjLLGqbg9k,1513
+secure_context-2.0.0.dist-info/WHEEL,sha256=ruGQNPxPk_JC9DdderE7s5WLAkLxQPXhCs7Siuv73Gs,105
+secure_context-2.0.0.dist-info/METADATA,sha256=6PYZ_pXNXQpjUeTbPhjedCL1KSeqjXzPVOlgBu-5UvA,4852
+secure_context-2.0.0.dist-info/RECORD,,
