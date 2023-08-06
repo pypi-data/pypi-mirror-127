@@ -1,0 +1,9 @@
+LibLynx-0.17.data/data/LICENSE,sha256=SI6ip9R_zu-mjIaz_yl4aYfvY57pySN3n7YhZxSxgVs,1050
+liblynx/__init__.py,sha256=zWobHC6vK3JebdKevCSj9uR0YJgnfL14f_WW7-VF9mU,4632
+liblynx/django.py,sha256=P--oUCq6Y3_w8n29Z4fYlVctl8WMnk8T37ZyfiWQs5Q,6166
+liblynx/starlette.py,sha256=ObqkC-oxE3D84LmFzhIv-L7UeQHdXWBHb_1yn03W8aY,5205
+LibLynx-0.17.dist-info/LICENSE,sha256=SI6ip9R_zu-mjIaz_yl4aYfvY57pySN3n7YhZxSxgVs,1050
+LibLynx-0.17.dist-info/METADATA,sha256=DAP5ujYqNMx5kyyFBQK8JAA4lYxxzQ1W7G_LNmxf4Dc,2431
+LibLynx-0.17.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+LibLynx-0.17.dist-info/top_level.txt,sha256=I6mHfH3ULTZk61BHW7_WdNAzlDJXA_PjyZYwL03TCMc,8
+LibLynx-0.17.dist-info/RECORD,,
