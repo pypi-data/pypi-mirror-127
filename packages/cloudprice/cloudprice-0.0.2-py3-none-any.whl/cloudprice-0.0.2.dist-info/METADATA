@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: cloudprice
+Version: 0.0.2
+Summary: A SDK for cloud compute pricing
+Home-page: https://github.com/guanjieshen/cloud-compute-pricing
+Author: Guanjie Shen
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests (<3.0.0,>=2.5.0)
+
+# cloud-compute-pricing
+
+### Examples
+
+
+
+```python
+from cloudprice.azure import AzureVM
+
+# Get Azure VM Pricing
+example_vm = AzureVM("US West", "Standard_E8_v3")
+
+# Get Azure VM Pricing for On Demand Instance
+example_vm_standard = example_vm.getPrice()
+print(
+    f"""
+Product Name: {example_vm_standard.product_name}
+Meter Name: {example_vm_standard.meter_name}
+Location: {example_vm_standard.location}
+Effective Date: {example_vm_standard.effective_start_date}
+Unit Price: {example_vm_standard.unit_price}
+"""
+)
+
+```
+
