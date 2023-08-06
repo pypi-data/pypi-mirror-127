@@ -1,0 +1,8 @@
+[console_scripts]
+edupage=timetables.parser.edupage.cli:main
+edupage-check=timetables.parser.edupage.cli:check
+edupage-join=timetables.parser.edupage.cli:join
+edupage-login=timetables.parser.edupage.cli:login
+edupage-parse=timetables.parser.edupage.cli:parse
+edupage-register=timetables.parser.edupage.cli:register
+
