@@ -1,0 +1,15 @@
+docstring-parser
+
+[dev]
+django
+pytest
+pytest-cov
+pytest-html
+pycodestyle
+pylint
+pylint-json2html
+flake8
+twine
+isort
+yapf
+mypy
