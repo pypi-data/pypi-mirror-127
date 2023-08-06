@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/terminalutilities/__init__.py
+src/terminalutilities/terminalutilities.py
+src/terminalutilities.egg-info/PKG-INFO
+src/terminalutilities.egg-info/SOURCES.txt
+src/terminalutilities.egg-info/dependency_links.txt
+src/terminalutilities.egg-info/top_level.txt
