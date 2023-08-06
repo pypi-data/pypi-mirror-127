@@ -1,0 +1,8 @@
+README.md
+setup.py
+typePrint/__init__.py
+typePrint/typePrint.py
+typePrint.egg-info/PKG-INFO
+typePrint.egg-info/SOURCES.txt
+typePrint.egg-info/dependency_links.txt
+typePrint.egg-info/top_level.txt
