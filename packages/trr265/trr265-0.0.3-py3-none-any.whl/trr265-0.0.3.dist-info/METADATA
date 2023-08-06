@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: trr265
+Version: 0.0.3
+Summary: The TRR 265 analysis pipeline.
+Home-page: https://github.com/hgzech/trr265/tree/master/
+Author: Hilmar Zech
+Author-email: hgzech@gmail.com
+License: Apache Software License 2.0
+Keywords: trr265 sfb265
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pip
+Requires-Dist: packaging
+Requires-Dist: bs4
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pyarrow
+Requires-Dist: openpyxl
+Requires-Dist: lxml
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: biur
+Requires-Dist: fastcore
+Provides-Extra: dev
+
+# TRR 265
+> This module handle's analysis of the TRR265 data.
+
+
+stub: To get started, download all the required data. Into the following folder structures:
+
+## Install
+
+`pip install trr265`
+
+## How to use
+
+Fill me in please! Don't forget code examples:
+
+!pip install trr265
+
+```python
+from trr265.data_provider import DataProvider
+dp = DataProvider('/Users/hilmarzech/Projects/trr265/trr265/data/') # Path to data folder (containing raw, interim, external, and processed)
+dp.get_two_day_data().iloc[:20]
+```
+
+
+    ---------------------------------------------------------------------------
+
+    AttributeError                            Traceback (most recent call last)
+
+    /var/folders/16/2wxbnpk5321f8g40bxf0ht_h0000gn/T/ipykernel_84713/2255965172.py in <module>
+          1 from trr265.data_provider import DataProvider
+          2 dp = DataProvider('/Users/hilmarzech/Projects/trr265/trr265/data/') # Path to data folder (containing raw, interim, external, and processed)
+    ----> 3 dp.get_two_day_data().iloc[:20]
+    
+
+    AttributeError: 'DataProvider' object has no attribute 'get_two_day_data'
+
+
+
