@@ -1,0 +1,12 @@
+peregrinus/__init__.py,sha256=uTf8cNWPDIk42paat9GEJHg5Hodhr9V6jtxOflXC6hY,368
+peregrinus/world/__init__.py,sha256=jiW0sEcgJMPZ1v5q1ala4llNs6N4dg0vCm3bXDY8sQk,41
+peregrinus/world/celestial/__init__.py,sha256=i0k1BIProKCxTn0hr9f5uvhKfgJ14YaDmOvea_AmhYY,61
+peregrinus/world/celestial/planet.py,sha256=92C5ozFZiXNEPGrjN0pk8j-t_THV9pDgkJ1UUnoW5Lc,711
+peregrinus/genesis/__init__.py,sha256=Ouq-aeHWZi2evKw3WIf-kI4eiVwtxU_SjMVO8ZDRzqE,42
+peregrinus/genesis/celestial/__init__.py,sha256=3ck7_xDjnoVtpLziJ7W1WlDovpsTYBy54qjeenMWRtI,57
+peregrinus-0.1.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+peregrinus-0.1.0.dist-info/WHEEL,sha256=Z8ApXUcOYK5VMz9yebTyUF13KAMNT6RSnd-lLcivEVA,84
+peregrinus-0.1.0.dist-info/METADATA,sha256=-CJJ7hj9UgbI3-PHG5zzSV4xBsaTR1mbF4EQ1yyAZek,2177
+peregrinus-0.1.0.dist-info/top_level.txt,sha256=voLXfED-kqjI6S1JCU3uzxlCcAOyiLRW7r0poxolSMc,11
+peregrinus-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+peregrinus-0.1.0.dist-info/RECORD,,
