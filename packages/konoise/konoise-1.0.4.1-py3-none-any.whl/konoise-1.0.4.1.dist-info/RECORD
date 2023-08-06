@@ -1,0 +1,13 @@
+konoise/__init__.py,sha256=XMZoKp1KTgwHLyma_2ExWqsL9SA2Hr8mslFRWbmzoAI,92
+konoise/generator.py,sha256=tyi1CVqaaFOin0mQGyPINB0hZT1wFnSiWKSJWZE5J24,2252
+konoise/phoneme.py,sha256=o-UuYvle4e851sCQ19h2MKjfMMU3nS-3RrrJRW1XFRQ,2647
+konoise/segments.py,sha256=JJz3JR0O90OEOXwhHRhTqq63iUTuU9mj8Vki1DsER3M,1198
+konoise/typing.py,sha256=ji1av6iAKgANO6LsTibr1tjjVRFqw1BOSSIRlBdzCdU,1534
+konoise/utils.py,sha256=0Wg-QQiWcoPgYPjLifdRQScMNP_c2uSxbNUd5-LhknQ,1037
+konoise/yamin.py,sha256=pjMXpf_bs73me5ZiNFXRHqwoTsKTu20RfEgLFVB-e_Q,1052
+testPackage/__init__.py,sha256=GHTqtCrAtt6mHR5VruQHtkBcbw8JdlxnMYNecXWX988,16
+testPackage/test.py,sha256=t_l-ir99DQwwBYAC4yRQAzVfGBg7hBvw4WAt6iOfhuo,544
+konoise-1.0.4.1.dist-info/METADATA,sha256=69hjmwiij3oVsqqwrtgPfPPnw_LkVtxuZz7ffIyc06c,213
+konoise-1.0.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+konoise-1.0.4.1.dist-info/top_level.txt,sha256=fhQG6QSlsf1qv7wxCK11fnPM8ZaQPWcvIFw4uvy9jHw,8
+konoise-1.0.4.1.dist-info/RECORD,,
