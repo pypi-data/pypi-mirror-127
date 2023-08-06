@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pylearncode
+Version: 2020.1.2
+Summary: A simple 2D game engine base on pyglet
+Home-page: http://github.com/iamthehimansh/PyLearnCode
+Author: Himansh Raj
+Author-email: iamthehimansh@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/iamthehimansh/PyLearnCode/archive/refs/tags/2020.1.2.tar.gz
+Description: A simple 2D game engine base on pyglet
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
