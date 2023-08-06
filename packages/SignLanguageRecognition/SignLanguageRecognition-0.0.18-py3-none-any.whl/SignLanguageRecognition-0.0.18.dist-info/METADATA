@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: SignLanguageRecognition
+Version: 0.0.18
+Summary: Sign Language Recognition tool.
+Home-page: https://github.com/JanBinkowski/SignLanguageRecognition
+Author: Jan Binkowski
+Author-email: <jan.binkowski@wp.pl>
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/JanBinkowski/SignLanguageRecognition
+Keywords: python,sign language,sign language recognition,recognition in real time,action recognition
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: mediapipe
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+
+Sign Language Recognition tool. It works in real time using additionally OpenCV and Mediapipe libraries.
+
+
