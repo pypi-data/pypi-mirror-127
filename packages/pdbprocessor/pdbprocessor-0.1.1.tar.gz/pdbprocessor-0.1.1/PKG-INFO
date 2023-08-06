@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pdbprocessor
+Version: 0.1.1
+Summary: Simple PDB file processing tool
+Home-page: https://github.com/igik20/pdbprocessor
+Author: Igor Trujnara
+Author-email: itrujnara@wp.pl
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: bioinformatics,proteins,pdb
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
