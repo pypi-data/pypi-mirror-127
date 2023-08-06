@@ -1,0 +1,57 @@
+{
+    "bizops_version": "1.0",
+
+
+    "data": {
+
+      "DCWN": "DATA",
+      "podd_buffer_size": 1000
+    },
+
+    "monitor": {
+
+      "DCWN": "MON",
+
+      "notify": {
+
+        "DCWN": "NOTE",
+        "podd_DCWN": "PODD",
+        "podd_buffer_size": 1000
+
+      },
+
+      "metrics": {
+
+        "DCWN": "METRICS",
+        "podd_DCWN": "PODD",
+        "podd_buffer_size": 1000,
+        "heartbeat": 20,
+        "watch": "CPU,RAM,NETWORK"
+
+      }
+    },
+
+    "log": {
+
+      "DCWN": "LOG",
+
+      "toDisk": {
+
+        "DCWN": "TODISK",
+        "logging-level": "DEBUG",
+        "logging-dir": "/var/log/cube/",
+        "logging-format": "%(asctime)s - %(levelname)s - %(name)s - %(module)s - %(funcName)s : %(lineno)d - %(message)s",
+        "max-log-count": 10,
+        "max-log-size": 10
+      },
+
+      "stream": {
+
+        "DCWN": "STREAM",
+        "podd_DCWN": "PODD",
+        "logging-level": "DEBUG",
+        "logging-format": "%(asctime)s - %(levelname)s - %(name)s - %(module)s - %(funcName)s : %(lineno)d - %(message)s",
+        "podd_buffer_size": 1000
+      }
+    }
+  }
