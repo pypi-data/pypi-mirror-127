@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/libwc24tools/__init__.py
+src/libwc24tools/wc24encrypt.py
+src/libwc24tools.egg-info/PKG-INFO
+src/libwc24tools.egg-info/SOURCES.txt
+src/libwc24tools.egg-info/dependency_links.txt
+src/libwc24tools.egg-info/requires.txt
+src/libwc24tools.egg-info/top_level.txt
