@@ -1,0 +1,6 @@
+mopti>=0.1.0
+numpy
+pandas
+
+[testing]
+pytest
