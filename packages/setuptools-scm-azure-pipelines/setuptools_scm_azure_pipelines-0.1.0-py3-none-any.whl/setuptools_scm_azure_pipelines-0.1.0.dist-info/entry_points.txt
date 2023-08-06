@@ -1,0 +1,3 @@
+[setuptools_scm.version_scheme]
+post-release-azure-build-id = setuptools_scm_azure_pipelines:postrelease_azure_build_id
+
