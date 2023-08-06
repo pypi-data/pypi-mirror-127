@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.py
+TicTacToe4fun/__about__.py
+TicTacToe4fun/__init__.py
+TicTacToe4fun.egg-info/PKG-INFO
+TicTacToe4fun.egg-info/SOURCES.txt
+TicTacToe4fun.egg-info/dependency_links.txt
+TicTacToe4fun.egg-info/top_level.txt
+TicTacToe4fun/__pycache__/__about__.cpython-38.pyc
+TicTacToe4fun/__pycache__/__init__.cpython-38.pyc
+TicTacToe4fun/examples/game1.png
+TicTacToe4fun/tic_tac_toe/__init__.py
+TicTacToe4fun/tic_tac_toe/_play.py
+TicTacToe4fun/tic_tac_toe/__pycache__/__init__.cpython-38.pyc
+TicTacToe4fun/tic_tac_toe/__pycache__/_play.cpython-38.pyc
