@@ -1,0 +1,5 @@
+setup.py
+sdnist.egg-info/PKG-INFO
+sdnist.egg-info/SOURCES.txt
+sdnist.egg-info/dependency_links.txt
+sdnist.egg-info/top_level.txt
