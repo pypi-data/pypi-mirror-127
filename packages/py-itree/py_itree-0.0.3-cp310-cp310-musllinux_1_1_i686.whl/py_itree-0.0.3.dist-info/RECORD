@@ -1,0 +1,10 @@
+_itree.cpython-310-i386-linux-gnu.so,sha256=9oq4rj2SPZU7SM3Pjw9LF7_vBc0--4aBGXjTPtO9TYg,453908
+py_itree-0.0.3.dist-info/METADATA,sha256=c0dF240lYuYW-OKTvoY_Axc7-D2-h6j4GJwmGttEZUs,3493
+py_itree-0.0.3.dist-info/RECORD,,
+py_itree-0.0.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+py_itree-0.0.3.dist-info/WHEEL,sha256=pN7jTLJrWhNX2c0EL4xkp0PuLPZI6t3Tzd6IIOvLCXM,111
+py_itree-0.0.3.dist-info/top_level.txt,sha256=SO1CSq1DCqVpNyd0OfGgIKh4u0QkOh_J5SF1gQwb5dU,13
+py_itree.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
+py_itree.libs/libstdc++-8baf04f9.so.6.0.28,sha256=7dHa2sV5CgWXjdC4QqxbCNsm-pN9kkmNNqxtn5AaAvs,2428960
+itree/__init__.py,sha256=oYOnnJugO8ppm6kCZ4ecSkXNxwh898ORlYvTKKfNrFQ,2872
+itree/version.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
