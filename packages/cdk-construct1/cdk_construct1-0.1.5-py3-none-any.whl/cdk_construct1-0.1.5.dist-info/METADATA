@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: cdk-construct1
+Version: 0.1.5
+Summary: A Test package
+Home-page: https://github.com/javatechy/dokr
+Author: Wolfgang Unger
+Author-email: wolfgang.r.unger@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# test pip package wolfgang
+
+## install required tools
+
+
+pip install setuptools
+pip install wheel
+pip install twine
+
+
+
+pyexample
+â”œâ”€â”€ LICENSE
+â”œâ”€â”€ pyexample
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”œâ”€â”€ module_mpi4py_1.py
+â”‚   â”œâ”€â”€ module_numpy_1.py
+â”‚   â””â”€â”€ module_numpy_2.py
+â”œâ”€â”€ README.rst
+â””â”€â”€ setup.py
+
+## create package
+python setup.py bdist_wheel
+
+## install local
+python -m pip install dist/cdk_construct1-0.1-py3-none-any.whl
+
+
+## check
+python setup.py check
+
+## upload:
+
+Create pypirc
+
+python -m twine upload dist/*
+python -m twine upload dist/cdk_construct1-0.1.1-py3-none-any.whl
+
+
+see also
+
+https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/
+
+https://packaging.python.org/
+
+https://dzone.com/articles/executable-package-pip-install
+
+
