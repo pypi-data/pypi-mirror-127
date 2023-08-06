@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pyle_on"
+version = "0.1.0"
+description = "Command-line tool to manage to-dos when things keep piling on"
+authors = ["Dhananjay Jindal <djindal211@gmail.com>"]
+keywords = ["todo", "commandline"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/DJ73/pyle-on"
+repository = "https://github.com/DJ73/pyle-on"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
