@@ -1,0 +1,7 @@
+README.md
+setup.py
+shalat/__init__.py
+shalat.egg-info/PKG-INFO
+shalat.egg-info/SOURCES.txt
+shalat.egg-info/dependency_links.txt
+shalat.egg-info/top_level.txt
