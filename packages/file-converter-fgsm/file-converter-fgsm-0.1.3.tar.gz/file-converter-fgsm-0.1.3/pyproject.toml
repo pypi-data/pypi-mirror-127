@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "file-converter-fgsm"
+packages = [
+    {include = "file_converter"}
+]
+version = "0.1.3"
+description = "Class project to convert files from CSV to JSON and vice-versa"
+authors = ["Fillipe Goulart <fillipe.gsm@tutanota.com>"]
+license="BSD 3"
+repository="https://github.com/fillipe-gsm/file-converter-puc-ia"
+readme="README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipython = "^7.28.0"
+ipdb = "^0.13.9"
+black = "^21.9b0"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pylint.messages_control]
+disable="""
+invalid-name
+"""
+
+[tool.pylint.format]
+max-line-length=79
+
+[tool.black]
+line-length = 79
+
+[tool.coverage.run]
+omit = [
+    "./file_converter/file_converter.py",
+]
+
+[tool.poetry.scripts]
+file_converter = "file_converter.file_converter:file_converter"
