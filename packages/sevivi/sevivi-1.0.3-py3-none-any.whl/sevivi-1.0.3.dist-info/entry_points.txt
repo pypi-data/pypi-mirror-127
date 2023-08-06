@@ -1,0 +1,3 @@
+[console_scripts]
+sevivi=sevivi.main:run
+

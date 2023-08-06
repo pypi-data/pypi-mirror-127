@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sevivi
+Version: 1.0.3
+Summary: Create a video with graphs synchronous to a source video
+Home-page: https://github.com/hpi-dhc/sevivi
+License: MIT
+Author: Justin Albert
+Author-email: justin.albert@hpi.de
+Requires-Python: >=3.7.1,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.3.2,<9.0.0)
+Requires-Dist: matplotlib (>=3.4.2,<4.0.0)
+Requires-Dist: numpy (>=1.21.3,<2.0.0)
+Requires-Dist: opencv-python (>=4.5.4.58,<5.0.0.0)
+Requires-Dist: pandas (>=1.3.4,<2.0.0)
+Requires-Dist: read-protobuf (>=0.1.1,<0.2.0)
+Requires-Dist: scipy (>=1.7.1,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Documentation, https://hpi-dhc.github.io/sevivi
+Project-URL: Repository, https://github.com/hpi-dhc/sevivi
