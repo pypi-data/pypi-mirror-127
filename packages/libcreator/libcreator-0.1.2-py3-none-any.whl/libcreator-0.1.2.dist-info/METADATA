@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: libcreator
+Version: 0.1.2
+Summary: A python library to create new libraries
+Home-page: UNKNOWN
+Author: Luca Grosshennig
+Author-email: luca.grosshennig@gmx.de
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: wheel
+Requires-Dist: twine
+
+# Lib Creator
+A small library to help you create new libraries
+
+### Installation
+```
+pip install libcreator
+```
+
+### Get started
+How to use it?
+
+```Python
+import libcreator
+new_lib = libcreator.Library()
+new_lib.get_information()       # this guides you throu the creation.
+new_lib.fill_in_information()   # this formats the gathered informatin
+new_lib.create_library()        # this writes the new library directory
+# here you need to fill the .py file with the name of you library with your code.
+new_lib.compile_library()       # this compiles teh directory to and .whl
+```
+or just run
+```bash
+python -m libcreator
+```
+
