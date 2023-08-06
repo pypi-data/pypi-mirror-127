@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+aurornis/__init__.py
+aurornis.egg-info/PKG-INFO
+aurornis.egg-info/SOURCES.txt
+aurornis.egg-info/dependency_links.txt
+aurornis.egg-info/top_level.txt
