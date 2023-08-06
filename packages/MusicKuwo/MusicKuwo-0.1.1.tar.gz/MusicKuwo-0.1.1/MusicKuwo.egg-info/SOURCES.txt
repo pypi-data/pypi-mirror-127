@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+MusicKuwo/Comment.py
+MusicKuwo/Core.py
+MusicKuwo/Errors.py
+MusicKuwo/Music.py
+MusicKuwo/Tools.py
+MusicKuwo/__init__.py
+MusicKuwo.egg-info/PKG-INFO
+MusicKuwo.egg-info/SOURCES.txt
+MusicKuwo.egg-info/dependency_links.txt
+MusicKuwo.egg-info/requires.txt
+MusicKuwo.egg-info/top_level.txt
