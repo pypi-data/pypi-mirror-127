@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cloudflare-request-header-plugin
+Version: 1.0.0
+Summary: Custom Cloudflare request header plugin for MLflow
+Home-page: https://github.com/xlim7/cloudflare-request-header-plugin
+Author: Xinyu Lim
+Author-email: xinyu.lim@foodpanda.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
