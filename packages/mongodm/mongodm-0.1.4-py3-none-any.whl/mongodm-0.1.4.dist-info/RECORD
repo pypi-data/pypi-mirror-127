@@ -1,0 +1,11 @@
+LICENSE,sha256=NnMG-02xyQzFANAteqlEKqlJbNfKd-uOmsNt4nA2H8Y,1067
+mongodm/__init__.py,sha256=l_YQtZ6bJeC4xX9Tv8r2ncHQiT8YQWLDJW9g8OtKF6s,96
+mongodm/mongo.py,sha256=bsl5vWLIQQpgendOCRKIfZOK8EbhEOWmyxyFUwAOl7Q,628
+mongodm/operators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongodm/query.py,sha256=BCmcVZRYM02jPdqTebMknBKxoS-pzyhVcIN6IUze8WQ,200
+mongodm/types.py,sha256=7VdGjAXJlJlIUJohuqxAicVi93QoELekgMXe1eHN7S8,7304
+mongodm/utils.py,sha256=PLQgB1JNPv9KbziXc0beTTqAqzeDRcRmsSCRtWzeTHw,964
+mongodm-0.1.4.dist-info/LICENSE,sha256=NnMG-02xyQzFANAteqlEKqlJbNfKd-uOmsNt4nA2H8Y,1067
+mongodm-0.1.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+mongodm-0.1.4.dist-info/METADATA,sha256=-eA_lsQxMUmrI8vGkAb-SSwDzEcKXKcXWBQ4vF5xUYk,1184
+mongodm-0.1.4.dist-info/RECORD,,
