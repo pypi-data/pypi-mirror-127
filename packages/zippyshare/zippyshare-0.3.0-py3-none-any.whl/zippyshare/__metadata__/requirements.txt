@@ -1,0 +1,8 @@
+lxml>=0.0.1
+requests>=0.0.1
+vpncmd>=0.0.1
+sneaky>=0.0.1
+omnitools>=0.0.1
+aescipher>=0.0.1
+easyrsa>=0.0.1
+credsafe>=0.0.1
