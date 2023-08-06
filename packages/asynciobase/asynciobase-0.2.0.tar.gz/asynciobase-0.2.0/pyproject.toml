@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "asynciobase"
+version = "0.2.0"
+description = "Base class for every async file-like, similar to io.IOBase for sync file-like"
+authors = ["JuniorJPDJ <dev@juniorjpdj.pl>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
