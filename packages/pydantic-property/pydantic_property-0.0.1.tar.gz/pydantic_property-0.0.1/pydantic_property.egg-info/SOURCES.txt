@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+pydantic_property/__init__.py
+pydantic_property/__meta__.py
+pydantic_property/prop.py
+pydantic_property.egg-info/PKG-INFO
+pydantic_property.egg-info/SOURCES.txt
+pydantic_property.egg-info/dependency_links.txt
+pydantic_property.egg-info/requires.txt
+pydantic_property.egg-info/top_level.txt
