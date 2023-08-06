@@ -1,0 +1,6 @@
+[mycroft.plugin.stt]
+vk = mycroft_plugin_vk_cloud:VkCloudSTTPlugin
+
+[mycroft.plugin.tts]
+vk = mycroft_plugin_vk_cloud:VkCloudTTSPlugin
+

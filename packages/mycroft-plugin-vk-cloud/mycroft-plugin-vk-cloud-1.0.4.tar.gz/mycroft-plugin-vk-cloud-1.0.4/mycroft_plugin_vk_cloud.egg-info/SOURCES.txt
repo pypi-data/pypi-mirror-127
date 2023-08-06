@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+mycroft_plugin_vk_cloud/__init__.py
+mycroft_plugin_vk_cloud/stt.py
+mycroft_plugin_vk_cloud/tts.py
+mycroft_plugin_vk_cloud.egg-info/PKG-INFO
+mycroft_plugin_vk_cloud.egg-info/SOURCES.txt
+mycroft_plugin_vk_cloud.egg-info/dependency_links.txt
+mycroft_plugin_vk_cloud.egg-info/entry_points.txt
+mycroft_plugin_vk_cloud.egg-info/requires.txt
+mycroft_plugin_vk_cloud.egg-info/top_level.txt
+mycroft_plugin_vk_cloud.egg-info/zip-safe
