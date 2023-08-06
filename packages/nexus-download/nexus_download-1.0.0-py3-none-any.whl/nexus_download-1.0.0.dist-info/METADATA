@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: nexus-download
+Version: 1.0.0
+Summary: 批量检测nexus上某些模块的最新版本, 然后自动下载最新的一个下来.
+Home-page: https://github.com/me/myproject
+Author: nimda
+Author-email: me@example.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: arrow
+Requires-Dist: psutil
+Requires-Dist: requests
+Requires-Dist: loguru
+Requires-Dist: lxml
+Requires-Dist: prettytable
+Requires-Dist: progressbar
+
+
+# 📦 nexus-download
+
+用于快捷批量下载 nexus 上的某些模块最新的版本, 不用每次都上网页上取包
+
+可以在 shell 中运行程序`nexus-down`, 读取配置文件`config.json`或者传入命令行参数
+
+## 安装步骤
+
+```bash
+# 运行命令
+pip3 install -U nexus-download
+```
+
+## 使用
+
+-   `nd -h` 查看详细命令行帮助.
+
+-   `nd -u http://localhost:8080 -n admin -p password -m xxxxx/xxxxxxxx`.
+
+-   在当前 shell 所在文件夹下新建一个文件`config.json`, 粘贴下面的内容, 则每次只需要执行`nd`即可自动下载.
+
+```json
+{
+	"url": "http://1.1.1.1:9008",
+	"name": "admin",
+	"password": "xxxxxx",
+	"module": [
+    	"org/codehaus/jackson/jackson-mapper-asl",
+    	"org/slf4j/slf4j-api"
+    ]
+}
+```
+url: nexus的url
+
+name: nexus登录用户
+
+password: nexus登录密码
+
+## License
+
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any means.
+
+

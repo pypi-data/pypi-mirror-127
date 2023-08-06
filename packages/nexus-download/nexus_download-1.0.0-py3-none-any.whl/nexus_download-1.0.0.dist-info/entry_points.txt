@@ -1,0 +1,3 @@
+[console_scripts]
+nd = nexus_download:main
+
