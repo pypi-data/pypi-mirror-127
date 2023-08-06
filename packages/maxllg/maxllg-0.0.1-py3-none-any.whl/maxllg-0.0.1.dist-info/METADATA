@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: maxllg
+Version: 0.0.1
+Summary: A package for interacting with the MaxLLG solver and its outputs. 
+Home-page: https://maxllg.com/
+Author: Samuel Morrell
+Author-email: s.a.f.morrell@exeter.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyMaxLLG - The MaxLLG Limited Python Package
+
+The modules contained within this package can be used to interact with the MaxLLG solvers, and manipulate and display their outputs. 
+
