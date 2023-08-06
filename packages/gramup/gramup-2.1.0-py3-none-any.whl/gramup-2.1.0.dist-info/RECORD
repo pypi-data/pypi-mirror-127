@@ -1,0 +1,16 @@
+gramup/__init__.py,sha256=IIMM3_Bi9195T_aa2a6Jr64qZ7zK6tuU27fs3cPrt7M,2430
+gramup/__main__.py,sha256=ZNsrOG1MdgqGetyBGxNhSlN--UtvhdidsEZTK9o9ooU,2720
+gramup/backup.py,sha256=s5A_h47znrdBNNGW5avE6dqTnWUDOF0W_sqUwkJcJyY,6245
+gramup/constants.py,sha256=qfGdR_73NCLCvIxE4vT7a7jadNUay7Rz4xkliB5Wh-o,1698
+gramup/help.py,sha256=P0bxlCwgfpobml8egKtEmzjjAvYFwcoTTuQsTuUMedg,1415
+gramup/login.py,sha256=BZBVV4oEgAOs8LkiPKMJcwC40jM64va4ywGs_C0v0rs,5047
+gramup/restore.py,sha256=6ES4AEajJlFKmRrJ8c6KmWv7b3MHD9v99BMbPGuQ5Rw,3522
+gramup/search.py,sha256=opTnFDT7lkt8n4p6TuozrdC1Br3ciHc8cUqe8Ij1dl8,6105
+gramup/settings.py,sha256=mTu6yFepRl6GakjU-IcLlVvwpTYWQD2a7fYkCYjPQUk,4125
+gramup/utils.py,sha256=RVjyBTpIOB0kz5osf0n9zzSG6Rao9J_D2i8BmHbLkZ4,7823
+gramup-2.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+gramup-2.1.0.dist-info/METADATA,sha256=M3WUogEhQhCFeMtRr4EnGnwTNnG7KWNTXX1Uk0yCbkc,6646
+gramup-2.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gramup-2.1.0.dist-info/entry_points.txt,sha256=Ti202YBWj3PU0tpFte4MmYhIiXO7O9bHAyJ7RGANycA,49
+gramup-2.1.0.dist-info/top_level.txt,sha256=2Em8o0RL1tr6WKHNOvJblgXzSzb6vMwj2j_UHtHHeiM,7
+gramup-2.1.0.dist-info/RECORD,,
