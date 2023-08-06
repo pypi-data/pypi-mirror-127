@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: omz-theme-ignore
+Version: 0.1.0
+Summary: Easy add current random theme to ZSH_THEME_RANDOM_IGNORED section in .zshrc file.
+Home-page: https://github.com/paterit/omz_ignore_theme
+License: MIT
+Author: PaterIT
+Author-email: paterit@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Shells
+Project-URL: Repository, https://github.com/paterit/omz_ignore_theme
+Description-Content-Type: text/markdown
+
+# omz_ignore_theme
+
+Add current RANDOM_THEME from oh-my-zsh to the .zshrc file to the ZSH_RANDOM_IGNORE_THEME section. Use via zsh alias via source:
+
+`alias it="python3 omz_theme_ignore/main.py $RANDOM_THEME"`
+
+or via package after installing via pip:
+
+`python3 -m pip install omz_theme_ignore`
+
+`alias it="omz_theme_ignore $RANDOM_THEME"`
+

@@ -1,0 +1,3 @@
+[console_scripts]
+omz_theme_ignore=omz_theme_ignore.main:main
+
