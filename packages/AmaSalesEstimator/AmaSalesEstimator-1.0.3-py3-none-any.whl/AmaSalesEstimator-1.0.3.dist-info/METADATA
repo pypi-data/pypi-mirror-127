@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: AmaSalesEstimator
+Version: 1.0.3
+Summary: 亚马逊预计销量计算器
+Home-page: https://gitee.com/joeyoung18/AmaSalesEstiamtor
+Author: JoeYoung
+Author-email: 1022104172@qq.com
+License: MIT Licence
+Keywords: amazon,sales
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AmaSalesEstiamtor
+## 亚马逊预计销量计算器
+
+## 更新
+* 1.0.3 2021/11/17
+    * 更新主函数
+        * 增加预计日销量输出为两位小数的功能，以便减少拟合多日销量时的误差
+        * 修正过拟合导致高BSR反而销量变高的BUG
+* 1.0.2 2021/11/17
+    * 更新主函数，修改Error的出现机制，补充readme文档
+* 1.0.1 2021/11/16
+    * 更新setup和主函数。
+* 1.0.0 2021/11/16
+    * 创建工具。
+
+## 注意
+* 本工具需要搭配参数表使用，暂不提供对外下载
+
+## 介绍
+* 根据亚马逊大部分的一级类目BSR来计算产品当前的预计日销量或月销量。
+* 由于模型问题，对BSR为200以上的Listing估算效果较差，将来计划使用分段函数进行拟合
+
+## 安装
+```shell
+pip install AmaSalesEstimator -U
+```
+
+## 基础表达式
+```py
+AmaSalesEstimator(paradata_path, cy, cate, bsr, monthly=False, daily_float=False)
+```
+
+## 属性
+* df_temp_para: 最近一次导出参数的临时保存表，默认为None，用于缓存参数加速销量的计算。
+* sales: 计算的预计日销量。
+
+## 参数
+* paradata_path: 参数表地址，字符串格式。
+* cy: 国家地区，字符串格式，用两位英文字母来表示。
+* cate: 一级类目名称，字符串格式，必须严格按照亚马逊上显示的一级类目来填写。
+* bsr: 一级类目的BSR值，整数格式。
+* monthly: 按月统计，布尔值，因为日销量原始数据的计算是浮点数，建议通过打开该开关来得到相对更准确的月销量。
+* daily_float: 输出带两位小数的预计日销量，布尔值，在monthly==True时会失效。
+
+## 用例
+```py
+from AmaSalesEstimator import AmaSalesEstimator   #导入包
+
+paradata_path = r'\\Win-server\di\AmaSalseEstimator\sales_est_para.xlsx'    #引用参数文档
+
+AmaSalesEstimator(paradata_path, 'us', 'Home & Kitchen', 95623).sales    #计算日销量
+
+AmaSalesEstimator(paradata_path, 'us', 'Home & Kitchen', 582123, True).sales    #计算月销量
+
+AmaSalesEstimator(paradata_path, 'us', 'Home & Kitchen', 54301).df_temp_para    #地区为us，一级类目为Home & Kitchen的各项参数
+
+AmaSalesEstimator(<paradata_path>, 'us', 'Home & Kitchen', 5120, daily_float=True).sales    #输出为包含两位小数的预计日销量，如果月销量开关打开的时候这个功能无效
+```
+
+## TODO
+* 增加可视化交互界面
+
