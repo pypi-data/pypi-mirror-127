@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: tropipy
+Version: 0.0.1
+Summary: TropiPay SDK
+Home-page: https://github.com/ameksike/tropipy
+Author: Antonio Membrides Espinosa, Sergio Daniel
+Author-email: tonykssa@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ameksike/tropipy/issues
+Description: # TropiPy
+        TropiPay SDK Python
+        
+        ## Install
+        - pip install -r requirements.txt
+        - pip show requests
+        - pip list -v
+        
+        ## Test
+        - python -m unittest                        # One command to run them all
+        - python -m unittest tests/test_login.py    # Selective run some test suite
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
