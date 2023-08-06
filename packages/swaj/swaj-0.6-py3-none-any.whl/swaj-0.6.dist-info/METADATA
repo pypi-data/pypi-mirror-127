@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: swaj
+Version: 0.6
+Summary: AWS + CLI + MFA (pronounced like swage)
+Home-page: https://github.com/f0rk/swaj
+Author: Ryan P. Kelly
+Author-email: ryan@ryankelly.us
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Systems Administration
+Requires-Dist: botocore
+Requires-Dist: lockfile
+Requires-Dist: python-dateutil
+
+UNKNOWN
+
+

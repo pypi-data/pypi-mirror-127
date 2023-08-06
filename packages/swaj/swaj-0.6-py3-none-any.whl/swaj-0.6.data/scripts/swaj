@@ -1,0 +1,5 @@
+#!python
+
+from swaj.app import main
+
+main()
