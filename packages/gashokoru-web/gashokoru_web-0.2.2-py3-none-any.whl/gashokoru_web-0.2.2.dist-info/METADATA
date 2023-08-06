@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gashokoru-web
+Version: 0.2.2
+Summary: Simple python web server
+Home-page: https://github.com/gXiah/web_server
+Author: Adam Aquesbi
+Author-email: adam.aquesbi@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Confuse
+Requires-Dist: flask
+
+UNKNOWN
+
+
