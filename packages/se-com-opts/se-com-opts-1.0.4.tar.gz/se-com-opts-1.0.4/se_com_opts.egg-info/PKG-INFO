@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: se-com-opts
+Version: 1.0.4
+Summary: 常用的selenium-webdriver设置
+Home-page: https://gitee.com/joeyoung18/se_com_opts.git
+Author: JoeYoung
+Author-email: 1022104172@qq.com
+License: MIT Licence
+Keywords: selenium
+Platform: windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# se_com_opts
+
+#### 浠嬬粛
+甯哥敤鐨剆elenium webdriver chrome options
+
+
