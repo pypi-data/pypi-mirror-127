@@ -1,0 +1,9 @@
+setup.py
+bitcv/__init__.py
+bitcv/data.py
+bitcv/show.py
+bitcv/train.py
+bitcv.egg-info/PKG-INFO
+bitcv.egg-info/SOURCES.txt
+bitcv.egg-info/dependency_links.txt
+bitcv.egg-info/top_level.txt
