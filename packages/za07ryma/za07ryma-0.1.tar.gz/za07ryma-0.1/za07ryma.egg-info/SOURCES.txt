@@ -1,0 +1,5 @@
+za07ryma.egg-info/PKG-INFO
+za07ryma.egg-info/SOURCES.txt
+za07ryma.egg-info/dependency_links.txt
+za07ryma.egg-info/requires.txt
+za07ryma.egg-info/top_level.txt
