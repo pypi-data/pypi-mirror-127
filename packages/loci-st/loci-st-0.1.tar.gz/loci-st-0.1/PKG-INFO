@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: loci-st
+Version: 0.1
+Summary: LOCI is a component providing functionalities for analysing, mining, and visualizing spatial and temporal data.
+Home-page: https://github.com/smartdatalake/loci
+Author: Alexandros Zeakis, Dimitrios Skoutas, Kostas Patroumpas, Georgios Chatzigeorgakidis, Panagiotis Kalampokis
+Author-email: azeakis@athenarc.gr, dskoutas@athenarc.gr, kpatro@athenarc.gr, gchatzi@athenarc.gr, pkalampokis@athenarc.gr
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## LOCI
+
+#### Overview
+
+LOCI is a Python library offering various functions for analysing, mining, and visualizing spatial and temporal data. Specifically, it provides functionalities for spatial exploration and mining over Points and Areas of Interest, as well as for change detection and seasonality decomposition in time series data, and evolution tracking of dynamic sets of entities. LOCI is under active development, originally started in the EU H2020 project [SLIPO](http://slipo.eu/) and being currently extended in the EU H2020 project [SmartDataLake](https://smartdatalake.eu/) to include: (i) detection of Areas of Interest characterized by high or low mixture of POI types, and (ii) analytics over time series data and evolving sets of entities.
+
+#### Quick start
+
+Please see the provided [notebooks](https://github.com/smartdatalake/loci/tree/master/notebooks).
+
+#### Documentation
+
+Please see [here](https://smartdatalake.github.io/loci/).
+
+#### License
+
+The contents of this project are licensed under the [Apache License 2.0](https://github.com/smartdatalake/loci/blob/master/LICENSE).
+
