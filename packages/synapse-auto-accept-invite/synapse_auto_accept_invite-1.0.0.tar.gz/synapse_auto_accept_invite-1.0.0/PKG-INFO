@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: synapse_auto_accept_invite
+Version: 1.0.0
+Summary: "Synapse module to automatically accept invites"
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
