@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: PoreMapper
+Version: 0.0.1
+Summary: Cavity size and shape evaluation by bead growth.
+Home-page: https://github.com/andrewtarzia/PoreMapper
+Author: Andrew Tarzia
+Author-email: andrew.tarzia@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
