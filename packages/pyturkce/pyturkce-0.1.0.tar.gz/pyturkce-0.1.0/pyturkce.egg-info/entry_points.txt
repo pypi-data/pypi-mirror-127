@@ -1,0 +1,3 @@
+[console_scripts]
+pyturkce = pyturkce.cli:main
+
