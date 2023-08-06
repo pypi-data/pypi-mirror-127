@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/django_authenticator_gdaley.egg-info/PKG-INFO
+src/django_authenticator_gdaley.egg-info/SOURCES.txt
+src/django_authenticator_gdaley.egg-info/dependency_links.txt
+src/django_authenticator_gdaley.egg-info/requires.txt
+src/django_authenticator_gdaley.egg-info/top_level.txt
+src/djangoauthenticator/__init__.py
+src/djangoauthenticator/djangoauthenticator.py
