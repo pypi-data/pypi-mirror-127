@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+g85/VERSION.py
+g85/__init__.py
+g85/main.py
+g85/read.py
+g85/write.py
+g85.egg-info/PKG-INFO
+g85.egg-info/SOURCES.txt
+g85.egg-info/dependency_links.txt
+g85.egg-info/requires.txt
+g85.egg-info/top_level.txt
