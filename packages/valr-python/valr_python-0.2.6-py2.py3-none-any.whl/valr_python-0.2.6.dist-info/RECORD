@@ -1,0 +1,14 @@
+valr_python/__init__.py,sha256=sxOMOn_53qMPIeBeY8sAqgZLqaTN3KyJh9oa6AavWqM,351
+valr_python/decorators.py,sha256=78fDADKieg0rCTorjvSUJy449nGfKiYbGbVb5nvjbR0,1169
+valr_python/enum.py,sha256=VjPM23NuL6ZMvfsACjgM6AYGxHgSoCA7yVKyaXAPyL4,2801
+valr_python/exceptions.py,sha256=VVdCR4MMGXjb8eaXZwVhGqR2VdqLw20u0igd2CE2bfs,1113
+valr_python/rest_base.py,sha256=29cx3vNs1oFxl0PxtmJt6hb4VV0tU8gCPLx6jPn5Ahg,48525
+valr_python/rest_client.py,sha256=UNYVO4jRej3cJue31zuOAxOPbpvvkKNhFw01vOWchTY,4532
+valr_python/utils.py,sha256=mTMttVhjQ5szLMNvg4jxvWQ49rjk6a7xBcaSeEbCIfk,2540
+valr_python/ws_client.py,sha256=D_xe6TJrnUxNi6xbF2gyW4pGTGFl8818nbTm_yx4JJI,29136
+valr_python-0.2.6.dist-info/AUTHORS.rst,sha256=b0XGD-OBZpOSfNPcwhX3b-zTyScywcR8dgsQBXfENKQ,60
+valr_python-0.2.6.dist-info/LICENSE,sha256=zORfpIEFkTqoni_-LyrdZy28Jk_tDvYwwlkcXuKUvL0,1100
+valr_python-0.2.6.dist-info/METADATA,sha256=c5GqhwYGT_fvy_QFkFJ3tarYZlqAt-0xZxSCC9qoJAo,8437
+valr_python-0.2.6.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+valr_python-0.2.6.dist-info/top_level.txt,sha256=xw4IAPQxcHoP5WHn5qEaQvGqKYVvFI6SRJGm1IM5wJg,12
+valr_python-0.2.6.dist-info/RECORD,,
