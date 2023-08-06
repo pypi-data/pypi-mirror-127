@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: libsemigroups-pybind11
+Version: 0.1.4
+Summary: A python package for the libsemigroups C++ library
+Home-page: https://github.com/libsemigroups/libsemigroups_pybind11
+Author: James D. Mitchell
+Author-email: jdm3@st-andrews.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pybind11 (>=2.6)
+Requires-Dist: packaging (>=20.4)
+
+UNKNOWN
+
