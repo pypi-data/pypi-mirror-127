@@ -1,0 +1,3 @@
+[console_scripts]
+solidity_typestub = solidity_typestub:main
+
