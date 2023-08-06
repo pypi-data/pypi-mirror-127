@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/luatable/__init__.py
+src/luatable/table.py
+src/luatables.egg-info/PKG-INFO
+src/luatables.egg-info/SOURCES.txt
+src/luatables.egg-info/dependency_links.txt
+src/luatables.egg-info/top_level.txt
