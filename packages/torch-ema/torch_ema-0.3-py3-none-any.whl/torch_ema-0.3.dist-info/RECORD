@@ -1,0 +1,8 @@
+torch_ema/__init__.py,sha256=wJUqZdyV_sRGk7Q7go73sf3TjCXZm3a6HsGJJ0n7F4o,127
+torch_ema/_version.py,sha256=gC_vjQphfSjNkG-s-FgrcHynuqNUdc6DTvivQauapU8,20
+torch_ema/ema.py,sha256=cER1-Jo39dwGgQgKqMun0aZlu4hqnT4b7N3CH_qdZHM,11692
+torch_ema-0.3.dist-info/LICENSE,sha256=9pzEcugYtY2qW1_3pudBwJwz6MQ-RwX5SJrzAkbHaqg,1083
+torch_ema-0.3.dist-info/METADATA,sha256=DrtRPwAqhsVzJI4MmwbUJtbkAc4D7FAJBjNWvHif81U,415
+torch_ema-0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+torch_ema-0.3.dist-info/top_level.txt,sha256=k-g2LkfgYvrjzc3PFzEOrmrHS6r181qKEUXnlUmhQkI,10
+torch_ema-0.3.dist-info/RECORD,,
