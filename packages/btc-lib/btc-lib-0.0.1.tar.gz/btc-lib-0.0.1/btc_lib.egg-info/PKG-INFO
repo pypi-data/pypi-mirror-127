@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: btc-lib
+Version: 0.0.1
+Summary: Simple Bitcoin Library
+Home-page: https://github.com/qwerty-w/btc-lib
+Author: qwerty-w
+Author-email: itsqwz@gmail.com
+License: MIT
+Keywords: bitcoin,library,simple,btc,lib
+Platform: UNKNOWN
+Requires-Python: ~=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
