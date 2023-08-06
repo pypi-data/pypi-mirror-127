@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+hadeel.egg-info/PKG-INFO
+hadeel.egg-info/SOURCES.txt
+hadeel.egg-info/dependency_links.txt
+hadeel.egg-info/top_level.txt
+joshbasiccalculator/__init__.py
