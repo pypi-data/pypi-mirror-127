@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+notion_requests/__init__.py
+notion_requests/client.py
+notion_requests/version.py
+notion_requests.egg-info/PKG-INFO
+notion_requests.egg-info/SOURCES.txt
+notion_requests.egg-info/dependency_links.txt
+notion_requests.egg-info/requires.txt
+notion_requests.egg-info/top_level.txt
