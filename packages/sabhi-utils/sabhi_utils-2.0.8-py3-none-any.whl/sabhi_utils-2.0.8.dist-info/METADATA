@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: sabhi-utils
+Version: 2.0.8
+Summary: Self rolled utils to be used with the Sabhi ML Services
+Home-page: UNKNOWN
+License: Apache License 2.0
+Keywords: image utils text processing
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: cycler
+Requires-Dist: decorator
+Requires-Dist: imageio
+Requires-Dist: imutils
+Requires-Dist: kiwisolver
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: opencv-contrib-python
+Requires-Dist: Pillow
+Requires-Dist: pyparsing
+Requires-Dist: python-dateutil
+Requires-Dist: PyWavelets
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: six
+Requires-Dist: tifffile
+Requires-Dist: wget
+
+# SabhiUtils
+
+
