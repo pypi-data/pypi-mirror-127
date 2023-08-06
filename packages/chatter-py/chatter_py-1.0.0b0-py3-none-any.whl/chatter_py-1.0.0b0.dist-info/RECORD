@@ -1,0 +1,10 @@
+chatter_py/__init__.py,sha256=foamlilzSTwU5IlcMYMXA8BYtb2-95YGaxx9WjwO-IU,147
+chatter_py/bot.py,sha256=eWoe4WlY1plkhLrfjW2MRM7EfX9kyDPtGVPoOU9GNQo,6177
+chatter_py/chat_client.py,sha256=ytNduqFreRIhPCXYZKtt7UAFTt89lUP2iHXasf0lZC8,1471
+chatter_py/feature.py,sha256=D6ZBkKawhV-zy8cITkG5bv6zX-e4yEh5oYOOfZDm_gA,5469
+chatter_py/message.py,sha256=r4c670-prGuo2c_5zPsNrU9g2XqQRwlstxHaYRzrU74,825
+chatter_py-1.0.0b0.dist-info/LICENSE.txt,sha256=tZ_Ewsl8Ydy-5iUOYFe-TIlZ82lXHW62Df8ciXIH0Z0,1076
+chatter_py-1.0.0b0.dist-info/METADATA,sha256=gV1hxk-Zmj3kWyHzoLKKrfJVu6SWWSzkEp_hLJRozD8,3485
+chatter_py-1.0.0b0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+chatter_py-1.0.0b0.dist-info/top_level.txt,sha256=6q1-8vOMyPYkfbnjmn2c1WMjw0CCuG4_nvoQKRRYwKo,11
+chatter_py-1.0.0b0.dist-info/RECORD,,
