@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: desktopassistant
+Version: 1.0.3
+Summary: Desktop Assistant which takes commands as speech & convert to text. Speaks the text provided. Wishes the User as per the Hour of the day. It also can send E-Mails.
+Home-page: UNKNOWN
+Author: Akshat Bhatter (Developer_Akshat)
+Author-email: <bhatterakshat4@gmail.com>
+License: UNKNOWN
+Keywords: python,AI,Desktop Assistant,Assistant,Virtual Assistant
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: comtypes
+Requires-Dist: pyttsx3
+Requires-Dist: speechRecognition
+
+This Desktop Assistant is complete package for a Virtual Assistant of yours. It can do all basic tasks such as Sending E-Mails, Wishing/Greeting. Taking command in speech from the user. Speak the text provided to it.
+
+
