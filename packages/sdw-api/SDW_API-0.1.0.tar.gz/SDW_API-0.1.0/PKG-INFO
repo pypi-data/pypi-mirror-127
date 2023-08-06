@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sdw-api
+Version: 0.1.0
+Summary: Allows downloading data from the ECB's Statistical Data Warehouse (SDW)
+Home-page: https://github.com/MaximilianSchroeder/SDW_API
+License: MIT
+Author: Max
+Author-email: maximilian.schroder@bi.no
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: pandas (>=1.3.4,<2.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/MaximilianSchroeder/SDW_API
+Description-Content-Type: text/markdown
+
+# SDW_API
