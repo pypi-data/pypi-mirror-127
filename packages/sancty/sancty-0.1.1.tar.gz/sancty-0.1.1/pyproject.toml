@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sancty"
+version = "0.1.1"
+description = "Sancty is an extension to jquast/blessed for simple editor-like terminal apps"
+authors = ["Tip ten Brink <75669206+tiptenbrink@users.noreply.github.com>"]
+readme = "README.md"
+license = "Apache-2.0"
+
+[tool.poetry.urls]
+"Source Code" = "https://github.com/tiptenbrink/sancty"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+cwcwidth = "^0.1.5"
+blessed = "1.19.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
