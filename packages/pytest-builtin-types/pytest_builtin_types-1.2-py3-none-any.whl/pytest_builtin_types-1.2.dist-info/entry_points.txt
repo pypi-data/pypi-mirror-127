@@ -1,0 +1,3 @@
+[pytest11]
+builtin_types = pytest_builtin_types
+
