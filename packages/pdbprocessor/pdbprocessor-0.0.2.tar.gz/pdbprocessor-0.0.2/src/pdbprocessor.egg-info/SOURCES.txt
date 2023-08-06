@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pdbprocessor/__init__.py
+src/pdbprocessor/app.py
+src/pdbprocessor/appinfo.py
+src/pdbprocessor/interface.py
+src/pdbprocessor/pdbprocessor.py
+src/pdbprocessor/processor.py
+src/pdbprocessor/setup.py
+src/pdbprocessor.egg-info/PKG-INFO
+src/pdbprocessor.egg-info/SOURCES.txt
+src/pdbprocessor.egg-info/dependency_links.txt
+src/pdbprocessor.egg-info/top_level.txt
