@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: SignLanguageRecognition
+Version: 0.0.19
+Summary: Sign Language Recognition tool.
+Home-page: https://github.com/JanBinkowski/SignLanguageRecognition
+Author: Jan Binkowski
+Author-email: <jan.binkowski@wp.pl>
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/JanBinkowski/SignLanguageRecognition
+Requires-Dist: opencv-python
+Requires-Dist: mediapipe
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+
+
+## Table of contents
+
