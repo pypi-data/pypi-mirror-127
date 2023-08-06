@@ -1,0 +1,5 @@
+setup.py
+pycom_github_automation.egg-info/PKG-INFO
+pycom_github_automation.egg-info/SOURCES.txt
+pycom_github_automation.egg-info/dependency_links.txt
+pycom_github_automation.egg-info/top_level.txt
