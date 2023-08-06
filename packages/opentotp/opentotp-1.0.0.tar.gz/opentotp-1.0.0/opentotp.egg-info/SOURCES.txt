@@ -1,0 +1,11 @@
+README.md
+setup.py
+opentotp/__init__.py
+opentotp/__main__.py
+opentotp/opentotp.py
+opentotp.egg-info/PKG-INFO
+opentotp.egg-info/SOURCES.txt
+opentotp.egg-info/dependency_links.txt
+opentotp.egg-info/entry_points.txt
+opentotp.egg-info/requires.txt
+opentotp.egg-info/top_level.txt
