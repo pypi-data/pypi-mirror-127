@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: timetables-lib
+Version: 1.0.0
+Summary: Szkolny.eu Timetables Common Library
+Author: Kuba Szczodrzyński
+Author-email: kuba@szczodrzynski.pl
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiofiles (>=0.7.0,<0.8.0)
+Requires-Dist: aiohttp[speedups] (>=3.8.0,<4.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Szkolny.eu Timetables Common Library
+
+This is a common library used by all Timetables packages and containers.
+
