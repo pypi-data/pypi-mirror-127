@@ -1,0 +1,10 @@
+scidbbridge/__init__.py,sha256=_FaDW6cKpcebagYN3Mtee7WBVvGamnn1nyvJYlo6DLE,13371
+scidbbridge/bridge-v1to3-fix.py,sha256=oM6--aVA-piOzRqwdiRZ0hIKhj0vj1xZUHcPtlvwKhw,2948
+scidbbridge/coord.py,sha256=EgXF1sqbSCFWqoPSkS0bOWEXdWEpRSobCliU6WU3C2U,3126
+scidbbridge/coord_perf.py,sha256=4UuyK5S-vmvNitp6mhohyznwE1qH9kuHcZK7Ngx_tUs,8445
+scidbbridge/driver.py,sha256=jWiD7iUlSwBQopKZ2QoEcW8a17Xan8HTx141cCREVfo,8349
+scidb_bridge-19.11.3.dist-info/LICENSE.txt,sha256=Js0Tc4TKbpCoSKL7JDeOfHyVv8zcZH-ZzuwYmXBla-Y,684
+scidb_bridge-19.11.3.dist-info/METADATA,sha256=11SjE35hPvMtZTm_2ENCzEc0tCTlP6RIXEFTIdgivcE,2144
+scidb_bridge-19.11.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+scidb_bridge-19.11.3.dist-info/top_level.txt,sha256=eSPdBtT-qerWG5Pj0IzmzljYudSeYfi-1nlFHyUXG10,12
+scidb_bridge-19.11.3.dist-info/RECORD,,
