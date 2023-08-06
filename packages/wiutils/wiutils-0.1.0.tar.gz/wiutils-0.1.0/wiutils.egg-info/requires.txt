@@ -1,0 +1,17 @@
+ffmpeg-python
+numpy
+opencv-python
+openpyxl
+pandas
+pillow
+
+[dev]
+black
+ipython
+
+[docs]
+sphinx
+sphinx-rtd-theme
+
+[test]
+pytest
