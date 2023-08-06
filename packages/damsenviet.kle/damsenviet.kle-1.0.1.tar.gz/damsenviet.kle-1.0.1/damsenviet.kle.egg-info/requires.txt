@@ -1,0 +1,9 @@
+jsonschema<4,>=3.2.0
+
+[dev]
+matplotlib<4,>=3.1.2
+pytest<7,>=6.1.2
+black<21,>=20.8b1
+sphinx<4,>=3.3.1
+pydata-sphinx-theme<1,>=0.4.1
+sphinx-autodoc-typehints<2,>=1.11.1
