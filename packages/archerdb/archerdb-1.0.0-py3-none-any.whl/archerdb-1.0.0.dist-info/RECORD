@@ -1,0 +1,9 @@
+archerdb/__init__.py,sha256=DQCcvEqbyBQbGZVzCPQ84FPq8BgC6I61hFRBfetIbpw,56
+archerdb/constants.py,sha256=unQNTXMYIgkXys_6RIuNXJCZ2Wu19BqDHMJnIDcJvTU,726
+archerdb/database.py,sha256=ViQi14Wu0Lvge8CEqVJqyfwSuV8zpUD6t38gbSQhp9w,2726
+archerdb/table.py,sha256=QEgT1u8idMjuxz7hYKVoLQZgkuDmowiUgGOgvnk7OSk,3893
+archerdb/utils.py,sha256=LvKyKB20MZVOIVcFHPleVnS_VGY0jDQ587c3eAvLQAQ,589
+archerdb-1.0.0.dist-info/METADATA,sha256=Xa7vcy-qrfYkhqzJFa9_x-ofyRqhlxY28p211js5R5M,172
+archerdb-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+archerdb-1.0.0.dist-info/top_level.txt,sha256=jxtnasvmDOxs-JUrk0-qWNtpqOOPYQC8XceLAHYfSDw,9
+archerdb-1.0.0.dist-info/RECORD,,
