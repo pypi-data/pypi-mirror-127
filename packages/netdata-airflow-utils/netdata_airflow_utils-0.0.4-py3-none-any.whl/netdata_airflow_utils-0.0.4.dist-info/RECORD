@@ -1,0 +1,16 @@
+netdata-airflow-utils/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+netdata-airflow-utils/_nbdev.py,sha256=bWPQvLu9OK0iFogaaXr2bSVbQ_mE1SO9kZYv-6X4iWY,343
+netdata-airflow-utils/core.py,sha256=w3crn9FuTeFpbjgP4z3gLNt_XZdqEzTGuQp2CFjbP1A,176
+netdata_airflow_utils/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+netdata_airflow_utils/_nbdev.py,sha256=bEatpygrrMnWopRLYHzElEDiWlVpjf3zPJ11OdTAqok,775
+netdata_airflow_utils/airflow.py,sha256=ueZJTgiVlV5N1-2R4toq_J_P9U_04tGUdXQobc8BN2U,544
+netdata_airflow_utils/bigquery.py,sha256=GQ8YyTOn-dgwnXdtaJiZdzjyt2VX8Oo1zK5Dq3ZoXeU,1238
+netdata_airflow_utils/core.py,sha256=w3crn9FuTeFpbjgP4z3gLNt_XZdqEzTGuQp2CFjbP1A,176
+netdata_airflow_utils/datahub.py,sha256=-cNyy46-I01iALUIkGd94NdZtMZxlYZifQCkG-Zgud0,957
+netdata_airflow_utils/utils.py,sha256=w-pSjqzgQJ44-P2QolBlHgLqJfQAaW5VK74WGHRexwI,2035
+netdata_airflow_utils-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+netdata_airflow_utils-0.0.4.dist-info/METADATA,sha256=fwq4x6V19_vDNaZwNR_pi4BboVO4sHMkihLNb7fbock,1167
+netdata_airflow_utils-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+netdata_airflow_utils-0.0.4.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+netdata_airflow_utils-0.0.4.dist-info/top_level.txt,sha256=EtiotaeGPoayU5_JisxYL57cUff5UExdPOVTxpCvE1g,22
+netdata_airflow_utils-0.0.4.dist-info/RECORD,,
