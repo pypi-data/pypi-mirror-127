@@ -1,0 +1,39 @@
+kind: Pod
+metadata:
+spec:
+  restartPolicy: Never
+  # volumes:
+  # - name: pvc-home
+  #   persistentVolumeClaim:
+  #     claimName: pvc-home
+  # - name: pvc-data
+  #   persistentVolumeClaim:
+  #     claimName: pvc-data
+  # - configMap:
+  #     defaultMode: 420
+  #     name: user-yangshudong-85-jd-hz8
+  #   name: user-yangshudong-85-jd-hz8
+  containers:
+  - image: harbor-easyai.hz.netease.com/test/dask:2021.9.1-alpha
+    imagePullPolicy: IfNotPresent
+    # args: [dask-worker, --nthreads, '4', --no-dashboard, --memory-limit, '2GB', --death-timeout, '120']
+    name: easydata-dask
+    resources:
+      limits:
+        # cpu: "1"
+        # memory: 2G
+      requests:
+        # cpu: "1"
+        # memory: 2G
+    env:
+      - name: KRB5CCNAME
+        value: /opt/hadoop_client/krb5/krb5.ticket
+      - name: KRB5_CONFIG
+        value: /opt/hadoop_client/krb5/krb5.conf
+    # volumeMounts:
+    # - mountPath: /data
+    #   name: pvc-data
+    # - mountPath: /home/jovyan/
+    #   name: pvc-home
+    # - mountPath: /opt/hadoop_client/krb5/
+    #   name: user-yangshudong-85-jd-hz8
