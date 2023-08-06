@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.8.0b10
+--------
+
+* Rewrite OAuth flow to completely implement BMW PKCS flow
