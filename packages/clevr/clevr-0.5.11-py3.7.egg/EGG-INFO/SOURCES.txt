@@ -1,0 +1,11 @@
+setup.py
+clevr/api_resources/__init__.py
+clevr/api_resources/athena.py
+clevr/api_resources/layers.py
+clevr/api_resources/persona.py
+clevr/api_resources/platform.py
+clevr/clevr.egg-info/PKG-INFO
+clevr/clevr.egg-info/SOURCES.txt
+clevr/clevr.egg-info/dependency_links.txt
+clevr/clevr.egg-info/requires.txt
+clevr/clevr.egg-info/top_level.txt
