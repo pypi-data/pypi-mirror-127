@@ -1,0 +1,3 @@
+[console_scripts]
+brue-cli = brue.__main__:run_cli
+
