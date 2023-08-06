@@ -1,0 +1,13 @@
+packaging
+wrapt
+
+[http]
+requests>=2.26.0
+dapr>=1.4.0
+dapr-ext-grpc>=1.4.0
+Flask>=2.0.2
+
+[test]
+testcontainers
+pyyaml
+pytest
