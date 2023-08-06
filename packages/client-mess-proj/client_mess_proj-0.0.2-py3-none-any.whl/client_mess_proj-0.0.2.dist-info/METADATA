@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: client-mess-proj
+Version: 0.0.2
+Summary: client_mess_proj
+Home-page: UNKNOWN
+Author: Esin Evgenii
+Author-email: volga52@bk.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
+UNKNOWN
+
