@@ -1,0 +1,10 @@
+curl/__init__.py,sha256=YhklIBZLo9yxxGCrYYwhs1NpLJzbO0WcXr3Os4yh5YE,56
+r2c/__init__.py,sha256=YhklIBZLo9yxxGCrYYwhs1NpLJzbO0WcXr3Os4yh5YE,56
+requests_to_curl/__init__.py,sha256=iyVEp1HfpqI-Dgcj8Za7XUNU8DH_LCJoTD-7x860KnA,57
+requests_to_curl/requests_to_curl.py,sha256=FUJmp_KQUCcI0CO0700nqzFj77HQqt9O2uwI_NPjTtk,2056
+requests_to_curl/test.py,sha256=2I0Nr1Q00fl41B1Twp6a9ruaBe4ixCTex0pJbHWlKl0,4567
+requests_to_curl-1.0.6.dist-info/LICENSE,sha256=XDJJExcDFN05qtIrxta2FSU2o2DhhzDsEai43nSK9qw,1061
+requests_to_curl-1.0.6.dist-info/METADATA,sha256=lYuKqR2n20ezmHssTXi4dHSRygematPpeoCPfnnsQTI,1428
+requests_to_curl-1.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+requests_to_curl-1.0.6.dist-info/top_level.txt,sha256=quzkQX9_5WxEEnrzwcqUXlZxhKE_sPX-rgz22Fu88YM,26
+requests_to_curl-1.0.6.dist-info/RECORD,,
