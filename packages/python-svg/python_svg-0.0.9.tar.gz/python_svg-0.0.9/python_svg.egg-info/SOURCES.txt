@@ -1,0 +1,15 @@
+README.md
+setup.py
+python_svg.egg-info/PKG-INFO
+python_svg.egg-info/SOURCES.txt
+python_svg.egg-info/dependency_links.txt
+python_svg.egg-info/top_level.txt
+svg/__init__.py
+svg/canvas.py
+svg/example.py
+svg/link.py
+svg/main.py
+svg/server.py
+svg/shapes.py
+svg/style.py
+svg/templates.py
