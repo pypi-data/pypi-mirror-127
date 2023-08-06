@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+src/astromer.py
+src/test_model_hv.egg-info/PKG-INFO
+src/test_model_hv.egg-info/SOURCES.txt
+src/test_model_hv.egg-info/dependency_links.txt
+src/test_model_hv.egg-info/requires.txt
+src/test_model_hv.egg-info/top_level.txt
