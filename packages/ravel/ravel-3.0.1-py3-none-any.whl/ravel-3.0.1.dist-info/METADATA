@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: ravel
+Version: 3.0.1
+Summary: Python's first meta-framework
+Home-page: https://github.com/gigaquads/ravel.git
+Author: Gigaquads
+Author-email: what@gigaquads.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: ipython
+Requires-Dist: jsbeautifier
+Requires-Dist: BTrees
+Requires-Dist: graphql-py
+Requires-Dist: sqlparse
+Requires-Dist: pytest
+Requires-Dist: base36
+Requires-Dist: prompt-toolkit (>=3.0.4)
+Requires-Dist: pycryptodome
+Requires-Dist: appyratus
+Provides-Extra: celery
+Requires-Dist: celery ; extra == 'celery'
+Requires-Dist: mock ; extra == 'celery'
+Provides-Extra: falcon
+Requires-Dist: requests ; extra == 'falcon'
+Requires-Dist: falcon (>=3.0.0a1) ; extra == 'falcon'
+Provides-Extra: game
+Requires-Dist: pygame ; extra == 'game'
+Provides-Extra: grpc
+Requires-Dist: google ; extra == 'grpc'
+Requires-Dist: grpcio ; extra == 'grpc'
+Requires-Dist: grpcio-tools ; extra == 'grpc'
+Provides-Extra: redis
+Requires-Dist: redis ; extra == 'redis'
+Provides-Extra: sqlalchemy
+Requires-Dist: sqlalchemy ; extra == 'sqlalchemy'
+Requires-Dist: geoalchemy2 ; extra == 'sqlalchemy'
+Provides-Extra: websockets
+Requires-Dist: websockets ; extra == 'websockets'
+
+# Ravel
+Python's first meta-framework
+
+# Links
+- Web https://ravel.dev
+- Source https://github.com/gigaquads/ravel
+- Docs https://docs.ravel.dev
+- Gigaquads Dev https://gqd.io
+- Gigaquads https://gigaquads.com
+
+
