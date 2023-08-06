@@ -1,0 +1,9 @@
+pandas>=1.2.4
+scipy>=1.7.1
+scikit-learn>=1.0
+xgboost>=1.4.2
+numpy>=1.21.2
+
+[graphs]
+matplotlib>=3.4.3
+treelib>=1.6.1
