@@ -1,0 +1,6 @@
+README.md
+setup.py
+finrl_meta.egg-info/PKG-INFO
+finrl_meta.egg-info/SOURCES.txt
+finrl_meta.egg-info/dependency_links.txt
+finrl_meta.egg-info/top_level.txt
