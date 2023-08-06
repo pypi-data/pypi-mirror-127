@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: Dill-tils
+Version: 1.0.0
+Summary: DillonB07's utilities
+Home-page: https://github.com/DillonB07/Dill-tils
+Author: DillonB07
+Author-email: <dillonbarnes07@gmail.com>
+License: lgpl-3.0
+Description: Functions that DillonB07 regularly uses
+Keywords: python,utils,dillonb07,lgpl-3.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent

@@ -1,0 +1,14 @@
+README.md
+setup.py
+Dill-tils/__init__.py
+Dill-tils/email/__init__.py
+Dill-tils/email/email.py
+Dill-tils/flask/__init__.py
+Dill-tils/flask/recaptcha.py
+Dill-tils/text/__init__.py
+Dill-tils/text/clear.py
+Dill-tils/text/write.py
+Dill_tils.egg-info/PKG-INFO
+Dill_tils.egg-info/SOURCES.txt
+Dill_tils.egg-info/dependency_links.txt
+Dill_tils.egg-info/top_level.txt
