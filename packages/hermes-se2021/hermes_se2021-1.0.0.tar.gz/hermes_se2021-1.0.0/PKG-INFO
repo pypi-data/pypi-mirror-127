@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hermes-se2021
+Version: 1.0.0
+Summary: A small tool for data collection and processing for SE2021 HSE SPb course
+Home-page: https://github.com/MariaChizhova/SE_2021
+Author: Jura Khudyakov
+Author-email: catchitoo@mail.ru
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fastapi
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: uvicorn
+Project-URL: Repository, https://github.com/MariaChizhova/SE_2021
+Project-URL: Roadmap, https://github.com/MariaChizhova/SE_2021/projects/3
+Project-URL: Wiki, https://github.com/MariaChizhova/SE_2021/wiki
