@@ -1,0 +1,10 @@
+wiki_matcher/compare.py,sha256=JzMivvCzrIHGRYQ9O_LJwcVseNJH1TGcc7YuvvtqBH8,970
+wiki_matcher/ignore.py,sha256=SG9Ykcov6JFu5dBT-lNShoPON9XWZf6v6A_BUNEik8M,685
+wiki_matcher/match.py,sha256=c6up5Jm9aF3Hu5jiewKrH2tl6FZJkDrG-zL0z-3tql4,5117
+wiki_matcher/wiki.py,sha256=4Dz49TcXGZ6E0gjijHq_0wky8JU1kgjd6l6UPZFuXkE,2988
+wiki_matcher/wiki_parser.py,sha256=r5i3GIWlzu6WjI6hwr4rvrirSGq3I6cgVlsUKr6_1a0,752
+wiki_matcher-0.0.2.dist-info/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+wiki_matcher-0.0.2.dist-info/METADATA,sha256=PpySgOSgZ4wQzBDvb-vF6AxshfRyBFwj46qIuPnORhA,1028
+wiki_matcher-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wiki_matcher-0.0.2.dist-info/top_level.txt,sha256=8hIItqhGHRB9AJvZzNyeI9tobH4xwPo9JA_2na3Nxig,13
+wiki_matcher-0.0.2.dist-info/RECORD,,
