@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: RelevanceAI
+Version: 0.14.2
+Summary: UNKNOWN
+Home-page: https://relevance.ai/
+Author: Relevance AI
+Author-email: dev@relevance.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: dev
+Provides-Extra: excel
+Provides-Extra: vis
+Provides-Extra: tests
+Provides-Extra: notebook
+Provides-Extra: ivis
+
+UNKNOWN
+
