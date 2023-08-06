@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ihciah
+Version: 0.1.2
+Summary: Publish test
+Home-page: https://github.com/ihciah
+Author: ihciah
+Author-email: ihciah@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
