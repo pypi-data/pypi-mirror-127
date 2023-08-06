@@ -1,0 +1,10 @@
+pip
+packaging
+bs4
+pandas
+numpy
+pyarrow
+openpyxl
+lxml
+
+[dev]
