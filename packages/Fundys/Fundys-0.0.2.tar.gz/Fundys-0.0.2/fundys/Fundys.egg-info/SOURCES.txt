@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+fundys/Fundys.egg-info/PKG-INFO
+fundys/Fundys.egg-info/SOURCES.txt
+fundys/Fundys.egg-info/dependency_links.txt
+fundys/Fundys.egg-info/top_level.txt
