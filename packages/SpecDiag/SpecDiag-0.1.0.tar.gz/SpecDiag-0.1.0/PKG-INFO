@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: SpecDiag
+Version: 0.1.0
+Summary: A new tool for the comparison of time series in the frequency domain.
+Home-page: https://github.com/mabelcalim/Spectral-Diagram
+Author: Mabel Calim Costa
+Author-email: mabelcalim@gmail.com
+License: BSD 3-clause
+Description: UNKNOWN
+Platform: UNKNOWN

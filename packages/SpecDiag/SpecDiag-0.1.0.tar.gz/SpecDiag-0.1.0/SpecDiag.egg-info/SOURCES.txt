@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+SpecDiag.egg-info/PKG-INFO
+SpecDiag.egg-info/SOURCES.txt
+SpecDiag.egg-info/dependency_links.txt
+SpecDiag.egg-info/requires.txt
+SpecDiag.egg-info/top_level.txt
