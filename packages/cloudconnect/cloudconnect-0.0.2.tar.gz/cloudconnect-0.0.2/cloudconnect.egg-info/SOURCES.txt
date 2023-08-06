@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+cloudconnect/__init__.py
+cloudconnect.egg-info/PKG-INFO
+cloudconnect.egg-info/SOURCES.txt
+cloudconnect.egg-info/dependency_links.txt
+cloudconnect.egg-info/top_level.txt
