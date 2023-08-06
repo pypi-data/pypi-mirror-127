@@ -1,0 +1,8 @@
+setup.py
+arcaptcha/Arcaptcha.py
+arcaptcha/__init__.py
+arcaptcha.egg-info/PKG-INFO
+arcaptcha.egg-info/SOURCES.txt
+arcaptcha.egg-info/dependency_links.txt
+arcaptcha.egg-info/requires.txt
+arcaptcha.egg-info/top_level.txt
