@@ -1,0 +1,10 @@
+shellfish/__init__.py,sha256=irkcgpVDwP7j-pa-lmMSkWmNpxZjGQdCTvS73Qndt7c,263
+shellfish/_meta.py,sha256=WZejYZdDS8gvLsIB0QkYhUQ0bRN1wZJPGypMxGUDESY,179
+shellfish/dotenv.py,sha256=2Ku_uA0OQbhRRPdHu-LIZ1N_jld1Y8O4Nsvy8vActZE,3461
+shellfish/fs.py,sha256=UrTmOxod_Mf-iDtOqvEB3TChvZcjOCcq4OaRLDbKOKA,6328
+shellfish/process.py,sha256=cxm8pC-0FQVeV9ChOMp0SY-mz4fMsP2JsFXhjTCT8NU,4552
+shellfish/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shellfish/sh.py,sha256=afbuig0yjfaYmpMEw0vyZXt5ry-Lq8KXvpV4yqR2Idg,4975
+shellfish-0.0.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+shellfish-0.0.3.dist-info/METADATA,sha256=UKYR86rhRBy5HRT8O7KYIRkxxz9f_jF4B93ZbtJAv_Q,925
+shellfish-0.0.3.dist-info/RECORD,,
