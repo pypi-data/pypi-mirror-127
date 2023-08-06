@@ -1,0 +1,6 @@
+openedx-events
+djangorestframework
+Django
+celery
+edx-opaque-keys[django]
+django-crum
