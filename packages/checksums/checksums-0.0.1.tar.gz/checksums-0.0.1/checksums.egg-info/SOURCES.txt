@@ -1,0 +1,11 @@
+README.md
+setup.py
+checksums/__init__.py
+checksums/calculate.py
+checksums/cli.py
+checksums.egg-info/PKG-INFO
+checksums.egg-info/SOURCES.txt
+checksums.egg-info/dependency_links.txt
+checksums.egg-info/entry_points.txt
+checksums.egg-info/requires.txt
+checksums.egg-info/top_level.txt
