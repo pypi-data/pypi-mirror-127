@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/gitfunctions/__init__.py
+src/gitfunctions/gitfunctions.py
+src/gitfunctions.egg-info/PKG-INFO
+src/gitfunctions.egg-info/SOURCES.txt
+src/gitfunctions.egg-info/dependency_links.txt
+src/gitfunctions.egg-info/requires.txt
+src/gitfunctions.egg-info/top_level.txt
