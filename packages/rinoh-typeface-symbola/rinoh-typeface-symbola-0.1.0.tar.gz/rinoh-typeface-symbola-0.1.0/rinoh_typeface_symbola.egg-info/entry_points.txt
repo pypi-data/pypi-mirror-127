@@ -1,0 +1,3 @@
+[rinoh.typefaces]
+symbola = rinoh_typeface_symbola:typeface
+
