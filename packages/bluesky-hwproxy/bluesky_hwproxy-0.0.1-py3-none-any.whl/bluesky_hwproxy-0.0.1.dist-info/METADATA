@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bluesky-hwproxy
+Version: 0.0.1
+Summary: Proxy for reading bluesky hardware over ZMQ interface.
+Author-email: Kyle Sunden <contact@ksunden.space>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Requires-Dist: click
+Requires-Dist: bluesky-queueserver
+Requires-Dist: pyzmq
+
+
