@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: clevr
+Version: 0.5.1
+Summary: Official Python SDK for Clevr.
+Home-page: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+
+Please visit https://beta.clevr-ai.com/docs for API examples and documentation.
+
