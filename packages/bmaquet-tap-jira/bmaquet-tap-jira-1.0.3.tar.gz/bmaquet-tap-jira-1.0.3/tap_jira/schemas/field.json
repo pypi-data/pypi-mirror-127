@@ -1,0 +1,45 @@
+{
+  "title": "Field",
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "custom": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "orderable": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "navigable": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "searchable": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}
