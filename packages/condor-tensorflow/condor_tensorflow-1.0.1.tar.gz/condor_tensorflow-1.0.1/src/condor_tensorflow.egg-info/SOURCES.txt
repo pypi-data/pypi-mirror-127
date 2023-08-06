@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/condor_tensorflow/__init__.py
+src/condor_tensorflow/activations.py
+src/condor_tensorflow/labelencoder.py
+src/condor_tensorflow/loss.py
+src/condor_tensorflow/metrics.py
+src/condor_tensorflow/version.py
+src/condor_tensorflow.egg-info/PKG-INFO
+src/condor_tensorflow.egg-info/SOURCES.txt
+src/condor_tensorflow.egg-info/dependency_links.txt
+src/condor_tensorflow.egg-info/top_level.txt
