@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+api/__init__.py
+api/cli.py
+api/twitter_cleanup.py
+api/version.py
+tidy_twitter.egg-info/PKG-INFO
+tidy_twitter.egg-info/SOURCES.txt
+tidy_twitter.egg-info/dependency_links.txt
+tidy_twitter.egg-info/entry_points.txt
+tidy_twitter.egg-info/not-zip-safe
+tidy_twitter.egg-info/requires.txt
+tidy_twitter.egg-info/top_level.txt
