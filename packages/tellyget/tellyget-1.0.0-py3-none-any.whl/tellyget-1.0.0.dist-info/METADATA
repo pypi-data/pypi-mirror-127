@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tellyget
+Version: 1.0.0
+Summary: A toolset for fetching and updating m3u playlist and xmltv guide from the IPTV network
+Home-page: https://github.com/williamthegrey/tellyget
+Author: William Lu
+Author-email: wy.william.lu@gmail.com
+License: GPLv3
+Keywords: set-top-box iptv m3u xmltv
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Multimedia :: Video
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: netifaces
+Requires-Dist: pycryptodome
+Requires-Dist: requests-toolbelt
+
+# TellyGet
+
+A toolset for fetching and updating m3u playlist and xmltv guide from the IPTV network.
+
+Please visit [TellyGet on GitHub](https://github.com/williamthegrey/tellyget) for detail.
+
+
