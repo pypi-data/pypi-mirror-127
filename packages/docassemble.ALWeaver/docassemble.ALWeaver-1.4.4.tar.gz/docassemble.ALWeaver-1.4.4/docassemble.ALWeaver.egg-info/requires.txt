@@ -1,0 +1,3 @@
+PyYAML>=5.1.2
+docassemble.ALToolbox>=0.2.1
+docx2python>=1.27.1
