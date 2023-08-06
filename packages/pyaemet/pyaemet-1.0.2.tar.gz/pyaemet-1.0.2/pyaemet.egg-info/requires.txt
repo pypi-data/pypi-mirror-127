@@ -1,0 +1,7 @@
+setuptools>=42
+wheel
+numpy
+pandas
+requests
+geocoder
+python-dateutil

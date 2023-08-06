@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyaemet/__init__.py
+pyaemet/aemet_api_request.py
+pyaemet/apikey_file.py
+pyaemet/utilities.py
+pyaemet/valores_climatologicos.py
+pyaemet.egg-info/PKG-INFO
+pyaemet.egg-info/SOURCES.txt
+pyaemet.egg-info/dependency_links.txt
+pyaemet.egg-info/not-zip-safe
+pyaemet.egg-info/requires.txt
+pyaemet.egg-info/top_level.txt
