@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: wiki_matcher
+Version: 0.0.2
+Summary: Wiki Parsing and Loose Matching Aid
+Home-page: https://github.com/TrippW/WikiMatcher
+Author: Tripp Weiner
+Maintainer: Tripp Weiner
+License: UNKNOWN
+Project-URL: Funding, https://ko-fi.com/devtripp
+Project-URL: Source, https://github.com/TrippW/WikiMatcher
+Keywords: parsing wiki loosematch db
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+Wraps the reading, managing, caching, parsing, and matching of phrases found in specified html pages
+

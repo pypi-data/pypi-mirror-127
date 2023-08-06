@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+wiki_matcher/compare.py
+wiki_matcher/ignore.py
+wiki_matcher/match.py
+wiki_matcher/wiki.py
+wiki_matcher/wiki_parser.py
+wiki_matcher.egg-info/PKG-INFO
+wiki_matcher.egg-info/SOURCES.txt
+wiki_matcher.egg-info/dependency_links.txt
+wiki_matcher.egg-info/requires.txt
+wiki_matcher.egg-info/top_level.txt
