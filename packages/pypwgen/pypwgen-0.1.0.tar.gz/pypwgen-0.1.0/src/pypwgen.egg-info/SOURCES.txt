@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pypwgen.egg-info/PKG-INFO
+src/pypwgen.egg-info/SOURCES.txt
+src/pypwgen.egg-info/dependency_links.txt
+src/pypwgen.egg-info/top_level.txt
