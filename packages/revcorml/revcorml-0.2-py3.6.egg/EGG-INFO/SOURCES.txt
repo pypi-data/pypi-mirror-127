@@ -1,0 +1,9 @@
+setup.py
+revcorml/__init__.py
+revcorml/proise.py
+revcorml.egg-info/PKG-INFO
+revcorml.egg-info/SOURCES.txt
+revcorml.egg-info/dependency_links.txt
+revcorml.egg-info/not-zip-safe
+revcorml.egg-info/requires.txt
+revcorml.egg-info/top_level.txt
