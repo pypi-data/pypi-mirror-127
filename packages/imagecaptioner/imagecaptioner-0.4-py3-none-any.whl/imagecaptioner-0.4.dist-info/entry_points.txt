@@ -1,0 +1,3 @@
+[console_scripts]
+imagecaptioner = imagecaptioner.cli:main
+
