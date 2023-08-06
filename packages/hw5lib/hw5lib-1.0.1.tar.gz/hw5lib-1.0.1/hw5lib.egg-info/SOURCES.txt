@@ -1,0 +1,9 @@
+README.md
+setup.py
+hw5lib/__init__.py
+hw5lib/myfuncs.py
+hw5lib.egg-info/PKG-INFO
+hw5lib.egg-info/SOURCES.txt
+hw5lib.egg-info/dependency_links.txt
+hw5lib.egg-info/requires.txt
+hw5lib.egg-info/top_level.txt
