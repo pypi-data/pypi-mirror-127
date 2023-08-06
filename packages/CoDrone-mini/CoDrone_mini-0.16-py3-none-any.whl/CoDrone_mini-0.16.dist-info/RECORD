@@ -1,0 +1,14 @@
+CoDrone_mini/__init__.py,sha256=-QSIfJ3WpxTxFgBbao5s8irGATKMJWOxRdn6mTZzPDc,309
+CoDrone_mini/crc.py,sha256=vFGnDd-8GvRNAhNg2H-aK3AhPTJLiQBv31J-8KrndA4,4441
+CoDrone_mini/drone.py,sha256=m7PfvKPX2TLc6w9QoHwu2qTYgJ2QppMjXYwCrNYmQwk,33519
+CoDrone_mini/protocol.py,sha256=wjkWGny7_7t9zkWvXgJa6792X6Oskf9IFNpQdOye92A,41600
+CoDrone_mini/receiver.py,sha256=ZweZgDcJt50XMU1-RBlcaVCNvc1IVcxnlYf-EzFZomM,6726
+CoDrone_mini/storage.py,sha256=QBQX3uLR79CW6DCE_XtK8eyGPnJSkde5LFWARGg3mTU,2067
+CoDrone_mini/system.py,sha256=Z-KI1_tdhOGTgdyPVojJLPCpvGwEundBf_iyzxlVJ-I,6917
+CoDrone_mini/update.py,sha256=xOlIPv9DznpsQFoYTfDeXM8YC8E83MtPvicPQ1u1YH0,9117
+CoDrone_mini-0.16.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+CoDrone_mini-0.16.dist-info/METADATA,sha256=lLRbq7ThcU5WhXZ26a2ZW2scBuu2Ly5yQ6fARkCkgAY,311
+CoDrone_mini-0.16.dist-info/RECORD,,
+CoDrone_mini-0.16.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+CoDrone_mini-0.16.dist-info/metadata.json,sha256=UHquz4Ul1nj1XO2GTEvkD3XdG8MtPot4N1c3t4SPUbs,445
+CoDrone_mini-0.16.dist-info/top_level.txt,sha256=kKy5qdpBGuBkPvFwmUEkJqpp9OQCVaF02KUryYnahdI,13
