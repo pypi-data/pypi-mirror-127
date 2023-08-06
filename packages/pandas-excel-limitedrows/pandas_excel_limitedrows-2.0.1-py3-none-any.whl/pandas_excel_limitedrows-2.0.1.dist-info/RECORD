@@ -1,0 +1,11 @@
+pandas_excel_limitedrows/__init__.py,sha256=sWIClxI13QSQruyBVe1oDlHgMQjuG2oFrS7uaHjuAS0,28
+pandas_excel_limitedrows/main.py,sha256=kMnn7_GqdU4V8tJMyy-vNnvgJ55E4iJHfAX32XETR74,2997
+pandas_excel_limitedrows/engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandas_excel_limitedrows/engines/_openpyxl.py,sha256=nacqyP_zaWwewHQih2Wd4yNuyJYZgQSNswRABG1SJdU,1853
+pandas_excel_limitedrows/engines/_pyxlsb.py,sha256=_PPUXF1CXt6bGpxTAy-tp13IlcPWZfVtPhe0PRJ7D0g,1949
+pandas_excel_limitedrows/engines/_xlrd.py,sha256=9rWatHr2EJtUo0IsuiJA8131ofi6viBPJOjPHoK4EyA,2531
+pandas_excel_limitedrows-2.0.1.dist-info/LICENSE,sha256=LQuMWTcKW8SLyvWttQ0dm7HsqkZzOdaNid6GK4dJFBU,1073
+pandas_excel_limitedrows-2.0.1.dist-info/METADATA,sha256=lhy1ZFqaPoFSJ0ejfPn9neo33JfzIMhoHMP14KjPOmw,1730
+pandas_excel_limitedrows-2.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pandas_excel_limitedrows-2.0.1.dist-info/top_level.txt,sha256=WG5VjCMZGH1O0SsSJ_NIwyX28Gz1g-pjoxzKKfzLH0k,25
+pandas_excel_limitedrows-2.0.1.dist-info/RECORD,,
