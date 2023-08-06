@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+Nobitex/__init__.py
+NobitexAPI.egg-info/PKG-INFO
+NobitexAPI.egg-info/SOURCES.txt
+NobitexAPI.egg-info/dependency_links.txt
+NobitexAPI.egg-info/top_level.txt
