@@ -1,0 +1,8 @@
+mutalyzer-hgvs-parser==0.2.0
+mutalyzer-spdi-parser==0.2.0
+mutalyzer-retriever==0.2.4
+mutalyzer-mutator==0.2.0
+mutalyzer_crossmapper==2.0.0
+mutalyzer-backtranslate==0.1.4
+description-extractor==3.0.0
+mutalyzer-algebra==0.2.0
