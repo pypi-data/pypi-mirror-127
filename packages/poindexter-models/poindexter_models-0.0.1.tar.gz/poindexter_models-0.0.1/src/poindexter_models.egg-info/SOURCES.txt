@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/poindexter_models.egg-info/PKG-INFO
+src/poindexter_models.egg-info/SOURCES.txt
+src/poindexter_models.egg-info/dependency_links.txt
+src/poindexter_models.egg-info/not-zip-safe
+src/poindexter_models.egg-info/requires.txt
+src/poindexter_models.egg-info/top_level.txt
