@@ -1,0 +1,9 @@
+README.md
+setup.py
+python_wolfism8.egg-info/PKG-INFO
+python_wolfism8.egg-info/SOURCES.txt
+python_wolfism8.egg-info/dependency_links.txt
+python_wolfism8.egg-info/not-zip-safe
+python_wolfism8.egg-info/top_level.txt
+wolfism8/__init__.py
+wolfism8/ism8.py

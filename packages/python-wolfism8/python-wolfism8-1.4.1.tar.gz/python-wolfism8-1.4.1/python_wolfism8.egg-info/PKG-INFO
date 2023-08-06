@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python-wolfism8
+Version: 1.4.1
+Summary: Get data from wolf heating system via ISM8
+Home-page: UNKNOWN
+Author: marcschmiedchen
+Author-email: marc.schmiedchen@protonmail.com
+License: UNKNOWN
+Description: # python-wolfism8
+        A TCP server which listens for messages from Wolf's ISM8 module.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
