@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: sqrt5-extension
+Version: 1.0.0
+Summary: useful tools
+Home-page: https://www.python.org/
+Author: Sqrt5
+Author-email: 2.236068@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3

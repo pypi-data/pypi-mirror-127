@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+extension/GFS.py
+extension/__init__.py
+extension/baseLMDB.py
+extension/imageLMDB.py
+extension/normalLMDB.py
+extension/simhei.ttf
+extension/utils.py
+extension/utilsImage.py
+extension/utilsLabel.py
+sqrt5_extension.egg-info/PKG-INFO
+sqrt5_extension.egg-info/SOURCES.txt
+sqrt5_extension.egg-info/dependency_links.txt
+sqrt5_extension.egg-info/requires.txt
+sqrt5_extension.egg-info/top_level.txt

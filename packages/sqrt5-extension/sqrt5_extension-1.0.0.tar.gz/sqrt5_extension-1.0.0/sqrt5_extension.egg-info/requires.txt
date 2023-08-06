@@ -1,0 +1,6 @@
+Pillow>=8.1.0
+numpy>=1.18.2
+opencv-contrib-python-headless>=4.5.2
+pytz
+pymongo>=3.11.4
+lmdb>=1.2.1
