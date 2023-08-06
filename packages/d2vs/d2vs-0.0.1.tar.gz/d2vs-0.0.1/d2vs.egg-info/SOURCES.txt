@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+d2vs.egg-info/PKG-INFO
+d2vs.egg-info/SOURCES.txt
+d2vs.egg-info/dependency_links.txt
+d2vs.egg-info/requires.txt
+d2vs.egg-info/top_level.txt
+tests/__init__.py
+tests/base.py
+tests/test_simple_scanning.py
