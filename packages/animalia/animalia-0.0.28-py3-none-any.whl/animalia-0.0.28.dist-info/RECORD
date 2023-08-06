@@ -1,0 +1,17 @@
+animalia/__init__.py,sha256=8ge53yItGf-xZinQcHJfm78RVCyE4ZXobH4W4Q2vYfM,57
+animalia/cli.py,sha256=xGR4nxQQbZCQUD1CoL08vGKLAiQbaAqK29ANsUKCNAM,913
+animalia/load_data.py,sha256=uJwbZ-CTT4OtAcV5R0Yp53qKIr9_6pjGIGP535MA5kU,188
+animalia/species_name_generator.py,sha256=yHibiXMb2s7RXP9sB7Cknwwk3X63XeTTEDEjJeeFOFE,2084
+animalia/animalia.egg-info/PKG-INFO,sha256=TFMjl8nsUJDiTpNKPJ63y4cb-bWzCZtc9bHPWyN6ahY,305
+animalia/animalia.egg-info/SOURCES.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+animalia/animalia.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+animalia/animalia.egg-info/entry_points.txt,sha256=qVIZQvEa4Oo1FXRp_Um0Lv0_QViHoXY9q4IffnMmxFM,69
+animalia/animalia.egg-info/requires.txt,sha256=a7bHaSHT6OOc6dmgPhMAcaiHFwcwZwrl51qEgiNPXY4,10
+animalia/animalia.egg-info/top_level.txt,sha256=xnWmHxz-mk-wOdTnM4bXse5EvMqY3Akv-Z6abRle538,9
+animalia/data/species.txt,sha256=Xvv_BkDyqAyonH8H5iknbMtloykXmfZZ7gLhBYhIFSY,2305397
+animalia-0.0.28.dist-info/LICENSE,sha256=x4la16MZ1d8CQaizHxTYV-VdbVZr9h4ueFLKYsw5KAk,1048
+animalia-0.0.28.dist-info/METADATA,sha256=IXZ3owavp1QaLBhBTiO5suB2U3hBVOkC9qRd2HL8SSY,2151
+animalia-0.0.28.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+animalia-0.0.28.dist-info/entry_points.txt,sha256=qVIZQvEa4Oo1FXRp_Um0Lv0_QViHoXY9q4IffnMmxFM,69
+animalia-0.0.28.dist-info/top_level.txt,sha256=xnWmHxz-mk-wOdTnM4bXse5EvMqY3Akv-Z6abRle538,9
+animalia-0.0.28.dist-info/RECORD,,
