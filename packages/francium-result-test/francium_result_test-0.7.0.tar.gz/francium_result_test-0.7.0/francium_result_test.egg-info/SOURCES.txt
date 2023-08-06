@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+francium_result_test/__init__.py
+francium_result_test/py.typed
+francium_result_test/result.py
+francium_result_test.egg-info/PKG-INFO
+francium_result_test.egg-info/SOURCES.txt
+francium_result_test.egg-info/dependency_links.txt
+francium_result_test.egg-info/top_level.txt
+francium_result_test.egg-info/zip-safe
