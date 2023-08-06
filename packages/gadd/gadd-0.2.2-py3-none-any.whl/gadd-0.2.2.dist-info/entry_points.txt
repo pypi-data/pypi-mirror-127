@@ -1,0 +1,3 @@
+[console_scripts]
+gadd=gadd:main
+
