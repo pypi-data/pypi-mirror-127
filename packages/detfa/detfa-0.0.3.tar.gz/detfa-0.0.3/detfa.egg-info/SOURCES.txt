@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+detfa/__init__.py
+detfa/functions.py
+detfa.egg-info/PKG-INFO
+detfa.egg-info/SOURCES.txt
+detfa.egg-info/dependency_links.txt
+detfa.egg-info/top_level.txt

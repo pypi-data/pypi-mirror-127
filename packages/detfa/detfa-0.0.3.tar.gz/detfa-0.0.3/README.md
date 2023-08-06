@@ -1,0 +1,3 @@
+# detfa
+
+Deterministic factor analysis

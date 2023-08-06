@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: detfa
+Version: 0.0.3
+Summary: Deterministic factor analysis
+Home-page: https://github.com/alexandergoncharenko/detfa
+Author: Alexander Goncharenko
+Author-email: goncharenko.stat@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+Download-URL: https://github.com/alexandergoncharenko/detfa/archive/main.zip
+Description: # detfa
+        
+        Deterministic factor analysis
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
