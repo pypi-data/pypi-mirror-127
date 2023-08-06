@@ -1,0 +1,8 @@
+README.md
+setup.py
+pawel.popow_hello_world.egg-info/PKG-INFO
+pawel.popow_hello_world.egg-info/SOURCES.txt
+pawel.popow_hello_world.egg-info/dependency_links.txt
+pawel.popow_hello_world.egg-info/top_level.txt
+sample_package/__init__.py
+sample_package/sample.py
