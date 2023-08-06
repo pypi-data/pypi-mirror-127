@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+simplerestapi/__init__.py
+simplerestapi/api.py
+simplerestapi/endpoint.py
+simplerestapi/exception.py
+simplerestapi/main.py
+simplerestapi/model_validator.py
+simplerestapi/router.py
+simplerestapi/url_params.py
+simplerestapi.egg-info/PKG-INFO
+simplerestapi.egg-info/SOURCES.txt
+simplerestapi.egg-info/dependency_links.txt
+simplerestapi.egg-info/requires.txt
+simplerestapi.egg-info/top_level.txt
