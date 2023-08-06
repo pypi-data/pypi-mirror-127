@@ -1,0 +1,10 @@
+pdbbasic/__init__.py,sha256=Quvpc0C14sN8Hi_c06EixwpBNCY1YRqrFXzwc1J-tmI,160
+pdbbasic/geometric.py,sha256=ydSwyUAVoF7TgikcjxnPXLoUUdeEVv3NC4IHpxe2_kg,2613
+pdbbasic/pdbio.py,sha256=fHPSKfMezOlC7unrGPg440w6mXdsM7VPkK5hdniDf2U,4529
+pdbbasic/rmsd.py,sha256=015jsDeH5HgKy_L2MTSqJpOd8Jexwc5j3v-M5h_OHk4,3522
+pdbbasic/utils.py,sha256=KuPjzWfVmYoMBLzGKt0tsM_NRQAOXD_Jdq0ZYKQ_qDM,158
+pdbbasic-0.3.1.dist-info/LICENSE,sha256=GOgnUQafwgZCiZNBbJGCMGp8UPEf1yexIafQVtqnM-c,1072
+pdbbasic-0.3.1.dist-info/METADATA,sha256=MJg8u8v3treD2Gq8mXOZ4Qpp36ytoYYl_wU-mSSUQYY,1735
+pdbbasic-0.3.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pdbbasic-0.3.1.dist-info/top_level.txt,sha256=d3cRkGD_BpdFhZL1bBQ22C1wuxTOW1S1mheBF_ewQzQ,9
+pdbbasic-0.3.1.dist-info/RECORD,,
