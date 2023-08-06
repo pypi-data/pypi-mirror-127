@@ -1,0 +1,5 @@
+setup.py
+pycom_bitbucket_ssh.egg-info/PKG-INFO
+pycom_bitbucket_ssh.egg-info/SOURCES.txt
+pycom_bitbucket_ssh.egg-info/dependency_links.txt
+pycom_bitbucket_ssh.egg-info/top_level.txt
