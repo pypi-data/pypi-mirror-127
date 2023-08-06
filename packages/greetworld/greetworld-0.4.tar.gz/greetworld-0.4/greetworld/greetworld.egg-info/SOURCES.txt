@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+greetworld/greetworld.egg-info/PKG-INFO
+greetworld/greetworld.egg-info/SOURCES.txt
+greetworld/greetworld.egg-info/dependency_links.txt
+greetworld/greetworld.egg-info/top_level.txt

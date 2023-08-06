@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: greetworld
+Version: 0.4
+Summary: Hello World message
+Home-page: https://github.com/rajendrakumaryadav/greetworld
+Author: Rajendra Kumar R Yadav
+Author-email: 13816347+rajendrakumaryadav@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Hello World
+[![PyPi Pubish](https://github.com/rajendrakumaryadav/greetworld/actions/workflows/publish_pypi.yml/badge.svg)](https://github.com/rajendrakumaryadav/greetworld/actions/workflows/publish_pypi.yml)
+
+It is based on Python and return
+
+```bash
+$python
+> from greetworld import greet
+> hello = greet.greet()
+> print(hello.say_hello())
+Hello, World!
+> hello = greet.greet("Rajendra")
+> print(hello.say_hello())
+Hello, Rajendra!
+```
+
+
