@@ -1,0 +1,10 @@
+trr265/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+trr265/_nbdev.py,sha256=irYUJK7Abyo-pt0ZQr2lIjrBSH5-ofWnDafWLoVP-jA,1298
+trr265/core.py,sha256=6jZJ2YaH67dAf7EdxSkZH_IS5vTeQ2sTUnV1FUS7shQ,111
+trr265/data_provider.py,sha256=oIJVPKyD-CSghOKl6nGL5QSAjPmCPvLkcibHuJSWGgs,21794
+trr265-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+trr265-0.0.2.dist-info/METADATA,sha256=YJwAuBt04b-LvahDMCP_1yKGBnS6w_Ch5qQRbHxx5oQ,1185
+trr265-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+trr265-0.0.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+trr265-0.0.2.dist-info/top_level.txt,sha256=QGeTwxzyQwQkU_9Q6Sz1VHwnO6XsMUtPmmh71E_O6MU,7
+trr265-0.0.2.dist-info/RECORD,,
