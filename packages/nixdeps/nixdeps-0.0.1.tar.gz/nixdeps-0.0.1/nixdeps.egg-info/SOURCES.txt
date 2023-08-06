@@ -1,0 +1,9 @@
+setup.py
+nixdeps/__init__.py
+nixdeps/load.py
+nixdeps/setuptools.py
+nixdeps.egg-info/PKG-INFO
+nixdeps.egg-info/SOURCES.txt
+nixdeps.egg-info/dependency_links.txt
+nixdeps.egg-info/entry_points.txt
+nixdeps.egg-info/top_level.txt
