@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: stuartplot
+Version: 0.0.6
+Summary: Matplotlib wrapper
+Home-page: https://github.com/stuart-watt/stuart_plot
+Author: Stuart Watt
+License: UNKNOWN
+Description: Simple wrapper for the matplotlib templates I frequently use.
+Platform: UNKNOWN
+Requires-Python: >=3.6
