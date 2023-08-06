@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cube-business-ops
+Version: 0.3
+Summary: Cube business operation package including logging facilities and monitoring 
+Home-page: https://github.com/QuanticData
+Author: Abdallah Ben Hamida
+Author-email: noemail@gmail.com
+License: MIT
+Keywords: dict,python,cube
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
