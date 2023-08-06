@@ -1,0 +1,8 @@
+setup.py
+neurots/__init__.py
+neurots/neurots.py
+neurots.egg-info/PKG-INFO
+neurots.egg-info/SOURCES.txt
+neurots.egg-info/dependency_links.txt
+neurots.egg-info/entry_points.txt
+neurots.egg-info/top_level.txt
