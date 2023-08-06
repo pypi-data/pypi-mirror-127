@@ -1,0 +1,6 @@
+README.md
+setup.py
+talk_in_code/talk_in_code.egg-info/PKG-INFO
+talk_in_code/talk_in_code.egg-info/SOURCES.txt
+talk_in_code/talk_in_code.egg-info/dependency_links.txt
+talk_in_code/talk_in_code.egg-info/top_level.txt
