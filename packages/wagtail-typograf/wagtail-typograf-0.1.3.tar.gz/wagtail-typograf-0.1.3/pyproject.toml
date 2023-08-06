@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "wagtail-typograf"
+version = "0.1.3"
+description = "Brings russian typography to Wagtail rich text editor based on draftail"
+authors = ["Sergey Trofimov <truetug@gmail.com>"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/truetug/wagtail-typograf"
+repository = "https://github.com/truetug/wagtail-typograf"
+keywords = ["wagtail", "draftail", "typography", "typus"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Text Editors",
+    "Topic :: Text Editors :: Text Processing",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.3"
+typus = "^0.2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+Django = "^3.2.9"
+pytest-django = "^4.4.0"
+black = "^21.10b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
