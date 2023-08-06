@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: nionswift-video-capture
+Version: 0.2.3
+Summary: Capture video from built-in camera using OpenCV.
+Home-page: https://github.com/nion-software/nionswift-hyperspy
+Author: Nion Software
+Author-email: swift@nion.com
+License: GPL-3.0-only
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: ~=3.8
+Requires-Dist: nionswift-instrumentation (<0.21.0,>=0.20.0)
+Requires-Dist: nionswift (<0.17.0,>=0.16.0)
+
+Changelog (nionswift-video-capture)
+===================================
+
+0.2.3 (2021-11-12)
+------------------
+- nionswift-instrumentation 0.20 compatibility.
+
+0.1.0 (INITIAL VERSION)
+-----------------------
+- Initial version.
+
+
