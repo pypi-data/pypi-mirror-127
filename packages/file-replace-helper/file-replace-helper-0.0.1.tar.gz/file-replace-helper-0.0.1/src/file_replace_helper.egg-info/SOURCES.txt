@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/file_replace_helper.egg-info/PKG-INFO
+src/file_replace_helper.egg-info/SOURCES.txt
+src/file_replace_helper.egg-info/dependency_links.txt
+src/file_replace_helper.egg-info/top_level.txt
