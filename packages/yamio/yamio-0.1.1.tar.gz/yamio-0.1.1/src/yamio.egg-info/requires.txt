@@ -1,0 +1,8 @@
+numpy
+h5py
+meshio
+pyhip
+
+[vis]
+pyvista
+matplotlib
