@@ -1,0 +1,10 @@
+setup.py
+hassan_fivehead_hahaha/Binomialdistribution.py
+hassan_fivehead_hahaha/Gaussiandistribution.py
+hassan_fivehead_hahaha/Generaldistribution.py
+hassan_fivehead_hahaha/__init__.py
+hassan_fivehead_hahaha.egg-info/PKG-INFO
+hassan_fivehead_hahaha.egg-info/SOURCES.txt
+hassan_fivehead_hahaha.egg-info/dependency_links.txt
+hassan_fivehead_hahaha.egg-info/not-zip-safe
+hassan_fivehead_hahaha.egg-info/top_level.txt
