@@ -1,0 +1,6 @@
+cython<3,>0.28
+pytest
+pytest-xdist
+pytest-mock
+hypothesis
+future
