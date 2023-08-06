@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: smithers
+Version: 0.0.1
+Summary: Smithers' a Mathematical Interdisciplinary Toolbox for Helping Engineers Researchers and Scientist
+Home-page: https://github.com/mathLab/Smithers
+Author: Nicola Demo, Francesco Andreuzzi
+Author-email: demo.nicola@gmail.com
+License: MIT
+Keywords: toolbox math
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Provides-Extra: docs
+Provides-Extra: vtk
+Provides-Extra: test
+License-File: LICENSE.rst
+
+Smithers is a generic library for scientific computing developed in Python that aims to facilitate the development of many typical routines. It is substantially a multi-purpose toolbox that inherits functionality from other packages to make easier and compact the coding of recurrent workflows.
+
