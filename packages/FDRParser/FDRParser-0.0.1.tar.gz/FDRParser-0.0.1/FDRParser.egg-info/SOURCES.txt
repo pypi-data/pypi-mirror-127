@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+FDRParser.egg-info/PKG-INFO
+FDRParser.egg-info/SOURCES.txt
+FDRParser.egg-info/dependency_links.txt
+FDRParser.egg-info/requires.txt
+FDRParser.egg-info/top_level.txt
