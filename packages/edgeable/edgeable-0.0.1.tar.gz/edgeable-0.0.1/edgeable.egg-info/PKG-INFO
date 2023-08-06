@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: edgeable
+Version: 0.0.1
+Summary: Easy to use, in memory, peristable graph database.
+Home-page: https://github.com/lee/edgeable
+Author: Lee Adcock
+Author-email: lee@katieandlee.com
+License: MIT
+Description: # QuickGraph
+        
+        Easy to use, in memory, peristable graph database.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

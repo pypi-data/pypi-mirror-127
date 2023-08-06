@@ -1,0 +1,9 @@
+README.md
+setup.py
+edgeable/__init__.py
+edgeable/edgeable.py
+edgeable.egg-info/PKG-INFO
+edgeable.egg-info/SOURCES.txt
+edgeable.egg-info/dependency_links.txt
+edgeable.egg-info/requires.txt
+edgeable.egg-info/top_level.txt
