@@ -1,0 +1,11 @@
+README.md
+setup.py
+paddlelibrosa/__init__.py
+paddlelibrosa/augmentation.py
+paddlelibrosa/stft.py
+paddlelibrosa.egg-info/PKG-INFO
+paddlelibrosa.egg-info/SOURCES.txt
+paddlelibrosa.egg-info/dependency_links.txt
+paddlelibrosa.egg-info/requires.txt
+paddlelibrosa.egg-info/top_level.txt
+paddlelibrosa/paddleplus/__init__.py
