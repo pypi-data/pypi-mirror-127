@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dev_ethanr_MasterReach1.egg-info/PKG-INFO
+src/dev_ethanr_MasterReach1.egg-info/SOURCES.txt
+src/dev_ethanr_MasterReach1.egg-info/dependency_links.txt
+src/dev_ethanr_MasterReach1.egg-info/top_level.txt
