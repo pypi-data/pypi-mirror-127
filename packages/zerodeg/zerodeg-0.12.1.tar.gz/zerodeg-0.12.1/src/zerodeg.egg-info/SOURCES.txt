@@ -1,0 +1,11 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/ZeroD/__init__.py
+src/ZeroD/receive.py
+src/ZeroD/setupBotWorkspace.py
+src/ZeroD/tasks.py
+src/zerodeg.egg-info/PKG-INFO
+src/zerodeg.egg-info/SOURCES.txt
+src/zerodeg.egg-info/dependency_links.txt
+src/zerodeg.egg-info/top_level.txt
