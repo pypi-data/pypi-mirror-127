@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: roml
+Version: 0.0.1
+Summary: A restrictive OpenML API (experimental)
+Home-page: UNKNOWN
+Author: Pieter Gijsbers
+Author-email: p.gijsbers@tue.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# roml: A Restrictive OpenML API
+
+`roml` (pronounce: rommel) is a restrictive OpenML API used for experimental purposes.
+It is not meant to be a replacement to the original `openml` Python project.
+
+
