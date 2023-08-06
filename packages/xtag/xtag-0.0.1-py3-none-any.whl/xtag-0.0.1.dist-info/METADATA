@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: xtag
+Version: 0.0.1
+Summary: A python model for easily wrapping strings into html/xml tags.
+Home-page: https://github.com/iBiology/xtag/
+Author: FEI YUAN
+Author-email: yuanfeifuzzy@gmail.com
+License: MIT
+Project-URL: Documentation, https://ibiology.github.io/xtag/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+Requires-Dist: importlib-metadata
+Requires-Dist: python-version (>"3.6")
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+.. These are examples of badges you might want to add to your README:
+   please update the URLs accordingly
+
+    .. image:: https://api.cirrus-ci.com/github/<USER>/xtag.svg?branch=main
+        :alt: Built Status
+        :target: https://cirrus-ci.com/github/<USER>/xtag
+    .. image:: https://readthedocs.org/projects/xtag/badge/?version=latest
+        :alt: ReadTheDocs
+        :target: https://xtag.readthedocs.io/en/stable/
+    .. image:: https://img.shields.io/coveralls/github/<USER>/xtag/main.svg
+        :alt: Coveralls
+        :target: https://coveralls.io/r/<USER>/xtag
+    .. image:: https://img.shields.io/pypi/v/xtag.svg
+        :alt: PyPI-Server
+        :target: https://pypi.org/project/xtag/
+    .. image:: https://img.shields.io/conda/vn/conda-forge/xtag.svg
+        :alt: Conda-Forge
+        :target: https://anaconda.org/conda-forge/xtag
+    .. image:: https://pepy.tech/badge/xtag/month
+        :alt: Monthly Downloads
+        :target: https://pepy.tech/project/xtag
+    .. image:: https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter
+        :alt: Twitter
+        :target: https://twitter.com/xtag
+
+.. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
+    :alt: Project generated with PyScaffold
+    :target: https://pyscaffold.org/
+
+|
+
+====
+xtag
+====
+
+
+A python model for easily wrapping strings into html/xml tags.
+
+
+A longer description of your project goes here...
+
+
+.. _pyscaffold-notes:
+
+Note
+====
+
+This project has been set up using PyScaffold 4.1.1. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
+
+
