@@ -1,0 +1,31 @@
+# Editor detritus
+*.sw[nop]
+
+# Python build system files
+build/
+dist/
+.eggs/
+*.egg-info
+pip-wheel-metadata
+
+# Python testing-related files
+.cache
+.pytest_cache
+
+# Code coverage files
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Cached Python modules
+*.pyc
+__pycache__
+
+# IPython stuff
+.ipynb_checkpoints
+*.ipynb
+
+# Docbuild files
+docs/_autosummary
+docs/_build

@@ -1,0 +1,8 @@
+$id: "py-pkgdata:jsonschema_pyref.examples/schema4.yml"
+type: "object"
+properties:
+    foo: {"$ref": "schema3.json"}
+    bar: {"$ref": "#/$defs/bar"}
+additionalProperties: false
+$defs:
+    bar: {"type": "integer"}

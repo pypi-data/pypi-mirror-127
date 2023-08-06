@@ -1,0 +1,12 @@
+{
+    "$id": "py-pkgdata:jsonschema_pyref.examples/schema3.json",
+    "type": "object",
+    "properties": {
+        "foo": {"$ref": "#/$defs/foo"}
+    },
+    "additionalProperties": false,
+    "$defs": {
+        "foo": {"type": "string"}
+    }
+}
+
