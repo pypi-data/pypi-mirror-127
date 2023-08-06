@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: deel-datasets
+Version: 0.0.6
+Summary: Dataset loader for DEEL datasets
+Home-page: https://forge.deel.ai/devops/deel_dataset_manager
+Author: DEEL
+Author-email: collaborateurs.du.projet.deel@irt-saintexupery.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+Requires-Dist: webdavclient3 (==0.13)
+Requires-Dist: tqdm
+Requires-Dist: h5py
+Requires-Dist: pyyaml
+Requires-Dist: psutil
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: PyYAML
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: numpy ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (==3.3.1) ; extra == 'docs'
+Requires-Dist: recommonmark ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-markdown-builder ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: sphinxcontrib-katex ; extra == 'docs'
+Requires-Dist: ipython ; extra == 'docs'
+
+UNKNOWN
+
