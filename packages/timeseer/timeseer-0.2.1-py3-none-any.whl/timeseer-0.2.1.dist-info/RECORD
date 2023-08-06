@@ -1,0 +1,10 @@
+timeseer_client/__init__.py,sha256=3pGZsWaE7KrZxm1biIIgXLlEjBw7j2TC0DQfMFlwW10,699
+timeseer_client/base.py,sha256=Vm6NBWgVHggjsQXwASXr0Lw6hN_FXjQ-NFj0gNICN7w,975
+timeseer_client/client.py,sha256=u-ZnrQyA9jE9djkm3GTWUu_9RUvYnMfnDFu0As26wNk,9233
+timeseer_client/filters_arrow.py,sha256=4XsRP5khT8D8V5r3iQZ8AO62dVLkcVPq6EfnTwALvSQ,5935
+timeseer_client/filters_pandas.py,sha256=USkFE6QxIaclbsJN0YjO2RvlZ2ncO7zSPX8O-bCEMgI,5983
+timeseer_client/setup_client.py,sha256=vt8mivZsoVtVNYijTmkdEKAVfWtN0wze--V3qJpQ2wo,852
+timeseer-0.2.1.dist-info/METADATA,sha256=ZOhnJ5ERIRbggg_9-eBRNrgY9HjLXvZR4463oltI6BM,3362
+timeseer-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+timeseer-0.2.1.dist-info/top_level.txt,sha256=YsEeugjKVIBOFQQMRG9H-3COiBus-c7lIjuFE1Bq67g,16
+timeseer-0.2.1.dist-info/RECORD,,
