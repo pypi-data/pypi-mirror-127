@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hass-auth-synology
+Version: 0.2.0
+Summary: Synology authentication provider for Home Assistant
+License: Apache-2.0
+Author: Sam Debruyn
+Author-email: sam@debruyn.dev
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: homeassistant (>=2021.11.2,<2022.0.0)
