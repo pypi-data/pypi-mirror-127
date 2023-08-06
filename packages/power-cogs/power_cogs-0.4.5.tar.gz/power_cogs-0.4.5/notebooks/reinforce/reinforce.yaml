@@ -1,0 +1,19 @@
+norm_gradient: false
+agent_config:
+    hidden_dims: [64, 64]
+    normal_std: 0.01
+    use_normal_init: true
+replay_config:
+    env_name: "CartPole-v0"
+    max_env_steps: 10000
+    gamma: 0.99
+    discount_rewards: true
+    normalize_rewards: true
+    num_workers: 5
+optimizer_config:
+    lr: 0.00002
+logging_config:
+    checkpoint_interval: 200
+tune_config:
+    wandb:
+        wandb_api_key_file: "~/wandb.txt"
