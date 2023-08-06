@@ -1,0 +1,10 @@
+clingolpx/__init__.py,sha256=bQMCEThQBCbCbe1Q8rqdaFhzkVP6BG7pfnERsze856U,324
+clingolpx/__main__.py,sha256=V4pUQtS6sE1N5vtXMTbAFR1-ItCW9Ifb1iKPppvd_N0,1993
+clingolpx/_clingolpx.cpython-39-darwin.so,sha256=l5cD6IgPj-AgN1ExCcFFZjPNIWXhCJoOWbtH_bdEuK8,334552
+clingolpx/clingo-lpx.h,sha256=N6Q8-ByCsff-RotHE-ls50S_FjT0rfw1pEHRTuVoUXI,6047
+clingolpx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clingo_lpx-1.1.0.dist-info/LICENSE,sha256=Xn_GLMCpm5CYLVPW0INBUOeNFMHg6L8CW9P4qb0LyJs,1072
+clingo_lpx-1.1.0.dist-info/METADATA,sha256=JES_B8cF2ZGmjnelv4-iQLnlOIwmrfWhfEr2SFUoBHY,563
+clingo_lpx-1.1.0.dist-info/WHEEL,sha256=LkvsUgcND9C8udpIYgVTdGd8GEOgjNF77MVgEl_o134,103
+clingo_lpx-1.1.0.dist-info/top_level.txt,sha256=b9n0d58tZljKslFS9aOPaivOPHUW5eoK6_kjcx8-KSU,10
+clingo_lpx-1.1.0.dist-info/RECORD,,
