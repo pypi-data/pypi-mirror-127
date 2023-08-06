@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/evil-select-pkg/__init__.py
+src/evil-select-pkg/amazing.py
+src/evil_select_pkg.egg-info/PKG-INFO
+src/evil_select_pkg.egg-info/SOURCES.txt
+src/evil_select_pkg.egg-info/dependency_links.txt
+src/evil_select_pkg.egg-info/top_level.txt
