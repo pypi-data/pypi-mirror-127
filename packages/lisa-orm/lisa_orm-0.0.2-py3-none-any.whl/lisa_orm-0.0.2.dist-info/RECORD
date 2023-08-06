@@ -1,0 +1,9 @@
+lisa_orm/__init__.py,sha256=-Yyw5VUDMFY6FiJyCjA1WY7o3kAg84bHBDmPlR9Pfg0,633
+lisa_orm/migrate.py,sha256=gs43sMeJrma7ee6QP-J1bargkeVJL8qW9L9Px95o5qk,2057
+lisa_orm/migrations.py,sha256=7NvmVUEEzU7r4D0Y3QqmErJrbuX-_zmLVEL3XcD7V-w,3921
+lisa_orm/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lisa_orm/db/models.py,sha256=zraaex5CRYF52J1pd4UcfBOSBeJJYicdMRxKsRnVcFA,5207
+lisa_orm-0.0.2.dist-info/METADATA,sha256=xv5MSmycvALTjR-rSxUvtJ-AzWfpA-apJU5TrP26Vo0,289
+lisa_orm-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lisa_orm-0.0.2.dist-info/top_level.txt,sha256=pebwHwQ4iFyluiNjE-owWuCjRUC3JDC8O61W_LFy6PA,9
+lisa_orm-0.0.2.dist-info/RECORD,,
