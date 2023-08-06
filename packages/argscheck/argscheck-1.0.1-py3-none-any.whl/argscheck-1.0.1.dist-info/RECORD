@@ -1,0 +1,14 @@
+argscheck/__init__.py,sha256=SdRApP8dc1ClmmrD21_vpgkn5NG9GLeZXPQVdRXhGa4,1364
+argscheck/collection.py,sha256=fjwwRT_yDaw46G96b50DUGAfe_2psZ51LVdtrrekHyA,3558
+argscheck/core.py,sha256=j-2mLxvlMQQKR8xvQO9mYqNDzn7ap4AFV3n7dcriA7c,19364
+argscheck/iter.py,sha256=1uHyqBSM5ufL8BpYUhtQSXGrFA9QXtoTC0FICOfspnM,3762
+argscheck/numeric.py,sha256=BlRhRzB_I-tsMeZWXq7iIMZWwIHbd5NSWNcxgRnUY34,8542
+argscheck/pathlike.py,sha256=O6gWwy2P9iMvVegfD-1LX-Ns8a3Y3zoNxFmB2DWzCEQ,7237
+argscheck/sequence.py,sha256=pJzVl1HV2CAOCZ3C_kcAXgYKBmyPVyEwF-JqJYGQtvU,6610
+argscheck/string.py,sha256=_MMxeMPd15xlit7PUOG4LHYtyEbpF_ONiSWKw6iWlO8,2741
+argscheck/utils.py,sha256=yobMHaXvSMrupDHuc5FIn2knLAlzEdFzQJ4mZEFhRAo,4057
+argscheck-1.0.1.dist-info/LICENSE,sha256=Y_cZd9JPRaCzAyYjfQ0O4nAPG-mbe4JxOfaaZDHSo98,1085
+argscheck-1.0.1.dist-info/METADATA,sha256=VkEMIxE80h0lNb5ehpOPDDiAgMypdBMvi8mkRUzlzjg,714
+argscheck-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+argscheck-1.0.1.dist-info/top_level.txt,sha256=Ppweny7jfPH130gYB_hVDE-Tuw-7OKDZhV9Gs4T89KU,10
+argscheck-1.0.1.dist-info/RECORD,,
