@@ -1,0 +1,8 @@
+file_replace_helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_replace_helper/file_utils.py,sha256=qVH6jUuQ7EJghcfHkPLqD1UmZUAtea1eQ9DwZcYIMvw,1463
+file_replace_helper/pattern_replace_helper.py,sha256=I1VfO753TaqzBsMsVJgFbvWGxa7bVD9Qo38lS30rKI4,1715
+file_replace_helper/pattern_replacer.py,sha256=griaJjaO_oFIcuVK8-37eqmi1iKHMUK8f1kfX4JuKQ8,782
+file_replace_helper-0.0.3.dist-info/METADATA,sha256=D6RTym8Bht7ufT3oJDhzxDqHF5CeFG7mC-ka4lHB-9I,596
+file_replace_helper-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+file_replace_helper-0.0.3.dist-info/top_level.txt,sha256=s08530KpvWYLeBDxrULRuVdhTVhf6f1FOBsqBvZ0RNM,20
+file_replace_helper-0.0.3.dist-info/RECORD,,
