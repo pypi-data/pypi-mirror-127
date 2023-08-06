@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: Dwcm
+Version: 0.1.2
+Summary: Word Cloud
+Home-page: https://github.com/Cmccm123
+Author: Sunny CM <cm.for.dev@gmail.com>
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/Cmccm123/DWCM/archive/refs/tags/D3.tar.gz
+Description: UNKNOWN
+Keywords: D3,D3.js,Word Cloud,DASH,data visualization
+Platform: UNKNOWN
+Classifier: Framework :: Dash
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
