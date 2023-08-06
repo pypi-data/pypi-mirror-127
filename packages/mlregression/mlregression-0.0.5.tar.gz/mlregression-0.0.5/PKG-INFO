@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mlregression
+Version: 0.0.5
+Summary: Machine learning regression off-the-shelf
+Home-page: https://github.com/muhlbach/mlregression
+Author: Nicolaj Søndergaard Mühlbach
+Author-email: n.muhlbach@gmail.com
+License: MIT License
+Description: 
+        # Machine learning regression (mlregression)
+        This repo makes scikit-compatible models run completely off-the-shelf.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
