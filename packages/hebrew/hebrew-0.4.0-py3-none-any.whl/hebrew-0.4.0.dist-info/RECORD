@@ -1,0 +1,8 @@
+hebrew/__init__.py,sha256=eiLJf_TRvhilXZLy5K0itynStahzedFozujOMSKzXNw,84
+hebrew/chars.py,sha256=XhiS6AGEWY1wJ5gu8HyFxuikvow204AkJxPDLS6QbU4,13185
+hebrew/grapheme_string.py,sha256=lW7OxGYdHPLgKnbszqy3glbrQWzlzEDNs85xYq5bl-Y,7308
+hebrew/hebrew_obj.py,sha256=5pV_W5s4SVuo3xiCxPaR181pcfxApX-UPFWZZnTjADI,4350
+hebrew-0.4.0.dist-info/LICENSE,sha256=7onwL9_Dyj1GZkYXuhnOdBBy4wK39_evazqKHZfioFM,1057
+hebrew-0.4.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+hebrew-0.4.0.dist-info/METADATA,sha256=kdCJ4LGJ38LBTriq-ViKDykl8DRP7uYMZAk2KpLvFpE,8057
+hebrew-0.4.0.dist-info/RECORD,,
