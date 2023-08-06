@@ -1,0 +1,3 @@
+[console_scripts]
+symmetry = symmetryshift.cli:main
+
