@@ -1,0 +1,11 @@
+arrow_odbc/__init__.py,sha256=_kJxXutjf2fRaA6gnCpoRAavY2i50TYoaOU_G-2JmUM,154
+arrow_odbc/_native.py,sha256=sLEwiHVh11Oy1SijKR7EgHPoncP2Rm7rw1JquaySqdk,188
+arrow_odbc/_native__ffi.py,sha256=XcatJGDP9XRqNSif22ibRR0CGwPYqFyVMiTH8UYNOPk,1417
+arrow_odbc/_native__lib.so,sha256=ZRx_Ejf_njcYXE1fu2Y431TOA-oqV91UdiX5wr1a5L8,1533488
+arrow_odbc/error.py,sha256=bZ2Jft38wXEY0kos7T6Aee8AaLZ0pNBW4mWAuOEXnck,606
+arrow_odbc/reader.py,sha256=uTwuD37FtieXmBcOXwVx6CTLIWP0Zdo5YFg1Gm1X2vM,3644
+arrow_odbc-0.1.6.dist-info/LICENSE,sha256=CEhJgoie9YgbuaA3WSRqFJXeFzbnSBgZD7fTH68B2R8,1069
+arrow_odbc-0.1.6.dist-info/METADATA,sha256=mjPsUj3fac9hkmqorsqiX0NULvurhNx3cpZb8kgstzY,3688
+arrow_odbc-0.1.6.dist-info/WHEEL,sha256=Kve3-zvlzOlg66QokJFvMIZiQTescN5xW7H3GoOdOAE,141
+arrow_odbc-0.1.6.dist-info/top_level.txt,sha256=UruwNrTY8wE_gaicZPHV8gWPUgoHn3NX54kntWMh5kg,11
+arrow_odbc-0.1.6.dist-info/RECORD,,
