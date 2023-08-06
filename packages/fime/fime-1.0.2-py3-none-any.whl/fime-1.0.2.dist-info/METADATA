@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: fime
+Version: 1.0.2
+Summary: Simple time tracking app written with Python and Qt5
+Home-page: https://git.faerb.it/faerbit/fime
+Author: Faerbit
+Author-email: faerbit@posteo.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: requests-futures
+Requires-Dist: PySide2
+
+# fime
+
+Simple time tracking app written with Python and Qt5
+
+Some JIRA integration is available.
+
+## Config file
+
+The file path is OS dependant. There is an error message on the first start, which will tell you the correct path for
+your OS.
+
+Format:
+```
+jira_url = https://jira.company.com
+jira_token = aBc1D34
+```
+
+The `jira_token` is a Personal Access Token. See [here](https://confluence.atlassian.com/enterprise/using-personal-access-tokens-1026032365.htmlh) on how to get one.
+
+## License
+
+Licensed under MIT license. See License.md for more details.
+
+
