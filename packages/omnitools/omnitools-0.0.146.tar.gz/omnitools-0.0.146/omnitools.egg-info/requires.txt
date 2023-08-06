@@ -1,0 +1,9 @@
+chardet>=0.0.1
+python-dateutil>=0.0.1
+pillow>=0.0.1
+encryptedsocket>=0.0.1
+unencryptedsocket>=0.0.1
+easyrsa>=0.0.1
+
+[:python_version >= "3.6.0"]
+pyftplib>=0.0.1
