@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+simarpdf/__init__.py
+simarpdf/pdf2image.py
+simarpdf/pdf2text.py
+simarpdfff.egg-info/PKG-INFO
+simarpdfff.egg-info/SOURCES.txt
+simarpdfff.egg-info/dependency_links.txt
+simarpdfff.egg-info/top_level.txt
