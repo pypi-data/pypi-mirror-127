@@ -1,0 +1,10 @@
+README.md
+setup.py
+logging_telegram/__init__.py
+logging_telegram/formatters.py
+logging_telegram/handlers.py
+logging_telegram/setup.py
+logging_telegram.egg-info/PKG-INFO
+logging_telegram.egg-info/SOURCES.txt
+logging_telegram.egg-info/dependency_links.txt
+logging_telegram.egg-info/top_level.txt
