@@ -1,0 +1,3 @@
+[console_scripts]
+geojsonformat = geojsonformat:format
+
