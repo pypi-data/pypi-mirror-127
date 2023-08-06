@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fasthdl
+Version: 0.0.1
+Summary: A fast-to-code Hardware Description Language
+Home-page: UNKNOWN
+Author: David Brochart
+Author-email: david.brochart@gmail.com
+License: MIT
+Keywords: HDL
+Platform: Windows
+Platform: Linux
+Platform: Mac OS X
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-asyncio ; extra == 'test'
+
+# FastHDL
+
+FastHDL is a fast-to-code Hardware Description Language.
+
+
