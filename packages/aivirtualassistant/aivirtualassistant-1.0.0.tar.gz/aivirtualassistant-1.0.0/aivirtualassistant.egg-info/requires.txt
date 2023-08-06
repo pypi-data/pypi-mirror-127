@@ -1,0 +1,3 @@
+comtypes
+pyttsx3
+speechRecognition

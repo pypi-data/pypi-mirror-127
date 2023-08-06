@@ -1,0 +1,6 @@
+setup.py
+aivirtualassistant.egg-info/PKG-INFO
+aivirtualassistant.egg-info/SOURCES.txt
+aivirtualassistant.egg-info/dependency_links.txt
+aivirtualassistant.egg-info/requires.txt
+aivirtualassistant.egg-info/top_level.txt
