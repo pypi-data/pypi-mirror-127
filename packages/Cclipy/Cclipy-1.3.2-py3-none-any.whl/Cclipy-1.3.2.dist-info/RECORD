@@ -1,0 +1,17 @@
+ai_chen_life_index/RFB_img_cla.py,sha256=PjXguwKm3i-3AI_Zx6VpjzRkqY9pqMWpPEzAALeOcEc,6540
+ai_chen_life_index/RFB_reg.py,sha256=9ygNp_TCHnVbqR4VSHk2E0b1eC8dz8r9qLo_fPdZu2E,18155
+ai_chen_life_index/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_chen_life_index/constant.py,sha256=WCcXwXGDlEeYcJgOsCq0P-G7d2JYWDtWsJ5Pfpxsvsk,218
+ai_chen_life_index/main.py,sha256=FNfesvE0IubsOL8a8PU1w1O8UfTbNuIayCftSFnfBgo,8471
+ai_chen_life_index/preprocessing.py,sha256=-c72hkJRg78mdcHKVHr0AUYLk7fv0-GVaofnL53FJfk,1228
+ai_chen_life_index/rating.py,sha256=DtH4dr6SSnBDjn9RP-42GhsRvJXs2644fvQGv9Fclpo,6919
+ai_chen_life_index/table_reader.py,sha256=XcpfUqZnZ_kRNUGbS-zuWpPA9VA13jJt-eTDYCDUW7k,2319
+ai_chen_life_index/test.py,sha256=KV3mvfzeNIBAn93yrfxTLTv8-diqyqsig2i_hsdyBWo,3973
+ai_chen_life_index/test_prediction.py,sha256=xZt9AXDwtGgqzG-xp3aPdXOgyR1wp9OKSJ5F3AyWvVU,6051
+ai_chen_life_index/utils.py,sha256=DWgdqHCyzPwaJk4767Nt3fL4i1lRR74dzRghGMmBRiw,3146
+ai_chen_life_index/visual_with_model.py,sha256=FMD4vS4apL7OofGLHL_NmkcWwMiODyQoPOCZ4PCPQww,2000
+Cclipy-1.3.2.dist-info/LICENSE,sha256=Wb3mubW9Mqt6hgUVPum0ivs8UX89ssUWQaOtKE5hSdA,7636
+Cclipy-1.3.2.dist-info/METADATA,sha256=yykoEGGGwG1VLFblE5rr_xJo3suuuunVBzaHh-zJFBY,542
+Cclipy-1.3.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Cclipy-1.3.2.dist-info/top_level.txt,sha256=1qWqQKuFb2N6p4LhAialAGsIjmdb9f4jFGv0uzKQvQ8,19
+Cclipy-1.3.2.dist-info/RECORD,,
