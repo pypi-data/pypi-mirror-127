@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="3" tests="5" time="14.433" timestamp="2021-11-16T10:28:15.253886" hostname="OLI-OMEN"><testcase classname="bumpversion" name="FLAKE8" time="0.001"><skipped type="pytest.skip" message="file(s) previously passed FLAKE8 checks">/home/olivier/dev/kairntech/pyconverters_speech/.tox/py38/lib/python3.8/site-packages/pytest_flake8.py:116: file(s) previously passed FLAKE8 checks</skipped></testcase><testcase classname="src.pyconverters_speech.__init__" name="FLAKE8" time="0.000"><skipped type="pytest.skip" message="file(s) previously passed FLAKE8 checks">/home/olivier/dev/kairntech/pyconverters_speech/.tox/py38/lib/python3.8/site-packages/pytest_flake8.py:116: file(s) previously passed FLAKE8 checks</skipped></testcase><testcase classname="src.pyconverters_speech.speech" name="FLAKE8" time="0.077"><failure message="AttributeError: '_io.StringIO' object has no attribute 'buffer'">.tox/py38/lib/python3.8/site-packages/pluggy/_hooks.py:265: in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+.tox/py38/lib/python3.8/site-packages/pluggy/_manager.py:80: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+.tox/py38/lib/python3.8/site-packages/_pytest/runner.py:170: in pytest_runtest_call
+    raise e
+.tox/py38/lib/python3.8/site-packages/_pytest/runner.py:162: in pytest_runtest_call
+    item.runtest()
+.tox/py38/lib/python3.8/site-packages/pytest_flake8.py:120: in runtest
+    found_errors, out, err = call(
+.tox/py38/lib/python3.8/site-packages/py/_io/capture.py:150: in call
+    res = func(*args, **kwargs)
+.tox/py38/lib/python3.8/site-packages/pytest_flake8.py:222: in check_file
+    app.report_errors()
+.tox/py38/lib/python3.8/site-packages/flake8/main/application.py:309: in report_errors
+    results = self.file_checker_manager.report()
+.tox/py38/lib/python3.8/site-packages/flake8/checker.py:249: in report
+    results_reported += self._handle_results(filename, results)
+.tox/py38/lib/python3.8/site-packages/flake8/checker.py:155: in _handle_results
+    reported_results_count += style_guide.handle_error(
+.tox/py38/lib/python3.8/site-packages/flake8/style_guide.py:429: in handle_error
+    return guide.handle_error(
+.tox/py38/lib/python3.8/site-packages/flake8/style_guide.py:581: in handle_error
+    self.formatter.handle(error)
+.tox/py38/lib/python3.8/site-packages/flake8/formatting/base.py:100: in handle
+    self.write(line, source)
+.tox/py38/lib/python3.8/site-packages/flake8/formatting/base.py:203: in write
+    self._write(line)
+.tox/py38/lib/python3.8/site-packages/flake8/formatting/base.py:187: in _write
+    sys.stdout.buffer.write(output.encode() + self.newline.encode())
+E   AttributeError: '_io.StringIO' object has no attribute 'buffer'</failure></testcase><testcase classname="tests.test_speech" name="FLAKE8" time="0.000"><skipped type="pytest.skip" message="file(s) previously passed FLAKE8 checks">/home/olivier/dev/kairntech/pyconverters_speech/.tox/py38/lib/python3.8/site-packages/pytest_flake8.py:116: file(s) previously passed FLAKE8 checks</skipped></testcase><testcase classname="tests.test_speech" name="test_speech" time="12.936" /></testsuite></testsuites>
