@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pymmo/__init__.py
+pymmo/example.py
+pymmo.egg-info/PKG-INFO
+pymmo.egg-info/SOURCES.txt
+pymmo.egg-info/dependency_links.txt
+pymmo.egg-info/requires.txt
+pymmo.egg-info/top_level.txt

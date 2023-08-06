@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pymmo
+Version: 0.0.1
+Summary: Python Online Game Development
+Home-page: https://pymmo.com
+Author: Krzysztof Jura
+Author-email: kisioj@gmail.com
+License: LGPLv3
+Project-URL: Bug Tracker, https://github.com/kisioj/PyMMO/issues
+Project-URL: Source, https://github.com/kisioj/PyMMO
+Description: PyMMO - Python based game networking framework.
+        
+        Inspired by BYOND framework (https://byond.com)
+        
+        First version in the making...
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
