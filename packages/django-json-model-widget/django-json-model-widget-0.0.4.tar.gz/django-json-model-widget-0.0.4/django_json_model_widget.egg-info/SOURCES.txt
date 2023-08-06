@@ -1,0 +1,16 @@
+HISTORY.MD
+MANIFEST.in
+README.MD
+requirements.txt
+setup.py
+django_json_model_widget.egg-info/PKG-INFO
+django_json_model_widget.egg-info/SOURCES.txt
+django_json_model_widget.egg-info/dependency_links.txt
+django_json_model_widget.egg-info/top_level.txt
+json_model_widget/__init__.py
+json_model_widget/widgets.py
+json_model_widget/__pycache__/__init__.cpython-39.pyc
+json_model_widget/__pycache__/widgets.cpython-39.pyc
+json_model_widget/static/json_model_widget/css/styles.css
+json_model_widget/static/json_model_widget/images/icon-deletepair.svg
+json_model_widget/templates/json_model_widget/json_model_widget.html
