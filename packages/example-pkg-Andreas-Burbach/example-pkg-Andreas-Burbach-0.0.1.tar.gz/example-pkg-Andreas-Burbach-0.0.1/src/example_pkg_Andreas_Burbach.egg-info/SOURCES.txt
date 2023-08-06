@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/core/__init__.py
+src/core/admin.py
+src/core/apps.py
+src/core/models.py
+src/core/tests.py
+src/core/validation.py
+src/core/migrations/0001_initial.py
+src/core/migrations/__init__.py
+src/example_pkg_Andreas_Burbach.egg-info/PKG-INFO
+src/example_pkg_Andreas_Burbach.egg-info/SOURCES.txt
+src/example_pkg_Andreas_Burbach.egg-info/dependency_links.txt
+src/example_pkg_Andreas_Burbach.egg-info/top_level.txt
