@@ -1,0 +1,7 @@
+ipywidgets>=7.6.0
+sidecar
+
+[dev]
+twine
+bumpversion
+pydoc3
