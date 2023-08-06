@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: dbcat
+Version: 0.10.0
+Summary: Tokern Data Catalog
+Home-page: https://tokern.io/
+License: MIT
+Keywords: data-catalog,postgres,snowflake,redshift,glue
+Author: Tokern
+Author-email: info@tokern.io
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: datahub
+Requires-Dist: PyMySQL (>=1.0.2,<2.0.0)
+Requires-Dist: PyYAML
+Requires-Dist: SQLAlchemy (>=1.3.24,<1.4.0)
+Requires-Dist: acryl-datahub (>=0.8.16,<0.9.0); extra == "datahub"
+Requires-Dist: alembic (>=1.6.5,<2.0.0)
+Requires-Dist: amundsen-databuilder[athena,bigquery,glue,rds,snowflake] (>=6,<7)
+Requires-Dist: boto3 (==1.17.23)
+Requires-Dist: botocore (>=1.20.23,<1.21.0)
+Requires-Dist: click
+Requires-Dist: great-expectations (>=0.13.42,<0.14.0); extra == "datahub"
+Requires-Dist: psycopg2 (>=2.9.1,<3.0.0)
+Requires-Dist: pyathena[sqlalchemy] (==1.11.5)
+Requires-Dist: pyhocon (>=0.3.58,<0.4.0)
+Requires-Dist: pyparsing (>=2.0,<3.0)
+Requires-Dist: snowflake-sqlalchemy (==1.2.4)
+Requires-Dist: sqlalchemy-mixins (>=1.5,<2.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Project-URL: Repository, https://github.com/tokern/dbcat/
+Description-Content-Type: text/markdown
+
+[![CircleCI](https://circleci.com/gh/tokern/dbcat.svg?style=svg)](https://circleci.com/gh/tokern/dbcat)
+[![codecov](https://codecov.io/gh/tokern/dbcat/branch/main/graph/badge.svg)](https://codecov.io/gh/tokern/dbcat)
+[![PyPI](https://img.shields.io/pypi/v/dbcat.svg)](https://pypi.python.org/pypi/dbcat)
+[![image](https://img.shields.io/pypi/l/dbcat.svg)](https://pypi.org/project/dbcat/)
+[![image](https://img.shields.io/pypi/pyversions/dbcat.svg)](https://pypi.org/project/dbcat/)
+
+# Data Catalog for Databases and Data Warehouses
+
+## Overview
+
+*dbcat* builds and maintains metadata from all your databases and data warehouses. 
+*dbcat* is simple to use and maintain. Build a data catalog in minutes by providing
+credentials using a command line application or API. Automate collection of metadata using
+cron or other workflow automation tools.
+
+*dbcat* stores the catalog in a Postgresql database. Use cloud hosting platforms to ease 
+operations in maintaining the catalog in a Postgresql database. 
+
+Access the catalog using raw sql or the python APIs provided by *dbcat* in your python
+application.
+
+## Quick Start
+
+*dbcat* is distributed as a python application.
+
+    python3 -m venv .env
+    source .env/bin/activate
+    pip install piicatcher
+
+    # configure the application
+    
+    dbcat -c <config dir> pull
+
+## Supported Technologies
+
+The following databases are supported:
+
+* MySQL/Mariadb
+* PostgreSQL
+* AWS Redshift
+* BigQuery
+* Snowflake
+* AWS Glue
+
+
