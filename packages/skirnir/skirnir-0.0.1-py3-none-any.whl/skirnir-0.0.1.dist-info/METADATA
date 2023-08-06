@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: skirnir
+Version: 0.0.1
+Summary: A system so send an route alerts
+Home-page: https://gitlab.com/edthamm/skirnir
+License: Apache-2.0
+Keywords: operations,devops,alerting,notification
+Author: Eduard Thamm
+Author-email: eduard.thamm@thammit.at
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Provides-Extra: docs
+Requires-Dist: sphinx (<4); extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints (>=1.12.0,<2.0.0); extra == "docs"
+Requires-Dist: sphinx-rtd-theme (>=0.5.2,<0.6.0); extra == "docs"
+Project-URL: Documentation, https://skirnir.readthedocs.io/en/stable/
+Project-URL: Repository, https://gitlab.com/edthamm/skirnir
+Description-Content-Type: text/markdown
+
+# Skirnir
+
