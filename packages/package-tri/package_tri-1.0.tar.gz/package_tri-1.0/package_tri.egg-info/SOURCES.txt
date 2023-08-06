@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+package_tri.egg-info/PKG-INFO
+package_tri.egg-info/SOURCES.txt
+package_tri.egg-info/dependency_links.txt
+package_tri.egg-info/top_level.txt
