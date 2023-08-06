@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pythonbook
+Version: 1.0
+Summary: this is sample repo
+Home-page: https://github.com/taitasu555
+Author: Taishin
+Author-email: taitasu08035@icloud.com
+License: UNKNOWN
+Description: ## Good moring
+        
+        # nice sample app
+        
+        this is my first repo
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
