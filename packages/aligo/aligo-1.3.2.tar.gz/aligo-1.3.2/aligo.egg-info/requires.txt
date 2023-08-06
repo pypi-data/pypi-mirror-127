@@ -1,0 +1,7 @@
+requests
+qrcode[pil]
+pyyaml
+coloredlogs
+tqdm
+qrcode_terminal
+arrow
