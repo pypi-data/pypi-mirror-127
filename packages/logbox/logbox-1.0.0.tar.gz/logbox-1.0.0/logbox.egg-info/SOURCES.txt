@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+logbox/__init__.py
+logbox/_api.py
+logbox/_channels.py
+logbox/_codes.py
+logbox/_iterators.py
+logbox/_logger.py
+logbox/_progbars.py
+logbox/_timeformat.py
+logbox.egg-info/PKG-INFO
+logbox.egg-info/SOURCES.txt
+logbox.egg-info/dependency_links.txt
+logbox.egg-info/top_level.txt
