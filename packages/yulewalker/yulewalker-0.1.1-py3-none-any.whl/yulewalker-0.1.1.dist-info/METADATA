@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: yulewalker
+Version: 0.1.1
+Summary: IIR Filter design using the modified Yule-Walker method
+Home-page: UNKNOWN
+Author: Emmanouil Theofanis Chourdakis
+Author-email: emmanouil.chourdakis@nomono.co
+License: CeCILL-2.1
+Keywords: yulewalk yulewalker iir signal-processing dsp
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: scipy (>=1.5.2)
+
+# Yule-Walker method for IIR filter design for an arbritrary magnitude response
+
+## Description
+
+This implements a modified yule-walker method for estimating the coefficients of an IIR filter that best matches an arbritrary frequency response. This is a port
+from sci-lab's version here: [yulewalk.sci](https://github.com/scilab/scilab/blob/master/scilab/modules/signal_processing/macros/yulewalk.sci) and is distributed by
+the same license ([CeCILLv2.0](https://opensource.org/licenses/CECILL-2.1)).
+
+## Install
+
+### Using pip
+
+```
+$ pip install yulewalker
+```
+
+### By cloning this repository
+
+```
+$ git clone https://github.com/mmxgn/yulewalker.git
+$ cd yulewalker
+$ python setup.py install
+```
+
+## Testing
+
+Using `doctest`:
+```
+$ python -m yulewalker.yulewalker -v
+```
+
+Using `pytest`:
+```
+$ pytest
+```
+
+## Example
+
+See [Example.ipynb](Example.ipynb)
+
+
+## Citation
+
+If you are using this code in your research please cite the original paper here:
+```
+Friedlander, Benjamin, and Boaz Porat. "The modified Yule-Walker method of ARMA spectral stimation." IEEE Transactions on Aerospace and Electronic Systems 2 (1984): 158-173.
+```
+
+## License
+
+See [LICENSE](LICENSE)
+
+
