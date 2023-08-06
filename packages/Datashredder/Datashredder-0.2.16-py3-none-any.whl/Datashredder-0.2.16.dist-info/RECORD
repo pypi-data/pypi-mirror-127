@@ -1,0 +1,9 @@
+datashredder/__init__.py,sha256=2mhVtchkxC7RWg-Ut1AXaSX7as3OZ47q3hAm86SJjXc,2279
+datashredder/corrupt.py,sha256=jaoqX6ZfOkWG2NhamlMBxhCQjbiE8lcpw468bpRaOEo,679
+datashredder/random_corrupt.py,sha256=5QNci21nsrHTqw807Qv07iJdLLbxkNAsO2FySP-uPgk,902
+datashredder/swap_corrupt.py,sha256=IadRVXIV4fXH_reOWDj2tIdVGdQ_B6BiiMRtKi_l57I,627
+Datashredder-0.2.16.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+Datashredder-0.2.16.dist-info/METADATA,sha256=DmD2iRh6f-dy7Ic8fLwiFbyK4Exys-mMphehwfm55ME,3383
+Datashredder-0.2.16.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Datashredder-0.2.16.dist-info/top_level.txt,sha256=BZE79CovdSPyJ8XXqG-qkAWH-UAF7pBXOYI5RkimPsw,13
+Datashredder-0.2.16.dist-info/RECORD,,
