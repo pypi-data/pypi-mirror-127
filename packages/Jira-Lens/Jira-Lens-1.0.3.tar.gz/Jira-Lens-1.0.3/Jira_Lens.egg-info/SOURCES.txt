@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+Jira-Lens/Jira-Lens.py
+Jira-Lens/_version.py
+Jira-Lens/config.py
+Jira-Lens/output/README.md
+Jira_Lens.egg-info/PKG-INFO
+Jira_Lens.egg-info/SOURCES.txt
+Jira_Lens.egg-info/dependency_links.txt
+Jira_Lens.egg-info/requires.txt
+Jira_Lens.egg-info/top_level.txt
