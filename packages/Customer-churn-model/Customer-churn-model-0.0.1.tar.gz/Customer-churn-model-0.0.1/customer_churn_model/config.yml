@@ -1,0 +1,44 @@
+# Package Overview
+package_name: customer_churn_model
+
+# Data Files
+data_file=Customer_Churn.csv
+
+# Variables
+# The variable we are attempting to predict (sale price)
+target: Churn
+
+pipeline_name: customer_churn_model
+pipeline_save_file: customer_churn_model_output_v
+
+
+
+features:
+  - tenure
+  - PhoneService
+  - Contract
+  - PaperlessBilling
+  - PaymentMethod
+  - MonthlyCharges
+
+
+# set train/test split
+test_size: 0.25
+
+
+
+# categorical variables with NA in train set
+categ_features:
+  - Contract
+  - PaperlessBilling
+  - PaymentMethod
+  - PhoneService
+
+
+
+num_features:
+  - tenure
+  - MonthlyCharges
+
+
+
