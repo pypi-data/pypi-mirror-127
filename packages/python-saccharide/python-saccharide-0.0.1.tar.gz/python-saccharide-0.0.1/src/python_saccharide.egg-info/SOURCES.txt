@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/python_saccharide.egg-info/PKG-INFO
+src/python_saccharide.egg-info/SOURCES.txt
+src/python_saccharide.egg-info/dependency_links.txt
+src/python_saccharide.egg-info/top_level.txt
+src/saccharide/__init__.py
+src/saccharide/_version.py
+src/saccharide/stubs.py
+src/saccharide/sugarmodule.py
+src/saccharide/wrappers.py
