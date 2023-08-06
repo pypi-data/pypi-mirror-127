@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/carolstats/__init__.py
+src/carolstats/carol.py
+src/carolstats.egg-info/PKG-INFO
+src/carolstats.egg-info/SOURCES.txt
+src/carolstats.egg-info/dependency_links.txt
+src/carolstats.egg-info/top_level.txt
