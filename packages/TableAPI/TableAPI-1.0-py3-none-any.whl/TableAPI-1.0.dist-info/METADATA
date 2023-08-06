@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: TableAPI
+Version: 1.0
+Summary: To create Tables in the Console window and export them
+Home-page: https://github.com/Knuffeliger/TableAPI
+Author: Knuffeliger / Max Dutz
+Author-email: maxdutz@kabelmail.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
