@@ -1,0 +1,16 @@
+.gitignore,sha256=y4OnrjuOuhhyLpsafUd3HLgHi4kM1muEZqhLtiwHjUI,54
+LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+README.md,sha256=qUmi_tnir_tGUNlc7PVCrI86sfW-w9X44UNlKQPf0UY,754
+requirements.txt,sha256=afgBzlImj11O1qCI5_oaExKjRwhNF9F89GgqvNGqw3U,112
+requirements_extra.json,sha256=XT2mole1IPiWSqqBaiUkl-Z_niKotCp_u7U1S6amBa8,42
+userscloud/__init__.py,sha256=-23Uvr-Db6EzUpczgiiO3BUlOewXsYXAQuqKg9uRtJM,499
+userscloud/api.py,sha256=IaevJhtjbE2JJ8elWq2ta4NmicnNuRz8jg8TABDUw3g,7511
+userscloud/ftp.py,sha256=KYzgu8bM6bOA5YS6-jbCichTkzY_l68L1S01g1KxlRA,13471
+userscloud/helper.py,sha256=MtP-KC8zL6twfKwAbEMabw3msTJ0-FbLljc0Rsb3-F8,130
+userscloud/utils.py,sha256=aW6K3rNNqUpEqJw7vsnFc3mFknR-Ej5cMdbWPDAia2Y,419
+userscloud/web.py,sha256=XcBRvxk-_O1oXG3wySjRVI0eP-FdOfCMc_hNxLkIeUs,18567
+userscloud-0.0.11.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+userscloud-0.0.11.dist-info/METADATA,sha256=KvPMsQJvnjVMK2ZZQVmZGlfrK6zzWOyKoRmNlQP3AeA,2301
+userscloud-0.0.11.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+userscloud-0.0.11.dist-info/top_level.txt,sha256=KeY1wPNTFu3RQULTFqtPzLfaJ0CeTdyC8Hagy3VWxr4,11
+userscloud-0.0.11.dist-info/RECORD,,
