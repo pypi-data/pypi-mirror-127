@@ -1,0 +1,27 @@
+
+{%- extends 'markdown/index.md.j2' -%}
+
+{%- block header -%}
+/*
+Stata Do File converted from Jupyter notebook
+*/
+{% endblock header %}
+
+
+{% block input %}
+{% if resources.global_content_filter.include_input_prompt -%}
+    //*```s
+{% endif %}
+{{ cell.source | magic_stripper }}
+{% if resources.global_content_filter.include_input_prompt -%}
+    //*```
+{% endif %}
+{% endblock input %}
+
+{% block output %}
+{% endblock output %}
+
+
+{% block markdowncell scoped %}
+{{ cell.source | comment_lines(prefix='* ') }}
+{% endblock markdowncell %}
