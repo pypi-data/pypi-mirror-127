@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: noframewin
+Version: 1.2
+Summary: pyqt5 borderless window
+Home-page: https://github.com/
+Author: TeddyJohnson
+Author-email: teddyjohnson@163.com
+License: MIT
+Requires-Dist: PyQt5
+
+﻿pyqt5无边框窗口
+
+
