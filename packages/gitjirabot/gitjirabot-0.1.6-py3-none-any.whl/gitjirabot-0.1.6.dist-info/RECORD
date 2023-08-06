@@ -1,0 +1,10 @@
+gitjirabot/__init__.py,sha256=FAIIoQ74Fq7buQ5lDe1Vk4G7yo318euvOLd5nVv76vQ,181
+gitjirabot/__main__.py,sha256=l0-ntYKtDn0T6mNjaxHBLrZDul3K2eEY9Yx7-Nba8rg,346
+gitjirabot/cli.py,sha256=2fZMtYfafqNulWc9ex56jL6Jq3emUvgocZT-IVtyhA0,1228
+gitjirabot/gitjirabot.py,sha256=l0U59N9803PY_KCyG1NPIPdBCT4OdsnUTfeBLOKrJ3o,1381
+gitjirabot/settings.py,sha256=zYr4PpKLfvmUbXNdsrQwL_Fr3Oo3oGkLc1IJZlXq85M,3370
+gitjirabot-0.1.6.dist-info/entry_points.txt,sha256=BDJwAinuvHOz3l4xLXV_s0cw0Rg_Fvc0psQ5CmR7_8E,50
+gitjirabot-0.1.6.dist-info/LICENSE,sha256=UcTyH69hNmpHn_FCU00INQqbuMH_91R8qlC5B4cFJgA,438
+gitjirabot-0.1.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+gitjirabot-0.1.6.dist-info/METADATA,sha256=L2Js2RILgXUkn1gnoVAMmAqDd_uiTeQ7D1yv30FcRvs,2456
+gitjirabot-0.1.6.dist-info/RECORD,,
