@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+osamaCalculator/osama.py
+osamaCalculator.egg-info/PKG-INFO
+osamaCalculator.egg-info/SOURCES.txt
+osamaCalculator.egg-info/dependency_links.txt
+osamaCalculator.egg-info/top_level.txt
