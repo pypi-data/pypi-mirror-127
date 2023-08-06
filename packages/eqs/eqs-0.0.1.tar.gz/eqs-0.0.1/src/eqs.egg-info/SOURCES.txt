@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/eqs/__init__.py
+src/eqs/main.py
+src/eqs.egg-info/PKG-INFO
+src/eqs.egg-info/SOURCES.txt
+src/eqs.egg-info/dependency_links.txt
+src/eqs.egg-info/entry_points.txt
+src/eqs.egg-info/requires.txt
+src/eqs.egg-info/top_level.txt

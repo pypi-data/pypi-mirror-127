@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: eqs
+Version: 0.0.1
+Summary: eqs makes eqrthquake-based seismic data acquisition and processing remarkably quick and easy!
+Home-page: https://github.com/omid-b/eqs
+Author: omid-b
+Author-email: omid.bagherpur@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# What is eqs?
+
+WORK IN PROGRESS! 
+
+eqs (Earthquake Seismology) makes seismic data acquisition and processing procedure remarkably quick and easy!
+
+
