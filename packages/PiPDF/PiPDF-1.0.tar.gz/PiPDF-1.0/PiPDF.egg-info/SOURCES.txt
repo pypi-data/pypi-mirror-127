@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PiPDF/__init__.py
+PiPDF/pdf2image.py
+PiPDF/pdf2text.py
+PiPDF.egg-info/PKG-INFO
+PiPDF.egg-info/SOURCES.txt
+PiPDF.egg-info/dependency_links.txt
+PiPDF.egg-info/top_level.txt
