@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/SnowML/__init__.py
+src/SnowML.egg-info/PKG-INFO
+src/SnowML.egg-info/SOURCES.txt
+src/SnowML.egg-info/dependency_links.txt
+src/SnowML.egg-info/requires.txt
+src/SnowML.egg-info/top_level.txt
+src/SnowML/evaluation/__init__.py
+src/SnowML/evaluation/evaluation_utils.py
+src/SnowML/evaluation/evaluators.py
+src/SnowML/model_logging/__init__.py
+src/SnowML/notifications/__init__.py
+src/SnowML/notifications/notifications.py
