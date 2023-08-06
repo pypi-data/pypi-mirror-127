@@ -1,0 +1,3 @@
+[console_scripts]
+cinemator = cinemat.__main__:cinemator
+
