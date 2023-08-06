@@ -1,0 +1,8 @@
+LICENSE
+README.md
+extractor-wrapper.cc
+setup.py
+description_extractor.egg-info/PKG-INFO
+description_extractor.egg-info/SOURCES.txt
+description_extractor.egg-info/dependency_links.txt
+description_extractor.egg-info/top_level.txt
