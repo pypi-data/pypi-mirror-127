@@ -1,0 +1,12 @@
+deesk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deesk/drivers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deesk/drivers/base.py,sha256=8Smu1r8NmfVK7vMZH6d2YoXht8esWtZ6rtc01eIzdEc,556
+deesk/drivers/fs.py,sha256=Fe_KDK0H4EpXszhfWdO59XMQPNWQBQxIq9q4qh1WQM0,1302
+deesk/drivers/memory.py,sha256=Q8ML_vTkpRJ_AUidew1BfE3JII0zcy0IZA1sQ4g4U3I,1554
+deesk/drivers/s3.py,sha256=vhkCa-e9Ugfdg1eRPt_zIq_3gZtQllhXRq3ohk3uWVk,2516
+deesk/protocols.py,sha256=cnmyFBJSoFVWelYiOX18T70s-4hz9bqldpaV26RsK9w,432
+deesk/storage.py,sha256=oSDtewuv_zOBhu-pFHxEd9Tqr2bSImz6kydjI2L7FYs,2513
+deesk-0.1.0.dist-info/LICENSE,sha256=qK269JF__HiLJnYqkrVDoMKiN9dFgi7CnPa8V9bDTKg,1074
+deesk-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+deesk-0.1.0.dist-info/METADATA,sha256=K_YkYs3daDqutJxPzhKx2Gk5H1hNpmOd31JfamvQwvU,1896
+deesk-0.1.0.dist-info/RECORD,,
