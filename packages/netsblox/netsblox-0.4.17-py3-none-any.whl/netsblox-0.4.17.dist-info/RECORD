@@ -1,0 +1,16 @@
+netsblox/__init__.py,sha256=387g3m-g5gF0r9uFc-A26d2FKfQ0NBOz9x3VwjxgRy8,407
+netsblox/__main__.py,sha256=wBkE829gCcAlFwiA0JPjcqRdknGlWz_RBILBqbL9eVs,51
+netsblox/app.py,sha256=luw0kp2ue4VVFdG9VXJzgubDp7u1VT91QaI7R2NGc2I,69923
+netsblox/colors.py,sha256=jSFE-0Y3HR64Lhq2WeEi5EHkxz7VcTtkWThWL8j1_gc,6563
+netsblox/common.py,sha256=l9H0N1xlxJP4EeYozQ6WumtfgBAx0BF49PvDY61rafM,2126
+netsblox/concurrency.py,sha256=ysiIFkl3zPX0G2gugwkihTI381fw-ZSCnwRL_DdizBU,3968
+netsblox/dev.py,sha256=pa5FyR9ZY_rFpyrCPgfYbdTUn5nYxA1bcHlaa8fDCbo,241217
+netsblox/editor.py,sha256=xc3VnkAcxQD5ZTB4oKe_nhenQexT7UPsrCGvx9hbpO0,225696
+netsblox/events.py,sha256=1iQnIIYC1YsuGddPz9mPngCrtlr61jIUhgk3WbfeOh0,1431
+netsblox/transform.py,sha256=r3dxmMvc-CBrr7geEWS5EQhshrlQeAwTJ3dR0X71tKc,7824
+netsblox/turtle.py,sha256=XnyFkLEtrqfWmm8GuqEdU4_LTOU-6TFn0gUINHWFjiU,39418
+netsblox-0.4.17.dist-info/LICENSE,sha256=oW78pFBbAQY7DIrWqxB1LxKEcCng3N5M60C7oJwVBj8,11340
+netsblox-0.4.17.dist-info/METADATA,sha256=GuYLMSbbqvjZUg-Zhs1vYfvaf274hOkTqi3dkBVHnxs,4127
+netsblox-0.4.17.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+netsblox-0.4.17.dist-info/top_level.txt,sha256=z1jJKKQYsvCDaEqc17CLqADiMCwuij3abf9XEZi11Fs,9
+netsblox-0.4.17.dist-info/RECORD,,
