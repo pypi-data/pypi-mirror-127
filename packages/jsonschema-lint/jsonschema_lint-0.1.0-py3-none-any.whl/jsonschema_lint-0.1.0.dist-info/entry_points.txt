@@ -1,0 +1,3 @@
+[console_scripts]
+jsonschema-lint=jsonschema_lint:run_cli
+
