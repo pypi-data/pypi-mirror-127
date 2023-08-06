@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: numpyDealer
+Version: 1.0.2
+Summary: Playing cards in numpy decks.
+Home-page: UNKNOWN
+Author: Ethan Griffin
+Author-email: ethbgriffin@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/plain
+License-File: LICENSE.txt
+Requires-Dist: numpy
+
+numpyDealer version 1.0.0
+
+This package is designed to be used to speed up operations involving decks of playing cards by utilizing the popular Numpy package. 
+The meat of the package is numpyDeck. This is a managed array of playing cards, starting at the standard 52. 
+Below I will go through the functions of the Card object, then the Deck object (which holds a numpy array of Cards). 
+
+Additionally, I intend to add more examples, documentation, and features soon, so please feel free to send feedback!
+Finally, the license MIT. I would love to see what the world does with my stuff, but y'all do what you want with it. 
+Thanks for downloading, have fun!
+
+Note: I use Jokers as sentry values in Deck functions.
+
+Card
+To import:
+from numpyDealer.Card import Card
+
+__init__(rank (string), suit (string), value (int))
+EX: ace_of_spades = Card("A","S",14)
+
+The == operator comapares based on rank and suit.
+
+The > and < operators compares based on value.
+
+The - operator returns the distance between 2 cards.
+EX: King of Hearts - Ten of Clubs = 13
+
+__str__ calls the Card as a string, and returns the Rank and Suit
+EX: ace_of_spades.__str__() returns "AS"
+
+
+numpyDeck
+to import:
+from numpyDealer.numpyDeck import Deck
+
+
+__init__()
+EX: new_deck = Deck()
+This creates a full deck, in order
+All Ranks are 1 character strings, 2,3..., 9,T,J,Q,K,A.
+All Suits are 1 character strings, S,H,C,D
+
+__iter__() returns an iterable version, lets you use for loops.
+
+deal() returns the top Card from the deck, and removes it.
+
+dealByRankSuit(rank, suit) deals the specified card, if it is in the deck.
+else returns a red joker. (Card("Joker ", "Red", -1))
+
+dealRand() deals a random card.
+
++ and - operators are overloaded, do what you'd think. 
+They CAN take iterable objects of Cards, or just single Cards
+
+Note on the print functions: These are available, but you can use a for loop to print each element. 
+print() prints a list of the cards in the deck, in the order they are in.
+
+printBySuit() prints all the cards in the deck in 4 rows, 1 for each suit. 
+THIS DOES NOT SORT THE DECK, ONLY PRINTS THEM IN THE ROWS
+THIS DOES NOT PRINT JOKERS, USE THE OTHER PRINTS TO FIND THOSE
+
+shuffle() Shuffles the deck. DOES NOT return a value. 
+
