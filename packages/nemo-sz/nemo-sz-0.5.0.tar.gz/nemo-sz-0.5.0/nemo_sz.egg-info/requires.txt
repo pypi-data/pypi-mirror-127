@@ -1,0 +1,11 @@
+PyYAML
+astLib>=0.11.6
+astropy>=4.0
+colorcet>=1.0
+cython
+mahotas>=1.4
+matplotlib>=2.0
+numpy>=1.19
+pillow
+pixell>=0.5
+scipy>=1.0
