@@ -1,0 +1,9 @@
+fastcrypto/__init__.py,sha256=5MCdt3Bv2ksn3_YqX6y1I46DVE8mm9JfjL2sPRDzg-A,59
+fastcrypto/fastcrypto.so,sha256=CHxx9MI8dhAyAEBtcWnrn9WqIpTNDsSDEXlGbH7QMZ0,2590080
+fastcrypto/setup_wrapper.py,sha256=CLfMk468t7aj6MPkejnKZiRDaVoFWkSXB3eLcXyGUs4,1500
+fastcrypto/test_py.py,sha256=E3fwg5Rd7-ep1zj__1pX358B3Fz3rY0dLexvwYBzQto,420
+fastcrypto/version_config.py,sha256=GZcUcx7Lxi7oJMJaCkCOfqqGe96whZlPAgwqiq7T4-o,35
+fastcrypto-0.0.2.dist-info/METADATA,sha256=zoj9ZYk5DrdHk7LFzlV7ot-yH8trbyCpFec4PEolC5I,1718
+fastcrypto-0.0.2.dist-info/WHEEL,sha256=eFEZTe5E-GW3clRR42kaSKS3MvlNjLpC47niQcRtKX4,103
+fastcrypto-0.0.2.dist-info/top_level.txt,sha256=vpmuvwEkK_Ft_Koo5oJ17DozPCX3nYFvEPsNKodLdGc,18
+fastcrypto-0.0.2.dist-info/RECORD,,
