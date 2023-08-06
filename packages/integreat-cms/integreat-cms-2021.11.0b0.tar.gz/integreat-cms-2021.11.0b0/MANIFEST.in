@@ -1,0 +1,2 @@
+graft integreat_cms
+prune integreat_cms/static/src
