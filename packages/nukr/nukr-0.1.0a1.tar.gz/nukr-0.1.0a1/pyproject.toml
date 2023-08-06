@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "nukr"
+version = "0.1.0-alpha1"
+description = ""
+authors = ["0"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.26.0"
+praw = "^7.5.0"
+click = "^8.0.3"
+dateparser = "^1.1.0"
+click-sources = "^0.1.0-alpha.1"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.29.0"
+pre-commit = "^2.15.0"
+pytest = "^6.2.5"
+betamax = "^0.8.1"
+prospector = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
