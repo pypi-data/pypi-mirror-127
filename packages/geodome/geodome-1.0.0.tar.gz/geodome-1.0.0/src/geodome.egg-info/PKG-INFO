@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: geodome
+Version: 1.0.0
+Summary: A performant python Geodesic Dome library developed for the University of Sydney capstone unit
+Home-page: https://bitbucket.org/soft3888_m17_01_group4/soft3888_m17_01_group4/src/master/
+Author: Kevin Cai, Manan Choksi, Samuel Chen, Lewis Krishnamurti, Jacob Pratley, James Asher
+License: UNKNOWN
+Project-URL: Bug Tracker, https://soft3888-m17-01-group4.atlassian.net/jira/software/projects/SM0G/boards/1
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Geodesic Dome
+
+Geodome is a python library that enables users to manipulate a 3D geodesic dome.
+The library provides the capability for users to store data in vertices and
+manipulate the overall structure of the dome. There are options to tessellate
+the entire dome, partially tessellate the dome and find neighbouring vertices.
+The library provides various powerful commands to enable these functions through
+a user-facing class wrapper. 
+
+The library prioritises efficiency by compiling through [Numba](https://numba.pydata.org/).
+
+## Installation
+To install our library please use the following command:
+
+```
+$ pip install geodome
+```
+
+## Basic Usage
+An example of how to instantiate a Geodesic Dome class can be found below:
+
+```python
+from geodome import GeodesicDome
+
+gd = GeodesicDome()
+
+# Futher operations here
+```
+
+Documentation for the available class wrapper and its related methods can be
+found [here](https://geodomedocs.netlify.app/).
+
+*This python library was created as a University of Sydney capstone unit under
+the direction of the School of Computer Science*
+
