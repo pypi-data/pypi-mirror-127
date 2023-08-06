@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+audiodl/__init__.py
+audiodl/audio_read.py
+audiodl.egg-info/PKG-INFO
+audiodl.egg-info/SOURCES.txt
+audiodl.egg-info/dependency_links.txt
+audiodl.egg-info/requires.txt
+audiodl.egg-info/top_level.txt
+audiodl.egg-info/zip-safe

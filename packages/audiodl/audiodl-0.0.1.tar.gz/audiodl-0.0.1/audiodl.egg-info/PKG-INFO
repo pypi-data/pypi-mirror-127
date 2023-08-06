@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: audiodl
+Version: 0.0.1
+Summary: Audio Deep learning
+Home-page: https://github.com/komal11lamba
+Author: komal11lamba
+Author-email: komal11lamba@gmail.com
+License: UNKNOWN
+Description: # Audiodl
+        
+        ## Installation
+        
+        To install the package from the PyPi repository you can execute the following
+        command:
+        ```sh
+        pip install audiodl
+        ```
+        ---
+Keywords: audiodl,Audio Deep learning,Audio
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
