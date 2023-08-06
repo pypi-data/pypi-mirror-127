@@ -1,0 +1,14 @@
+brue/__init__.py,sha256=uN1mpVrgIWWSGvDpGu_sxt-mG7K3KDXn0MWl4bspkII,83
+brue/__main__.py,sha256=COCX6tlms7nwgwZnFmefY917itumQEAgzKSDxXKmR40,4470
+brue/_core.py,sha256=L2h-nJWtX4KLUwSj4PFs644tS7UKrXhwYvWOPU6I3QU,451
+brue/_utils.py,sha256=Dx0Ab34gfdaw-ZPnOLAWUr6CMawP5puaoWg39V8SC34,2371
+brue/decorators.py,sha256=En_19XkkYybr5UzzYaTjyZxdIdtmzT_Ou6Fn6I4GgDI,118
+brue/directives.py,sha256=Q7DvGQDir9Z9Xu8r-Af7nzy73I8QKk7viRvFema8gsA,122
+brue/assets/script.js,sha256=0rRdTde4t8vUa4aTaQQaNOeXSyDFWYTpskU86avNVAU,9267
+brue/assets/template.zip,sha256=7flVZtitCWjSnnBxtMwzNkKjdjVySMQNb2CBYstZ6Q4,100453
+brue-2021.11.15.dist-info/LICENSE,sha256=c5K162bTZwhETHhTzc4oH6qhJf7HtMl87jnvmNVUy60,1073
+brue-2021.11.15.dist-info/METADATA,sha256=8S-t4jAR_to5huZf8Kdaak_e6my3-zOtOi7G4VwdbrU,2639
+brue-2021.11.15.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+brue-2021.11.15.dist-info/entry_points.txt,sha256=ee6btJNI61UN_nV_1jAF61aMTVgtXKlmq8ueypnOK00,52
+brue-2021.11.15.dist-info/top_level.txt,sha256=t25uGE2q6uxfOFRoWmeeqTA2zdc73m9zxv2F05UOevI,17
+brue-2021.11.15.dist-info/RECORD,,
