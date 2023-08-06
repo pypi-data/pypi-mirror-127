@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: lawyertools
+Version: 0.0.1
+Summary: A set of tools for lawyers
+Home-page: https://gitlab.com/lawengineeringsystems/lawyertools
+Author: Biagio Distefano
+Author-email: b.distefano@lawengineeringsystems.com
+License: LICENSE
+Platform: any
+License-File: LICENSE
+Requires-Dist: virtualenv (>=1.11.6)
+Requires-Dist: pep8 (>=1.5.7)
+Requires-Dist: pyflakes (>=0.8.1)
+Requires-Dist: fastapi (==0.70.0)
+Requires-Dist: uvicorn (==0.15.0)
+
+lawyertools
+===========
+
+no description available
+
+
