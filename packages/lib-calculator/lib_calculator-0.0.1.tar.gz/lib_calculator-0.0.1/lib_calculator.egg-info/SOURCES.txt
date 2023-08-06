@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+lib_calculator/__init__.py
+lib_calculator.egg-info/PKG-INFO
+lib_calculator.egg-info/SOURCES.txt
+lib_calculator.egg-info/dependency_links.txt
+lib_calculator.egg-info/top_level.txt
