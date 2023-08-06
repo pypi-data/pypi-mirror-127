@@ -1,0 +1,2 @@
+include cypcap.c
+include *.pyx *.pxd *.pxi
