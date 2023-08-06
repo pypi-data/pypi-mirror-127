@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: astrochem-ml
+Version: 0.1.0
+Summary: Cheminformatics tools for astrochemistry
+License: MIT
+Author: Kelvin Lee
+Author-email: kin.long.kelvin.lee@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: anytree (>=2.8.0,<3.0.0)
+Requires-Dist: periodictable (>=1.6.0,<2.0.0)
+Requires-Dist: rdkit-pypi (>=2021.9.2,<2022.0.0)
+Requires-Dist: scikit-learn (>=1.0.1,<2.0.0)
+Requires-Dist: selfies (>=2.0.0,<3.0.0)
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
