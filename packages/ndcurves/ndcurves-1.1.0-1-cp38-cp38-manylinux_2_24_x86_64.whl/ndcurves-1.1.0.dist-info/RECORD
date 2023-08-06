@@ -1,0 +1,15 @@
+ndcurves/__init__.py,sha256=-DkZtxT1_fJyXeL3lpXit41kn4ouBY1IiqTFyFHo02o,106
+ndcurves/ndcurves.so,sha256=8xFvipnUu4IILK66u2ugmxkuev0OI1UiPf_d23xgDeQ,11330152
+ndcurves/optimization.py,sha256=x7_im_KslfO6tSAFcCpL-J8Rn4kqBAiutPoalKz0k38,119
+ndcurves/plot.py,sha256=nDkDryqhN27f38Ycld1bar5gnFVDrrMu2Y8-piem2Rk,2477
+openrobots.libs/libassimp.so.3,sha256=8vJ5ylf4xa_u5hzVJq2aTeIY8VsAM-SRNMwJPRatY6k,7572440
+openrobots.libs/libboost_chrono.so.1.76.0,sha256=7xBTAr8TkgTRiybxSdi4jA9yaI_uS_A1j0G98FZKWaI,55368
+openrobots.libs/libboost_serialization.so.1.76.0,sha256=Go5yjdzuypieN7vc1Ln9BQuKj6s9Wu_jM79E1I5ftf0,513632
+openrobots.libs/libboost_system.so.1.76.0,sha256=CfgQtETkwqInjHsuPeZIi8uZZHPLcAsj6F9oiMKZ2OY,9408
+openrobots.libs/libhpp-fcl.so,sha256=DH7jDP1G8VaI48R6Vbz4hT3jUzJDkzhIFgM2C2QdY1c,2942304
+openrobots.libs/liboctomap.so.1.9,sha256=e-83Bc5S56FLjFCzyvM2TagfxtjE7xiz8xWhssWwWPY,481776
+openrobots.libs/liboctomath.so.1.9,sha256=DKwz6fZy0gfHpeE2_hEt31-Y0lBrw1z6xqrtOWtcjNc,34040
+ndcurves-1.1.0.dist-info/METADATA,sha256=7UFiQxtDCrokiOOSzcYRB97QcB2e5psbxSYTMsYW8Ss,3835
+ndcurves-1.1.0.dist-info/WHEEL,sha256=sqeXdlc-TgdZRp7Bu8FSSoCJzCbDELXFT3XIx4-Zw1g,236
+ndcurves-1.1.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ndcurves-1.1.0.dist-info/RECORD,,
