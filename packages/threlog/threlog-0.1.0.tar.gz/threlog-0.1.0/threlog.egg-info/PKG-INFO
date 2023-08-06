@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: threlog
+Version: 0.1.0
+Summary: Simple multithreading logger
+Home-page: https://github.com/RostovtsevDanila/threlog
+Author: Danila Rostovtsev
+Author-email: rostovtsev.danila@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
