@@ -1,0 +1,7 @@
+README.md
+setup.py
+isscratchup.egg-info/PKG-INFO
+isscratchup.egg-info/SOURCES.txt
+isscratchup.egg-info/dependency_links.txt
+isscratchup.egg-info/requires.txt
+isscratchup.egg-info/top_level.txt
