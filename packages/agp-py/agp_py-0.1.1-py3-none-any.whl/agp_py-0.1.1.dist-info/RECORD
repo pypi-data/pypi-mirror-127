@@ -1,0 +1,12 @@
+agp_py/__init__.py,sha256=yiJug4KQfcsEuT5itcFC73ZATiSH3QiQrOin0yVeFnw,28
+agp_py/main.py,sha256=7bEdmLZl_C-HDLf12tDv2p2Wf67krWFZUr4vOoRMkgw,7543
+agp_py/assets/__init__.py,sha256=fvCa2KHpaOBVTAAHgDiq_IAaDclB8pbyypCF88zvmXI,54
+agp_py/assets/parts.py,sha256=qf_XrWHZzwecnCkw02MCDWipRYZhAZ7oP_tC7JFpL4Q,45879
+agp_py/assets/traits.py,sha256=vBpm7XsqlxaqHDWF432Z7lomp2pDznfOj0k48YRgKj4,18915
+agp_py/models/__init__.py,sha256=fTp7cfETXxmOqfiyBD2lTavrVxlVC0H3nYbifis0Dqw,25
+agp_py/models/mappings.py,sha256=RTV7TKnkaiMu-GIF3uJwnYUSNamaTiBlK6mWJsRWqT8,4073
+agp_py-0.1.1.dist-info/LICENSE,sha256=MUBXmhqMzbVCKe_Yuk2vNsMxobQeIA-hi6b33wqb-Ck,1090
+agp_py-0.1.1.dist-info/METADATA,sha256=srgQw456dhKBtXdk72ockSmGX_cOxXXnUn8UgekQwyg,2306
+agp_py-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+agp_py-0.1.1.dist-info/top_level.txt,sha256=Wns8wiNLUdBg8IGNoXFo6GSrUMpfyJXUcfk08yV8cuw,7
+agp_py-0.1.1.dist-info/RECORD,,
