@@ -1,0 +1,142 @@
+[![License](https://img.shields.io/badge/License-BSD%202--Clause-blue.svg)](LICENSE)
+
+# Table of contents
+[TOC]
+
+# What is PyAnatomogram?
+PyAnatomogram is a python package to annotate and highlight organs and tissues in figures.
+
+![human](https://bytebucket.org/manuela_s/pyanatomogram/raw/9ec3777972a01848f3fdece26dcef26b0d3c2486/examples/human_condition1_vs_condition2.svg)
+
+PyAnatomogram parses anatomy svg images from the EBI Gene Expression Group's 
+[anatomogram repository](https://github.com/ebi-gene-expression-group/anatomogram) and provides
+a python interface for programmatically annotating the individual organs with colors or other style attributes.
+See ebi-gene-expression-group anatomogram repository for a
+[for a full list](https://github.com/ebi-gene-expression-group/anatomogram/tree/master/src/svg)
+of animal and plant organisms that are supported.
+
+This package was inspired by the [gganatogram](https://github.com/jespermaag/gganatogram) R-package by
+Jesper Maag, and was written to provide similar functionality in python and to provide full resolution figures.
+
+# Example use - Gallus Gallus (chicken)
+
+## Highlight individual organs
+Let's color-code the heart and lung in a chicken image according to some measurement of interest.
+
+```python
+import pyanatomogram
+anatomogram = pyanatomogram.Anatomogram('gallus_gallus')
+anatomogram.set_tissue_style('heart', fill='red')
+anatomogram.set_tissue_style('lung', fill='blue')
+anatomogram.to_matplotlib()
+```
+
+![Gallus Gallus with heart and lung highlighted](https://bytebucket.org/manuela_s/pyanatomogram/raw/9ec3777972a01848f3fdece26dcef26b0d3c2486/examples/highlight_individual_organs.svg)
+
+A full list of organs that can be highlighted in the gallus gallus svg image can be obtained by:
+
+```python
+import pyanatomogram
+anatomogram = pyanatomogram.Anatomogram('gallus_gallus')
+anatomogram.get_tissue_names()
+```
+
+![Gallus Gallus with all tissues highlighted](https://bytebucket.org/manuela_s/pyanatomogram/raw/9ec3777972a01848f3fdece26dcef26b0d3c2486/examples/all_tissues_highlighted_gallus_gallus.svg)
+
+## Highlight multiple organs with measurement using a matplotlib colormap
+Multiple organs can be highlighted by passing a dictionary or a pandas Series to `hightlight_tissues`. Values will be
+mapped to colors using a matplotlib colormap.
+
+```python
+import pyanatomogram
+anatomogram = pyanatomogram.Anatomogram('gallus_gallus')
+anatomogram.highlight_tissues({'heart': 0, 'lung': 2, 'brain': 3, 'colon': 1, 'liver': 4}, cmap='Reds')
+anatomogram.to_matplotlib()
+```
+
+![Highlight multiple organs](https://bytebucket.org/manuela_s/pyanatomogram/raw/9ec3777972a01848f3fdece26dcef26b0d3c2486/examples/highlight_multiple_organs.svg)
+
+## Style organs with CSS
+Custom CSS style attributes can be used to tailor the visualization.
+
+```python
+import pyanatomogram
+anatomogram = pyanatomogram.Anatomogram('gallus_gallus')
+anatomogram.set_tissue_style('heart', **{'fill': 'red', 'stroke': 'black', 'stroke-width': 1, 'fill-opacity': 0.8})
+anatomogram.set_tissue_style('lung', **{'fill': 'cornflowerblue', 'stroke': 'darkblue', 'stroke-width': 1,
+                                        'fill-opacity': 0.5})
+anatomogram.to_matplotlib()
+```
+
+![Style organs with CSS](https://bytebucket.org/manuela_s/pyanatomogram/raw/9ec3777972a01848f3fdece26dcef26b0d3c2486/examples/style_organs_with_css.svg)
+
+## Import into matplotlib axes
+The anatomogram can be imported into a matplotlib figure with the `to_matplotlib()` method, and combined with
+other figure elements in matplotlib.
+
+```python
+import matplotlib.pyplot
+import pandas
+import pyanatomogram
+
+data = pandas.Series({'heart': 0, 'lung': 2, 'brain': 3, 'colon': 1, 'liver': 4})
+
+fig, axes = matplotlib.pyplot.subplots(nrows=1, ncols=2)
+
+data.plot(kind='barh', ax=axes[0])
+axes[0].set_xlabel('Relative expression')
+axes[0].set_ylabel('Organ')
+
+cmap = matplotlib.cm.Reds
+norm = matplotlib.colors.Normalize()
+norm.autoscale(data)
+anatomogram = pyanatomogram.Anatomogram('gallus_gallus')
+anatomogram.highlight_tissues(data.to_dict(), cmap=cmap, norm=norm)
+anatomogram.to_matplotlib(ax=axes[1])
+
+matplotlib.pyplot.colorbar(matplotlib.cm.ScalarMappable(norm=norm, cmap=cmap), ax=axes[1],
+                           orientation='horizontal', label='Relative expression')
+```
+
+![Import into matplotlib axes](https://bytebucket.org/manuela_s/pyanatomogram/raw/9ec3777972a01848f3fdece26dcef26b0d3c2486/examples/import_into_matplotlib_axes.svg)
+
+## helper for use in seaborn facetgrid
+
+PyAnatomogram comes with a helper function `facetgrid_helper()` to be used together with the seaborn `FacetGrid`
+class to generate multiple anatomogram subplots faceted by grouping variable(s).
+
+```python
+import pandas
+import pyanatomogram
+import seaborn
+import matplotlib
+
+data = pandas.DataFrame({
+    'Condition1': {'heart': 0, 'lung': 2, 'brain': 3, 'colon': 1, 'liver': 4},
+    'Condition2': {'heart': 3, 'lung': 4, 'brain': 2, 'colon': 2, 'liver': 3},
+    'Condition3': {'heart': 7, 'lung': 9, 'brain': 1, 'colon': 7, 'liver': 2},
+}).stack().rename_axis(['organ', 'condition']).to_frame('expression')
+
+g = seaborn.FacetGrid(data.reset_index(), col='condition')
+cmap = matplotlib.cm.Reds
+norm = matplotlib.colors.Normalize()
+norm.autoscale(data)
+g.map(pyanatomogram.facetgrid_helper, 'organ', 'expression', name='gallus_gallus', cmap=cmap, norm=norm)
+g.fig.colorbar(matplotlib.cm.ScalarMappable(norm=norm, cmap=cmap), label='Relative expression')
+```
+
+![Seaborn FacetGrid helper](https://bytebucket.org/manuela_s/pyanatomogram/raw/9ec3777972a01848f3fdece26dcef26b0d3c2486/examples/seaborn_facetgrid_helper.svg)
+
+## Generate SVG file
+
+Alternatively to importing the anatomogram into a matplotlib figure, the anatomogram can be saved directly to svg
+with the `save_svg()` method.
+
+```python
+import pyanatomogram
+anatomogram = pyanatomogram.Anatomogram('gallus_gallus')
+anatomogram.set_tissue_style('heart', fill='red')
+anatomogram.set_tissue_style('lung', fill='blue')
+anatomogram.save_svg('anatomogram.svg')
+```
+ 
