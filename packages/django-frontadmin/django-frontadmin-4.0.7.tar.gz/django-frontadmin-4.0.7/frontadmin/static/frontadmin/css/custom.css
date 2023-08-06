@@ -1,0 +1,12 @@
+body {font-family: 'Ubuntu', sans-serif; font-size: 15px;}
+.card-title{font-weight: bold;}
+form input{height: fit-content; border: 1px solid black;}
+.form-row{margin-left: 0px; margin-right: 0px;}
+.help ul li{color: rgb(148, 16, 16);}
+.errorlist, .help{color: rgb(148, 16, 16); font-size: 11px; margin-bottom: 10px; padding-left: 0px !important; list-style-type: none;}
+.errornote{color: rgb(148, 16, 16);}
+.dropdown-menu-lg {max-width: 500px !important; min-width: 400px !important;}
+.fa-plus-square{color: blue;}
+.fa-edit{color: darkgoldenrod;}
+.fa-trash{color: darkred;}
+.sidebar-mini .form-control{margin-bottom: 5px;}

@@ -1,0 +1,9 @@
+{% load static %}
+{% if default %}
+<a href="/" class="brand-link">
+    <img src="{% static 'frontadmin/img/logo.png' %}" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+    <span class="brand-text font-weight-light">{{ site_name }}</span>
+</a>
+{% else %}
+<a href="/" class="h1">{{ site_name }}</a>
+{% endif %}

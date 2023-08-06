@@ -1,0 +1,7 @@
+include LICENSE
+include README.rst
+recursive-include frontadmin *.py
+recursive-include frontadmin/migrations *
+recursive-include frontadmin/static *
+recursive-include frontadmin/templates *
+recursive-include frontadmin/templatetags *

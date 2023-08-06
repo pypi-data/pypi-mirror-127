@@ -1,0 +1,76 @@
+{% extends "base_extra.html" %}
+{% block title %}Login{% endblock %}
+{% load content_widgets %}
+
+{% block content %}
+<div class="card card-outline card-primary">
+    <div class="card-header text-center">
+        {% logo False %}
+    </div>
+    <div class="card-body">
+        {% if form.errors and not form.non_field_errors %}
+        <p class="login-box-msg errornote">
+        {% if form.errors.items|length == 1 %}Please correct the error below{% else %}Please correct the errors below.{% endif %}
+        </p>
+        {% endif %}
+        {% if form.non_field_errors %}
+
+        {% for error in form.non_field_errors %}
+        <p class="login-box-msg errornote">
+            {{ error }}
+        </p>
+        {% endfor %}
+        {% endif %}
+
+        {% if user.is_authenticated %}
+        <p class="login-box-msg errornote">
+        You are authenticated as {{ user.username }}, but are not authorized to
+        access this page. Would you like to login to a different account?
+        </p>
+        {% endif %}
+        <form action="{% url 'login' %}" method="post">{% csrf_token %}
+            <input type="hidden" name="next" value="{{ next }}">
+            <div class="input-group">
+                <input name="username" type="text" class="form-control {% if form.username.errors %}is-invalid{% endif %}" placeholder="Username">
+                <div class="input-group-append">
+                    <div class="input-group-text">
+                        <span class="fas fa-envelope"></span>
+                    </div>
+                </div>
+            </div>
+            {{ form.username.errors }}
+            <div class="input-group mt-2">
+                <input name="password" type="password" class="form-control {% if form.password.errors %}is-invalid{% endif %}" placeholder="Password">
+                <div class="input-group-append">
+                    <div class="input-group-text">
+                        <span class="fas fa-lock"></span>
+                    </div>
+                </div>
+            </div>
+            {{ form.password.errors }}
+            <div class="row mt-2">
+                <div class="col-8">
+                    <div class="icheck-primary">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember Me</label>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                </div>
+            </div>
+        </form>
+        <div class="social-auth-links text-center mt-2 mb-3">
+            <a href="#" class="btn btn-block btn-primary">
+                <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
+            </a>
+            <a href="#" class="btn btn-block btn-danger">
+                <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
+            </a>
+        </div>
+        <p class="mb-1">
+            <a href="{% url 'password_reset' %}">Forgotten your password or username?</a>
+        </p>
+    </div>
+</div>
+{% endblock %}

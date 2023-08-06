@@ -1,0 +1,28 @@
+{% load humanize %}
+<ul class="navbar-nav ml-auto">
+    <li class="nav-item dropdown">
+        <a class="nav-link" data-bs-toggle="dropdown" href="#">
+            <i class="far fa-bell"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
+            <span class="dropdown-header">Recent actions(Top 10 Only)</span>
+            {% for row in log_entries %}
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item" style="font-size: 14px;">
+                <i class="mr-2 fas {% if row.action_flag == 1 %}fa-plus-square{% elif row.action_flag == 2 %}fa-edit{% else %}fa-trash{% endif %}"></i> {{ row.object_repr }} by {{ row.user }}
+                <span class="float-right text-muted text-sm">{{ row.action_time|naturaltime }}</span>
+            </a>
+            {% empty %}
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+                <i class="fas fa-envelope mr-2"></i> No content created yet
+            </a>
+            {% endfor %}
+        </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+            <i class="fas fa-th-large"></i>
+        </a>
+    </li>
+</ul>
