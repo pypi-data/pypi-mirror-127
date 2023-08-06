@@ -1,0 +1,3 @@
+[console_scripts]
+gashokoru_web = gashokoru_web.app:main
+
