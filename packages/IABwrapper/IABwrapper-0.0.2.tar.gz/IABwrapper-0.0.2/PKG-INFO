@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: IABwrapper
+Version: 0.0.2
+Summary: Wrapper around anjlab's Android In-app Billing Version 3 to be used in Kivy apps
+Home-page: https://github.com/shashi278/android-iab-v3-kivy
+Author: Shashi Ranjan
+Author-email: shashiranjankv@gmail.com
+License: UNKNOWN
+Keywords: iab playstore billing android kivy-application kivy python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Android
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# IABwrapper
+#### Wrapper around anjlab's Android In-app Billing Version 3
+
+[![Build Status](https://app.travis-ci.com/shashi278/android-iab-v3-kivy.svg?branch=main)](https://app.travis-ci.com/shashi278/android-iab-v3-kivy) [![Python 3.6](https://img.shields.io/pypi/pyversions/kivymd)](https://www.python.org/downloads/release/python-360/) [![pypi](https://img.shields.io/pypi/v/iabwrapper)](https://pypi.org/project/IABwrapper/) [![format](https://img.shields.io/pypi/format/iabwrapper)](https://pypi.org/project/IABwrapper/) [![downloads](https://img.shields.io/pypi/dm/iabwrapper)](https://pypi.org/project/iabwrapper/) [![code size](https://img.shields.io/github/languages/code-size/shashi278/android-iab-v3-kivy)]() [![repo size](https://img.shields.io/github/repo-size/shashi278/android-iab-v3-kivy)]()
+
