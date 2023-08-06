@@ -1,0 +1,5 @@
+dist
+logs
+media
+openlxp_notifications
+openlxp_notifications_project
