@@ -1,0 +1,10 @@
+httpx_socks/__init__.py,sha256=MEc9TmMdo7S2nBnfb-hOwuR4sh0IqujOi-HJkk7URW4,448
+httpx_socks/_async_proxy.py,sha256=-mJ2IMLoY6N0rLHgUFVdHuEeDZ2GhMSoYbIxA-Qw6b4,9155
+httpx_socks/_async_transport.py,sha256=8m7d_W4POA07FOL3iPX-f73QyP0nmrMFPKgsrOfhdLY,3314
+httpx_socks/_sync_proxy.py,sha256=0P1cbDrJ2QePxtkFz6ekgrFIQp18X5ztyaWL-QIhZIE,6259
+httpx_socks/_sync_transport.py,sha256=fVPvVbXtgAcjw6ZgsC_IW3xAuAnETb2DGnep5Tw_lTQ,3178
+httpx_socks-0.6.0.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+httpx_socks-0.6.0.dist-info/METADATA,sha256=m3SvXJSXqIqCLyOK3xxKL0zBcN4puhGK0FJ9kijKJV0,2443
+httpx_socks-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+httpx_socks-0.6.0.dist-info/top_level.txt,sha256=w-NjPGd_PneJsrpI5kELbCCdbD3YlL8mgwP3WkawJ0s,12
+httpx_socks-0.6.0.dist-info/RECORD,,
