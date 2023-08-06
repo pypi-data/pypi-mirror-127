@@ -1,0 +1,15 @@
+csvcubedpmd/README.md,sha256=pF2J2ZsxIkgqXihRhwPR452ur_31vaa17yyGGDUglYk,502
+csvcubedpmd/__init__.py,sha256=plzF1DBB07v5ezvMZqDsnSGVYcVVW8O4BwZA7oVW4fA,111
+csvcubedpmd/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvcubedpmd/config/pmdconfig.py,sha256=hbk9jRuOKkpnrgrax6fsp7QdyGeO1b1EAzc_7CgpVTQ,344
+csvcubedpmd/csvwcli/__init__.py,sha256=jlYWUpf-PIIhZLdhkFfObAnnQxoeKjBdI9XtJa8mgDk,753
+csvcubedpmd/csvwcli/pull.py,sha256=Z90GNw_ce0ZNz_nGHd6HDWvo90uB7D73kTc9ZjeVTpM,4562
+csvcubedpmd/main.py,sha256=57Ar7AtyOIii8I89g8YENFB0_o6NbPc18kqc7xKHNx4,290
+csvcubedpmd/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvcubedpmd/models/csvwithcolumndefinitions.py,sha256=xRI1m-nZZyVaR7Xb5mN1bebxgvgZ-0VVvz9HhucUD50,453
+csvcubedpmd/models/rdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvcubedpmd/models/rdf/pmdcat.py,sha256=9XghDTb87or9DfcO1vTm1TeuqovjKyRSOtBwSe4X8hw,3401
+csvcubed_pmd-0.1.0rc2.dist-info/entry_points.txt,sha256=MsuT6dGdHp81u41diHiBsovLmqRLsbjITmS6gM56rE0,57
+csvcubed_pmd-0.1.0rc2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+csvcubed_pmd-0.1.0rc2.dist-info/METADATA,sha256=_dRl_CXhyKFm68lSokAJmdkAm8usC0qI0_EwiikeNjs,1435
+csvcubed_pmd-0.1.0rc2.dist-info/RECORD,,
