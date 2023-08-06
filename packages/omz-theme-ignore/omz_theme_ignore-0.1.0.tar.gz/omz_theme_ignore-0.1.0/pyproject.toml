@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "omz_theme_ignore"
+version = "0.1.0"
+description = "Easy add current random theme to ZSH_THEME_RANDOM_IGNORED section in .zshrc file."
+authors = ["PaterIT <paterit@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/paterit/omz_ignore_theme"
+repository = "https://github.com/paterit/omz_ignore_theme"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: System :: Shells",
+]
+
+[tool.poetry.scripts]
+omz_theme_ignore = "omz_theme_ignore.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^21.10b0"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
