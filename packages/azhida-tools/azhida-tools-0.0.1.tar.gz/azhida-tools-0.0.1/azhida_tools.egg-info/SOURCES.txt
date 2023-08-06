@@ -1,0 +1,6 @@
+README.md
+setup.py
+azhida_tools.egg-info/PKG-INFO
+azhida_tools.egg-info/SOURCES.txt
+azhida_tools.egg-info/dependency_links.txt
+azhida_tools.egg-info/top_level.txt
