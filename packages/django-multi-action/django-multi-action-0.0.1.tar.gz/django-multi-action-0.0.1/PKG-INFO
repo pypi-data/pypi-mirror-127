@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: django-multi-action
+Version: 0.0.1
+Summary: Django multi-action endpoint
+Home-page: https://github.com/sirrobot01/django-multiaction
+Author: Mukhtar Akere
+Author-email: akeremukhtar10@gmail.com
+License: BSD-3-Clause
+Project-URL: Source, https://github.com/sirrobot01/django-multiaction
+Description: ## Django Multi-action View
+        
+        ### Overview
+        
+        This tool can be used to route multiple actions to one endpoint in a Django project
+        
+        ### Installation
+        
+        Install using pip
+        
+        ```bash
+        pip install django-multi-action
+        ``` 
+        
+        ### Usage
+        
+        - Create an action by inheriting `BaseAction`
+        
+        ```python
+        from multiaction import  BaseAction
+        from django.contrib.auth.models import User
+        from django.http import JsonResponse
+        
+        
+        class UserAction(BaseAction):
+        
+            def create_user(self, request, *args, **kwargs):
+                username = request.GET.get('username')
+                user = User.objects.create(username=username)
+                
+                return JsonResponse(data={"id": user.id, "username": user.username}, status=201)
+        ```
+        
+        
+        - Create a connector that inherit `BaseConnector`
+        
+        ```python
+        from multiaction import  BaseConnector
+        
+        
+        class MyView(BaseConnector):
+            actions = {'user': UserAction}
+        ```
+        
+        ```python
+        # urls.py
+        
+        urlpatterns = [
+              path('/actions', MyView.as_view())
+        ]
+        ```
+        
+        - Sample curl request
+        
+        
+        ```bash
+        curl --location --request GET 'http://127.0.0.1:8000/actions?action_id=user&target=create_user&username=sirrobot01' \
+        ```
+        
+        - When making a request to **MyView**, the following are **required**
+        
+        1. **action_id** : This is the action to be implemented
+        2. **target** : This is the target/method to be implemented
+        
+        
+        #### Note: 
+        - Each target/method on the action class has two positional arguments, **self** and **request**
+        - When making a GET request, your parameters will be accessible from request.GET, meanwhile, 
+        it will be accessible from request.POST when making a POST request
+        - If you want to use django rest framework and it's browsable API, you will need to add APIView to your action class
+        
+        ```python
+        from multiaction import  BaseAction
+        from django.contrib.auth.models import User
+        from rest_framework.response import Response
+        from rest_framework.views import APIView
+        
+        
+        class UserAction(BaseAction, APIView):
+        
+            def create_user(self, request, *args, **kwargs):
+                username = request.GET.get('username')
+                user = User.objects.create(username=username)
+                
+                return Response(data={"id": user.id, "username": user.username}, status=201)
+        ```
+        
+        
+        You can check [Reference](/reference.md) for more usage
+        
+        
+        ### Contribute
+        
+        Well, no big drama, fork the repo and make pull requests.
+        
+        
+        ### Follow me (I am not boring, I promise)
+        * [Twitter](https://twitter.com/sirrobot01)
+        * [Github](https://github.com/sirrobot01)
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
