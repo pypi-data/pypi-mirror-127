@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mag-manip
+Version: 3.0.0
+Summary: mag_manip is a toolbox for modeling electromagnetic navigation systems
+Home-page: UNKNOWN
+Author: Samuel Charreyron
+Author-email: samuelch@ethz.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Framework :: Robot Framework :: Library
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=2.7, <4
+
+
+    mag_manip is a toolbox for remote magnetic navigation applications. Mag_manip models the behavior of
+    electromagnetic navigation systems (eMNS), particularly the relationship between the electrical currents running
+    through electromagnets and the resulting magnetic field that is generated in the workspace. The toolbox is
+    implemented in C++11, with extensions to Python.
+    
+
