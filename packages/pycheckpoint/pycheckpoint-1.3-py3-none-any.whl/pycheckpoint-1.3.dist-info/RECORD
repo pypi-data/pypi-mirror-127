@@ -1,0 +1,13 @@
+checkpoint/__init__.py,sha256=PWJctUb-6B89kzdhSRk8gsFDoGvRoIOPuEs8izhFwdg,20
+checkpoint/__main__.py,sha256=HySZPiXtSN-T1pNgSXqpHJYXgCKrAmZhXig26_dlbj4,1849
+checkpoint/crypt.py,sha256=x9YgfHwYihdpaNLdL4gY7_4-EuFUh7AALU-Ava5PuAw,2750
+checkpoint/io.py,sha256=0iqz374tffklSa3OwHcQvRBEtdvRl8-lrLiZJY5-Kw4,7080
+checkpoint/readers.py,sha256=uREtGEYECH9W0TRpQFhp0oXvBA5bmchEvASu7MJ4sI0,6252
+checkpoint/sequences.py,sha256=6UwJ-PSzRsRibwAwhQOGVUIji2GJ3IKQ3WxWQ6WIzaA,22966
+checkpoint/utils.py,sha256=eCSor3hLA82u5GO8K4porkZ019GklBqVYJ_SIUO-5Bs,4147
+pycheckpoint-1.3.dist-info/LICENSE.txt,sha256=7faDjS5atNapPIr3MYcTEnNWq88tpiE8P9pppMXz_jA,1071
+pycheckpoint-1.3.dist-info/METADATA,sha256=bRGPVHFG6a3jErXVPP2lHf-CNNOxRGoT2u7UjoqW4CU,5050
+pycheckpoint-1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pycheckpoint-1.3.dist-info/entry_points.txt,sha256=ryPkaE1BgbCW72-uFvxWOgN2pera-PF75kVTZdnUBTU,56
+pycheckpoint-1.3.dist-info/top_level.txt,sha256=dMJNrm3l3vIgs7nDFUDbsxk0ueW229N0J-4fIavn5-Y,11
+pycheckpoint-1.3.dist-info/RECORD,,
