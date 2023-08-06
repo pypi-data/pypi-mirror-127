@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+dbs_mansour/Binomialdistribution.py
+dbs_mansour/Gaussiandistribution.py
+dbs_mansour/Generaldistribution.py
+dbs_mansour/__init__.py
+dbs_mansour.egg-info/PKG-INFO
+dbs_mansour.egg-info/SOURCES.txt
+dbs_mansour.egg-info/dependency_links.txt
+dbs_mansour.egg-info/not-zip-safe
+dbs_mansour.egg-info/top_level.txt
